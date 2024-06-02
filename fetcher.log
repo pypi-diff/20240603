@@ -1349,3 +1349,27 @@
 [2024-06-03 01:53:37] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.5.tar.gz]
 [2024-06-03 01:53:37] INFO root fetch - main [MainThread]: End processing [jcvi]: success
 [2024-06-03 01:53:37] INFO root fetch - main [MainThread]: Store serial: [23494636]
+[2024-06-03 01:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494636]
+[2024-06-03 01:55:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastlmmclib
+[2024-06-03 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mini-scikit-learn
+[2024-06-03 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schwab-dev
+[2024-06-03 01:55:47] WARNING root fetch - processPackages [schwab-dev]: Skipping, unable to determine old version
+[2024-06-03 01:55:47] INFO root fetch - main [MainThread]: End processing [schwab-dev] error
+[2024-06-03 01:55:47] INFO root fetch - processPackages [fastlmmclib]: New version: [0.0.5b1] Old Version: [0.0.3]
+[2024-06-03 01:55:47] INFO root fetch - processPackages [mini-scikit-learn]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 01:55:47] INFO root fetch - processPackages [fastlmmclib]: Downloading https://files.pythonhosted.org/packages/cc/70/493e82f0fbeaf2eb5235330cfc96f381a9f878a85079e59ec6876b698b16/fastlmmclib-0.0.3-cp39-cp39-win_amd64.whl
+[2024-06-03 01:55:47] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/b7/b4/300f3140e720d0ac9d048c5d11196628f54df9f3a338fe93fc5a910378e6/mini_scikit_learn-0.1.4.tar.gz
+[2024-06-03 01:55:47] INFO root fetch - processPackages [fastlmmclib]: Downloading https://files.pythonhosted.org/packages/c9/6f/267e89cf4ca24de857a5d8e12bbef596a4d09bdd91b53786bd1e002d504b/fastlmmclib-0.0.5b1-cp39-cp39-win_amd64.whl
+[2024-06-03 01:55:47] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/72/78/d151332ab3c6de3fd12d5c8dd423e19b67c5a550e265f24b73a2e915f444/mini_scikit_learn-0.1.5.tar.gz
+[2024-06-03 01:55:47] INFO root fetch - processPackages [fastlmmclib]: executing diffoscope
+[2024-06-03 01:55:47] INFO root fetch - processPackages [fastlmmclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlmmclib-0.0.3-cp39-cp39-win_amd64.whl.zip tmp/fastlmmclib-0.0.5b1-cp39-cp39-win_amd64.whl.zip --markdown 20240603/f/fastlmmclib/0.0.3-0.0.5b1/README.md --exclude *.pyd
+[2024-06-03 01:55:47] INFO root fetch - processPackages [mini-scikit-learn]: executing diffoscope
+[2024-06-03 01:55:47] INFO root fetch - processPackages [mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_scikit_learn-0.1.4.tar.gz tmp/mini_scikit_learn-0.1.5.tar.gz --markdown 20240603/m/mini-scikit-learn/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 01:55:48] INFO root fetch - processPackages [fastlmmclib]: Remove: archive file [/home/abi/fetcher/tmp/fastlmmclib-0.0.3-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 01:55:48] INFO root fetch - processPackages [fastlmmclib]: Remove: archive file [/home/abi/fetcher/tmp/fastlmmclib-0.0.5b1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 01:55:48] INFO root fetch - main [MainThread]: End processing [fastlmmclib]: success
+[2024-06-03 01:55:48] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.4.tar.gz]
+[2024-06-03 01:55:48] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.5.tar.gz]
+[2024-06-03 01:55:48] INFO root fetch - main [MainThread]: End processing [mini-scikit-learn]: success
+[2024-06-03 01:55:48] INFO root fetch - main [MainThread]: Store serial: [23494668]
