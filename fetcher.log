@@ -556,3 +556,60 @@
 [2024-06-03 00:46:22] WARNING root fetch - processPackages [salable]: Skipping, unable to determine old version
 [2024-06-03 00:46:22] INFO root fetch - main [MainThread]: End processing [salable] error
 [2024-06-03 00:46:22] INFO root fetch - main [MainThread]: Store serial: [23494350]
+[2024-06-03 00:48:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494350]
+[2024-06-03 00:48:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DjangoSharepointStorage
+[2024-06-03 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-plugin-manager
+[2024-06-03 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hikari-arc
+[2024-06-03 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cycle-plotter
+[2024-06-03 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainlite
+[2024-06-03 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib-version-remla24-team02
+[2024-06-03 00:48:31] INFO root fetch - processPackages [DjangoSharepointStorage]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 00:48:31] INFO root fetch - processPackages [chainlite]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 00:48:31] INFO root fetch - processPackages [chainlite]: Downloading https://files.pythonhosted.org/packages/d1/17/d225fb3eacbe1f0b484b103cba34c91e807830cc73c44a1f62e1f67293a3/chainlite-0.1.8.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [lib-version-remla24-team02]: New version: [0.0.5] Old Version: [0.0.4.dev1]
+[2024-06-03 00:48:31] INFO root fetch - processPackages [hikari-arc]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-06-03 00:48:31] INFO root fetch - processPackages [cycle-plotter]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2024-06-03 00:48:31] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2024-06-03 00:48:31] INFO root fetch - processPackages [DjangoSharepointStorage]: Downloading https://files.pythonhosted.org/packages/8e/5e/1040b418157d7c9cb4a27e84bb5551f8ec8fa8306e704bc12c532f878fc6/DjangoSharepointStorage-1.0.4.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [chainlite]: Downloading https://files.pythonhosted.org/packages/00/38/75ddd9bf7de664b880ab23d3009566d68ef7c9704db1993bb69840aec0ff/chainlite-0.1.9.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [lib-version-remla24-team02]: Downloading https://files.pythonhosted.org/packages/7a/c1/7854307cfe1e862003c2b1fc1cf1276185095d7e10b657c71a9ef5c9f78e/lib_version_remla24_team02-0.0.4.dev1.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [hikari-arc]: Downloading https://files.pythonhosted.org/packages/16/f9/a40e994402f8bd481e1944f2dcc7a4c51abffd943fea1cb0901582c34a2f/hikari_arc-1.3.3.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [cycle-plotter]: Downloading https://files.pythonhosted.org/packages/c9/a3/c1cfaee0998c0f689eb408ed7da1e9e47aa88cecf2aac5e04ade4fedfbca/cycle_plotter-0.0.1rc1.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/b2/37/1a222e9f15849fb1ebcafce5a7ba00f48fc94ba80438f3c9e243ce6b66c3/ovos_plugin_manager-0.0.8a3-py3-none-any.whl
+[2024-06-03 00:48:31] INFO root fetch - processPackages [chainlite]: executing diffoscope
+[2024-06-03 00:48:31] INFO root fetch - processPackages [chainlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlite-0.1.8.tar.gz tmp/chainlite-0.1.9.tar.gz --markdown 20240603/c/chainlite/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 00:48:31] INFO root fetch - processPackages [DjangoSharepointStorage]: Downloading https://files.pythonhosted.org/packages/02/c4/29a1c26d5e40553b65fb90ca5f8316dcba7895934efd110f5050b3c1633a/DjangoSharepointStorage-1.0.5.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [lib-version-remla24-team02]: Downloading https://files.pythonhosted.org/packages/3e/cf/dc118c709032a285510d830f73b779ac0494ab9adebc7376527acddf8ad9/lib_version_remla24_team02-0.0.5.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [DjangoSharepointStorage]: executing diffoscope
+[2024-06-03 00:48:31] INFO root fetch - processPackages [DjangoSharepointStorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DjangoSharepointStorage-1.0.4.tar.gz tmp/DjangoSharepointStorage-1.0.5.tar.gz --markdown 20240603/D/DjangoSharepointStorage/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 00:48:31] INFO root fetch - processPackages [cycle-plotter]: Downloading https://files.pythonhosted.org/packages/08/fd/f9f862d093e5d4148d6ae47594bb1ee6f0cbb42948e0f9780d027bf0b51e/cycle_plotter-0.0.1rc2.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [hikari-arc]: Downloading https://files.pythonhosted.org/packages/4c/f9/fec2783ab1cfb726eae1ac2288cb60fe65fcb404db39efb506d300f387e6/hikari_arc-1.3.4.tar.gz
+[2024-06-03 00:48:31] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/52/e2/f57129caaddb3c7ec480ea84cd54a36c5f47dec4dff4add3d7d3eea6e6a8/ovos_plugin_manager-0.0.9-py3-none-any.whl
+[2024-06-03 00:48:31] INFO root fetch - processPackages [hikari-arc]: executing diffoscope
+[2024-06-03 00:48:31] INFO root fetch - processPackages [hikari-arc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_arc-1.3.3.tar.gz tmp/hikari_arc-1.3.4.tar.gz --markdown 20240603/h/hikari-arc/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-06-03 00:48:31] INFO root fetch - processPackages [lib-version-remla24-team02]: executing diffoscope
+[2024-06-03 00:48:31] INFO root fetch - processPackages [lib-version-remla24-team02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_remla24_team02-0.0.4.dev1.tar.gz tmp/lib_version_remla24_team02-0.0.5.tar.gz --markdown 20240603/l/lib-version-remla24-team02/0.0.4.dev1-0.0.5/README.md --exclude *.pyd
+[2024-06-03 00:48:32] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2024-06-03 00:48:32] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20240603/o/ovos-plugin-manager/0.0.8a3-0.0.9/README.md --exclude *.pyd
+[2024-06-03 00:48:32] INFO root fetch - processPackages [cycle-plotter]: executing diffoscope
+[2024-06-03 00:48:32] INFO root fetch - processPackages [cycle-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycle_plotter-0.0.1rc1.tar.gz tmp/cycle_plotter-0.0.1rc2.tar.gz --markdown 20240603/c/cycle-plotter/0.0.1rc1-0.0.1rc2/README.md --exclude *.pyd
+[2024-06-03 00:48:32] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.8.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.9.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - main [MainThread]: End processing [chainlite]: success
+[2024-06-03 00:48:32] INFO root fetch - processPackages [DjangoSharepointStorage]: Remove: archive file [/home/abi/fetcher/tmp/DjangoSharepointStorage-1.0.4.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - processPackages [DjangoSharepointStorage]: Remove: archive file [/home/abi/fetcher/tmp/DjangoSharepointStorage-1.0.5.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - main [MainThread]: End processing [DjangoSharepointStorage]: success
+[2024-06-03 00:48:32] INFO root fetch - processPackages [lib-version-remla24-team02]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla24_team02-0.0.4.dev1.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - processPackages [lib-version-remla24-team02]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla24_team02-0.0.5.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - main [MainThread]: End processing [lib-version-remla24-team02]: success
+[2024-06-03 00:48:32] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip]
+[2024-06-03 00:48:32] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip]
+[2024-06-03 00:48:32] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2024-06-03 00:48:32] INFO root fetch - processPackages [cycle-plotter]: Remove: archive file [/home/abi/fetcher/tmp/cycle_plotter-0.0.1rc1.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - processPackages [cycle-plotter]: Remove: archive file [/home/abi/fetcher/tmp/cycle_plotter-0.0.1rc2.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - main [MainThread]: End processing [cycle-plotter]: success
+[2024-06-03 00:48:32] INFO root fetch - processPackages [hikari-arc]: Remove: archive file [/home/abi/fetcher/tmp/hikari_arc-1.3.3.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - processPackages [hikari-arc]: Remove: archive file [/home/abi/fetcher/tmp/hikari_arc-1.3.4.tar.gz]
+[2024-06-03 00:48:32] INFO root fetch - main [MainThread]: End processing [hikari-arc]: success
+[2024-06-03 00:48:32] INFO root fetch - main [MainThread]: Store serial: [23494367]
