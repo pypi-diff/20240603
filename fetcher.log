@@ -253,3 +253,27 @@
 [2024-06-03 00:20:22] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
 [2024-06-03 00:20:22] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
 [2024-06-03 00:20:22] INFO root fetch - main [MainThread]: Store serial: [23494247]
+[2024-06-03 00:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494247]
+[2024-06-03 00:22:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 00:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mini-scikit-learn
+[2024-06-03 00:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deephaven-ui-datetimeinput
+[2024-06-03 00:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-tmmis
+[2024-06-03 00:22:31] INFO root fetch - processPackages [mini-scikit-learn]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 00:22:31] INFO root fetch - processPackages [django-tmmis]: New version: [0.3.7.dev2] Old Version: [0.3.7.dev1]
+[2024-06-03 00:22:31] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/69/04/b8d61e71524f3304ff31d511d22b51d146ca6b885b2d5a596c1cfdfcf654/django_tmmis-0.3.7.dev1.tar.gz
+[2024-06-03 00:22:31] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/40/4a/b35d9ab115c198e99ed9a88e1cdd9e79bb45831d67b5365517a6b57be9c6/mini_scikit_learn-0.1.1.tar.gz
+[2024-06-03 00:22:31] WARNING root fetch - processPackages [deephaven-ui-datetimeinput]: Skipping, unable to determine old version
+[2024-06-03 00:22:31] INFO root fetch - main [MainThread]: End processing [deephaven-ui-datetimeinput] error
+[2024-06-03 00:22:31] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/77/4c/980f90f1b38c2cb7cca8bca8a8bd0c760604cfc55dda231575d18c5573bc/django_tmmis-0.3.7.dev2.tar.gz
+[2024-06-03 00:22:31] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/27/83/4fda4dffda03de5a30bf10c2fdf773389d9a21da8f376efc918adb84ca40/mini_scikit_learn-0.1.2.tar.gz
+[2024-06-03 00:22:31] INFO root fetch - processPackages [django-tmmis]: executing diffoscope
+[2024-06-03 00:22:31] INFO root fetch - processPackages [django-tmmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tmmis-0.3.7.dev1.tar.gz tmp/django_tmmis-0.3.7.dev2.tar.gz --markdown 20240603/d/django-tmmis/0.3.7.dev1-0.3.7.dev2/README.md --exclude *.pyd
+[2024-06-03 00:22:31] INFO root fetch - processPackages [mini-scikit-learn]: executing diffoscope
+[2024-06-03 00:22:31] INFO root fetch - processPackages [mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_scikit_learn-0.1.1.tar.gz tmp/mini_scikit_learn-0.1.2.tar.gz --markdown 20240603/m/mini-scikit-learn/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 00:22:32] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev1.tar.gz]
+[2024-06-03 00:22:32] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev2.tar.gz]
+[2024-06-03 00:22:32] INFO root fetch - main [MainThread]: End processing [django-tmmis]: success
+[2024-06-03 00:22:32] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.1.tar.gz]
+[2024-06-03 00:22:32] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.2.tar.gz]
+[2024-06-03 00:22:32] INFO root fetch - main [MainThread]: End processing [mini-scikit-learn]: success
+[2024-06-03 00:22:32] INFO root fetch - main [MainThread]: Store serial: [23494257]
