@@ -132,3 +132,15 @@
 [2024-06-03 00:09:36] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240602-py3-none-any.whl.zip]
 [2024-06-03 00:09:36] INFO root fetch - main [MainThread]: End processing [compressed-tensors-nightly]: success
 [2024-06-03 00:09:36] INFO root fetch - main [MainThread]: Store serial: [23494168]
+[2024-06-03 00:11:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494168]
+[2024-06-03 00:11:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 00:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-tmmis
+[2024-06-03 00:11:44] INFO root fetch - processPackages [django-tmmis]: New version: [0.3.7.dev1] Old Version: [0.3.7.dev0]
+[2024-06-03 00:11:44] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/b8/a6/b6991cd4511a02bc5743720c00fd6a1f62164338c944134815e148241bdd/django_tmmis-0.3.7.dev0.tar.gz
+[2024-06-03 00:11:45] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/69/04/b8d61e71524f3304ff31d511d22b51d146ca6b885b2d5a596c1cfdfcf654/django_tmmis-0.3.7.dev1.tar.gz
+[2024-06-03 00:11:45] INFO root fetch - processPackages [django-tmmis]: executing diffoscope
+[2024-06-03 00:11:45] INFO root fetch - processPackages [django-tmmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tmmis-0.3.7.dev0.tar.gz tmp/django_tmmis-0.3.7.dev1.tar.gz --markdown 20240603/d/django-tmmis/0.3.7.dev0-0.3.7.dev1/README.md --exclude *.pyd
+[2024-06-03 00:11:45] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev0.tar.gz]
+[2024-06-03 00:11:45] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev1.tar.gz]
+[2024-06-03 00:11:45] INFO root fetch - main [MainThread]: End processing [django-tmmis]: success
+[2024-06-03 00:11:45] INFO root fetch - main [MainThread]: Store serial: [23494171]
