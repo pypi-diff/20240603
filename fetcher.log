@@ -40,3 +40,32 @@
 [2024-06-03 00:03:06] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.2.tar.gz]
 [2024-06-03 00:03:06] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-06-03 00:03:06] INFO root fetch - main [MainThread]: Store serial: [23494132]
+[2024-06-03 00:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494132]
+[2024-06-03 00:05:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secret-utils
+[2024-06-03 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omniblack.utils
+[2024-06-03 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mini-scikit-learn
+[2024-06-03 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlframe
+[2024-06-03 00:05:14] INFO root fetch - processPackages [mini-scikit-learn]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 00:05:14] INFO root fetch - processPackages [sqlframe]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-06-03 00:05:14] INFO root fetch - processPackages [sqlframe]: Downloading https://files.pythonhosted.org/packages/c5/c1/6293c6ab65c579590666703da78dbd56b29ca1b37d6bd6103225b61beee3/sqlframe-1.5.1.tar.gz
+[2024-06-03 00:05:14] INFO root fetch - processPackages [omniblack.utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 00:05:14] WARNING root fetch - processPackages [secret-utils]: Skipping, unable to determine old version
+[2024-06-03 00:05:14] INFO root fetch - main [MainThread]: End processing [secret-utils] error
+[2024-06-03 00:05:14] WARNING root fetch - processPackages [sqlframe]: Skipping package: exceeds size limit 17095728>=10485760
+[2024-06-03 00:05:14] INFO root fetch - main [MainThread]: End processing [sqlframe] error
+[2024-06-03 00:05:14] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/1d/7d/a08eab197b8256f129a4750983c81b3f61c2d2a24a47d70696898a8cb7f3/mini_scikit_learn-0.1.0.tar.gz
+[2024-06-03 00:05:14] INFO root fetch - processPackages [omniblack.utils]: Downloading https://files.pythonhosted.org/packages/d0/00/747fc18eedd4a4a7c5fefaa27f9c5cac77b6c263cd110bc02771d3c0cef7/omniblack.utils-0.0.1.tar.gz
+[2024-06-03 00:05:14] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/40/4a/b35d9ab115c198e99ed9a88e1cdd9e79bb45831d67b5365517a6b57be9c6/mini_scikit_learn-0.1.1.tar.gz
+[2024-06-03 00:05:14] INFO root fetch - processPackages [omniblack.utils]: Downloading https://files.pythonhosted.org/packages/16/b4/c18e69a0d6efa83537e68347f92553418ba4aa70cb9cec5306a0a99d10d8/omniblack.utils-0.0.2.tar.gz
+[2024-06-03 00:05:14] INFO root fetch - processPackages [mini-scikit-learn]: executing diffoscope
+[2024-06-03 00:05:14] INFO root fetch - processPackages [mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_scikit_learn-0.1.0.tar.gz tmp/mini_scikit_learn-0.1.1.tar.gz --markdown 20240603/m/mini-scikit-learn/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 00:05:15] INFO root fetch - processPackages [omniblack.utils]: executing diffoscope
+[2024-06-03 00:05:15] INFO root fetch - processPackages [omniblack.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniblack.utils-0.0.1.tar.gz tmp/omniblack.utils-0.0.2.tar.gz --markdown 20240603/o/omniblack.utils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 00:05:15] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.0.tar.gz]
+[2024-06-03 00:05:15] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.1.tar.gz]
+[2024-06-03 00:05:15] INFO root fetch - main [MainThread]: End processing [mini-scikit-learn]: success
+[2024-06-03 00:05:15] INFO root fetch - processPackages [omniblack.utils]: Remove: archive file [/home/abi/fetcher/tmp/omniblack.utils-0.0.1.tar.gz]
+[2024-06-03 00:05:15] INFO root fetch - processPackages [omniblack.utils]: Remove: archive file [/home/abi/fetcher/tmp/omniblack.utils-0.0.2.tar.gz]
+[2024-06-03 00:05:15] INFO root fetch - main [MainThread]: End processing [omniblack.utils]: success
+[2024-06-03 00:05:15] INFO root fetch - main [MainThread]: Store serial: [23494146]
