@@ -903,3 +903,36 @@
 [2024-06-03 01:12:31] INFO root fetch - processPackages [pyslsqp]: Remove: archive file [/home/abi/fetcher/tmp/pyslsqp-0.1.0b0.tar.gz]
 [2024-06-03 01:12:31] INFO root fetch - main [MainThread]: End processing [pyslsqp]: success
 [2024-06-03 01:12:31] INFO root fetch - main [MainThread]: Store serial: [23494498]
+[2024-06-03 01:14:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494498]
+[2024-06-03 01:14:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 01:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangorestframework-ratelimit
+[2024-06-03 01:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cc-mini-scikit-learn
+[2024-06-03 01:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eolymp
+[2024-06-03 01:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtailvideos
+[2024-06-03 01:14:40] INFO root fetch - processPackages [cc-mini-scikit-learn]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 01:14:40] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 01:14:40] WARNING root fetch - processPackages [djangorestframework-ratelimit]: Skipping, unable to determine old version
+[2024-06-03 01:14:40] INFO root fetch - main [MainThread]: End processing [djangorestframework-ratelimit] error
+[2024-06-03 01:14:40] INFO root fetch - processPackages [wagtailvideos]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-06-03 01:14:40] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-06-03 01:14:40] INFO root fetch - processPackages [cc-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/d7/75/dc4749d1f8c3b7d486441c1cafa4ef02d2dd4d646eb03673197bf061b724/cc_mini_scikit_learn-0.1.0-py3-none-any.whl
+[2024-06-03 01:14:40] INFO root fetch - processPackages [wagtailvideos]: Downloading https://files.pythonhosted.org/packages/e9/b4/7f4aadbaef581fe264b7d2e9604d550d255b78410cb445e81c65bf50110e/wagtailvideos-6.1.0.tar.gz
+[2024-06-03 01:14:40] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-06-03 01:14:40] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-06-03 01:14:40] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240603/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 01:14:40] INFO root fetch - processPackages [cc-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/14/d7/1145d18e35305ca1dd39298a334770cdb53c8191e1561f54a33d69a83259/cc-mini-scikit-learn-0.1.1.tar.gz
+[2024-06-03 01:14:40] INFO root fetch - processPackages [cc-mini-scikit-learn]: executing diffoscope
+[2024-06-03 01:14:40] INFO root fetch - processPackages [cc-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_mini_scikit_learn-0.1.0-py3-none-any.whl.zip tmp/cc-mini-scikit-learn-0.1.1.tar.gz --markdown 20240603/c/cc-mini-scikit-learn/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 01:14:40] INFO root fetch - processPackages [wagtailvideos]: Downloading https://files.pythonhosted.org/packages/10/8c/6bc2f37e4396eda9d11c9d72d97580b25b17142b2a6826cb37b3e618793c/wagtailvideos-6.1.1.tar.gz
+[2024-06-03 01:14:41] INFO root fetch - processPackages [wagtailvideos]: executing diffoscope
+[2024-06-03 01:14:41] INFO root fetch - processPackages [wagtailvideos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailvideos-6.1.0.tar.gz tmp/wagtailvideos-6.1.1.tar.gz --markdown 20240603/w/wagtailvideos/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-06-03 01:14:41] INFO root fetch - processPackages [cc-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cc_mini_scikit_learn-0.1.0-py3-none-any.whl.zip]
+[2024-06-03 01:14:41] INFO root fetch - processPackages [cc-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cc-mini-scikit-learn-0.1.1.tar.gz]
+[2024-06-03 01:14:41] INFO root fetch - main [MainThread]: End processing [cc-mini-scikit-learn]: success
+[2024-06-03 01:14:41] INFO root fetch - processPackages [wagtailvideos]: Remove: archive file [/home/abi/fetcher/tmp/wagtailvideos-6.1.0.tar.gz]
+[2024-06-03 01:14:41] INFO root fetch - processPackages [wagtailvideos]: Remove: archive file [/home/abi/fetcher/tmp/wagtailvideos-6.1.1.tar.gz]
+[2024-06-03 01:14:41] INFO root fetch - main [MainThread]: End processing [wagtailvideos]: success
+[2024-06-03 01:14:42] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-06-03 01:14:42] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-06-03 01:14:42] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-06-03 01:14:42] INFO root fetch - main [MainThread]: Store serial: [23494513]
