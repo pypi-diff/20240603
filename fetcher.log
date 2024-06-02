@@ -69,3 +69,36 @@
 [2024-06-03 00:05:15] INFO root fetch - processPackages [omniblack.utils]: Remove: archive file [/home/abi/fetcher/tmp/omniblack.utils-0.0.2.tar.gz]
 [2024-06-03 00:05:15] INFO root fetch - main [MainThread]: End processing [omniblack.utils]: success
 [2024-06-03 00:05:15] INFO root fetch - main [MainThread]: Store serial: [23494146]
+[2024-06-03 00:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494146]
+[2024-06-03 00:07:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 00:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netcord
+[2024-06-03 00:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omniblack.string-case
+[2024-06-03 00:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hfutils
+[2024-06-03 00:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kikuchipy
+[2024-06-03 00:07:24] INFO root fetch - processPackages [omniblack.string-case]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 00:07:24] WARNING root fetch - processPackages [netcord]: Skipping, unable to determine old version
+[2024-06-03 00:07:24] INFO root fetch - main [MainThread]: End processing [netcord] error
+[2024-06-03 00:07:24] INFO root fetch - processPackages [hfutils]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-06-03 00:07:24] INFO root fetch - processPackages [kikuchipy]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-06-03 00:07:24] INFO root fetch - processPackages [omniblack.string-case]: Downloading https://files.pythonhosted.org/packages/a8/9d/a3e217f44e2c5fc369f4a80826640af5f1210d614f5c58ba0412d85bf438/omniblack.string_case-0.0.1.tar.gz
+[2024-06-03 00:07:24] INFO root fetch - processPackages [hfutils]: Downloading https://files.pythonhosted.org/packages/48/d0/012729e74ad8aa55bd90f74edb1101ea40ab5c8cb6e769471cbeadc66f7d/hfutils-0.2.6.tar.gz
+[2024-06-03 00:07:24] INFO root fetch - processPackages [kikuchipy]: Downloading https://files.pythonhosted.org/packages/13/b6/07622b3b7cf26588a04ff6cb50b6d816d0f5fc514854c943f7406cb6c7a4/kikuchipy-0.8.7.tar.gz
+[2024-06-03 00:07:24] INFO root fetch - processPackages [omniblack.string-case]: Downloading https://files.pythonhosted.org/packages/79/c2/da49e5abdb300dd4f89e415a9946508871c5fb71c190cf34ba97906796a3/omniblack.string_case-0.0.2.tar.gz
+[2024-06-03 00:07:24] INFO root fetch - processPackages [hfutils]: Downloading https://files.pythonhosted.org/packages/3b/ea/a847b79e057ee6ca6d15f8daaac18a7e20ac7e16332b267cc23c9cf664c0/hfutils-0.2.7.tar.gz
+[2024-06-03 00:07:24] INFO root fetch - processPackages [omniblack.string-case]: executing diffoscope
+[2024-06-03 00:07:24] INFO root fetch - processPackages [omniblack.string-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniblack.string_case-0.0.1.tar.gz tmp/omniblack.string_case-0.0.2.tar.gz --markdown 20240603/o/omniblack.string-case/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 00:07:24] INFO root fetch - processPackages [hfutils]: executing diffoscope
+[2024-06-03 00:07:24] INFO root fetch - processPackages [hfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfutils-0.2.6.tar.gz tmp/hfutils-0.2.7.tar.gz --markdown 20240603/h/hfutils/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-06-03 00:07:25] INFO root fetch - processPackages [kikuchipy]: Downloading https://files.pythonhosted.org/packages/d8/d4/2c724d61acffdefdbc0ff5c69176b32870e6672c96892b56e4f748702c24/kikuchipy-0.9.0.tar.gz
+[2024-06-03 00:07:25] INFO root fetch - processPackages [kikuchipy]: executing diffoscope
+[2024-06-03 00:07:25] INFO root fetch - processPackages [kikuchipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kikuchipy-0.8.7.tar.gz tmp/kikuchipy-0.9.0.tar.gz --markdown 20240603/k/kikuchipy/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-06-03 00:07:25] INFO root fetch - processPackages [hfutils]: Remove: archive file [/home/abi/fetcher/tmp/hfutils-0.2.6.tar.gz]
+[2024-06-03 00:07:25] INFO root fetch - processPackages [hfutils]: Remove: archive file [/home/abi/fetcher/tmp/hfutils-0.2.7.tar.gz]
+[2024-06-03 00:07:25] INFO root fetch - main [MainThread]: End processing [hfutils]: success
+[2024-06-03 00:07:25] INFO root fetch - processPackages [omniblack.string-case]: Remove: archive file [/home/abi/fetcher/tmp/omniblack.string_case-0.0.1.tar.gz]
+[2024-06-03 00:07:25] INFO root fetch - processPackages [omniblack.string-case]: Remove: archive file [/home/abi/fetcher/tmp/omniblack.string_case-0.0.2.tar.gz]
+[2024-06-03 00:07:25] INFO root fetch - main [MainThread]: End processing [omniblack.string-case]: success
+[2024-06-03 00:07:26] INFO root fetch - processPackages [kikuchipy]: Remove: archive file [/home/abi/fetcher/tmp/kikuchipy-0.8.7.tar.gz]
+[2024-06-03 00:07:26] INFO root fetch - processPackages [kikuchipy]: Remove: archive file [/home/abi/fetcher/tmp/kikuchipy-0.9.0.tar.gz]
+[2024-06-03 00:07:26] INFO root fetch - main [MainThread]: End processing [kikuchipy]: success
+[2024-06-03 00:07:26] INFO root fetch - main [MainThread]: Store serial: [23494160]
