@@ -388,3 +388,24 @@
 [2024-06-03 00:29:03] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.3.tar.gz]
 [2024-06-03 00:29:03] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-06-03 00:29:03] INFO root fetch - main [MainThread]: Store serial: [23494292]
+[2024-06-03 00:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494292]
+[2024-06-03 00:31:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sportswrangler
+[2024-06-03 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docugami-langchain
+[2024-06-03 00:31:11] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.9rc9] Old Version: [0.0.9rc8]
+[2024-06-03 00:31:11] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/2d/82/2d13050a1c94760818565c09bfbddb6b1c5e72e7dd098faada8a8b560a19/docugami_langchain-0.0.9rc8.tar.gz
+[2024-06-03 00:31:11] INFO root fetch - processPackages [sportswrangler]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 00:31:12] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/f2/b2/d83b55cc8691eecf7a64a63a120a668c5ff1f8edee1994b69cf50d8ed91b/docugami_langchain-0.0.9rc9.tar.gz
+[2024-06-03 00:31:12] INFO root fetch - processPackages [sportswrangler]: Downloading https://files.pythonhosted.org/packages/e9/fd/c9ab35a1f6d3c25cfd8e98671c72a091e29ca99b20a140a6e52e132282c1/sportswrangler-0.1.8.tar.gz
+[2024-06-03 00:31:12] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-06-03 00:31:12] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.9rc8.tar.gz tmp/docugami_langchain-0.0.9rc9.tar.gz --markdown 20240603/d/docugami-langchain/0.0.9rc8-0.0.9rc9/README.md --exclude *.pyd
+[2024-06-03 00:31:12] INFO root fetch - processPackages [sportswrangler]: Downloading https://files.pythonhosted.org/packages/7d/99/564cab4cb9462136afac967a26e9eb613c10169d978ab6ee90460dcb05b9/sportswrangler-0.1.9.tar.gz
+[2024-06-03 00:31:12] INFO root fetch - processPackages [sportswrangler]: executing diffoscope
+[2024-06-03 00:31:12] INFO root fetch - processPackages [sportswrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sportswrangler-0.1.8.tar.gz tmp/sportswrangler-0.1.9.tar.gz --markdown 20240603/s/sportswrangler/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 00:31:12] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc8.tar.gz]
+[2024-06-03 00:31:12] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc9.tar.gz]
+[2024-06-03 00:31:12] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-06-03 00:31:13] INFO root fetch - processPackages [sportswrangler]: Remove: archive file [/home/abi/fetcher/tmp/sportswrangler-0.1.8.tar.gz]
+[2024-06-03 00:31:13] INFO root fetch - processPackages [sportswrangler]: Remove: archive file [/home/abi/fetcher/tmp/sportswrangler-0.1.9.tar.gz]
+[2024-06-03 00:31:13] INFO root fetch - main [MainThread]: End processing [sportswrangler]: success
+[2024-06-03 00:31:13] INFO root fetch - main [MainThread]: Store serial: [23494299]
