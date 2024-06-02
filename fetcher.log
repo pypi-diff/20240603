@@ -747,3 +747,33 @@
 [2024-06-03 01:01:39] ERROR root fetch - processPackages [copilothistoryexporter]: Unable to fetch info: No such project/version 'copilothistoryexporter' 1.0.3.7
 [2024-06-03 01:01:39] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter] error
 [2024-06-03 01:01:39] INFO root fetch - main [MainThread]: Store serial: [23494419]
+[2024-06-03 01:03:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494419]
+[2024-06-03 01:03:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 01:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qctrl-client
+[2024-06-03 01:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: navigator-api
+[2024-06-03 01:03:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyncraft
+[2024-06-03 01:03:47] INFO root fetch - processPackages [navigator-api]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-06-03 01:03:47] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/4a/c1/4d2ef0e02aedcb067c1226d3312106df0168bc742bbe6ff3199051a654c5/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 01:03:47] INFO root fetch - processPackages [qctrl-client]: New version: [9.2.1] Old Version: [9.2.0]
+[2024-06-03 01:03:47] INFO root fetch - processPackages [asyncraft]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 01:03:48] INFO root fetch - processPackages [asyncraft]: Downloading https://files.pythonhosted.org/packages/8d/e9/7efd28fcba52af69f29b7bd3eef9d447e53070a49406012cc95e71dc4807/asyncraft-0.0.2.tar.gz
+[2024-06-03 01:03:48] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/d3/67/b5953645b11ee31cee48b8c0bd793007b99fd7c135b5bde6f7336e603f23/qctrl_client-9.2.0.tar.gz
+[2024-06-03 01:03:48] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/23/9d/d6e87407f60468f5fc607bc9db56b812d4afaf5641fdc7365a5b358ccfb4/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 01:03:48] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/f6/28/3bba99c177df60fba2b584460d587c711c4bfba604ded10668e1af233d4b/qctrl_client-9.2.1.tar.gz
+[2024-06-03 01:03:48] INFO root fetch - processPackages [asyncraft]: Downloading https://files.pythonhosted.org/packages/f9/f0/7c209b55fbf833fa616e259e3253c0d448b5f6e7e1ac607996c31c026ef6/asyncraft-0.0.3.tar.gz
+[2024-06-03 01:03:48] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2024-06-03 01:03:48] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240603/n/navigator-api/2.8.8-2.8.9/README.md --exclude *.pyd
+[2024-06-03 01:03:48] INFO root fetch - processPackages [qctrl-client]: executing diffoscope
+[2024-06-03 01:03:48] INFO root fetch - processPackages [qctrl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_client-9.2.0.tar.gz tmp/qctrl_client-9.2.1.tar.gz --markdown 20240603/q/qctrl-client/9.2.0-9.2.1/README.md --exclude *.pyd
+[2024-06-03 01:03:48] INFO root fetch - processPackages [asyncraft]: executing diffoscope
+[2024-06-03 01:03:48] INFO root fetch - processPackages [asyncraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncraft-0.0.2.tar.gz tmp/asyncraft-0.0.3.tar.gz --markdown 20240603/a/asyncraft/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 01:03:49] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-9.2.0.tar.gz]
+[2024-06-03 01:03:49] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-9.2.1.tar.gz]
+[2024-06-03 01:03:49] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
+[2024-06-03 01:03:49] INFO root fetch - processPackages [asyncraft]: Remove: archive file [/home/abi/fetcher/tmp/asyncraft-0.0.2.tar.gz]
+[2024-06-03 01:03:49] INFO root fetch - processPackages [asyncraft]: Remove: archive file [/home/abi/fetcher/tmp/asyncraft-0.0.3.tar.gz]
+[2024-06-03 01:03:49] INFO root fetch - main [MainThread]: End processing [asyncraft]: success
+[2024-06-03 01:03:49] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 01:03:49] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 01:03:49] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2024-06-03 01:03:49] INFO root fetch - main [MainThread]: Store serial: [23494430]
