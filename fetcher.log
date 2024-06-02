@@ -831,3 +831,36 @@
 [2024-06-03 01:08:12] INFO root fetch - processPackages [language-practice]: Remove: archive file [/home/abi/fetcher/tmp/language_practice-0.2.1.tar.gz]
 [2024-06-03 01:08:12] INFO root fetch - main [MainThread]: End processing [language-practice]: success
 [2024-06-03 01:08:12] INFO root fetch - main [MainThread]: Store serial: [23494449]
+[2024-06-03 01:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494449]
+[2024-06-03 01:10:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 01:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SCDB-ML-app
+[2024-06-03 01:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omop2survey
+[2024-06-03 01:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ambient-backend-api-client
+[2024-06-03 01:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: posting
+[2024-06-03 01:10:20] INFO root fetch - processPackages [omop2survey]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 01:10:20] INFO root fetch - processPackages [ambient-backend-api-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 01:10:20] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 01:10:20] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/d0/3d/a88573a96f559d123cb3e1d168e45f905a3a99a738efb65bb74f949ea018/omop2survey-0.0.5.tar.gz
+[2024-06-03 01:10:20] WARNING root fetch - processPackages [posting]: Skipping, unable to determine old version
+[2024-06-03 01:10:20] INFO root fetch - main [MainThread]: End processing [posting] error
+[2024-06-03 01:10:20] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/6c/f1/bda7226e33e7a38aea7af739d10949160deb2e5bad679728d06ad998a5b7/SCDB_ML_app-1.0.1-py3-none-any.whl
+[2024-06-03 01:10:20] INFO root fetch - processPackages [ambient-backend-api-client]: Downloading https://files.pythonhosted.org/packages/f6/eb/59da8ec681d918996a898f98dd992f0dd01c4e66248583c87fd5d597e6bb/ambient_backend_api_client-0.1.8.tar.gz
+[2024-06-03 01:10:20] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/40/8e/00f2e64641121c524dd7d6d01bb95ccf064bfb020b83cf52d2517311dae9/omop2survey-0.0.6.tar.gz
+[2024-06-03 01:10:20] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-06-03 01:10:20] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.5.tar.gz tmp/omop2survey-0.0.6.tar.gz --markdown 20240603/o/omop2survey/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 01:10:20] INFO root fetch - processPackages [ambient-backend-api-client]: Downloading https://files.pythonhosted.org/packages/0b/1f/b717fb08cbd4446f6c3ef2f503b2b7cf7489a90af64d9e8982283ae67928/ambient_backend_api_client-0.1.9.tar.gz
+[2024-06-03 01:10:20] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/b4/c7/b12e7af18b055b427965d1d82d0bf4bed87eeec13112692673ceec0b5dc0/SCDB_ML_app-1.0.2-py3-none-any.whl
+[2024-06-03 01:10:20] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 01:10:20] INFO root fetch - processPackages [ambient-backend-api-client]: executing diffoscope
+[2024-06-03 01:10:20] INFO root fetch - processPackages [ambient-backend-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient_backend_api_client-0.1.8.tar.gz tmp/ambient_backend_api_client-0.1.9.tar.gz --markdown 20240603/a/ambient-backend-api-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 01:10:20] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.1-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.2-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 01:10:21] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.5.tar.gz]
+[2024-06-03 01:10:21] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.6.tar.gz]
+[2024-06-03 01:10:21] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-06-03 01:10:21] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.1-py3-none-any.whl.zip]
+[2024-06-03 01:10:21] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.2-py3-none-any.whl.zip]
+[2024-06-03 01:10:21] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 01:10:21] INFO root fetch - processPackages [ambient-backend-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ambient_backend_api_client-0.1.8.tar.gz]
+[2024-06-03 01:10:21] INFO root fetch - processPackages [ambient-backend-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ambient_backend_api_client-0.1.9.tar.gz]
+[2024-06-03 01:10:21] INFO root fetch - main [MainThread]: End processing [ambient-backend-api-client]: success
+[2024-06-03 01:10:21] INFO root fetch - main [MainThread]: Store serial: [23494462]
