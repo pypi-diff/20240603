@@ -102,3 +102,33 @@
 [2024-06-03 00:07:26] INFO root fetch - processPackages [kikuchipy]: Remove: archive file [/home/abi/fetcher/tmp/kikuchipy-0.9.0.tar.gz]
 [2024-06-03 00:07:26] INFO root fetch - main [MainThread]: End processing [kikuchipy]: success
 [2024-06-03 00:07:26] INFO root fetch - main [MainThread]: Store serial: [23494160]
+[2024-06-03 00:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494160]
+[2024-06-03 00:09:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 00:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bussinwebx-get
+[2024-06-03 00:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owega
+[2024-06-03 00:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compressed-tensors-nightly
+[2024-06-03 00:09:35] INFO root fetch - processPackages [owega]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-06-03 00:09:35] INFO root fetch - processPackages [bussinwebx-get]: New version: [2.0.0] Old Version: [1.0.6]
+[2024-06-03 00:09:35] INFO root fetch - processPackages [compressed-tensors-nightly]: New version: [0.3.3.20240602] Old Version: [0.3.3.20240601]
+[2024-06-03 00:09:35] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/85/76/57fa9903697edea08b20da806c9ee14cf9d8ef0efe432ea26470dfbcaba3/owega-5.9.1.tar.gz
+[2024-06-03 00:09:35] INFO root fetch - processPackages [bussinwebx-get]: Downloading https://files.pythonhosted.org/packages/7b/51/994f5bcbb5718a7541e46fe93f5b3888b51f1d37b0deea26db82c1476a44/bussinwebx_get-1.0.6.tar.gz
+[2024-06-03 00:09:35] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/fd/0e/5545ead0b5918c5ba6daea5b2ac76ba0c1beb20095a8b8525f453b9bcb7f/owega-5.9.2.tar.gz
+[2024-06-03 00:09:35] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/8c/fb/c8b2738f760364cd597d216c88d5ab2166ef129938aee7008cea47cf37e1/compressed_tensors_nightly-0.3.3.20240601-py3-none-any.whl
+[2024-06-03 00:09:35] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-06-03 00:09:35] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.9.1.tar.gz tmp/owega-5.9.2.tar.gz --markdown 20240603/o/owega/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-06-03 00:09:35] INFO root fetch - processPackages [bussinwebx-get]: Downloading https://files.pythonhosted.org/packages/69/0c/f904309bdba6d9fd6fc3600cddecb505d13130d13a1e426214a22ecff13f/bussinwebx_get-2.0.0.tar.gz
+[2024-06-03 00:09:35] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/55/4d/8a0ac54fa576618c77828608299ddbeb9c83407ae67d254efe02368303a5/compressed_tensors_nightly-0.3.3.20240602-py3-none-any.whl
+[2024-06-03 00:09:35] INFO root fetch - processPackages [bussinwebx-get]: executing diffoscope
+[2024-06-03 00:09:35] INFO root fetch - processPackages [bussinwebx-get]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bussinwebx_get-1.0.6.tar.gz tmp/bussinwebx_get-2.0.0.tar.gz --markdown 20240603/b/bussinwebx-get/1.0.6-2.0.0/README.md --exclude *.pyd
+[2024-06-03 00:09:36] INFO root fetch - processPackages [compressed-tensors-nightly]: executing diffoscope
+[2024-06-03 00:09:36] INFO root fetch - processPackages [compressed-tensors-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compressed_tensors_nightly-0.3.3.20240601-py3-none-any.whl.zip tmp/compressed_tensors_nightly-0.3.3.20240602-py3-none-any.whl.zip --markdown 20240603/c/compressed-tensors-nightly/0.3.3.20240601-0.3.3.20240602/README.md --exclude *.pyd
+[2024-06-03 00:09:36] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.9.1.tar.gz]
+[2024-06-03 00:09:36] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.9.2.tar.gz]
+[2024-06-03 00:09:36] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-06-03 00:09:36] INFO root fetch - processPackages [bussinwebx-get]: Remove: archive file [/home/abi/fetcher/tmp/bussinwebx_get-1.0.6.tar.gz]
+[2024-06-03 00:09:36] INFO root fetch - processPackages [bussinwebx-get]: Remove: archive file [/home/abi/fetcher/tmp/bussinwebx_get-2.0.0.tar.gz]
+[2024-06-03 00:09:36] INFO root fetch - main [MainThread]: End processing [bussinwebx-get]: success
+[2024-06-03 00:09:36] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240601-py3-none-any.whl.zip]
+[2024-06-03 00:09:36] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240602-py3-none-any.whl.zip]
+[2024-06-03 00:09:36] INFO root fetch - main [MainThread]: End processing [compressed-tensors-nightly]: success
+[2024-06-03 00:09:36] INFO root fetch - main [MainThread]: Store serial: [23494168]
