@@ -736,3 +736,14 @@
 [2024-06-03 00:59:30] INFO root fetch - processPackages [st-span-annotation]: Remove: archive file [/home/abi/fetcher/tmp/st_span_annotation-0.0.4.tar.gz]
 [2024-06-03 00:59:30] INFO root fetch - main [MainThread]: End processing [st-span-annotation]: success
 [2024-06-03 00:59:30] INFO root fetch - main [MainThread]: Store serial: [23494412]
+[2024-06-03 01:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494412]
+[2024-06-03 01:01:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 01:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copilothistoryexporter
+[2024-06-03 01:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simulab
+[2024-06-03 01:01:39] INFO root fetch - processPackages [copilothistoryexporter]: New version: [1.0.3.7] Old Version: [1.0.3.6]
+[2024-06-03 01:01:39] WARNING root fetch - processPackages [simulab]: Skipping, unable to determine old version
+[2024-06-03 01:01:39] INFO root fetch - main [MainThread]: End processing [simulab] error
+[2024-06-03 01:01:39] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/ae/90/bf002b9e2dc73c08004ae0eb461c4c89ade78d19a7b7f8a1e4697337b84f/copilothistoryexporter-1.0.3.6.tar.gz
+[2024-06-03 01:01:39] ERROR root fetch - processPackages [copilothistoryexporter]: Unable to fetch info: No such project/version 'copilothistoryexporter' 1.0.3.7
+[2024-06-03 01:01:39] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter] error
+[2024-06-03 01:01:39] INFO root fetch - main [MainThread]: Store serial: [23494419]
