@@ -211,3 +211,45 @@
 [2024-06-03 00:16:07] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.22.5.tar.gz]
 [2024-06-03 00:16:07] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
 [2024-06-03 00:16:07] INFO root fetch - main [MainThread]: Store serial: [23494221]
+[2024-06-03 00:18:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494221]
+[2024-06-03 00:18:15] INFO root fetch - main [MainThread]: No changed packages found
+[2024-06-03 00:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494221]
+[2024-06-03 00:20:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 00:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vysp-python
+[2024-06-03 00:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vysp-python
+[2024-06-03 00:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vysp-python
+[2024-06-03 00:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cycle-plotter
+[2024-06-03 00:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ast-grep-cli
+[2024-06-03 00:20:20] INFO root fetch - processPackages [vysp-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 00:20:20] ERROR root fetch - processPackages [cycle-plotter]: Unable to get metadata: No such project 'cycle-plotter'
+[2024-06-03 00:20:20] INFO root fetch - processPackages [vysp-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 00:20:20] INFO root fetch - processPackages [vysp-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 00:20:20] INFO root fetch - main [MainThread]: End processing [cycle-plotter] error
+[2024-06-03 00:20:20] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/b4/d4/d852bc5013262e5a963b7f96512d9efc3d702b8e301ff348989e87d1cd6d/vysp_python-0.2.2.tar.gz
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/b4/d4/d852bc5013262e5a963b7f96512d9efc3d702b8e301ff348989e87d1cd6d/vysp_python-0.2.2.tar.gz
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/b4/d4/d852bc5013262e5a963b7f96512d9efc3d702b8e301ff348989e87d1cd6d/vysp_python-0.2.2.tar.gz
+[2024-06-03 00:20:21] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/f7/c2/09d75b706485bc51e9971fffe138396e852d914b4ea1ced1dcbbf9c8890e/ast_grep_cli-0.9.2.tar.gz
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/4b/ea/233d0b24360b50cff0f5ccf716f00b66b1209bb55538f250a362b2c031a6/vysp_python-0.2.3.tar.gz
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/4b/ea/233d0b24360b50cff0f5ccf716f00b66b1209bb55538f250a362b2c031a6/vysp_python-0.2.3.tar.gz
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/4b/ea/233d0b24360b50cff0f5ccf716f00b66b1209bb55538f250a362b2c031a6/vysp_python-0.2.3.tar.gz
+[2024-06-03 00:20:21] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/bb/5c/1c5ee896b0968132154badd72079015a1958ff352d47c5f9e74e8ce6d54e/ast_grep_cli-0.9.3.tar.gz
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: executing diffoscope
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: executing diffoscope
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysp_python-0.2.2.tar.gz tmp/vysp_python-0.2.3.tar.gz --markdown 20240603/v/vysp-python/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysp_python-0.2.2.tar.gz tmp/vysp_python-0.2.3.tar.gz --markdown 20240603/v/vysp-python/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: executing diffoscope
+[2024-06-03 00:20:21] INFO root fetch - processPackages [vysp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysp_python-0.2.2.tar.gz tmp/vysp_python-0.2.3.tar.gz --markdown 20240603/v/vysp-python/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 00:20:21] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2024-06-03 00:20:21] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.2.tar.gz tmp/ast_grep_cli-0.9.3.tar.gz --markdown 20240603/a/ast-grep-cli/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 00:20:22] INFO root fetch - processPackages [vysp-python]: Remove: archive file [/home/abi/fetcher/tmp/vysp_python-0.2.2.tar.gz]
+[2024-06-03 00:20:22] INFO root fetch - processPackages [vysp-python]: Remove: archive file [/home/abi/fetcher/tmp/vysp_python-0.2.2.tar.gz]
+[2024-06-03 00:20:22] WARNING root fetch - processPackages [vysp-python]: Unable to remove archive file: [[Errno 2] No such file or directory: '/home/abi/fetcher/tmp/vysp_python-0.2.2.tar.gz']
+[2024-06-03 00:20:22] INFO root fetch - processPackages [vysp-python]: Remove: archive file [/home/abi/fetcher/tmp/vysp_python-0.2.3.tar.gz]
+[2024-06-03 00:20:22] INFO root fetch - main [MainThread]: End processing [vysp-python]: success
+[2024-06-03 00:20:22] INFO root fetch - main [MainThread]: End processing [vysp-python]: success
+[2024-06-03 00:20:22] INFO root fetch - main [MainThread]: End processing [vysp-python]: success
+[2024-06-03 00:20:22] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.2.tar.gz]
+[2024-06-03 00:20:22] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
+[2024-06-03 00:20:22] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2024-06-03 00:20:22] INFO root fetch - main [MainThread]: Store serial: [23494247]
