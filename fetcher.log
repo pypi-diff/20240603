@@ -277,3 +277,24 @@
 [2024-06-03 00:22:32] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.2.tar.gz]
 [2024-06-03 00:22:32] INFO root fetch - main [MainThread]: End processing [mini-scikit-learn]: success
 [2024-06-03 00:22:32] INFO root fetch - main [MainThread]: Store serial: [23494257]
+[2024-06-03 00:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494257]
+[2024-06-03 00:24:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 00:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezfileutils
+[2024-06-03 00:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dpt
+[2024-06-03 00:24:40] INFO root fetch - processPackages [dpt]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-06-03 00:24:40] INFO root fetch - processPackages [dpt]: Downloading https://files.pythonhosted.org/packages/96/17/d131861443dbdd5c1322430b811f34b0554266df586675b24213a243500c/dpt-1.0.6.tar.gz
+[2024-06-03 00:24:40] INFO root fetch - processPackages [ezfileutils]: New version: [1.0.53] Old Version: [1.0.52]
+[2024-06-03 00:24:40] INFO root fetch - processPackages [ezfileutils]: Downloading https://files.pythonhosted.org/packages/a4/d4/6087132a311d5574e84bc3548b0479c84c9dff3aca44980eed6403c6f68c/ezfileutils-1.0.52.tar.gz
+[2024-06-03 00:24:40] INFO root fetch - processPackages [dpt]: Downloading https://files.pythonhosted.org/packages/8d/ac/5db99f61ba835b9a75a052dc6b9219e3ed3c99ef46d732c5cfa875d685d5/dpt-1.0.7.tar.gz
+[2024-06-03 00:24:40] INFO root fetch - processPackages [dpt]: executing diffoscope
+[2024-06-03 00:24:40] INFO root fetch - processPackages [dpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpt-1.0.6.tar.gz tmp/dpt-1.0.7.tar.gz --markdown 20240603/d/dpt/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-06-03 00:24:40] INFO root fetch - processPackages [ezfileutils]: Downloading https://files.pythonhosted.org/packages/23/5d/da6822a1637bdc19a194172abbefb322481c3be71d74db394f728efffacd/ezfileutils-1.0.53.tar.gz
+[2024-06-03 00:24:41] INFO root fetch - processPackages [ezfileutils]: executing diffoscope
+[2024-06-03 00:24:41] INFO root fetch - processPackages [ezfileutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezfileutils-1.0.52.tar.gz tmp/ezfileutils-1.0.53.tar.gz --markdown 20240603/e/ezfileutils/1.0.52-1.0.53/README.md --exclude *.pyd
+[2024-06-03 00:24:41] INFO root fetch - processPackages [dpt]: Remove: archive file [/home/abi/fetcher/tmp/dpt-1.0.6.tar.gz]
+[2024-06-03 00:24:41] INFO root fetch - processPackages [dpt]: Remove: archive file [/home/abi/fetcher/tmp/dpt-1.0.7.tar.gz]
+[2024-06-03 00:24:41] INFO root fetch - main [MainThread]: End processing [dpt]: success
+[2024-06-03 00:24:41] INFO root fetch - processPackages [ezfileutils]: Remove: archive file [/home/abi/fetcher/tmp/ezfileutils-1.0.52.tar.gz]
+[2024-06-03 00:24:41] INFO root fetch - processPackages [ezfileutils]: Remove: archive file [/home/abi/fetcher/tmp/ezfileutils-1.0.53.tar.gz]
+[2024-06-03 00:24:41] INFO root fetch - main [MainThread]: End processing [ezfileutils]: success
+[2024-06-03 00:24:41] INFO root fetch - main [MainThread]: Store serial: [23494263]
