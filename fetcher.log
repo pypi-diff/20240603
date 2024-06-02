@@ -469,3 +469,33 @@
 [2024-06-03 00:37:43] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.9.9.tar.gz]
 [2024-06-03 00:37:43] INFO root fetch - main [MainThread]: End processing [gplugins]: success
 [2024-06-03 00:37:43] INFO root fetch - main [MainThread]: Store serial: [23494323]
+[2024-06-03 00:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494323]
+[2024-06-03 00:39:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 00:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fudstop
+[2024-06-03 00:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blog-oc
+[2024-06-03 00:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-tmmis
+[2024-06-03 00:39:51] INFO root fetch - processPackages [django-tmmis]: New version: [0.3.7.dev4] Old Version: [0.3.7.dev3]
+[2024-06-03 00:39:51] INFO root fetch - processPackages [fudstop]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-06-03 00:39:51] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/e0/2b/0dd81966a584bcc4b2737d9e40d2d75b321323b961e7d0674d2e6643ad6b/django_tmmis-0.3.7.dev3.tar.gz
+[2024-06-03 00:39:51] INFO root fetch - processPackages [blog-oc]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-06-03 00:39:51] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/25/c8/aaa78bce65e35dc464f266bfc5a91d582327c2a26ca2bda07576084b700c/fudstop-2.9.1.tar.gz
+[2024-06-03 00:39:51] INFO root fetch - processPackages [blog-oc]: Downloading https://files.pythonhosted.org/packages/da/92/7e5aa3119d110f4786cabbe78761fe39a244c84840c036bcfb7f6a59fe5d/blog-oc-0.1.4.tar.gz
+[2024-06-03 00:39:51] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/e0/48/12e84b4d529fe73a2c6fcb99e716cc45d812632b130888fd6fd4ec2c1553/django_tmmis-0.3.7.dev4.tar.gz
+[2024-06-03 00:39:51] INFO root fetch - processPackages [django-tmmis]: executing diffoscope
+[2024-06-03 00:39:51] INFO root fetch - processPackages [django-tmmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tmmis-0.3.7.dev3.tar.gz tmp/django_tmmis-0.3.7.dev4.tar.gz --markdown 20240603/d/django-tmmis/0.3.7.dev3-0.3.7.dev4/README.md --exclude *.pyd
+[2024-06-03 00:39:51] INFO root fetch - processPackages [blog-oc]: Downloading https://files.pythonhosted.org/packages/6f/1e/5e535e05db287c834134b9a5827251adfbbe98ba108c2f71bfbb21dce9c5/blog-oc-0.2.0.tar.gz
+[2024-06-03 00:39:51] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/9f/91/4a78ac59a5b7a96803ed426f9a3ef1cc998d3b3480799210955f7452e805/fudstop-2.9.2.tar.gz
+[2024-06-03 00:39:51] INFO root fetch - processPackages [blog-oc]: executing diffoscope
+[2024-06-03 00:39:51] INFO root fetch - processPackages [blog-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blog-oc-0.1.4.tar.gz tmp/blog-oc-0.2.0.tar.gz --markdown 20240603/b/blog-oc/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-06-03 00:39:51] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-06-03 00:39:51] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.9.1.tar.gz tmp/fudstop-2.9.2.tar.gz --markdown 20240603/f/fudstop/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-06-03 00:39:52] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev3.tar.gz]
+[2024-06-03 00:39:52] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev4.tar.gz]
+[2024-06-03 00:39:52] INFO root fetch - main [MainThread]: End processing [django-tmmis]: success
+[2024-06-03 00:39:52] INFO root fetch - processPackages [blog-oc]: Remove: archive file [/home/abi/fetcher/tmp/blog-oc-0.1.4.tar.gz]
+[2024-06-03 00:39:52] INFO root fetch - processPackages [blog-oc]: Remove: archive file [/home/abi/fetcher/tmp/blog-oc-0.2.0.tar.gz]
+[2024-06-03 00:39:52] INFO root fetch - main [MainThread]: End processing [blog-oc]: success
+[2024-06-03 00:39:53] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.9.1.tar.gz]
+[2024-06-03 00:39:53] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.9.2.tar.gz]
+[2024-06-03 00:39:53] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-06-03 00:39:53] INFO root fetch - main [MainThread]: Store serial: [23494332]
