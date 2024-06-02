@@ -1337,3 +1337,15 @@
 [2024-06-03 01:51:26] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.6-py3-none-any.whl.zip]
 [2024-06-03 01:51:26] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
 [2024-06-03 01:51:26] INFO root fetch - main [MainThread]: Store serial: [23494630]
+[2024-06-03 01:53:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494630]
+[2024-06-03 01:53:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 01:53:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcvi
+[2024-06-03 01:53:35] INFO root fetch - processPackages [jcvi]: New version: [1.4.5] Old Version: [1.4.2]
+[2024-06-03 01:53:35] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/b1/01/b730e94b778d678e7244ee6d77ca9aaa6871f2841b4263fc937cae211af6/jcvi-1.4.2.tar.gz
+[2024-06-03 01:53:35] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/3b/c7/8f87e09c1bc53218c88e3cbd40b736a113062e49e0ba98afc3c204ac19b0/jcvi-1.4.5.tar.gz
+[2024-06-03 01:53:36] INFO root fetch - processPackages [jcvi]: executing diffoscope
+[2024-06-03 01:53:36] INFO root fetch - processPackages [jcvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcvi-1.4.2.tar.gz tmp/jcvi-1.4.5.tar.gz --markdown 20240603/j/jcvi/1.4.2-1.4.5/README.md --exclude *.pyd
+[2024-06-03 01:53:37] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.2.tar.gz]
+[2024-06-03 01:53:37] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.5.tar.gz]
+[2024-06-03 01:53:37] INFO root fetch - main [MainThread]: End processing [jcvi]: success
+[2024-06-03 01:53:37] INFO root fetch - main [MainThread]: Store serial: [23494636]
