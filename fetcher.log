@@ -661,3 +661,27 @@
 [2024-06-03 00:52:51] INFO root fetch - processPackages [plugget]: Remove: archive file [/home/abi/fetcher/tmp/plugget-0.1.9.tar.gz]
 [2024-06-03 00:52:51] INFO root fetch - main [MainThread]: End processing [plugget]: success
 [2024-06-03 00:52:51] INFO root fetch - main [MainThread]: Store serial: [23494387]
+[2024-06-03 00:54:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494387]
+[2024-06-03 00:54:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 00:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omop2survey
+[2024-06-03 00:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azlearn
+[2024-06-03 00:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wfmplan
+[2024-06-03 00:54:59] INFO root fetch - processPackages [wfmplan]: New version: [1.2.0] Old Version: [0.2.2]
+[2024-06-03 00:54:59] INFO root fetch - processPackages [omop2survey]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 00:54:59] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/d0/3d/a88573a96f559d123cb3e1d168e45f905a3a99a738efb65bb74f949ea018/omop2survey-0.0.5.tar.gz
+[2024-06-03 00:54:59] INFO root fetch - processPackages [wfmplan]: Downloading https://files.pythonhosted.org/packages/f9/57/b6583b30f55c55e0282391a428bdca294111de15d52be6cc9182d1661eed/wfmplan-0.2.2.tar.gz
+[2024-06-03 00:54:59] WARNING root fetch - processPackages [azlearn]: Skipping, unable to determine old version
+[2024-06-03 00:54:59] INFO root fetch - main [MainThread]: End processing [azlearn] error
+[2024-06-03 00:54:59] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/40/8e/00f2e64641121c524dd7d6d01bb95ccf064bfb020b83cf52d2517311dae9/omop2survey-0.0.6.tar.gz
+[2024-06-03 00:54:59] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-06-03 00:54:59] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.5.tar.gz tmp/omop2survey-0.0.6.tar.gz --markdown 20240603/o/omop2survey/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 00:54:59] INFO root fetch - processPackages [wfmplan]: Downloading https://files.pythonhosted.org/packages/a3/7a/d8d423314dddd3fa8fe2de97adcca17cdd0150c96809a7d150d4f949d466/wfmplan-1.2.0.tar.gz
+[2024-06-03 00:54:59] INFO root fetch - processPackages [wfmplan]: executing diffoscope
+[2024-06-03 00:54:59] INFO root fetch - processPackages [wfmplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wfmplan-0.2.2.tar.gz tmp/wfmplan-1.2.0.tar.gz --markdown 20240603/w/wfmplan/0.2.2-1.2.0/README.md --exclude *.pyd
+[2024-06-03 00:55:00] INFO root fetch - processPackages [wfmplan]: Remove: archive file [/home/abi/fetcher/tmp/wfmplan-0.2.2.tar.gz]
+[2024-06-03 00:55:00] INFO root fetch - processPackages [wfmplan]: Remove: archive file [/home/abi/fetcher/tmp/wfmplan-1.2.0.tar.gz]
+[2024-06-03 00:55:00] INFO root fetch - main [MainThread]: End processing [wfmplan]: success
+[2024-06-03 00:55:00] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.5.tar.gz]
+[2024-06-03 00:55:00] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.6.tar.gz]
+[2024-06-03 00:55:00] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-06-03 00:55:00] INFO root fetch - main [MainThread]: Store serial: [23494398]
