@@ -1068,3 +1068,33 @@
 [2024-06-03 01:23:23] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.4.tar.gz]
 [2024-06-03 01:23:23] INFO root fetch - main [MainThread]: End processing [mini-scikit-learn]: success
 [2024-06-03 01:23:23] INFO root fetch - main [MainThread]: Store serial: [23494553]
+[2024-06-03 01:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494553]
+[2024-06-03 01:25:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-plugin-manager
+[2024-06-03 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airr
+[2024-06-03 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-06-03 01:25:31] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2024-06-03 01:25:31] INFO root fetch - processPackages [mimllearning]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-06-03 01:25:32] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/b2/37/1a222e9f15849fb1ebcafce5a7ba00f48fc94ba80438f3c9e243ce6b66c3/ovos_plugin_manager-0.0.8a3-py3-none-any.whl
+[2024-06-03 01:25:32] INFO root fetch - processPackages [airr]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-06-03 01:25:32] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/05/b5/d5282294a890739666c9cd82bbbfe2729c3ce6878bf9a4f2fff07b501427/mimllearning-1.0.5.tar.gz
+[2024-06-03 01:25:32] INFO root fetch - processPackages [airr]: Downloading https://files.pythonhosted.org/packages/3f/61/72af365d0855bce94245c4cf0676893fcce3acf05e2b23608f1dfaa0c8cb/airr-1.5.0.tar.gz
+[2024-06-03 01:25:32] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/52/e2/f57129caaddb3c7ec480ea84cd54a36c5f47dec4dff4add3d7d3eea6e6a8/ovos_plugin_manager-0.0.9-py3-none-any.whl
+[2024-06-03 01:25:32] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2024-06-03 01:25:32] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20240603/o/ovos-plugin-manager/0.0.8a3-0.0.9/README.md --exclude *.pyd
+[2024-06-03 01:25:32] INFO root fetch - processPackages [airr]: Downloading https://files.pythonhosted.org/packages/b1/b4/5260bdf2028704f86435e4d7e5aacb47bb9a5c8f53a19cd4a0206f1ee356/airr-1.5.1.tar.gz
+[2024-06-03 01:25:32] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/1c/c3/b8618c560004a184fe004675886e596b0ce230a491dbd2062dc031e7bc65/mimllearning-1.0.6.tar.gz
+[2024-06-03 01:25:32] INFO root fetch - processPackages [airr]: executing diffoscope
+[2024-06-03 01:25:32] INFO root fetch - processPackages [airr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airr-1.5.0.tar.gz tmp/airr-1.5.1.tar.gz --markdown 20240603/a/airr/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-06-03 01:25:32] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 01:25:32] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.5.tar.gz tmp/mimllearning-1.0.6.tar.gz --markdown 20240603/m/mimllearning/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-06-03 01:25:32] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip]
+[2024-06-03 01:25:32] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip]
+[2024-06-03 01:25:32] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2024-06-03 01:25:33] INFO root fetch - processPackages [airr]: Remove: archive file [/home/abi/fetcher/tmp/airr-1.5.0.tar.gz]
+[2024-06-03 01:25:33] INFO root fetch - processPackages [airr]: Remove: archive file [/home/abi/fetcher/tmp/airr-1.5.1.tar.gz]
+[2024-06-03 01:25:33] INFO root fetch - main [MainThread]: End processing [airr]: success
+[2024-06-03 01:25:34] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.5.tar.gz]
+[2024-06-03 01:25:34] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.6.tar.gz]
+[2024-06-03 01:25:34] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 01:25:34] INFO root fetch - main [MainThread]: Store serial: [23494561]
