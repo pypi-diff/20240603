@@ -957,3 +957,42 @@
 [2024-06-03 01:16:52] INFO root fetch - processPackages [braidvisualiser]: Remove: archive file [/home/abi/fetcher/tmp/braidvisualiser-0.2.1.tar.gz]
 [2024-06-03 01:16:52] INFO root fetch - main [MainThread]: End processing [braidvisualiser]: success
 [2024-06-03 01:16:52] INFO root fetch - main [MainThread]: Store serial: [23494518]
+[2024-06-03 01:18:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494518]
+[2024-06-03 01:19:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 01:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thoi
+[2024-06-03 01:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-06-03 01:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SeqLbToolkit
+[2024-06-03 01:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultralytics
+[2024-06-03 01:19:00] INFO root fetch - processPackages [mimllearning]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 01:19:01] INFO root fetch - processPackages [thoi]: New version: [0.1.14] Old Version: [0.1.13]
+[2024-06-03 01:19:01] INFO root fetch - processPackages [SeqLbToolkit]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-06-03 01:19:01] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/a7/b7/ac5f09a2990243ef2d35457cbeb236fd2969943f31f87e4f5d75b00bb08d/mimllearning-1.0.4.tar.gz
+[2024-06-03 01:19:01] INFO root fetch - processPackages [ultralytics]: New version: [8.2.9] Old Version: [8.2.8]
+[2024-06-03 01:19:01] INFO root fetch - processPackages [thoi]: Downloading https://files.pythonhosted.org/packages/06/8e/ebcaba64460678d28795f408cd4b3fc9bbb9b51048006e4577a3e33047a7/thoi-0.1.13.tar.gz
+[2024-06-03 01:19:01] INFO root fetch - processPackages [SeqLbToolkit]: Downloading https://files.pythonhosted.org/packages/e7/2f/ec77508575d7d8ec193ed4068653b7383e3f597737e827daf5d11819d2e0/SeqLbToolkit-0.5.0-py3-none-any.whl
+[2024-06-03 01:19:01] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2d/1f/773ce923d52559a9246fe5b3e4d86c67714d941216658acdb23bf9d46212/ultralytics-8.2.8.tar.gz
+[2024-06-03 01:19:01] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/05/b5/d5282294a890739666c9cd82bbbfe2729c3ce6878bf9a4f2fff07b501427/mimllearning-1.0.5.tar.gz
+[2024-06-03 01:19:01] INFO root fetch - processPackages [thoi]: Downloading https://files.pythonhosted.org/packages/de/e0/bbadf6c646d6d0d96a4fd61ddb3420fc8da8ae1628ab44531a5c094f2609/thoi-0.1.14.tar.gz
+[2024-06-03 01:19:01] INFO root fetch - processPackages [SeqLbToolkit]: Downloading https://files.pythonhosted.org/packages/25/e7/b78178f4b489afe2c3e4caa69314c32ed36f09834b9b0649e56b61f9a8b0/SeqLbToolkit-0.5.1-py3-none-any.whl
+[2024-06-03 01:19:01] INFO root fetch - processPackages [thoi]: executing diffoscope
+[2024-06-03 01:19:01] INFO root fetch - processPackages [thoi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoi-0.1.13.tar.gz tmp/thoi-0.1.14.tar.gz --markdown 20240603/t/thoi/0.1.13-0.1.14/README.md --exclude *.pyd
+[2024-06-03 01:19:01] INFO root fetch - processPackages [SeqLbToolkit]: executing diffoscope
+[2024-06-03 01:19:01] INFO root fetch - processPackages [SeqLbToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeqLbToolkit-0.5.0-py3-none-any.whl.zip tmp/SeqLbToolkit-0.5.1-py3-none-any.whl.zip --markdown 20240603/S/SeqLbToolkit/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-06-03 01:19:01] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/17/6e/89a05ffed4bbaae94368f45323ff75db71965c94c1259457ef61dc551645/ultralytics-8.2.9.tar.gz
+[2024-06-03 01:19:01] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 01:19:01] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.4.tar.gz tmp/mimllearning-1.0.5.tar.gz --markdown 20240603/m/mimllearning/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 01:19:01] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-06-03 01:19:01] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.8.tar.gz tmp/ultralytics-8.2.9.tar.gz --markdown 20240603/u/ultralytics/8.2.8-8.2.9/README.md --exclude *.pyd
+[2024-06-03 01:19:02] INFO root fetch - processPackages [SeqLbToolkit]: Remove: archive file [/home/abi/fetcher/tmp/SeqLbToolkit-0.5.0-py3-none-any.whl.zip]
+[2024-06-03 01:19:02] INFO root fetch - processPackages [SeqLbToolkit]: Remove: archive file [/home/abi/fetcher/tmp/SeqLbToolkit-0.5.1-py3-none-any.whl.zip]
+[2024-06-03 01:19:02] INFO root fetch - main [MainThread]: End processing [SeqLbToolkit]: success
+[2024-06-03 01:19:02] INFO root fetch - processPackages [thoi]: Remove: archive file [/home/abi/fetcher/tmp/thoi-0.1.13.tar.gz]
+[2024-06-03 01:19:02] INFO root fetch - processPackages [thoi]: Remove: archive file [/home/abi/fetcher/tmp/thoi-0.1.14.tar.gz]
+[2024-06-03 01:19:02] INFO root fetch - main [MainThread]: End processing [thoi]: success
+[2024-06-03 01:19:03] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.8.tar.gz]
+[2024-06-03 01:19:03] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
+[2024-06-03 01:19:03] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-06-03 01:19:03] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.4.tar.gz]
+[2024-06-03 01:19:03] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.5.tar.gz]
+[2024-06-03 01:19:03] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 01:19:03] INFO root fetch - main [MainThread]: Store serial: [23494530]
