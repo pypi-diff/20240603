@@ -529,3 +529,24 @@
 [2024-06-03 00:42:04] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.5-py3-none-any.whl.zip]
 [2024-06-03 00:42:04] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-06-03 00:42:04] INFO root fetch - main [MainThread]: Store serial: [23494338]
+[2024-06-03 00:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494338]
+[2024-06-03 00:44:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 00:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-06-03 00:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-alpaca-daily-losers
+[2024-06-03 00:44:12] INFO root fetch - processPackages [py-alpaca-daily-losers]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 00:44:12] INFO root fetch - processPackages [mimllearning]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 00:44:12] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/18/ff/8e04563a54325536544c2a48f5be00fb0fba54275e63cf31432a8316d28a/py_alpaca_daily_losers-1.0.0.tar.gz
+[2024-06-03 00:44:12] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/a7/b7/ac5f09a2990243ef2d35457cbeb236fd2969943f31f87e4f5d75b00bb08d/mimllearning-1.0.4.tar.gz
+[2024-06-03 00:44:13] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/d8/8c/776f337e8653ed822acb7d15ee1bca032e86819bae9dcfea3fc63b966bb5/py_alpaca_daily_losers-1.0.1.tar.gz
+[2024-06-03 00:44:13] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/d9/f6/62d2e585e4f7b01b9d0ce9baaaae87053720815258a2a6e7d59deffeab2e/mimllearning-1.0.5-py3-none-any.whl
+[2024-06-03 00:44:13] INFO root fetch - processPackages [py-alpaca-daily-losers]: executing diffoscope
+[2024-06-03 00:44:13] INFO root fetch - processPackages [py-alpaca-daily-losers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_daily_losers-1.0.0.tar.gz tmp/py_alpaca_daily_losers-1.0.1.tar.gz --markdown 20240603/p/py-alpaca-daily-losers/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 00:44:13] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 00:44:13] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.4.tar.gz tmp/mimllearning-1.0.5-py3-none-any.whl.zip --markdown 20240603/m/mimllearning/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 00:44:13] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-1.0.0.tar.gz]
+[2024-06-03 00:44:13] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-1.0.1.tar.gz]
+[2024-06-03 00:44:13] INFO root fetch - main [MainThread]: End processing [py-alpaca-daily-losers]: success
+[2024-06-03 00:44:14] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.4.tar.gz]
+[2024-06-03 00:44:14] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.5-py3-none-any.whl.zip]
+[2024-06-03 00:44:14] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 00:44:14] INFO root fetch - main [MainThread]: Store serial: [23494344]
