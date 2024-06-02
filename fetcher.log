@@ -1098,3 +1098,18 @@
 [2024-06-03 01:25:34] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.6.tar.gz]
 [2024-06-03 01:25:34] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-06-03 01:25:34] INFO root fetch - main [MainThread]: Store serial: [23494561]
+[2024-06-03 01:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494561]
+[2024-06-03 01:27:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 01:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-alpaca-daily-losers
+[2024-06-03 01:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: M-O-Mini-SCIKIT-Learn-AI-Project
+[2024-06-03 01:27:43] INFO root fetch - processPackages [py-alpaca-daily-losers]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 01:27:43] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/d8/8c/776f337e8653ed822acb7d15ee1bca032e86819bae9dcfea3fc63b966bb5/py_alpaca_daily_losers-1.0.1.tar.gz
+[2024-06-03 01:27:43] WARNING root fetch - processPackages [M-O-Mini-SCIKIT-Learn-AI-Project]: Skipping, unable to determine old version
+[2024-06-03 01:27:43] INFO root fetch - main [MainThread]: End processing [M-O-Mini-SCIKIT-Learn-AI-Project] error
+[2024-06-03 01:27:43] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/6b/32/4c3ad5b6ea305ee7112da8c0a61a3b8277af15d92598271b55da41146b37/py_alpaca_daily_losers-1.0.2.tar.gz
+[2024-06-03 01:27:43] INFO root fetch - processPackages [py-alpaca-daily-losers]: executing diffoscope
+[2024-06-03 01:27:43] INFO root fetch - processPackages [py-alpaca-daily-losers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_daily_losers-1.0.1.tar.gz tmp/py_alpaca_daily_losers-1.0.2.tar.gz --markdown 20240603/p/py-alpaca-daily-losers/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 01:27:44] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-1.0.1.tar.gz]
+[2024-06-03 01:27:44] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-1.0.2.tar.gz]
+[2024-06-03 01:27:44] INFO root fetch - main [MainThread]: End processing [py-alpaca-daily-losers]: success
+[2024-06-03 01:27:44] INFO root fetch - main [MainThread]: Store serial: [23494568]
