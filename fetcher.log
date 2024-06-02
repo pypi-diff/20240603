@@ -1,0 +1,12 @@
+[2024-06-03 00:00:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494120]
+[2024-06-03 00:00:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-06-03 00:00:53] INFO root fetch - processPackages [mimllearning]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 00:00:53] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/a4/9c/2c49bfd37dc0016c9ca088be78706ce2f9b173aebbaa1be2978f415be3d4/mimllearning-1.0.0.tar.gz
+[2024-06-03 00:00:53] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/68/70/27c5336e936e1c4f6fa66d7f320f70ad0ca96bd1a0e024d63f3857f72fb4/mimllearning-1.0.1.tar.gz
+[2024-06-03 00:00:53] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 00:00:53] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.0.tar.gz tmp/mimllearning-1.0.1.tar.gz --markdown 20240603/m/mimllearning/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 00:00:55] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.0.tar.gz]
+[2024-06-03 00:00:55] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.1.tar.gz]
+[2024-06-03 00:00:55] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 00:00:55] INFO root fetch - main [MainThread]: Store serial: [23494123]
