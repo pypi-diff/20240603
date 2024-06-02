@@ -1373,3 +1373,27 @@
 [2024-06-03 01:55:48] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.5.tar.gz]
 [2024-06-03 01:55:48] INFO root fetch - main [MainThread]: End processing [mini-scikit-learn]: success
 [2024-06-03 01:55:48] INFO root fetch - main [MainThread]: Store serial: [23494668]
+[2024-06-03 01:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494668]
+[2024-06-03 01:57:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Anymarket
+[2024-06-03 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-06-03 01:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sharemyai-utils
+[2024-06-03 01:57:56] INFO root fetch - processPackages [mimllearning]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-06-03 01:57:56] WARNING root fetch - processPackages [Anymarket]: Skipping, unable to determine old version
+[2024-06-03 01:57:56] INFO root fetch - main [MainThread]: End processing [Anymarket] error
+[2024-06-03 01:57:56] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/1c/c3/b8618c560004a184fe004675886e596b0ce230a491dbd2062dc031e7bc65/mimllearning-1.0.6.tar.gz
+[2024-06-03 01:57:56] INFO root fetch - processPackages [sharemyai-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 01:57:56] INFO root fetch - processPackages [sharemyai-utils]: Downloading https://files.pythonhosted.org/packages/f9/85/4d1a239d5b2310753e3641b585d5e4ca024697cf417a14227d8f78c0763c/sharemyai_utils-0.1.8.tar.gz
+[2024-06-03 01:57:56] INFO root fetch - processPackages [sharemyai-utils]: Downloading https://files.pythonhosted.org/packages/9b/8a/3c94dcbf0855c714ac43b9bfa2461fc9c88133f4787553d6fd263b38cfc6/sharemyai_utils-0.1.9.tar.gz
+[2024-06-03 01:57:56] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/05/75/9b0c53d07cb6a147636b69e974240c45e428f5100589837d0b98cd290b22/mimllearning-1.0.7.tar.gz
+[2024-06-03 01:57:57] INFO root fetch - processPackages [sharemyai-utils]: executing diffoscope
+[2024-06-03 01:57:57] INFO root fetch - processPackages [sharemyai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharemyai_utils-0.1.8.tar.gz tmp/sharemyai_utils-0.1.9.tar.gz --markdown 20240603/s/sharemyai-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 01:57:57] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 01:57:57] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.6.tar.gz tmp/mimllearning-1.0.7.tar.gz --markdown 20240603/m/mimllearning/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-06-03 01:57:57] INFO root fetch - processPackages [sharemyai-utils]: Remove: archive file [/home/abi/fetcher/tmp/sharemyai_utils-0.1.8.tar.gz]
+[2024-06-03 01:57:57] INFO root fetch - processPackages [sharemyai-utils]: Remove: archive file [/home/abi/fetcher/tmp/sharemyai_utils-0.1.9.tar.gz]
+[2024-06-03 01:57:57] INFO root fetch - main [MainThread]: End processing [sharemyai-utils]: success
+[2024-06-03 01:57:58] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.6.tar.gz]
+[2024-06-03 01:57:58] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.7.tar.gz]
+[2024-06-03 01:57:58] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 01:57:58] INFO root fetch - main [MainThread]: Store serial: [23494679]
