@@ -409,3 +409,18 @@
 [2024-06-03 00:31:13] INFO root fetch - processPackages [sportswrangler]: Remove: archive file [/home/abi/fetcher/tmp/sportswrangler-0.1.9.tar.gz]
 [2024-06-03 00:31:13] INFO root fetch - main [MainThread]: End processing [sportswrangler]: success
 [2024-06-03 00:31:13] INFO root fetch - main [MainThread]: Store serial: [23494299]
+[2024-06-03 00:33:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494299]
+[2024-06-03 00:33:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SCDB-ML-app
+[2024-06-03 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simulab
+[2024-06-03 00:33:21] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 00:33:21] WARNING root fetch - processPackages [simulab]: Skipping, unable to determine old version
+[2024-06-03 00:33:21] INFO root fetch - main [MainThread]: End processing [simulab] error
+[2024-06-03 00:33:21] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/d2/17/b9479d094ba20c060c89f87ffa04e1995a230c5bce0e20b5964116d0b3f7/scdb_ml_app-1.0.0.tar.gz
+[2024-06-03 00:33:21] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/6c/f1/bda7226e33e7a38aea7af739d10949160deb2e5bad679728d06ad998a5b7/SCDB_ML_app-1.0.1-py3-none-any.whl
+[2024-06-03 00:33:22] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 00:33:22] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdb_ml_app-1.0.0.tar.gz tmp/SCDB_ML_app-1.0.1-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 00:33:22] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/scdb_ml_app-1.0.0.tar.gz]
+[2024-06-03 00:33:22] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.1-py3-none-any.whl.zip]
+[2024-06-03 00:33:22] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 00:33:22] INFO root fetch - main [MainThread]: Store serial: [23494306]
