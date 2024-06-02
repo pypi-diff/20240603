@@ -936,3 +936,24 @@
 [2024-06-03 01:14:42] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
 [2024-06-03 01:14:42] INFO root fetch - main [MainThread]: End processing [eolymp]: success
 [2024-06-03 01:14:42] INFO root fetch - main [MainThread]: Store serial: [23494513]
+[2024-06-03 01:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494513]
+[2024-06-03 01:16:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SCDB-ML-app
+[2024-06-03 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: braidvisualiser
+[2024-06-03 01:16:51] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 01:16:51] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/b4/c7/b12e7af18b055b427965d1d82d0bf4bed87eeec13112692673ceec0b5dc0/SCDB_ML_app-1.0.2-py3-none-any.whl
+[2024-06-03 01:16:51] INFO root fetch - processPackages [braidvisualiser]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-06-03 01:16:51] INFO root fetch - processPackages [braidvisualiser]: Downloading https://files.pythonhosted.org/packages/79/a4/9a57cc76f815b06a2ac857f5e36dd773313b1c8541504b179284033c67d1/braidvisualiser-0.2.0.tar.gz
+[2024-06-03 01:16:51] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/23/98/5cec1af489fbb6cac5cd9582e1ccc418fe8113675a32d8bdd48e54c5c25d/SCDB_ML_app-1.0.3-py3-none-any.whl
+[2024-06-03 01:16:51] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 01:16:51] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.2-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.3-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 01:16:51] INFO root fetch - processPackages [braidvisualiser]: Downloading https://files.pythonhosted.org/packages/39/6e/0a3537160efbe729050b523bf6a2d9c3525ca548f40364bfa6a2d8350cd9/braidvisualiser-0.2.1.tar.gz
+[2024-06-03 01:16:51] INFO root fetch - processPackages [braidvisualiser]: executing diffoscope
+[2024-06-03 01:16:51] INFO root fetch - processPackages [braidvisualiser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braidvisualiser-0.2.0.tar.gz tmp/braidvisualiser-0.2.1.tar.gz --markdown 20240603/b/braidvisualiser/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-06-03 01:16:52] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.2-py3-none-any.whl.zip]
+[2024-06-03 01:16:52] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.3-py3-none-any.whl.zip]
+[2024-06-03 01:16:52] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 01:16:52] INFO root fetch - processPackages [braidvisualiser]: Remove: archive file [/home/abi/fetcher/tmp/braidvisualiser-0.2.0.tar.gz]
+[2024-06-03 01:16:52] INFO root fetch - processPackages [braidvisualiser]: Remove: archive file [/home/abi/fetcher/tmp/braidvisualiser-0.2.1.tar.gz]
+[2024-06-03 01:16:52] INFO root fetch - main [MainThread]: End processing [braidvisualiser]: success
+[2024-06-03 01:16:52] INFO root fetch - main [MainThread]: Store serial: [23494518]
