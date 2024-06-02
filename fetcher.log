@@ -1300,3 +1300,40 @@
 [2024-06-03 01:49:16] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.5-py3-none-any.whl.zip]
 [2024-06-03 01:49:16] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
 [2024-06-03 01:49:16] INFO root fetch - main [MainThread]: Store serial: [23494620]
+[2024-06-03 01:51:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494620]
+[2024-06-03 01:51:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SCDB-ML-app
+[2024-06-03 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene-cruddals
+[2024-06-03 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyodmongo
+[2024-06-03 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphene-cruddals
+[2024-06-03 01:51:24] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-06-03 01:51:24] INFO root fetch - processPackages [pyodmongo]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 01:51:24] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/df/e3/a344b428a45848581c60c70d4ef0be13f9b1bde1b019831ffcb922d7c62a/SCDB_ML_app-1.0.5-py3-none-any.whl
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: New version: [0.2.6] Old Version: [0.2.0]
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: New version: [0.2.6] Old Version: [0.2.0]
+[2024-06-03 01:51:25] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/b6/4d/3332a1b9b8c52e3b6e71958426914018c2a35e35405645b4c0085b6ac8bf/pyodmongo-0.9.1.tar.gz
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: Downloading https://files.pythonhosted.org/packages/9a/4f/b2809a6353fc99d9eb296f13b139f742c2a0b8c52a68501990e48923ab5e/graphene_cruddals-0.2.0.tar.gz
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: Downloading https://files.pythonhosted.org/packages/9a/4f/b2809a6353fc99d9eb296f13b139f742c2a0b8c52a68501990e48923ab5e/graphene_cruddals-0.2.0.tar.gz
+[2024-06-03 01:51:25] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/c7/1b/ed1effc3cacf5af11323ef69227617de61558af46b2e1b05be88713feeb9/SCDB_ML_app-1.0.6-py3-none-any.whl
+[2024-06-03 01:51:25] INFO root fetch - processPackages [pyodmongo]: Downloading https://files.pythonhosted.org/packages/20/8e/68a7532593ce91d5344846e4b21909a3b23ead39fdf863ea0a569ec08eca/pyodmongo-0.9.2.tar.gz
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: Downloading https://files.pythonhosted.org/packages/37/09/e83d6d24cc2f5afaa0f379b186d2633f356fdbbec848a8e839be4bf7085a/graphene_cruddals-0.2.6.tar.gz
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: Downloading https://files.pythonhosted.org/packages/37/09/e83d6d24cc2f5afaa0f379b186d2633f356fdbbec848a8e839be4bf7085a/graphene_cruddals-0.2.6.tar.gz
+[2024-06-03 01:51:25] INFO root fetch - processPackages [pyodmongo]: executing diffoscope
+[2024-06-03 01:51:25] INFO root fetch - processPackages [pyodmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodmongo-0.9.1.tar.gz tmp/pyodmongo-0.9.2.tar.gz --markdown 20240603/p/pyodmongo/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-06-03 01:51:25] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 01:51:25] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.5-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.6-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: executing diffoscope
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_cruddals-0.2.0.tar.gz tmp/graphene_cruddals-0.2.6.tar.gz --markdown 20240603/g/graphene-cruddals/0.2.0-0.2.6/README.md --exclude *.pyd
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: executing diffoscope
+[2024-06-03 01:51:25] INFO root fetch - processPackages [graphene-cruddals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_cruddals-0.2.0.tar.gz tmp/graphene_cruddals-0.2.6.tar.gz --markdown 20240603/g/graphene-cruddals/0.2.0-0.2.6/README.md --exclude *.pyd
+[2024-06-03 01:51:26] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.9.1.tar.gz]
+[2024-06-03 01:51:26] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.9.2.tar.gz]
+[2024-06-03 01:51:26] INFO root fetch - main [MainThread]: End processing [pyodmongo]: success
+[2024-06-03 01:51:26] INFO root fetch - processPackages [graphene-cruddals]: Remove: archive file [/home/abi/fetcher/tmp/graphene_cruddals-0.2.0.tar.gz]
+[2024-06-03 01:51:26] INFO root fetch - processPackages [graphene-cruddals]: Remove: archive file [/home/abi/fetcher/tmp/graphene_cruddals-0.2.6.tar.gz]
+[2024-06-03 01:51:26] INFO root fetch - main [MainThread]: End processing [graphene-cruddals]: success
+[2024-06-03 01:51:26] INFO root fetch - main [MainThread]: End processing [graphene-cruddals]: success
+[2024-06-03 01:51:26] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.5-py3-none-any.whl.zip]
+[2024-06-03 01:51:26] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.6-py3-none-any.whl.zip]
+[2024-06-03 01:51:26] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 01:51:26] INFO root fetch - main [MainThread]: Store serial: [23494630]
