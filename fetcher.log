@@ -1218,3 +1218,17 @@
 [2024-06-03 01:38:32] INFO root fetch - processPackages [polyharmonics]: Remove: archive file [/home/abi/fetcher/tmp/polyharmonics-0.3.0.tar.gz]
 [2024-06-03 01:38:32] INFO root fetch - main [MainThread]: End processing [polyharmonics]: success
 [2024-06-03 01:38:32] INFO root fetch - main [MainThread]: Store serial: [23494596]
+[2024-06-03 01:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494596]
+[2024-06-03 01:40:40] INFO root fetch - main [MainThread]: No changed packages found
+[2024-06-03 01:42:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494596]
+[2024-06-03 01:42:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 01:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipefunc
+[2024-06-03 01:42:46] INFO root fetch - processPackages [pipefunc]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-06-03 01:42:46] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/dc/02/cad08264252c99297e7606a3d50072402181d2595f9168f47de19f42103c/pipefunc-0.8.0.tar.gz
+[2024-06-03 01:42:47] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/d6/d8/c97abd147aa742f65e1eb6988f074ead5449a683baa09e792bf27505efed/pipefunc-0.9.0.tar.gz
+[2024-06-03 01:42:47] INFO root fetch - processPackages [pipefunc]: executing diffoscope
+[2024-06-03 01:42:47] INFO root fetch - processPackages [pipefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipefunc-0.8.0.tar.gz tmp/pipefunc-0.9.0.tar.gz --markdown 20240603/p/pipefunc/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-06-03 01:42:47] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.8.0.tar.gz]
+[2024-06-03 01:42:47] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.9.0.tar.gz]
+[2024-06-03 01:42:47] INFO root fetch - main [MainThread]: End processing [pipefunc]: success
+[2024-06-03 01:42:47] INFO root fetch - main [MainThread]: Store serial: [23494599]
