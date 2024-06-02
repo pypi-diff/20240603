@@ -298,3 +298,51 @@
 [2024-06-03 00:24:41] INFO root fetch - processPackages [ezfileutils]: Remove: archive file [/home/abi/fetcher/tmp/ezfileutils-1.0.53.tar.gz]
 [2024-06-03 00:24:41] INFO root fetch - main [MainThread]: End processing [ezfileutils]: success
 [2024-06-03 00:24:41] INFO root fetch - main [MainThread]: Store serial: [23494263]
+[2024-06-03 00:26:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494263]
+[2024-06-03 00:26:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 00:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camera-ui-python-types
+[2024-06-03 00:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-alpaca-api
+[2024-06-03 00:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vysp-python
+[2024-06-03 00:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prophet-tools
+[2024-06-03 00:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avrotize
+[2024-06-03 00:26:50] INFO root fetch - processPackages [vysp-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 00:26:50] INFO root fetch - processPackages [py-alpaca-api]: New version: [1.0.0] Old Version: [0.6.4]
+[2024-06-03 00:26:50] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/b4/d4/d852bc5013262e5a963b7f96512d9efc3d702b8e301ff348989e87d1cd6d/vysp_python-0.2.2.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/d3/60/6ce4fe3222a09e5451bd67e9d86cd09cbc8327ceec5b283b125278d2072f/py_alpaca_api-0.6.4.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 00:26:50] INFO root fetch - processPackages [prophet-tools]: New version: [0.96] Old Version: [0.95]
+[2024-06-03 00:26:50] INFO root fetch - processPackages [avrotize]: New version: [2.0.0] Old Version: [1.6.1]
+[2024-06-03 00:26:50] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/4b/ea/233d0b24360b50cff0f5ccf716f00b66b1209bb55538f250a362b2c031a6/vysp_python-0.2.3.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [prophet-tools]: Downloading https://files.pythonhosted.org/packages/bc/4e/9f690166621d30e758af03658117f3230a3bfb19241279a67a652fa23b72/prophet_tools-0.95.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/d6/0b/968c38da2dec0c96ec6c6ec94b2a1a35a330419c3dcb4a103dc171724a8d/avrotize-1.6.1.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [vysp-python]: executing diffoscope
+[2024-06-03 00:26:50] INFO root fetch - processPackages [vysp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysp_python-0.2.2.tar.gz tmp/vysp_python-0.2.3.tar.gz --markdown 20240603/v/vysp-python/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 00:26:50] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/45/9c/4fd56e03d656caaa069f6539414f655a24cbbbde21f5564b2b1b4e9e532e/py_alpaca_api-1.0.0.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-06-03 00:26:50] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.6.4.tar.gz tmp/py_alpaca_api-1.0.0.tar.gz --markdown 20240603/p/py-alpaca-api/0.6.4-1.0.0/README.md --exclude *.pyd
+[2024-06-03 00:26:50] INFO root fetch - processPackages [prophet-tools]: Downloading https://files.pythonhosted.org/packages/78/c1/3d4a6bd1a6e6c3f0497af601a3d8c47efefa0e7dbb5f4f5551c00cdf9a43/prophet_tools-0.96.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/58/d7/756235e2599b5d6782f33fa14c9380d46d6bda5fbef4786f3f9681660ded/avrotize-2.0.0.tar.gz
+[2024-06-03 00:26:50] INFO root fetch - processPackages [prophet-tools]: executing diffoscope
+[2024-06-03 00:26:50] INFO root fetch - processPackages [prophet-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophet_tools-0.95.tar.gz tmp/prophet_tools-0.96.tar.gz --markdown 20240603/p/prophet-tools/0.95-0.96/README.md --exclude *.pyd
+[2024-06-03 00:26:50] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-06-03 00:26:50] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240603/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 00:26:50] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-06-03 00:26:50] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.6.1.tar.gz tmp/avrotize-2.0.0.tar.gz --markdown 20240603/a/avrotize/1.6.1-2.0.0/README.md --exclude *.pyd
+[2024-06-03 00:26:51] INFO root fetch - processPackages [vysp-python]: Remove: archive file [/home/abi/fetcher/tmp/vysp_python-0.2.2.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - processPackages [vysp-python]: Remove: archive file [/home/abi/fetcher/tmp/vysp_python-0.2.3.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - main [MainThread]: End processing [vysp-python]: success
+[2024-06-03 00:26:51] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.6.4.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-1.0.0.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-06-03 00:26:51] INFO root fetch - processPackages [prophet-tools]: Remove: archive file [/home/abi/fetcher/tmp/prophet_tools-0.95.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - processPackages [prophet-tools]: Remove: archive file [/home/abi/fetcher/tmp/prophet_tools-0.96.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - main [MainThread]: End processing [prophet-tools]: success
+[2024-06-03 00:26:51] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-06-03 00:26:51] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.6.1.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
+[2024-06-03 00:26:51] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-06-03 00:26:51] INFO root fetch - main [MainThread]: Store serial: [23494277]
