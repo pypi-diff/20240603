@@ -1206,3 +1206,15 @@
 [2024-06-03 01:36:23] INFO root fetch - processPackages [gotrackit]: Remove: archive file [/home/abi/fetcher/tmp/gotrackit-0.2.9.tar.gz]
 [2024-06-03 01:36:23] INFO root fetch - main [MainThread]: End processing [gotrackit]: success
 [2024-06-03 01:36:23] INFO root fetch - main [MainThread]: Store serial: [23494593]
+[2024-06-03 01:38:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494593]
+[2024-06-03 01:38:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 01:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polyharmonics
+[2024-06-03 01:38:31] INFO root fetch - processPackages [polyharmonics]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-06-03 01:38:31] INFO root fetch - processPackages [polyharmonics]: Downloading https://files.pythonhosted.org/packages/7e/48/8ca000e27856b76b2976d028d1dea74bdab8bdfa64267fe2b91b66e2b03f/polyharmonics-0.2.1.tar.gz
+[2024-06-03 01:38:32] INFO root fetch - processPackages [polyharmonics]: Downloading https://files.pythonhosted.org/packages/9d/e8/7b974842860e5532e992de0e3d13c0afb9a04812a15a7cf4c76d21e13978/polyharmonics-0.3.0.tar.gz
+[2024-06-03 01:38:32] INFO root fetch - processPackages [polyharmonics]: executing diffoscope
+[2024-06-03 01:38:32] INFO root fetch - processPackages [polyharmonics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyharmonics-0.2.1.tar.gz tmp/polyharmonics-0.3.0.tar.gz --markdown 20240603/p/polyharmonics/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-06-03 01:38:32] INFO root fetch - processPackages [polyharmonics]: Remove: archive file [/home/abi/fetcher/tmp/polyharmonics-0.2.1.tar.gz]
+[2024-06-03 01:38:32] INFO root fetch - processPackages [polyharmonics]: Remove: archive file [/home/abi/fetcher/tmp/polyharmonics-0.3.0.tar.gz]
+[2024-06-03 01:38:32] INFO root fetch - main [MainThread]: End processing [polyharmonics]: success
+[2024-06-03 01:38:32] INFO root fetch - main [MainThread]: Store serial: [23494596]
