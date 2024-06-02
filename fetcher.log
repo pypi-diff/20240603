@@ -550,3 +550,9 @@
 [2024-06-03 00:44:14] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.5-py3-none-any.whl.zip]
 [2024-06-03 00:44:14] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-06-03 00:44:14] INFO root fetch - main [MainThread]: Store serial: [23494344]
+[2024-06-03 00:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494344]
+[2024-06-03 00:46:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 00:46:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salable
+[2024-06-03 00:46:22] WARNING root fetch - processPackages [salable]: Skipping, unable to determine old version
+[2024-06-03 00:46:22] INFO root fetch - main [MainThread]: End processing [salable] error
+[2024-06-03 00:46:22] INFO root fetch - main [MainThread]: Store serial: [23494350]
