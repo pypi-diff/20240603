@@ -1143,3 +1143,33 @@
 [2024-06-03 01:29:53] INFO root fetch - processPackages [qctrl-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_visualizer-7.1.0.tar.gz]
 [2024-06-03 01:29:53] INFO root fetch - main [MainThread]: End processing [qctrl-visualizer]: success
 [2024-06-03 01:29:53] INFO root fetch - main [MainThread]: Store serial: [23494575]
+[2024-06-03 01:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494575]
+[2024-06-03 01:32:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 01:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SCDB-ML-app
+[2024-06-03 01:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Simple-Space
+[2024-06-03 01:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hklpy2
+[2024-06-03 01:32:02] INFO root fetch - processPackages [hklpy2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 01:32:02] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-06-03 01:32:02] INFO root fetch - processPackages [Simple-Space]: New version: [2.1.0] Old Version: [1.1.0]
+[2024-06-03 01:32:02] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/82/8d/5c9570a4a75253dcdf327c259c5c6c07c03b52cb1d033e98aaaa64a7124e/hklpy2-0.0.8.tar.gz
+[2024-06-03 01:32:02] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/23/98/5cec1af489fbb6cac5cd9582e1ccc418fe8113675a32d8bdd48e54c5c25d/SCDB_ML_app-1.0.3-py3-none-any.whl
+[2024-06-03 01:32:02] INFO root fetch - processPackages [Simple-Space]: Downloading https://files.pythonhosted.org/packages/f5/b5/8a9e5768ced4733fb2ae0a56cdf3d170eb78abdbdd953d12544952ef4306/simple_space-1.1.0.tar.gz
+[2024-06-03 01:32:02] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/53/9b/f66f707afd80d550e6ae3a7275571b4ee8983e8dcdfdd13fc56f085c695d/hklpy2-0.0.9.tar.gz
+[2024-06-03 01:32:02] INFO root fetch - processPackages [Simple-Space]: Downloading https://files.pythonhosted.org/packages/2c/08/616c78def8cf5b58c15b3335744754f3f51d632ce2c1c5c0767645e6a987/Simple_Space-2.1.0-py3-none-any.whl
+[2024-06-03 01:32:02] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/4b/26/d678f16f9f15679dfb38b34ec230d29d666c29a2e742fbccdce91b99432e/SCDB_ML_app-1.0.4-py3-none-any.whl
+[2024-06-03 01:32:02] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-06-03 01:32:02] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.8.tar.gz tmp/hklpy2-0.0.9.tar.gz --markdown 20240603/h/hklpy2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 01:32:02] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 01:32:02] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.3-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.4-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-06-03 01:32:02] INFO root fetch - processPackages [Simple-Space]: executing diffoscope
+[2024-06-03 01:32:02] INFO root fetch - processPackages [Simple-Space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_space-1.1.0.tar.gz tmp/Simple_Space-2.1.0-py3-none-any.whl.zip --markdown 20240603/S/Simple-Space/1.1.0-2.1.0/README.md --exclude *.pyd
+[2024-06-03 01:32:03] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.8.tar.gz]
+[2024-06-03 01:32:03] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.9.tar.gz]
+[2024-06-03 01:32:03] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-06-03 01:32:03] INFO root fetch - processPackages [Simple-Space]: Remove: archive file [/home/abi/fetcher/tmp/simple_space-1.1.0.tar.gz]
+[2024-06-03 01:32:03] INFO root fetch - processPackages [Simple-Space]: Remove: archive file [/home/abi/fetcher/tmp/Simple_Space-2.1.0-py3-none-any.whl.zip]
+[2024-06-03 01:32:03] INFO root fetch - main [MainThread]: End processing [Simple-Space]: success
+[2024-06-03 01:32:03] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.3-py3-none-any.whl.zip]
+[2024-06-03 01:32:03] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.4-py3-none-any.whl.zip]
+[2024-06-03 01:32:03] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 01:32:03] INFO root fetch - main [MainThread]: Store serial: [23494585]
