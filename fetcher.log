@@ -622,3 +622,42 @@
 [2024-06-03 00:50:41] WARNING root fetch - processPackages [silverdog]: Skipping, unable to determine old version
 [2024-06-03 00:50:41] INFO root fetch - main [MainThread]: End processing [silverdog] error
 [2024-06-03 00:50:41] INFO root fetch - main [MainThread]: Store serial: [23494376]
+[2024-06-03 00:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494376]
+[2024-06-03 00:52:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 00:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toolk0s
+[2024-06-03 00:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plugget
+[2024-06-03 00:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odeintw
+[2024-06-03 00:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hklpy2
+[2024-06-03 00:52:49] INFO root fetch - processPackages [toolk0s]: New version: [0.4.2] Old Version: [0.4]
+[2024-06-03 00:52:49] INFO root fetch - processPackages [plugget]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 00:52:49] INFO root fetch - processPackages [hklpy2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 00:52:49] INFO root fetch - processPackages [odeintw]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-06-03 00:52:49] INFO root fetch - processPackages [toolk0s]: Downloading https://files.pythonhosted.org/packages/74/b4/a23adfc35c5e1830680da0bef14a2ead4942820b419e47760d0e5cbc44b7/toolk0s-0.4.tar.gz
+[2024-06-03 00:52:49] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/82/8d/5c9570a4a75253dcdf327c259c5c6c07c03b52cb1d033e98aaaa64a7124e/hklpy2-0.0.8.tar.gz
+[2024-06-03 00:52:50] INFO root fetch - processPackages [odeintw]: Downloading https://files.pythonhosted.org/packages/f6/9c/68e5e80c97e349889114fc11b6463f164aef6fa37fcd5596f7d8060e295f/odeintw-1.0.0.tar.gz
+[2024-06-03 00:52:50] INFO root fetch - processPackages [plugget]: Downloading https://files.pythonhosted.org/packages/cc/6d/d5c63dbf4359faf5d124ad174bed7544ee09baac0da4759638c2a3ec3bf4/plugget-0.1.8.tar.gz
+[2024-06-03 00:52:50] INFO root fetch - processPackages [toolk0s]: Downloading https://files.pythonhosted.org/packages/74/56/eec907f02447dcc8b777ed6e7573f6b24290bcd3147361f56e345b59a9c0/toolk0s-0.4.2.tar.gz
+[2024-06-03 00:52:50] INFO root fetch - processPackages [odeintw]: Downloading https://files.pythonhosted.org/packages/11/ed/a0fc80b29318937e879cb6461c6ae5612041a10046005de2c159f1c7939b/odeintw-1.0.2.tar.gz
+[2024-06-03 00:52:50] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/53/9b/f66f707afd80d550e6ae3a7275571b4ee8983e8dcdfdd13fc56f085c695d/hklpy2-0.0.9.tar.gz
+[2024-06-03 00:52:50] INFO root fetch - processPackages [toolk0s]: executing diffoscope
+[2024-06-03 00:52:50] INFO root fetch - processPackages [toolk0s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolk0s-0.4.tar.gz tmp/toolk0s-0.4.2.tar.gz --markdown 20240603/t/toolk0s/0.4-0.4.2/README.md --exclude *.pyd
+[2024-06-03 00:52:50] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-06-03 00:52:50] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.8.tar.gz tmp/hklpy2-0.0.9.tar.gz --markdown 20240603/h/hklpy2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 00:52:50] INFO root fetch - processPackages [plugget]: Downloading https://files.pythonhosted.org/packages/1b/af/5339d14030464ade1b1bb38afb62340018930a48051e60632db25d14e5e2/plugget-0.1.9.tar.gz
+[2024-06-03 00:52:50] INFO root fetch - processPackages [odeintw]: executing diffoscope
+[2024-06-03 00:52:50] INFO root fetch - processPackages [odeintw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odeintw-1.0.0.tar.gz tmp/odeintw-1.0.2.tar.gz --markdown 20240603/o/odeintw/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-06-03 00:52:50] INFO root fetch - processPackages [plugget]: executing diffoscope
+[2024-06-03 00:52:50] INFO root fetch - processPackages [plugget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugget-0.1.8.tar.gz tmp/plugget-0.1.9.tar.gz --markdown 20240603/p/plugget/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 00:52:51] INFO root fetch - processPackages [toolk0s]: Remove: archive file [/home/abi/fetcher/tmp/toolk0s-0.4.tar.gz]
+[2024-06-03 00:52:51] INFO root fetch - processPackages [toolk0s]: Remove: archive file [/home/abi/fetcher/tmp/toolk0s-0.4.2.tar.gz]
+[2024-06-03 00:52:51] INFO root fetch - main [MainThread]: End processing [toolk0s]: success
+[2024-06-03 00:52:51] INFO root fetch - processPackages [odeintw]: Remove: archive file [/home/abi/fetcher/tmp/odeintw-1.0.0.tar.gz]
+[2024-06-03 00:52:51] INFO root fetch - processPackages [odeintw]: Remove: archive file [/home/abi/fetcher/tmp/odeintw-1.0.2.tar.gz]
+[2024-06-03 00:52:51] INFO root fetch - main [MainThread]: End processing [odeintw]: success
+[2024-06-03 00:52:51] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.8.tar.gz]
+[2024-06-03 00:52:51] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.9.tar.gz]
+[2024-06-03 00:52:51] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-06-03 00:52:51] INFO root fetch - processPackages [plugget]: Remove: archive file [/home/abi/fetcher/tmp/plugget-0.1.8.tar.gz]
+[2024-06-03 00:52:51] INFO root fetch - processPackages [plugget]: Remove: archive file [/home/abi/fetcher/tmp/plugget-0.1.9.tar.gz]
+[2024-06-03 00:52:51] INFO root fetch - main [MainThread]: End processing [plugget]: success
+[2024-06-03 00:52:51] INFO root fetch - main [MainThread]: Store serial: [23494387]
