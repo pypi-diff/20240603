@@ -777,3 +777,36 @@
 [2024-06-03 01:03:49] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-06-03 01:03:49] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
 [2024-06-03 01:03:49] INFO root fetch - main [MainThread]: Store serial: [23494430]
+[2024-06-03 01:05:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494430]
+[2024-06-03 01:05:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 01:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vysp-python
+[2024-06-03 01:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowtask
+[2024-06-03 01:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc-mini-scikit-learn
+[2024-06-03 01:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2024-06-03 01:05:57] WARNING root fetch - processPackages [cc-mini-scikit-learn]: Skipping, unable to determine old version
+[2024-06-03 01:05:57] INFO root fetch - main [MainThread]: End processing [cc-mini-scikit-learn] error
+[2024-06-03 01:05:57] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240601] Old Version: [0.7.52b20240531]
+[2024-06-03 01:05:57] INFO root fetch - processPackages [vysp-python]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 01:05:58] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/1e/09/c222dc79c5f30efdd4d800e4db69cfc6654af5485dd8d09b8a03b096a62a/tmnt-0.7.52b20240531.tar.gz
+[2024-06-03 01:05:58] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/4b/ea/233d0b24360b50cff0f5ccf716f00b66b1209bb55538f250a362b2c031a6/vysp_python-0.2.3.tar.gz
+[2024-06-03 01:05:58] INFO root fetch - processPackages [flowtask]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-06-03 01:05:58] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/46/fd/75fff4674ffccc46475973df59258c62d846e87c4130285eddf1ba2bb901/flowtask-5.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 01:05:58] INFO root fetch - processPackages [vysp-python]: Downloading https://files.pythonhosted.org/packages/0d/9f/bff049f9b266f7cae18fe06711ef99ef8750fbb170bcbb80c3339b17b2ee/vysp_python-0.2.4.tar.gz
+[2024-06-03 01:05:58] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/25/4b/a3fe1ea9683553c615773cc2a401de46c45b86b797a42861456ad66d55e8/tmnt-0.7.52b20240601.tar.gz
+[2024-06-03 01:05:58] INFO root fetch - processPackages [vysp-python]: executing diffoscope
+[2024-06-03 01:05:58] INFO root fetch - processPackages [vysp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysp_python-0.2.3.tar.gz tmp/vysp_python-0.2.4.tar.gz --markdown 20240603/v/vysp-python/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 01:05:58] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-06-03 01:05:58] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240531.tar.gz tmp/tmnt-0.7.52b20240601.tar.gz --markdown 20240603/t/tmnt/0.7.52b20240531-0.7.52b20240601/README.md --exclude *.pyd
+[2024-06-03 01:05:58] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/29/74/7163ea2a085463197c6b3564295f933938ed331f98f517c7c52e778c9a9e/flowtask-5.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 01:05:59] INFO root fetch - processPackages [vysp-python]: Remove: archive file [/home/abi/fetcher/tmp/vysp_python-0.2.3.tar.gz]
+[2024-06-03 01:05:59] INFO root fetch - processPackages [vysp-python]: Remove: archive file [/home/abi/fetcher/tmp/vysp_python-0.2.4.tar.gz]
+[2024-06-03 01:05:59] INFO root fetch - main [MainThread]: End processing [vysp-python]: success
+[2024-06-03 01:05:59] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2024-06-03 01:05:59] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-5.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-5.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240603/f/flowtask/5.2.8-5.2.9/README.md --exclude *.pyd
+[2024-06-03 01:05:59] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240531.tar.gz]
+[2024-06-03 01:05:59] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240601.tar.gz]
+[2024-06-03 01:05:59] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-06-03 01:06:02] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-5.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 01:06:02] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-5.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 01:06:02] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2024-06-03 01:06:02] INFO root fetch - main [MainThread]: Store serial: [23494443]
