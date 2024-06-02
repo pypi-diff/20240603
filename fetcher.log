@@ -424,3 +424,33 @@
 [2024-06-03 00:33:22] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.1-py3-none-any.whl.zip]
 [2024-06-03 00:33:22] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
 [2024-06-03 00:33:22] INFO root fetch - main [MainThread]: Store serial: [23494306]
+[2024-06-03 00:35:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494306]
+[2024-06-03 00:35:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 00:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymkv2
+[2024-06-03 00:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeng-py-tools
+[2024-06-03 00:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcnum
+[2024-06-03 00:35:31] INFO root fetch - processPackages [dcnum]: New version: [0.21.3] Old Version: [0.21.2]
+[2024-06-03 00:35:31] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 00:35:31] INFO root fetch - processPackages [pymkv2]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-06-03 00:35:31] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/ea/4d/2c23831243f63a2b10fea912de15b1a2c59a3831531fbe0df7d8a55f4196/dcnum-0.21.2.tar.gz
+[2024-06-03 00:35:31] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-06-03 00:35:31] INFO root fetch - processPackages [pymkv2]: Downloading https://files.pythonhosted.org/packages/d1/12/32f9a1153d226765cbd81b422597cd0c4b4c95bb3a8b4fb70663b0b241fa/pymkv2-2.0.4.tar.gz
+[2024-06-03 00:35:31] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-06-03 00:35:31] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-06-03 00:35:31] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240603/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 00:35:31] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/60/11/59eb1c6dd8a9c47b75d63a74a152fb62bfbb8026017f4c51a7ae18435193/dcnum-0.21.3.tar.gz
+[2024-06-03 00:35:31] INFO root fetch - processPackages [pymkv2]: Downloading https://files.pythonhosted.org/packages/78/81/f4dd6ec8f8595fcd700f5be02ee7c9255b0c5800f7a06e137b632d85de7d/pymkv2-2.0.5.tar.gz
+[2024-06-03 00:35:31] INFO root fetch - processPackages [pymkv2]: executing diffoscope
+[2024-06-03 00:35:31] INFO root fetch - processPackages [pymkv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymkv2-2.0.4.tar.gz tmp/pymkv2-2.0.5.tar.gz --markdown 20240603/p/pymkv2/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-06-03 00:35:31] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2024-06-03 00:35:31] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.21.2.tar.gz tmp/dcnum-0.21.3.tar.gz --markdown 20240603/d/dcnum/0.21.2-0.21.3/README.md --exclude *.pyd
+[2024-06-03 00:35:32] INFO root fetch - processPackages [pymkv2]: Remove: archive file [/home/abi/fetcher/tmp/pymkv2-2.0.4.tar.gz]
+[2024-06-03 00:35:32] INFO root fetch - processPackages [pymkv2]: Remove: archive file [/home/abi/fetcher/tmp/pymkv2-2.0.5.tar.gz]
+[2024-06-03 00:35:32] INFO root fetch - main [MainThread]: End processing [pymkv2]: success
+[2024-06-03 00:35:32] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.21.2.tar.gz]
+[2024-06-03 00:35:32] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.21.3.tar.gz]
+[2024-06-03 00:35:32] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2024-06-03 00:35:32] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-06-03 00:35:32] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-06-03 00:35:32] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-06-03 00:35:32] INFO root fetch - main [MainThread]: Store serial: [23494315]
