@@ -1047,3 +1047,24 @@
 [2024-06-03 01:21:13] INFO root fetch - processPackages [wsgintegrate]: Remove: archive file [/home/abi/fetcher/tmp/wsgintegrate-0.1.5.tar.gz]
 [2024-06-03 01:21:13] INFO root fetch - main [MainThread]: End processing [wsgintegrate]: success
 [2024-06-03 01:21:13] INFO root fetch - main [MainThread]: Store serial: [23494547]
+[2024-06-03 01:23:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494547]
+[2024-06-03 01:23:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 01:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: futured
+[2024-06-03 01:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mini-scikit-learn
+[2024-06-03 01:23:22] INFO root fetch - processPackages [mini-scikit-learn]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-06-03 01:23:22] INFO root fetch - processPackages [futured]: New version: [1.5] Old Version: [1.4]
+[2024-06-03 01:23:22] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/84/a1/02a7dff5cbf61f0d39ab8b38ad63edcf72cdfa99f95e2708facd4395167d/mini_scikit_learn-0.1.3.tar.gz
+[2024-06-03 01:23:22] INFO root fetch - processPackages [futured]: Downloading https://files.pythonhosted.org/packages/cd/af/ff3a1a2f4ac4b12939a68ef08c5909c465a5ec1d051b1a2515923bb49ac8/futured-1.4.tar.gz
+[2024-06-03 01:23:22] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/b7/b4/300f3140e720d0ac9d048c5d11196628f54df9f3a338fe93fc5a910378e6/mini_scikit_learn-0.1.4.tar.gz
+[2024-06-03 01:23:22] INFO root fetch - processPackages [futured]: Downloading https://files.pythonhosted.org/packages/ab/4c/3fb3df57b2670e433197c8706347c260cb2a1df5c22917a4e6d9559b4b88/futured-1.5.tar.gz
+[2024-06-03 01:23:22] INFO root fetch - processPackages [mini-scikit-learn]: executing diffoscope
+[2024-06-03 01:23:22] INFO root fetch - processPackages [mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_scikit_learn-0.1.3.tar.gz tmp/mini_scikit_learn-0.1.4.tar.gz --markdown 20240603/m/mini-scikit-learn/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-06-03 01:23:22] INFO root fetch - processPackages [futured]: executing diffoscope
+[2024-06-03 01:23:22] INFO root fetch - processPackages [futured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/futured-1.4.tar.gz tmp/futured-1.5.tar.gz --markdown 20240603/f/futured/1.4-1.5/README.md --exclude *.pyd
+[2024-06-03 01:23:23] INFO root fetch - processPackages [futured]: Remove: archive file [/home/abi/fetcher/tmp/futured-1.4.tar.gz]
+[2024-06-03 01:23:23] INFO root fetch - processPackages [futured]: Remove: archive file [/home/abi/fetcher/tmp/futured-1.5.tar.gz]
+[2024-06-03 01:23:23] INFO root fetch - main [MainThread]: End processing [futured]: success
+[2024-06-03 01:23:23] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.3.tar.gz]
+[2024-06-03 01:23:23] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.4.tar.gz]
+[2024-06-03 01:23:23] INFO root fetch - main [MainThread]: End processing [mini-scikit-learn]: success
+[2024-06-03 01:23:23] INFO root fetch - main [MainThread]: Store serial: [23494553]
