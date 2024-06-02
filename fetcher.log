@@ -685,3 +685,24 @@
 [2024-06-03 00:55:00] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.6.tar.gz]
 [2024-06-03 00:55:00] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
 [2024-06-03 00:55:00] INFO root fetch - main [MainThread]: Store serial: [23494398]
+[2024-06-03 00:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494398]
+[2024-06-03 00:57:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 00:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raid-bench
+[2024-06-03 00:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quick-python-project
+[2024-06-03 00:57:08] INFO root fetch - processPackages [quick-python-project]: New version: [1.0.0] Old Version: [0.4.2]
+[2024-06-03 00:57:08] INFO root fetch - processPackages [quick-python-project]: Downloading https://files.pythonhosted.org/packages/8a/bf/71fb72902d9374c81637efe11549d633ea5078f8fcb8653a424f7f176264/quick_python_project-0.4.2.tar.gz
+[2024-06-03 00:57:08] INFO root fetch - processPackages [raid-bench]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-06-03 00:57:08] INFO root fetch - processPackages [quick-python-project]: Downloading https://files.pythonhosted.org/packages/97/7c/afee0f26fe39238cc3a95adefcfaefd2e537c423acc0f1c0b39a6d3c7b6d/quick_python_project-1.0.0.tar.gz
+[2024-06-03 00:57:08] INFO root fetch - processPackages [raid-bench]: Downloading https://files.pythonhosted.org/packages/ec/36/a6b8076e3f6fd2a4f664f24986daa0ff9f4edf7a786839922e6e4e2ac155/raid_bench-0.0.0.tar.gz
+[2024-06-03 00:57:08] INFO root fetch - processPackages [quick-python-project]: executing diffoscope
+[2024-06-03 00:57:08] INFO root fetch - processPackages [quick-python-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_python_project-0.4.2.tar.gz tmp/quick_python_project-1.0.0.tar.gz --markdown 20240603/q/quick-python-project/0.4.2-1.0.0/README.md --exclude *.pyd
+[2024-06-03 00:57:09] INFO root fetch - processPackages [raid-bench]: Downloading https://files.pythonhosted.org/packages/75/1b/1bfdd19b62194dfdccc26d3725a340df0fbecd07b29667275f954581431f/raid_bench-0.0.1-py3-none-any.whl
+[2024-06-03 00:57:09] INFO root fetch - processPackages [raid-bench]: executing diffoscope
+[2024-06-03 00:57:09] INFO root fetch - processPackages [raid-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raid_bench-0.0.0.tar.gz tmp/raid_bench-0.0.1-py3-none-any.whl.zip --markdown 20240603/r/raid-bench/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-06-03 00:57:09] INFO root fetch - processPackages [quick-python-project]: Remove: archive file [/home/abi/fetcher/tmp/quick_python_project-0.4.2.tar.gz]
+[2024-06-03 00:57:09] INFO root fetch - processPackages [quick-python-project]: Remove: archive file [/home/abi/fetcher/tmp/quick_python_project-1.0.0.tar.gz]
+[2024-06-03 00:57:09] INFO root fetch - main [MainThread]: End processing [quick-python-project]: success
+[2024-06-03 00:57:09] INFO root fetch - processPackages [raid-bench]: Remove: archive file [/home/abi/fetcher/tmp/raid_bench-0.0.0.tar.gz]
+[2024-06-03 00:57:09] INFO root fetch - processPackages [raid-bench]: Remove: archive file [/home/abi/fetcher/tmp/raid_bench-0.0.1-py3-none-any.whl.zip]
+[2024-06-03 00:57:09] INFO root fetch - main [MainThread]: End processing [raid-bench]: success
+[2024-06-03 00:57:09] INFO root fetch - main [MainThread]: Store serial: [23494403]
