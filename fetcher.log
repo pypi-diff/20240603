@@ -499,3 +499,33 @@
 [2024-06-03 00:39:53] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.9.2.tar.gz]
 [2024-06-03 00:39:53] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-06-03 00:39:53] INFO root fetch - main [MainThread]: Store serial: [23494332]
+[2024-06-03 00:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494332]
+[2024-06-03 00:42:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openvoice-cli
+[2024-06-03 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omop2survey
+[2024-06-03 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-06-03 00:42:01] INFO root fetch - processPackages [omop2survey]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 00:42:01] INFO root fetch - processPackages [openvoice-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 00:42:01] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/d0/3d/a88573a96f559d123cb3e1d168e45f905a3a99a738efb65bb74f949ea018/omop2survey-0.0.5.tar.gz
+[2024-06-03 00:42:02] INFO root fetch - processPackages [openvoice-cli]: Downloading https://files.pythonhosted.org/packages/dc/2f/08d05e7ec64c4e0fb23e9cc731ca95f3c7263a2570b113507a190ee96849/openvoice_cli-0.0.4.tar.gz
+[2024-06-03 00:42:02] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/40/8e/00f2e64641121c524dd7d6d01bb95ccf064bfb020b83cf52d2517311dae9/omop2survey-0.0.6.tar.gz
+[2024-06-03 00:42:02] INFO root fetch - processPackages [mimllearning]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 00:42:02] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-06-03 00:42:02] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.5.tar.gz tmp/omop2survey-0.0.6.tar.gz --markdown 20240603/o/omop2survey/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 00:42:02] INFO root fetch - processPackages [openvoice-cli]: Downloading https://files.pythonhosted.org/packages/a3/c1/2e3e8ebb1206b73d9b2eba99517792deed05cfc447e60338dfa1c5436f0c/openvoice_cli-0.0.5.tar.gz
+[2024-06-03 00:42:02] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/a7/b7/ac5f09a2990243ef2d35457cbeb236fd2969943f31f87e4f5d75b00bb08d/mimllearning-1.0.4.tar.gz
+[2024-06-03 00:42:02] INFO root fetch - processPackages [openvoice-cli]: executing diffoscope
+[2024-06-03 00:42:02] INFO root fetch - processPackages [openvoice-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvoice_cli-0.0.4.tar.gz tmp/openvoice_cli-0.0.5.tar.gz --markdown 20240603/o/openvoice-cli/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 00:42:02] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/d9/f6/62d2e585e4f7b01b9d0ce9baaaae87053720815258a2a6e7d59deffeab2e/mimllearning-1.0.5-py3-none-any.whl
+[2024-06-03 00:42:02] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.5.tar.gz]
+[2024-06-03 00:42:02] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.6.tar.gz]
+[2024-06-03 00:42:02] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-06-03 00:42:03] INFO root fetch - processPackages [openvoice-cli]: Remove: archive file [/home/abi/fetcher/tmp/openvoice_cli-0.0.4.tar.gz]
+[2024-06-03 00:42:03] INFO root fetch - processPackages [openvoice-cli]: Remove: archive file [/home/abi/fetcher/tmp/openvoice_cli-0.0.5.tar.gz]
+[2024-06-03 00:42:03] INFO root fetch - main [MainThread]: End processing [openvoice-cli]: success
+[2024-06-03 00:42:03] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 00:42:03] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.4.tar.gz tmp/mimllearning-1.0.5-py3-none-any.whl.zip --markdown 20240603/m/mimllearning/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 00:42:04] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.4.tar.gz]
+[2024-06-03 00:42:04] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.5-py3-none-any.whl.zip]
+[2024-06-03 00:42:04] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 00:42:04] INFO root fetch - main [MainThread]: Store serial: [23494338]
