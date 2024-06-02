@@ -454,3 +454,18 @@
 [2024-06-03 00:35:32] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-06-03 00:35:32] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-06-03 00:35:32] INFO root fetch - main [MainThread]: Store serial: [23494315]
+[2024-06-03 00:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494315]
+[2024-06-03 00:37:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 00:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runevery
+[2024-06-03 00:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gplugins
+[2024-06-03 00:37:41] WARNING root fetch - processPackages [runevery]: Skipping, unable to determine old version
+[2024-06-03 00:37:41] INFO root fetch - main [MainThread]: End processing [runevery] error
+[2024-06-03 00:37:41] INFO root fetch - processPackages [gplugins]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 00:37:41] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/fa/65/d1d3c483fca66a8c6a47ce3657f5b7ddde9f75b4c029056096b4081bc307/gplugins-0.9.8.tar.gz
+[2024-06-03 00:37:41] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/8d/d1/6b532d5fd395ef4336d1e02c79051117722712aa3fcf6ca51f764a1e4d7d/gplugins-0.9.9.tar.gz
+[2024-06-03 00:37:42] INFO root fetch - processPackages [gplugins]: executing diffoscope
+[2024-06-03 00:37:42] INFO root fetch - processPackages [gplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gplugins-0.9.8.tar.gz tmp/gplugins-0.9.9.tar.gz --markdown 20240603/g/gplugins/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 00:37:43] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.9.8.tar.gz]
+[2024-06-03 00:37:43] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.9.9.tar.gz]
+[2024-06-03 00:37:43] INFO root fetch - main [MainThread]: End processing [gplugins]: success
+[2024-06-03 00:37:43] INFO root fetch - main [MainThread]: Store serial: [23494323]
