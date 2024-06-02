@@ -1279,3 +1279,24 @@
 [2024-06-03 01:47:06] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240602.430.tar.gz]
 [2024-06-03 01:47:06] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-06-03 01:47:06] INFO root fetch - main [MainThread]: Store serial: [23494617]
+[2024-06-03 01:49:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494617]
+[2024-06-03 01:49:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owega
+[2024-06-03 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SCDB-ML-app
+[2024-06-03 01:49:14] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 01:49:14] INFO root fetch - processPackages [owega]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-06-03 01:49:14] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/4b/26/d678f16f9f15679dfb38b34ec230d29d666c29a2e742fbccdce91b99432e/SCDB_ML_app-1.0.4-py3-none-any.whl
+[2024-06-03 01:49:14] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/fd/0e/5545ead0b5918c5ba6daea5b2ac76ba0c1beb20095a8b8525f453b9bcb7f/owega-5.9.2.tar.gz
+[2024-06-03 01:49:15] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/df/e3/a344b428a45848581c60c70d4ef0be13f9b1bde1b019831ffcb922d7c62a/SCDB_ML_app-1.0.5-py3-none-any.whl
+[2024-06-03 01:49:15] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/f9/5e/d6afc1d6b670fa9d3e230f41c82f98568c29f16e32cdfd68b1e5770e6d7f/owega-5.9.3.tar.gz
+[2024-06-03 01:49:15] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-06-03 01:49:15] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.9.2.tar.gz tmp/owega-5.9.3.tar.gz --markdown 20240603/o/owega/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-06-03 01:49:15] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 01:49:15] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.4-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.5-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 01:49:16] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.9.2.tar.gz]
+[2024-06-03 01:49:16] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.9.3.tar.gz]
+[2024-06-03 01:49:16] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-06-03 01:49:16] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.4-py3-none-any.whl.zip]
+[2024-06-03 01:49:16] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.5-py3-none-any.whl.zip]
+[2024-06-03 01:49:16] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 01:49:16] INFO root fetch - main [MainThread]: Store serial: [23494620]
