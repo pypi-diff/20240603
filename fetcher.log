@@ -346,3 +346,45 @@
 [2024-06-03 00:26:51] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
 [2024-06-03 00:26:51] INFO root fetch - main [MainThread]: End processing [avrotize]: success
 [2024-06-03 00:26:51] INFO root fetch - main [MainThread]: Store serial: [23494277]
+[2024-06-03 00:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494277]
+[2024-06-03 00:29:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 00:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remote-utils
+[2024-06-03 00:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openhomedevice
+[2024-06-03 00:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copilothistoryexporter
+[2024-06-03 00:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-tmmis
+[2024-06-03 00:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimllearning
+[2024-06-03 00:29:00] INFO root fetch - processPackages [copilothistoryexporter]: New version: [1.0.3.6] Old Version: [1.0.3.5]
+[2024-06-03 00:29:00] INFO root fetch - processPackages [django-tmmis]: New version: [0.3.7.dev3] Old Version: [0.3.7.dev2]
+[2024-06-03 00:29:00] INFO root fetch - processPackages [mimllearning]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 00:29:00] INFO root fetch - processPackages [openhomedevice]: New version: [2.3] Old Version: [2.2]
+[2024-06-03 00:29:00] WARNING root fetch - processPackages [remote-utils]: Skipping, unable to determine old version
+[2024-06-03 00:29:00] INFO root fetch - main [MainThread]: End processing [remote-utils] error
+[2024-06-03 00:29:00] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/77/4c/980f90f1b38c2cb7cca8bca8a8bd0c760604cfc55dda231575d18c5573bc/django_tmmis-0.3.7.dev2.tar.gz
+[2024-06-03 00:29:00] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/58/b3/4ba3119cb784db5419b661dbc6c47fbb981da92717c60980f2532d0760ed/copilothistoryexporter-1.0.3.5.tar.gz
+[2024-06-03 00:29:00] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/57/b7/d4def1495ce2c5e60adc1873d16324219d98c0491ba1717990559b9061e3/mimllearning-1.0.2.tar.gz
+[2024-06-03 00:29:00] INFO root fetch - processPackages [openhomedevice]: Downloading https://files.pythonhosted.org/packages/5b/28/d63f5c2d911b38daa5cab40dd83be4f7eb1bcbf4c60f24308cf364f2d695/openhomedevice-2.2.tar.gz
+[2024-06-03 00:29:01] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/ae/90/bf002b9e2dc73c08004ae0eb461c4c89ade78d19a7b7f8a1e4697337b84f/copilothistoryexporter-1.0.3.6.tar.gz
+[2024-06-03 00:29:01] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/e0/2b/0dd81966a584bcc4b2737d9e40d2d75b321323b961e7d0674d2e6643ad6b/django_tmmis-0.3.7.dev3.tar.gz
+[2024-06-03 00:29:01] INFO root fetch - processPackages [copilothistoryexporter]: executing diffoscope
+[2024-06-03 00:29:01] INFO root fetch - processPackages [copilothistoryexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copilothistoryexporter-1.0.3.5.tar.gz tmp/copilothistoryexporter-1.0.3.6.tar.gz --markdown 20240603/c/copilothistoryexporter/1.0.3.5-1.0.3.6/README.md --exclude *.pyd
+[2024-06-03 00:29:01] INFO root fetch - processPackages [django-tmmis]: executing diffoscope
+[2024-06-03 00:29:01] INFO root fetch - processPackages [django-tmmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tmmis-0.3.7.dev2.tar.gz tmp/django_tmmis-0.3.7.dev3.tar.gz --markdown 20240603/d/django-tmmis/0.3.7.dev2-0.3.7.dev3/README.md --exclude *.pyd
+[2024-06-03 00:29:01] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/f1/7a/f9f5c2fd8e710e02696b19da2a4b4c32b77059cea8d6324e14801894153f/mimllearning-1.0.3.tar.gz
+[2024-06-03 00:29:01] INFO root fetch - processPackages [openhomedevice]: Downloading https://files.pythonhosted.org/packages/8c/b8/2e95c93581f687259aade8b53017aeb010ff6b898f8206546c927abd9bd8/openhomedevice-2.3.tar.gz
+[2024-06-03 00:29:01] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 00:29:01] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.2.tar.gz tmp/mimllearning-1.0.3.tar.gz --markdown 20240603/m/mimllearning/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 00:29:01] INFO root fetch - processPackages [openhomedevice]: executing diffoscope
+[2024-06-03 00:29:01] INFO root fetch - processPackages [openhomedevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhomedevice-2.2.tar.gz tmp/openhomedevice-2.3.tar.gz --markdown 20240603/o/openhomedevice/2.2-2.3/README.md --exclude *.pyd
+[2024-06-03 00:29:01] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.0.3.5.tar.gz]
+[2024-06-03 00:29:01] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.0.3.6.tar.gz]
+[2024-06-03 00:29:01] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter]: success
+[2024-06-03 00:29:01] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev2.tar.gz]
+[2024-06-03 00:29:01] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev3.tar.gz]
+[2024-06-03 00:29:01] INFO root fetch - main [MainThread]: End processing [django-tmmis]: success
+[2024-06-03 00:29:02] INFO root fetch - processPackages [openhomedevice]: Remove: archive file [/home/abi/fetcher/tmp/openhomedevice-2.2.tar.gz]
+[2024-06-03 00:29:02] INFO root fetch - processPackages [openhomedevice]: Remove: archive file [/home/abi/fetcher/tmp/openhomedevice-2.3.tar.gz]
+[2024-06-03 00:29:02] INFO root fetch - main [MainThread]: End processing [openhomedevice]: success
+[2024-06-03 00:29:03] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.2.tar.gz]
+[2024-06-03 00:29:03] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.3.tar.gz]
+[2024-06-03 00:29:03] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 00:29:03] INFO root fetch - main [MainThread]: Store serial: [23494292]
