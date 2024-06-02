@@ -864,3 +864,42 @@
 [2024-06-03 01:10:21] INFO root fetch - processPackages [ambient-backend-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ambient_backend_api_client-0.1.9.tar.gz]
 [2024-06-03 01:10:21] INFO root fetch - main [MainThread]: End processing [ambient-backend-api-client]: success
 [2024-06-03 01:10:21] INFO root fetch - main [MainThread]: Store serial: [23494462]
+[2024-06-03 01:12:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494462]
+[2024-06-03 01:12:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 01:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hklpy2
+[2024-06-03 01:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polylatlib
+[2024-06-03 01:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyslsqp
+[2024-06-03 01:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: custom-json-diff
+[2024-06-03 01:12:29] INFO root fetch - processPackages [hklpy2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 01:12:30] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/82/8d/5c9570a4a75253dcdf327c259c5c6c07c03b52cb1d033e98aaaa64a7124e/hklpy2-0.0.8.tar.gz
+[2024-06-03 01:12:30] INFO root fetch - processPackages [polylatlib]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 01:12:30] INFO root fetch - processPackages [pyslsqp]: New version: [0.1.0b0] Old Version: [0.1.0a0]
+[2024-06-03 01:12:30] INFO root fetch - processPackages [custom-json-diff]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-06-03 01:12:30] INFO root fetch - processPackages [polylatlib]: Downloading https://files.pythonhosted.org/packages/5d/87/4bb7e979651fd5e23318d743e124a7d639a8d63f121f70a4fd2d23a92822/polylatlib-1.0.2.tar.gz
+[2024-06-03 01:12:30] INFO root fetch - processPackages [pyslsqp]: Downloading https://files.pythonhosted.org/packages/32/aa/4bd636b35fbad5450d9f5ea4264187f737d87eb70a3d847a2f45f54930eb/pyslsqp-0.1.0a0.tar.gz
+[2024-06-03 01:12:30] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/53/9b/f66f707afd80d550e6ae3a7275571b4ee8983e8dcdfdd13fc56f085c695d/hklpy2-0.0.9.tar.gz
+[2024-06-03 01:12:30] INFO root fetch - processPackages [custom-json-diff]: Downloading https://files.pythonhosted.org/packages/2a/78/e05bbaf25d465ae4545a95180755e437f42c320ec20253ef78da075331fb/custom_json_diff-0.5.0.tar.gz
+[2024-06-03 01:12:30] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-06-03 01:12:30] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.8.tar.gz tmp/hklpy2-0.0.9.tar.gz --markdown 20240603/h/hklpy2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 01:12:30] INFO root fetch - processPackages [polylatlib]: Downloading https://files.pythonhosted.org/packages/d1/54/067b998116779c05ade10b62761438880c108e41c8585dd9eb46c0595d17/polylatlib-1.0.3.tar.gz
+[2024-06-03 01:12:30] INFO root fetch - processPackages [custom-json-diff]: Downloading https://files.pythonhosted.org/packages/8a/8f/54a66644bf34304bbe37f700d1a0ff6450ba35fb7a9958cf7ef35eb81ccf/custom_json_diff-0.6.0.tar.gz
+[2024-06-03 01:12:30] INFO root fetch - processPackages [polylatlib]: executing diffoscope
+[2024-06-03 01:12:30] INFO root fetch - processPackages [polylatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polylatlib-1.0.2.tar.gz tmp/polylatlib-1.0.3.tar.gz --markdown 20240603/p/polylatlib/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 01:12:30] INFO root fetch - processPackages [custom-json-diff]: executing diffoscope
+[2024-06-03 01:12:30] INFO root fetch - processPackages [custom-json-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_json_diff-0.5.0.tar.gz tmp/custom_json_diff-0.6.0.tar.gz --markdown 20240603/c/custom-json-diff/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-06-03 01:12:30] INFO root fetch - processPackages [pyslsqp]: Downloading https://files.pythonhosted.org/packages/2b/0e/fb8d619b8dcd777b54ed64422ca68b8cfaeb73326167c766284f198c5f8d/pyslsqp-0.1.0b0.tar.gz
+[2024-06-03 01:12:31] INFO root fetch - processPackages [pyslsqp]: executing diffoscope
+[2024-06-03 01:12:31] INFO root fetch - processPackages [pyslsqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslsqp-0.1.0a0.tar.gz tmp/pyslsqp-0.1.0b0.tar.gz --markdown 20240603/p/pyslsqp/0.1.0a0-0.1.0b0/README.md --exclude *.pyd
+[2024-06-03 01:12:31] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.8.tar.gz]
+[2024-06-03 01:12:31] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.9.tar.gz]
+[2024-06-03 01:12:31] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-06-03 01:12:31] INFO root fetch - processPackages [polylatlib]: Remove: archive file [/home/abi/fetcher/tmp/polylatlib-1.0.2.tar.gz]
+[2024-06-03 01:12:31] INFO root fetch - processPackages [polylatlib]: Remove: archive file [/home/abi/fetcher/tmp/polylatlib-1.0.3.tar.gz]
+[2024-06-03 01:12:31] INFO root fetch - main [MainThread]: End processing [polylatlib]: success
+[2024-06-03 01:12:31] INFO root fetch - processPackages [custom-json-diff]: Remove: archive file [/home/abi/fetcher/tmp/custom_json_diff-0.5.0.tar.gz]
+[2024-06-03 01:12:31] INFO root fetch - processPackages [custom-json-diff]: Remove: archive file [/home/abi/fetcher/tmp/custom_json_diff-0.6.0.tar.gz]
+[2024-06-03 01:12:31] INFO root fetch - main [MainThread]: End processing [custom-json-diff]: success
+[2024-06-03 01:12:31] INFO root fetch - processPackages [pyslsqp]: Remove: archive file [/home/abi/fetcher/tmp/pyslsqp-0.1.0a0.tar.gz]
+[2024-06-03 01:12:31] INFO root fetch - processPackages [pyslsqp]: Remove: archive file [/home/abi/fetcher/tmp/pyslsqp-0.1.0b0.tar.gz]
+[2024-06-03 01:12:31] INFO root fetch - main [MainThread]: End processing [pyslsqp]: success
+[2024-06-03 01:12:31] INFO root fetch - main [MainThread]: Store serial: [23494498]
