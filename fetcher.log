@@ -9460,3 +9460,53 @@ EOFError: EOF read where object expected
 [2024-06-03 10:03:24] INFO root fetch - processPackages [bclib]: Remove: archive file [/home/abi/fetcher/tmp/bclib-3.9.1.tar.gz]
 [2024-06-03 10:03:24] INFO root fetch - main [MainThread]: End processing [bclib]: success
 [2024-06-03 10:03:24] INFO root fetch - main [MainThread]: Store serial: [23498179]
+[2024-06-03 10:05:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498179]
+[2024-06-03 10:05:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 10:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autolint
+[2024-06-03 10:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ewatercycle
+[2024-06-03 10:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molgenis-py-bbmri-eric
+[2024-06-03 10:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfun
+[2024-06-03 10:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dingosdk
+[2024-06-03 10:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: benchmark-runner
+[2024-06-03 10:05:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-ab6459
+[2024-06-03 10:05:33] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 10:05:33] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-06-03 10:05:33] WARNING root fetch - processPackages [mkdocs-ab6459]: Skipping, unable to determine old version
+[2024-06-03 10:05:33] INFO root fetch - main [MainThread]: End processing [mkdocs-ab6459] error
+[2024-06-03 10:05:33] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240602] Old Version: [0.0.2.dev20240601]
+[2024-06-03 10:05:33] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2024-06-03 10:05:33] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-06-03 10:05:33] WARNING root fetch - processPackages [autolint]: Skipping, unable to determine old version
+[2024-06-03 10:05:33] INFO root fetch - main [MainThread]: End processing [autolint] error
+[2024-06-03 10:05:33] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-06-03 10:05:33] INFO root fetch - processPackages [ewatercycle]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-06-03 10:05:33] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/19/82/70c477a9a2f355e61616a35d08c17d78be6b4175d27483ddee0b8387a6df/langfun-0.0.2.dev20240601.tar.gz
+[2024-06-03 10:05:33] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-06-03 10:05:33] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-06-03 10:05:34] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2024-06-03 10:05:34] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/55/e0/24290eb827939ce28ad443ab501a1de5c78477b51893febb32a6076230db/molgenis-py-bbmri-eric-1.8.0.tar.gz
+[2024-06-03 10:05:34] INFO root fetch - processPackages [ewatercycle]: Downloading https://files.pythonhosted.org/packages/0f/26/3a7166fc0373135083e0eca08e6abb7469f7c308581591c48118e992fb09/ewatercycle-2.1.0.tar.gz
+[2024-06-03 10:05:34] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2024-06-03 10:05:34] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20240603/b/benchmark-runner/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 10:05:34] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/f9/fc/824920f96da1e188663cb18df59ee4622d28a1bae9ee2b7e31f7d792793b/langfun-0.0.2.dev20240602.tar.gz
+[2024-06-03 10:05:34] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-06-03 10:05:34] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240601.tar.gz tmp/langfun-0.0.2.dev20240602.tar.gz --markdown 20240603/l/langfun/0.0.2.dev20240601-0.0.2.dev20240602/README.md --exclude *.pyd
+[2024-06-03 10:05:34] INFO root fetch - processPackages [ewatercycle]: Downloading https://files.pythonhosted.org/packages/3e/3c/7742e23ad7c0b72fe87455cd089764527d45ca5ab076f8a6ef1c829320ea/ewatercycle-2.1.1.tar.gz
+[2024-06-03 10:05:34] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Downloading https://files.pythonhosted.org/packages/4f/1a/131ad33a5603630c7855f8913a04402a5d52300cfdfad2aa7cae84988fcf/molgenis-py-bbmri-eric-1.9.0.tar.gz
+[2024-06-03 10:05:34] INFO root fetch - processPackages [ewatercycle]: executing diffoscope
+[2024-06-03 10:05:34] INFO root fetch - processPackages [ewatercycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewatercycle-2.1.0.tar.gz tmp/ewatercycle-2.1.1.tar.gz --markdown 20240603/e/ewatercycle/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-06-03 10:05:34] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: executing diffoscope
+[2024-06-03 10:05:34] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz --markdown 20240603/m/molgenis-py-bbmri-eric/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-06-03 10:05:35] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2024-06-03 10:05:35] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2024-06-03 10:05:35] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2024-06-03 10:05:35] INFO root fetch - processPackages [ewatercycle]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle-2.1.0.tar.gz]
+[2024-06-03 10:05:35] INFO root fetch - processPackages [ewatercycle]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle-2.1.1.tar.gz]
+[2024-06-03 10:05:35] INFO root fetch - main [MainThread]: End processing [ewatercycle]: success
+[2024-06-03 10:05:35] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240601.tar.gz]
+[2024-06-03 10:05:35] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240602.tar.gz]
+[2024-06-03 10:05:35] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-06-03 10:05:35] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.8.0.tar.gz]
+[2024-06-03 10:05:35] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz]
+[2024-06-03 10:05:35] INFO root fetch - main [MainThread]: End processing [molgenis-py-bbmri-eric]: success
+[2024-06-03 10:05:35] INFO root fetch - main [MainThread]: Store serial: [23498198]
