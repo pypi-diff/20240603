@@ -24356,3 +24356,60 @@ EOFError: EOF read where object expected
 [2024-06-03 16:58:26] INFO root fetch - processPackages [nista-library]: Remove: archive file [/home/abi/fetcher/tmp/nista_library-5.0.0.tar.gz]
 [2024-06-03 16:58:26] INFO root fetch - main [MainThread]: End processing [nista-library]: success
 [2024-06-03 16:58:26] INFO root fetch - main [MainThread]: Store serial: [23504749]
+[2024-06-03 17:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504749]
+[2024-06-03 17:00:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 17:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muttfuzz
+[2024-06-03 17:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krux
+[2024-06-03 17:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cosmic-crisp
+[2024-06-03 17:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moonstreamdb-v3
+[2024-06-03 17:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Agentic-Reports
+[2024-06-03 17:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imsciences
+[2024-06-03 17:00:36] INFO root fetch - processPackages [cosmic-crisp]: New version: [0.1.0.dev20240603133753] Old Version: [0.1.0.dev20240603133038]
+[2024-06-03 17:00:36] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 17:00:36] INFO root fetch - processPackages [muttfuzz]: New version: [0.9.1] Old Version: [0.8.9]
+[2024-06-03 17:00:36] INFO root fetch - processPackages [imsciences]: New version: [0.5.8.5] Old Version: [0.5.8.4]
+[2024-06-03 17:00:36] INFO root fetch - processPackages [moonstreamdb-v3]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 17:00:36] INFO root fetch - processPackages [krux]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 17:00:36] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/24/88/d3bcbf56b58dc9dfc289c658ee96123053be472676f1f6f646b6c428f45b/imsciences-0.5.8.4.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/7b/30/1eab06b63e78167400aafb082325c4840cf26341e63c75211c84b8046f02/cosmic_crisp-0.1.0.dev20240603133038.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/3e/70/3ecf10505ff6c2c47a2888ce989a7fcc775103a834ed7d4ad590af752259/muttfuzz-0.8.9-py3-none-any.whl
+[2024-06-03 17:00:36] INFO root fetch - processPackages [krux]: Downloading https://files.pythonhosted.org/packages/cd/fe/c3b50f6170b2adc49ea549ef4b44a4b4a4751ab7f461b3c0f03d79357dea/krux-0.0.8.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/07/0a/ee9853642111e78da9b41f03ce4021186f05bc2bf7f83420f1c9f3bef7cc/imsciences-0.5.8.5.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/b4/ab/c549e0cfb8f0d4997f5d23c7a9e9364f7de85bbec7537aeec51bcb6579f6/moonstreamdb-v3-0.0.6.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/5b/92/44b18eba5d6adf17c07da2776ad015af9ac39d3e55eaf36f736e094a759b/Agentic-Reports-0.0.9.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/cc/f3/ded49bb5d26d3938cf5d0d9834456e1b25d79551ee0dcc7a761f7527e4a3/muttfuzz-0.9.1-py3-none-any.whl
+[2024-06-03 17:00:36] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/24/aa/bd211ccc56619a50f5fbaa0be87243a2a42c7a07a426f9f35938a465e964/cosmic_crisp-0.1.0.dev20240603133753.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-06-03 17:00:36] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.8.4.tar.gz tmp/imsciences-0.5.8.5.tar.gz --markdown 20240603/i/imsciences/0.5.8.4-0.5.8.5/README.md --exclude *.pyd
+[2024-06-03 17:00:36] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 17:00:36] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.8.tar.gz tmp/Agentic-Reports-0.0.9.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 17:00:36] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-06-03 17:00:36] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.9-py3-none-any.whl.zip tmp/muttfuzz-0.9.1-py3-none-any.whl.zip --markdown 20240603/m/muttfuzz/0.8.9-0.9.1/README.md --exclude *.pyd
+[2024-06-03 17:00:36] INFO root fetch - processPackages [cosmic-crisp]: executing diffoscope
+[2024-06-03 17:00:36] INFO root fetch - processPackages [cosmic-crisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmic_crisp-0.1.0.dev20240603133038.tar.gz tmp/cosmic_crisp-0.1.0.dev20240603133753.tar.gz --markdown 20240603/c/cosmic-crisp/0.1.0.dev20240603133038-0.1.0.dev20240603133753/README.md --exclude *.pyd
+[2024-06-03 17:00:36] INFO root fetch - processPackages [krux]: Downloading https://files.pythonhosted.org/packages/97/ac/fb12a05b444ec1f9f8f27dab5ebba8b3380ba5ec17de5839b1138c691e94/krux-0.0.9.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/42/bc/62ec7b085e7d42422c09637e7bfc4d8cfe3c37723868f0e4abacf509b5cc/moonstreamdb-v3-0.0.7.tar.gz
+[2024-06-03 17:00:36] INFO root fetch - processPackages [krux]: executing diffoscope
+[2024-06-03 17:00:36] INFO root fetch - processPackages [krux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krux-0.0.8.tar.gz tmp/krux-0.0.9.tar.gz --markdown 20240603/k/krux/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 17:00:36] INFO root fetch - processPackages [moonstreamdb-v3]: executing diffoscope
+[2024-06-03 17:00:36] INFO root fetch - processPackages [moonstreamdb-v3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-v3-0.0.6.tar.gz tmp/moonstreamdb-v3-0.0.7.tar.gz --markdown 20240603/m/moonstreamdb-v3/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 17:00:37] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.9-py3-none-any.whl.zip]
+[2024-06-03 17:00:37] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.9.1-py3-none-any.whl.zip]
+[2024-06-03 17:00:37] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-06-03 17:00:37] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.4.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.5.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-06-03 17:00:37] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.8.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.9.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 17:00:37] INFO root fetch - processPackages [krux]: Remove: archive file [/home/abi/fetcher/tmp/krux-0.0.8.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - processPackages [krux]: Remove: archive file [/home/abi/fetcher/tmp/krux-0.0.9.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - main [MainThread]: End processing [krux]: success
+[2024-06-03 17:00:37] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240603133038.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240603133753.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - main [MainThread]: End processing [cosmic-crisp]: success
+[2024-06-03 17:00:37] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.6.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.7.tar.gz]
+[2024-06-03 17:00:37] INFO root fetch - main [MainThread]: End processing [moonstreamdb-v3]: success
+[2024-06-03 17:00:37] INFO root fetch - main [MainThread]: Store serial: [23504767]
