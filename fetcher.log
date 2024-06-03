@@ -1409,3 +1409,17 @@
 [2024-06-03 02:00:08] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.1.6.tar.gz]
 [2024-06-03 02:00:08] INFO root fetch - main [MainThread]: End processing [rstms-cloudflare]: success
 [2024-06-03 02:00:08] INFO root fetch - main [MainThread]: Store serial: [23494682]
+[2024-06-03 02:02:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494682]
+[2024-06-03 02:02:16] INFO root fetch - main [MainThread]: No changed packages found
+[2024-06-03 02:04:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494682]
+[2024-06-03 02:04:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 02:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bwalign
+[2024-06-03 02:04:21] INFO root fetch - processPackages [bwalign]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-06-03 02:04:22] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/df/16/685b207e162ba675e2ce76a5356c71f873c31aaafaf3af0ea349ac64e628/bwalign-0.1.0.tar.gz
+[2024-06-03 02:04:22] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/77/4b/dcab7a4fdfce34efb5ab20637c9782c0d5488e626aa1c01f1b8a818562ca/bwalign-1.0.0.tar.gz
+[2024-06-03 02:04:22] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 02:04:22] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-0.1.0.tar.gz tmp/bwalign-1.0.0.tar.gz --markdown 20240603/b/bwalign/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-06-03 02:04:23] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-0.1.0.tar.gz]
+[2024-06-03 02:04:23] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.0.tar.gz]
+[2024-06-03 02:04:23] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 02:04:23] INFO root fetch - main [MainThread]: Store serial: [23494684]
