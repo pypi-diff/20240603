@@ -15227,3 +15227,92 @@ EOFError: EOF read where object expected
 [2024-06-03 13:00:25] INFO root fetch - processPackages [SNAKES]: Remove: archive file [/home/abi/fetcher/tmp/SNAKES-0.9.33.tar.gz]
 [2024-06-03 13:00:25] INFO root fetch - main [MainThread]: End processing [SNAKES]: success
 [2024-06-03 13:00:25] INFO root fetch - main [MainThread]: Store serial: [23500854]
+[2024-06-03 13:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500854]
+[2024-06-03 13:02:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-elasticsearch
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SimpleDomControl
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-lindorm
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: delphai-fastapi
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apiAmoCRM
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aquacrop
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-threatdetection
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-ads-api-report-fetcher
+[2024-06-03 13:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quotesgeneratorapi-wrapper
+[2024-06-03 13:02:34] INFO root fetch - processPackages [quotesgeneratorapi-wrapper]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [SimpleDomControl]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [ros-cdk-elasticsearch]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [aquacrop]: New version: [3.0.8] Old Version: [3.0.7]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [ros-cdk-lindorm]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [delphai-fastapi]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [quotesgeneratorapi-wrapper]: Downloading https://files.pythonhosted.org/packages/5f/fd/7bf840750efadc1f4aef9c42798901685513ce1aedd762a28f04638ae11b/quotesgeneratorapi_wrapper-0.5.0.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [SimpleDomControl]: Downloading https://files.pythonhosted.org/packages/d2/1b/a1ae373e60a536f4f6cace949486b4a840088033dc6d6f0505a4f6e856fd/simpledomcontrol-0.5.0.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/fb/12/41d035dca836b0c784b51f4239b44551119d1e3290502f6add8232148ea2/apiamocrm-0.1.8.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-06-03 13:02:35] INFO root fetch - processPackages [ros-cdk-threatdetection]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:02:35] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Downloading https://files.pythonhosted.org/packages/f4/93/d73d5ab7d854f0c866e9d1cdbdebf0be8e476e6d9be9e553db2cbfc83c33/ros-cdk-elasticsearch-1.0.8.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/ec/00/09c3fa1c2e9fe8e2059ea9293d10137c7fc914c64babf227ad24d6e8c644/delphai_fastapi-3.0.6.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [aquacrop]: Downloading https://files.pythonhosted.org/packages/48/ea/49bc30826d287e4638d8b9c16b08268610d999d281fdee9d0cf0697318c2/aquacrop-3.0.7.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/93/6f/4237c1e90769aeb1734b5248cf2ad8ed3c3f4fc995dbeb31e73046bac21e/ros-cdk-lindorm-1.0.24.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/1b/27/ec01b48d2d0e7abcce4c6191a9af4e249beb0195733d0a79b8a0cd95c2d5/apiamocrm-0.1.9.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [quotesgeneratorapi-wrapper]: Downloading https://files.pythonhosted.org/packages/22/8c/b4264abffdd26e41f8a2268375cbfaa05df9a4740d31c2bb9573bbc44929/quotesgeneratorapi_wrapper-0.6.0.tar.gz
+[2024-06-03 13:02:35] WARNING root fetch - processPackages [aquacrop]: Skipping package: exceeds size limit 10619263>=10485760
+[2024-06-03 13:02:35] INFO root fetch - main [MainThread]: End processing [aquacrop] error
+[2024-06-03 13:02:35] INFO root fetch - processPackages [SimpleDomControl]: Downloading https://files.pythonhosted.org/packages/a3/ac/6b5f5ced2d5be6ce59661afed9a2e09adb70d0a12b54b65ac57db73b171b/simpledomcontrol-0.5.1.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [ros-cdk-threatdetection]: Downloading https://files.pythonhosted.org/packages/0d/10/2e15342ce37113cf63c54e304c4e3bbd84c6dade73155a4a261aa331bfee/ros-cdk-threatdetection-1.0.24.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-06-03 13:02:35] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.8.tar.gz tmp/apiamocrm-0.1.9.tar.gz --markdown 20240603/a/apiAmoCRM/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 13:02:35] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-06-03 13:02:35] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240603/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-06-03 13:02:35] INFO root fetch - processPackages [quotesgeneratorapi-wrapper]: executing diffoscope
+[2024-06-03 13:02:35] INFO root fetch - processPackages [quotesgeneratorapi-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quotesgeneratorapi_wrapper-0.5.0.tar.gz tmp/quotesgeneratorapi_wrapper-0.6.0.tar.gz --markdown 20240603/q/quotesgeneratorapi-wrapper/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-06-03 13:02:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-06-03 13:02:35] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/99/26/2ef36a1ac637c4b882964b14f1cc650e0783f32f396fc53acee30898d49c/delphai_fastapi-3.0.7.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [SimpleDomControl]: executing diffoscope
+[2024-06-03 13:02:35] INFO root fetch - processPackages [SimpleDomControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpledomcontrol-0.5.0.tar.gz tmp/simpledomcontrol-0.5.1.tar.gz --markdown 20240603/S/SimpleDomControl/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-06-03 13:02:35] INFO root fetch - processPackages [ros-cdk-lindorm]: Downloading https://files.pythonhosted.org/packages/4b/35/d16569ad078825092b83fedfbb284ac74e06395f1f498dcbcd4961baca4d/ros-cdk-lindorm-1.0.25.tar.gz
+[2024-06-03 13:02:35] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Downloading https://files.pythonhosted.org/packages/aa/4b/0a94330e95e4428425ca80ae62cc1dba2cf03a07b06c4294a2b410136fd6/ros-cdk-elasticsearch-1.0.9.tar.gz
+[2024-06-03 13:02:36] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-06-03 13:02:36] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240603/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-06-03 13:02:36] INFO root fetch - processPackages [ros-cdk-threatdetection]: Downloading https://files.pythonhosted.org/packages/63/15/4e1f12f943ef1675395c4ec9a77c0d5442785a9efc769d491532445efd1b/ros-cdk-threatdetection-1.0.25.tar.gz
+[2024-06-03 13:02:36] INFO root fetch - processPackages [delphai-fastapi]: executing diffoscope
+[2024-06-03 13:02:36] INFO root fetch - processPackages [delphai-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_fastapi-3.0.6.tar.gz tmp/delphai_fastapi-3.0.7.tar.gz --markdown 20240603/d/delphai-fastapi/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-06-03 13:02:36] INFO root fetch - processPackages [ros-cdk-elasticsearch]: executing diffoscope
+[2024-06-03 13:02:36] INFO root fetch - processPackages [ros-cdk-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-elasticsearch-1.0.8.tar.gz tmp/ros-cdk-elasticsearch-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-elasticsearch/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:02:36] INFO root fetch - processPackages [ros-cdk-lindorm]: executing diffoscope
+[2024-06-03 13:02:36] INFO root fetch - processPackages [ros-cdk-lindorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-lindorm-1.0.24.tar.gz tmp/ros-cdk-lindorm-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-lindorm/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:02:36] INFO root fetch - processPackages [ros-cdk-threatdetection]: executing diffoscope
+[2024-06-03 13:02:36] INFO root fetch - processPackages [ros-cdk-threatdetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-threatdetection-1.0.24.tar.gz tmp/ros-cdk-threatdetection-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-threatdetection/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:02:36] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.8.tar.gz]
+[2024-06-03 13:02:36] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.9.tar.gz]
+[2024-06-03 13:02:36] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-06-03 13:02:36] INFO root fetch - processPackages [quotesgeneratorapi-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/quotesgeneratorapi_wrapper-0.5.0.tar.gz]
+[2024-06-03 13:02:36] INFO root fetch - processPackages [quotesgeneratorapi-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/quotesgeneratorapi_wrapper-0.6.0.tar.gz]
+[2024-06-03 13:02:36] INFO root fetch - main [MainThread]: End processing [quotesgeneratorapi-wrapper]: success
+[2024-06-03 13:02:37] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-06-03 13:02:37] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-3.0.6.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-3.0.7.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - main [MainThread]: End processing [delphai-fastapi]: success
+[2024-06-03 13:02:37] INFO root fetch - processPackages [SimpleDomControl]: Remove: archive file [/home/abi/fetcher/tmp/simpledomcontrol-0.5.0.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - processPackages [SimpleDomControl]: Remove: archive file [/home/abi/fetcher/tmp/simpledomcontrol-0.5.1.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - main [MainThread]: End processing [SimpleDomControl]: success
+[2024-06-03 13:02:37] INFO root fetch - processPackages [ros-cdk-threatdetection]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-threatdetection-1.0.24.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - processPackages [ros-cdk-threatdetection]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-threatdetection-1.0.25.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-threatdetection]: success
+[2024-06-03 13:02:37] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.24.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - processPackages [ros-cdk-lindorm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-lindorm-1.0.25.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-lindorm]: success
+[2024-06-03 13:02:37] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-elasticsearch-1.0.8.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - processPackages [ros-cdk-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-elasticsearch-1.0.9.tar.gz]
+[2024-06-03 13:02:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-elasticsearch]: success
+[2024-06-03 13:02:38] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-06-03 13:02:38] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-06-03 13:02:38] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-06-03 13:02:38] INFO root fetch - main [MainThread]: Store serial: [23500885]
