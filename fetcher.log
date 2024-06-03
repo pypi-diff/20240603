@@ -22956,3 +22956,78 @@ EOFError: EOF read where object expected
 [2024-06-03 16:12:44] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.98.0.tar.gz]
 [2024-06-03 16:12:44] INFO root fetch - main [MainThread]: End processing [jsii]: success
 [2024-06-03 16:12:44] INFO root fetch - main [MainThread]: Store serial: [23503998]
+[2024-06-03 16:14:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503998]
+[2024-06-03 16:14:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofscraper
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beta9
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: offtracker
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comtypes
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydivkit
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: triton-copilot
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hddm-s
+[2024-06-03 16:14:54] INFO root fetch - processPackages [beta9]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-06-03 16:14:54] INFO root fetch - processPackages [comtypes]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-06-03 16:14:54] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3rc1] Old Version: [0.1.3b9]
+[2024-06-03 16:14:54] INFO root fetch - processPackages [hddm-s]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ofscraper]: New version: [3.9.9] Old Version: [3.9.8]
+[2024-06-03 16:14:54] INFO root fetch - processPackages [offtracker]: New version: [2.7.8] Old Version: [2.7.10]
+[2024-06-03 16:14:54] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/ef/cc/70806f6e01d8b8e311af6e2e9d3a1336489db4b9009f10e521e2128084e7/beta9-0.1.7.tar.gz
+[2024-06-03 16:14:54] INFO root fetch - processPackages [pydivkit]: New version: [30.3.0] Old Version: [30.2.0]
+[2024-06-03 16:14:54] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-06-03 16:14:54] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/06/47/7dd6e2371756d24a0fa2d5655996c9b75e3433c30dc7787f82e994ce82b6/triton_copilot-0.1.3b9.tar.gz
+[2024-06-03 16:14:54] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/9a/c5/32e08435a3a308c59be2e039029132030c7532259bf87b9d6f3cb77cbd61/hddm_s-1.1.6.tar.gz
+[2024-06-03 16:14:54] INFO root fetch - processPackages [comtypes]: Downloading https://files.pythonhosted.org/packages/01/a2/1be5c25a761e0571194c5533ce357c5b1bb3fa2a6de972032df19a64914f/comtypes-1.4.1.zip
+[2024-06-03 16:14:54] INFO root fetch - processPackages [offtracker]: Downloading https://files.pythonhosted.org/packages/b6/4c/27d4b46322f7f0a576d7894e60746796355ec3ad4e8d82ef2332fdb6a154/offtracker-2.7.10.zip
+[2024-06-03 16:14:54] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/0d/ec/6750d92a1a682acde2d609e83a95fc4d5eda847cc939f88ab9083001546d/pydivkit-30.2.0.tar.gz
+[2024-06-03 16:14:54] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/f7/40/e5e745935d4b9d1b0beffcda8c7474b1ce4f988a5c49457f9e735da3f015/ofscraper-3.9.8.tar.gz
+[2024-06-03 16:14:54] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-06-03 16:14:55] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/11/67/b604fdb1907c1ee8dda9654212239b97efe74c015aa742cfe9806173d4d3/beta9-0.1.8.tar.gz
+[2024-06-03 16:14:55] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/b0/3e/36060011cfc4ab69fa770bf5b067e3abe30fedf78586dbc238d147003709/triton_copilot-0.1.3rc1.tar.gz
+[2024-06-03 16:14:55] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/1b/3e/15ebe33d6268e8d83a58065c30b25bd329fc91e303d644d2bd4984e69692/hddm_s-1.1.7.tar.gz
+[2024-06-03 16:14:55] INFO root fetch - processPackages [comtypes]: Downloading https://files.pythonhosted.org/packages/98/25/7ee077ebd229e79bc59fe22633f0f4e0c872149735f04b23c87f6ccd05dc/comtypes-1.4.2.zip
+[2024-06-03 16:14:55] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-06-03 16:14:55] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.1.6.tar.gz tmp/hddm_s-1.1.7.tar.gz --markdown 20240603/h/hddm-s/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-06-03 16:14:55] INFO root fetch - processPackages [beta9]: executing diffoscope
+[2024-06-03 16:14:55] INFO root fetch - processPackages [beta9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beta9-0.1.7.tar.gz tmp/beta9-0.1.8.tar.gz --markdown 20240603/b/beta9/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-06-03 16:14:55] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 16:14:55] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b9.tar.gz tmp/triton_copilot-0.1.3rc1.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b9-0.1.3rc1/README.md --exclude *.pyd
+[2024-06-03 16:14:55] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/e3/18/969166dc259d3c8f1825a94326837ad6dc129595c5abfab531f5b435044a/pydivkit-30.3.0-py3-none-any.whl
+[2024-06-03 16:14:55] INFO root fetch - processPackages [comtypes]: executing diffoscope
+[2024-06-03 16:14:55] INFO root fetch - processPackages [comtypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comtypes-1.4.1.zip tmp/comtypes-1.4.2.zip --markdown 20240603/c/comtypes/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-06-03 16:14:55] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/0a/c9/8437bc929ad42a4020129961eca98a621785ea51103486f73bafcdb2bcd3/ofscraper-3.9.9.tar.gz
+[2024-06-03 16:14:55] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2024-06-03 16:14:55] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-30.2.0.tar.gz tmp/pydivkit-30.3.0-py3-none-any.whl.zip --markdown 20240603/p/pydivkit/30.2.0-30.3.0/README.md --exclude *.pyd
+[2024-06-03 16:14:55] INFO root fetch - processPackages [offtracker]: Downloading https://files.pythonhosted.org/packages/32/a0/03fe51534c36c85330adc5f759f25cd1abf8e44fa7453a007f185c145098/offtracker-2.7.8.zip
+[2024-06-03 16:14:55] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-06-03 16:14:55] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.8.tar.gz tmp/ofscraper-3.9.9.tar.gz --markdown 20240603/o/ofscraper/3.9.8-3.9.9/README.md --exclude *.pyd
+[2024-06-03 16:14:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-06-03 16:14:56] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.6.tar.gz]
+[2024-06-03 16:14:56] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.7.tar.gz]
+[2024-06-03 16:14:56] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-06-03 16:14:56] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b9.tar.gz]
+[2024-06-03 16:14:56] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3rc1.tar.gz]
+[2024-06-03 16:14:56] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 16:14:56] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.7.tar.gz]
+[2024-06-03 16:14:56] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.8.tar.gz]
+[2024-06-03 16:14:56] INFO root fetch - main [MainThread]: End processing [beta9]: success
+[2024-06-03 16:14:56] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-30.2.0.tar.gz]
+[2024-06-03 16:14:56] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-30.3.0-py3-none-any.whl.zip]
+[2024-06-03 16:14:56] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2024-06-03 16:14:56] INFO root fetch - processPackages [comtypes]: Remove: archive file [/home/abi/fetcher/tmp/comtypes-1.4.1.zip]
+[2024-06-03 16:14:56] INFO root fetch - processPackages [comtypes]: Remove: archive file [/home/abi/fetcher/tmp/comtypes-1.4.2.zip]
+[2024-06-03 16:14:56] INFO root fetch - main [MainThread]: End processing [comtypes]: success
+[2024-06-03 16:14:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-06-03 16:14:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240603/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-06-03 16:14:57] INFO root fetch - processPackages [offtracker]: executing diffoscope
+[2024-06-03 16:14:57] INFO root fetch - processPackages [offtracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offtracker-2.7.10.zip tmp/offtracker-2.7.8.zip --markdown 20240603/o/offtracker/2.7.10-2.7.8/README.md --exclude *.pyd
+[2024-06-03 16:14:57] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.8.tar.gz]
+[2024-06-03 16:14:57] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.9.tar.gz]
+[2024-06-03 16:14:57] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-06-03 16:14:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-06-03 16:14:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-06-03 16:14:57] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-06-03 16:14:58] INFO root fetch - processPackages [offtracker]: Remove: archive file [/home/abi/fetcher/tmp/offtracker-2.7.10.zip]
+[2024-06-03 16:14:58] INFO root fetch - processPackages [offtracker]: Remove: archive file [/home/abi/fetcher/tmp/offtracker-2.7.8.zip]
+[2024-06-03 16:14:58] INFO root fetch - main [MainThread]: End processing [offtracker]: success
+[2024-06-03 16:14:58] INFO root fetch - main [MainThread]: Store serial: [23504016]
