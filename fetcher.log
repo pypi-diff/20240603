@@ -6419,3 +6419,63 @@ EOFError: EOF read where object expected
 [2024-06-03 07:16:20] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-06-03 07:16:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
 [2024-06-03 07:16:20] INFO root fetch - main [MainThread]: Store serial: [23496913]
+[2024-06-03 07:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496913]
+[2024-06-03 07:18:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 07:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-06-03 07:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baseball
+[2024-06-03 07:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidpe-rift-pipe
+[2024-06-03 07:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kwnn
+[2024-06-03 07:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GameWorldNavigator
+[2024-06-03 07:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iac-init
+[2024-06-03 07:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indonesia-latestearthquake-Rx168059
+[2024-06-03 07:18:29] INFO root fetch - processPackages [kwnn]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 07:18:29] WARNING root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Skipping, unable to determine old version
+[2024-06-03 07:18:29] INFO root fetch - main [MainThread]: End processing [indonesia-latestearthquake-Rx168059] error
+[2024-06-03 07:18:29] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-06-03 07:18:29] INFO root fetch - processPackages [iac-init]: New version: [0.9.52] Old Version: [0.9.51]
+[2024-06-03 07:18:29] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-06-03 07:18:29] INFO root fetch - processPackages [GameWorldNavigator]: New version: [0.0.7.4] Old Version: [0.0.7.3]
+[2024-06-03 07:18:29] INFO root fetch - processPackages [kwnn]: Downloading https://files.pythonhosted.org/packages/1b/1a/1b4695aa3d98b0dd2be0f2b3bc58cd44983eaecf2483ccdb5613e199d7ef/kwnn-1.0.2.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [morphdb-utils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 07:18:29] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/d0/26/a6d0b539d0c865fccd66634396287048c80d3f56cf830e1de1f03f181011/iac_init-0.9.51.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/4e/38/2b91d51108810f680a092322d14a32d28944253de1df75c11c6491403ed8/morphdb_utils-0.2.2.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [GameWorldNavigator]: Downloading https://files.pythonhosted.org/packages/2c/7b/e4f1cd1c74dc5169d737724e37cb8e03a4dabbc361b2ce10d2a4468ea37a/GameWorldNavigator-0.0.7.3.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [kwnn]: Downloading https://files.pythonhosted.org/packages/29/f4/5e1d8991d5106a2e9e74175f5fe2f125e907b777d4e74fc4f60c6f3bbb86/kwnn-1.0.3.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/b1/c5/9e5db8370b356cfc9b6a6174e29d01f70ce88776abdecd410690a77b5d68/iac_init-0.9.52.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [kwnn]: executing diffoscope
+[2024-06-03 07:18:29] INFO root fetch - processPackages [kwnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwnn-1.0.2.tar.gz tmp/kwnn-1.0.3.tar.gz --markdown 20240603/k/kwnn/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 07:18:29] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/b9/ce/7d76addfcd9bd540544ec16ca3f459576ce333738a2b793b0f0978d61fbb/morphdb_utils-0.2.3.tar.gz
+[2024-06-03 07:18:29] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-06-03 07:18:29] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240603/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-06-03 07:18:30] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-06-03 07:18:30] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240603/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-06-03 07:18:30] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-06-03 07:18:30] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.9.51.tar.gz tmp/iac_init-0.9.52.tar.gz --markdown 20240603/i/iac-init/0.9.51-0.9.52/README.md --exclude *.pyd
+[2024-06-03 07:18:30] INFO root fetch - processPackages [GameWorldNavigator]: Downloading https://files.pythonhosted.org/packages/11/d7/068e4724ec8ee36e74e00e890a22c36de2bb639973ba755a3eef6e8e1b34/GameWorldNavigator-0.0.7.4.tar.gz
+[2024-06-03 07:18:30] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-06-03 07:18:30] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.2.2.tar.gz tmp/morphdb_utils-0.2.3.tar.gz --markdown 20240603/m/morphdb-utils/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 07:18:30] INFO root fetch - processPackages [GameWorldNavigator]: executing diffoscope
+[2024-06-03 07:18:30] INFO root fetch - processPackages [GameWorldNavigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameWorldNavigator-0.0.7.3.tar.gz tmp/GameWorldNavigator-0.0.7.4.tar.gz --markdown 20240603/G/GameWorldNavigator/0.0.7.3-0.0.7.4/README.md --exclude *.pyd
+[2024-06-03 07:18:30] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-06-03 07:18:30] INFO root fetch - processPackages [kwnn]: Remove: archive file [/home/abi/fetcher/tmp/kwnn-1.0.2.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - processPackages [kwnn]: Remove: archive file [/home/abi/fetcher/tmp/kwnn-1.0.3.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - main [MainThread]: End processing [kwnn]: success
+[2024-06-03 07:18:30] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.2.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.3.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-06-03 07:18:30] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.7.3.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.7.4.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - main [MainThread]: End processing [GameWorldNavigator]: success
+[2024-06-03 07:18:30] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-06-03 07:18:30] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.51.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.52.tar.gz]
+[2024-06-03 07:18:30] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-06-03 07:18:30] INFO root fetch - main [MainThread]: Store serial: [23496934]
