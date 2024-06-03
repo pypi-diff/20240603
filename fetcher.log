@@ -8079,3 +8079,42 @@ EOFError: EOF read where object expected
 [2024-06-03 08:59:51] INFO root fetch - processPackages [feincms3-sites]: Remove: archive file [/home/abi/fetcher/tmp/feincms3-sites-0.9.0.tar.gz]
 [2024-06-03 08:59:51] INFO root fetch - main [MainThread]: End processing [feincms3-sites]: success
 [2024-06-03 08:59:51] INFO root fetch - main [MainThread]: Store serial: [23497549]
+[2024-06-03 09:01:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497549]
+[2024-06-03 09:02:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 09:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symmetricjsonrpc3
+[2024-06-03 09:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phonexia-gender-identification-client
+[2024-06-03 09:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-eflo
+[2024-06-03 09:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-models-nightly
+[2024-06-03 09:02:00] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-06-03 09:02:00] INFO root fetch - processPackages [symmetricjsonrpc3]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-06-03 09:02:00] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 09:02:00] INFO root fetch - processPackages [phonexia-gender-identification-client]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-06-03 09:02:00] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-06-03 09:02:00] INFO root fetch - processPackages [symmetricjsonrpc3]: Downloading https://files.pythonhosted.org/packages/5b/96/52fc91d6faecbc248f704c09b3ae21ce7c3947f3efdcdee6d04fae18debc/symmetricjsonrpc3-0.2.0.tar.gz
+[2024-06-03 09:02:00] INFO root fetch - processPackages [phonexia-gender-identification-client]: Downloading https://files.pythonhosted.org/packages/ad/27/a2f13a18a8134c1c6a7dfcd710578d434d35fc53731f05bf231cbbb97e56/phonexia_gender_identification_client-1.0.0.tar.gz
+[2024-06-03 09:02:00] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: Downloading https://files.pythonhosted.org/packages/71/b6/75d6c50f468b20f1512857fa7506f2cd041b975d24a6236735c0cb620545/aliyun-python-sdk-eflo-1.0.8.tar.gz
+[2024-06-03 09:02:00] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-06-03 09:02:00] INFO root fetch - processPackages [symmetricjsonrpc3]: Downloading https://files.pythonhosted.org/packages/6e/d7/dc2cccab6b426cbe670a0572e0f8271e4b0a7b9775f28a68e5e425ec6098/symmetricjsonrpc3-0.3.0.tar.gz
+[2024-06-03 09:02:01] INFO root fetch - processPackages [symmetricjsonrpc3]: executing diffoscope
+[2024-06-03 09:02:01] INFO root fetch - processPackages [symmetricjsonrpc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symmetricjsonrpc3-0.2.0.tar.gz tmp/symmetricjsonrpc3-0.3.0.tar.gz --markdown 20240603/s/symmetricjsonrpc3/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-06-03 09:02:01] INFO root fetch - processPackages [phonexia-gender-identification-client]: Downloading https://files.pythonhosted.org/packages/18/f9/593514e2aaeecae53685fe4640e91730c6ca537c920f2bb6a4b959348f75/phonexia_gender_identification_client-1.1.0.tar.gz
+[2024-06-03 09:02:01] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-06-03 09:02:01] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240603/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-06-03 09:02:01] INFO root fetch - processPackages [phonexia-gender-identification-client]: executing diffoscope
+[2024-06-03 09:02:01] INFO root fetch - processPackages [phonexia-gender-identification-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonexia_gender_identification_client-1.0.0.tar.gz tmp/phonexia_gender_identification_client-1.1.0.tar.gz --markdown 20240603/p/phonexia-gender-identification-client/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-06-03 09:02:01] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: Downloading https://files.pythonhosted.org/packages/6b/8e/504eba37fe44272aadab8bde0dfc9a85896c177c52b9d1c1fbe435f6a769/aliyun-python-sdk-eflo-1.0.9.tar.gz
+[2024-06-03 09:02:01] INFO root fetch - processPackages [symmetricjsonrpc3]: Remove: archive file [/home/abi/fetcher/tmp/symmetricjsonrpc3-0.2.0.tar.gz]
+[2024-06-03 09:02:01] INFO root fetch - processPackages [symmetricjsonrpc3]: Remove: archive file [/home/abi/fetcher/tmp/symmetricjsonrpc3-0.3.0.tar.gz]
+[2024-06-03 09:02:01] INFO root fetch - main [MainThread]: End processing [symmetricjsonrpc3]: success
+[2024-06-03 09:02:01] INFO root fetch - processPackages [phonexia-gender-identification-client]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_gender_identification_client-1.0.0.tar.gz]
+[2024-06-03 09:02:01] INFO root fetch - processPackages [phonexia-gender-identification-client]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_gender_identification_client-1.1.0.tar.gz]
+[2024-06-03 09:02:01] INFO root fetch - main [MainThread]: End processing [phonexia-gender-identification-client]: success
+[2024-06-03 09:02:01] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: executing diffoscope
+[2024-06-03 09:02:01] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-eflo-1.0.8.tar.gz tmp/aliyun-python-sdk-eflo-1.0.9.tar.gz --markdown 20240603/a/aliyun-python-sdk-eflo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 09:02:02] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eflo-1.0.8.tar.gz]
+[2024-06-03 09:02:02] INFO root fetch - processPackages [aliyun-python-sdk-eflo]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-eflo-1.0.9.tar.gz]
+[2024-06-03 09:02:02] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-eflo]: success
+[2024-06-03 09:02:04] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-06-03 09:02:04] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-06-03 09:02:04] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-06-03 09:02:04] INFO root fetch - main [MainThread]: Store serial: [23497572]
