@@ -24180,3 +24180,65 @@ EOFError: EOF read where object expected
 [2024-06-03 16:53:22] INFO root fetch - processPackages [pydivar]: Remove: archive file [/home/abi/fetcher/tmp/pydivar-1.0.4-py3-none-any.whl.zip]
 [2024-06-03 16:53:22] INFO root fetch - main [MainThread]: End processing [pydivar]: success
 [2024-06-03 16:53:22] INFO root fetch - main [MainThread]: Store serial: [23504663]
+[2024-06-03 16:55:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504663]
+[2024-06-03 16:55:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyNyx
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Background
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copernicusmarine
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdup
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muttfuzz
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-supplierinfo-purchase-contact
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyobas
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-cravat-multiuser
+[2024-06-03 16:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indasuite-api-client
+[2024-06-03 16:55:31] INFO root fetch - processPackages [muttfuzz]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-06-03 16:55:31] INFO root fetch - processPackages [pyobas]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-06-03 16:55:31] INFO root fetch - processPackages [open-cravat-multiuser]: New version: [2.7.0] Old Version: [2.5.0]
+[2024-06-03 16:55:31] INFO root fetch - processPackages [copernicusmarine]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-06-03 16:55:31] WARNING root fetch - processPackages [pyNyx]: Skipping, unable to determine old version
+[2024-06-03 16:55:31] WARNING root fetch - processPackages [odoo-addon-product-supplierinfo-purchase-contact]: Skipping, unable to determine old version
+[2024-06-03 16:55:31] INFO root fetch - main [MainThread]: End processing [pyNyx] error
+[2024-06-03 16:55:31] WARNING root fetch - processPackages [indasuite-api-client]: Skipping, unable to determine old version
+[2024-06-03 16:55:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-purchase-contact] error
+[2024-06-03 16:55:31] INFO root fetch - main [MainThread]: End processing [indasuite-api-client] error
+[2024-06-03 16:55:31] INFO root fetch - processPackages [fastdup]: New version: [1.85] Old Version: [1.126]
+[2024-06-03 16:55:31] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/cf/19/c4da27dc3ef2b5287de6891e587b1ae4696f2214592c8d4abe897dfd0f6a/muttfuzz-0.8.8-py3-none-any.whl
+[2024-06-03 16:55:31] INFO root fetch - processPackages [Geode-Background]: New version: [7.9.9rc1] Old Version: [7.9.8rc1]
+[2024-06-03 16:55:31] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/42/f4/11cc06a5c29eb92e1174f3cfa57b4422302cec2a7432ca43e147dcdffc6f/fastdup-1.126-cp39-cp39-macosx_13_0_arm64.whl
+[2024-06-03 16:55:31] INFO root fetch - processPackages [open-cravat-multiuser]: Downloading https://files.pythonhosted.org/packages/f7/67/68b4433f1ad0dc879865e71fc0974f9183eba8c5e5fbf35d08fbe8d4dfc8/open-cravat-multiuser-2.5.0.tar.gz
+[2024-06-03 16:55:31] INFO root fetch - processPackages [pyobas]: Downloading https://files.pythonhosted.org/packages/62/15/e74514e718c2a7a21a17ccc4a3f07371c1ef3427f08b94a2a6c25765245b/pyobas-1.0.7.tar.gz
+[2024-06-03 16:55:31] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/3e/70/3ecf10505ff6c2c47a2888ce989a7fcc775103a834ed7d4ad590af752259/muttfuzz-0.8.9-py3-none-any.whl
+[2024-06-03 16:55:31] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/54/4e/28dc5d98170f303a0e75732b6ec6ce41b022fcc1546bbb7b24d330b39367/copernicusmarine-1.2.3.tar.gz
+[2024-06-03 16:55:31] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/5a/bf/e3b335021e2827df1ff360ae972cac70607b2685fe93041a505c3564eb03/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 16:55:31] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-06-03 16:55:31] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.8-py3-none-any.whl.zip tmp/muttfuzz-0.8.9-py3-none-any.whl.zip --markdown 20240603/m/muttfuzz/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-06-03 16:55:31] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 44988996>=10485760
+[2024-06-03 16:55:31] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2024-06-03 16:55:31] INFO root fetch - processPackages [pyobas]: Downloading https://files.pythonhosted.org/packages/87/b6/2cc10bff31fe58defeb2980da8fac695635686e3901b5999f9590fe42242/pyobas-1.0.8.tar.gz
+[2024-06-03 16:55:31] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/5f/8f/9f68566b6d99f66f96e095e549fe99d8caa9849d4e79184394bc967fa3d9/copernicusmarine-1.2.4.tar.gz
+[2024-06-03 16:55:31] INFO root fetch - processPackages [open-cravat-multiuser]: Downloading https://files.pythonhosted.org/packages/b6/93/203cab6899a1ee047f3148762db5ff8a31cc71f7a6bb840daf9f1398fe17/open-cravat-multiuser-2.7.0.tar.gz
+[2024-06-03 16:55:31] INFO root fetch - processPackages [pyobas]: executing diffoscope
+[2024-06-03 16:55:31] INFO root fetch - processPackages [pyobas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobas-1.0.7.tar.gz tmp/pyobas-1.0.8.tar.gz --markdown 20240603/p/pyobas/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-06-03 16:55:31] INFO root fetch - processPackages [copernicusmarine]: executing diffoscope
+[2024-06-03 16:55:31] INFO root fetch - processPackages [copernicusmarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicusmarine-1.2.3.tar.gz tmp/copernicusmarine-1.2.4.tar.gz --markdown 20240603/c/copernicusmarine/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-06-03 16:55:32] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/cf/5a/71fe8268103445cceb35cb6b1d4e80192437af076b7718587c869ebbd24a/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 16:55:32] INFO root fetch - processPackages [open-cravat-multiuser]: executing diffoscope
+[2024-06-03 16:55:32] INFO root fetch - processPackages [open-cravat-multiuser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-cravat-multiuser-2.5.0.tar.gz tmp/open-cravat-multiuser-2.7.0.tar.gz --markdown 20240603/o/open-cravat-multiuser/2.5.0-2.7.0/README.md --exclude *.pyd
+[2024-06-03 16:55:32] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.8-py3-none-any.whl.zip]
+[2024-06-03 16:55:32] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.9-py3-none-any.whl.zip]
+[2024-06-03 16:55:32] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-06-03 16:55:32] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2024-06-03 16:55:32] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240603/G/Geode-Background/7.9.8rc1-7.9.9rc1/README.md --exclude *.pyd
+[2024-06-03 16:55:32] INFO root fetch - processPackages [pyobas]: Remove: archive file [/home/abi/fetcher/tmp/pyobas-1.0.7.tar.gz]
+[2024-06-03 16:55:32] INFO root fetch - processPackages [pyobas]: Remove: archive file [/home/abi/fetcher/tmp/pyobas-1.0.8.tar.gz]
+[2024-06-03 16:55:32] INFO root fetch - main [MainThread]: End processing [pyobas]: success
+[2024-06-03 16:55:32] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.2.3.tar.gz]
+[2024-06-03 16:55:32] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.2.4.tar.gz]
+[2024-06-03 16:55:32] INFO root fetch - main [MainThread]: End processing [copernicusmarine]: success
+[2024-06-03 16:55:33] INFO root fetch - processPackages [open-cravat-multiuser]: Remove: archive file [/home/abi/fetcher/tmp/open-cravat-multiuser-2.5.0.tar.gz]
+[2024-06-03 16:55:33] INFO root fetch - processPackages [open-cravat-multiuser]: Remove: archive file [/home/abi/fetcher/tmp/open-cravat-multiuser-2.7.0.tar.gz]
+[2024-06-03 16:55:33] INFO root fetch - main [MainThread]: End processing [open-cravat-multiuser]: success
+[2024-06-03 16:56:08] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 16:56:08] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 16:56:08] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2024-06-03 16:56:08] INFO root fetch - main [MainThread]: Store serial: [23504702]
