@@ -8422,3 +8422,39 @@ EOFError: EOF read where object expected
 [2024-06-03 09:17:31] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.9.tar.gz]
 [2024-06-03 09:17:31] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
 [2024-06-03 09:17:31] INFO root fetch - main [MainThread]: Store serial: [23497746]
+[2024-06-03 09:19:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497746]
+[2024-06-03 09:19:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 09:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapy-playwright-full
+[2024-06-03 09:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2024-06-03 09:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcapply
+[2024-06-03 09:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icpReconstructor
+[2024-06-03 09:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jms-storage
+[2024-06-03 09:19:40] INFO root fetch - processPackages [scrapy-playwright-full]: New version: [0.0.3502] Old Version: [0.0.3501]
+[2024-06-03 09:19:40] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-06-03 09:19:40] INFO root fetch - processPackages [scrapy-playwright-full]: Downloading https://files.pythonhosted.org/packages/d6/9f/c33b3b7efa677d9f53f92ef8f10aeaf6b6c73606ca0a1bdebea95f0b4432/scrapy_playwright_full-0.0.3501.tar.gz
+[2024-06-03 09:19:40] INFO root fetch - processPackages [jms-storage]: New version: [0.0.9] Old Version: [0.0.59]
+[2024-06-03 09:19:40] WARNING root fetch - processPackages [qcapply]: Skipping, unable to determine old version
+[2024-06-03 09:19:40] INFO root fetch - main [MainThread]: End processing [qcapply] error
+[2024-06-03 09:19:40] WARNING root fetch - processPackages [icpReconstructor]: Skipping, unable to determine old version
+[2024-06-03 09:19:40] INFO root fetch - main [MainThread]: End processing [icpReconstructor] error
+[2024-06-03 09:19:40] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-06-03 09:19:41] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/a0/66/682e2c6dd414b078488cddf0b2bad6954005fa4d193cf8a07b37175e4b7b/jms-storage-0.0.59.tar.gz
+[2024-06-03 09:19:41] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-06-03 09:19:41] INFO root fetch - processPackages [scrapy-playwright-full]: Downloading https://files.pythonhosted.org/packages/c9/36/e645ba25c136971b7c8e6eac1f97a8657f4f949772e8a71e225e5cec47b3/scrapy_playwright_full-0.0.3502.tar.gz
+[2024-06-03 09:19:41] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-06-03 09:19:41] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240603/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-06-03 09:19:41] INFO root fetch - processPackages [scrapy-playwright-full]: executing diffoscope
+[2024-06-03 09:19:41] INFO root fetch - processPackages [scrapy-playwright-full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_playwright_full-0.0.3501.tar.gz tmp/scrapy_playwright_full-0.0.3502.tar.gz --markdown 20240603/s/scrapy-playwright-full/0.0.3501-0.0.3502/README.md --exclude *.pyd
+[2024-06-03 09:19:41] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/e5/fe/4fc0396d4a55b575307fcabe6631c50a2563cb2d9bd4af2ca7414c1dd1af/jms-storage-0.0.9.tar.gz
+[2024-06-03 09:19:41] INFO root fetch - processPackages [jms-storage]: executing diffoscope
+[2024-06-03 09:19:41] INFO root fetch - processPackages [jms-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jms-storage-0.0.59.tar.gz tmp/jms-storage-0.0.9.tar.gz --markdown 20240603/j/jms-storage/0.0.59-0.0.9/README.md --exclude *.pyd
+[2024-06-03 09:19:42] INFO root fetch - processPackages [scrapy-playwright-full]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_playwright_full-0.0.3501.tar.gz]
+[2024-06-03 09:19:42] INFO root fetch - processPackages [scrapy-playwright-full]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_playwright_full-0.0.3502.tar.gz]
+[2024-06-03 09:19:42] INFO root fetch - main [MainThread]: End processing [scrapy-playwright-full]: success
+[2024-06-03 09:19:42] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-06-03 09:19:42] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-06-03 09:19:42] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-06-03 09:19:42] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.59.tar.gz]
+[2024-06-03 09:19:42] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.9.tar.gz]
+[2024-06-03 09:19:42] INFO root fetch - main [MainThread]: End processing [jms-storage]: success
+[2024-06-03 09:19:42] INFO root fetch - main [MainThread]: Store serial: [23497763]
