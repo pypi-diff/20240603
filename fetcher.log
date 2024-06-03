@@ -15646,3 +15646,60 @@ EOFError: EOF read where object expected
 [2024-06-03 13:11:57] INFO root fetch - processPackages [xlwings]: Remove: archive file [/home/abi/fetcher/tmp/xlwings-0.9.3.tar.gz]
 [2024-06-03 13:11:57] INFO root fetch - main [MainThread]: End processing [xlwings]: success
 [2024-06-03 13:11:57] INFO root fetch - main [MainThread]: Store serial: [23501076]
+[2024-06-03 13:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501076]
+[2024-06-03 13:14:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-devops
+[2024-06-03 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-eventbridge
+[2024-06-03 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj-all-auth
+[2024-06-03 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tb-nightly
+[2024-06-03 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-workflow-sdk
+[2024-06-03 13:14:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-admin-assets
+[2024-06-03 13:14:07] INFO root fetch - processPackages [dj-all-auth]: New version: [0.1b3] Old Version: [0.1b2]
+[2024-06-03 13:14:07] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-06-03 13:14:07] INFO root fetch - processPackages [ros-cdk-devops]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:14:07] INFO root fetch - processPackages [ros-cdk-eventbridge]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:14:07] INFO root fetch - processPackages [dj-all-auth]: Downloading https://files.pythonhosted.org/packages/23/ec/aded6ed6e1efbd09d5be0e38c129f7e77ffdb910a5074ba7c44e60a5c882/dj_all_auth-0.1b2.tar.gz
+[2024-06-03 13:14:07] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1565] Old Version: [1.0.0.post1563]
+[2024-06-03 13:14:07] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-06-03 13:14:07] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-06-03 13:14:07] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/3b/20/19962b731ed05fbc66c1b5b862b55fbac5bf52b9b8e34656db5d55b47abc/nucliadb_admin_assets-1.0.0.post1563-py3-none-any.whl
+[2024-06-03 13:14:07] INFO root fetch - processPackages [ros-cdk-devops]: Downloading https://files.pythonhosted.org/packages/01/6c/7cc06a8a3cff6298ec90f16013ce483a02eee225bb340920bfc3489da0f8/ros-cdk-devops-1.0.24.tar.gz
+[2024-06-03 13:14:07] INFO root fetch - processPackages [ros-cdk-eventbridge]: Downloading https://files.pythonhosted.org/packages/5c/11/8afb656dcfa071695dd3cda18376578991fbdf693693f6b3fc9b8e2e4c38/ros-cdk-eventbridge-1.0.8.tar.gz
+[2024-06-03 13:14:07] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-06-03 13:14:07] INFO root fetch - processPackages [dj-all-auth]: Downloading https://files.pythonhosted.org/packages/fa/27/98369074166867181350db57fe2b718bdbdcb9f685f4c680a5beafe85b94/dj_all_auth-0.1b3.tar.gz
+[2024-06-03 13:14:07] INFO root fetch - processPackages [dj-all-auth]: executing diffoscope
+[2024-06-03 13:14:07] INFO root fetch - processPackages [dj-all-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_all_auth-0.1b2.tar.gz tmp/dj_all_auth-0.1b3.tar.gz --markdown 20240603/d/dj-all-auth/0.1b2-0.1b3/README.md --exclude *.pyd
+[2024-06-03 13:14:07] INFO root fetch - processPackages [ros-cdk-devops]: Downloading https://files.pythonhosted.org/packages/9e/8e/3a1d5189b0d91f00945b6864f7a50f3f4f03126c51fee615e97d867308b0/ros-cdk-devops-1.0.25.tar.gz
+[2024-06-03 13:14:07] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/e3/89/5c38002b099504e9408883896f930fbe74aa0934afc12cafec8f5ed56884/nucliadb_admin_assets-1.0.0.post1565-py3-none-any.whl
+[2024-06-03 13:14:07] INFO root fetch - processPackages [ros-cdk-devops]: executing diffoscope
+[2024-06-03 13:14:07] INFO root fetch - processPackages [ros-cdk-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-devops-1.0.24.tar.gz tmp/ros-cdk-devops-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-devops/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:14:07] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-06-03 13:14:08] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-06-03 13:14:08] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-06-03 13:14:08] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1563-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1565-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-admin-assets/1.0.0.post1563-1.0.0.post1565/README.md --exclude *.pyd
+[2024-06-03 13:14:08] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-06-03 13:14:08] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240603/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-06-03 13:14:08] INFO root fetch - processPackages [ros-cdk-eventbridge]: Downloading https://files.pythonhosted.org/packages/7c/bd/9fed29d1868e0693f71b6933117008791d3e836f94f1832d41ccddfc8f43/ros-cdk-eventbridge-1.0.9.tar.gz
+[2024-06-03 13:14:08] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-06-03 13:14:08] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240603/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-06-03 13:14:08] INFO root fetch - processPackages [ros-cdk-eventbridge]: executing diffoscope
+[2024-06-03 13:14:08] INFO root fetch - processPackages [ros-cdk-eventbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-eventbridge-1.0.8.tar.gz tmp/ros-cdk-eventbridge-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-eventbridge/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:14:08] INFO root fetch - processPackages [ros-cdk-devops]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-devops-1.0.24.tar.gz]
+[2024-06-03 13:14:08] INFO root fetch - processPackages [ros-cdk-devops]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-devops-1.0.25.tar.gz]
+[2024-06-03 13:14:08] INFO root fetch - main [MainThread]: End processing [ros-cdk-devops]: success
+[2024-06-03 13:14:08] INFO root fetch - processPackages [dj-all-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj_all_auth-0.1b2.tar.gz]
+[2024-06-03 13:14:08] INFO root fetch - processPackages [dj-all-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj_all_auth-0.1b3.tar.gz]
+[2024-06-03 13:14:08] INFO root fetch - main [MainThread]: End processing [dj-all-auth]: success
+[2024-06-03 13:14:09] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1563-py3-none-any.whl.zip]
+[2024-06-03 13:14:09] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1565-py3-none-any.whl.zip]
+[2024-06-03 13:14:09] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-06-03 13:14:09] INFO root fetch - processPackages [ros-cdk-eventbridge]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eventbridge-1.0.8.tar.gz]
+[2024-06-03 13:14:09] INFO root fetch - processPackages [ros-cdk-eventbridge]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eventbridge-1.0.9.tar.gz]
+[2024-06-03 13:14:09] INFO root fetch - main [MainThread]: End processing [ros-cdk-eventbridge]: success
+[2024-06-03 13:14:09] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-06-03 13:14:09] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-06-03 13:14:09] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-06-03 13:14:10] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-06-03 13:14:10] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-06-03 13:14:10] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-06-03 13:14:10] INFO root fetch - main [MainThread]: Store serial: [23501096]
