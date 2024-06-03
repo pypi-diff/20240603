@@ -11671,3 +11671,36 @@ EOFError: EOF read where object expected
 [2024-06-03 11:27:59] INFO root fetch - processPackages [syrius-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syrius_sdk-0.2.8.tar.gz]
 [2024-06-03 11:27:59] INFO root fetch - main [MainThread]: End processing [syrius-sdk]: success
 [2024-06-03 11:27:59] INFO root fetch - main [MainThread]: Store serial: [23499478]
+[2024-06-03 11:30:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499478]
+[2024-06-03 11:30:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apiAmoCRM
+[2024-06-03 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wrench-build
+[2024-06-03 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guadania
+[2024-06-03 11:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-testing
+[2024-06-03 11:30:07] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-06-03 11:30:07] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 11:30:07] WARNING root fetch - processPackages [wrench-build]: Skipping, unable to determine old version
+[2024-06-03 11:30:07] INFO root fetch - main [MainThread]: End processing [wrench-build] error
+[2024-06-03 11:30:07] INFO root fetch - processPackages [guadania]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-06-03 11:30:07] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/3d/4e/db0c74d0869679dec8824d0cde3245cc5ead06af301fdc364f350ae41e38/apiamocrm-0.1.7.tar.gz
+[2024-06-03 11:30:07] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-06-03 11:30:08] INFO root fetch - processPackages [guadania]: Downloading https://files.pythonhosted.org/packages/58/cb/5eca17f61d50f711676d8baa82ae9adff05cfb31fd32f9c69ad1ab8ec67a/guadania-1.9.2.tar.gz
+[2024-06-03 11:30:08] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-06-03 11:30:08] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/fb/12/41d035dca836b0c784b51f4239b44551119d1e3290502f6add8232148ea2/apiamocrm-0.1.8.tar.gz
+[2024-06-03 11:30:08] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-06-03 11:30:08] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.7.tar.gz tmp/apiamocrm-0.1.8.tar.gz --markdown 20240603/a/apiAmoCRM/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-06-03 11:30:08] INFO root fetch - processPackages [guadania]: Downloading https://files.pythonhosted.org/packages/f4/0e/bd15889b2a255d2886174a865d13c866a0175704174e6f5df2d6dbbff3c0/guadania-1.9.3.tar.gz
+[2024-06-03 11:30:08] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-06-03 11:30:08] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240603/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 11:30:08] INFO root fetch - processPackages [guadania]: executing diffoscope
+[2024-06-03 11:30:08] INFO root fetch - processPackages [guadania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guadania-1.9.2.tar.gz tmp/guadania-1.9.3.tar.gz --markdown 20240603/g/guadania/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-06-03 11:30:09] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.7.tar.gz]
+[2024-06-03 11:30:09] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.8.tar.gz]
+[2024-06-03 11:30:09] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-06-03 11:30:09] INFO root fetch - processPackages [guadania]: Remove: archive file [/home/abi/fetcher/tmp/guadania-1.9.2.tar.gz]
+[2024-06-03 11:30:09] INFO root fetch - processPackages [guadania]: Remove: archive file [/home/abi/fetcher/tmp/guadania-1.9.3.tar.gz]
+[2024-06-03 11:30:09] INFO root fetch - main [MainThread]: End processing [guadania]: success
+[2024-06-03 11:30:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-06-03 11:30:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-06-03 11:30:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-06-03 11:30:10] INFO root fetch - main [MainThread]: Store serial: [23499491]
