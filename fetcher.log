@@ -2143,3 +2143,54 @@
 [2024-06-03 02:49:14] INFO root fetch - processPackages [vistutils]: Remove: archive file [/home/abi/fetcher/tmp/vistutils-0.1.9.tar.gz]
 [2024-06-03 02:49:14] INFO root fetch - main [MainThread]: End processing [vistutils]: success
 [2024-06-03 02:49:14] INFO root fetch - main [MainThread]: Store serial: [23495050]
+[2024-06-03 02:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495050]
+[2024-06-03 02:51:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2024-06-03 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fun-things
+[2024-06-03 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs-mini-scikit-learn
+[2024-06-03 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homebase-calendar-sync
+[2024-06-03 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llamabot
+[2024-06-03 02:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bwalign
+[2024-06-03 02:51:22] INFO root fetch - processPackages [homebase-calendar-sync]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-06-03 02:51:22] INFO root fetch - processPackages [bwalign]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-06-03 02:51:22] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-06-03 02:51:22] WARNING root fetch - processPackages [cs-mini-scikit-learn]: Skipping, unable to determine old version
+[2024-06-03 02:51:22] INFO root fetch - main [MainThread]: End processing [cs-mini-scikit-learn] error
+[2024-06-03 02:51:22] INFO root fetch - processPackages [llamabot]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-06-03 02:51:22] INFO root fetch - processPackages [fun-things]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-06-03 02:51:22] INFO root fetch - processPackages [homebase-calendar-sync]: Downloading https://files.pythonhosted.org/packages/ff/98/a5cf18e9f84f5d03a1b69c1301ca1e40458cb6c574c80a036a9591017161/homebase_calendar_sync-0.1.7.tar.gz
+[2024-06-03 02:51:22] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/df/16/685b207e162ba675e2ce76a5356c71f873c31aaafaf3af0ea349ac64e628/bwalign-0.1.0.tar.gz
+[2024-06-03 02:51:22] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-06-03 02:51:22] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/55/08/4c231bc7b256fe41455ee090fd5d45237e3fcd48265b49e46f5728be7552/fun_things-0.5.2.tar.gz
+[2024-06-03 02:51:22] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/77/4b/dcab7a4fdfce34efb5ab20637c9782c0d5488e626aa1c01f1b8a818562ca/bwalign-1.0.0.tar.gz
+[2024-06-03 02:51:22] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/f4/32/f98cc6773095b1b0a8544201c4292028c0672f39ba29ca4ebac44d313642/llamabot-0.4.4.tar.gz
+[2024-06-03 02:51:22] INFO root fetch - processPackages [homebase-calendar-sync]: Downloading https://files.pythonhosted.org/packages/41/38/42b6be1e6a6f8b8cda1925753b596f8f6de370cf231547f62b6032cb93da/homebase_calendar_sync-0.1.8.tar.gz
+[2024-06-03 02:51:23] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 02:51:23] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-0.1.0.tar.gz tmp/bwalign-1.0.0.tar.gz --markdown 20240603/b/bwalign/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-06-03 02:51:23] INFO root fetch - processPackages [homebase-calendar-sync]: executing diffoscope
+[2024-06-03 02:51:23] INFO root fetch - processPackages [homebase-calendar-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homebase_calendar_sync-0.1.7.tar.gz tmp/homebase_calendar_sync-0.1.8.tar.gz --markdown 20240603/h/homebase-calendar-sync/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-06-03 02:51:23] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-06-03 02:51:23] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/45/cf/ac3c2dc3083ad058045d6d52cdbd5d5a12977741da90368dc255af0f22b9/fun_things-0.6.0.tar.gz
+[2024-06-03 02:51:23] INFO root fetch - processPackages [fun-things]: executing diffoscope
+[2024-06-03 02:51:23] INFO root fetch - processPackages [fun-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_things-0.5.2.tar.gz tmp/fun_things-0.6.0.tar.gz --markdown 20240603/f/fun-things/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-06-03 02:51:23] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/df/85/4beb8edae24ba86a93d47f6c404d8988da5f9d66d932eb8f650f3f2bdfc1/llamabot-0.4.5.tar.gz
+[2024-06-03 02:51:23] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-06-03 02:51:23] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240603/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-06-03 02:51:23] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2024-06-03 02:51:23] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.4.4.tar.gz tmp/llamabot-0.4.5.tar.gz --markdown 20240603/l/llamabot/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-06-03 02:51:23] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-0.1.0.tar.gz]
+[2024-06-03 02:51:23] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.0.tar.gz]
+[2024-06-03 02:51:23] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 02:51:23] INFO root fetch - processPackages [homebase-calendar-sync]: Remove: archive file [/home/abi/fetcher/tmp/homebase_calendar_sync-0.1.7.tar.gz]
+[2024-06-03 02:51:23] INFO root fetch - processPackages [homebase-calendar-sync]: Remove: archive file [/home/abi/fetcher/tmp/homebase_calendar_sync-0.1.8.tar.gz]
+[2024-06-03 02:51:23] INFO root fetch - main [MainThread]: End processing [homebase-calendar-sync]: success
+[2024-06-03 02:51:23] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.5.2.tar.gz]
+[2024-06-03 02:51:23] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.6.0.tar.gz]
+[2024-06-03 02:51:23] INFO root fetch - main [MainThread]: End processing [fun-things]: success
+[2024-06-03 02:51:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-06-03 02:51:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-06-03 02:51:24] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-06-03 02:51:24] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.4.4.tar.gz]
+[2024-06-03 02:51:24] INFO root fetch - processPackages [llamabot]: Remove: archive file [/home/abi/fetcher/tmp/llamabot-0.4.5.tar.gz]
+[2024-06-03 02:51:24] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2024-06-03 02:51:24] INFO root fetch - main [MainThread]: Store serial: [23495069]
