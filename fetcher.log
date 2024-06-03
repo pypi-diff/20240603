@@ -7245,3 +7245,60 @@ EOFError: EOF read where object expected
 [2024-06-03 08:04:15] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.9-py3-none-any.whl.zip]
 [2024-06-03 08:04:15] INFO root fetch - main [MainThread]: End processing [toyai]: success
 [2024-06-03 08:04:15] INFO root fetch - main [MainThread]: Store serial: [23497215]
+[2024-06-03 08:06:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497215]
+[2024-06-03 08:06:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 08:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redbacktechpy
+[2024-06-03 08:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-sos
+[2024-06-03 08:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vancouver-watching
+[2024-06-03 08:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotx
+[2024-06-03 08:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mailslurp-client
+[2024-06-03 08:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agiflow-sdk
+[2024-06-03 08:06:24] INFO root fetch - processPackages [redbacktechpy]: New version: [2024.5.1b9] Old Version: [2024.5.1b8]
+[2024-06-03 08:06:24] INFO root fetch - processPackages [jupyterlab-sos]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-06-03 08:06:24] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/03/0c/e4b7e2b7b0d9cc8ef636698f3935ebd62a2564638c10054a380a0bd4ad56/redbacktechpy-2024.5.1b8.tar.gz
+[2024-06-03 08:06:24] INFO root fetch - processPackages [jupyterlab-sos]: Downloading https://files.pythonhosted.org/packages/ba/8a/af736f6f4a4923c78829888328e637f104ccd1ea13aa0c9d82edcee14d24/jupyterlab_sos-0.8.9.tar.gz
+[2024-06-03 08:06:24] INFO root fetch - processPackages [vancouver-watching]: New version: [3.365.1] Old Version: [3.364.1]
+[2024-06-03 08:06:24] INFO root fetch - processPackages [agiflow-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 08:06:24] INFO root fetch - processPackages [aiotx]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-06-03 08:06:24] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-06-03 08:06:24] INFO root fetch - processPackages [vancouver-watching]: Downloading https://files.pythonhosted.org/packages/b0/1f/d19384fc90b7b7296cc61c02105ebd8708598d6517629916c6837d919461/vancouver_watching-3.364.1.tar.gz
+[2024-06-03 08:06:24] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/c0/d3/56844702ec79427f604fb2544cae6b995cc0aca67559be3d2993273c5ef2/redbacktechpy-2024.5.1b9.tar.gz
+[2024-06-03 08:06:24] INFO root fetch - processPackages [agiflow-sdk]: Downloading https://files.pythonhosted.org/packages/79/7f/9f6ecf2ea4232a8661efbc3bed36d4424f5c0db5396824abbcfa7e43f2d1/agiflow_sdk-0.0.3.tar.gz
+[2024-06-03 08:06:24] INFO root fetch - processPackages [jupyterlab-sos]: Downloading https://files.pythonhosted.org/packages/18/fe/f79aa945f69cb43411259b7a6e5efc18676e3a459e7b1d34474f32e47750/jupyterlab_sos-0.9.0.tar.gz
+[2024-06-03 08:06:24] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/b8/f9/ce384a33364153da197b291a997258570fa43aa273b5d54d8b3e02c764e1/aiotx-2.6.0-py3-none-any.whl
+[2024-06-03 08:06:25] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-06-03 08:06:25] INFO root fetch - processPackages [redbacktechpy]: executing diffoscope
+[2024-06-03 08:06:25] INFO root fetch - processPackages [redbacktechpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbacktechpy-2024.5.1b8.tar.gz tmp/redbacktechpy-2024.5.1b9.tar.gz --markdown 20240603/r/redbacktechpy/2024.5.1b8-2024.5.1b9/README.md --exclude *.pyd
+[2024-06-03 08:06:25] INFO root fetch - processPackages [jupyterlab-sos]: executing diffoscope
+[2024-06-03 08:06:25] INFO root fetch - processPackages [jupyterlab-sos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_sos-0.8.9.tar.gz tmp/jupyterlab_sos-0.9.0.tar.gz --markdown 20240603/j/jupyterlab-sos/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-06-03 08:06:25] INFO root fetch - processPackages [vancouver-watching]: Downloading https://files.pythonhosted.org/packages/49/70/a47ede8e341886ba1df8f22e0d2506a1641890a674090bb4ed5de2b3f287/vancouver_watching-3.365.1.tar.gz
+[2024-06-03 08:06:25] INFO root fetch - processPackages [vancouver-watching]: executing diffoscope
+[2024-06-03 08:06:25] INFO root fetch - processPackages [vancouver-watching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vancouver_watching-3.364.1.tar.gz tmp/vancouver_watching-3.365.1.tar.gz --markdown 20240603/v/vancouver-watching/3.364.1-3.365.1/README.md --exclude *.pyd
+[2024-06-03 08:06:25] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/9a/40/e2173d23ea687a970853aaa479e179184a86dce6fcddb43b456115ae6494/aiotx-2.7.0.tar.gz
+[2024-06-03 08:06:25] INFO root fetch - processPackages [agiflow-sdk]: Downloading https://files.pythonhosted.org/packages/fe/37/983b2dac533e528fb13001d5511a51dbc7713ff75abc05b55d7f34bb8c75/agiflow_sdk-0.0.4.tar.gz
+[2024-06-03 08:06:25] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-06-03 08:06:25] INFO root fetch - processPackages [agiflow-sdk]: executing diffoscope
+[2024-06-03 08:06:25] INFO root fetch - processPackages [agiflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agiflow_sdk-0.0.3.tar.gz tmp/agiflow_sdk-0.0.4.tar.gz --markdown 20240603/a/agiflow-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 08:06:25] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-06-03 08:06:25] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240603/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-06-03 08:06:25] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-06-03 08:06:25] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-2.6.0-py3-none-any.whl.zip tmp/aiotx-2.7.0.tar.gz --markdown 20240603/a/aiotx/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-06-03 08:06:25] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b8.tar.gz]
+[2024-06-03 08:06:25] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b9.tar.gz]
+[2024-06-03 08:06:25] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
+[2024-06-03 08:06:26] INFO root fetch - processPackages [vancouver-watching]: Remove: archive file [/home/abi/fetcher/tmp/vancouver_watching-3.364.1.tar.gz]
+[2024-06-03 08:06:26] INFO root fetch - processPackages [vancouver-watching]: Remove: archive file [/home/abi/fetcher/tmp/vancouver_watching-3.365.1.tar.gz]
+[2024-06-03 08:06:26] INFO root fetch - main [MainThread]: End processing [vancouver-watching]: success
+[2024-06-03 08:06:27] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-06-03 08:06:27] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-06-03 08:06:27] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-06-03 08:06:27] INFO root fetch - processPackages [agiflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/agiflow_sdk-0.0.3.tar.gz]
+[2024-06-03 08:06:27] INFO root fetch - processPackages [agiflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/agiflow_sdk-0.0.4.tar.gz]
+[2024-06-03 08:06:27] INFO root fetch - main [MainThread]: End processing [agiflow-sdk]: success
+[2024-06-03 08:06:27] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-2.6.0-py3-none-any.whl.zip]
+[2024-06-03 08:06:27] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-2.7.0.tar.gz]
+[2024-06-03 08:06:27] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-06-03 08:06:29] INFO root fetch - processPackages [jupyterlab-sos]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sos-0.8.9.tar.gz]
+[2024-06-03 08:06:29] INFO root fetch - processPackages [jupyterlab-sos]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sos-0.9.0.tar.gz]
+[2024-06-03 08:06:29] INFO root fetch - main [MainThread]: End processing [jupyterlab-sos]: success
+[2024-06-03 08:06:29] INFO root fetch - main [MainThread]: Store serial: [23497236]
