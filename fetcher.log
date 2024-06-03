@@ -3470,3 +3470,36 @@ EOFError: EOF read where object expected
 [2024-06-03 04:16:08] WARNING root fetch - processPackages [validation-framework]: Skipping, unable to determine old version
 [2024-06-03 04:16:08] INFO root fetch - main [MainThread]: End processing [validation-framework] error
 [2024-06-03 04:16:08] INFO root fetch - main [MainThread]: Store serial: [23495599]
+[2024-06-03 04:18:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495599]
+[2024-06-03 04:18:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 04:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioSAK
+[2024-06-03 04:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daikanban
+[2024-06-03 04:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyclicpeptide
+[2024-06-03 04:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliasing
+[2024-06-03 04:18:16] INFO root fetch - processPackages [BioSAK]: New version: [1.90.2] Old Version: [1.90.1]
+[2024-06-03 04:18:16] INFO root fetch - processPackages [daikanban]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 04:18:16] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/71/7a/6de3b10f2343f11371c082b178999b1f2f4be379d4f24cde33ee8253f4dd/BioSAK-1.90.1.tar.gz
+[2024-06-03 04:18:16] WARNING root fetch - processPackages [aliasing]: Skipping, unable to determine old version
+[2024-06-03 04:18:16] INFO root fetch - main [MainThread]: End processing [aliasing] error
+[2024-06-03 04:18:16] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-06-03 04:18:16] INFO root fetch - processPackages [daikanban]: Downloading https://files.pythonhosted.org/packages/41/ee/574f7847a08615db4ef1b5a115a52b3cfcaeadd2b7a471076142c2a140eb/daikanban-0.1.1.tar.gz
+[2024-06-03 04:18:16] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/05/2e/0f965e23b79374dd92a681e2666887bd106139bc59bd9fab4fe2083830cc/cyclicpeptide-1.0.5.tar.gz
+[2024-06-03 04:18:17] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/58/7b/822d023e9f18540c317e23909f28140ab42739801041ad61c1e6a340a5a9/BioSAK-1.90.2.tar.gz
+[2024-06-03 04:18:17] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/71/74/14f4fbaa9e283266b0629ab0ac0fbfcc89ed7061317297aad2536a012945/cyclicpeptide-1.0.6-py3-none-any.whl
+[2024-06-03 04:18:17] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-06-03 04:18:17] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.90.1.tar.gz tmp/BioSAK-1.90.2.tar.gz --markdown 20240603/B/BioSAK/1.90.1-1.90.2/README.md --exclude *.pyd
+[2024-06-03 04:18:17] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-06-03 04:18:17] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.5.tar.gz tmp/cyclicpeptide-1.0.6-py3-none-any.whl.zip --markdown 20240603/c/cyclicpeptide/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-06-03 04:18:17] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.5.tar.gz]
+[2024-06-03 04:18:17] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.6-py3-none-any.whl.zip]
+[2024-06-03 04:18:17] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-06-03 04:18:18] INFO root fetch - processPackages [daikanban]: Downloading https://files.pythonhosted.org/packages/81/39/a3448a8fa9ea09fca5afbd3c1c239d91fc36178d73a4766dc485e65c4009/daikanban-0.1.2.tar.gz
+[2024-06-03 04:18:18] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.90.1.tar.gz]
+[2024-06-03 04:18:18] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.90.2.tar.gz]
+[2024-06-03 04:18:18] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-06-03 04:18:19] INFO root fetch - processPackages [daikanban]: executing diffoscope
+[2024-06-03 04:18:19] INFO root fetch - processPackages [daikanban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daikanban-0.1.1.tar.gz tmp/daikanban-0.1.2.tar.gz --markdown 20240603/d/daikanban/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 04:18:24] INFO root fetch - processPackages [daikanban]: Remove: archive file [/home/abi/fetcher/tmp/daikanban-0.1.1.tar.gz]
+[2024-06-03 04:18:24] INFO root fetch - processPackages [daikanban]: Remove: archive file [/home/abi/fetcher/tmp/daikanban-0.1.2.tar.gz]
+[2024-06-03 04:18:24] INFO root fetch - main [MainThread]: End processing [daikanban]: success
+[2024-06-03 04:18:24] INFO root fetch - main [MainThread]: Store serial: [23495605]
