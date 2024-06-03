@@ -3996,3 +3996,15 @@ EOFError: EOF read where object expected
 [2024-06-03 04:51:04] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.9.tar.gz]
 [2024-06-03 04:51:04] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
 [2024-06-03 04:51:04] INFO root fetch - main [MainThread]: Store serial: [23495821]
+[2024-06-03 04:53:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495821]
+[2024-06-03 04:53:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 04:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Agentic-Reports
+[2024-06-03 04:53:13] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 04:53:13] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 04:53:14] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/5b/92/44b18eba5d6adf17c07da2776ad015af9ac39d3e55eaf36f736e094a759b/Agentic-Reports-0.0.9.tar.gz
+[2024-06-03 04:53:14] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 04:53:14] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.8.tar.gz tmp/Agentic-Reports-0.0.9.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 04:53:14] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.8.tar.gz]
+[2024-06-03 04:53:14] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.9.tar.gz]
+[2024-06-03 04:53:14] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 04:53:14] INFO root fetch - main [MainThread]: Store serial: [23495825]
