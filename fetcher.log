@@ -3212,3 +3212,33 @@ EOFError: EOF read where object expected
 [2024-06-03 03:54:15] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.9.1.tar.gz]
 [2024-06-03 03:54:15] INFO root fetch - main [MainThread]: End processing [openai-commands]: success
 [2024-06-03 03:54:15] INFO root fetch - main [MainThread]: Store serial: [23495513]
+[2024-06-03 03:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495513]
+[2024-06-03 03:56:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 03:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lunary
+[2024-06-03 03:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hj-proj-module
+[2024-06-03 03:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ferfereh
+[2024-06-03 03:56:23] INFO root fetch - processPackages [hj-proj-module]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-06-03 03:56:23] INFO root fetch - processPackages [lunary]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 03:56:24] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/7d/d1/1882edac83d811cc9e0bd90969299cb0c7dbe716b2d7a7d285ab04998b52/lunary-1.0.8.tar.gz
+[2024-06-03 03:56:24] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/db/12/7bb0e640457f3bbbbc0b77439e6b03839642728f5b9676f3a6cdbf41672e/hj_proj_module-0.1.7.tar.gz
+[2024-06-03 03:56:24] INFO root fetch - processPackages [ferfereh]: New version: [1.139.1] Old Version: [1.138.1]
+[2024-06-03 03:56:24] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/32/95/6b33dc5201568e25cbb8550cc11783f743d222c665d56fc249fe9a8ef904/ferfereh-1.138.1.tar.gz
+[2024-06-03 03:56:24] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/94/49/69693d7a64f73d84255649b427048581401581af1b2733dd7b132cd4a620/hj_proj_module-0.1.9.tar.gz
+[2024-06-03 03:56:24] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/7e/79/563b968f7a8ae5114b4d64918c8f955a6304c2107bb64837179143d34289/lunary-1.0.9.tar.gz
+[2024-06-03 03:56:24] INFO root fetch - processPackages [hj-proj-module]: executing diffoscope
+[2024-06-03 03:56:24] INFO root fetch - processPackages [hj-proj-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj_proj_module-0.1.7.tar.gz tmp/hj_proj_module-0.1.9.tar.gz --markdown 20240603/h/hj-proj-module/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:56:24] INFO root fetch - processPackages [lunary]: executing diffoscope
+[2024-06-03 03:56:24] INFO root fetch - processPackages [lunary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunary-1.0.8.tar.gz tmp/lunary-1.0.9.tar.gz --markdown 20240603/l/lunary/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 03:56:24] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/a3/7f/34a9d769519b94de793e835e807f8eea76e48d0900ef18aa2acb821a4c60/ferfereh-1.139.1.tar.gz
+[2024-06-03 03:56:24] INFO root fetch - processPackages [ferfereh]: executing diffoscope
+[2024-06-03 03:56:24] INFO root fetch - processPackages [ferfereh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferfereh-1.138.1.tar.gz tmp/ferfereh-1.139.1.tar.gz --markdown 20240603/f/ferfereh/1.138.1-1.139.1/README.md --exclude *.pyd
+[2024-06-03 03:56:24] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.7.tar.gz]
+[2024-06-03 03:56:24] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.9.tar.gz]
+[2024-06-03 03:56:24] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
+[2024-06-03 03:56:25] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.8.tar.gz]
+[2024-06-03 03:56:25] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.9.tar.gz]
+[2024-06-03 03:56:25] INFO root fetch - main [MainThread]: End processing [lunary]: success
+[2024-06-03 03:56:25] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.138.1.tar.gz]
+[2024-06-03 03:56:25] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.139.1.tar.gz]
+[2024-06-03 03:56:25] INFO root fetch - main [MainThread]: End processing [ferfereh]: success
+[2024-06-03 03:56:25] INFO root fetch - main [MainThread]: Store serial: [23495522]
