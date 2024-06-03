@@ -21058,3 +21058,75 @@ AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
 [2024-06-03 15:23:29] INFO root fetch - processPackages [pythonSCHED]: Remove: archive file [/home/abi/fetcher/tmp/pythonSCHED-1.9.0.tar.gz]
 [2024-06-03 15:23:29] INFO root fetch - main [MainThread]: End processing [pythonSCHED]: success
 [2024-06-03 15:23:29] INFO root fetch - main [MainThread]: Store serial: [23503179]
+[2024-06-03 15:25:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503179]
+[2024-06-03 15:25:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 15:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: consensusGen
+[2024-06-03 15:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible-runner-beats
+[2024-06-03 15:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyproject-requirements
+[2024-06-03 15:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ataskq
+[2024-06-03 15:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymimir
+[2024-06-03 15:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomicshop
+[2024-06-03 15:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yfiles-jupyter-graphs
+[2024-06-03 15:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ert
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ansible-runner-beats]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-06-03 15:25:38] INFO root fetch - processPackages [consensusGen]: New version: [2.2] Old Version: [2.1]
+[2024-06-03 15:25:38] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ansible-runner-beats]: Downloading https://files.pythonhosted.org/packages/0a/5e/6f9f671c3326d96d3321f9472d498a676559cbbda4c1da1f16dfca0a3b02/ansible-runner-beats-1.0.3.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/42/ba/04b2dc0bf0c344cfca370519b478c3d8ce84b2e209b838c022c1872596fc/consensusgen-2.1.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pymimir]: New version: [0.9.9] Old Version: [0.9.12]
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pyproject-requirements]: New version: [20240601] Old Version: [20240203]
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ataskq]: New version: [6.0.0] Old Version: [0.5.1]
+[2024-06-03 15:25:38] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 15:25:38] INFO root fetch - processPackages [yfiles-jupyter-graphs]: New version: [1.7.0] Old Version: [1.6.2]
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pymimir]: Downloading https://files.pythonhosted.org/packages/3f/72/9432aaf0e6342ae3b8a543a8c0068353d2f3941b2a180895b47a0e0d39ac/pymimir-0.9.12.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ansible-runner-beats]: Downloading https://files.pythonhosted.org/packages/eb/a1/caab641d8c0b010fecc32171df2b129a3ab23595e36114e0fcb0c1985142/ansible_runner_beats-1.0.4.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pyproject-requirements]: Downloading https://files.pythonhosted.org/packages/af/c2/1b2ba57e8431d131e2c538e54e6aa8db4dbbd1e835da160fc304e4b68394/pyproject-requirements-20240203.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [yfiles-jupyter-graphs]: Downloading https://files.pythonhosted.org/packages/aa/3c/e238c6c503c9cdd1063b5ac085e948b02ca31d7669ae955a8573bf4e0dfd/yfiles_jupyter_graphs-1.6.2.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ataskq]: Downloading https://files.pythonhosted.org/packages/f2/c8/54cc4ed874ec379bffa91ea8252f4f548c39fbc365d0c6cbb5cc9b69a544/ataskq-0.5.1.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-06-03 15:25:38] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/07/c5/e98898b9426361489ed658ba80bd011203b781db297fe769a8412db6aebe/consensusgen-2.2.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ansible-runner-beats]: executing diffoscope
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ansible-runner-beats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-runner-beats-1.0.3.tar.gz tmp/ansible_runner_beats-1.0.4.tar.gz --markdown 20240603/a/ansible-runner-beats/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-06-03 15:25:38] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-06-03 15:25:38] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-2.1.tar.gz tmp/consensusgen-2.2.tar.gz --markdown 20240603/c/consensusGen/2.1-2.2/README.md --exclude *.pyd
+[2024-06-03 15:25:38] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 15:25:38] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pyproject-requirements]: Downloading https://files.pythonhosted.org/packages/53/8a/88e69dfa25aaa5af5b44f16afa6c88729d586e22fb9fdf1b5c17173c06d7/pyproject_requirements-20240601.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pymimir]: Downloading https://files.pythonhosted.org/packages/17/24/0cbc735c2f249b207c785050c9d09a31e22ba83acc8ea4066d273134201c/pymimir-0.9.9.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ataskq]: Downloading https://files.pythonhosted.org/packages/49/9b/40d4354ce744e235a74a9b6d888797eaa8360d8b308079c6b91751bb4f34/ataskq-6.0.0.tar.gz
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pyproject-requirements]: executing diffoscope
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pyproject-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-requirements-20240203.tar.gz tmp/pyproject_requirements-20240601.tar.gz --markdown 20240603/p/pyproject-requirements/20240203-20240601/README.md --exclude *.pyd
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ataskq]: executing diffoscope
+[2024-06-03 15:25:38] INFO root fetch - processPackages [ataskq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ataskq-0.5.1.tar.gz tmp/ataskq-6.0.0.tar.gz --markdown 20240603/a/ataskq/0.5.1-6.0.0/README.md --exclude *.pyd
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pymimir]: executing diffoscope
+[2024-06-03 15:25:38] INFO root fetch - processPackages [pymimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymimir-0.9.12.tar.gz tmp/pymimir-0.9.9.tar.gz --markdown 20240603/p/pymimir/0.9.12-0.9.9/README.md --exclude *.pyd
+[2024-06-03 15:25:39] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 15:25:39] INFO root fetch - processPackages [ansible-runner-beats]: Remove: archive file [/home/abi/fetcher/tmp/ansible-runner-beats-1.0.3.tar.gz]
+[2024-06-03 15:25:39] INFO root fetch - processPackages [ansible-runner-beats]: Remove: archive file [/home/abi/fetcher/tmp/ansible_runner_beats-1.0.4.tar.gz]
+[2024-06-03 15:25:39] INFO root fetch - main [MainThread]: End processing [ansible-runner-beats]: success
+[2024-06-03 15:25:39] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.1.tar.gz]
+[2024-06-03 15:25:39] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.2.tar.gz]
+[2024-06-03 15:25:39] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-06-03 15:25:39] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-06-03 15:25:39] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240603/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-06-03 15:25:39] INFO root fetch - processPackages [pyproject-requirements]: Remove: archive file [/home/abi/fetcher/tmp/pyproject-requirements-20240203.tar.gz]
+[2024-06-03 15:25:39] INFO root fetch - processPackages [pyproject-requirements]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_requirements-20240601.tar.gz]
+[2024-06-03 15:25:39] INFO root fetch - main [MainThread]: End processing [pyproject-requirements]: success
+[2024-06-03 15:25:39] INFO root fetch - processPackages [ataskq]: Remove: archive file [/home/abi/fetcher/tmp/ataskq-0.5.1.tar.gz]
+[2024-06-03 15:25:39] INFO root fetch - processPackages [ataskq]: Remove: archive file [/home/abi/fetcher/tmp/ataskq-6.0.0.tar.gz]
+[2024-06-03 15:25:39] INFO root fetch - main [MainThread]: End processing [ataskq]: success
+[2024-06-03 15:25:40] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 15:25:40] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 15:25:40] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 15:25:40] INFO root fetch - processPackages [pymimir]: Remove: archive file [/home/abi/fetcher/tmp/pymimir-0.9.12.tar.gz]
+[2024-06-03 15:25:40] INFO root fetch - processPackages [pymimir]: Remove: archive file [/home/abi/fetcher/tmp/pymimir-0.9.9.tar.gz]
+[2024-06-03 15:25:40] INFO root fetch - main [MainThread]: End processing [pymimir]: success
+[2024-06-03 15:25:42] INFO root fetch - processPackages [yfiles-jupyter-graphs]: Downloading https://files.pythonhosted.org/packages/5a/ad/876ae6c173aaf075cbacd520d64fbd1939959fed5f8fdd0a9a18eeb4f12c/yfiles_jupyter_graphs-1.7.0.tar.gz
+[2024-06-03 15:25:42] WARNING root fetch - processPackages [yfiles-jupyter-graphs]: Skipping package: exceeds size limit 10812391>=10485760
+[2024-06-03 15:25:42] INFO root fetch - main [MainThread]: End processing [yfiles-jupyter-graphs] error
+[2024-06-03 15:25:44] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 15:25:44] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 15:25:44] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-06-03 15:25:44] INFO root fetch - main [MainThread]: Store serial: [23503206]
