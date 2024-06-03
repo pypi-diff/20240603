@@ -23666,3 +23666,33 @@ EOFError: EOF read where object expected
 [2024-06-03 16:33:02] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-06-03 16:33:02] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-06-03 16:33:02] INFO root fetch - main [MainThread]: Store serial: [23504319]
+[2024-06-03 16:35:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504319]
+[2024-06-03 16:35:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 16:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-apscheduler4
+[2024-06-03 16:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prelude-parser
+[2024-06-03 16:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onyx-extension
+[2024-06-03 16:35:11] INFO root fetch - processPackages [onyx-extension]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 16:35:11] INFO root fetch - processPackages [fastapi-apscheduler4]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 16:35:11] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/f1/3f/420f7fc6234f7f04e0f7096f7ddfafca9848a1c1a9671f88900b8be2e558/onyx_extension-0.4.8.tar.gz
+[2024-06-03 16:35:11] INFO root fetch - processPackages [prelude-parser]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-06-03 16:35:11] INFO root fetch - processPackages [fastapi-apscheduler4]: Downloading https://files.pythonhosted.org/packages/45/df/4237e6d865693676025fc103a8aa8df173463d83adec62a49ec91e1b4d4f/fastapi_apscheduler4-0.0.3-py3-none-any.whl
+[2024-06-03 16:35:11] INFO root fetch - processPackages [prelude-parser]: Downloading https://files.pythonhosted.org/packages/ec/ed/ecf9c2dbb285dd844ee56c6d0a12e3423d84da8b683a4076112e01f5520a/prelude_parser-0.5.0.tar.gz
+[2024-06-03 16:35:11] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/57/f5/0e37c1457c8b67af0bae950e3eb58f631af6ca40d2693fe0db93ff81a457/onyx_extension-0.4.9.tar.gz
+[2024-06-03 16:35:11] INFO root fetch - processPackages [fastapi-apscheduler4]: Downloading https://files.pythonhosted.org/packages/14/12/cdc9e5d0e4974817fe40b0448a10bc4148bc00b2ce38cdb0baa19be88419/fastapi_apscheduler4-0.0.4-py3-none-any.whl
+[2024-06-03 16:35:12] INFO root fetch - processPackages [prelude-parser]: Downloading https://files.pythonhosted.org/packages/7c/de/ba7f928112c2e8cb81ec9cb0b9f989bdd524a3629f91c459d11b19da9e66/prelude_parser-0.6.0-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-06-03 16:35:12] INFO root fetch - processPackages [fastapi-apscheduler4]: executing diffoscope
+[2024-06-03 16:35:12] INFO root fetch - processPackages [fastapi-apscheduler4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_apscheduler4-0.0.3-py3-none-any.whl.zip tmp/fastapi_apscheduler4-0.0.4-py3-none-any.whl.zip --markdown 20240603/f/fastapi-apscheduler4/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 16:35:12] INFO root fetch - processPackages [onyx-extension]: executing diffoscope
+[2024-06-03 16:35:12] INFO root fetch - processPackages [onyx-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyx_extension-0.4.8.tar.gz tmp/onyx_extension-0.4.9.tar.gz --markdown 20240603/o/onyx-extension/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 16:35:12] INFO root fetch - processPackages [fastapi-apscheduler4]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_apscheduler4-0.0.3-py3-none-any.whl.zip]
+[2024-06-03 16:35:12] INFO root fetch - processPackages [fastapi-apscheduler4]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_apscheduler4-0.0.4-py3-none-any.whl.zip]
+[2024-06-03 16:35:12] INFO root fetch - main [MainThread]: End processing [fastapi-apscheduler4]: success
+[2024-06-03 16:35:12] INFO root fetch - processPackages [prelude-parser]: executing diffoscope
+[2024-06-03 16:35:12] INFO root fetch - processPackages [prelude-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prelude_parser-0.5.0.tar.gz tmp/prelude_parser-0.6.0-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240603/p/prelude-parser/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-06-03 16:35:13] INFO root fetch - processPackages [prelude-parser]: Remove: archive file [/home/abi/fetcher/tmp/prelude_parser-0.5.0.tar.gz]
+[2024-06-03 16:35:13] INFO root fetch - processPackages [prelude-parser]: Remove: archive file [/home/abi/fetcher/tmp/prelude_parser-0.6.0-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-06-03 16:35:13] INFO root fetch - main [MainThread]: End processing [prelude-parser]: success
+[2024-06-03 16:35:19] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.8.tar.gz]
+[2024-06-03 16:35:19] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.9.tar.gz]
+[2024-06-03 16:35:19] INFO root fetch - main [MainThread]: End processing [onyx-extension]: success
+[2024-06-03 16:35:19] INFO root fetch - main [MainThread]: Store serial: [23504357]
