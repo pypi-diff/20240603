@@ -3804,3 +3804,56 @@ EOFError: EOF read where object expected
 [2024-06-03 04:33:51] INFO root fetch - processPackages [quollio-core]: Remove: archive file [/home/abi/fetcher/tmp/quollio_core-0.4.6.tar.gz]
 [2024-06-03 04:33:51] INFO root fetch - main [MainThread]: End processing [quollio-core]: success
 [2024-06-03 04:33:51] INFO root fetch - main [MainThread]: Store serial: [23495756]
+[2024-06-03 04:35:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495756]
+[2024-06-03 04:35:59] INFO root fetch - main [MainThread]: No changed packages found
+[2024-06-03 04:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495756]
+[2024-06-03 04:38:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 04:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pr-pilot
+[2024-06-03 04:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: organization-profile-local
+[2024-06-03 04:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyclicpeptide
+[2024-06-03 04:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuyul-sdk
+[2024-06-03 04:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SCDB-ML-app
+[2024-06-03 04:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funzin-vc-utils
+[2024-06-03 04:38:05] INFO root fetch - processPackages [tuyul-sdk]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2024-06-03 04:38:05] INFO root fetch - processPackages [organization-profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 04:38:05] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-06-03 04:38:05] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/53/5e/f67179d51ec957120d70cd4bf10a615dcab8c427b40273ad20a03634fde8/tuyul_sdk-0.1.0rc3.tar.gz
+[2024-06-03 04:38:05] INFO root fetch - processPackages [organization-profile-local]: Downloading https://files.pythonhosted.org/packages/81/90/0410ad89775192aef8b8e9746af0f7275b91487d06b057fb04673d948e6f/organization_profile_local-0.0.8.tar.gz
+[2024-06-03 04:38:05] ERROR root fetch - processPackages [funzin-vc-utils]: Unable to get metadata: No such project 'funzin-vc-utils'
+[2024-06-03 04:38:05] INFO root fetch - main [MainThread]: End processing [funzin-vc-utils] error
+[2024-06-03 04:38:05] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-06-03 04:38:05] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/05/2e/0f965e23b79374dd92a681e2666887bd106139bc59bd9fab4fe2083830cc/cyclicpeptide-1.0.5.tar.gz
+[2024-06-03 04:38:05] INFO root fetch - processPackages [pr-pilot]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-06-03 04:38:05] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/c7/1b/ed1effc3cacf5af11323ef69227617de61558af46b2e1b05be88713feeb9/SCDB_ML_app-1.0.6-py3-none-any.whl
+[2024-06-03 04:38:05] INFO root fetch - processPackages [organization-profile-local]: Downloading https://files.pythonhosted.org/packages/9a/c5/9b0d4d1a63505df30fa98f65e30c09a3b9fa5b269d13d3c221689c2a1e5d/organization_profile_local-0.0.9.tar.gz
+[2024-06-03 04:38:05] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/d4/38/2e577a00eef9be2d5cab2cc0f46d4bac932af1bb66f04175b897a13edb87/pr_pilot-1.4.1.tar.gz
+[2024-06-03 04:38:05] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/65/6e/962a16cbb0a24b6e4d0df9792c352372f7ce1e52433b6baf5f14ab284277/cyclicpeptide-1.0.6.tar.gz
+[2024-06-03 04:38:05] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/6c/84/49858f06d0e9a7e308f12cf949f82fd69e7bca783e6e1ff79e44c400a65c/tuyul_sdk-0.1.0rc4.tar.gz
+[2024-06-03 04:38:05] INFO root fetch - processPackages [organization-profile-local]: executing diffoscope
+[2024-06-03 04:38:05] INFO root fetch - processPackages [organization-profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organization_profile_local-0.0.8.tar.gz tmp/organization_profile_local-0.0.9.tar.gz --markdown 20240603/o/organization-profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 04:38:05] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-06-03 04:38:05] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.5.tar.gz tmp/cyclicpeptide-1.0.6.tar.gz --markdown 20240603/c/cyclicpeptide/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-06-03 04:38:05] INFO root fetch - processPackages [tuyul-sdk]: executing diffoscope
+[2024-06-03 04:38:05] INFO root fetch - processPackages [tuyul-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuyul_sdk-0.1.0rc3.tar.gz tmp/tuyul_sdk-0.1.0rc4.tar.gz --markdown 20240603/t/tuyul-sdk/0.1.0rc3-0.1.0rc4/README.md --exclude *.pyd
+[2024-06-03 04:38:05] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/aa/6c/4c6410af91ce4d26ec1b1c602555b5e7c889a3bb1ca8d39088394f8aacc0/pr_pilot-1.5.0.tar.gz
+[2024-06-03 04:38:06] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/d1/75/b95e97a46b73a3825973fd886a80e6a97cc6618a2c608cff97648a817f0e/SCDB_ML_app-1.0.7-py3-none-any.whl
+[2024-06-03 04:38:06] INFO root fetch - processPackages [pr-pilot]: executing diffoscope
+[2024-06-03 04:38:06] INFO root fetch - processPackages [pr-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot-1.4.1.tar.gz tmp/pr_pilot-1.5.0.tar.gz --markdown 20240603/p/pr-pilot/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-06-03 04:38:06] INFO root fetch - processPackages [organization-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/organization_profile_local-0.0.8.tar.gz]
+[2024-06-03 04:38:06] INFO root fetch - processPackages [organization-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/organization_profile_local-0.0.9.tar.gz]
+[2024-06-03 04:38:06] INFO root fetch - main [MainThread]: End processing [organization-profile-local]: success
+[2024-06-03 04:38:06] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.1.0rc3.tar.gz]
+[2024-06-03 04:38:06] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.1.0rc4.tar.gz]
+[2024-06-03 04:38:06] INFO root fetch - main [MainThread]: End processing [tuyul-sdk]: success
+[2024-06-03 04:38:06] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.5.tar.gz]
+[2024-06-03 04:38:06] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.6.tar.gz]
+[2024-06-03 04:38:06] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-06-03 04:38:06] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 04:38:06] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.6-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.7-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-06-03 04:38:06] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.4.1.tar.gz]
+[2024-06-03 04:38:06] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.5.0.tar.gz]
+[2024-06-03 04:38:06] INFO root fetch - main [MainThread]: End processing [pr-pilot]: success
+[2024-06-03 04:38:07] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.6-py3-none-any.whl.zip]
+[2024-06-03 04:38:07] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.7-py3-none-any.whl.zip]
+[2024-06-03 04:38:07] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 04:38:07] INFO root fetch - main [MainThread]: Store serial: [23495774]
