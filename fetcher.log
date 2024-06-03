@@ -4833,3 +4833,24 @@ EOFError: EOF read where object expected
 [2024-06-03 05:31:16] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.7-py3-none-any.whl.zip]
 [2024-06-03 05:31:16] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
 [2024-06-03 05:31:16] INFO root fetch - main [MainThread]: Store serial: [23496286]
+[2024-06-03 05:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496286]
+[2024-06-03 05:33:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 05:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hemanth-hello-world
+[2024-06-03 05:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipyslides
+[2024-06-03 05:33:25] INFO root fetch - processPackages [hemanth-hello-world]: New version: [0.7] Old Version: [0.5]
+[2024-06-03 05:33:25] INFO root fetch - processPackages [ipyslides]: New version: [4.0.0] Old Version: [3.9.9]
+[2024-06-03 05:33:25] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/21/92/a19a4edca6e5c17593fc38a4a7fbe0a62b10cbd1bd4d9bbc44fb2841e76d/hemanth_hello_world-0.5.tar.gz
+[2024-06-03 05:33:25] INFO root fetch - processPackages [ipyslides]: Downloading https://files.pythonhosted.org/packages/8c/a0/d9b56bad4fadb34e075f0240f87f4c921739449db6e2fe3b814c11a1a1ec/ipyslides-3.9.9.tar.gz
+[2024-06-03 05:33:25] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/e8/4d/01ee5a3953d98876ebc6466220fabe94431e727630d822a1b829eff5c362/hemanth_hello_world-0.7.tar.gz
+[2024-06-03 05:33:25] INFO root fetch - processPackages [ipyslides]: Downloading https://files.pythonhosted.org/packages/2f/36/4a0b2ce69013c91a1bc855b853b081b6913288035fffb6b00b1d9073173d/ipyslides-4.0.0.tar.gz
+[2024-06-03 05:33:25] INFO root fetch - processPackages [hemanth-hello-world]: executing diffoscope
+[2024-06-03 05:33:25] INFO root fetch - processPackages [hemanth-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hemanth_hello_world-0.5.tar.gz tmp/hemanth_hello_world-0.7.tar.gz --markdown 20240603/h/hemanth-hello-world/0.5-0.7/README.md --exclude *.pyd
+[2024-06-03 05:33:25] INFO root fetch - processPackages [ipyslides]: executing diffoscope
+[2024-06-03 05:33:25] INFO root fetch - processPackages [ipyslides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyslides-3.9.9.tar.gz tmp/ipyslides-4.0.0.tar.gz --markdown 20240603/i/ipyslides/3.9.9-4.0.0/README.md --exclude *.pyd
+[2024-06-03 05:33:26] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.5.tar.gz]
+[2024-06-03 05:33:26] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.7.tar.gz]
+[2024-06-03 05:33:26] INFO root fetch - main [MainThread]: End processing [hemanth-hello-world]: success
+[2024-06-03 05:33:26] INFO root fetch - processPackages [ipyslides]: Remove: archive file [/home/abi/fetcher/tmp/ipyslides-3.9.9.tar.gz]
+[2024-06-03 05:33:26] INFO root fetch - processPackages [ipyslides]: Remove: archive file [/home/abi/fetcher/tmp/ipyslides-4.0.0.tar.gz]
+[2024-06-03 05:33:26] INFO root fetch - main [MainThread]: End processing [ipyslides]: success
+[2024-06-03 05:33:26] INFO root fetch - main [MainThread]: Store serial: [23496292]
