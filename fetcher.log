@@ -3037,3 +3037,51 @@ EOFError: EOF read where object expected
 [2024-06-03 03:42:52] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.6.0b5.tar.gz]
 [2024-06-03 03:42:52] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-06-03 03:42:52] INFO root fetch - main [MainThread]: Store serial: [23495452]
+[2024-06-03 03:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495452]
+[2024-06-03 03:45:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 03:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: high-order-layers-torch
+[2024-06-03 03:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telometer
+[2024-06-03 03:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cycls
+[2024-06-03 03:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-image-crop
+[2024-06-03 03:45:00] INFO root fetch - processPackages [high-order-layers-torch]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-06-03 03:45:00] INFO root fetch - processPackages [cycls]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2024-06-03 03:45:00] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 03:45:01] INFO root fetch - processPackages [high-order-layers-torch]: Downloading https://files.pythonhosted.org/packages/37/97/03afc3e80cae58a3ea792d22f05cb87ff5663aa8dcf0e3f9806634de6e69/high_order_layers_torch-2.4.2.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [cycls]: Downloading https://files.pythonhosted.org/packages/54/2c/7a8d2c2f5a2fbf4379bd402d2eb77461dfc06a0f27b8ca9c5207f0389272/cycls-0.0.2.2.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/fe/8c/09589d113c4abceee70315ee5117c0a1110a613a8604e1af9a4c7f8bd054/cs_ob_mini_scikit_learn-0.1.8.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [telometer]: New version: [0.80] Old Version: [0.79]
+[2024-06-03 03:45:01] INFO root fetch - processPackages [django-image-crop]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 03:45:01] INFO root fetch - processPackages [telometer]: Downloading https://files.pythonhosted.org/packages/ac/82/c786a10cc975c2f00889d4ff404f2fe1c8f1c38aaa412519f9d999929982/telometer-0.79.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [django-image-crop]: Downloading https://files.pythonhosted.org/packages/b4/49/038775a78382457cf7326306206f133a8e077403cc8b46d3a7b3c9ad1779/django-image-crop-0.0.2.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/7b/97/50719acba4af366c4d8405c0be6da10c73817e10e30c78659745ec792291/cs_ob_mini_scikit_learn-0.1.9.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [high-order-layers-torch]: Downloading https://files.pythonhosted.org/packages/52/d8/a0047b645630eb09025533bc6e322c5dbd7536c2dcefd2cb5bd628099e6c/high_order_layers_torch-2.5.0.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [cycls]: Downloading https://files.pythonhosted.org/packages/14/a1/3b779f241dd44857af41ddac6debfacbfe25469a89e2e271c642d0fc6a06/cycls-0.0.2.3.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:45:01] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_ob_mini_scikit_learn-0.1.8.tar.gz tmp/cs_ob_mini_scikit_learn-0.1.9.tar.gz --markdown 20240603/c/cs-ob-mini-scikit-learn/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:45:01] INFO root fetch - processPackages [high-order-layers-torch]: executing diffoscope
+[2024-06-03 03:45:01] INFO root fetch - processPackages [high-order-layers-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/high_order_layers_torch-2.4.2.tar.gz tmp/high_order_layers_torch-2.5.0.tar.gz --markdown 20240603/h/high-order-layers-torch/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-06-03 03:45:01] INFO root fetch - processPackages [cycls]: executing diffoscope
+[2024-06-03 03:45:01] INFO root fetch - processPackages [cycls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycls-0.0.2.2.tar.gz tmp/cycls-0.0.2.3.tar.gz --markdown 20240603/c/cycls/0.0.2.2-0.0.2.3/README.md --exclude *.pyd
+[2024-06-03 03:45:01] INFO root fetch - processPackages [telometer]: Downloading https://files.pythonhosted.org/packages/90/df/908bb076f34dff733fd849c14571467cda072d31130b5d9ba94aa73bdc63/telometer-0.80.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [django-image-crop]: Downloading https://files.pythonhosted.org/packages/ba/70/a103b677334b617a5ec02e2164827e07c95c63d6321667b3fb5cfb5f9298/django-image-crop-0.0.3.tar.gz
+[2024-06-03 03:45:01] INFO root fetch - processPackages [telometer]: executing diffoscope
+[2024-06-03 03:45:01] INFO root fetch - processPackages [telometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telometer-0.79.tar.gz tmp/telometer-0.80.tar.gz --markdown 20240603/t/telometer/0.79-0.80/README.md --exclude *.pyd
+[2024-06-03 03:45:01] INFO root fetch - processPackages [django-image-crop]: executing diffoscope
+[2024-06-03 03:45:01] INFO root fetch - processPackages [django-image-crop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-image-crop-0.0.2.tar.gz tmp/django-image-crop-0.0.3.tar.gz --markdown 20240603/d/django-image-crop/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 03:45:02] INFO root fetch - processPackages [high-order-layers-torch]: Remove: archive file [/home/abi/fetcher/tmp/high_order_layers_torch-2.4.2.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - processPackages [high-order-layers-torch]: Remove: archive file [/home/abi/fetcher/tmp/high_order_layers_torch-2.5.0.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - main [MainThread]: End processing [high-order-layers-torch]: success
+[2024-06-03 03:45:02] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.2.2.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.2.3.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - main [MainThread]: End processing [cycls]: success
+[2024-06-03 03:45:02] INFO root fetch - processPackages [telometer]: Remove: archive file [/home/abi/fetcher/tmp/telometer-0.79.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - processPackages [telometer]: Remove: archive file [/home/abi/fetcher/tmp/telometer-0.80.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - main [MainThread]: End processing [telometer]: success
+[2024-06-03 03:45:02] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.8.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.9.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
+[2024-06-03 03:45:02] INFO root fetch - processPackages [django-image-crop]: Remove: archive file [/home/abi/fetcher/tmp/django-image-crop-0.0.2.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - processPackages [django-image-crop]: Remove: archive file [/home/abi/fetcher/tmp/django-image-crop-0.0.3.tar.gz]
+[2024-06-03 03:45:02] INFO root fetch - main [MainThread]: End processing [django-image-crop]: success
+[2024-06-03 03:45:02] INFO root fetch - main [MainThread]: Store serial: [23495466]
