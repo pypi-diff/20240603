@@ -8804,3 +8804,54 @@ EOFError: EOF read where object expected
 [2024-06-03 09:32:00] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4rc2.tar.gz]
 [2024-06-03 09:32:00] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
 [2024-06-03 09:32:00] INFO root fetch - main [MainThread]: Store serial: [23497900]
+[2024-06-03 09:34:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497900]
+[2024-06-03 09:34:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 09:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydirac
+[2024-06-03 09:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-ipython-client
+[2024-06-03 09:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-lib
+[2024-06-03 09:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-server
+[2024-06-03 09:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-bec-e2e
+[2024-06-03 09:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-stack-dingding
+[2024-06-03 09:34:09] WARNING root fetch - processPackages [pydirac]: Skipping, unable to determine old version
+[2024-06-03 09:34:09] INFO root fetch - main [MainThread]: End processing [pydirac] error
+[2024-06-03 09:34:09] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 09:34:09] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 09:34:09] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 09:34:09] INFO root fetch - processPackages [bec-lib]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 09:34:09] INFO root fetch - processPackages [bec-server]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 09:34:09] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-06-03 09:34:09] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-06-03 09:34:09] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/32/25/26221a302c5d813470abbed9e469573445b2d6223cb10d5e831a1c2edcbc/pytest_bec_e2e-2.9.5.tar.gz
+[2024-06-03 09:34:09] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5c/a6/47395050d9ef43b8ac69afbd19752c840a326d130902d672b143eb1b2011/bec_server-2.9.5.tar.gz
+[2024-06-03 09:34:09] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-06-03 09:34:09] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/1c/28/ac66835e54a2a219bb2fcab250ebe5175556448adfd9731171c446d39b8a/bec_lib-2.9.5.tar.gz
+[2024-06-03 09:34:10] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-06-03 09:34:10] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240603/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-06-03 09:34:10] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/52/58/6a01c0215232031def0ac36fe0432d3a9980bab8829664847cd95bfcd44e/pytest_bec_e2e-2.9.6.tar.gz
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/33/b7/3b469dec2efe5a33d7abfab6b9c31025e32485e7a9d400424e12cd0fd084/bec_server-2.9.6.tar.gz
+[2024-06-03 09:34:10] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-06-03 09:34:10] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.9.5.tar.gz tmp/pytest_bec_e2e-2.9.6.tar.gz --markdown 20240603/p/pytest-bec-e2e/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240603/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.9.5.tar.gz tmp/bec_server-2.9.6.tar.gz --markdown 20240603/b/bec-server/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4d/a2/f0700429367390986fd99050f855b29188048689afabf13076cd77bb4598/bec_lib-2.9.6.tar.gz
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-06-03 09:34:10] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.9.5.tar.gz tmp/bec_lib-2.9.6.tar.gz --markdown 20240603/b/bec-lib/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 09:34:10] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.5.tar.gz]
+[2024-06-03 09:34:10] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.6.tar.gz]
+[2024-06-03 09:34:10] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-06-03 09:34:11] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-06-03 09:34:11] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-06-03 09:34:11] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-06-03 09:34:11] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-06-03 09:34:11] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-06-03 09:34:11] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-06-03 09:34:11] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.5.tar.gz]
+[2024-06-03 09:34:11] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.6.tar.gz]
+[2024-06-03 09:34:11] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-06-03 09:34:11] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.5.tar.gz]
+[2024-06-03 09:34:11] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.6.tar.gz]
+[2024-06-03 09:34:11] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-06-03 09:34:11] INFO root fetch - main [MainThread]: Store serial: [23497918]
