@@ -14352,3 +14352,108 @@ EOFError: EOF read where object expected
 [2024-06-03 12:38:17] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-06-03 12:38:17] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-06-03 12:38:17] INFO root fetch - main [MainThread]: Store serial: [23500541]
+[2024-06-03 12:40:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500541]
+[2024-06-03 12:40:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myhdl
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phpinfo-file-leaks
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almax-common
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LearningNashQLearning
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cemirutils
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-fw-helper
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agiflow-sdk
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skypilot-nightly
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-ebs
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Docs2KG
+[2024-06-03 12:40:26] INFO root fetch - processPackages [automation-fw-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [LearningNashQLearning]: New version: [0.5] Old Version: [0.4]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [Docs2KG]: New version: [0.1.1] Old Version: [0.0.7]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [agiflow-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 12:40:26] WARNING root fetch - processPackages [phpinfo-file-leaks]: Skipping, unable to determine old version
+[2024-06-03 12:40:26] INFO root fetch - processPackages [phpinfo-file-leaks]: Start processing: pymemgpt-nightly
+[2024-06-03 12:40:26] INFO root fetch - main [MainThread]: End processing [phpinfo-file-leaks] error
+[2024-06-03 12:40:26] INFO root fetch - processPackages [almax-common]: New version: [1.0.5.dev20240602164342] Old Version: [1.0.5.dev20240601232428]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240602] Old Version: [1.0.0.dev20240601]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ros-cdk-ebs]: New version: [1.0.9] Old Version: [1.0.25]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [myhdl]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [cemirutils]: New version: [0.4.1] Old Version: [0.3.1]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [almax-common]: Downloading https://files.pythonhosted.org/packages/62/c8/ef4815be05d93c5eeca2953138d273c1f322c7a616ed291bf0277301f7d1/almax_common-1.0.5.dev20240601232428.tar.gz
+[2024-06-03 12:40:26] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/7a/79/183ed08301d59dac7a56b19a52315b16d06d0482a292558d8e11462f3a34/LearningNashQLearning-0.4.tar.gz
+[2024-06-03 12:40:26] INFO root fetch - processPackages [agiflow-sdk]: Downloading https://files.pythonhosted.org/packages/fe/37/983b2dac533e528fb13001d5511a51dbc7713ff75abc05b55d7f34bb8c75/agiflow_sdk-0.0.4.tar.gz
+[2024-06-03 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-06-03 12:40:26] INFO root fetch - processPackages [Docs2KG]: Downloading https://files.pythonhosted.org/packages/fc/80/cfcf1a4733d679f1ffcd7b0fb754d38dbbfb597600646ca858ea556437c1/docs2kg-0.0.7.tar.gz
+[2024-06-03 12:40:26] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/1f/15/dae7f95cd4dae01c0374b55ff680457b6496eeaae0e129892db2e3a5e8ab/skypilot_nightly-1.0.0.dev20240601.tar.gz
+[2024-06-03 12:40:26] INFO root fetch - processPackages [ros-cdk-ebs]: Downloading https://files.pythonhosted.org/packages/58/1a/04d3f82bcde4440796c0f18976b47eb576de951bacd9432925e1836d780f/ros-cdk-ebs-1.0.25.tar.gz
+[2024-06-03 12:40:26] INFO root fetch - processPackages [automation-fw-helper]: Downloading https://files.pythonhosted.org/packages/1f/63/57959dc5f7be5e140b59892cd4d194d8c7d690d7a07a3c42461d4534ee69/automation-fw-helper-0.0.1.tar.gz
+[2024-06-03 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-06-03 12:40:26] INFO root fetch - processPackages [myhdl]: Downloading https://files.pythonhosted.org/packages/1e/44/f5e67e8e397a73cb7a4e7e2db6ba91f6cc81222365f0b265c1f7d5239f2d/myhdl-0.8.1.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [cemirutils]: Downloading https://files.pythonhosted.org/packages/7b/96/251d33d77e273a436ea52e376e60fafd783abc9e530b0d05c92584e9d76b/cemirutils-0.3.1.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/40/6d/0423ed413492dca5145e4de8a2a4653bc6fe5c5535e5b1fa6c9e5e514145/LearningNashQLearning-0.5.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [almax-common]: Downloading https://files.pythonhosted.org/packages/e3/e4/c746b4bc6c5fa1d5cf9f7b23fa70a7a21b626905555b4d1e8d7811e070aa/almax_common-1.0.5.dev20240602164342.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [LearningNashQLearning]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [LearningNashQLearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LearningNashQLearning-0.4.tar.gz tmp/LearningNashQLearning-0.5.tar.gz --markdown 20240603/L/LearningNashQLearning/0.4-0.5/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [agiflow-sdk]: Downloading https://files.pythonhosted.org/packages/74/ef/7b3b858436e3a2c9aa9aa3e1536eda98f9c2d907d8e5fd3403a93ed5062e/agiflow_sdk-0.0.5.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [Docs2KG]: Downloading https://files.pythonhosted.org/packages/d1/b7/13fe50a30f08c0c1d5913a0475a4f9b57e4a4f45475efa228f50c12c03a7/docs2kg-0.1.1.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [automation-fw-helper]: Downloading https://files.pythonhosted.org/packages/ca/07/c6211954d274e8d96964e31cdfc82b35c57dfe3ae0ead779e3f0dcde7274/automation-fw-helper-0.0.2.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [almax-common]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [almax-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almax_common-1.0.5.dev20240601232428.tar.gz tmp/almax_common-1.0.5.dev20240602164342.tar.gz --markdown 20240603/a/almax-common/1.0.5.dev20240601232428-1.0.5.dev20240602164342/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/a5/5b/ac356cf811a48904c84fdf8ad0dccedc4d8d70a502e88c9146ce05a73f79/skypilot_nightly-1.0.0.dev20240602.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [ros-cdk-ebs]: Downloading https://files.pythonhosted.org/packages/ac/f5/c09a1e996ab49328f3c78ec50beac2015947a84bfd2a58ea6e02c39fe905/ros-cdk-ebs-1.0.9.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [agiflow-sdk]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [agiflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agiflow_sdk-0.0.4.tar.gz tmp/agiflow_sdk-0.0.5.tar.gz --markdown 20240603/a/agiflow-sdk/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [cemirutils]: Downloading https://files.pythonhosted.org/packages/f5/42/50e9756b84cceaaa46f8836af5ab7a8be1f3d823098c69a8f9ac28af92e3/cemirutils-0.4.1.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [myhdl]: Downloading https://files.pythonhosted.org/packages/f4/fe/27d582508e53a4baf479b3f0184e1aa53cc8b64ccca55853ce4c99a0b338/myhdl-0.9.0.tar.gz
+[2024-06-03 12:40:27] INFO root fetch - processPackages [automation-fw-helper]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [automation-fw-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-fw-helper-0.0.1.tar.gz tmp/automation-fw-helper-0.0.2.tar.gz --markdown 20240603/a/automation-fw-helper/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [Docs2KG]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [Docs2KG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2kg-0.0.7.tar.gz tmp/docs2kg-0.1.1.tar.gz --markdown 20240603/D/Docs2KG/0.0.7-0.1.1/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240603/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [ros-cdk-ebs]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [ros-cdk-ebs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ebs-1.0.25.tar.gz tmp/ros-cdk-ebs-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-ebs/1.0.25-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240601.tar.gz tmp/skypilot_nightly-1.0.0.dev20240602.tar.gz --markdown 20240603/s/skypilot-nightly/1.0.0.dev20240601-1.0.0.dev20240602/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [myhdl]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [myhdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myhdl-0.8.1.tar.gz tmp/myhdl-0.9.0.tar.gz --markdown 20240603/m/myhdl/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-06-03 12:40:27] INFO root fetch - processPackages [cemirutils]: executing diffoscope
+[2024-06-03 12:40:27] INFO root fetch - processPackages [cemirutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cemirutils-0.3.1.tar.gz tmp/cemirutils-0.4.1.tar.gz --markdown 20240603/c/cemirutils/0.3.1-0.4.1/README.md --exclude *.pyd
+[2024-06-03 12:40:28] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.4.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.5.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - processPackages [LearningNashQLearning]: Start processing: ipyweb
+[2024-06-03 12:40:28] INFO root fetch - main [MainThread]: End processing [LearningNashQLearning]: success
+[2024-06-03 12:40:28] INFO root fetch - processPackages [almax-common]: Remove: archive file [/home/abi/fetcher/tmp/almax_common-1.0.5.dev20240601232428.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - processPackages [almax-common]: Remove: archive file [/home/abi/fetcher/tmp/almax_common-1.0.5.dev20240602164342.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - main [MainThread]: End processing [almax-common]: success
+[2024-06-03 12:40:28] INFO root fetch - processPackages [ipyweb]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-06-03 12:40:28] INFO root fetch - processPackages [automation-fw-helper]: Remove: archive file [/home/abi/fetcher/tmp/automation-fw-helper-0.0.1.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - processPackages [automation-fw-helper]: Remove: archive file [/home/abi/fetcher/tmp/automation-fw-helper-0.0.2.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - main [MainThread]: End processing [automation-fw-helper]: success
+[2024-06-03 12:40:28] INFO root fetch - processPackages [cemirutils]: Remove: archive file [/home/abi/fetcher/tmp/cemirutils-0.3.1.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - processPackages [cemirutils]: Remove: archive file [/home/abi/fetcher/tmp/cemirutils-0.4.1.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - main [MainThread]: End processing [cemirutils]: success
+[2024-06-03 12:40:28] INFO root fetch - processPackages [Docs2KG]: Remove: archive file [/home/abi/fetcher/tmp/docs2kg-0.0.7.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - processPackages [Docs2KG]: Remove: archive file [/home/abi/fetcher/tmp/docs2kg-0.1.1.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - main [MainThread]: End processing [Docs2KG]: success
+[2024-06-03 12:40:28] INFO root fetch - processPackages [ros-cdk-ebs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ebs-1.0.25.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - processPackages [ros-cdk-ebs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ebs-1.0.9.tar.gz]
+[2024-06-03 12:40:28] INFO root fetch - main [MainThread]: End processing [ros-cdk-ebs]: success
+[2024-06-03 12:40:28] INFO root fetch - processPackages [ipyweb]: Downloading https://files.pythonhosted.org/packages/16/92/857c94cdc1665f82bf910c477142d239dda76328f55e2bb906d5f4a8c6b8/ipyweb-1.0.7.tar.gz
+[2024-06-03 12:40:29] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-06-03 12:40:29] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-06-03 12:40:29] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-06-03 12:40:29] INFO root fetch - processPackages [ipyweb]: Downloading https://files.pythonhosted.org/packages/d0/6a/0f843da3b888ced3d905194afc8734d774b696e621e0acb11f9a784bf25c/ipyweb-1.0.8.tar.gz
+[2024-06-03 12:40:29] INFO root fetch - processPackages [agiflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/agiflow_sdk-0.0.4.tar.gz]
+[2024-06-03 12:40:29] INFO root fetch - processPackages [agiflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/agiflow_sdk-0.0.5.tar.gz]
+[2024-06-03 12:40:29] INFO root fetch - main [MainThread]: End processing [agiflow-sdk]: success
+[2024-06-03 12:40:29] INFO root fetch - processPackages [ipyweb]: executing diffoscope
+[2024-06-03 12:40:29] INFO root fetch - processPackages [ipyweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyweb-1.0.7.tar.gz tmp/ipyweb-1.0.8.tar.gz --markdown 20240603/i/ipyweb/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-06-03 12:40:29] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240601.tar.gz]
+[2024-06-03 12:40:29] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240602.tar.gz]
+[2024-06-03 12:40:29] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-06-03 12:40:30] INFO root fetch - processPackages [ipyweb]: Remove: archive file [/home/abi/fetcher/tmp/ipyweb-1.0.7.tar.gz]
+[2024-06-03 12:40:30] INFO root fetch - processPackages [ipyweb]: Remove: archive file [/home/abi/fetcher/tmp/ipyweb-1.0.8.tar.gz]
+[2024-06-03 12:40:30] INFO root fetch - main [MainThread]: End processing [ipyweb]: success
+[2024-06-03 12:40:32] INFO root fetch - processPackages [myhdl]: Remove: archive file [/home/abi/fetcher/tmp/myhdl-0.8.1.tar.gz]
+[2024-06-03 12:40:32] INFO root fetch - processPackages [myhdl]: Remove: archive file [/home/abi/fetcher/tmp/myhdl-0.9.0.tar.gz]
+[2024-06-03 12:40:32] INFO root fetch - main [MainThread]: End processing [myhdl]: success
+[2024-06-03 12:40:32] INFO root fetch - main [MainThread]: Store serial: [23500574]
