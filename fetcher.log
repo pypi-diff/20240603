@@ -20251,3 +20251,59 @@ AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
 [2024-06-03 15:05:28] INFO root fetch - processPackages [hyperthought-transfer]: Remove: archive file [/home/abi/fetcher/tmp/hyperthought-transfer-1.2.1.tar.gz]
 [2024-06-03 15:05:28] INFO root fetch - main [MainThread]: End processing [hyperthought-transfer]: success
 [2024-06-03 15:05:28] INFO root fetch - main [MainThread]: Store serial: [23502851]
+[2024-06-03 15:07:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502851]
+[2024-06-03 15:07:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 15:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psl
+[2024-06-03 15:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-integro-types
+[2024-06-03 15:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: requence
+[2024-06-03 15:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psqlomni
+[2024-06-03 15:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bbb-client
+[2024-06-03 15:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rwkv-tokenizer
+[2024-06-03 15:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mediapipe-nightly
+[2024-06-03 15:07:37] INFO root fetch - processPackages [rwkv-tokenizer]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-06-03 15:07:37] INFO root fetch - processPackages [test-integro-types]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 15:07:37] WARNING root fetch - processPackages [psqlomni]: Skipping, unable to determine old version
+[2024-06-03 15:07:37] INFO root fetch - main [MainThread]: End processing [psqlomni] error
+[2024-06-03 15:07:37] INFO root fetch - processPackages [rwkv-tokenizer]: Downloading https://files.pythonhosted.org/packages/41/d9/0d8cf6eec6007b4e893a39809f40fb64daee819903ff73a9532150a50f39/rwkv_tokenizer-0.2.0.tar.gz
+[2024-06-03 15:07:37] INFO root fetch - processPackages [test-integro-types]: Downloading https://files.pythonhosted.org/packages/7d/ac/687ff40d5e3c9b2cf0fb8048ef161dd8ae7e6df3eb29ec8d24c8a72aa71a/test_integro_types-0.1.0.tar.gz
+[2024-06-03 15:07:37] INFO root fetch - processPackages [bbb-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 15:07:37] INFO root fetch - processPackages [requence]: New version: [0.1.1] Old Version: [0.0.1]
+[2024-06-03 15:07:37] INFO root fetch - processPackages [psl]: New version: [2024.6.3] Old Version: [2024.5.6]
+[2024-06-03 15:07:37] INFO root fetch - processPackages [mediapipe-nightly]: New version: [0.10.15.post20240603] Old Version: [0.10.14.post20240508]
+[2024-06-03 15:07:38] INFO root fetch - processPackages [test-integro-types]: Downloading https://files.pythonhosted.org/packages/39/23/32115f2504124feeb1e523d0f01a639e2df00be20097f4c6cea23078cdb2/test_integro_types-0.1.1.tar.gz
+[2024-06-03 15:07:38] INFO root fetch - processPackages [requence]: Downloading https://files.pythonhosted.org/packages/6b/d1/9d1a4520e76afc869bd796c3b54c01304809684001ce473e505615b4bda6/requence-0.0.1.tar.gz
+[2024-06-03 15:07:38] INFO root fetch - processPackages [bbb-client]: Downloading https://files.pythonhosted.org/packages/96/3e/a21bc7f5b33f18089309576b59570c4db9a82e7ed2a083f67b97d1041693/bbb_client-0.1.0.tar.gz
+[2024-06-03 15:07:38] INFO root fetch - processPackages [rwkv-tokenizer]: Downloading https://files.pythonhosted.org/packages/40/46/a6eb38849c3d3c4ae23411549bc6ab9b09b40b79ebb66b6c6d6fc6867ba9/rwkv_tokenizer-0.3.0.tar.gz
+[2024-06-03 15:07:38] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/18/a4/6c90dc232bf1436b9fd15aa3e0b2538e3b6a5f2b72eb8462659c198e67b2/psl-2024.5.6.tar.gz
+[2024-06-03 15:07:38] INFO root fetch - processPackages [mediapipe-nightly]: Downloading https://files.pythonhosted.org/packages/0d/2c/b0b04e2867674205f9285bacc0aaa47cf977f9ffd5965159b908055ae4e1/mediapipe_nightly-0.10.14.post20240508-cp39-cp39-win_amd64.whl
+[2024-06-03 15:07:38] INFO root fetch - processPackages [test-integro-types]: executing diffoscope
+[2024-06-03 15:07:38] INFO root fetch - processPackages [test-integro-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_integro_types-0.1.0.tar.gz tmp/test_integro_types-0.1.1.tar.gz --markdown 20240603/t/test-integro-types/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 15:07:38] WARNING root fetch - processPackages [mediapipe-nightly]: Skipping package: exceeds size limit 50822541>=10485760
+[2024-06-03 15:07:38] INFO root fetch - main [MainThread]: End processing [mediapipe-nightly] error
+[2024-06-03 15:07:38] INFO root fetch - processPackages [rwkv-tokenizer]: executing diffoscope
+[2024-06-03 15:07:38] INFO root fetch - processPackages [rwkv-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwkv_tokenizer-0.2.0.tar.gz tmp/rwkv_tokenizer-0.3.0.tar.gz --markdown 20240603/r/rwkv-tokenizer/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-06-03 15:07:38] INFO root fetch - processPackages [bbb-client]: Downloading https://files.pythonhosted.org/packages/34/d5/8bb9f387d94aec5e2c5513620f6e05eba8b913cf8455a5d0a4affbda8cde/bbb_client-0.1.1.tar.gz
+[2024-06-03 15:07:38] INFO root fetch - processPackages [requence]: Downloading https://files.pythonhosted.org/packages/75/a9/a1b18cbd727dfea025d4a9705c693e912290603bb3a4c4038535dec7bf01/requence-0.1.1.tar.gz
+[2024-06-03 15:07:38] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/e0/01/dbbfc8f9286f4119c137a50ef4a444c1cf513968f56cca9aeb11b66fd33e/psl-2024.6.3.tar.gz
+[2024-06-03 15:07:38] INFO root fetch - processPackages [requence]: executing diffoscope
+[2024-06-03 15:07:38] INFO root fetch - processPackages [requence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requence-0.0.1.tar.gz tmp/requence-0.1.1.tar.gz --markdown 20240603/r/requence/0.0.1-0.1.1/README.md --exclude *.pyd
+[2024-06-03 15:07:38] INFO root fetch - processPackages [bbb-client]: executing diffoscope
+[2024-06-03 15:07:38] INFO root fetch - processPackages [bbb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbb_client-0.1.0.tar.gz tmp/bbb_client-0.1.1.tar.gz --markdown 20240603/b/bbb-client/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 15:07:38] INFO root fetch - processPackages [psl]: executing diffoscope
+[2024-06-03 15:07:38] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2024.5.6.tar.gz tmp/psl-2024.6.3.tar.gz --markdown 20240603/p/psl/2024.5.6-2024.6.3/README.md --exclude *.pyd
+[2024-06-03 15:07:38] INFO root fetch - processPackages [test-integro-types]: Remove: archive file [/home/abi/fetcher/tmp/test_integro_types-0.1.0.tar.gz]
+[2024-06-03 15:07:38] INFO root fetch - processPackages [test-integro-types]: Remove: archive file [/home/abi/fetcher/tmp/test_integro_types-0.1.1.tar.gz]
+[2024-06-03 15:07:38] INFO root fetch - main [MainThread]: End processing [test-integro-types]: success
+[2024-06-03 15:07:38] INFO root fetch - processPackages [rwkv-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/rwkv_tokenizer-0.2.0.tar.gz]
+[2024-06-03 15:07:38] INFO root fetch - processPackages [rwkv-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/rwkv_tokenizer-0.3.0.tar.gz]
+[2024-06-03 15:07:38] INFO root fetch - main [MainThread]: End processing [rwkv-tokenizer]: success
+[2024-06-03 15:07:39] INFO root fetch - processPackages [requence]: Remove: archive file [/home/abi/fetcher/tmp/requence-0.0.1.tar.gz]
+[2024-06-03 15:07:39] INFO root fetch - processPackages [requence]: Remove: archive file [/home/abi/fetcher/tmp/requence-0.1.1.tar.gz]
+[2024-06-03 15:07:39] INFO root fetch - main [MainThread]: End processing [requence]: success
+[2024-06-03 15:07:39] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.5.6.tar.gz]
+[2024-06-03 15:07:39] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.6.3.tar.gz]
+[2024-06-03 15:07:39] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2024-06-03 15:07:39] INFO root fetch - processPackages [bbb-client]: Remove: archive file [/home/abi/fetcher/tmp/bbb_client-0.1.0.tar.gz]
+[2024-06-03 15:07:39] INFO root fetch - processPackages [bbb-client]: Remove: archive file [/home/abi/fetcher/tmp/bbb_client-0.1.1.tar.gz]
+[2024-06-03 15:07:39] INFO root fetch - main [MainThread]: End processing [bbb-client]: success
+[2024-06-03 15:07:39] INFO root fetch - main [MainThread]: Store serial: [23502873]
