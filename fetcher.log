@@ -5688,3 +5688,31 @@ EOFError: EOF read where object expected
 [2024-06-03 06:24:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.62.1.tar.gz]
 [2024-06-03 06:24:11] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-06-03 06:24:11] INFO root fetch - main [MainThread]: Store serial: [23496633]
+[2024-06-03 06:26:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496633]
+[2024-06-03 06:26:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 06:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-06-03 06:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abcli
+[2024-06-03 06:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abcli
+[2024-06-03 06:26:20] INFO root fetch - processPackages [abcli]: New version: [9.63.1] Old Version: [9.62.1]
+[2024-06-03 06:26:20] INFO root fetch - processPackages [abcli]: New version: [9.63.1] Old Version: [9.62.1]
+[2024-06-03 06:26:20] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/e5/fc/50ba522056444bcacdbdf6a0326982b2b90e084d385f9ce65a33f74bae65/abcli-9.62.1.tar.gz
+[2024-06-03 06:26:20] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/e5/fc/50ba522056444bcacdbdf6a0326982b2b90e084d385f9ce65a33f74bae65/abcli-9.62.1.tar.gz
+[2024-06-03 06:26:20] INFO root fetch - processPackages [abcli]: New version: [9.66.1] Old Version: [9.65.1]
+[2024-06-03 06:26:20] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/19/87/5e5e6e1097ad31498f76d4076f8f605585ab55bb2f2bac284c254d3ab783/abcli-9.65.1.tar.gz
+[2024-06-03 06:26:20] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/d1/2d/7c37be012041a0158b5ee605d60555d5d728e5cc36ef5f0b163f9368c1ca/abcli-9.63.1.tar.gz
+[2024-06-03 06:26:20] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/d1/2d/7c37be012041a0158b5ee605d60555d5d728e5cc36ef5f0b163f9368c1ca/abcli-9.63.1.tar.gz
+[2024-06-03 06:26:21] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/90/41/8a44ce25ae2afd6fe7b3f9412d7487642792c6885d89bc8ea7c97fb97507/abcli-9.66.1.tar.gz
+[2024-06-03 06:26:21] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 06:26:21] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.62.1.tar.gz tmp/abcli-9.63.1.tar.gz --markdown 20240603/a/abcli/9.62.1-9.63.1/README.md --exclude *.pyd
+[2024-06-03 06:26:21] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 06:26:21] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.62.1.tar.gz tmp/abcli-9.63.1.tar.gz --markdown 20240603/a/abcli/9.62.1-9.63.1/README.md --exclude *.pyd
+[2024-06-03 06:26:21] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 06:26:21] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.65.1.tar.gz tmp/abcli-9.66.1.tar.gz --markdown 20240603/a/abcli/9.65.1-9.66.1/README.md --exclude *.pyd
+[2024-06-03 06:26:22] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.65.1.tar.gz]
+[2024-06-03 06:26:22] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.66.1.tar.gz]
+[2024-06-03 06:26:22] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 06:26:22] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.62.1.tar.gz]
+[2024-06-03 06:26:22] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.63.1.tar.gz]
+[2024-06-03 06:26:22] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 06:26:22] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 06:26:22] INFO root fetch - main [MainThread]: Store serial: [23496645]
