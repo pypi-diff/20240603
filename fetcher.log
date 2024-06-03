@@ -4854,3 +4854,59 @@ EOFError: EOF read where object expected
 [2024-06-03 05:33:26] INFO root fetch - processPackages [ipyslides]: Remove: archive file [/home/abi/fetcher/tmp/ipyslides-4.0.0.tar.gz]
 [2024-06-03 05:33:26] INFO root fetch - main [MainThread]: End processing [ipyslides]: success
 [2024-06-03 05:33:26] INFO root fetch - main [MainThread]: Store serial: [23496292]
+[2024-06-03 05:35:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496292]
+[2024-06-03 05:35:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deshi-hello-world
+[2024-06-03 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymodins
+[2024-06-03 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-osubot
+[2024-06-03 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hemanth-hello-world
+[2024-06-03 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iac-init
+[2024-06-03 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Palmto-gen
+[2024-06-03 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SCDB-ML-app
+[2024-06-03 05:35:35] INFO root fetch - processPackages [hemanth-hello-world]: New version: [0.8] Old Version: [0.7]
+[2024-06-03 05:35:35] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.9] Old Version: [0.8]
+[2024-06-03 05:35:35] INFO root fetch - processPackages [pymodins]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-06-03 05:35:35] WARNING root fetch - processPackages [Palmto-gen]: Skipping, unable to determine old version
+[2024-06-03 05:35:35] INFO root fetch - main [MainThread]: End processing [Palmto-gen] error
+[2024-06-03 05:35:35] INFO root fetch - processPackages [iac-init]: New version: [0.9.51] Old Version: [0.9.4]
+[2024-06-03 05:35:35] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-06-03 05:35:35] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.4.5] Old Version: [6.4.4]
+[2024-06-03 05:35:35] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/e8/4d/01ee5a3953d98876ebc6466220fabe94431e727630d822a1b829eff5c362/hemanth_hello_world-0.7.tar.gz
+[2024-06-03 05:35:35] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/ec/13/4df71be3dfc21da4aa9d3749220d650f000086fc744bba893bd63f3d619b/deshi_hello_world-0.8.tar.gz
+[2024-06-03 05:35:35] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/18/5c/8d43bc3c461090aaad93e4b69a25d1c734762c289266e786c0ff706f7f6f/pymodins-2.0.6.tar.gz
+[2024-06-03 05:35:35] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/d1/75/b95e97a46b73a3825973fd886a80e6a97cc6618a2c608cff97648a817f0e/SCDB_ML_app-1.0.7-py3-none-any.whl
+[2024-06-03 05:35:35] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/bf/31/dc1845647032a34f481bfa7e64c1f4306f7a976a3d4a084c943196f41b5d/nonebot-plugin-osubot-6.4.4.tar.gz
+[2024-06-03 05:35:35] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/f4/bf/490c81099ed40514839142c12959268f20268b9e86838c745588641382dc/iac_init-0.9.4.tar.gz
+[2024-06-03 05:35:35] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29721448>=10485760
+[2024-06-03 05:35:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-06-03 05:35:35] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/1a/f0/60a215d367bc9b187ec6dde303947eab035a65a61c7b728f720a28537262/hemanth_hello_world-0.8.tar.gz
+[2024-06-03 05:35:35] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/3c/dc/808ede2e49cb9010873815e5a07cfb0aee1aac2f60438cef994da1555c44/deshi_hello_world-0.9.tar.gz
+[2024-06-03 05:35:35] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/21/96/e36270a60d4c0b649b99e6078eaf1ff75f4a2db0e197e21476e5e0de5e6f/pymodins-2.0.7.tar.gz
+[2024-06-03 05:35:35] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/d0/26/a6d0b539d0c865fccd66634396287048c80d3f56cf830e1de1f03f181011/iac_init-0.9.51.tar.gz
+[2024-06-03 05:35:35] INFO root fetch - processPackages [hemanth-hello-world]: executing diffoscope
+[2024-06-03 05:35:35] INFO root fetch - processPackages [hemanth-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hemanth_hello_world-0.7.tar.gz tmp/hemanth_hello_world-0.8.tar.gz --markdown 20240603/h/hemanth-hello-world/0.7-0.8/README.md --exclude *.pyd
+[2024-06-03 05:35:35] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 05:35:35] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.8.tar.gz tmp/deshi_hello_world-0.9.tar.gz --markdown 20240603/d/deshi-hello-world/0.8-0.9/README.md --exclude *.pyd
+[2024-06-03 05:35:35] INFO root fetch - processPackages [pymodins]: executing diffoscope
+[2024-06-03 05:35:35] INFO root fetch - processPackages [pymodins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodins-2.0.6.tar.gz tmp/pymodins-2.0.7.tar.gz --markdown 20240603/p/pymodins/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-06-03 05:35:35] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-06-03 05:35:35] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.9.4.tar.gz tmp/iac_init-0.9.51.tar.gz --markdown 20240603/i/iac-init/0.9.4-0.9.51/README.md --exclude *.pyd
+[2024-06-03 05:35:35] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/75/4f/f3366c891278e41a37bd608c738d15bb8391c750c069c04fd531ab1321b3/SCDB_ML_app-1.0.8-py3-none-any.whl
+[2024-06-03 05:35:36] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 05:35:36] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.7-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.8-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-06-03 05:35:36] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.8.tar.gz]
+[2024-06-03 05:35:36] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.9.tar.gz]
+[2024-06-03 05:35:36] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 05:35:36] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.7.tar.gz]
+[2024-06-03 05:35:36] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.8.tar.gz]
+[2024-06-03 05:35:36] INFO root fetch - main [MainThread]: End processing [hemanth-hello-world]: success
+[2024-06-03 05:35:36] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-2.0.6.tar.gz]
+[2024-06-03 05:35:36] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-2.0.7.tar.gz]
+[2024-06-03 05:35:36] INFO root fetch - main [MainThread]: End processing [pymodins]: success
+[2024-06-03 05:35:36] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.4.tar.gz]
+[2024-06-03 05:35:36] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.51.tar.gz]
+[2024-06-03 05:35:36] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-06-03 05:35:37] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.7-py3-none-any.whl.zip]
+[2024-06-03 05:35:37] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.8-py3-none-any.whl.zip]
+[2024-06-03 05:35:37] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 05:35:37] INFO root fetch - main [MainThread]: Store serial: [23496311]
