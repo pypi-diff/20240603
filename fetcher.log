@@ -6530,3 +6530,51 @@ EOFError: EOF read where object expected
 [2024-06-03 07:22:51] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-06-03 07:22:51] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-06-03 07:22:51] INFO root fetch - main [MainThread]: Store serial: [23496958]
+[2024-06-03 07:24:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496958]
+[2024-06-03 07:25:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 07:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toyai
+[2024-06-03 07:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: staffspy
+[2024-06-03 07:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openlit
+[2024-06-03 07:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: folkmq
+[2024-06-03 07:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagknows
+[2024-06-03 07:25:01] INFO root fetch - processPackages [toyai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 07:25:01] INFO root fetch - processPackages [dagknows]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 07:25:01] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/fd/4c/821633199a44bf39d8ff3afa6002dbead461d9d66884ceb45606f2bb8c51/toyai-0.1.8-py3-none-any.whl
+[2024-06-03 07:25:01] INFO root fetch - processPackages [openlit]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-06-03 07:25:01] INFO root fetch - processPackages [folkmq]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-06-03 07:25:01] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/da/d9/26cacd120bcb1bc7ed7d34413f6092ad7cca3a1ffa660c3f97a30b1ba54a/dagknows-0.0.98-py3-none-any.whl
+[2024-06-03 07:25:01] INFO root fetch - processPackages [staffspy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 07:25:01] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/29/42/fc8346bbdb1b8d3426ce93896c4fa4111231a886d43feaae66541c4e6584/openlit-1.8.0.tar.gz
+[2024-06-03 07:25:01] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/a2/70/db5332fafeb1eebb2d64e6a4c5afebb1641c514451526d6ea7f51a65521c/folkmq-1.5.1.tar.gz
+[2024-06-03 07:25:01] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/18/d9/7e8965ab53001776b1f7370302d93bd68116fb00deb686b2b9821b9914e6/toyai-0.1.9-py3-none-any.whl
+[2024-06-03 07:25:01] INFO root fetch - processPackages [staffspy]: Downloading https://files.pythonhosted.org/packages/b8/0a/90f8267fcbc753852996b18f89632ff65f7b2b04cc1d321de4285bfcd284/staffspy-0.1.0.tar.gz
+[2024-06-03 07:25:01] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/0a/f9/487230793695e830b97edaf88bed96a0afd0b943f15815533a0a0fcc2f64/dagknows-0.0.99-py3-none-any.whl
+[2024-06-03 07:25:01] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 07:25:01] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.8-py3-none-any.whl.zip tmp/toyai-0.1.9-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 07:25:02] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2024-06-03 07:25:02] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.98-py3-none-any.whl.zip tmp/dagknows-0.0.99-py3-none-any.whl.zip --markdown 20240603/d/dagknows/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 07:25:02] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/91/44/388b40fbc9a4fe83be86dc9986a33b5d28dcf7026ef65a34014c1c03d46e/openlit-1.9.0.tar.gz
+[2024-06-03 07:25:02] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/7e/c2/9dca4ee0e7c1b424a7e622110bc7fe69cf6de103f07279f52b332468c06a/folkmq-1.5.2.tar.gz
+[2024-06-03 07:25:02] INFO root fetch - processPackages [staffspy]: Downloading https://files.pythonhosted.org/packages/6f/0e/ed5c5c336bc633d1fd08714f1fc8e06190d470419c2e9f8252cec6230953/staffspy-0.1.1.tar.gz
+[2024-06-03 07:25:02] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-06-03 07:25:02] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.8.0.tar.gz tmp/openlit-1.9.0.tar.gz --markdown 20240603/o/openlit/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-06-03 07:25:02] INFO root fetch - processPackages [staffspy]: executing diffoscope
+[2024-06-03 07:25:02] INFO root fetch - processPackages [staffspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staffspy-0.1.0.tar.gz tmp/staffspy-0.1.1.tar.gz --markdown 20240603/s/staffspy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 07:25:02] INFO root fetch - processPackages [folkmq]: executing diffoscope
+[2024-06-03 07:25:02] INFO root fetch - processPackages [folkmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folkmq-1.5.1.tar.gz tmp/folkmq-1.5.2.tar.gz --markdown 20240603/f/folkmq/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-06-03 07:25:02] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.8-py3-none-any.whl.zip]
+[2024-06-03 07:25:02] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.9-py3-none-any.whl.zip]
+[2024-06-03 07:25:02] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 07:25:02] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.98-py3-none-any.whl.zip]
+[2024-06-03 07:25:02] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.99-py3-none-any.whl.zip]
+[2024-06-03 07:25:02] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2024-06-03 07:25:02] INFO root fetch - processPackages [staffspy]: Remove: archive file [/home/abi/fetcher/tmp/staffspy-0.1.0.tar.gz]
+[2024-06-03 07:25:02] INFO root fetch - processPackages [staffspy]: Remove: archive file [/home/abi/fetcher/tmp/staffspy-0.1.1.tar.gz]
+[2024-06-03 07:25:02] INFO root fetch - main [MainThread]: End processing [staffspy]: success
+[2024-06-03 07:25:02] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.5.1.tar.gz]
+[2024-06-03 07:25:02] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.5.2.tar.gz]
+[2024-06-03 07:25:02] INFO root fetch - main [MainThread]: End processing [folkmq]: success
+[2024-06-03 07:25:03] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.8.0.tar.gz]
+[2024-06-03 07:25:03] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.9.0.tar.gz]
+[2024-06-03 07:25:03] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-06-03 07:25:03] INFO root fetch - main [MainThread]: Store serial: [23496970]
