@@ -10602,3 +10602,105 @@ EOFError: EOF read where object expected
 [2024-06-03 10:52:42] INFO root fetch - processPackages [antchain-realperson]: Remove: archive file [/home/abi/fetcher/tmp/antchain_realperson-1.9.0.tar.gz]
 [2024-06-03 10:52:42] INFO root fetch - main [MainThread]: End processing [antchain-realperson]: success
 [2024-06-03 10:52:42] INFO root fetch - main [MainThread]: Store serial: [23498860]
+[2024-06-03 10:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498860]
+[2024-06-03 10:54:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh-server
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlabs-mini-cli
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proteoformquant
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbprune
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proteoformquant
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rlabs-mini-shell
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redturtle.prenotazioni
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minisklearn
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proteoformquant
+[2024-06-03 10:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proteoformquant
+[2024-06-03 10:54:53] INFO root fetch - processPackages [rlabs-mini-cli]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-06-03 10:54:53] WARNING root fetch - processPackages [minisklearn]: Skipping, unable to determine old version
+[2024-06-03 10:54:53] INFO root fetch - processPackages [minisklearn]: Start processing: tfp-nightly
+[2024-06-03 10:54:53] INFO root fetch - main [MainThread]: End processing [minisklearn] error
+[2024-06-03 10:54:53] INFO root fetch - processPackages [rlabs-mini-shell]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [nbprune]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: New version: [1.17] Old Version: [1.16]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: New version: [1.17] Old Version: [1.16]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: New version: [1.17] Old Version: [1.16]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [rlabs-mini-cli]: Downloading https://files.pythonhosted.org/packages/00/89/c8b060d46c214f57254fd3ce5c3e42242c3297e66836ba56ba7edb12b1f5/rlabs_mini_cli-0.1.0.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [docmesh-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: New version: [1.17] Old Version: [1.16]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-06-03 10:54:53] INFO root fetch - processPackages [rlabs-mini-shell]: Downloading https://files.pythonhosted.org/packages/7e/3f/4fa8c33ae8be21fc90a840b0169c7f9b37a57800aa6b3841fcfab4459ce2/rlabs_mini_shell-1.0.2.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [nbprune]: Downloading https://files.pythonhosted.org/packages/53/63/8af8162e0f91357683f4dd6ef6f8650543f60a36aa0148fb898dd4480e15/nbprune-0.3.1.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/fc/76/ee492e00e25ab8e40842eb0c6def2ceb5aa04bf4a8c103d0105039703eee/docmesh_server-0.0.8.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/38/dc/c9efa7ec22a9c695e13e45bb0f9585c52bc07be25338e110aa07470af46a/proteoformquant-1.16.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/38/dc/c9efa7ec22a9c695e13e45bb0f9585c52bc07be25338e110aa07470af46a/proteoformquant-1.16.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/38/dc/c9efa7ec22a9c695e13e45bb0f9585c52bc07be25338e110aa07470af46a/proteoformquant-1.16.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/38/dc/c9efa7ec22a9c695e13e45bb0f9585c52bc07be25338e110aa07470af46a/proteoformquant-1.16.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/7b/d8/5e9b5c0414824ebb9df9bbc8cd3a5e4d6aba6cfed3206b894c11dabade42/redturtle.prenotazioni-2.7.1.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-06-03 10:54:53] INFO root fetch - processPackages [rlabs-mini-cli]: Downloading https://files.pythonhosted.org/packages/ca/c7/24aee1ffb37770b243c49c4a3be4413df439d39087f9cdd17ff350113f21/rlabs_mini_cli-1.0.0.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/11/18/42e4c8bb081f5bfe70332fd6c6252caa8b4d797064b3ede40fd1156ff7c1/docmesh_server-0.0.9.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [nbprune]: Downloading https://files.pythonhosted.org/packages/78/37/77f589bc29b6cf52ddd3b9b778320886c3f66b351e34dbd1e9d2db233e5f/nbprune-0.3.2.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [rlabs-mini-cli]: executing diffoscope
+[2024-06-03 10:54:53] INFO root fetch - processPackages [rlabs-mini-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlabs_mini_cli-0.1.0.tar.gz tmp/rlabs_mini_cli-1.0.0.tar.gz --markdown 20240603/r/rlabs-mini-cli/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-06-03 10:54:53] INFO root fetch - processPackages [docmesh-server]: executing diffoscope
+[2024-06-03 10:54:53] INFO root fetch - processPackages [docmesh-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_server-0.0.8.tar.gz tmp/docmesh_server-0.0.9.tar.gz --markdown 20240603/d/docmesh-server/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/c5/30/bed1d312fde309fe94c7e664386c21d456610ed7eaef1052b18a63c06f83/proteoformquant-1.17.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/c5/30/bed1d312fde309fe94c7e664386c21d456610ed7eaef1052b18a63c06f83/proteoformquant-1.17.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/c5/30/bed1d312fde309fe94c7e664386c21d456610ed7eaef1052b18a63c06f83/proteoformquant-1.17.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: Downloading https://files.pythonhosted.org/packages/c5/30/bed1d312fde309fe94c7e664386c21d456610ed7eaef1052b18a63c06f83/proteoformquant-1.17.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [nbprune]: executing diffoscope
+[2024-06-03 10:54:53] INFO root fetch - processPackages [nbprune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbprune-0.3.1.tar.gz tmp/nbprune-0.3.2.tar.gz --markdown 20240603/n/nbprune/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-06-03 10:54:53] INFO root fetch - processPackages [rlabs-mini-shell]: Downloading https://files.pythonhosted.org/packages/f0/41/6572c113df9e57884faa56002958467319f62c86271f0f183b9165dc2ce0/rlabs_mini_shell-1.1.0.tar.gz
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: executing diffoscope
+[2024-06-03 10:54:53] INFO root fetch - processPackages [proteoformquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteoformquant-1.16.tar.gz tmp/proteoformquant-1.17.tar.gz --markdown 20240603/p/proteoformquant/1.16-1.17/README.md --exclude *.pyd
+[2024-06-03 10:54:54] INFO root fetch - processPackages [proteoformquant]: executing diffoscope
+[2024-06-03 10:54:54] INFO root fetch - processPackages [proteoformquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteoformquant-1.16.tar.gz tmp/proteoformquant-1.17.tar.gz --markdown 20240603/p/proteoformquant/1.16-1.17/README.md --exclude *.pyd
+[2024-06-03 10:54:54] INFO root fetch - processPackages [proteoformquant]: executing diffoscope
+[2024-06-03 10:54:54] INFO root fetch - processPackages [proteoformquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteoformquant-1.16.tar.gz tmp/proteoformquant-1.17.tar.gz --markdown 20240603/p/proteoformquant/1.16-1.17/README.md --exclude *.pyd
+[2024-06-03 10:54:54] INFO root fetch - processPackages [rlabs-mini-shell]: executing diffoscope
+[2024-06-03 10:54:54] INFO root fetch - processPackages [rlabs-mini-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlabs_mini_shell-1.0.2.tar.gz tmp/rlabs_mini_shell-1.1.0.tar.gz --markdown 20240603/r/rlabs-mini-shell/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-06-03 10:54:54] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/5b/35/d7b924aaf125ffbbf04f070260d0b0c9276d19e18867ce62ca4f4d6a5a43/redturtle.prenotazioni-2.7.2.tar.gz
+[2024-06-03 10:54:54] INFO root fetch - processPackages [proteoformquant]: executing diffoscope
+[2024-06-03 10:54:54] INFO root fetch - processPackages [proteoformquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteoformquant-1.16.tar.gz tmp/proteoformquant-1.17.tar.gz --markdown 20240603/p/proteoformquant/1.16-1.17/README.md --exclude *.pyd
+[2024-06-03 10:54:54] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-06-03 10:54:54] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.7.1.tar.gz tmp/redturtle.prenotazioni-2.7.2.tar.gz --markdown 20240603/r/redturtle.prenotazioni/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-06-03 10:54:54] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-06-03 10:54:54] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-06-03 10:54:54] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240603/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-06-03 10:54:55] INFO root fetch - processPackages [nbprune]: Remove: archive file [/home/abi/fetcher/tmp/nbprune-0.3.1.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - processPackages [nbprune]: Remove: archive file [/home/abi/fetcher/tmp/nbprune-0.3.2.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - processPackages [nbprune]: Start processing: fcatng
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [nbprune]: success
+[2024-06-03 10:54:55] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.8.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.9.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - processPackages [docmesh-server]: Start processing: ZAIScikit
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [docmesh-server]: success
+[2024-06-03 10:54:55] WARNING root fetch - processPackages [fcatng]: Skipping, unable to determine old version
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [fcatng] error
+[2024-06-03 10:54:55] INFO root fetch - processPackages [ZAIScikit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 10:54:55] INFO root fetch - processPackages [rlabs-mini-cli]: Remove: archive file [/home/abi/fetcher/tmp/rlabs_mini_cli-0.1.0.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - processPackages [rlabs-mini-cli]: Remove: archive file [/home/abi/fetcher/tmp/rlabs_mini_cli-1.0.0.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [rlabs-mini-cli]: success
+[2024-06-03 10:54:55] INFO root fetch - processPackages [proteoformquant]: Remove: archive file [/home/abi/fetcher/tmp/proteoformquant-1.16.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - processPackages [proteoformquant]: Remove: archive file [/home/abi/fetcher/tmp/proteoformquant-1.17.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [proteoformquant]: success
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [proteoformquant]: success
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [proteoformquant]: success
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [proteoformquant]: success
+[2024-06-03 10:54:55] INFO root fetch - processPackages [rlabs-mini-shell]: Remove: archive file [/home/abi/fetcher/tmp/rlabs_mini_shell-1.0.2.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - processPackages [rlabs-mini-shell]: Remove: archive file [/home/abi/fetcher/tmp/rlabs_mini_shell-1.1.0.tar.gz]
+[2024-06-03 10:54:55] INFO root fetch - main [MainThread]: End processing [rlabs-mini-shell]: success
+[2024-06-03 10:54:55] INFO root fetch - processPackages [ZAIScikit]: Downloading https://files.pythonhosted.org/packages/89/f7/c066abae2e42a8e0be01af444f13632725f2a23894dc95d78a6336b3f316/zaiscikit-0.1.0.tar.gz
+[2024-06-03 10:54:56] INFO root fetch - processPackages [ZAIScikit]: Downloading https://files.pythonhosted.org/packages/76/3f/deec62fabce4895031d1039cedf56ad1634efff5574b88f39ea7a0449460/zaiscikit-0.1.1.tar.gz
+[2024-06-03 10:54:56] INFO root fetch - processPackages [ZAIScikit]: executing diffoscope
+[2024-06-03 10:54:56] INFO root fetch - processPackages [ZAIScikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaiscikit-0.1.0.tar.gz tmp/zaiscikit-0.1.1.tar.gz --markdown 20240603/Z/ZAIScikit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 10:54:56] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.7.1.tar.gz]
+[2024-06-03 10:54:56] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.7.2.tar.gz]
+[2024-06-03 10:54:56] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-06-03 10:54:57] INFO root fetch - processPackages [ZAIScikit]: Remove: archive file [/home/abi/fetcher/tmp/zaiscikit-0.1.0.tar.gz]
+[2024-06-03 10:54:57] INFO root fetch - processPackages [ZAIScikit]: Remove: archive file [/home/abi/fetcher/tmp/zaiscikit-0.1.1.tar.gz]
+[2024-06-03 10:54:57] INFO root fetch - main [MainThread]: End processing [ZAIScikit]: success
+[2024-06-03 10:54:59] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-06-03 10:54:59] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-06-03 10:54:59] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-06-03 10:54:59] INFO root fetch - main [MainThread]: Store serial: [23498907]
