@@ -17786,3 +17786,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:05:13] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
 [2024-06-03 14:05:13] INFO root fetch - main [MainThread]: End processing [avrotize]: success
 [2024-06-03 14:05:13] INFO root fetch - main [MainThread]: Store serial: [23501876]
+[2024-06-03 14:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501876]
+[2024-06-03 14:07:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapix-py
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airouter
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-picker
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdps
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ok-script
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphclass
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hddm-s
+[2024-06-03 14:07:22] INFO root fetch - processPackages [graphclass]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 14:07:22] INFO root fetch - processPackages [cdps]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 14:07:22] INFO root fetch - processPackages [hddm-s]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-06-03 14:07:22] INFO root fetch - processPackages [fastapix-py]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 14:07:22] INFO root fetch - processPackages [git-picker]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 14:07:22] INFO root fetch - processPackages [graphclass]: Downloading https://files.pythonhosted.org/packages/24/af/e21295c5196d68f4c3164c9739cb021504482ae60a25564bce6d388b8a65/graphclass-0.0.23.tar.gz
+[2024-06-03 14:07:22] INFO root fetch - processPackages [airouter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-06-03 14:07:22] INFO root fetch - processPackages [cdps]: Downloading https://files.pythonhosted.org/packages/22/73/8fd2176ba089f5ae55a93146109d271db9f9a6bdbd4b2fdf1eb3dccb5764/cdps-1.0.8.tar.gz
+[2024-06-03 14:07:22] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/04/ec/11803d046ff6768b13b0cf2ba52d3bd8b7574e4a773677fbc38d7f789dc4/hddm_s-1.1.5.tar.gz
+[2024-06-03 14:07:22] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/c2/b9/96d49c4541969462af442fce4a3459948f352874ccd6a9c3b5f6fc59cd3c/fastapix_py-0.9.2-py3-none-any.whl
+[2024-06-03 14:07:22] INFO root fetch - processPackages [git-picker]: Downloading https://files.pythonhosted.org/packages/e8/32/7cfb058e004f9c4309c69259084678a275b29ad2f00bc3a56e2244e802ae/git-picker-0.3.8.tar.gz
+[2024-06-03 14:07:22] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/8a/3e/da06f92af428f5b70f43949f2e50c9b5f58563142fda79296230caf358d7/airouter-0.1.8.tar.gz
+[2024-06-03 14:07:22] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-06-03 14:07:22] INFO root fetch - processPackages [cdps]: Downloading https://files.pythonhosted.org/packages/ca/0b/37cc4575f3f5f399fed1223fd57adb24c1f4d98d7b88c48aed9f872abc0c/cdps-1.0.9.tar.gz
+[2024-06-03 14:07:23] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/9a/c5/32e08435a3a308c59be2e039029132030c7532259bf87b9d6f3cb77cbd61/hddm_s-1.1.6.tar.gz
+[2024-06-03 14:07:23] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-06-03 14:07:23] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240603/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 14:07:23] INFO root fetch - processPackages [cdps]: executing diffoscope
+[2024-06-03 14:07:23] INFO root fetch - processPackages [cdps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdps-1.0.8.tar.gz tmp/cdps-1.0.9.tar.gz --markdown 20240603/c/cdps/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 14:07:23] INFO root fetch - processPackages [graphclass]: Downloading https://files.pythonhosted.org/packages/a5/50/8419e9a59d8aff158c8048e33f990731ac343ccb790a483f5fedb4cc1f9d/graphclass-0.0.24.tar.gz
+[2024-06-03 14:07:23] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/c4/d7/f6d9f500e0aa8354a4af24c90d8fc78305df63bb7b2133759b92be00e3e0/airouter-0.1.9.tar.gz
+[2024-06-03 14:07:23] INFO root fetch - processPackages [git-picker]: Downloading https://files.pythonhosted.org/packages/f0/98/0fc9bf487fd9ebf245609c7989f1360405f0f181388fec56944dc6477024/git-picker-0.3.9.tar.gz
+[2024-06-03 14:07:23] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-06-03 14:07:23] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.1.5.tar.gz tmp/hddm_s-1.1.6.tar.gz --markdown 20240603/h/hddm-s/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-06-03 14:07:23] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/89/4e/6437b196a9636ce47783ca16afe90cf3ce28dc4ec8c6b6d1283b25077b6e/fastapix_py-0.9.3-py3-none-any.whl
+[2024-06-03 14:07:23] INFO root fetch - processPackages [graphclass]: executing diffoscope
+[2024-06-03 14:07:23] INFO root fetch - processPackages [graphclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphclass-0.0.23.tar.gz tmp/graphclass-0.0.24.tar.gz --markdown 20240603/g/graphclass/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-06-03 14:07:23] INFO root fetch - processPackages [airouter]: executing diffoscope
+[2024-06-03 14:07:23] INFO root fetch - processPackages [airouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airouter-0.1.8.tar.gz tmp/airouter-0.1.9.tar.gz --markdown 20240603/a/airouter/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 14:07:23] INFO root fetch - processPackages [git-picker]: executing diffoscope
+[2024-06-03 14:07:23] INFO root fetch - processPackages [git-picker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-picker-0.3.8.tar.gz tmp/git-picker-0.3.9.tar.gz --markdown 20240603/g/git-picker/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 14:07:23] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-06-03 14:07:23] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.9.2-py3-none-any.whl.zip tmp/fastapix_py-0.9.3-py3-none-any.whl.zip --markdown 20240603/f/fastapix-py/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 14:07:23] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.5.tar.gz]
+[2024-06-03 14:07:23] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.6.tar.gz]
+[2024-06-03 14:07:23] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-06-03 14:07:24] INFO root fetch - processPackages [graphclass]: Remove: archive file [/home/abi/fetcher/tmp/graphclass-0.0.23.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - processPackages [graphclass]: Remove: archive file [/home/abi/fetcher/tmp/graphclass-0.0.24.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - main [MainThread]: End processing [graphclass]: success
+[2024-06-03 14:07:24] INFO root fetch - processPackages [cdps]: Remove: archive file [/home/abi/fetcher/tmp/cdps-1.0.8.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - processPackages [cdps]: Remove: archive file [/home/abi/fetcher/tmp/cdps-1.0.9.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - main [MainThread]: End processing [cdps]: success
+[2024-06-03 14:07:24] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.8.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.9.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - main [MainThread]: End processing [airouter]: success
+[2024-06-03 14:07:24] INFO root fetch - processPackages [git-picker]: Remove: archive file [/home/abi/fetcher/tmp/git-picker-0.3.8.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - processPackages [git-picker]: Remove: archive file [/home/abi/fetcher/tmp/git-picker-0.3.9.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - main [MainThread]: End processing [git-picker]: success
+[2024-06-03 14:07:24] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-06-03 14:07:24] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-06-03 14:07:24] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.2-py3-none-any.whl.zip]
+[2024-06-03 14:07:24] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.3-py3-none-any.whl.zip]
+[2024-06-03 14:07:24] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-06-03 14:07:24] INFO root fetch - main [MainThread]: Store serial: [23501896]
