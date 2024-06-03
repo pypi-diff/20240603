@@ -5631,3 +5631,60 @@ EOFError: EOF read where object expected
 [2024-06-03 06:22:01] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-8.1.0b3-py2.py3-none-any.whl.zip]
 [2024-06-03 06:22:01] INFO root fetch - main [MainThread]: End processing [ciocore]: success
 [2024-06-03 06:22:01] INFO root fetch - main [MainThread]: Store serial: [23496617]
+[2024-06-03 06:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496617]
+[2024-06-03 06:24:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 06:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vertica-sqlalchemy-dialect
+[2024-06-03 06:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pp-weight-estimation
+[2024-06-03 06:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abcli
+[2024-06-03 06:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clickzetta-connector
+[2024-06-03 06:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parampl
+[2024-06-03 06:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: toyai
+[2024-06-03 06:24:09] INFO root fetch - processPackages [pp-weight-estimation]: New version: [1.1.45] Old Version: [1.1.44]
+[2024-06-03 06:24:09] INFO root fetch - processPackages [toyai]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 06:24:09] INFO root fetch - processPackages [parampl]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 06:24:09] INFO root fetch - processPackages [abcli]: New version: [9.62.1] Old Version: [9.61.1]
+[2024-06-03 06:24:10] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/ca/28/0f404fc309ef3e0c3ec10209ea1575f359354f3e06c7b3c9255c1ee52d98/pp_weight_estimation-1.1.44.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: New version: [0.0.8.2] Old Version: [0.0.8.1]
+[2024-06-03 06:24:10] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-06-03 06:24:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/0c/f2/52746a99c57b6428ab6eb9498460266faa4540f5c4dc0c37ee4096ac3715/abcli-9.61.1.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/2a/db/219ae05f7ea8997f650e2ba58072913077ebdfed8c412bbd6cc376dbff40/toyai-0.1.6-py3-none-any.whl
+[2024-06-03 06:24:10] INFO root fetch - processPackages [parampl]: Downloading https://files.pythonhosted.org/packages/02/c9/4f3f1db520e8c59727bfb3bda8fb2bce930472a42ef71eb9ee559fa20851/parampl-0.0.2.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: Downloading https://files.pythonhosted.org/packages/b1/c6/4d3c75983d7e04c9d736fe1f737c94d4661769057be509f36546e377cf73/vertica-sqlalchemy-dialect-0.0.8.1.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/3b/b8/2f77756916107cf9ee7e96d8a4d94427454840a78a8171e3babda3bb5aaa/toyai-0.1.7-py3-none-any.whl
+[2024-06-03 06:24:10] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/da/36/aa9a77cfbda722bb43f929225716a27e895aceb231b49aecf23b79d3f8e8/pp_weight_estimation-1.1.45.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 06:24:10] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.6-py3-none-any.whl.zip tmp/toyai-0.1.7-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 06:24:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/e5/fc/50ba522056444bcacdbdf6a0326982b2b90e084d385f9ce65a33f74bae65/abcli-9.62.1.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [pp-weight-estimation]: executing diffoscope
+[2024-06-03 06:24:10] INFO root fetch - processPackages [pp-weight-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_weight_estimation-1.1.44.tar.gz tmp/pp_weight_estimation-1.1.45.tar.gz --markdown 20240603/p/pp-weight-estimation/1.1.44-1.1.45/README.md --exclude *.pyd
+[2024-06-03 06:24:10] INFO root fetch - processPackages [parampl]: Downloading https://files.pythonhosted.org/packages/14/32/1689849afa4a6cb8a6f6db741c6908ef78e869986e5a316844b887d4691d/parampl-0.0.3.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: Downloading https://files.pythonhosted.org/packages/82/c9/102e2e6b461c504ca9347ac339a443b9d6187b3c323158f6d7137b82c8f7/vertica_sqlalchemy_dialect-0.0.8.2-py3-none-any.whl
+[2024-06-03 06:24:10] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2024-06-03 06:24:10] INFO root fetch - processPackages [parampl]: executing diffoscope
+[2024-06-03 06:24:10] INFO root fetch - processPackages [parampl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parampl-0.0.2.tar.gz tmp/parampl-0.0.3.tar.gz --markdown 20240603/p/parampl/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 06:24:10] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 06:24:10] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.61.1.tar.gz tmp/abcli-9.62.1.tar.gz --markdown 20240603/a/abcli/9.61.1-9.62.1/README.md --exclude *.pyd
+[2024-06-03 06:24:10] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: executing diffoscope
+[2024-06-03 06:24:10] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertica-sqlalchemy-dialect-0.0.8.1.tar.gz tmp/vertica_sqlalchemy_dialect-0.0.8.2-py3-none-any.whl.zip --markdown 20240603/v/vertica-sqlalchemy-dialect/0.0.8.1-0.0.8.2/README.md --exclude *.pyd
+[2024-06-03 06:24:10] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2024-06-03 06:24:10] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20240603/c/clickzetta-connector/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-06-03 06:24:11] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.1.44.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.1.45.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - main [MainThread]: End processing [pp-weight-estimation]: success
+[2024-06-03 06:24:11] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.6-py3-none-any.whl.zip]
+[2024-06-03 06:24:11] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.7-py3-none-any.whl.zip]
+[2024-06-03 06:24:11] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 06:24:11] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: Remove: archive file [/home/abi/fetcher/tmp/vertica-sqlalchemy-dialect-0.0.8.1.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - processPackages [vertica-sqlalchemy-dialect]: Remove: archive file [/home/abi/fetcher/tmp/vertica_sqlalchemy_dialect-0.0.8.2-py3-none-any.whl.zip]
+[2024-06-03 06:24:11] INFO root fetch - main [MainThread]: End processing [vertica-sqlalchemy-dialect]: success
+[2024-06-03 06:24:11] INFO root fetch - processPackages [parampl]: Remove: archive file [/home/abi/fetcher/tmp/parampl-0.0.2.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - processPackages [parampl]: Remove: archive file [/home/abi/fetcher/tmp/parampl-0.0.3.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - main [MainThread]: End processing [parampl]: success
+[2024-06-03 06:24:11] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2024-06-03 06:24:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.61.1.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.62.1.tar.gz]
+[2024-06-03 06:24:11] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 06:24:11] INFO root fetch - main [MainThread]: Store serial: [23496633]
