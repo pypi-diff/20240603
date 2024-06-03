@@ -7436,3 +7436,33 @@ EOFError: EOF read where object expected
 [2024-06-03 08:15:24] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.3.0.tar.gz]
 [2024-06-03 08:15:24] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
 [2024-06-03 08:15:24] INFO root fetch - main [MainThread]: Store serial: [23497281]
+[2024-06-03 08:17:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497281]
+[2024-06-03 08:17:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 08:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notebooks-and-scripts
+[2024-06-03 08:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pvat
+[2024-06-03 08:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redis-director
+[2024-06-03 08:17:32] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.497.1] Old Version: [4.496.1]
+[2024-06-03 08:17:32] INFO root fetch - processPackages [pvat]: New version: [0.0.0.dev1] Old Version: [0.0.0.dev0]
+[2024-06-03 08:17:32] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/97/12/da4f553db1898c137283aeb35d97ac0c2367783240b7a9b736a0744d7545/notebooks_and_scripts-4.496.1.tar.gz
+[2024-06-03 08:17:32] INFO root fetch - processPackages [redis-director]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-06-03 08:17:32] INFO root fetch - processPackages [pvat]: Downloading https://files.pythonhosted.org/packages/e9/d6/503d9ab5d1a1982bf8dd315382a2e85fdc722f2313b61c65eebaf8694fa0/pvat-0.0.0.dev0.tar.gz
+[2024-06-03 08:17:32] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/0d/b1/adcc7b357ef62881856165060b758fc6941fe0f00cfd1a86ce67a7460019/redis_director-0.7.1.tar.gz
+[2024-06-03 08:17:32] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/5a/8d/ac52059c08c4d6d833186fb8e28369fbee6ad2e2c6bc037c05ee50df43ae/notebooks_and_scripts-4.497.1.tar.gz
+[2024-06-03 08:17:33] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-06-03 08:17:33] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.496.1.tar.gz tmp/notebooks_and_scripts-4.497.1.tar.gz --markdown 20240603/n/notebooks-and-scripts/4.496.1-4.497.1/README.md --exclude *.pyd
+[2024-06-03 08:17:33] INFO root fetch - processPackages [pvat]: Downloading https://files.pythonhosted.org/packages/9f/55/c4a4dfa90d99a79500c6649c82d9ef34463ac04d795d4afd27efa4cb7ef9/pvat-0.0.0.dev1.tar.gz
+[2024-06-03 08:17:33] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/00/b9/00feabd5206f3c9e276357525d4ed47295b4bd1fb009df1fa3a208f2eeae/redis_director-0.7.2.tar.gz
+[2024-06-03 08:17:33] INFO root fetch - processPackages [pvat]: executing diffoscope
+[2024-06-03 08:17:33] INFO root fetch - processPackages [pvat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvat-0.0.0.dev0.tar.gz tmp/pvat-0.0.0.dev1.tar.gz --markdown 20240603/p/pvat/0.0.0.dev0-0.0.0.dev1/README.md --exclude *.pyd
+[2024-06-03 08:17:33] INFO root fetch - processPackages [redis-director]: executing diffoscope
+[2024-06-03 08:17:33] INFO root fetch - processPackages [redis-director]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_director-0.7.1.tar.gz tmp/redis_director-0.7.2.tar.gz --markdown 20240603/r/redis-director/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-06-03 08:17:33] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.496.1.tar.gz]
+[2024-06-03 08:17:33] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.497.1.tar.gz]
+[2024-06-03 08:17:33] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-06-03 08:17:34] INFO root fetch - processPackages [pvat]: Remove: archive file [/home/abi/fetcher/tmp/pvat-0.0.0.dev0.tar.gz]
+[2024-06-03 08:17:34] INFO root fetch - processPackages [pvat]: Remove: archive file [/home/abi/fetcher/tmp/pvat-0.0.0.dev1.tar.gz]
+[2024-06-03 08:17:34] INFO root fetch - main [MainThread]: End processing [pvat]: success
+[2024-06-03 08:17:34] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.7.1.tar.gz]
+[2024-06-03 08:17:34] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.7.2.tar.gz]
+[2024-06-03 08:17:34] INFO root fetch - main [MainThread]: End processing [redis-director]: success
+[2024-06-03 08:17:34] INFO root fetch - main [MainThread]: Store serial: [23497292]
