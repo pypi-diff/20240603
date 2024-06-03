@@ -5716,3 +5716,42 @@ EOFError: EOF read where object expected
 [2024-06-03 06:26:22] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-06-03 06:26:22] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-06-03 06:26:22] INFO root fetch - main [MainThread]: Store serial: [23496645]
+[2024-06-03 06:28:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496645]
+[2024-06-03 06:28:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 06:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-06-03 06:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chasta
+[2024-06-03 06:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bipsea
+[2024-06-03 06:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blueness
+[2024-06-03 06:28:30] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-06-03 06:28:30] INFO root fetch - processPackages [chasta]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 06:28:30] INFO root fetch - processPackages [abcli]: New version: [9.66.1] Old Version: [9.65.1]
+[2024-06-03 06:28:30] INFO root fetch - processPackages [bipsea]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-06-03 06:28:30] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-06-03 06:28:30] INFO root fetch - processPackages [chasta]: Downloading https://files.pythonhosted.org/packages/17/60/129b94e3d3bd4c734063cd41f170b7506cf9c88d50629a57ec0e5f319120/chasta-0.1.4.tar.gz
+[2024-06-03 06:28:30] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/19/87/5e5e6e1097ad31498f76d4076f8f605585ab55bb2f2bac284c254d3ab783/abcli-9.65.1.tar.gz
+[2024-06-03 06:28:30] INFO root fetch - processPackages [bipsea]: Downloading https://files.pythonhosted.org/packages/54/31/9d1c9b3cbfa740b4e0387f69517b6b84311b265255cc51553be44633c785/bipsea-0.2.5.tar.gz
+[2024-06-03 06:28:31] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-06-03 06:28:31] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/90/41/8a44ce25ae2afd6fe7b3f9412d7487642792c6885d89bc8ea7c97fb97507/abcli-9.66.1.tar.gz
+[2024-06-03 06:28:31] INFO root fetch - processPackages [chasta]: Downloading https://files.pythonhosted.org/packages/05/ad/611f0b2a1dc86a35977b9a3444692debf72246a67ebd0f9b8a1213d55e9d/chasta-0.1.5.tar.gz
+[2024-06-03 06:28:31] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-06-03 06:28:31] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240603/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-06-03 06:28:31] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 06:28:31] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.65.1.tar.gz tmp/abcli-9.66.1.tar.gz --markdown 20240603/a/abcli/9.65.1-9.66.1/README.md --exclude *.pyd
+[2024-06-03 06:28:31] INFO root fetch - processPackages [chasta]: executing diffoscope
+[2024-06-03 06:28:31] INFO root fetch - processPackages [chasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chasta-0.1.4.tar.gz tmp/chasta-0.1.5.tar.gz --markdown 20240603/c/chasta/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 06:28:31] INFO root fetch - processPackages [bipsea]: Downloading https://files.pythonhosted.org/packages/c1/74/4eda0b06a54576e68ba86c05fcd1ded503c17a094a3375990a257fcb3c59/bipsea-0.3.0.tar.gz
+[2024-06-03 06:28:31] INFO root fetch - processPackages [bipsea]: executing diffoscope
+[2024-06-03 06:28:31] INFO root fetch - processPackages [bipsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipsea-0.2.5.tar.gz tmp/bipsea-0.3.0.tar.gz --markdown 20240603/b/bipsea/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-06-03 06:28:31] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-06-03 06:28:31] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-06-03 06:28:31] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-06-03 06:28:31] INFO root fetch - processPackages [chasta]: Remove: archive file [/home/abi/fetcher/tmp/chasta-0.1.4.tar.gz]
+[2024-06-03 06:28:31] INFO root fetch - processPackages [chasta]: Remove: archive file [/home/abi/fetcher/tmp/chasta-0.1.5.tar.gz]
+[2024-06-03 06:28:31] INFO root fetch - main [MainThread]: End processing [chasta]: success
+[2024-06-03 06:28:32] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.65.1.tar.gz]
+[2024-06-03 06:28:32] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.66.1.tar.gz]
+[2024-06-03 06:28:32] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 06:28:32] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.2.5.tar.gz]
+[2024-06-03 06:28:32] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.3.0.tar.gz]
+[2024-06-03 06:28:32] INFO root fetch - main [MainThread]: End processing [bipsea]: success
+[2024-06-03 06:28:32] INFO root fetch - main [MainThread]: Store serial: [23496657]
