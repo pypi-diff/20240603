@@ -8247,3 +8247,38 @@ EOFError: EOF read where object expected
 [2024-06-03 09:08:46] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.952.tar.gz]
 [2024-06-03 09:08:46] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
 [2024-06-03 09:08:46] INFO root fetch - main [MainThread]: Store serial: [23497623]
+[2024-06-03 09:10:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497623]
+[2024-06-03 09:10:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 09:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2024-06-03 09:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nadl
+[2024-06-03 09:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glglue
+[2024-06-03 09:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cx-Freeze
+[2024-06-03 09:10:55] INFO root fetch - processPackages [nadl]: New version: [1.6.0] Old Version: [1.5.9]
+[2024-06-03 09:10:55] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/d6/21/ec8714247020baaa2b79de15a7a49d8d82cadffe0cc0d4f79ef3670592e2/nadl-1.5.9.tar.gz
+[2024-06-03 09:10:55] INFO root fetch - processPackages [glglue]: New version: [2.5.0] Old Version: [2.4.0]
+[2024-06-03 09:10:55] INFO root fetch - processPackages [cx-Freeze]: New version: [7.1.0.post0] Old Version: [7.0.0]
+[2024-06-03 09:10:55] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-06-03 09:10:55] INFO root fetch - processPackages [glglue]: Downloading https://files.pythonhosted.org/packages/4b/5d/c1d7738f173fa65c854d7a825f4700ad123ff0b2ab2a4e14610c208d20b9/glglue-2.4.0.tar.gz
+[2024-06-03 09:10:55] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-06-03 09:10:55] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/d3/9a/bd994a8a94c8e680689843a1be084a6f18debc13297eb857f9084c1f191e/nadl-1.6.0.tar.gz
+[2024-06-03 09:10:55] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-06-03 09:10:55] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.5.9.tar.gz tmp/nadl-1.6.0.tar.gz --markdown 20240603/n/nadl/1.5.9-1.6.0/README.md --exclude *.pyd
+[2024-06-03 09:10:55] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/f0/e8/3b807fb4dd62135a1363f318de3583e78d9d441bf97a91bc418a977040a8/cx_Freeze-7.1.0.post0-cp311-cp311-macosx_11_0_arm64.whl
+[2024-06-03 09:10:55] INFO root fetch - processPackages [glglue]: Downloading https://files.pythonhosted.org/packages/98/b2/5b526aa1ff963c41175cb638736ba4c258fc1b45a1835c3c286c04846cf8/glglue-2.5.0.tar.gz
+[2024-06-03 09:10:55] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-06-03 09:10:55] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-06-03 09:10:55] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240603/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-06-03 09:10:55] INFO root fetch - processPackages [glglue]: executing diffoscope
+[2024-06-03 09:10:55] INFO root fetch - processPackages [glglue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glglue-2.4.0.tar.gz tmp/glglue-2.5.0.tar.gz --markdown 20240603/g/glglue/2.4.0-2.5.0/README.md --exclude *.pyd
+[2024-06-03 09:10:56] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.9.tar.gz]
+[2024-06-03 09:10:56] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.6.0.tar.gz]
+[2024-06-03 09:10:56] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-06-03 09:10:56] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-06-03 09:10:56] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-06-03 09:10:56] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-06-03 09:10:56] WARNING root fetch - processPackages [cx-Freeze]: Skipping package: exceeds size limit 21404546>=10485760
+[2024-06-03 09:10:56] INFO root fetch - main [MainThread]: End processing [cx-Freeze] error
+[2024-06-03 09:10:56] INFO root fetch - processPackages [glglue]: Remove: archive file [/home/abi/fetcher/tmp/glglue-2.4.0.tar.gz]
+[2024-06-03 09:10:56] INFO root fetch - processPackages [glglue]: Remove: archive file [/home/abi/fetcher/tmp/glglue-2.5.0.tar.gz]
+[2024-06-03 09:10:56] INFO root fetch - main [MainThread]: End processing [glglue]: success
+[2024-06-03 09:10:56] INFO root fetch - main [MainThread]: Store serial: [23497645]
