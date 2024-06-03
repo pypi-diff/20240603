@@ -4182,3 +4182,31 @@ EOFError: EOF read where object expected
 [2024-06-03 05:04:06] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl_sub-2024.6.2.post2.tar.gz]
 [2024-06-03 05:04:06] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
 [2024-06-03 05:04:06] INFO root fetch - main [MainThread]: Store serial: [23495896]
+[2024-06-03 05:06:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495896]
+[2024-06-03 05:06:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Agentic-Reports
+[2024-06-03 05:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyDNARepeatFinder
+[2024-06-03 05:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Agentic-Reports
+[2024-06-03 05:06:14] INFO root fetch - processPackages [PyDNARepeatFinder]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 05:06:14] INFO root fetch - processPackages [PyDNARepeatFinder]: Downloading https://files.pythonhosted.org/packages/77/89/8cb1062f8e6f62523c9a279bdd29d001fde29279d31dfc762e901a29b576/pydnarepeatfinder-0.2.5.tar.gz
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/5b/92/44b18eba5d6adf17c07da2776ad015af9ac39d3e55eaf36f736e094a759b/Agentic-Reports-0.0.9.tar.gz
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/5b/92/44b18eba5d6adf17c07da2776ad015af9ac39d3e55eaf36f736e094a759b/Agentic-Reports-0.0.9.tar.gz
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.8.tar.gz tmp/Agentic-Reports-0.0.9.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 05:06:14] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.8.tar.gz tmp/Agentic-Reports-0.0.9.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 05:06:14] INFO root fetch - processPackages [PyDNARepeatFinder]: Downloading https://files.pythonhosted.org/packages/ea/40/ba90c13f8f87fcc677e37e10e30ce7ab9b473534299bb0989b757c0938e3/pydnarepeatfinder-0.2.6.tar.gz
+[2024-06-03 05:06:14] INFO root fetch - processPackages [PyDNARepeatFinder]: executing diffoscope
+[2024-06-03 05:06:14] INFO root fetch - processPackages [PyDNARepeatFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydnarepeatfinder-0.2.5.tar.gz tmp/pydnarepeatfinder-0.2.6.tar.gz --markdown 20240603/P/PyDNARepeatFinder/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-06-03 05:06:15] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.8.tar.gz]
+[2024-06-03 05:06:15] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.9.tar.gz]
+[2024-06-03 05:06:15] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 05:06:15] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 05:06:15] INFO root fetch - processPackages [PyDNARepeatFinder]: Remove: archive file [/home/abi/fetcher/tmp/pydnarepeatfinder-0.2.5.tar.gz]
+[2024-06-03 05:06:15] INFO root fetch - processPackages [PyDNARepeatFinder]: Remove: archive file [/home/abi/fetcher/tmp/pydnarepeatfinder-0.2.6.tar.gz]
+[2024-06-03 05:06:15] INFO root fetch - main [MainThread]: End processing [PyDNARepeatFinder]: success
+[2024-06-03 05:06:15] INFO root fetch - main [MainThread]: Store serial: [23495905]
