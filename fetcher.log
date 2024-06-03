@@ -4678,3 +4678,81 @@ EOFError: EOF read where object expected
 [2024-06-03 05:24:46] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024060203.tar.gz]
 [2024-06-03 05:24:46] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-06-03 05:24:46] INFO root fetch - main [MainThread]: Store serial: [23496221]
+[2024-06-03 05:26:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496221]
+[2024-06-03 05:26:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KOnezumiAID
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyclicpeptide
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-core
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rockai-cli-app
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rag-assistant
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: toollib
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-x-table
+[2024-06-03 05:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Agentic-Reports
+[2024-06-03 05:26:54] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 05:26:54] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 05:26:54] INFO root fetch - processPackages [json-x-table]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 05:26:54] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 05:26:54] INFO root fetch - processPackages [iac-init]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-06-03 05:26:54] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-06-03 05:26:54] INFO root fetch - processPackages [toollib]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-06-03 05:26:54] WARNING root fetch - processPackages [KOnezumiAID]: Skipping, unable to determine old version
+[2024-06-03 05:26:54] INFO root fetch - main [MainThread]: End processing [KOnezumiAID] error
+[2024-06-03 05:26:54] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/a4/19/7416b6eb15f6056bdbd4d0d826d8d9028b76f3e60cabea03af0792692d69/rag_assistant-0.1.8.tar.gz
+[2024-06-03 05:26:54] INFO root fetch - processPackages [llama-index-core]: New version: [0.9.56] Old Version: [0.9.55]
+[2024-06-03 05:26:54] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 05:26:54] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/7f/d1/9c4ae4b7c3c39595e506244d3dc9d6de16b660854539ca1f8de9b85a9125/iac_init-0.9.3.tar.gz
+[2024-06-03 05:26:54] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-06-03 05:26:54] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/99/de/7687786d22b1de9896f07405345ed34e1d784fc42de6d0d202388c0f002f/cyclicpeptide-1.0.8.tar.gz
+[2024-06-03 05:26:54] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/47/82/80d5338be3cf08807996339694cd3d94c7a2b9201cca8ee4581d614f38c5/json_x_table-0.0.1.tar.gz
+[2024-06-03 05:26:54] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/17/e5/419c7709757b81af67fca6b322d2dd3dff935693a200c84d7d73aee0e8eb/toollib-1.5.4-py3-none-any.whl
+[2024-06-03 05:26:54] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/cb/c2/9d70e1ea21c2760f049ed87f06333bc85bc3afb95daa8f1cc6f9bce744ed/llama_index_core-0.9.55.tar.gz
+[2024-06-03 05:26:55] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/ab/f1/620c7fb54b4a7ccc6bfb8b3fef465d28ab6f59106745edd2d05206cead9f/rag_assistant-0.1.9.tar.gz
+[2024-06-03 05:26:55] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/5b/92/44b18eba5d6adf17c07da2776ad015af9ac39d3e55eaf36f736e094a759b/Agentic-Reports-0.0.9.tar.gz
+[2024-06-03 05:26:55] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/f4/bf/490c81099ed40514839142c12959268f20268b9e86838c745588641382dc/iac_init-0.9.4.tar.gz
+[2024-06-03 05:26:55] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-06-03 05:26:55] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/3a/38/1585212738966a5e64a42d5af887ca097608b1c38b7d4b5eb89e2f642b95/cyclicpeptide-1.0.9.tar.gz
+[2024-06-03 05:26:55] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-06-03 05:26:55] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.1.8.tar.gz tmp/rag_assistant-0.1.9.tar.gz --markdown 20240603/r/rag-assistant/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 05:26:55] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-06-03 05:26:55] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.9.3.tar.gz tmp/iac_init-0.9.4.tar.gz --markdown 20240603/i/iac-init/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-06-03 05:26:55] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 05:26:55] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.8.tar.gz tmp/Agentic-Reports-0.0.9.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 05:26:55] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-06-03 05:26:55] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240603/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-06-03 05:26:55] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-06-03 05:26:55] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.8.tar.gz tmp/cyclicpeptide-1.0.9.tar.gz --markdown 20240603/c/cyclicpeptide/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 05:26:55] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/69/61/658470e052c4b654d168bf0e9375a43440b7f3c82d06a342f3c6e4c31437/json_x_table-0.0.2.tar.gz
+[2024-06-03 05:26:55] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/91/1b/bae52b894555c97848977c73e4a3a778ca388b07a2435d3a33c1133bd678/llama_index_core-0.9.56.tar.gz
+[2024-06-03 05:26:55] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/81/57/2b40273730a94a17eae5e9eda537b197d777ea846aec328fea1b97eaa5a9/toollib-1.5.5-py3-none-any.whl
+[2024-06-03 05:26:55] INFO root fetch - processPackages [json-x-table]: executing diffoscope
+[2024-06-03 05:26:55] INFO root fetch - processPackages [json-x-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_x_table-0.0.1.tar.gz tmp/json_x_table-0.0.2.tar.gz --markdown 20240603/j/json-x-table/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 05:26:55] INFO root fetch - processPackages [llama-index-core]: executing diffoscope
+[2024-06-03 05:26:55] INFO root fetch - processPackages [llama-index-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_core-0.9.55.tar.gz tmp/llama_index_core-0.9.56.tar.gz --markdown 20240603/l/llama-index-core/0.9.55-0.9.56/README.md --exclude *.pyd
+[2024-06-03 05:26:55] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2024-06-03 05:26:55] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.5.4-py3-none-any.whl.zip tmp/toollib-1.5.5-py3-none-any.whl.zip --markdown 20240603/t/toollib/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-06-03 05:26:55] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.8.tar.gz]
+[2024-06-03 05:26:55] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.9.tar.gz]
+[2024-06-03 05:26:55] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-06-03 05:26:56] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.8.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.9.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 05:26:56] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.1.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.2.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - main [MainThread]: End processing [json-x-table]: success
+[2024-06-03 05:26:56] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.8.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.9.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-06-03 05:26:56] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.3.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.4.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-06-03 05:26:56] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-06-03 05:26:56] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-06-03 05:26:56] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.4-py3-none-any.whl.zip]
+[2024-06-03 05:26:56] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.5-py3-none-any.whl.zip]
+[2024-06-03 05:26:56] INFO root fetch - main [MainThread]: End processing [toollib]: success
+[2024-06-03 05:26:57] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.55.tar.gz]
+[2024-06-03 05:26:57] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
+[2024-06-03 05:26:57] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
+[2024-06-03 05:26:57] INFO root fetch - main [MainThread]: Store serial: [23496258]
