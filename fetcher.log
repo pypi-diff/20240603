@@ -3557,3 +3557,18 @@ EOFError: EOF read where object expected
 [2024-06-03 04:20:35] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.1.tar.gz]
 [2024-06-03 04:20:35] INFO root fetch - main [MainThread]: End processing [RocketSim]: success
 [2024-06-03 04:20:35] INFO root fetch - main [MainThread]: Store serial: [23495629]
+[2024-06-03 04:22:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495629]
+[2024-06-03 04:22:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 04:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runevery
+[2024-06-03 04:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jetson-examples
+[2024-06-03 04:22:44] WARNING root fetch - processPackages [runevery]: Skipping, unable to determine old version
+[2024-06-03 04:22:44] INFO root fetch - main [MainThread]: End processing [runevery] error
+[2024-06-03 04:22:44] INFO root fetch - processPackages [jetson-examples]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 04:22:44] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/50/97/63612a63aceb54e5bd5cdb0ba1f1c9bdca3fad241762b4fa4e48bed488c6/jetson_examples-0.1.2.tar.gz
+[2024-06-03 04:22:45] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/9f/e0/d6b25741aa76c088f6b7b7cd4b2e4b0128c2cc24239cc066e0afa97bc8f6/jetson_examples-0.1.3.tar.gz
+[2024-06-03 04:22:46] INFO root fetch - processPackages [jetson-examples]: executing diffoscope
+[2024-06-03 04:22:46] INFO root fetch - processPackages [jetson-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson_examples-0.1.2.tar.gz tmp/jetson_examples-0.1.3.tar.gz --markdown 20240603/j/jetson-examples/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 04:22:47] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.1.2.tar.gz]
+[2024-06-03 04:22:47] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.1.3.tar.gz]
+[2024-06-03 04:22:47] INFO root fetch - main [MainThread]: End processing [jetson-examples]: success
+[2024-06-03 04:22:47] INFO root fetch - main [MainThread]: Store serial: [23495635]
