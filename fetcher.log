@@ -15788,3 +15788,179 @@ EOFError: EOF read where object expected
 [2024-06-03 13:16:23] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.5.1.tar.gz]
 [2024-06-03 13:16:23] INFO root fetch - main [MainThread]: End processing [quickstats]: success
 [2024-06-03 13:16:23] INFO root fetch - main [MainThread]: Store serial: [23501132]
+[2024-06-03 13:18:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501132]
+[2024-06-03 13:18:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-addons-21
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-ddospro
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: madrin
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TREEplus-project
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ug4py-base
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-ros
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Docs2KG
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dve-lumipy-testing
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dao-scripts
+[2024-06-03 13:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: weaviate-client
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dao-scripts]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-06-03 13:18:32] INFO root fetch - processPackages [Docs2KG]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 13:18:32] INFO root fetch - processPackages [weaviate-client]: New version: [4.7.0a0] Old Version: [4.6.3]
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 13:18:32] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: New version: [2.5.0b20240603] Old Version: [2.5.0b20240602]
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ddospro]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:18:32] WARNING root fetch - processPackages [TREEplus-project]: Skipping, unable to determine old version
+[2024-06-03 13:18:32] INFO root fetch - main [MainThread]: End processing [TREEplus-project] error
+[2024-06-03 13:18:32] INFO root fetch - processPackages [madrin]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ug4py-base]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ros]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/af/77/4dd466cb15bea41c511f699b8df5dc178b2f7d36e70af778432b96b70653/dao_scripts-1.4.2.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [Docs2KG]: Downloading https://files.pythonhosted.org/packages/25/15/a125569076b82f91a9752d1c9803c28d7cee0c3a7c3ffa06888887ffe207/docs2kg-0.1.2.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/fe/16/3541a9dcba437e9cafd5c436b98b068d92debe86fd83d92ad7e19f6023d9/ros-cdk-ros-1.0.8.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: Downloading https://files.pythonhosted.org/packages/65/c0/6a433fe0bf957b51f143ae842e66310eb9f7414e6e31e325476083f1cd0d/bigdl_core_xe_addons_21-2.5.0b20240602-cp39-cp39-win_amd64.whl
+[2024-06-03 13:18:32] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/53/82/4b8f81f83c1bc0cb70b8e6b1d5d636fada154a6455f5e3d9c16a08e40242/weaviate_client-4.6.3.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ddospro]: Downloading https://files.pythonhosted.org/packages/23/a5/e046dad2388bb9d556950930da1bf0a6f1f8f725aa320e886f7f08ec8a59/ros-cdk-ddospro-1.0.24.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ug4py-base]: Downloading https://files.pythonhosted.org/packages/2d/c4/e224ac93737350e4387f17efec2f1a874453008602021160318258641568/ug4py_base-0.0.2-cp312-cp312-win_amd64.whl
+[2024-06-03 13:18:32] INFO root fetch - processPackages [madrin]: Downloading https://files.pythonhosted.org/packages/07/fa/e6a59751d0be007d474d15d0aed30a9c3ccbb4baa9405fe9b10952a315bc/madrin-0.0.1-py3-none-any.whl
+[2024-06-03 13:18:32] INFO root fetch - processPackages [Docs2KG]: Downloading https://files.pythonhosted.org/packages/17/3d/7d2ee3c1257b0cdb35377ac68813e800e803302408f7594b75522410dfa4/docs2kg-0.1.3.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/92/56/fb08c3e0c08a62f8ed24b457c4b4fe0f513e92f1805623d665cdf721520e/dao_scripts-1.4.3.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [Docs2KG]: executing diffoscope
+[2024-06-03 13:18:32] INFO root fetch - processPackages [Docs2KG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2kg-0.1.2.tar.gz tmp/docs2kg-0.1.3.tar.gz --markdown 20240603/D/Docs2KG/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ros]: Downloading https://files.pythonhosted.org/packages/29/3a/415feed176461f1bdd0022d594fe89eca09769f1755fe0752ac62bdb6c58/ros-cdk-ros-1.0.9.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_scripts-1.4.2.tar.gz tmp/dao_scripts-1.4.3.tar.gz --markdown 20240603/d/dao-scripts/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ddospro]: Downloading https://files.pythonhosted.org/packages/bf/bd/ff526601e945f5985ba520d34a72b0012287802c215798d6b3ae3729daaa/ros-cdk-ddospro-1.0.25.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [madrin]: Downloading https://files.pythonhosted.org/packages/1c/80/1c4688d7e123279137b5a408aac79f4d51d7a17635b2fd93b93c050be052/madrin-0.0.2-py3-none-any.whl
+[2024-06-03 13:18:32] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/09/8f/c9f3bf42042ff63357daa8e8d7200ce0404944d4b491d887038a2b534f52/weaviate_client-4.7.0a0.tar.gz
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ros]: executing diffoscope
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ros-1.0.8.tar.gz tmp/ros-cdk-ros-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-ros/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-06-03 13:18:32] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240603/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ddospro]: executing diffoscope
+[2024-06-03 13:18:32] INFO root fetch - processPackages [ros-cdk-ddospro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ddospro-1.0.24.tar.gz tmp/ros-cdk-ddospro-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-ddospro/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:18:33] INFO root fetch - processPackages [madrin]: executing diffoscope
+[2024-06-03 13:18:33] INFO root fetch - processPackages [madrin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madrin-0.0.1-py3-none-any.whl.zip tmp/madrin-0.0.2-py3-none-any.whl.zip --markdown 20240603/m/madrin/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 13:18:33] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2024-06-03 13:18:33] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate_client-4.6.3.tar.gz tmp/weaviate_client-4.7.0a0.tar.gz --markdown 20240603/w/weaviate-client/4.6.3-4.7.0a0/README.md --exclude *.pyd
+[2024-06-03 13:18:33] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: Downloading https://files.pythonhosted.org/packages/69/2c/eef9310bb8b9f41ba01cfcafa31a1a6cd3e2643d8b4f4e1ef497eb9a0896/bigdl_core_xe_addons_21-2.5.0b20240603-cp310-cp310-win_amd64.whl
+[2024-06-03 13:18:33] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: executing diffoscope
+[2024-06-03 13:18:33] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_addons_21-2.5.0b20240602-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_addons_21-2.5.0b20240603-cp310-cp310-win_amd64.whl.zip --markdown 20240603/b/bigdl-core-xe-addons-21/2.5.0b20240602-2.5.0b20240603/README.md --exclude *.pyd
+[2024-06-03 13:18:33] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.2.tar.gz]
+[2024-06-03 13:18:33] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.3.tar.gz]
+[2024-06-03 13:18:33] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2024-06-03 13:18:33] INFO root fetch - processPackages [Docs2KG]: Remove: archive file [/home/abi/fetcher/tmp/docs2kg-0.1.2.tar.gz]
+[2024-06-03 13:18:33] INFO root fetch - processPackages [Docs2KG]: Remove: archive file [/home/abi/fetcher/tmp/docs2kg-0.1.3.tar.gz]
+[2024-06-03 13:18:33] INFO root fetch - main [MainThread]: End processing [Docs2KG]: success
+[2024-06-03 13:18:33] INFO root fetch - processPackages [ug4py-base]: Downloading https://files.pythonhosted.org/packages/3a/e6/d70a56672ddb2d6e137e2acd96a0550f79668b7e89b3bd804e1a7b3facda/ug4py_base-0.1.0-cp312-cp312-win_amd64.whl
+[2024-06-03 13:18:33] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.8.tar.gz]
+[2024-06-03 13:18:33] INFO root fetch - processPackages [ros-cdk-ros]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ros-1.0.9.tar.gz]
+[2024-06-03 13:18:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-ros]: success
+[2024-06-03 13:18:33] INFO root fetch - processPackages [madrin]: Remove: archive file [/home/abi/fetcher/tmp/madrin-0.0.1-py3-none-any.whl.zip]
+[2024-06-03 13:18:33] INFO root fetch - processPackages [madrin]: Remove: archive file [/home/abi/fetcher/tmp/madrin-0.0.2-py3-none-any.whl.zip]
+[2024-06-03 13:18:33] INFO root fetch - main [MainThread]: End processing [madrin]: success
+[2024-06-03 13:18:34] INFO root fetch - processPackages [ros-cdk-ddospro]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ddospro-1.0.24.tar.gz]
+[2024-06-03 13:18:34] INFO root fetch - processPackages [ros-cdk-ddospro]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ddospro-1.0.25.tar.gz]
+[2024-06-03 13:18:34] INFO root fetch - main [MainThread]: End processing [ros-cdk-ddospro]: success
+[2024-06-03 13:18:34] INFO root fetch - processPackages [ug4py-base]: executing diffoscope
+[2024-06-03 13:18:34] INFO root fetch - processPackages [ug4py-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ug4py_base-0.0.2-cp312-cp312-win_amd64.whl.zip tmp/ug4py_base-0.1.0-cp312-cp312-win_amd64.whl.zip --markdown 20240603/u/ug4py-base/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-06-03 13:18:34] ERROR root fetch - processPackages [bigdl-core-xe-addons-21]: Diffoscope failed: time="2024-06-03T13:18:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140300207005184)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140300072787344)
+
+[2024-06-03 13:18:34] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-addons-21] error
+[2024-06-03 13:18:34] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-06-03 13:18:34] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-06-03 13:18:34] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-06-03 13:18:34] INFO root fetch - processPackages [ug4py-base]: Remove: archive file [/home/abi/fetcher/tmp/ug4py_base-0.0.2-cp312-cp312-win_amd64.whl.zip]
+[2024-06-03 13:18:34] INFO root fetch - processPackages [ug4py-base]: Remove: archive file [/home/abi/fetcher/tmp/ug4py_base-0.1.0-cp312-cp312-win_amd64.whl.zip]
+[2024-06-03 13:18:34] INFO root fetch - main [MainThread]: End processing [ug4py-base]: success
+[2024-06-03 13:18:35] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.6.3.tar.gz]
+[2024-06-03 13:18:35] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.7.0a0.tar.gz]
+[2024-06-03 13:18:35] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2024-06-03 13:18:35] INFO root fetch - main [MainThread]: Store serial: [23501166]
