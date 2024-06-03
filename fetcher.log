@@ -2616,3 +2616,27 @@ EOFError: EOF read where object expected
 [2024-06-03 03:16:21] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.9.tar.gz]
 [2024-06-03 03:16:21] INFO root fetch - main [MainThread]: End processing [llama-index-readers-web]: success
 [2024-06-03 03:16:21] INFO root fetch - main [MainThread]: Store serial: [23495220]
+[2024-06-03 03:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495220]
+[2024-06-03 03:18:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 03:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magenpy
+[2024-06-03 03:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wfmplan
+[2024-06-03 03:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:18:30] INFO root fetch - processPackages [wfmplan]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-06-03 03:18:30] WARNING root fetch - processPackages [cs-ob-mini-scikit-learn]: Skipping, unable to determine old version
+[2024-06-03 03:18:30] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn] error
+[2024-06-03 03:18:30] INFO root fetch - processPackages [wfmplan]: Downloading https://files.pythonhosted.org/packages/a3/7a/d8d423314dddd3fa8fe2de97adcca17cdd0150c96809a7d150d4f949d466/wfmplan-1.2.0.tar.gz
+[2024-06-03 03:18:30] INFO root fetch - processPackages [magenpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 03:18:30] INFO root fetch - processPackages [magenpy]: Downloading https://files.pythonhosted.org/packages/63/7e/6339160da8934b6ddfce6941932e0faf23d0eddcf57accc96e0a416df21a/magenpy-0.1.2.tar.gz
+[2024-06-03 03:18:30] INFO root fetch - processPackages [wfmplan]: Downloading https://files.pythonhosted.org/packages/98/02/7ac656514e410b9d43e42fb0064e395fa205b147dfe9c9ad0446f6d9c1cc/wfmplan-1.2.1.tar.gz
+[2024-06-03 03:18:30] INFO root fetch - processPackages [wfmplan]: executing diffoscope
+[2024-06-03 03:18:30] INFO root fetch - processPackages [wfmplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wfmplan-1.2.0.tar.gz tmp/wfmplan-1.2.1.tar.gz --markdown 20240603/w/wfmplan/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-06-03 03:18:30] INFO root fetch - processPackages [magenpy]: Downloading https://files.pythonhosted.org/packages/ad/95/e28bc2b00a1878e2f16eea9aa0f32845efb45ccc159da7404e3dfedfb829/magenpy-0.1.3.tar.gz
+[2024-06-03 03:18:31] INFO root fetch - processPackages [magenpy]: executing diffoscope
+[2024-06-03 03:18:31] INFO root fetch - processPackages [magenpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magenpy-0.1.2.tar.gz tmp/magenpy-0.1.3.tar.gz --markdown 20240603/m/magenpy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 03:18:31] INFO root fetch - processPackages [wfmplan]: Remove: archive file [/home/abi/fetcher/tmp/wfmplan-1.2.0.tar.gz]
+[2024-06-03 03:18:31] INFO root fetch - processPackages [wfmplan]: Remove: archive file [/home/abi/fetcher/tmp/wfmplan-1.2.1.tar.gz]
+[2024-06-03 03:18:31] INFO root fetch - main [MainThread]: End processing [wfmplan]: success
+[2024-06-03 03:18:32] INFO root fetch - processPackages [magenpy]: Remove: archive file [/home/abi/fetcher/tmp/magenpy-0.1.2.tar.gz]
+[2024-06-03 03:18:32] INFO root fetch - processPackages [magenpy]: Remove: archive file [/home/abi/fetcher/tmp/magenpy-0.1.3.tar.gz]
+[2024-06-03 03:18:32] INFO root fetch - main [MainThread]: End processing [magenpy]: success
+[2024-06-03 03:18:32] INFO root fetch - main [MainThread]: Store serial: [23495249]
