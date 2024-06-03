@@ -8962,3 +8962,63 @@ EOFError: EOF read where object expected
 [2024-06-03 09:42:56] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.6.5.tar.gz]
 [2024-06-03 09:42:56] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
 [2024-06-03 09:42:56] INFO root fetch - main [MainThread]: Store serial: [23497972]
+[2024-06-03 09:45:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497972]
+[2024-06-03 09:45:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 09:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afeng-py-tools
+[2024-06-03 09:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-oscarbot
+[2024-06-03 09:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xsarsea
+[2024-06-03 09:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars-cli
+[2024-06-03 09:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: joumaico
+[2024-06-03 09:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hardwario-chester
+[2024-06-03 09:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nestipy
+[2024-06-03 09:45:06] INFO root fetch - processPackages [django-oscarbot]: New version: [0.9] Old Version: [0.8]
+[2024-06-03 09:45:06] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 09:45:06] WARNING root fetch - processPackages [joumaico]: Skipping, unable to determine old version
+[2024-06-03 09:45:06] INFO root fetch - main [MainThread]: End processing [joumaico] error
+[2024-06-03 09:45:06] INFO root fetch - processPackages [django-oscarbot]: Downloading https://files.pythonhosted.org/packages/66/60/55dca842d844f992f166b6041a9e2bcf01cdb4ec256aa0a184f2d88b7dc4/django-oscarbot-0.8.tar.gz
+[2024-06-03 09:45:06] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-06-03 09:45:06] INFO root fetch - processPackages [nestipy]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 09:45:06] INFO root fetch - processPackages [xsarsea]: New version: [1.0] Old Version: [0.9]
+[2024-06-03 09:45:06] INFO root fetch - processPackages [polars-cli]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-06-03 09:45:06] INFO root fetch - processPackages [hardwario-chester]: New version: [1.9.0] Old Version: [1.8.6]
+[2024-06-03 09:45:06] INFO root fetch - processPackages [django-oscarbot]: Downloading https://files.pythonhosted.org/packages/27/0e/11bce9aad03924b01f6cbdcd1ec3d9d21ce62ce8f3d3ed63bf039ef1e454/django-oscarbot-0.9.tar.gz
+[2024-06-03 09:45:06] INFO root fetch - processPackages [xsarsea]: Downloading https://files.pythonhosted.org/packages/1d/1d/b403ee3214322632233c4c376440b89c7ffb64607c39aa1f9a341dc5eeeb/xsarsea-0.9.tar.gz
+[2024-06-03 09:45:06] INFO root fetch - processPackages [polars-cli]: Downloading https://files.pythonhosted.org/packages/5c/65/1f8ab5be9ae0f79674ed0d03c9efd1e682b32f1114d069ac65fcf4b3bdc1/polars_cli-0.7.0.tar.gz
+[2024-06-03 09:45:06] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/33/9d/049c79d67a3391020aebd59d61aa4461018497b37505c63c3fbe36ce4846/nestipy-0.3.8.tar.gz
+[2024-06-03 09:45:06] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-06-03 09:45:06] INFO root fetch - processPackages [hardwario-chester]: Downloading https://files.pythonhosted.org/packages/3b/32/3e6adec4bb6a97e414d5bdb6a8b0514301c2f337ec1df2e61ba30642b681/hardwario-chester-1.8.6.tar.gz
+[2024-06-03 09:45:06] INFO root fetch - processPackages [django-oscarbot]: executing diffoscope
+[2024-06-03 09:45:06] INFO root fetch - processPackages [django-oscarbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscarbot-0.8.tar.gz tmp/django-oscarbot-0.9.tar.gz --markdown 20240603/d/django-oscarbot/0.8-0.9/README.md --exclude *.pyd
+[2024-06-03 09:45:06] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-06-03 09:45:06] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240603/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 09:45:07] INFO root fetch - processPackages [polars-cli]: Downloading https://files.pythonhosted.org/packages/91/2e/7398eb771e740663ed79d800288264fa47896bc5aad4bc35c2f3a840a4af/polars_cli-0.8.0.tar.gz
+[2024-06-03 09:45:07] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/51/cf/01a675b61faaa221202ef51ea0ae0a95266fd2d47135b8f6f3d450125121/nestipy-0.3.9.tar.gz
+[2024-06-03 09:45:07] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-06-03 09:45:07] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.3.8.tar.gz tmp/nestipy-0.3.9.tar.gz --markdown 20240603/n/nestipy/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 09:45:07] INFO root fetch - processPackages [hardwario-chester]: Downloading https://files.pythonhosted.org/packages/dc/c2/0ed7bc8f4504f4233fb274d92573e7dec3153a2cc7ee9d1215b48f153345/hardwario-chester-1.9.0.tar.gz
+[2024-06-03 09:45:07] INFO root fetch - processPackages [polars-cli]: executing diffoscope
+[2024-06-03 09:45:07] INFO root fetch - processPackages [polars-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_cli-0.7.0.tar.gz tmp/polars_cli-0.8.0.tar.gz --markdown 20240603/p/polars-cli/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-06-03 09:45:07] INFO root fetch - processPackages [xsarsea]: Downloading https://files.pythonhosted.org/packages/a3/d4/ffe014fb453e3af878cc25f81524085b6ba9493c045a516176ec32e142c2/xsarsea-1.0.tar.gz
+[2024-06-03 09:45:07] INFO root fetch - processPackages [hardwario-chester]: executing diffoscope
+[2024-06-03 09:45:07] INFO root fetch - processPackages [hardwario-chester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardwario-chester-1.8.6.tar.gz tmp/hardwario-chester-1.9.0.tar.gz --markdown 20240603/h/hardwario-chester/1.8.6-1.9.0/README.md --exclude *.pyd
+[2024-06-03 09:45:07] INFO root fetch - processPackages [xsarsea]: executing diffoscope
+[2024-06-03 09:45:07] INFO root fetch - processPackages [xsarsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsarsea-0.9.tar.gz tmp/xsarsea-1.0.tar.gz --markdown 20240603/x/xsarsea/0.9-1.0/README.md --exclude *.pyd
+[2024-06-03 09:45:07] INFO root fetch - processPackages [django-oscarbot]: Remove: archive file [/home/abi/fetcher/tmp/django-oscarbot-0.8.tar.gz]
+[2024-06-03 09:45:07] INFO root fetch - processPackages [django-oscarbot]: Remove: archive file [/home/abi/fetcher/tmp/django-oscarbot-0.9.tar.gz]
+[2024-06-03 09:45:07] INFO root fetch - main [MainThread]: End processing [django-oscarbot]: success
+[2024-06-03 09:45:08] INFO root fetch - processPackages [polars-cli]: Remove: archive file [/home/abi/fetcher/tmp/polars_cli-0.7.0.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - processPackages [polars-cli]: Remove: archive file [/home/abi/fetcher/tmp/polars_cli-0.8.0.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - main [MainThread]: End processing [polars-cli]: success
+[2024-06-03 09:45:08] INFO root fetch - processPackages [hardwario-chester]: Remove: archive file [/home/abi/fetcher/tmp/hardwario-chester-1.8.6.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - processPackages [hardwario-chester]: Remove: archive file [/home/abi/fetcher/tmp/hardwario-chester-1.9.0.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - main [MainThread]: End processing [hardwario-chester]: success
+[2024-06-03 09:45:08] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.3.8.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.3.9.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-06-03 09:45:08] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-06-03 09:45:08] INFO root fetch - processPackages [xsarsea]: Remove: archive file [/home/abi/fetcher/tmp/xsarsea-0.9.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - processPackages [xsarsea]: Remove: archive file [/home/abi/fetcher/tmp/xsarsea-1.0.tar.gz]
+[2024-06-03 09:45:08] INFO root fetch - main [MainThread]: End processing [xsarsea]: success
+[2024-06-03 09:45:08] INFO root fetch - main [MainThread]: Store serial: [23497998]
