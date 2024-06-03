@@ -2048,3 +2048,11 @@
 [2024-06-03 02:36:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
 [2024-06-03 02:36:05] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
 [2024-06-03 02:36:05] INFO root fetch - main [MainThread]: Store serial: [23495015]
+[2024-06-03 02:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495015]
+[2024-06-03 02:38:14] INFO root fetch - main [MainThread]: No changed packages found
+[2024-06-03 02:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495018]
+[2024-06-03 02:40:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 02:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vistenum
+[2024-06-03 02:40:19] WARNING root fetch - processPackages [vistenum]: Skipping, unable to determine old version
+[2024-06-03 02:40:19] INFO root fetch - main [MainThread]: End processing [vistenum] error
+[2024-06-03 02:40:19] INFO root fetch - main [MainThread]: Store serial: [23495021]
