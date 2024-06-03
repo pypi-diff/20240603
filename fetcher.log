@@ -11874,3 +11874,65 @@ EOFError: EOF read where object expected
 [2024-06-03 11:36:48] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-06-03 11:36:48] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-06-03 11:36:48] INFO root fetch - main [MainThread]: Store serial: [23499565]
+[2024-06-03 11:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499565]
+[2024-06-03 11:38:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: draive
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydae
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: showerpipe
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: triton-copilot
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfra-nightly
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gigachain-experimental
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gauthuserinfo
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CVE-2023-46805
+[2024-06-03 11:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: postcode-to-timezone
+[2024-06-03 11:38:58] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b5] Old Version: [0.1.3b4]
+[2024-06-03 11:38:58] WARNING root fetch - processPackages [postcode-to-timezone]: Skipping, unable to determine old version
+[2024-06-03 11:38:58] INFO root fetch - main [MainThread]: End processing [postcode-to-timezone] error
+[2024-06-03 11:38:58] INFO root fetch - processPackages [draive]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 11:38:58] INFO root fetch - processPackages [gigachain-experimental]: New version: [0.0.59.1] Old Version: [0.0.59]
+[2024-06-03 11:38:59] INFO root fetch - processPackages [showerpipe]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-06-03 11:38:59] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/3e/91/1bccefdfc76dfd0330270eac73b50e3c6465e1d137f5431801e3619f422f/triton_copilot-0.1.3b4.tar.gz
+[2024-06-03 11:38:59] WARNING root fetch - processPackages [CVE-2023-46805]: Skipping, unable to determine old version
+[2024-06-03 11:38:59] INFO root fetch - main [MainThread]: End processing [CVE-2023-46805] error
+[2024-06-03 11:38:59] WARNING root fetch - processPackages [gauthuserinfo]: Skipping, unable to determine old version
+[2024-06-03 11:38:59] INFO root fetch - main [MainThread]: End processing [gauthuserinfo] error
+[2024-06-03 11:38:59] INFO root fetch - processPackages [draive]: Downloading https://files.pythonhosted.org/packages/e8/45/5d05ebc7a4d108588289df8cb46fb9e63092e23bc2eaa8cd7f2a1659bdf6/draive-0.9.2.tar.gz
+[2024-06-03 11:38:59] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-06-03 11:38:59] INFO root fetch - processPackages [tfra-nightly]: New version: [0.7.0.dev20240530015752] Old Version: [0.6.1.dev20240601054401]
+[2024-06-03 11:38:59] INFO root fetch - processPackages [gigachain-experimental]: Downloading https://files.pythonhosted.org/packages/ca/06/5f989498389fa3a46a2a00403cb8a3825bb7f4c99f0bc15de8ce7ca8f1b8/gigachain_experimental-0.0.59.tar.gz
+[2024-06-03 11:38:59] INFO root fetch - processPackages [showerpipe]: Downloading https://files.pythonhosted.org/packages/38/c3/51664634501d52381209da63e9045be7d5f9bcc4ae0d0305f8b717951e31/showerpipe-0.3.1.tar.gz
+[2024-06-03 11:38:59] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2024-06-03 11:38:59] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/2a/e2/992ed4ac2dea6b6d31776f8f7850d8e9cf70f84ddbef6b6aa975c8e32766/tfra_nightly-0.6.1.dev20240601054401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 11:38:59] INFO root fetch - processPackages [draive]: Downloading https://files.pythonhosted.org/packages/12/45/bf12032c508f54274e377278b0c3dd9bd4818418afe99095199daf6ae9cc/draive-0.9.3.tar.gz
+[2024-06-03 11:38:59] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2024-06-03 11:38:59] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2024-06-03 11:38:59] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/a7/a9/dd151214dab795864ec14c72a5b18cfdb0ee2b4f3ab0acb6762dac8ce7ce/triton_copilot-0.1.3b5.tar.gz
+[2024-06-03 11:38:59] INFO root fetch - processPackages [draive]: executing diffoscope
+[2024-06-03 11:38:59] INFO root fetch - processPackages [draive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draive-0.9.2.tar.gz tmp/draive-0.9.3.tar.gz --markdown 20240603/d/draive/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 11:38:59] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 11:38:59] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b4.tar.gz tmp/triton_copilot-0.1.3b5.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b4-0.1.3b5/README.md --exclude *.pyd
+[2024-06-03 11:38:59] INFO root fetch - processPackages [gigachain-experimental]: Downloading https://files.pythonhosted.org/packages/a0/89/a44c64cd11918b87fa89e255b3654599e8e72a2b047c51027673409f2642/gigachain_experimental-0.0.59.1.tar.gz
+[2024-06-03 11:38:59] INFO root fetch - processPackages [showerpipe]: Downloading https://files.pythonhosted.org/packages/cc/9e/f34b66bb68061c566172fa8370694f23794a0eef3509a4df12acf055955b/showerpipe-0.4.0.tar.gz
+[2024-06-03 11:38:59] INFO root fetch - processPackages [gigachain-experimental]: executing diffoscope
+[2024-06-03 11:38:59] INFO root fetch - processPackages [gigachain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_experimental-0.0.59.tar.gz tmp/gigachain_experimental-0.0.59.1.tar.gz --markdown 20240603/g/gigachain-experimental/0.0.59-0.0.59.1/README.md --exclude *.pyd
+[2024-06-03 11:38:59] INFO root fetch - processPackages [showerpipe]: executing diffoscope
+[2024-06-03 11:38:59] INFO root fetch - processPackages [showerpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/showerpipe-0.3.1.tar.gz tmp/showerpipe-0.4.0.tar.gz --markdown 20240603/s/showerpipe/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-06-03 11:39:00] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/54/f8/6cb240509bc60f63427140609238499ce0bd098e88148b125fa5ccc1a6f1/tfra_nightly-0.7.0.dev20240530015752-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 11:39:00] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b4.tar.gz]
+[2024-06-03 11:39:00] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b5.tar.gz]
+[2024-06-03 11:39:00] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 11:39:01] INFO root fetch - processPackages [draive]: Remove: archive file [/home/abi/fetcher/tmp/draive-0.9.2.tar.gz]
+[2024-06-03 11:39:01] INFO root fetch - processPackages [draive]: Remove: archive file [/home/abi/fetcher/tmp/draive-0.9.3.tar.gz]
+[2024-06-03 11:39:01] INFO root fetch - main [MainThread]: End processing [draive]: success
+[2024-06-03 11:39:01] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-06-03 11:39:01] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240601054401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.7.0.dev20240530015752-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240603/t/tfra-nightly/0.6.1.dev20240601054401-0.7.0.dev20240530015752/README.md --exclude *.pyd
+[2024-06-03 11:39:01] INFO root fetch - processPackages [showerpipe]: Remove: archive file [/home/abi/fetcher/tmp/showerpipe-0.3.1.tar.gz]
+[2024-06-03 11:39:01] INFO root fetch - processPackages [showerpipe]: Remove: archive file [/home/abi/fetcher/tmp/showerpipe-0.4.0.tar.gz]
+[2024-06-03 11:39:01] INFO root fetch - main [MainThread]: End processing [showerpipe]: success
+[2024-06-03 11:39:01] INFO root fetch - processPackages [gigachain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_experimental-0.0.59.tar.gz]
+[2024-06-03 11:39:01] INFO root fetch - processPackages [gigachain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_experimental-0.0.59.1.tar.gz]
+[2024-06-03 11:39:01] INFO root fetch - main [MainThread]: End processing [gigachain-experimental]: success
+[2024-06-03 11:39:03] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240601054401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 11:39:03] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.7.0.dev20240530015752-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 11:39:03] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-06-03 11:39:03] INFO root fetch - main [MainThread]: Store serial: [23499602]
