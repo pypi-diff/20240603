@@ -9157,3 +9157,54 @@ EOFError: EOF read where object expected
 [2024-06-03 09:51:44] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240603022645.tar.gz]
 [2024-06-03 09:51:44] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-06-03 09:51:44] INFO root fetch - main [MainThread]: Store serial: [23498036]
+[2024-06-03 09:53:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498036]
+[2024-06-03 09:53:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 09:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdrpa.tdworker
+[2024-06-03 09:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squlearn
+[2024-06-03 09:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protarrow
+[2024-06-03 09:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paas-app-charmer
+[2024-06-03 09:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grepexercises
+[2024-06-03 09:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icpReconstructor
+[2024-06-03 09:53:53] INFO root fetch - processPackages [icpReconstructor]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 09:53:53] INFO root fetch - processPackages [icpReconstructor]: Downloading https://files.pythonhosted.org/packages/4a/61/d8c35493c79356022eda30cfa35a19a2f30bdde4d12d0933ce9df5ec6ce1/icpReconstructor-0.1.0.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [protarrow]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-06-03 09:53:53] INFO root fetch - processPackages [squlearn]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-06-03 09:53:53] WARNING root fetch - processPackages [tdrpa.tdworker]: Skipping, unable to determine old version
+[2024-06-03 09:53:53] INFO root fetch - processPackages [paas-app-charmer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 09:53:53] INFO root fetch - processPackages [grepexercises]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-06-03 09:53:53] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker] error
+[2024-06-03 09:53:53] INFO root fetch - processPackages [grepexercises]: Downloading https://files.pythonhosted.org/packages/ed/d8/6faf74856055af121276035f7c810f780d65fcdf7b32ed95e7db8164077f/grepexercises-1.1.2.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [icpReconstructor]: Downloading https://files.pythonhosted.org/packages/07/5f/49b7a9137c5151e1986692f4d85fd45b8e9a1b004edbbcd9efba16a9c4db/icpReconstructor-0.1.1.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/d0/e9/662ea1ee6ff5644f79100c838ce58f51214d611bade6887e4f651395d8af/squlearn-0.7.3.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/58/a2/14633f162c8ce76a27d40fe9c28cdfa5776163a3b3cbbd45a0a5906f8c38/protarrow-0.3.0.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [paas-app-charmer]: Downloading https://files.pythonhosted.org/packages/24/3f/16ce1a4fecf5da8d5fe07ff4e96dc7a1ccaaf047161792bdfd6745a830e1/paas_app_charmer-1.0.1.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [icpReconstructor]: executing diffoscope
+[2024-06-03 09:53:53] INFO root fetch - processPackages [icpReconstructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpReconstructor-0.1.0.tar.gz tmp/icpReconstructor-0.1.1.tar.gz --markdown 20240603/i/icpReconstructor/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 09:53:53] INFO root fetch - processPackages [grepexercises]: Downloading https://files.pythonhosted.org/packages/de/ea/7b99dc0fe5d73d1e5ff91337611571dadcdc46096aa2ea10bba46f604720/grepexercises-1.2.0.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [paas-app-charmer]: Downloading https://files.pythonhosted.org/packages/ac/50/f28ab57550a04fa55e78a4085e9a4e2a1edcac403b6b03289620c003c6f0/paas_app_charmer-1.0.2.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/f4/1d/749bfe28402e1ed1347e09c1a13747b0fbfa728775747c264f3c5ffd650a/protarrow-0.4.0.tar.gz
+[2024-06-03 09:53:53] INFO root fetch - processPackages [grepexercises]: executing diffoscope
+[2024-06-03 09:53:53] INFO root fetch - processPackages [grepexercises]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grepexercises-1.1.2.tar.gz tmp/grepexercises-1.2.0.tar.gz --markdown 20240603/g/grepexercises/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-06-03 09:53:53] INFO root fetch - processPackages [paas-app-charmer]: executing diffoscope
+[2024-06-03 09:53:53] INFO root fetch - processPackages [paas-app-charmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paas_app_charmer-1.0.1.tar.gz tmp/paas_app_charmer-1.0.2.tar.gz --markdown 20240603/p/paas-app-charmer/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 09:53:53] INFO root fetch - processPackages [protarrow]: executing diffoscope
+[2024-06-03 09:53:53] INFO root fetch - processPackages [protarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protarrow-0.3.0.tar.gz tmp/protarrow-0.4.0.tar.gz --markdown 20240603/p/protarrow/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-06-03 09:53:54] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/0f/c3/1bbe03758c6e39df42d9382e81e78642e98a0254fb99c10494d8e066f737/squlearn-0.7.4.tar.gz
+[2024-06-03 09:53:54] INFO root fetch - processPackages [squlearn]: executing diffoscope
+[2024-06-03 09:53:54] INFO root fetch - processPackages [squlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squlearn-0.7.3.tar.gz tmp/squlearn-0.7.4.tar.gz --markdown 20240603/s/squlearn/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-06-03 09:53:54] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.3.0.tar.gz]
+[2024-06-03 09:53:54] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.4.0.tar.gz]
+[2024-06-03 09:53:54] INFO root fetch - main [MainThread]: End processing [protarrow]: success
+[2024-06-03 09:53:54] INFO root fetch - processPackages [grepexercises]: Remove: archive file [/home/abi/fetcher/tmp/grepexercises-1.1.2.tar.gz]
+[2024-06-03 09:53:54] INFO root fetch - processPackages [grepexercises]: Remove: archive file [/home/abi/fetcher/tmp/grepexercises-1.2.0.tar.gz]
+[2024-06-03 09:53:54] INFO root fetch - main [MainThread]: End processing [grepexercises]: success
+[2024-06-03 09:53:54] INFO root fetch - processPackages [paas-app-charmer]: Remove: archive file [/home/abi/fetcher/tmp/paas_app_charmer-1.0.1.tar.gz]
+[2024-06-03 09:53:54] INFO root fetch - processPackages [paas-app-charmer]: Remove: archive file [/home/abi/fetcher/tmp/paas_app_charmer-1.0.2.tar.gz]
+[2024-06-03 09:53:54] INFO root fetch - main [MainThread]: End processing [paas-app-charmer]: success
+[2024-06-03 09:53:54] INFO root fetch - processPackages [icpReconstructor]: Remove: archive file [/home/abi/fetcher/tmp/icpReconstructor-0.1.0.tar.gz]
+[2024-06-03 09:53:54] INFO root fetch - processPackages [icpReconstructor]: Remove: archive file [/home/abi/fetcher/tmp/icpReconstructor-0.1.1.tar.gz]
+[2024-06-03 09:53:54] INFO root fetch - main [MainThread]: End processing [icpReconstructor]: success
+[2024-06-03 09:53:55] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.3.tar.gz]
+[2024-06-03 09:53:55] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.4.tar.gz]
+[2024-06-03 09:53:55] INFO root fetch - main [MainThread]: End processing [squlearn]: success
+[2024-06-03 09:53:55] INFO root fetch - main [MainThread]: Store serial: [23498057]
