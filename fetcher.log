@@ -5363,3 +5363,33 @@ EOFError: EOF read where object expected
 [2024-06-03 06:04:40] INFO root fetch - processPackages [menuchoice]: Remove: archive file [/home/abi/fetcher/tmp/menuchoice-0.6.tar.gz]
 [2024-06-03 06:04:40] INFO root fetch - main [MainThread]: End processing [menuchoice]: success
 [2024-06-03 06:04:40] INFO root fetch - main [MainThread]: Store serial: [23496514]
+[2024-06-03 06:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496514]
+[2024-06-03 06:06:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 06:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SCDB-ML-app
+[2024-06-03 06:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapy-playwright-full
+[2024-06-03 06:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: axion
+[2024-06-03 06:06:49] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 06:06:49] INFO root fetch - processPackages [scrapy-playwright-full]: New version: [0.0.3501] Old Version: [0.0.3404]
+[2024-06-03 06:06:49] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/75/4f/f3366c891278e41a37bd608c738d15bb8391c750c069c04fd531ab1321b3/SCDB_ML_app-1.0.8-py3-none-any.whl
+[2024-06-03 06:06:49] INFO root fetch - processPackages [scrapy-playwright-full]: Downloading https://files.pythonhosted.org/packages/27/7e/1b986488170129a3dd6ce66e8d760eeb5e555966705177e05c952c70231d/scrapy_playwright_full-0.0.3404.tar.gz
+[2024-06-03 06:06:49] INFO root fetch - processPackages [axion]: New version: [4.3.0] Old Version: [4.2.9]
+[2024-06-03 06:06:49] INFO root fetch - processPackages [scrapy-playwright-full]: Downloading https://files.pythonhosted.org/packages/d6/9f/c33b3b7efa677d9f53f92ef8f10aeaf6b6c73606ca0a1bdebea95f0b4432/scrapy_playwright_full-0.0.3501.tar.gz
+[2024-06-03 06:06:49] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/2e/f2/de7739d173621ed23570603d839ee5e2ec7e67d3497bb3e59c620f07b0b1/axion-4.2.9-cp312-none-win_amd64.whl
+[2024-06-03 06:06:49] INFO root fetch - processPackages [scrapy-playwright-full]: executing diffoscope
+[2024-06-03 06:06:49] INFO root fetch - processPackages [scrapy-playwright-full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_playwright_full-0.0.3404.tar.gz tmp/scrapy_playwright_full-0.0.3501.tar.gz --markdown 20240603/s/scrapy-playwright-full/0.0.3404-0.0.3501/README.md --exclude *.pyd
+[2024-06-03 06:06:49] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/0f/80/037a47920f7ee460e1bead187a01944da782ac41716b24e419e635eedc8f/SCDB_ML_app-1.0.9-py3-none-any.whl
+[2024-06-03 06:06:50] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/12/e4/47fb1bb6ab82b8de55b2bc6561baa8eb84fc0eac0395bb94496ce17bec32/axion-4.3.0-cp311-none-win_amd64.whl
+[2024-06-03 06:06:50] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 06:06:50] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.8-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.9-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 06:06:50] INFO root fetch - processPackages [scrapy-playwright-full]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_playwright_full-0.0.3404.tar.gz]
+[2024-06-03 06:06:50] INFO root fetch - processPackages [scrapy-playwright-full]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_playwright_full-0.0.3501.tar.gz]
+[2024-06-03 06:06:50] INFO root fetch - main [MainThread]: End processing [scrapy-playwright-full]: success
+[2024-06-03 06:06:51] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.8-py3-none-any.whl.zip]
+[2024-06-03 06:06:51] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.9-py3-none-any.whl.zip]
+[2024-06-03 06:06:51] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 06:06:51] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-06-03 06:06:51] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.2.9-cp312-none-win_amd64.whl.zip tmp/axion-4.3.0-cp311-none-win_amd64.whl.zip --markdown 20240603/a/axion/4.2.9-4.3.0/README.md --exclude *.pyd
+[2024-06-03 06:06:51] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.9-cp312-none-win_amd64.whl.zip]
+[2024-06-03 06:06:51] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.3.0-cp311-none-win_amd64.whl.zip]
+[2024-06-03 06:06:51] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-06-03 06:06:51] INFO root fetch - main [MainThread]: Store serial: [23496523]
