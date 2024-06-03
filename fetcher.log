@@ -7796,3 +7796,81 @@ EOFError: EOF read where object expected
 [2024-06-03 08:46:39] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
 [2024-06-03 08:46:39] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
 [2024-06-03 08:46:39] INFO root fetch - main [MainThread]: Store serial: [23497427]
+[2024-06-03 08:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497427]
+[2024-06-03 08:48:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-altinn3-util
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phonexia-speaker-diarization-client
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlqhandler
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aco-routing
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citrix-netscaler-memory-leak
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: valohai-yaml
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-coder
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: repopulator
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infinity-sdk
+[2024-06-03 08:48:49] INFO root fetch - processPackages [dlqhandler]: New version: [0.3.1] Old Version: [0.2.9]
+[2024-06-03 08:48:49] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 08:48:49] INFO root fetch - processPackages [aco-routing]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-06-03 08:48:49] INFO root fetch - processPackages [valohai-yaml]: New version: [0.9.1] Old Version: [0.9]
+[2024-06-03 08:48:49] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/a6/d1/9139718afbeefdd144c5ed2855dde14103e585684df5a7491b0f38a64022/dlqhandler-0.2.9.tar.gz
+[2024-06-03 08:48:49] WARNING root fetch - processPackages [citrix-netscaler-memory-leak]: Skipping, unable to determine old version
+[2024-06-03 08:48:49] INFO root fetch - main [MainThread]: End processing [citrix-netscaler-memory-leak] error
+[2024-06-03 08:48:49] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 08:48:49] INFO root fetch - processPackages [infinity-sdk]: New version: [0.2.0.dev4] Old Version: [0.2.0.dev3]
+[2024-06-03 08:48:49] INFO root fetch - processPackages [phonexia-speaker-diarization-client]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-06-03 08:48:49] INFO root fetch - processPackages [repopulator]: New version: [0.3] Old Version: [0.2]
+[2024-06-03 08:48:49] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [valohai-yaml]: Downloading https://files.pythonhosted.org/packages/82/84/71f460ebbe4ec6614653c1ec4830fe2df01c5d06fb00ecee336736246f7d/valohai-yaml-0.9.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [aco-routing]: Downloading https://files.pythonhosted.org/packages/e7/b6/ecb1e8e293ab41ef5def1f8bb6efd02fc7b27d8b06b8fc3c32563ddf6463/aco_routing-1.1.0.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/ef/cb/003df3d92e53e6833a38e7c0e143bc4d6f12027d22363d6eaddd6cdfd246/ssb_altinn3_util-0.0.8.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [phonexia-speaker-diarization-client]: Downloading https://files.pythonhosted.org/packages/92/b6/c7eaeb36c672142983e38a674430f60bdd5d9398d65e4d7a3c9e85f9496b/phonexia_speaker_diarization_client-1.1.0.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [repopulator]: Downloading https://files.pythonhosted.org/packages/1c/20/c498d07954f74a51138d1167d999d3aae3bbf171b6344a3121933d4c5726/repopulator-0.2.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/3c/ea/fa85f95de3bb0bfb71bf4634683ef1612a900bacb073e5a20dde50a44e1d/infinity_sdk-0.2.0.dev3-py3-none-any.whl
+[2024-06-03 08:48:50] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/73/3c/e7470405a44195f528f0f91e2af3aaca0184cc713e80128c64ac6787b542/dlqhandler-0.3.1.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [dlqhandler]: executing diffoscope
+[2024-06-03 08:48:50] INFO root fetch - processPackages [dlqhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlqhandler-0.2.9.tar.gz tmp/dlqhandler-0.3.1.tar.gz --markdown 20240603/d/dlqhandler/0.2.9-0.3.1/README.md --exclude *.pyd
+[2024-06-03 08:48:50] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-06-03 08:48:50] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240603/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 08:48:50] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/94/61/ca19b663821a79f349fe04383c5a68f9cf3f6c75cf20b9b9f2c7a92aa898/ssb_altinn3_util-0.0.9.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [phonexia-speaker-diarization-client]: Downloading https://files.pythonhosted.org/packages/2e/f5/25aa3ee84c3761eee56edd3ba06ccffa9b8cd29cf8df6eb9af046b4d7b7e/phonexia_speaker_diarization_client-1.2.0.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [aco-routing]: Downloading https://files.pythonhosted.org/packages/80/c7/a0d2936d1e06952975607cc69a9d516214665d0f49017868a30d818e9324/aco_routing-1.1.1.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/a9/50/da3e4f20d13f2ab542ed4d87b73a22889c7442b433da1196dec460587be7/infinity_sdk-0.2.0.dev4-py3-none-any.whl
+[2024-06-03 08:48:50] INFO root fetch - processPackages [repopulator]: Downloading https://files.pythonhosted.org/packages/d4/a9/aa77e1dd3b5be18dbc4239abbc30ba1d99ebe0af53fdd5b87d7b8cb795c2/repopulator-0.3.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [valohai-yaml]: Downloading https://files.pythonhosted.org/packages/52/5e/a331ae2dbd61f5fbc4053c7dcad505ef9809138923d481ae267aaa8461eb/valohai-yaml-0.9.1.tar.gz
+[2024-06-03 08:48:50] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2024-06-03 08:48:50] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20240603/s/ssb-altinn3-util/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 08:48:50] INFO root fetch - processPackages [aco-routing]: executing diffoscope
+[2024-06-03 08:48:50] INFO root fetch - processPackages [aco-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aco_routing-1.1.0.tar.gz tmp/aco_routing-1.1.1.tar.gz --markdown 20240603/a/aco-routing/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-06-03 08:48:50] INFO root fetch - processPackages [phonexia-speaker-diarization-client]: executing diffoscope
+[2024-06-03 08:48:50] INFO root fetch - processPackages [phonexia-speaker-diarization-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonexia_speaker_diarization_client-1.1.0.tar.gz tmp/phonexia_speaker_diarization_client-1.2.0.tar.gz --markdown 20240603/p/phonexia-speaker-diarization-client/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-06-03 08:48:50] INFO root fetch - processPackages [infinity-sdk]: executing diffoscope
+[2024-06-03 08:48:50] INFO root fetch - processPackages [infinity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinity_sdk-0.2.0.dev3-py3-none-any.whl.zip tmp/infinity_sdk-0.2.0.dev4-py3-none-any.whl.zip --markdown 20240603/i/infinity-sdk/0.2.0.dev3-0.2.0.dev4/README.md --exclude *.pyd
+[2024-06-03 08:48:50] INFO root fetch - processPackages [repopulator]: executing diffoscope
+[2024-06-03 08:48:50] INFO root fetch - processPackages [repopulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repopulator-0.2.tar.gz tmp/repopulator-0.3.tar.gz --markdown 20240603/r/repopulator/0.2-0.3/README.md --exclude *.pyd
+[2024-06-03 08:48:50] INFO root fetch - processPackages [valohai-yaml]: executing diffoscope
+[2024-06-03 08:48:50] INFO root fetch - processPackages [valohai-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valohai-yaml-0.9.tar.gz tmp/valohai-yaml-0.9.1.tar.gz --markdown 20240603/v/valohai-yaml/0.9-0.9.1/README.md --exclude *.pyd
+[2024-06-03 08:48:51] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.9.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.3.1.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [dlqhandler]: success
+[2024-06-03 08:48:51] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-06-03 08:48:51] INFO root fetch - processPackages [aco-routing]: Remove: archive file [/home/abi/fetcher/tmp/aco_routing-1.1.0.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - processPackages [aco-routing]: Remove: archive file [/home/abi/fetcher/tmp/aco_routing-1.1.1.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [aco-routing]: success
+[2024-06-03 08:48:51] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.8.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.9.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2024-06-03 08:48:51] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.2.0.dev3-py3-none-any.whl.zip]
+[2024-06-03 08:48:51] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.2.0.dev4-py3-none-any.whl.zip]
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [infinity-sdk]: success
+[2024-06-03 08:48:51] INFO root fetch - processPackages [phonexia-speaker-diarization-client]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_speaker_diarization_client-1.1.0.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - processPackages [phonexia-speaker-diarization-client]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_speaker_diarization_client-1.2.0.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [phonexia-speaker-diarization-client]: success
+[2024-06-03 08:48:51] INFO root fetch - processPackages [repopulator]: Remove: archive file [/home/abi/fetcher/tmp/repopulator-0.2.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - processPackages [repopulator]: Remove: archive file [/home/abi/fetcher/tmp/repopulator-0.3.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [repopulator]: success
+[2024-06-03 08:48:51] INFO root fetch - processPackages [valohai-yaml]: Remove: archive file [/home/abi/fetcher/tmp/valohai-yaml-0.9.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - processPackages [valohai-yaml]: Remove: archive file [/home/abi/fetcher/tmp/valohai-yaml-0.9.1.tar.gz]
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [valohai-yaml]: success
+[2024-06-03 08:48:51] INFO root fetch - main [MainThread]: Store serial: [23497455]
