@@ -8894,3 +8894,33 @@ EOFError: EOF read where object expected
 [2024-06-03 09:36:22] INFO root fetch - processPackages [pydirac]: Remove: archive file [/home/abi/fetcher/tmp/pydirac-2023.6.3.tar.gz]
 [2024-06-03 09:36:22] INFO root fetch - main [MainThread]: End processing [pydirac]: success
 [2024-06-03 09:36:22] INFO root fetch - main [MainThread]: Store serial: [23497938]
+[2024-06-03 09:38:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497938]
+[2024-06-03 09:38:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 09:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cntools
+[2024-06-03 09:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2024-06-03 09:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qase-api-client
+[2024-06-03 09:38:31] INFO root fetch - processPackages [qase-api-client]: New version: [1.0.1] Old Version: [1.0.0b2]
+[2024-06-03 09:38:31] INFO root fetch - processPackages [cntools]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-06-03 09:38:31] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-06-03 09:38:31] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/da/08/61a3fb018be507f221274da19398b1db265f6e869633576e9324db99aa92/cntools-2.1.7.tar.gz
+[2024-06-03 09:38:31] INFO root fetch - processPackages [qase-api-client]: Downloading https://files.pythonhosted.org/packages/76/0e/c0b76178ad83eae81b3c1d0ecf1af6d3461ac8e7ea00944312e7f34397e7/qase_api_client-1.0.0b2.tar.gz
+[2024-06-03 09:38:31] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/07/3f/90abbaed441c73d19d5f27ac9b46aab4da41a5b060dfcbbda7aa22c8769d/cdk-sops-secrets-1.9.3.tar.gz
+[2024-06-03 09:38:31] INFO root fetch - processPackages [cntools]: Downloading https://files.pythonhosted.org/packages/93/68/7bc1a69a8f5d3338e6191574e4efbaf78468a2b412d3dd94b822bb3073c6/cntools-2.1.8.tar.gz
+[2024-06-03 09:38:31] INFO root fetch - processPackages [qase-api-client]: Downloading https://files.pythonhosted.org/packages/1b/42/750eae2dcd62f30dfd4fc2e4bd3f094103deff3a9de9438bcba82450ef23/qase_api_client-1.0.1.tar.gz
+[2024-06-03 09:38:32] INFO root fetch - processPackages [qase-api-client]: executing diffoscope
+[2024-06-03 09:38:32] INFO root fetch - processPackages [qase-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase_api_client-1.0.0b2.tar.gz tmp/qase_api_client-1.0.1.tar.gz --markdown 20240603/q/qase-api-client/1.0.0b2-1.0.1/README.md --exclude *.pyd
+[2024-06-03 09:38:32] INFO root fetch - processPackages [cntools]: executing diffoscope
+[2024-06-03 09:38:32] INFO root fetch - processPackages [cntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntools-2.1.7.tar.gz tmp/cntools-2.1.8.tar.gz --markdown 20240603/c/cntools/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-06-03 09:38:32] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/50/a4/5ebd99650e2226071bc676a902bb76a22258d92a14247fcb6af0033aecb6/cdk-sops-secrets-1.9.4.tar.gz
+[2024-06-03 09:38:32] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2024-06-03 09:38:32] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.9.3.tar.gz tmp/cdk-sops-secrets-1.9.4.tar.gz --markdown 20240603/c/cdk-sops-secrets/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-06-03 09:38:33] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.7.tar.gz]
+[2024-06-03 09:38:33] INFO root fetch - processPackages [cntools]: Remove: archive file [/home/abi/fetcher/tmp/cntools-2.1.8.tar.gz]
+[2024-06-03 09:38:33] INFO root fetch - main [MainThread]: End processing [cntools]: success
+[2024-06-03 09:38:33] INFO root fetch - processPackages [qase-api-client]: Remove: archive file [/home/abi/fetcher/tmp/qase_api_client-1.0.0b2.tar.gz]
+[2024-06-03 09:38:33] INFO root fetch - processPackages [qase-api-client]: Remove: archive file [/home/abi/fetcher/tmp/qase_api_client-1.0.1.tar.gz]
+[2024-06-03 09:38:33] INFO root fetch - main [MainThread]: End processing [qase-api-client]: success
+[2024-06-03 09:38:34] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.9.3.tar.gz]
+[2024-06-03 09:38:34] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.9.4.tar.gz]
+[2024-06-03 09:38:34] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2024-06-03 09:38:34] INFO root fetch - main [MainThread]: Store serial: [23497946]
