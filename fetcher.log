@@ -4008,3 +4008,51 @@ EOFError: EOF read where object expected
 [2024-06-03 04:53:14] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.9.tar.gz]
 [2024-06-03 04:53:14] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
 [2024-06-03 04:53:14] INFO root fetch - main [MainThread]: Store serial: [23495825]
+[2024-06-03 04:55:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495825]
+[2024-06-03 04:55:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 04:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleap
+[2024-06-03 04:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vital-ai-vitalsigns
+[2024-06-03 04:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: merlin-sdk
+[2024-06-03 04:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merlin-batch-predictor
+[2024-06-03 04:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: merlin-pyfunc-server
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-batch-predictor]: New version: [0.43.0rc1] Old Version: [0.42.2]
+[2024-06-03 04:55:23] INFO root fetch - processPackages [vital-ai-vitalsigns]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2024-06-03 04:55:23] INFO root fetch - processPackages [sleap]: New version: [1.4.1a1] Old Version: [1.4.1a0]
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-pyfunc-server]: New version: [0.43.0rc1] Old Version: [0.42.2]
+[2024-06-03 04:55:23] INFO root fetch - processPackages [vital-ai-vitalsigns]: Downloading https://files.pythonhosted.org/packages/1b/05/a348c770dfa33dae22c9a0899f5440ba9a0668597ea1f04fca2715e082f2/vital-ai-vitalsigns-0.1.8.tar.gz
+[2024-06-03 04:55:23] INFO root fetch - processPackages [sleap]: Downloading https://files.pythonhosted.org/packages/d7/51/3c0e867dffbfe84a08a3d015e5bd23eef76776d70f97e8bb019a4bf42193/sleap-1.4.1a0-py3-none-any.whl
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/79/4e/0d7cfdb01a223647a78ab73fa3431172ac5326eac8e543b42baad8a7fdef/merlin-batch-predictor-0.42.2.tar.gz
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/b1/69/8c4229d44ab7b2d9e7eca3129c0da3379ce9d7a2eeb7664fc6158167fc8e/merlin-pyfunc-server-0.42.2.tar.gz
+[2024-06-03 04:55:23] INFO root fetch - processPackages [vital-ai-vitalsigns]: Downloading https://files.pythonhosted.org/packages/c1/2a/83697e835fcca252a1e641e70739005ce2d7b821e3ed28ac64d9a51040ad/vital-ai-vitalsigns-0.1.9.tar.gz
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/76/4d/597950c886697be2d4ff098264add9fac95f6adc4bb1cdab7f9db8b2878d/merlin-batch-predictor-0.43.0rc1.tar.gz
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-batch-predictor]: executing diffoscope
+[2024-06-03 04:55:23] INFO root fetch - processPackages [vital-ai-vitalsigns]: executing diffoscope
+[2024-06-03 04:55:23] INFO root fetch - processPackages [vital-ai-vitalsigns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-ai-vitalsigns-0.1.8.tar.gz tmp/vital-ai-vitalsigns-0.1.9.tar.gz --markdown 20240603/v/vital-ai-vitalsigns/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-batch-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-batch-predictor-0.42.2.tar.gz tmp/merlin-batch-predictor-0.43.0rc1.tar.gz --markdown 20240603/m/merlin-batch-predictor/0.42.2-0.43.0rc1/README.md --exclude *.pyd
+[2024-06-03 04:55:23] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/41/24/afb01faf393472f5c9609354990709d3e52d1425dda2b2eb7b970fb88868/merlin-pyfunc-server-0.43.0rc1.tar.gz
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-pyfunc-server]: executing diffoscope
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-pyfunc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-pyfunc-server-0.42.2.tar.gz tmp/merlin-pyfunc-server-0.43.0rc1.tar.gz --markdown 20240603/m/merlin-pyfunc-server/0.42.2-0.43.0rc1/README.md --exclude *.pyd
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20240603/m/merlin-sdk/0.9.0.dev0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 04:55:24] INFO root fetch - processPackages [sleap]: Downloading https://files.pythonhosted.org/packages/8a/b0/e010bddfe6b02d4d8931dffa063a45566583eae93290bd6364dd107ba274/sleap-1.4.1a1-py3-none-any.whl
+[2024-06-03 04:55:24] INFO root fetch - processPackages [sleap]: executing diffoscope
+[2024-06-03 04:55:24] INFO root fetch - processPackages [sleap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleap-1.4.1a0-py3-none-any.whl.zip tmp/sleap-1.4.1a1-py3-none-any.whl.zip --markdown 20240603/s/sleap/1.4.1a0-1.4.1a1/README.md --exclude *.pyd
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.42.2.tar.gz]
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.43.0rc1.tar.gz]
+[2024-06-03 04:55:24] INFO root fetch - main [MainThread]: End processing [merlin-batch-predictor]: success
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.42.2.tar.gz]
+[2024-06-03 04:55:24] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.43.0rc1.tar.gz]
+[2024-06-03 04:55:24] INFO root fetch - main [MainThread]: End processing [merlin-pyfunc-server]: success
+[2024-06-03 04:55:24] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.8.tar.gz]
+[2024-06-03 04:55:24] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.9.tar.gz]
+[2024-06-03 04:55:24] INFO root fetch - main [MainThread]: End processing [vital-ai-vitalsigns]: success
+[2024-06-03 04:55:25] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2024-06-03 04:55:25] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2024-06-03 04:55:25] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2024-06-03 04:55:25] INFO root fetch - processPackages [sleap]: Remove: archive file [/home/abi/fetcher/tmp/sleap-1.4.1a0-py3-none-any.whl.zip]
+[2024-06-03 04:55:25] INFO root fetch - processPackages [sleap]: Remove: archive file [/home/abi/fetcher/tmp/sleap-1.4.1a1-py3-none-any.whl.zip]
+[2024-06-03 04:55:25] INFO root fetch - main [MainThread]: End processing [sleap]: success
+[2024-06-03 04:55:25] INFO root fetch - main [MainThread]: Store serial: [23495841]
