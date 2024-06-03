@@ -2857,3 +2857,24 @@ EOFError: EOF read where object expected
 [2024-06-03 03:31:32] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202406030129.tar.gz]
 [2024-06-03 03:31:32] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-06-03 03:31:32] INFO root fetch - main [MainThread]: Store serial: [23495358]
+[2024-06-03 03:33:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495358]
+[2024-06-03 03:33:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 03:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hj-proj-module
+[2024-06-03 03:33:41] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 03:33:41] INFO root fetch - processPackages [hj-proj-module]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-06-03 03:33:41] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/db/12/7bb0e640457f3bbbbc0b77439e6b03839642728f5b9676f3a6cdbf41672e/hj_proj_module-0.1.7.tar.gz
+[2024-06-03 03:33:41] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/7a/79/b329880ff6caff424128bb1aa2d0dc78a6703c98b07f554d137e89cab722/cs_ob_mini_scikit_learn-0.1.6.tar.gz
+[2024-06-03 03:33:41] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/94/49/69693d7a64f73d84255649b427048581401581af1b2733dd7b132cd4a620/hj_proj_module-0.1.9.tar.gz
+[2024-06-03 03:33:41] INFO root fetch - processPackages [hj-proj-module]: executing diffoscope
+[2024-06-03 03:33:41] INFO root fetch - processPackages [hj-proj-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj_proj_module-0.1.7.tar.gz tmp/hj_proj_module-0.1.9.tar.gz --markdown 20240603/h/hj-proj-module/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:33:41] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/df/14/b87c2a818f8d78b1915234133ed79515d754b252d4d9663e56e19ffe1b64/cs_ob_mini_scikit_learn-0.1.7.tar.gz
+[2024-06-03 03:33:41] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:33:41] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_ob_mini_scikit_learn-0.1.6.tar.gz tmp/cs_ob_mini_scikit_learn-0.1.7.tar.gz --markdown 20240603/c/cs-ob-mini-scikit-learn/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 03:33:42] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.7.tar.gz]
+[2024-06-03 03:33:42] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.9.tar.gz]
+[2024-06-03 03:33:42] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
+[2024-06-03 03:33:42] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.6.tar.gz]
+[2024-06-03 03:33:42] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.7.tar.gz]
+[2024-06-03 03:33:42] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
+[2024-06-03 03:33:42] INFO root fetch - main [MainThread]: Store serial: [23495366]
