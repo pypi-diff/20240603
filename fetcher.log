@@ -6047,3 +6047,42 @@ EOFError: EOF read where object expected
 [2024-06-03 06:50:11] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.5.9.tar.gz]
 [2024-06-03 06:50:11] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
 [2024-06-03 06:50:11] INFO root fetch - main [MainThread]: Store serial: [23496766]
+[2024-06-03 06:52:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496766]
+[2024-06-03 06:52:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 06:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy_uow
+[2024-06-03 06:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moonss
+[2024-06-03 06:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmenu-extended
+[2024-06-03 06:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyodps
+[2024-06-03 06:52:20] INFO root fetch - processPackages [sqlalchemy_uow]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-06-03 06:52:20] INFO root fetch - processPackages [moonss]: New version: [0.99] Old Version: [0.98]
+[2024-06-03 06:52:20] INFO root fetch - processPackages [dmenu-extended]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-06-03 06:52:20] INFO root fetch - processPackages [pyodps]: New version: [0.9.5] Old Version: [0.9.3.2]
+[2024-06-03 06:52:20] INFO root fetch - processPackages [sqlalchemy_uow]: Downloading https://files.pythonhosted.org/packages/18/f8/0bcf7896ad05397ba43a1726a26172a53b455fa2bc93226806b253b3c33d/sqlalchemy_uow-0.1.0.tar.gz
+[2024-06-03 06:52:20] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/df/9c/efa77e88d08939cec835de0cc183c1e3218af6175697e55b7bbffa3d0270/moonss-0.98.tar.gz
+[2024-06-03 06:52:20] INFO root fetch - processPackages [dmenu-extended]: Downloading https://files.pythonhosted.org/packages/42/db/e76e6dbb90fe178d56b8a1154db06ad4928ec4a28119159e752c1a44919b/dmenu_extended-1.2.3.tar.gz
+[2024-06-03 06:52:20] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/96/f8/51d5d1bfca5572462b6c5fcfa59e3e25c338f7822e5fbc5ab8b5b137cf8a/pyodps-0.9.3.2.tar.gz
+[2024-06-03 06:52:21] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/35/3c/cb62485dde83e7c097a307c0189c884a946fec5e6c16c9fca526b4d99511/moonss-0.99.tar.gz
+[2024-06-03 06:52:21] INFO root fetch - processPackages [sqlalchemy_uow]: Downloading https://files.pythonhosted.org/packages/30/21/326b50f2bfc37d6ce17da15ce4f2ab2f98556e8dded95029d0a67ac7d8f3/sqlalchemy_uow-1.0.0.tar.gz
+[2024-06-03 06:52:21] INFO root fetch - processPackages [dmenu-extended]: Downloading https://files.pythonhosted.org/packages/a3/b5/1838473ea746904b865521e322607f3625b73db22844f59f8fc252c69541/dmenu_extended-1.2.4.tar.gz
+[2024-06-03 06:52:21] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-06-03 06:52:21] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.98.tar.gz tmp/moonss-0.99.tar.gz --markdown 20240603/m/moonss/0.98-0.99/README.md --exclude *.pyd
+[2024-06-03 06:52:21] INFO root fetch - processPackages [sqlalchemy_uow]: executing diffoscope
+[2024-06-03 06:52:21] INFO root fetch - processPackages [sqlalchemy_uow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_uow-0.1.0.tar.gz tmp/sqlalchemy_uow-1.0.0.tar.gz --markdown 20240603/s/sqlalchemy_uow/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-06-03 06:52:21] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/23/0b/9df9955a5f80cae59a3727e2047c18f5d22f015f258c30564eb666bdcc9f/pyodps-0.9.5.tar.gz
+[2024-06-03 06:52:21] INFO root fetch - processPackages [dmenu-extended]: executing diffoscope
+[2024-06-03 06:52:21] INFO root fetch - processPackages [dmenu-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmenu_extended-1.2.3.tar.gz tmp/dmenu_extended-1.2.4.tar.gz --markdown 20240603/d/dmenu-extended/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-06-03 06:52:21] INFO root fetch - processPackages [pyodps]: executing diffoscope
+[2024-06-03 06:52:21] INFO root fetch - processPackages [pyodps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodps-0.9.3.2.tar.gz tmp/pyodps-0.9.5.tar.gz --markdown 20240603/p/pyodps/0.9.3.2-0.9.5/README.md --exclude *.pyd
+[2024-06-03 06:52:21] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.98.tar.gz]
+[2024-06-03 06:52:21] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.99.tar.gz]
+[2024-06-03 06:52:21] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-06-03 06:52:21] INFO root fetch - processPackages [sqlalchemy_uow]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_uow-0.1.0.tar.gz]
+[2024-06-03 06:52:21] INFO root fetch - processPackages [sqlalchemy_uow]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_uow-1.0.0.tar.gz]
+[2024-06-03 06:52:21] INFO root fetch - main [MainThread]: End processing [sqlalchemy_uow]: success
+[2024-06-03 06:52:21] INFO root fetch - processPackages [dmenu-extended]: Remove: archive file [/home/abi/fetcher/tmp/dmenu_extended-1.2.3.tar.gz]
+[2024-06-03 06:52:21] INFO root fetch - processPackages [dmenu-extended]: Remove: archive file [/home/abi/fetcher/tmp/dmenu_extended-1.2.4.tar.gz]
+[2024-06-03 06:52:21] INFO root fetch - main [MainThread]: End processing [dmenu-extended]: success
+[2024-06-03 06:52:23] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.3.2.tar.gz]
+[2024-06-03 06:52:23] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.5.tar.gz]
+[2024-06-03 06:52:23] INFO root fetch - main [MainThread]: End processing [pyodps]: success
+[2024-06-03 06:52:23] INFO root fetch - main [MainThread]: Store serial: [23496783]
