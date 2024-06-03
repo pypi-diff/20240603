@@ -14588,3 +14588,108 @@ EOFError: EOF read where object expected
 [2024-06-03 12:44:58] INFO root fetch - processPackages [catasta]: Remove: archive file [/home/abi/fetcher/tmp/catasta-0.3.0.tar.gz]
 [2024-06-03 12:44:58] INFO root fetch - main [MainThread]: End processing [catasta]: success
 [2024-06-03 12:44:58] INFO root fetch - main [MainThread]: Store serial: [23500617]
+[2024-06-03 12:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500617]
+[2024-06-03 12:47:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiledb-cloud
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appier-extras
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai21
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cwsgiutils
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-amqp
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apiAmoCRM
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aixhello
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-dns
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-cloudstoragegateway
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jqdatasdk
+[2024-06-03 12:47:06] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [aixhello]: New version: [4.9] Old Version: [4.7]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ros-cdk-amqp]: New version: [1.0.9] Old Version: [1.0.25]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/fb/12/41d035dca836b0c784b51f4239b44551119d1e3290502f6add8232148ea2/apiamocrm-0.1.8.tar.gz
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ros-cdk-dns]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-06-03 12:47:06] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/a1/18/977251bb8d0b6c0115e68e2bc49487d4cc8ee3d21ada69b6c461cdf3c35e/aixhello-4.7.tar.gz
+[2024-06-03 12:47:06] INFO root fetch - processPackages [ai21]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [jqdatasdk]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-06-03 12:47:06] INFO root fetch - processPackages [appier-extras]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 12:47:07] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-amqp]: Downloading https://files.pythonhosted.org/packages/1a/0b/7d1a95dd77b689f78da80257197654f6548af0af820b518688c8930bd253/ros-cdk-amqp-1.0.25.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/9d/25/934d152c1d4bef88ccf6c856e9d7c4303e9f49c24f159233b75cf51e063f/ai21-2.4.0.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: Downloading https://files.pythonhosted.org/packages/32/59/40fececd820d8623da442737b22631cc8101b1c569cd8e546c890f9cfa54/ros-cdk-cloudstoragegateway-1.0.24.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/1b/27/ec01b48d2d0e7abcce4c6191a9af4e249beb0195733d0a79b8a0cd95c2d5/apiamocrm-0.1.9.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-dns]: Downloading https://files.pythonhosted.org/packages/65/9c/8740b671f845ac41997a0166fa362d2b2f0beb586ce5ac7857d77e9fe587/ros-cdk-dns-1.0.8.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [appier-extras]: Downloading https://files.pythonhosted.org/packages/47/23/29c2b197ec603e1155290ca59edec0a4e4e4ac835678a674dfed4989d6bc/appier_extras-0.9.8.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [jqdatasdk]: Downloading https://files.pythonhosted.org/packages/58/ec/6acef92392ec39619ffa05fbc54d0d3da0d423e144b6d947ab5d5e786551/jqdatasdk-1.9.4.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-06-03 12:47:07] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.8.tar.gz tmp/apiamocrm-0.1.9.tar.gz --markdown 20240603/a/apiAmoCRM/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 12:47:07] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2024-06-03 12:47:07] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/d1/93/168f8a824797f1c3b0f461a019765cf99bbde6373dfff284b2d13db0e2c9/aixhello-4.9.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-06-03 12:47:07] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240603/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/aa/97/ea6d2f4b6cce353e8e1f8ecfe7e31883fe103ad2ce631aae502125283659/ai21-2.4.1.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [aixhello]: executing diffoscope
+[2024-06-03 12:47:07] INFO root fetch - processPackages [aixhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixhello-4.7.tar.gz tmp/aixhello-4.9.tar.gz --markdown 20240603/a/aixhello/4.7-4.9/README.md --exclude *.pyd
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-amqp]: Downloading https://files.pythonhosted.org/packages/d7/ad/61d03bd408d928f74b9f6c370de5b6f4e36e5a47277670769bdd04a65ea8/ros-cdk-amqp-1.0.9.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: Downloading https://files.pythonhosted.org/packages/d4/56/491c6777f02a5aa86a942831c5a2ea581256b4ced0ff5fc8919711140f8b/ros-cdk-cloudstoragegateway-1.0.25.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [jqdatasdk]: Downloading https://files.pythonhosted.org/packages/ed/29/a583130e2021c73f418fac5c3a86eb8196a3c04648a9b8de9d6f58bc4dc0/jqdatasdk-1.9.5.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-2.4.0.tar.gz tmp/ai21-2.4.1.tar.gz --markdown 20240603/a/ai21/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-dns]: Downloading https://files.pythonhosted.org/packages/50/56/09060daa5e7de7d1001bdaf2f93173125ff62691fb8962c12ab789b6de3f/ros-cdk-dns-1.0.9.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [appier-extras]: Downloading https://files.pythonhosted.org/packages/f1/e4/82f505005d78e76152446bf436704739cea1fe3e65bf3e60fc6b1213f746/appier_extras-0.9.9.tar.gz
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-amqp]: executing diffoscope
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-amqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-amqp-1.0.25.tar.gz tmp/ros-cdk-amqp-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-amqp/1.0.25-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:47:07] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2024-06-03 12:47:07] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20240603/t/tiledb-cloud/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: executing diffoscope
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudstoragegateway-1.0.24.tar.gz tmp/ros-cdk-cloudstoragegateway-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-cloudstoragegateway/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-dns]: executing diffoscope
+[2024-06-03 12:47:07] INFO root fetch - processPackages [ros-cdk-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dns-1.0.8.tar.gz tmp/ros-cdk-dns-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-dns/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:47:08] INFO root fetch - processPackages [appier-extras]: executing diffoscope
+[2024-06-03 12:47:08] INFO root fetch - processPackages [appier-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appier_extras-0.9.8.tar.gz tmp/appier_extras-0.9.9.tar.gz --markdown 20240603/a/appier-extras/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 12:47:08] INFO root fetch - processPackages [jqdatasdk]: executing diffoscope
+[2024-06-03 12:47:08] INFO root fetch - processPackages [jqdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jqdatasdk-1.9.4.tar.gz tmp/jqdatasdk-1.9.5.tar.gz --markdown 20240603/j/jqdatasdk/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-06-03 12:47:08] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.8.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.9.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - processPackages [apiAmoCRM]: Start processing: skys-llc-auth
+[2024-06-03 12:47:08] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-06-03 12:47:08] WARNING root fetch - processPackages [skys-llc-auth]: Skipping, unable to determine old version
+[2024-06-03 12:47:08] INFO root fetch - processPackages [skys-llc-auth]: Start processing: ros-cdk-edsuser
+[2024-06-03 12:47:08] INFO root fetch - main [MainThread]: End processing [skys-llc-auth] error
+[2024-06-03 12:47:08] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.7.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.9.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - main [MainThread]: End processing [aixhello]: success
+[2024-06-03 12:47:08] INFO root fetch - processPackages [ros-cdk-edsuser]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:47:08] INFO root fetch - processPackages [ros-cdk-amqp]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-amqp-1.0.25.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - processPackages [ros-cdk-amqp]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-amqp-1.0.9.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - main [MainThread]: End processing [ros-cdk-amqp]: success
+[2024-06-03 12:47:08] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudstoragegateway-1.0.24.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - processPackages [ros-cdk-cloudstoragegateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudstoragegateway-1.0.25.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudstoragegateway]: success
+[2024-06-03 12:47:08] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-06-03 12:47:08] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-06-03 12:47:09] INFO root fetch - processPackages [ros-cdk-dns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dns-1.0.8.tar.gz]
+[2024-06-03 12:47:09] INFO root fetch - processPackages [ros-cdk-dns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dns-1.0.9.tar.gz]
+[2024-06-03 12:47:09] INFO root fetch - main [MainThread]: End processing [ros-cdk-dns]: success
+[2024-06-03 12:47:09] INFO root fetch - processPackages [ros-cdk-edsuser]: Downloading https://files.pythonhosted.org/packages/76/7b/5349a3d19fd81c29e839dfaaae3154498c6943adcc06edd841e22ae6edae/ros-cdk-edsuser-1.0.24.tar.gz
+[2024-06-03 12:47:09] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-2.4.0.tar.gz]
+[2024-06-03 12:47:09] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-2.4.1.tar.gz]
+[2024-06-03 12:47:09] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2024-06-03 12:47:09] INFO root fetch - processPackages [jqdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/jqdatasdk-1.9.4.tar.gz]
+[2024-06-03 12:47:09] INFO root fetch - processPackages [jqdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/jqdatasdk-1.9.5.tar.gz]
+[2024-06-03 12:47:09] INFO root fetch - main [MainThread]: End processing [jqdatasdk]: success
+[2024-06-03 12:47:09] INFO root fetch - processPackages [appier-extras]: Remove: archive file [/home/abi/fetcher/tmp/appier_extras-0.9.8.tar.gz]
+[2024-06-03 12:47:09] INFO root fetch - processPackages [appier-extras]: Remove: archive file [/home/abi/fetcher/tmp/appier_extras-0.9.9.tar.gz]
+[2024-06-03 12:47:09] INFO root fetch - main [MainThread]: End processing [appier-extras]: success
+[2024-06-03 12:47:09] INFO root fetch - processPackages [ros-cdk-edsuser]: Downloading https://files.pythonhosted.org/packages/a0/61/a53a2b5e1fd68655e67ba604ed63a350c849306441bffb422e9337af4369/ros-cdk-edsuser-1.0.25.tar.gz
+[2024-06-03 12:47:09] INFO root fetch - processPackages [ros-cdk-edsuser]: executing diffoscope
+[2024-06-03 12:47:09] INFO root fetch - processPackages [ros-cdk-edsuser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-edsuser-1.0.24.tar.gz tmp/ros-cdk-edsuser-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-edsuser/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:47:10] INFO root fetch - processPackages [ros-cdk-edsuser]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edsuser-1.0.24.tar.gz]
+[2024-06-03 12:47:10] INFO root fetch - processPackages [ros-cdk-edsuser]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edsuser-1.0.25.tar.gz]
+[2024-06-03 12:47:10] INFO root fetch - main [MainThread]: End processing [ros-cdk-edsuser]: success
+[2024-06-03 12:47:10] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2024-06-03 12:47:10] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2024-06-03 12:47:10] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2024-06-03 12:47:10] INFO root fetch - main [MainThread]: Store serial: [23500651]
