@@ -9052,3 +9052,60 @@ EOFError: EOF read where object expected
 [2024-06-03 09:47:19] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.9.7.dev1.tar.gz]
 [2024-06-03 09:47:19] INFO root fetch - main [MainThread]: End processing [sarus]: success
 [2024-06-03 09:47:19] INFO root fetch - main [MainThread]: Store serial: [23498005]
+[2024-06-03 09:49:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498005]
+[2024-06-03 09:49:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 09:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-06-03 09:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asp-selftest
+[2024-06-03 09:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copilothistoryexporter
+[2024-06-03 09:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utils-woodsx
+[2024-06-03 09:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acetone-nnet
+[2024-06-03 09:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-crm-industry
+[2024-06-03 09:49:27] INFO root fetch - processPackages [copilothistoryexporter]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-06-03 09:49:27] INFO root fetch - processPackages [asp-selftest]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 09:49:27] INFO root fetch - processPackages [odoo-addon-crm-industry]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.7]
+[2024-06-03 09:49:27] INFO root fetch - processPackages [utils-woodsx]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 09:49:27] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/7b/a1/85067c899607ebd1794c3e3b8ce3c0b03ad2c5c11162e8f9c415e25ff099/copilothistoryexporter-1.1.0.tar.gz
+[2024-06-03 09:49:27] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.2.dev4] Old Version: [0.3.2.dev3]
+[2024-06-03 09:49:27] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-06-03 09:49:27] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/67/66/5ecf2b4724256e46a987f5ec2757bb056607970c66b2bd411d2c9048d155/asp_selftest-0.0.7.tar.gz
+[2024-06-03 09:49:27] INFO root fetch - processPackages [utils-woodsx]: Downloading https://files.pythonhosted.org/packages/5b/34/8580486b085487ce7c10f9b787adb2ab015fa239352de383f1b5e26519ba/utils_woodsx-0.0.3.tar.gz
+[2024-06-03 09:49:27] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/98/47/22feea95889b5b8b813cc2489f8f3c7d1588e4fdefcdbcd251966f764c17/acetone_nnet-0.3.2.dev3.tar.gz
+[2024-06-03 09:49:27] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/65/e2/40c1080f6efab898727adf1c652c3639c4624450d46f773e348fcaad3776/copilothistoryexporter-1.1.1.tar.gz
+[2024-06-03 09:49:27] INFO root fetch - processPackages [odoo-addon-crm-industry]: Downloading https://files.pythonhosted.org/packages/6d/5a/2f1c89aff42056075744659704c83891d58de237c4697bb745cad4fde906/odoo_addon_crm_industry-16.0.1.0.0.7-py3-none-any.whl
+[2024-06-03 09:49:27] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-06-03 09:49:28] INFO root fetch - processPackages [copilothistoryexporter]: executing diffoscope
+[2024-06-03 09:49:28] INFO root fetch - processPackages [copilothistoryexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copilothistoryexporter-1.1.0.tar.gz tmp/copilothistoryexporter-1.1.1.tar.gz --markdown 20240603/c/copilothistoryexporter/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-06-03 09:49:28] INFO root fetch - processPackages [utils-woodsx]: Downloading https://files.pythonhosted.org/packages/b4/af/de09a44004d15e6a2562f72213727a285e0b995bedbd58e5cd7cb8bc1fb7/utils_woodsx-0.0.4.tar.gz
+[2024-06-03 09:49:28] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/22/83/f9d55bcfa0f383d8b5175ff71e70ad0ef9dd4615b82d251fac28aa90f9d0/acetone_nnet-0.3.2.dev4.tar.gz
+[2024-06-03 09:49:28] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/c5/f5/80cce325e0535b7f2530326bda1d6b96c0bd2bf2a39c9dd9c943d40a526a/asp_selftest-0.0.8.tar.gz
+[2024-06-03 09:49:28] INFO root fetch - processPackages [utils-woodsx]: executing diffoscope
+[2024-06-03 09:49:28] INFO root fetch - processPackages [utils-woodsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_woodsx-0.0.3.tar.gz tmp/utils_woodsx-0.0.4.tar.gz --markdown 20240603/u/utils-woodsx/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 09:49:28] INFO root fetch - processPackages [odoo-addon-crm-industry]: Downloading https://files.pythonhosted.org/packages/84/75/1f2b6990fd4c2e10ff655ac63cbfcee0d6c133ae62f04074315139a134f9/odoo_addon_crm_industry-16.0.1.1.0-py3-none-any.whl
+[2024-06-03 09:49:28] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-06-03 09:49:28] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.2.dev3.tar.gz tmp/acetone_nnet-0.3.2.dev4.tar.gz --markdown 20240603/a/acetone-nnet/0.3.2.dev3-0.3.2.dev4/README.md --exclude *.pyd
+[2024-06-03 09:49:28] INFO root fetch - processPackages [asp-selftest]: executing diffoscope
+[2024-06-03 09:49:28] INFO root fetch - processPackages [asp-selftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_selftest-0.0.7.tar.gz tmp/asp_selftest-0.0.8.tar.gz --markdown 20240603/a/asp-selftest/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 09:49:28] INFO root fetch - processPackages [odoo-addon-crm-industry]: executing diffoscope
+[2024-06-03 09:49:28] INFO root fetch - processPackages [odoo-addon-crm-industry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_industry-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_crm_industry-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-crm-industry/16.0.1.0.0.7-16.0.1.1.0/README.md --exclude *.pyd
+[2024-06-03 09:49:28] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-06-03 09:49:28] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-06-03 09:49:28] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240603/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-06-03 09:49:28] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.1.0.tar.gz]
+[2024-06-03 09:49:28] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.1.1.tar.gz]
+[2024-06-03 09:49:28] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter]: success
+[2024-06-03 09:49:29] INFO root fetch - processPackages [utils-woodsx]: Remove: archive file [/home/abi/fetcher/tmp/utils_woodsx-0.0.3.tar.gz]
+[2024-06-03 09:49:29] INFO root fetch - processPackages [utils-woodsx]: Remove: archive file [/home/abi/fetcher/tmp/utils_woodsx-0.0.4.tar.gz]
+[2024-06-03 09:49:29] INFO root fetch - main [MainThread]: End processing [utils-woodsx]: success
+[2024-06-03 09:49:29] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.7.tar.gz]
+[2024-06-03 09:49:29] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.8.tar.gz]
+[2024-06-03 09:49:29] INFO root fetch - main [MainThread]: End processing [asp-selftest]: success
+[2024-06-03 09:49:29] INFO root fetch - processPackages [odoo-addon-crm-industry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_industry-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-06-03 09:49:29] INFO root fetch - processPackages [odoo-addon-crm-industry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_industry-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-06-03 09:49:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-industry]: success
+[2024-06-03 09:49:29] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev3.tar.gz]
+[2024-06-03 09:49:29] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev4.tar.gz]
+[2024-06-03 09:49:29] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-06-03 09:49:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-06-03 09:49:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-06-03 09:49:30] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-06-03 09:49:30] INFO root fetch - main [MainThread]: Store serial: [23498021]
