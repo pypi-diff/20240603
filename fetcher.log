@@ -10164,3 +10164,75 @@ EOFError: EOF read where object expected
 [2024-06-03 10:34:19] INFO root fetch - processPackages [alibabacloud-ice20201109]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ice20201109-2.5.0.tar.gz]
 [2024-06-03 10:34:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-ice20201109]: success
 [2024-06-03 10:34:19] INFO root fetch - main [MainThread]: Store serial: [23498536]
+[2024-06-03 10:36:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498536]
+[2024-06-03 10:36:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-drive-sdk
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seven-cloudapp-frame
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litdata
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: triton-copilot
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aistrainer
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: squawk-cli
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: safeguard
+[2024-06-03 10:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NetworkCommander
+[2024-06-03 10:36:28] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-06-03 10:36:28] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 10:36:28] WARNING root fetch - processPackages [triton-copilot]: Skipping, unable to determine old version
+[2024-06-03 10:36:28] INFO root fetch - main [MainThread]: End processing [triton-copilot] error
+[2024-06-03 10:36:28] INFO root fetch - processPackages [aistrainer]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 10:36:28] INFO root fetch - processPackages [litdata]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-06-03 10:36:28] INFO root fetch - processPackages [squawk-cli]: New version: [0.29.0] Old Version: [0.28.0]
+[2024-06-03 10:36:28] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/92/60/decf0711268db2bfcdb83725688627829c4ebd8a9e0266b5cdf26d8d314c/lusid_drive_sdk-2.1.8.tar.gz
+[2024-06-03 10:36:28] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-06-03 10:36:28] WARNING root fetch - processPackages [safeguard]: Skipping, unable to determine old version
+[2024-06-03 10:36:28] INFO root fetch - main [MainThread]: End processing [safeguard] error
+[2024-06-03 10:36:28] INFO root fetch - processPackages [NetworkCommander]: New version: [0.4.7] Old Version: [0.4.2]
+[2024-06-03 10:36:28] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/9c/21/2bc7c2f4a88ea4186d6bb581b0de48f5118c4c40406113d542273c930957/lusid_drive_sdk-2.1.9.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [litdata]: Downloading https://files.pythonhosted.org/packages/31/5a/ba5a2f91bf934d7e767e13c6a140232fbf953099db0eb62e5a3fefe28472/litdata-0.2.7.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [aistrainer]: Downloading https://files.pythonhosted.org/packages/1a/23/0f42798aac240e700c3f36c36abff064a99ce891152df2397ac157e4a2e7/aistrainer-0.0.3.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [squawk-cli]: Downloading https://files.pythonhosted.org/packages/e9/b2/c9c4ddba548312b06f8113baf4580141db74caf68a083715577da2a3e247/squawk_cli-0.28.0-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2024-06-03 10:36:29] INFO root fetch - processPackages [NetworkCommander]: Downloading https://files.pythonhosted.org/packages/53/58/25741628ba2d51a10a76962d162a625e468d53266d1f6a273284b153af31/networkcommander-0.4.2.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-06-03 10:36:29] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.8.tar.gz tmp/lusid_drive_sdk-2.1.9.tar.gz --markdown 20240603/l/lusid-drive-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-06-03 10:36:29] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-06-03 10:36:29] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240603/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 10:36:29] INFO root fetch - processPackages [aistrainer]: Downloading https://files.pythonhosted.org/packages/22/9f/a6d558a15cd5a69a8bd648340d2535d8ac8dbe6caaad911527d72a2f0217/aistrainer-0.0.4.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [litdata]: Downloading https://files.pythonhosted.org/packages/d0/f7/8177168962277138381bcfdab0d13dac5006e9ee719b8fe0946bb59cde83/litdata-0.2.8.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [NetworkCommander]: Downloading https://files.pythonhosted.org/packages/ba/52/771b62002ac8d91b605b8e2ae9e9003880aa366ce5724c935294aa09600f/networkcommander-0.4.7-py3-none-any.whl
+[2024-06-03 10:36:29] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-06-03 10:36:29] INFO root fetch - processPackages [aistrainer]: executing diffoscope
+[2024-06-03 10:36:29] INFO root fetch - processPackages [aistrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistrainer-0.0.3.tar.gz tmp/aistrainer-0.0.4.tar.gz --markdown 20240603/a/aistrainer/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 10:36:29] INFO root fetch - processPackages [litdata]: executing diffoscope
+[2024-06-03 10:36:29] INFO root fetch - processPackages [litdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litdata-0.2.7.tar.gz tmp/litdata-0.2.8.tar.gz --markdown 20240603/l/litdata/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-06-03 10:36:29] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-06-03 10:36:29] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240603/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-06-03 10:36:29] INFO root fetch - processPackages [squawk-cli]: Downloading https://files.pythonhosted.org/packages/8e/0b/9fb7221f300ec8d3b49ef5ca13fd2571980725321a9464e350b58b40582f/squawk_cli-0.29.0-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2024-06-03 10:36:30] INFO root fetch - processPackages [NetworkCommander]: executing diffoscope
+[2024-06-03 10:36:30] INFO root fetch - processPackages [NetworkCommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkcommander-0.4.2.tar.gz tmp/networkcommander-0.4.7-py3-none-any.whl.zip --markdown 20240603/N/NetworkCommander/0.4.2-0.4.7/README.md --exclude *.pyd
+[2024-06-03 10:36:30] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.8.tar.gz]
+[2024-06-03 10:36:30] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.9.tar.gz]
+[2024-06-03 10:36:30] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-06-03 10:36:30] INFO root fetch - processPackages [aistrainer]: Remove: archive file [/home/abi/fetcher/tmp/aistrainer-0.0.3.tar.gz]
+[2024-06-03 10:36:30] INFO root fetch - processPackages [aistrainer]: Remove: archive file [/home/abi/fetcher/tmp/aistrainer-0.0.4.tar.gz]
+[2024-06-03 10:36:30] INFO root fetch - main [MainThread]: End processing [aistrainer]: success
+[2024-06-03 10:36:30] INFO root fetch - processPackages [squawk-cli]: executing diffoscope
+[2024-06-03 10:36:30] INFO root fetch - processPackages [squawk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squawk_cli-0.28.0-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip tmp/squawk_cli-0.29.0-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip --markdown 20240603/s/squawk-cli/0.28.0-0.29.0/README.md --exclude *.pyd
+[2024-06-03 10:36:30] INFO root fetch - processPackages [litdata]: Remove: archive file [/home/abi/fetcher/tmp/litdata-0.2.7.tar.gz]
+[2024-06-03 10:36:30] INFO root fetch - processPackages [litdata]: Remove: archive file [/home/abi/fetcher/tmp/litdata-0.2.8.tar.gz]
+[2024-06-03 10:36:30] INFO root fetch - main [MainThread]: End processing [litdata]: success
+[2024-06-03 10:36:30] INFO root fetch - processPackages [NetworkCommander]: Remove: archive file [/home/abi/fetcher/tmp/networkcommander-0.4.2.tar.gz]
+[2024-06-03 10:36:30] INFO root fetch - processPackages [NetworkCommander]: Remove: archive file [/home/abi/fetcher/tmp/networkcommander-0.4.7-py3-none-any.whl.zip]
+[2024-06-03 10:36:30] INFO root fetch - main [MainThread]: End processing [NetworkCommander]: success
+[2024-06-03 10:36:31] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-06-03 10:36:31] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-06-03 10:36:31] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-06-03 10:36:32] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-06-03 10:36:32] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-06-03 10:36:32] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-06-03 10:37:05] INFO root fetch - processPackages [squawk-cli]: Remove: archive file [/home/abi/fetcher/tmp/squawk_cli-0.28.0-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip]
+[2024-06-03 10:37:05] INFO root fetch - processPackages [squawk-cli]: Remove: archive file [/home/abi/fetcher/tmp/squawk_cli-0.29.0-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip]
+[2024-06-03 10:37:05] INFO root fetch - main [MainThread]: End processing [squawk-cli]: success
+[2024-06-03 10:37:05] INFO root fetch - main [MainThread]: Store serial: [23498576]
