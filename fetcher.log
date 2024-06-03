@@ -1783,3 +1783,42 @@
 [2024-06-03 02:22:23] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-06-03 02:22:23] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2024-06-03 02:22:23] INFO root fetch - main [MainThread]: Store serial: [23494833]
+[2024-06-03 02:24:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494833]
+[2024-06-03 02:24:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 02:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-06-03 02:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cycls
+[2024-06-03 02:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-06-03 02:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-local-exec
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cycls]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cycls]: Downloading https://files.pythonhosted.org/packages/24/e5/fab86579bf05f8b072bd52468fda70ec26068813ee6e0161c29ffa8f306d/cycls-0.0.2.1.tar.gz
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-06-03 02:24:38] INFO root fetch - processPackages [mimllearning]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/2e/c5/c7466186e123ce498250d5bcf9a74d6fb62a4d7add3b345da0ce48901c49/cdktf-local-exec-0.5.8.tar.gz
+[2024-06-03 02:24:38] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/3e/9d/15275d10b555bec0489b6c36ba95a917c85bd5238a49bf856c4711db5cbc/mimllearning-1.0.8.tar.gz
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cycls]: Downloading https://files.pythonhosted.org/packages/54/2c/7a8d2c2f5a2fbf4379bd402d2eb77461dfc06a0f27b8ca9c5207f0389272/cycls-0.0.2.2.tar.gz
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cycls]: executing diffoscope
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cycls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycls-0.0.2.1.tar.gz tmp/cycls-0.0.2.2.tar.gz --markdown 20240603/c/cycls/0.0.2.1-0.0.2.2/README.md --exclude *.pyd
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240603/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-06-03 02:24:38] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/74/2d/a8a976a3354f955288422458b23352fe0a12f11928fcc3369a6d8a2254a1/cdktf-local-exec-0.5.9.tar.gz
+[2024-06-03 02:24:38] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/ec/9b/94dd77e3769fd61cfba03132fcc46b5dac02a00020cdade25488d5ecfb74/mimllearning-1.0.9.tar.gz
+[2024-06-03 02:24:39] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2024-06-03 02:24:39] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.5.8.tar.gz tmp/cdktf-local-exec-0.5.9.tar.gz --markdown 20240603/c/cdktf-local-exec/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-06-03 02:24:39] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.2.1.tar.gz]
+[2024-06-03 02:24:39] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.2.2.tar.gz]
+[2024-06-03 02:24:39] INFO root fetch - main [MainThread]: End processing [cycls]: success
+[2024-06-03 02:24:39] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 02:24:39] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.8.tar.gz tmp/mimllearning-1.0.9.tar.gz --markdown 20240603/m/mimllearning/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 02:24:39] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-06-03 02:24:39] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-06-03 02:24:39] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-06-03 02:24:39] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.8.tar.gz]
+[2024-06-03 02:24:39] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
+[2024-06-03 02:24:39] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2024-06-03 02:24:40] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.8.tar.gz]
+[2024-06-03 02:24:40] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.9.tar.gz]
+[2024-06-03 02:24:40] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 02:24:40] INFO root fetch - main [MainThread]: Store serial: [23494850]
