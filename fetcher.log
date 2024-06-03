@@ -6341,3 +6341,42 @@ EOFError: EOF read where object expected
 [2024-06-03 07:11:59] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.9.0.tar.gz]
 [2024-06-03 07:12:00] INFO root fetch - main [MainThread]: End processing [datasets]: success
 [2024-06-03 07:12:00] INFO root fetch - main [MainThread]: Store serial: [23496883]
+[2024-06-03 07:14:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496883]
+[2024-06-03 07:14:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gamdl
+[2024-06-03 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dadmin-celery
+[2024-06-03 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyclipdrop
+[2024-06-03 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timmytimesheet
+[2024-06-03 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: functionize-notebook
+[2024-06-03 07:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: display-image-cv
+[2024-06-03 07:14:09] INFO root fetch - processPackages [gamdl]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-06-03 07:14:09] INFO root fetch - processPackages [dadmin-celery]: New version: [1.0.1] Old Version: [1.0]
+[2024-06-03 07:14:09] WARNING root fetch - processPackages [pyclipdrop]: Skipping, unable to determine old version
+[2024-06-03 07:14:09] INFO root fetch - main [MainThread]: End processing [pyclipdrop] error
+[2024-06-03 07:14:09] INFO root fetch - processPackages [dadmin-celery]: Downloading https://files.pythonhosted.org/packages/4f/80/4da28815ece268e37d4bb341258438cd5068dafd74763a5d06b2ce76e72d/dadmin-celery-1.0.tar.gz
+[2024-06-03 07:14:09] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/55/a3/6e7b744f8534806b12f79257134248f890a447dd80ae5b8aeea91e290aff/gamdl-2.2.4.tar.gz
+[2024-06-03 07:14:09] INFO root fetch - processPackages [functionize-notebook]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 07:14:09] WARNING root fetch - processPackages [timmytimesheet]: Skipping, unable to determine old version
+[2024-06-03 07:14:09] WARNING root fetch - processPackages [display-image-cv]: Skipping, unable to determine old version
+[2024-06-03 07:14:09] INFO root fetch - main [MainThread]: End processing [timmytimesheet] error
+[2024-06-03 07:14:09] INFO root fetch - main [MainThread]: End processing [display-image-cv] error
+[2024-06-03 07:14:09] INFO root fetch - processPackages [dadmin-celery]: Downloading https://files.pythonhosted.org/packages/e2/48/206a93f149c11452188794d3e3d02b3bb5518302fe30d6841d1cf392288b/dadmin_celery-1.0.1.tar.gz
+[2024-06-03 07:14:09] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/fb/df/48576d135bae4c3af2df9640612967ce8dcaf494710cdc29754951d2091a/gamdl-2.2.5.tar.gz
+[2024-06-03 07:14:09] INFO root fetch - processPackages [functionize-notebook]: Downloading https://files.pythonhosted.org/packages/d1/5b/8e3aa75b19636160a017040d2e5974bc13f26633ebd5d3fb85b88befbe19/functionize_notebook-0.0.7.tar.gz
+[2024-06-03 07:14:09] INFO root fetch - processPackages [dadmin-celery]: executing diffoscope
+[2024-06-03 07:14:09] INFO root fetch - processPackages [dadmin-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dadmin-celery-1.0.tar.gz tmp/dadmin_celery-1.0.1.tar.gz --markdown 20240603/d/dadmin-celery/1.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 07:14:09] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-06-03 07:14:09] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.2.4.tar.gz tmp/gamdl-2.2.5.tar.gz --markdown 20240603/g/gamdl/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-06-03 07:14:09] INFO root fetch - processPackages [functionize-notebook]: Downloading https://files.pythonhosted.org/packages/df/01/5b2dc8cb806da05d54bbc4e199de275fd6ba0f187f2c4fbca018699d1e36/functionize_notebook-0.0.8.tar.gz
+[2024-06-03 07:14:10] INFO root fetch - processPackages [functionize-notebook]: executing diffoscope
+[2024-06-03 07:14:10] INFO root fetch - processPackages [functionize-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functionize_notebook-0.0.7.tar.gz tmp/functionize_notebook-0.0.8.tar.gz --markdown 20240603/f/functionize-notebook/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 07:14:10] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.2.4.tar.gz]
+[2024-06-03 07:14:10] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.2.5.tar.gz]
+[2024-06-03 07:14:10] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-06-03 07:14:10] INFO root fetch - processPackages [dadmin-celery]: Remove: archive file [/home/abi/fetcher/tmp/dadmin-celery-1.0.tar.gz]
+[2024-06-03 07:14:10] INFO root fetch - processPackages [dadmin-celery]: Remove: archive file [/home/abi/fetcher/tmp/dadmin_celery-1.0.1.tar.gz]
+[2024-06-03 07:14:10] INFO root fetch - main [MainThread]: End processing [dadmin-celery]: success
+[2024-06-03 07:14:10] INFO root fetch - processPackages [functionize-notebook]: Remove: archive file [/home/abi/fetcher/tmp/functionize_notebook-0.0.7.tar.gz]
+[2024-06-03 07:14:10] INFO root fetch - processPackages [functionize-notebook]: Remove: archive file [/home/abi/fetcher/tmp/functionize_notebook-0.0.8.tar.gz]
+[2024-06-03 07:14:10] INFO root fetch - main [MainThread]: End processing [functionize-notebook]: success
+[2024-06-03 07:14:10] INFO root fetch - main [MainThread]: Store serial: [23496904]
