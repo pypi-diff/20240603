@@ -18722,3 +18722,215 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:21:33] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-06-03 14:21:33] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-06-03 14:21:33] INFO root fetch - main [MainThread]: Store serial: [23502229]
+[2024-06-03 14:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502229]
+[2024-06-03 14:23:42] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fairbench
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-rasterio
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-ab6459
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-test
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-tiff
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: large-image-source-tifffile
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tagreader
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atomicshop
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robusta-api
+[2024-06-03 14:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-vips
+[2024-06-03 14:23:42] INFO root fetch - processPackages [fairbench]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-06-03 14:23:42] INFO root fetch - processPackages [mkdocs-ab6459]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 14:23:42] INFO root fetch - processPackages [robusta-api]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-06-03 14:23:42] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 14:23:42] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.28.3.dev8] Old Version: [1.28.3.dev6]
+[2024-06-03 14:23:42] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.28.3.dev8] Old Version: [1.28.3.dev6]
+[2024-06-03 14:23:42] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.28.3.dev8] Old Version: [1.28.3.dev6]
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 14:23:43] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/b6/d9/5786eb3708a413a041a906538bd7d8f7cfb3031f2b8b7bc532ba32237f74/fairbench-0.3.1-py3-none-any.whl
+[2024-06-03 14:23:43] INFO root fetch - processPackages [tagreader]: New version: [5.4.0] Old Version: [5.3.0]
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 14:23:43] INFO root fetch - processPackages [mkdocs-ab6459]: Downloading https://files.pythonhosted.org/packages/00/b8/ae39bf8ed7d0aaa3769652da04b100b533792eda7e51b0c76c31ed298255/mkdocs_ab6459-0.1.4.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/a9/45/fc13789b55ddc7856736b65e5b4dabf6accf892c63004288c33ab32aba8c/large-image-source-vips-1.28.3.dev6.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/59/fd/85010827dcfb31a43360ecb5fc659be3439f2f1fe9ccdb0febc47aacbb5d/large-image-source-rasterio-1.28.3.dev6.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/72/b7/014ae63963299a5acef94e7ae73f1b5af8f2d642ee05a4ec2ffbe3a1ab70/large-image-source-tifffile-1.28.3.dev6.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [robusta-api]: Downloading https://files.pythonhosted.org/packages/e9/a9/a80dd753e206948158c5ab90086aeea1a48cbc32e7f139c6abf650737ee1/robusta_api-0.0.0.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/0f/e6/284200030f2491cae474536d4705081d7d129bccf78f84e8eddba5a1f7cf/tagreader-5.3.0.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/f8/cd/6f25fe604aace753a074681d07e5296754fc5de438b60b9bb1c9a46d82a3/fairbench-0.3.2-py3-none-any.whl
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/3e/47/a2f48ee6dcb14761abc2431cb98efdc951799cf57bb43fd66509b298a9be/large-image-source-vips-1.28.3.dev8.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/11/db/a0b7850a7c17cf0845c21d1c6f3c451736d5a8e89d13f852162254724f68/large-image-source-rasterio-1.28.3.dev8.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/ca/ec/fa63e4b91bcfc924e8f57e2bfbf35f589e88decd9e92b5491dffc8a04a65/large-image-source-tifffile-1.28.3.dev8.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [mkdocs-ab6459]: Downloading https://files.pythonhosted.org/packages/32/d0/e55286db3e42dc5c15b9726371d4868ec4672362d249c44323f21569d28a/mkdocs_ab6459-0.1.5.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [fairbench]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [fairbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbench-0.3.1-py3-none-any.whl.zip tmp/fairbench-0.3.2-py3-none-any.whl.zip --markdown 20240603/f/fairbench/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-06-03 14:23:43] INFO root fetch - processPackages [robusta-api]: Downloading https://files.pythonhosted.org/packages/fb/d8/670269d69c3823262821a8ef44ba178a7d0875f6fab491b48ddaf6fa4f95/robusta_api-0.0.1.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.28.3.dev6.tar.gz tmp/large-image-source-vips-1.28.3.dev8.tar.gz --markdown 20240603/l/large-image-source-vips/1.28.3.dev6-1.28.3.dev8/README.md --exclude *.pyd
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.28.3.dev6.tar.gz tmp/large-image-source-tifffile-1.28.3.dev8.tar.gz --markdown 20240603/l/large-image-source-tifffile/1.28.3.dev6-1.28.3.dev8/README.md --exclude *.pyd
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.28.3.dev6.tar.gz tmp/large-image-source-rasterio-1.28.3.dev8.tar.gz --markdown 20240603/l/large-image-source-rasterio/1.28.3.dev6-1.28.3.dev8/README.md --exclude *.pyd
+[2024-06-03 14:23:43] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/61/1d/41432c6a7a4dfa13236c87b678c2e5ca79d3648e9bd1d7735d6effa33808/tagreader-5.4.0.tar.gz
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 14:23:43] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 14:23:43] INFO root fetch - processPackages [mkdocs-ab6459]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [mkdocs-ab6459]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_ab6459-0.1.4.tar.gz tmp/mkdocs_ab6459-0.1.5.tar.gz --markdown 20240603/m/mkdocs-ab6459/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 14:23:43] INFO root fetch - processPackages [robusta-api]: executing diffoscope
+[2024-06-03 14:23:43] INFO root fetch - processPackages [robusta-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta_api-0.0.0.tar.gz tmp/robusta_api-0.0.1.tar.gz --markdown 20240603/r/robusta-api/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-06-03 14:23:44] INFO root fetch - processPackages [tagreader]: executing diffoscope
+[2024-06-03 14:23:44] INFO root fetch - processPackages [tagreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagreader-5.3.0.tar.gz tmp/tagreader-5.4.0.tar.gz --markdown 20240603/t/tagreader/5.3.0-5.4.0/README.md --exclude *.pyd
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.3.dev6.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.3.dev8.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-tifffile]: Start processing: large-image-source-zarr
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.28.3.dev8] Old Version: [1.28.3.dev6]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-test]: Start processing: ont-spectre
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.3.dev6.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.3.dev8.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-vips]: Start processing: hr-tool-logic
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/63/6f/279e4e2d015025c0244d51b0196f09b6165b22d33586bfb159c3bfaa26df/large-image-source-zarr-1.28.3.dev6.tar.gz
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-tiff]: Start processing: pulumi-digitalocean
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.3.1-py3-none-any.whl.zip]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.3.2-py3-none-any.whl.zip]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [fairbench]: Start processing: py-wake
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [fairbench]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [ont-spectre]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-06-03 14:23:45] WARNING root fetch - processPackages [hr-tool-logic]: Skipping, unable to determine old version
+[2024-06-03 14:23:45] INFO root fetch - processPackages [hr-tool-logic]: Start processing: pulumi-mongodbatlas
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [hr-tool-logic] error
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.3.dev6.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.3.dev8.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-rasterio]: Start processing: smsfusion
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-5.3.0.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-5.4.0.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [tagreader]: Start processing: feincms3
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [tagreader]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.4.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.5.tar.gz]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [mkdocs-ab6459]: Start processing: fibonacci-project
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [mkdocs-ab6459]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-06-03 14:23:45] INFO root fetch - processPackages [py-wake]: New version: [2.6.2] Old Version: [2.5.0]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [feincms3]: New version: [5.0a2] Old Version: [5.0a1]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/09/49/64e4c8b781914eb4823182b4a64ef60c9f2955d66c9ee144128b58eaa51b/large-image-source-zarr-1.28.3.dev8.tar.gz
+[2024-06-03 14:23:45] INFO root fetch - processPackages [smsfusion]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-06-03 14:23:45] WARNING root fetch - processPackages [fibonacci-project]: Skipping, unable to determine old version
+[2024-06-03 14:23:45] INFO root fetch - processPackages [fibonacci-project]: Start processing: modrinth-downloader
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [fibonacci-project] error
+[2024-06-03 14:23:45] INFO root fetch - processPackages [ont-spectre]: Downloading https://files.pythonhosted.org/packages/8c/ac/f5d215a7de78360886138cac41885b9b109419966ec8a9e6ffeb26c08391/ont-spectre-0.2.0.tar.gz
+[2024-06-03 14:23:45] INFO root fetch - processPackages [modrinth-downloader]: New version: [0.4] Old Version: [0.3]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [feincms3]: Downloading https://files.pythonhosted.org/packages/97/20/2dd4d78fff3ad8bfb4f18715b13ca0d26d82e7d9480d0ce9d90e53810d5b/feincms3-5.0a1.tar.gz
+[2024-06-03 14:23:45] INFO root fetch - processPackages [py-wake]: Downloading https://files.pythonhosted.org/packages/46/77/9f09901d8dd10f891f2407a5a605758bac85fd3c5f7b55551cc2787b508c/py_wake-2.5.0.tar.gz
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-06-03 14:23:45] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.28.3.dev6.tar.gz tmp/large-image-source-zarr-1.28.3.dev8.tar.gz --markdown 20240603/l/large-image-source-zarr/1.28.3.dev6-1.28.3.dev8/README.md --exclude *.pyd
+[2024-06-03 14:23:45] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-06-03 14:23:45] WARNING root fetch - processPackages [py-wake]: Skipping package: exceeds size limit 58216226>=10485760
+[2024-06-03 14:23:45] INFO root fetch - processPackages [py-wake]: Start processing: pydatastreams
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [py-wake] error
+[2024-06-03 14:23:45] INFO root fetch - processPackages [smsfusion]: Downloading https://files.pythonhosted.org/packages/df/58/6141cc28cb9cd1d8033316b2b4628b0740e4ca332a1e67e5e989cdbc0cbe/smsfusion-1.0.0-py3-none-any.whl
+[2024-06-03 14:23:45] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/b1/6c/45439e3fb63c3b6a9604c026e8446b3c57d9dec00459455cd580a9f7775c/modrinth_downloader-0.3.tar.gz
+[2024-06-03 14:23:45] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [atomicshop]: Start processing: mamba-ssm
+[2024-06-03 14:23:45] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 14:23:45] INFO root fetch - processPackages [pydatastreams]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-06-03 14:23:45] INFO root fetch - processPackages [mamba-ssm]: New version: [2.0.0] Old Version: [1.2.2]
+[2024-06-03 14:23:46] INFO root fetch - processPackages [robusta-api]: Remove: archive file [/home/abi/fetcher/tmp/robusta_api-0.0.0.tar.gz]
+[2024-06-03 14:23:46] INFO root fetch - processPackages [robusta-api]: Remove: archive file [/home/abi/fetcher/tmp/robusta_api-0.0.1.tar.gz]
+[2024-06-03 14:23:46] INFO root fetch - processPackages [robusta-api]: Start processing: django-ticketbai
+[2024-06-03 14:23:46] INFO root fetch - main [MainThread]: End processing [robusta-api]: success
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/23/39/12b6eed3587a31ee7a301f462d21fa5dadc24cdc554dc78edbcdb0a505ce/pydatastreams-1.2.2.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240603/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [django-ticketbai]: New version: [1.9] Old Version: [1.8]
+[2024-06-03 14:23:46] INFO root fetch - processPackages [feincms3]: Downloading https://files.pythonhosted.org/packages/dd/6e/9b53dee98ca22de342a67dddf1caa4c2658c75e598be6e4836999f5df6ff/feincms3-5.0a2.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [ont-spectre]: Downloading https://files.pythonhosted.org/packages/c1/f1/1629482a61c0ee61f830cbcd418e0660c4fd2bbf3c4ba5584e3476ee0bf6/ont_spectre-0.2.1.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [django-ticketbai]: Downloading https://files.pythonhosted.org/packages/7e/d8/30801320e99414d569568f30e17f1d31f7d78410a4da511a8fd74ca733f6/django_ticketbai-1.8.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240603/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [feincms3]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [feincms3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feincms3-5.0a1.tar.gz tmp/feincms3-5.0a2.tar.gz --markdown 20240603/f/feincms3/5.0a1-5.0a2/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/5e/b4/bb19e6bf000240175c5cbf35d19f4af848d13b16b666577d710f84e9bbaa/modrinth_downloader-0.4.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [smsfusion]: Downloading https://files.pythonhosted.org/packages/b7/7f/35ae1c260f34ef09afe7c3efabce4df6759a51ef6d774617207a6193dee3/smsfusion-1.0.1-py3-none-any.whl
+[2024-06-03 14:23:46] INFO root fetch - processPackages [mamba-ssm]: Downloading https://files.pythonhosted.org/packages/b9/9c/218f775ee56cca5d0429438c92d8cc9d08e2fc2c6ad7b2da7bc4ff33737e/mamba_ssm-1.2.2.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [ont-spectre]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [ont-spectre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ont-spectre-0.2.0.tar.gz tmp/ont_spectre-0.2.1.tar.gz --markdown 20240603/o/ont-spectre/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [modrinth-downloader]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [modrinth-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth_downloader-0.3.tar.gz tmp/modrinth_downloader-0.4.tar.gz --markdown 20240603/m/modrinth-downloader/0.3-0.4/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [smsfusion]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [smsfusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smsfusion-1.0.0-py3-none-any.whl.zip tmp/smsfusion-1.0.1-py3-none-any.whl.zip --markdown 20240603/s/smsfusion/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/1b/ce/cf6c08fd2f2588f5065abe065a1b18a9676dcc30f7dfe96c1d0067bf948a/pydatastreams-1.2.3.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [django-ticketbai]: Downloading https://files.pythonhosted.org/packages/c0/79/904d5f99850ebcb7916f26391dbf8cd49b3c1b146f033c4ea08a8cf4510a/django_ticketbai-1.9.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pydatastreams]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [pydatastreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatastreams-1.2.2.tar.gz tmp/pydatastreams-1.2.3.tar.gz --markdown 20240603/p/pydatastreams/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [mamba-ssm]: Downloading https://files.pythonhosted.org/packages/1e/68/85bbd274c18eea91695e066f2175c595c4aa0cd57347fb149a1d2492101a/mamba_ssm-2.0.0.tar.gz
+[2024-06-03 14:23:46] INFO root fetch - processPackages [django-ticketbai]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [django-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ticketbai-1.8.tar.gz tmp/django_ticketbai-1.9.tar.gz --markdown 20240603/d/django-ticketbai/1.8-1.9/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [mamba-ssm]: executing diffoscope
+[2024-06-03 14:23:46] INFO root fetch - processPackages [mamba-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mamba_ssm-1.2.2.tar.gz tmp/mamba_ssm-2.0.0.tar.gz --markdown 20240603/m/mamba-ssm/1.2.2-2.0.0/README.md --exclude *.pyd
+[2024-06-03 14:23:46] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.3.dev6.tar.gz]
+[2024-06-03 14:23:46] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.3.dev8.tar.gz]
+[2024-06-03 14:23:46] INFO root fetch - processPackages [large-image-source-zarr]: Start processing: ixia
+[2024-06-03 14:23:46] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-06-03 14:23:47] INFO root fetch - processPackages [ixia]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [ixia]: Downloading https://files.pythonhosted.org/packages/2a/d4/0169daab9aaea6d16d2a2a4cdee5c4e945fc6ee592fb385577193575687f/ixia-1.3.1.tar.gz
+[2024-06-03 14:23:47] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.3.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.4.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [modrinth-downloader]: Start processing: robusta-api
+[2024-06-03 14:23:47] INFO root fetch - main [MainThread]: End processing [modrinth-downloader]: success
+[2024-06-03 14:23:47] INFO root fetch - processPackages [feincms3]: Remove: archive file [/home/abi/fetcher/tmp/feincms3-5.0a1.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [feincms3]: Remove: archive file [/home/abi/fetcher/tmp/feincms3-5.0a2.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - main [MainThread]: End processing [feincms3]: success
+[2024-06-03 14:23:47] INFO root fetch - processPackages [robusta-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-06-03 14:23:47] INFO root fetch - processPackages [ont-spectre]: Remove: archive file [/home/abi/fetcher/tmp/ont-spectre-0.2.0.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [ont-spectre]: Remove: archive file [/home/abi/fetcher/tmp/ont_spectre-0.2.1.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - main [MainThread]: End processing [ont-spectre]: success
+[2024-06-03 14:23:47] INFO root fetch - processPackages [ixia]: Downloading https://files.pythonhosted.org/packages/1a/6f/a884908f7be2c930158c01a65ba812917e0e1f85ce6e3aae737c6f9d6256/ixia-1.3.2.tar.gz
+[2024-06-03 14:23:47] INFO root fetch - processPackages [smsfusion]: Remove: archive file [/home/abi/fetcher/tmp/smsfusion-1.0.0-py3-none-any.whl.zip]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [smsfusion]: Remove: archive file [/home/abi/fetcher/tmp/smsfusion-1.0.1-py3-none-any.whl.zip]
+[2024-06-03 14:23:47] INFO root fetch - main [MainThread]: End processing [smsfusion]: success
+[2024-06-03 14:23:47] INFO root fetch - processPackages [robusta-api]: Downloading https://files.pythonhosted.org/packages/0d/fa/eb234eca70f4cb4b1bbd7b7b26a33dad42e29051c2eb377a57bb19972df1/robusta_api-0.0.2.tar.gz
+[2024-06-03 14:23:47] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.2.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.3.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - main [MainThread]: End processing [pydatastreams]: success
+[2024-06-03 14:23:47] INFO root fetch - processPackages [django-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/django_ticketbai-1.8.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [django-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/django_ticketbai-1.9.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - main [MainThread]: End processing [django-ticketbai]: success
+[2024-06-03 14:23:47] INFO root fetch - processPackages [ixia]: executing diffoscope
+[2024-06-03 14:23:47] INFO root fetch - processPackages [ixia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixia-1.3.1.tar.gz tmp/ixia-1.3.2.tar.gz --markdown 20240603/i/ixia/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-06-03 14:23:47] INFO root fetch - processPackages [mamba-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mamba_ssm-1.2.2.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - processPackages [mamba-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mamba_ssm-2.0.0.tar.gz]
+[2024-06-03 14:23:47] INFO root fetch - main [MainThread]: End processing [mamba-ssm]: success
+[2024-06-03 14:23:48] INFO root fetch - processPackages [robusta-api]: Downloading https://files.pythonhosted.org/packages/94/17/dff61060376d6e824e76f5295ab806feefea015e5ada657224073d13aadd/robusta_api-0.0.3.tar.gz
+[2024-06-03 14:23:48] INFO root fetch - processPackages [robusta-api]: executing diffoscope
+[2024-06-03 14:23:48] INFO root fetch - processPackages [robusta-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta_api-0.0.2.tar.gz tmp/robusta_api-0.0.3.tar.gz --markdown 20240603/r/robusta-api/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 14:23:48] INFO root fetch - processPackages [ixia]: Remove: archive file [/home/abi/fetcher/tmp/ixia-1.3.1.tar.gz]
+[2024-06-03 14:23:48] INFO root fetch - processPackages [ixia]: Remove: archive file [/home/abi/fetcher/tmp/ixia-1.3.2.tar.gz]
+[2024-06-03 14:23:48] INFO root fetch - main [MainThread]: End processing [ixia]: success
+[2024-06-03 14:23:48] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-06-03 14:23:48] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-06-03 14:23:48] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-06-03 14:23:49] INFO root fetch - processPackages [robusta-api]: Remove: archive file [/home/abi/fetcher/tmp/robusta_api-0.0.2.tar.gz]
+[2024-06-03 14:23:49] INFO root fetch - processPackages [robusta-api]: Remove: archive file [/home/abi/fetcher/tmp/robusta_api-0.0.3.tar.gz]
+[2024-06-03 14:23:49] INFO root fetch - main [MainThread]: End processing [robusta-api]: success
+[2024-06-03 14:23:49] INFO root fetch - main [MainThread]: Store serial: [23502306]
