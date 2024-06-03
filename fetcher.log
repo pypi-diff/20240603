@@ -3299,3 +3299,9 @@ EOFError: EOF read where object expected
 [2024-06-03 03:58:35] INFO root fetch - processPackages [gumbi]: Remove: archive file [/home/abi/fetcher/tmp/gumbi-0.2.2.tar.gz]
 [2024-06-03 03:58:35] INFO root fetch - main [MainThread]: End processing [gumbi]: success
 [2024-06-03 03:58:35] INFO root fetch - main [MainThread]: Store serial: [23495540]
+[2024-06-03 04:00:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495540]
+[2024-06-03 04:00:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 04:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: validation-framework
+[2024-06-03 04:00:44] WARNING root fetch - processPackages [validation-framework]: Skipping, unable to determine old version
+[2024-06-03 04:00:44] INFO root fetch - main [MainThread]: End processing [validation-framework] error
+[2024-06-03 04:00:44] INFO root fetch - main [MainThread]: Store serial: [23495545]
