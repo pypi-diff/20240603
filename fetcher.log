@@ -10110,3 +10110,57 @@ EOFError: EOF read where object expected
 [2024-06-03 10:32:06] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
 [2024-06-03 10:32:06] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
 [2024-06-03 10:32:06] INFO root fetch - main [MainThread]: Store serial: [23498502]
+[2024-06-03 10:34:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498502]
+[2024-06-03 10:34:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-06-03 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiAmoCRM
+[2024-06-03 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ice20201109
+[2024-06-03 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automation-fw-helper
+[2024-06-03 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emailcompat32crlf
+[2024-06-03 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: livepriceofgold-usa-Rx168059
+[2024-06-03 10:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-drive-sdk
+[2024-06-03 10:34:16] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 10:34:16] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-06-03 10:34:16] WARNING root fetch - processPackages [automation-fw-helper]: Skipping, unable to determine old version
+[2024-06-03 10:34:16] INFO root fetch - main [MainThread]: End processing [automation-fw-helper] error
+[2024-06-03 10:34:16] INFO root fetch - processPackages [emailcompat32crlf]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 10:34:16] INFO root fetch - processPackages [alibabacloud-ice20201109]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-06-03 10:34:16] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 10:34:16] WARNING root fetch - processPackages [livepriceofgold-usa-Rx168059]: Skipping, unable to determine old version
+[2024-06-03 10:34:16] INFO root fetch - main [MainThread]: End processing [livepriceofgold-usa-Rx168059] error
+[2024-06-03 10:34:16] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 10:34:16] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/92/60/decf0711268db2bfcdb83725688627829c4ebd8a9e0266b5cdf26d8d314c/lusid_drive_sdk-2.1.8.tar.gz
+[2024-06-03 10:34:16] INFO root fetch - processPackages [alibabacloud-ice20201109]: Downloading https://files.pythonhosted.org/packages/9d/1e/79ccfad68906ec2107154cd8711db3c867dcb6c731a715ef61994b3fb5d3/alibabacloud_ice20201109-2.4.1.tar.gz
+[2024-06-03 10:34:16] INFO root fetch - processPackages [emailcompat32crlf]: Downloading https://files.pythonhosted.org/packages/c3/0e/9b21cf85094e5f8819edb019419526a3266cf9e3f7dbe4b96a2ee1068bcc/emailcompat32crlf-1.0.2.tar.gz
+[2024-06-03 10:34:16] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/22/f2/5f79afee754bbbf6d54c348e950872944bbb9161276c98eb299b46fe6163/apiamocrm-0.1.6.tar.gz
+[2024-06-03 10:34:16] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 10:34:16] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/9c/21/2bc7c2f4a88ea4186d6bb581b0de48f5118c4c40406113d542273c930957/lusid_drive_sdk-2.1.9.tar.gz
+[2024-06-03 10:34:16] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-06-03 10:34:16] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.8.tar.gz tmp/lusid_drive_sdk-2.1.9.tar.gz --markdown 20240603/l/lusid-drive-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-06-03 10:34:16] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 10:34:16] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 10:34:16] INFO root fetch - processPackages [emailcompat32crlf]: Downloading https://files.pythonhosted.org/packages/56/eb/699dd63887e0509398c5f73a107882745ec1b32a492d5d83fb0d3c4bba25/emailcompat32crlf-1.0.3.tar.gz
+[2024-06-03 10:34:16] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/3d/4e/db0c74d0869679dec8824d0cde3245cc5ead06af301fdc364f350ae41e38/apiamocrm-0.1.7.tar.gz
+[2024-06-03 10:34:16] INFO root fetch - processPackages [alibabacloud-ice20201109]: Downloading https://files.pythonhosted.org/packages/de/19/918e3b6875874c5a93ccc68f0889e995335cf9e6da23905ccf6d9b7e72dc/alibabacloud_ice20201109-2.5.0.tar.gz
+[2024-06-03 10:34:16] INFO root fetch - processPackages [emailcompat32crlf]: executing diffoscope
+[2024-06-03 10:34:16] INFO root fetch - processPackages [emailcompat32crlf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailcompat32crlf-1.0.2.tar.gz tmp/emailcompat32crlf-1.0.3.tar.gz --markdown 20240603/e/emailcompat32crlf/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 10:34:16] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-06-03 10:34:16] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.6.tar.gz tmp/apiamocrm-0.1.7.tar.gz --markdown 20240603/a/apiAmoCRM/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 10:34:17] INFO root fetch - processPackages [alibabacloud-ice20201109]: executing diffoscope
+[2024-06-03 10:34:17] INFO root fetch - processPackages [alibabacloud-ice20201109]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ice20201109-2.4.1.tar.gz tmp/alibabacloud_ice20201109-2.5.0.tar.gz --markdown 20240603/a/alibabacloud-ice20201109/2.4.1-2.5.0/README.md --exclude *.pyd
+[2024-06-03 10:34:17] INFO root fetch - processPackages [emailcompat32crlf]: Remove: archive file [/home/abi/fetcher/tmp/emailcompat32crlf-1.0.2.tar.gz]
+[2024-06-03 10:34:17] INFO root fetch - processPackages [emailcompat32crlf]: Remove: archive file [/home/abi/fetcher/tmp/emailcompat32crlf-1.0.3.tar.gz]
+[2024-06-03 10:34:17] INFO root fetch - main [MainThread]: End processing [emailcompat32crlf]: success
+[2024-06-03 10:34:17] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.6.tar.gz]
+[2024-06-03 10:34:17] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.7.tar.gz]
+[2024-06-03 10:34:17] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-06-03 10:34:17] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.8.tar.gz]
+[2024-06-03 10:34:17] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.9.tar.gz]
+[2024-06-03 10:34:17] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-06-03 10:34:18] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 10:34:18] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 10:34:18] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 10:34:19] INFO root fetch - processPackages [alibabacloud-ice20201109]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ice20201109-2.4.1.tar.gz]
+[2024-06-03 10:34:19] INFO root fetch - processPackages [alibabacloud-ice20201109]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ice20201109-2.5.0.tar.gz]
+[2024-06-03 10:34:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-ice20201109]: success
+[2024-06-03 10:34:19] INFO root fetch - main [MainThread]: Store serial: [23498536]
