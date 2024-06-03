@@ -19736,3 +19736,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:50:47] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
 [2024-06-03 14:50:47] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
 [2024-06-03 14:50:47] INFO root fetch - main [MainThread]: Store serial: [23502615]
+[2024-06-03 14:52:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502615]
+[2024-06-03 14:52:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: star-privateer
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modrinth-downloader
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: financeager
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-power-ops
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-i2c-detection
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nfinance
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jenkspy
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: probabilistic-word-embeddings
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamstats-access
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Geode-Background
+[2024-06-03 14:52:56] WARNING root fetch - processPackages [streamstats-access]: Skipping, unable to determine old version
+[2024-06-03 14:52:56] INFO root fetch - processPackages [streamstats-access]: Start processing: django-axes-forked
+[2024-06-03 14:52:56] INFO root fetch - main [MainThread]: End processing [streamstats-access] error
+[2024-06-03 14:52:56] INFO root fetch - processPackages [nfinance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [django-axes-forked]: New version: [5.27.1] Old Version: [5.27.0.2]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ovos-i2c-detection]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [financeager]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [star-privateer]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/a6/06/adbe0a9d20c0b3550d857d983da73c51099dbefa5add379e638f2b2d83e7/nfinance-0.4.8.tar.gz
+[2024-06-03 14:52:56] INFO root fetch - processPackages [modrinth-downloader]: New version: [0.7] Old Version: [0.6]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.94.5] Old Version: [0.94.4]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [jenkspy]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [Geode-Background]: New version: [7.9.9rc1] Old Version: [7.9.8rc1]
+[2024-06-03 14:52:56] INFO root fetch - processPackages [django-axes-forked]: Downloading https://files.pythonhosted.org/packages/47/76/53989193b3f6b784c346bee63d0060f14553880431e3602368c6a5c7394d/django-axes-forked-5.27.0.2.tar.gz
+[2024-06-03 14:52:56] INFO root fetch - processPackages [ovos-i2c-detection]: Downloading https://files.pythonhosted.org/packages/bd/a8/cdd35b80d1bb32ce96b2ff856dd2ef5f45fb68ccb05b1695c7596a041459/ovos_i2c_detection-0.0.0a2-py3-none-any.whl
+[2024-06-03 14:52:56] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/d2/7c/1b78759775c0630d99708daef33180b4227fdc2af05e7678327319d5f625/modrinth_downloader-0.6.tar.gz
+[2024-06-03 14:52:56] INFO root fetch - processPackages [financeager]: Downloading https://files.pythonhosted.org/packages/a5/0e/5f89a62c7be2a5f16500f3739fef7df12eb35087505691cf9fb700e2eb9f/financeager-1.3.7.tar.gz
+[2024-06-03 14:52:56] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/3d/ad/e8e61e96026534cc2972a5c59b15eee597c9d45ae2e88dafae6896c2af62/cognite_power_ops-0.94.4.tar.gz
+[2024-06-03 14:52:56] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/34/6b/46ec181950d083608bf8cca8b3597d33fa9138974ed300ac6413a7cc5a17/nfinance-0.4.9.tar.gz
+[2024-06-03 14:52:56] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/9f/97/5ffede71893e5edd3cd031d6961fa8f2cf18b3acd709215409abcd7df044/probabilistic_word_embeddings-1.9.0.tar.gz
+[2024-06-03 14:52:56] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/5a/bf/e3b335021e2827df1ff360ae972cac70607b2685fe93041a505c3564eb03/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 14:52:56] INFO root fetch - processPackages [jenkspy]: Downloading https://files.pythonhosted.org/packages/f9/19/fab198cb5069ef8392c2abfd85418d72bbfc22542c06a73e92e0e1eab969/jenkspy-0.4.0.tar.gz
+[2024-06-03 14:52:56] INFO root fetch - processPackages [star-privateer]: Downloading https://files.pythonhosted.org/packages/98/91/adf950d8387dfc259e0c08f18c16982bb2071f14b94fa93852873af2f8ab/star-privateer-1.1.1.tar.gz
+[2024-06-03 14:52:56] WARNING root fetch - processPackages [star-privateer]: Skipping package: exceeds size limit 13253789>=10485760
+[2024-06-03 14:52:56] INFO root fetch - processPackages [star-privateer]: Start processing: zalando-kubectl
+[2024-06-03 14:52:56] INFO root fetch - main [MainThread]: End processing [star-privateer] error
+[2024-06-03 14:52:56] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-06-03 14:52:56] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.8.tar.gz tmp/nfinance-0.4.9.tar.gz --markdown 20240603/n/nfinance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 14:52:56] INFO root fetch - processPackages [django-axes-forked]: Downloading https://files.pythonhosted.org/packages/82/40/d42c75dd17423122c7520c1a30bf036c5e30a8371a5d45e654e65100cfdb/django-axes-forked-5.27.1.tar.gz
+[2024-06-03 14:52:57] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2024-06-03 14:52:57] INFO root fetch - processPackages [ovos-i2c-detection]: Downloading https://files.pythonhosted.org/packages/3c/be/5d6b07cf3f7ab79eefe4d312a793349f08eeedc7e254debbc169ca75e019/ovos_i2c_detection-0.0.0a3-py3-none-any.whl
+[2024-06-03 14:52:57] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/1d/a5/dd327bc6d2001371f513143c7dafa347881b67d0567265120e45109da784/modrinth_downloader-0.7.tar.gz
+[2024-06-03 14:52:57] INFO root fetch - processPackages [financeager]: Downloading https://files.pythonhosted.org/packages/de/fa/16d9b5addadb44a858471a4e0e0ca9ff916196af834d7aacc9678094d412/financeager-1.3.8.tar.gz
+[2024-06-03 14:52:57] INFO root fetch - processPackages [django-axes-forked]: executing diffoscope
+[2024-06-03 14:52:57] INFO root fetch - processPackages [django-axes-forked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-axes-forked-5.27.0.2.tar.gz tmp/django-axes-forked-5.27.1.tar.gz --markdown 20240603/d/django-axes-forked/5.27.0.2-5.27.1/README.md --exclude *.pyd
+[2024-06-03 14:52:57] INFO root fetch - processPackages [ovos-i2c-detection]: executing diffoscope
+[2024-06-03 14:52:57] INFO root fetch - processPackages [ovos-i2c-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_i2c_detection-0.0.0a2-py3-none-any.whl.zip tmp/ovos_i2c_detection-0.0.0a3-py3-none-any.whl.zip --markdown 20240603/o/ovos-i2c-detection/0.0.0a2-0.0.0a3/README.md --exclude *.pyd
+[2024-06-03 14:52:57] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/1f/c7/0a532bd75b3783c78c5d102ebf652cb598c2216d266a44cf9af3fb287448/probabilistic_word_embeddings-1.9.1.tar.gz
+[2024-06-03 14:52:57] INFO root fetch - processPackages [modrinth-downloader]: executing diffoscope
+[2024-06-03 14:52:57] INFO root fetch - processPackages [modrinth-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth_downloader-0.6.tar.gz tmp/modrinth_downloader-0.7.tar.gz --markdown 20240603/m/modrinth-downloader/0.6-0.7/README.md --exclude *.pyd
+[2024-06-03 14:52:57] INFO root fetch - processPackages [jenkspy]: Downloading https://files.pythonhosted.org/packages/91/95/a1aef86df7bb9af295cdda03d218556e2f4524e4d30168b8ee6af88bfa40/jenkspy-0.4.1.tar.gz
+[2024-06-03 14:52:57] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/53/38/38d9223e8c3551e56a7722ccf07e6c94643867e99e34b8c2583f2531a71a/cognite_power_ops-0.94.5.tar.gz
+[2024-06-03 14:52:57] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2024-06-03 14:52:57] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2024-06-03 14:52:57] INFO root fetch - processPackages [financeager]: executing diffoscope
+[2024-06-03 14:52:57] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.9.0.tar.gz tmp/probabilistic_word_embeddings-1.9.1.tar.gz --markdown 20240603/p/probabilistic-word-embeddings/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 14:52:57] INFO root fetch - processPackages [financeager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financeager-1.3.7.tar.gz tmp/financeager-1.3.8.tar.gz --markdown 20240603/f/financeager/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-06-03 14:52:57] INFO root fetch - processPackages [jenkspy]: executing diffoscope
+[2024-06-03 14:52:57] INFO root fetch - processPackages [jenkspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenkspy-0.4.0.tar.gz tmp/jenkspy-0.4.1.tar.gz --markdown 20240603/j/jenkspy/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-06-03 14:52:57] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/cf/5a/71fe8268103445cceb35cb6b1d4e80192437af076b7718587c869ebbd24a/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 14:52:57] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2024-06-03 14:52:57] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.94.4.tar.gz tmp/cognite_power_ops-0.94.5.tar.gz --markdown 20240603/c/cognite-power-ops/0.94.4-0.94.5/README.md --exclude *.pyd
+[2024-06-03 14:52:57] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2024-06-03 14:52:57] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.8.tar.gz]
+[2024-06-03 14:52:57] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.9.tar.gz]
+[2024-06-03 14:52:57] INFO root fetch - processPackages [nfinance]: Start processing: gumbi
+[2024-06-03 14:52:57] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-06-03 14:52:57] INFO root fetch - processPackages [gumbi]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 14:52:58] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2024-06-03 14:52:58] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240603/G/Geode-Background/7.9.8rc1-7.9.9rc1/README.md --exclude *.pyd
+[2024-06-03 14:52:58] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/14/c2/25aa603d1432f7b01f285a512496cc124381cc503db56d2549eceb54b62e/gumbi-0.2.3.tar.gz
+[2024-06-03 14:52:58] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.6.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.7.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - main [MainThread]: End processing [modrinth-downloader]: success
+[2024-06-03 14:52:58] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2024-06-03 14:52:58] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20240603/z/zalando-kubectl/1.9.3.45-1.9.3.46/README.md --exclude *.pyd
+[2024-06-03 14:52:58] INFO root fetch - processPackages [ovos-i2c-detection]: Remove: archive file [/home/abi/fetcher/tmp/ovos_i2c_detection-0.0.0a2-py3-none-any.whl.zip]
+[2024-06-03 14:52:58] INFO root fetch - processPackages [ovos-i2c-detection]: Remove: archive file [/home/abi/fetcher/tmp/ovos_i2c_detection-0.0.0a3-py3-none-any.whl.zip]
+[2024-06-03 14:52:58] INFO root fetch - main [MainThread]: End processing [ovos-i2c-detection]: success
+[2024-06-03 14:52:58] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/94/8d/8e4337a4cd6b059c826c1df720391e4ef03555cfee05590d7e938342a98b/gumbi-0.2.4.tar.gz
+[2024-06-03 14:52:58] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.0.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.1.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2024-06-03 14:52:58] INFO root fetch - processPackages [django-axes-forked]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-forked-5.27.0.2.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - processPackages [django-axes-forked]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-forked-5.27.1.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - main [MainThread]: End processing [django-axes-forked]: success
+[2024-06-03 14:52:58] INFO root fetch - processPackages [financeager]: Remove: archive file [/home/abi/fetcher/tmp/financeager-1.3.7.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - processPackages [financeager]: Remove: archive file [/home/abi/fetcher/tmp/financeager-1.3.8.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - main [MainThread]: End processing [financeager]: success
+[2024-06-03 14:52:58] INFO root fetch - processPackages [gumbi]: executing diffoscope
+[2024-06-03 14:52:58] INFO root fetch - processPackages [gumbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gumbi-0.2.3.tar.gz tmp/gumbi-0.2.4.tar.gz --markdown 20240603/g/gumbi/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 14:52:58] INFO root fetch - processPackages [jenkspy]: Remove: archive file [/home/abi/fetcher/tmp/jenkspy-0.4.0.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - processPackages [jenkspy]: Remove: archive file [/home/abi/fetcher/tmp/jenkspy-0.4.1.tar.gz]
+[2024-06-03 14:52:58] INFO root fetch - main [MainThread]: End processing [jenkspy]: success
+[2024-06-03 14:52:59] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2024-06-03 14:52:59] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2024-06-03 14:52:59] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2024-06-03 14:52:59] INFO root fetch - processPackages [gumbi]: Remove: archive file [/home/abi/fetcher/tmp/gumbi-0.2.3.tar.gz]
+[2024-06-03 14:52:59] INFO root fetch - processPackages [gumbi]: Remove: archive file [/home/abi/fetcher/tmp/gumbi-0.2.4.tar.gz]
+[2024-06-03 14:52:59] INFO root fetch - main [MainThread]: End processing [gumbi]: success
+[2024-06-03 14:53:01] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.4.tar.gz]
+[2024-06-03 14:53:01] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.5.tar.gz]
+[2024-06-03 14:53:01] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2024-06-03 14:53:35] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 14:53:35] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 14:53:35] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2024-06-03 14:53:35] INFO root fetch - main [MainThread]: Store serial: [23502661]
