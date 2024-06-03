@@ -5139,3 +5139,78 @@ EOFError: EOF read where object expected
 [2024-06-03 05:55:59] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.7-py3-none-any.whl.zip]
 [2024-06-03 05:55:59] INFO root fetch - main [MainThread]: End processing [toyai]: success
 [2024-06-03 05:55:59] INFO root fetch - main [MainThread]: Store serial: [23496430]
+[2024-06-03 05:58:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496430]
+[2024-06-03 05:58:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 05:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voxylstats
+[2024-06-03 05:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Deformation3D
+[2024-06-03 05:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-x-table
+[2024-06-03 05:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pr-pilot-cli
+[2024-06-03 05:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dadmin-celery
+[2024-06-03 05:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wheel-axle
+[2024-06-03 05:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codejudge-common-utils
+[2024-06-03 05:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-resources
+[2024-06-03 05:58:08] INFO root fetch - processPackages [codejudge-common-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 05:58:08] INFO root fetch - processPackages [json-x-table]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 05:58:08] INFO root fetch - processPackages [Deformation3D]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-06-03 05:58:08] INFO root fetch - processPackages [pr-pilot-cli]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-06-03 05:58:08] INFO root fetch - processPackages [fastapi-resources]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-06-03 05:58:08] INFO root fetch - processPackages [dadmin-celery]: New version: [1.0.1] Old Version: [1.0]
+[2024-06-03 05:58:08] INFO root fetch - processPackages [voxylstats]: New version: [1.0.0] Old Version: [0.2.8]
+[2024-06-03 05:58:08] INFO root fetch - processPackages [codejudge-common-utils]: Downloading https://files.pythonhosted.org/packages/2e/3b/cb06ff5a3864a4cfee84288a643be491447f507eecb8e00ee4a7adca08d4/codejudge-common-utils-0.0.4.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [wheel-axle]: New version: [0.0.8.dev20240603035708] Old Version: [0.0.8.dev20240211202053]
+[2024-06-03 05:58:08] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/c7/fe/97b9f7017823f6de31f091fda62b292ceecdcc98a994e168045c6820ad6f/json_x_table-0.0.3.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [fastapi-resources]: Downloading https://files.pythonhosted.org/packages/7f/dc/118e71fb18bb7fb68d729fa3e63c0941d17cba21ae4247369119a71f0684/fastapi_resources-0.5.0.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/0f/f6/b4b7e449c4dc8f922439fd059022cc9056c41de1a5c89503e72979c670b6/Deformation3D-1.7.6-py3-none-any.whl
+[2024-06-03 05:58:08] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/e3/de/ffc676228270270f0b22d83ed2437d44edcb60fee3b7a3b1174ab1df34da/pr_pilot_cli-1.4.2.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [dadmin-celery]: Downloading https://files.pythonhosted.org/packages/4f/80/4da28815ece268e37d4bb341258438cd5068dafd74763a5d06b2ce76e72d/dadmin-celery-1.0.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [voxylstats]: Downloading https://files.pythonhosted.org/packages/a7/08/bbc757980be538721712cc7325f46c4f6282acb335ea42d2af9af5a82869/voxylstats-0.2.8.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [wheel-axle]: Downloading https://files.pythonhosted.org/packages/de/14/2df69c2ca2cf784d26fe64d9fdfae462a448e27e4a15b0d4e92ce1d2f97f/wheel_axle-0.0.8.dev20240211202053.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [codejudge-common-utils]: Downloading https://files.pythonhosted.org/packages/43/d9/f1a95171c95de3d91adf42c10c21c2b97b61594707127bb717ec9393cb80/codejudge-common-utils-0.0.5.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [fastapi-resources]: Downloading https://files.pythonhosted.org/packages/fc/70/77bce057e310da17ebb9397a086cca7986d6f1aec736cbb1feaa235c7e09/fastapi_resources-0.5.1.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/f2/a7/ad4f48cecbe1f4684f6d10ffcae143e31087a85492fcedc6d1b9d55846ae/pr_pilot_cli-1.5.0.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/4e/fe/e3dd74605ae0392c7fa756b58bf452098f6f621fb2b768789ad057addb6e/json_x_table-0.0.4.tar.gz
+[2024-06-03 05:58:08] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/9e/5e/358a04ce9bf296fb549e8a84a5afcfec7ef85889bde17e413ed6cd11d109/Deformation3D-1.7.7-py3-none-any.whl
+[2024-06-03 05:58:08] INFO root fetch - processPackages [fastapi-resources]: executing diffoscope
+[2024-06-03 05:58:08] INFO root fetch - processPackages [fastapi-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_resources-0.5.0.tar.gz tmp/fastapi_resources-0.5.1.tar.gz --markdown 20240603/f/fastapi-resources/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-06-03 05:58:08] INFO root fetch - processPackages [codejudge-common-utils]: executing diffoscope
+[2024-06-03 05:58:08] INFO root fetch - processPackages [codejudge-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codejudge-common-utils-0.0.4.tar.gz tmp/codejudge-common-utils-0.0.5.tar.gz --markdown 20240603/c/codejudge-common-utils/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 05:58:08] INFO root fetch - processPackages [pr-pilot-cli]: executing diffoscope
+[2024-06-03 05:58:08] INFO root fetch - processPackages [pr-pilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot_cli-1.4.2.tar.gz tmp/pr_pilot_cli-1.5.0.tar.gz --markdown 20240603/p/pr-pilot-cli/1.4.2-1.5.0/README.md --exclude *.pyd
+[2024-06-03 05:58:09] INFO root fetch - processPackages [json-x-table]: executing diffoscope
+[2024-06-03 05:58:09] INFO root fetch - processPackages [json-x-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_x_table-0.0.3.tar.gz tmp/json_x_table-0.0.4.tar.gz --markdown 20240603/j/json-x-table/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 05:58:09] INFO root fetch - processPackages [Deformation3D]: executing diffoscope
+[2024-06-03 05:58:09] INFO root fetch - processPackages [Deformation3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deformation3D-1.7.6-py3-none-any.whl.zip tmp/Deformation3D-1.7.7-py3-none-any.whl.zip --markdown 20240603/D/Deformation3D/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-06-03 05:58:09] INFO root fetch - processPackages [voxylstats]: Downloading https://files.pythonhosted.org/packages/47/ec/cdff6b9cce2b385a8aea2c463c8e12c426be9df9449aed1ed584ce70a004/voxylstats-1.0.0.tar.gz
+[2024-06-03 05:58:09] INFO root fetch - processPackages [dadmin-celery]: Downloading https://files.pythonhosted.org/packages/e2/48/206a93f149c11452188794d3e3d02b3bb5518302fe30d6841d1cf392288b/dadmin_celery-1.0.1.tar.gz
+[2024-06-03 05:58:09] INFO root fetch - processPackages [voxylstats]: executing diffoscope
+[2024-06-03 05:58:09] INFO root fetch - processPackages [voxylstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxylstats-0.2.8.tar.gz tmp/voxylstats-1.0.0.tar.gz --markdown 20240603/v/voxylstats/0.2.8-1.0.0/README.md --exclude *.pyd
+[2024-06-03 05:58:09] INFO root fetch - processPackages [wheel-axle]: Downloading https://files.pythonhosted.org/packages/d9/03/e260a6f230e49d3a7cb43caaa2cfb427a731efb9a2e028382791dfea0c8f/wheel_axle-0.0.8.dev20240603035708.tar.gz
+[2024-06-03 05:58:09] INFO root fetch - processPackages [dadmin-celery]: executing diffoscope
+[2024-06-03 05:58:09] INFO root fetch - processPackages [dadmin-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dadmin-celery-1.0.tar.gz tmp/dadmin_celery-1.0.1.tar.gz --markdown 20240603/d/dadmin-celery/1.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 05:58:09] INFO root fetch - processPackages [wheel-axle]: executing diffoscope
+[2024-06-03 05:58:09] INFO root fetch - processPackages [wheel-axle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel_axle-0.0.8.dev20240211202053.tar.gz tmp/wheel_axle-0.0.8.dev20240603035708.tar.gz --markdown 20240603/w/wheel-axle/0.0.8.dev20240211202053-0.0.8.dev20240603035708/README.md --exclude *.pyd
+[2024-06-03 05:58:09] INFO root fetch - processPackages [codejudge-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/codejudge-common-utils-0.0.4.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - processPackages [codejudge-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/codejudge-common-utils-0.0.5.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - main [MainThread]: End processing [codejudge-common-utils]: success
+[2024-06-03 05:58:09] INFO root fetch - processPackages [voxylstats]: Remove: archive file [/home/abi/fetcher/tmp/voxylstats-0.2.8.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - processPackages [voxylstats]: Remove: archive file [/home/abi/fetcher/tmp/voxylstats-1.0.0.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - main [MainThread]: End processing [voxylstats]: success
+[2024-06-03 05:58:09] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.3.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.4.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - processPackages [fastapi-resources]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_resources-0.5.0.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - main [MainThread]: End processing [json-x-table]: success
+[2024-06-03 05:58:09] INFO root fetch - processPackages [fastapi-resources]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_resources-0.5.1.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.4.2.tar.gz]
+[2024-06-03 05:58:09] INFO root fetch - main [MainThread]: End processing [fastapi-resources]: success
+[2024-06-03 05:58:09] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.5.0.tar.gz]
+[2024-06-03 05:58:10] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli]: success
+[2024-06-03 05:58:10] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.7.6-py3-none-any.whl.zip]
+[2024-06-03 05:58:10] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.7.7-py3-none-any.whl.zip]
+[2024-06-03 05:58:10] INFO root fetch - main [MainThread]: End processing [Deformation3D]: success
+[2024-06-03 05:58:10] INFO root fetch - processPackages [dadmin-celery]: Remove: archive file [/home/abi/fetcher/tmp/dadmin-celery-1.0.tar.gz]
+[2024-06-03 05:58:10] INFO root fetch - processPackages [dadmin-celery]: Remove: archive file [/home/abi/fetcher/tmp/dadmin_celery-1.0.1.tar.gz]
+[2024-06-03 05:58:10] INFO root fetch - main [MainThread]: End processing [dadmin-celery]: success
+[2024-06-03 05:58:10] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.8.dev20240211202053.tar.gz]
+[2024-06-03 05:58:10] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.8.dev20240603035708.tar.gz]
+[2024-06-03 05:58:10] INFO root fetch - main [MainThread]: End processing [wheel-axle]: success
+[2024-06-03 05:58:10] INFO root fetch - main [MainThread]: Store serial: [23496453]
