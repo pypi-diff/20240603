@@ -18934,3 +18934,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:23:49] INFO root fetch - processPackages [robusta-api]: Remove: archive file [/home/abi/fetcher/tmp/robusta_api-0.0.3.tar.gz]
 [2024-06-03 14:23:49] INFO root fetch - main [MainThread]: End processing [robusta-api]: success
 [2024-06-03 14:23:49] INFO root fetch - main [MainThread]: Store serial: [23502306]
+[2024-06-03 14:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502306]
+[2024-06-03 14:25:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dve-lumipy-testing
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instill-sdk
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aigents
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-auth0
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itemloaders
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: preprocess-ai
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vastdb
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: processing-pypelines
+[2024-06-03 14:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-optional
+[2024-06-03 14:25:58] INFO root fetch - processPackages [py-optional]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-06-03 14:25:58] INFO root fetch - processPackages [processing-pypelines]: New version: [0.0.63] Old Version: [0.0.62]
+[2024-06-03 14:25:58] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 14:25:58] INFO root fetch - processPackages [instill-sdk]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2024-06-03 14:25:58] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1717132288] Old Version: [3.4.0a1716959542]
+[2024-06-03 14:25:58] WARNING root fetch - processPackages [preprocess-ai]: Skipping, unable to determine old version
+[2024-06-03 14:25:58] INFO root fetch - main [MainThread]: End processing [preprocess-ai] error
+[2024-06-03 14:25:58] INFO root fetch - processPackages [itemloaders]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-06-03 14:25:58] INFO root fetch - processPackages [aigents]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-06-03 14:25:58] INFO root fetch - processPackages [vastdb]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 14:25:58] INFO root fetch - processPackages [py-optional]: Downloading https://files.pythonhosted.org/packages/30/ac/af83d0f68f540bbe442a1b66f799471f185a7edb18c0b173e837a9b0ec31/py_optional-1.3.1.tar.gz
+[2024-06-03 14:25:58] INFO root fetch - processPackages [processing-pypelines]: Downloading https://files.pythonhosted.org/packages/12/e0/ffbba67644da4f1a37f332020496f8031103818c4c5118c9f062b0cc396f/processing_pypelines-0.0.62.tar.gz
+[2024-06-03 14:25:58] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-06-03 14:25:58] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/ef/44/e82999958d2e8f11d401e144dcdb581def936306f8fa41cd0bb7bff4b3ca/instill_sdk-0.9.0.tar.gz
+[2024-06-03 14:25:58] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/fa/89/6782ad0b7f8fcc9906c94a5152639632d8a3cc56e015b3b0c7f3c6546a49/pulumi_auth0-3.4.0a1716959542.tar.gz
+[2024-06-03 14:25:58] INFO root fetch - processPackages [itemloaders]: Downloading https://files.pythonhosted.org/packages/fc/bc/5f55261cd91637e191ca99857489ef8e43d09f66ba35f7953036eec6d37e/itemloaders-1.3.0.tar.gz
+[2024-06-03 14:25:58] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/8a/07/28e4bd636a08b099dab5112f1be4d25e31d9f91278279747e8383eeaecb3/aigents-0.8.5.tar.gz
+[2024-06-03 14:25:58] INFO root fetch - processPackages [vastdb]: Downloading https://files.pythonhosted.org/packages/ef/7c/d2b5719e0700061229e8ef74152af691f0f3b0f9896f4040bf5cb738c1ad/vastdb-0.1.6.tar.gz
+[2024-06-03 14:25:58] INFO root fetch - processPackages [processing-pypelines]: Downloading https://files.pythonhosted.org/packages/27/70/5b5b94d52ef8f8bb53135e6e77d1080c133c1bdefbc81c3f5e1dc2c618f5/processing_pypelines-0.0.63.tar.gz
+[2024-06-03 14:25:59] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/9d/ba/55f436eb8ceb30331f9f7e4df95a211e70671823a66e26c8867e4efa7fdc/instill_sdk-0.9.0rc0.tar.gz
+[2024-06-03 14:25:59] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-06-03 14:25:59] INFO root fetch - processPackages [py-optional]: Downloading https://files.pythonhosted.org/packages/9d/02/42d788b316a514b9046864531d77c7975cea948a3255a5aac5d8dc785074/py_optional-1.3.2.tar.gz
+[2024-06-03 14:25:59] INFO root fetch - processPackages [processing-pypelines]: executing diffoscope
+[2024-06-03 14:25:59] INFO root fetch - processPackages [processing-pypelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processing_pypelines-0.0.62.tar.gz tmp/processing_pypelines-0.0.63.tar.gz --markdown 20240603/p/processing-pypelines/0.0.62-0.0.63/README.md --exclude *.pyd
+[2024-06-03 14:25:59] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/82/d8/b8d5f63803ee79204157785e2c91aaf79ee1d7429221b59307c2f5469ecc/pulumi_auth0-3.4.0a1717132288.tar.gz
+[2024-06-03 14:25:59] INFO root fetch - processPackages [py-optional]: executing diffoscope
+[2024-06-03 14:25:59] INFO root fetch - processPackages [py-optional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_optional-1.3.1.tar.gz tmp/py_optional-1.3.2.tar.gz --markdown 20240603/p/py-optional/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-06-03 14:25:59] INFO root fetch - processPackages [instill-sdk]: executing diffoscope
+[2024-06-03 14:25:59] INFO root fetch - processPackages [instill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instill_sdk-0.9.0.tar.gz tmp/instill_sdk-0.9.0rc0.tar.gz --markdown 20240603/i/instill-sdk/0.9.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-06-03 14:25:59] INFO root fetch - processPackages [itemloaders]: Downloading https://files.pythonhosted.org/packages/17/cd/1cdef11f36a0a6c3db2bbfc28e5e10b358aeae54f6c2279dd89c595ebf56/itemloaders-1.3.1.tar.gz
+[2024-06-03 14:25:59] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-06-03 14:25:59] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1716959542.tar.gz tmp/pulumi_auth0-3.4.0a1717132288.tar.gz --markdown 20240603/p/pulumi-auth0/3.4.0a1716959542-3.4.0a1717132288/README.md --exclude *.pyd
+[2024-06-03 14:25:59] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/49/51/6d1868d0036a23c2fd7523d2d31f96a1191f95d1c9d1b0a97066cca674ab/aigents-0.8.6.tar.gz
+[2024-06-03 14:25:59] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-06-03 14:25:59] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240603/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 14:25:59] INFO root fetch - processPackages [vastdb]: Downloading https://files.pythonhosted.org/packages/30/4a/298fd6ea66ec2811f14c776feef7d93455c7877040416a166496967a7850/vastdb-0.1.7.tar.gz
+[2024-06-03 14:25:59] INFO root fetch - processPackages [aigents]: executing diffoscope
+[2024-06-03 14:25:59] INFO root fetch - processPackages [aigents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigents-0.8.5.tar.gz tmp/aigents-0.8.6.tar.gz --markdown 20240603/a/aigents/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-06-03 14:25:59] INFO root fetch - processPackages [itemloaders]: executing diffoscope
+[2024-06-03 14:25:59] INFO root fetch - processPackages [itemloaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itemloaders-1.3.0.tar.gz tmp/itemloaders-1.3.1.tar.gz --markdown 20240603/i/itemloaders/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-06-03 14:25:59] INFO root fetch - processPackages [vastdb]: executing diffoscope
+[2024-06-03 14:25:59] INFO root fetch - processPackages [vastdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vastdb-0.1.6.tar.gz tmp/vastdb-0.1.7.tar.gz --markdown 20240603/v/vastdb/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 14:26:00] INFO root fetch - processPackages [py-optional]: Remove: archive file [/home/abi/fetcher/tmp/py_optional-1.3.1.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - processPackages [py-optional]: Remove: archive file [/home/abi/fetcher/tmp/py_optional-1.3.2.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - main [MainThread]: End processing [py-optional]: success
+[2024-06-03 14:26:00] INFO root fetch - processPackages [processing-pypelines]: Remove: archive file [/home/abi/fetcher/tmp/processing_pypelines-0.0.62.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - processPackages [processing-pypelines]: Remove: archive file [/home/abi/fetcher/tmp/processing_pypelines-0.0.63.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - main [MainThread]: End processing [processing-pypelines]: success
+[2024-06-03 14:26:00] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.8.5.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.8.6.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - main [MainThread]: End processing [aigents]: success
+[2024-06-03 14:26:00] INFO root fetch - processPackages [itemloaders]: Remove: archive file [/home/abi/fetcher/tmp/itemloaders-1.3.0.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - processPackages [itemloaders]: Remove: archive file [/home/abi/fetcher/tmp/itemloaders-1.3.1.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - main [MainThread]: End processing [itemloaders]: success
+[2024-06-03 14:26:00] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716959542.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1717132288.tar.gz]
+[2024-06-03 14:26:00] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-06-03 14:26:01] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.1.6.tar.gz]
+[2024-06-03 14:26:01] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.1.7.tar.gz]
+[2024-06-03 14:26:01] INFO root fetch - main [MainThread]: End processing [vastdb]: success
+[2024-06-03 14:26:01] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-06-03 14:26:01] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-06-03 14:26:01] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-06-03 14:26:01] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0.tar.gz]
+[2024-06-03 14:26:01] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0rc0.tar.gz]
+[2024-06-03 14:26:01] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
+[2024-06-03 14:26:01] INFO root fetch - main [MainThread]: Store serial: [23502334]
