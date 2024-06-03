@@ -13381,3 +13381,101 @@ EOFError: EOF read where object expected
 [2024-06-03 12:12:44] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
 [2024-06-03 12:12:44] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
 [2024-06-03 12:12:44] INFO root fetch - main [MainThread]: Store serial: [23500212]
+[2024-06-03 12:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500212]
+[2024-06-03 12:15:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: energy-base
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bd-sig-filter
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVE-2024-4956
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-imm
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atomicshop
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-paiplugin
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: youqu-dogtail
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linerate
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-iot
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xbot.framework
+[2024-06-03 12:15:07] INFO root fetch - processPackages [bd-sig-filter]: New version: [1.1] Old Version: [1.0]
+[2024-06-03 12:15:07] INFO root fetch - processPackages [linerate]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 12:15:07] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 12:15:07] WARNING root fetch - processPackages [ros-cdk-paiplugin]: Skipping, unable to determine old version
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ros-cdk-paiplugin]: Start processing: whatsapp-api-webhook-server-python-v2
+[2024-06-03 12:15:07] INFO root fetch - main [MainThread]: End processing [ros-cdk-paiplugin] error
+[2024-06-03 12:15:07] INFO root fetch - processPackages [energy-base]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ros-cdk-imm]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:15:07] INFO root fetch - processPackages [youqu-dogtail]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 12:15:07] INFO root fetch - processPackages [linerate]: Downloading https://files.pythonhosted.org/packages/54/b1/52852481ff682e092fe100eacf4e29e4cf75f21e28dc248580acda2cc9f7/linerate-1.0.0.tar.gz
+[2024-06-03 12:15:07] INFO root fetch - processPackages [xbot.framework]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-06-03 12:15:07] WARNING root fetch - processPackages [CVE-2024-4956]: Skipping, unable to determine old version
+[2024-06-03 12:15:07] INFO root fetch - processPackages [CVE-2024-4956]: Start processing: h2lib
+[2024-06-03 12:15:07] INFO root fetch - main [MainThread]: End processing [CVE-2024-4956] error
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ros-cdk-iot]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:15:07] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 12:15:07] INFO root fetch - processPackages [bd-sig-filter]: Downloading https://files.pythonhosted.org/packages/37/2b/45187cb9fddd044973f86f2fc0ed4e64a5bc3fa8b14ec13ef7d317ce9b14/bd_sig_filter-1.0.tar.gz
+[2024-06-03 12:15:07] WARNING root fetch - processPackages [whatsapp-api-webhook-server-python-v2]: Skipping, unable to determine old version
+[2024-06-03 12:15:07] INFO root fetch - processPackages [whatsapp-api-webhook-server-python-v2]: Start processing: h2lib-tests
+[2024-06-03 12:15:07] INFO root fetch - main [MainThread]: End processing [whatsapp-api-webhook-server-python-v2] error
+[2024-06-03 12:15:07] INFO root fetch - processPackages [h2lib]: New version: [13.1.4] Old Version: [13.1.3]
+[2024-06-03 12:15:07] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/e8/7d/d58af4633aa480d0729c2cad260194b2776d29a8825c34799d367af48674/energy_base-1.8.0.tar.gz
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ros-cdk-imm]: Downloading https://files.pythonhosted.org/packages/98/60/bd0908f28ac8a992612b247c30a1c2d9e54e67ea7234f8db1c9c8244eb97/ros-cdk-imm-1.0.8.tar.gz
+[2024-06-03 12:15:07] INFO root fetch - processPackages [youqu-dogtail]: Downloading https://files.pythonhosted.org/packages/a9/f0/166288a407fe95e4814231f20964b6f7aa1bf10a4e1bfdec2ac4d0fe55ed/youqu_dogtail-0.1.0.tar.gz
+[2024-06-03 12:15:07] INFO root fetch - processPackages [h2lib-tests]: New version: [13.1.202] Old Version: [13.1.201]
+[2024-06-03 12:15:07] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/9a/a7/afc8d729cf01f8e1c18e4ad0d7d2962c10f67b0f335e366caaef535df179/ros-cdk-iot-1.0.8.tar.gz
+[2024-06-03 12:15:07] INFO root fetch - processPackages [xbot.framework]: Downloading https://files.pythonhosted.org/packages/c0/ac/2b45b1c94fb56e503a8f69d2cb4c8873560a93b98d964dc918015d61aa13/xbot.framework-0.1.0.tar.gz
+[2024-06-03 12:15:07] INFO root fetch - processPackages [linerate]: Downloading https://files.pythonhosted.org/packages/f8/f3/a53d333bd299e352b7e8682d58b9e2e4cb688e155d1e4ddf933aa55d639d/linerate-1.0.1.tar.gz
+[2024-06-03 12:15:07] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 12:15:07] INFO root fetch - processPackages [h2lib]: Downloading https://files.pythonhosted.org/packages/9d/86/f5184dd94abaf1d596162b29142009e74f1b708f3e9ca10f274f97a831c0/h2lib-13.1.3-cp39-cp39-win_amd64.whl
+[2024-06-03 12:15:07] INFO root fetch - processPackages [bd-sig-filter]: Downloading https://files.pythonhosted.org/packages/89/42/20edd4c9a130fdf95b8bebcd8a2b5a5eddc9c1a4c7c0ec80103e6581f4e0/bd_sig_filter-1.1.tar.gz
+[2024-06-03 12:15:08] INFO root fetch - processPackages [linerate]: executing diffoscope
+[2024-06-03 12:15:08] INFO root fetch - processPackages [linerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linerate-1.0.0.tar.gz tmp/linerate-1.0.1.tar.gz --markdown 20240603/l/linerate/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 12:15:08] INFO root fetch - processPackages [h2lib-tests]: Downloading https://files.pythonhosted.org/packages/a0/9d/0baafff8a3baf8716ec1f3e2ebdc1e3b5d85c289fc617ec410e05e4a6dd3/h2lib_tests-13.1.201-py3-none-any.whl
+[2024-06-03 12:15:08] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/5f/71/103811f17cea9bdae548b447d9e09701fe3cc25c49edf4d9ad06238d7e9f/energy_base-1.8.1.tar.gz
+[2024-06-03 12:15:08] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 12:15:08] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 12:15:08] WARNING root fetch - processPackages [h2lib-tests]: Skipping package: exceeds size limit 10539548>=10485760
+[2024-06-03 12:15:08] INFO root fetch - main [MainThread]: End processing [h2lib-tests] error
+[2024-06-03 12:15:08] INFO root fetch - processPackages [ros-cdk-imm]: Downloading https://files.pythonhosted.org/packages/d7/2b/6df354dd4b66c05efea9da7b88905dfc8411c362104ce9cdc595148d29d1/ros-cdk-imm-1.0.9.tar.gz
+[2024-06-03 12:15:08] INFO root fetch - processPackages [youqu-dogtail]: Downloading https://files.pythonhosted.org/packages/d4/ae/c59789e08923e7c2e0125ea0d968b177935810153d6b6c7c03344221614d/youqu_dogtail-0.1.1.tar.gz
+[2024-06-03 12:15:08] INFO root fetch - processPackages [bd-sig-filter]: executing diffoscope
+[2024-06-03 12:15:08] INFO root fetch - processPackages [bd-sig-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bd_sig_filter-1.0.tar.gz tmp/bd_sig_filter-1.1.tar.gz --markdown 20240603/b/bd-sig-filter/1.0-1.1/README.md --exclude *.pyd
+[2024-06-03 12:15:08] INFO root fetch - processPackages [xbot.framework]: Downloading https://files.pythonhosted.org/packages/a9/d7/e7f8f5d0d4bfc4be234f997441428878091a30fa80619b07e697fb887af2/xbot.framework-0.2.0.tar.gz
+[2024-06-03 12:15:08] INFO root fetch - processPackages [ros-cdk-iot]: Downloading https://files.pythonhosted.org/packages/20/c3/9d1c46b23ce26ca76a9a8993273ec9f333655246a215eaec7452e417c917/ros-cdk-iot-1.0.9.tar.gz
+[2024-06-03 12:15:08] INFO root fetch - processPackages [ros-cdk-imm]: executing diffoscope
+[2024-06-03 12:15:08] INFO root fetch - processPackages [ros-cdk-imm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-imm-1.0.8.tar.gz tmp/ros-cdk-imm-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-imm/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:15:08] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-06-03 12:15:08] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.8.0.tar.gz tmp/energy_base-1.8.1.tar.gz --markdown 20240603/e/energy-base/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-06-03 12:15:08] INFO root fetch - processPackages [youqu-dogtail]: executing diffoscope
+[2024-06-03 12:15:08] INFO root fetch - processPackages [youqu-dogtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu_dogtail-0.1.0.tar.gz tmp/youqu_dogtail-0.1.1.tar.gz --markdown 20240603/y/youqu-dogtail/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 12:15:08] INFO root fetch - processPackages [ros-cdk-iot]: executing diffoscope
+[2024-06-03 12:15:08] INFO root fetch - processPackages [ros-cdk-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-iot-1.0.8.tar.gz tmp/ros-cdk-iot-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-iot/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:15:08] INFO root fetch - processPackages [xbot.framework]: executing diffoscope
+[2024-06-03 12:15:08] INFO root fetch - processPackages [xbot.framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbot.framework-0.1.0.tar.gz tmp/xbot.framework-0.2.0.tar.gz --markdown 20240603/x/xbot.framework/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-06-03 12:15:08] INFO root fetch - processPackages [linerate]: Remove: archive file [/home/abi/fetcher/tmp/linerate-1.0.0.tar.gz]
+[2024-06-03 12:15:08] INFO root fetch - processPackages [linerate]: Remove: archive file [/home/abi/fetcher/tmp/linerate-1.0.1.tar.gz]
+[2024-06-03 12:15:08] INFO root fetch - main [MainThread]: End processing [linerate]: success
+[2024-06-03 12:15:09] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.8.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - processPackages [ros-cdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-imm-1.0.9.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - main [MainThread]: End processing [ros-cdk-imm]: success
+[2024-06-03 12:15:09] INFO root fetch - processPackages [bd-sig-filter]: Remove: archive file [/home/abi/fetcher/tmp/bd_sig_filter-1.0.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - processPackages [bd-sig-filter]: Remove: archive file [/home/abi/fetcher/tmp/bd_sig_filter-1.1.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - main [MainThread]: End processing [bd-sig-filter]: success
+[2024-06-03 12:15:09] INFO root fetch - processPackages [youqu-dogtail]: Remove: archive file [/home/abi/fetcher/tmp/youqu_dogtail-0.1.0.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - processPackages [youqu-dogtail]: Remove: archive file [/home/abi/fetcher/tmp/youqu_dogtail-0.1.1.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - main [MainThread]: End processing [youqu-dogtail]: success
+[2024-06-03 12:15:09] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.8.0.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.8.1.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-06-03 12:15:09] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.8.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - processPackages [ros-cdk-iot]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-iot-1.0.9.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - main [MainThread]: End processing [ros-cdk-iot]: success
+[2024-06-03 12:15:09] INFO root fetch - processPackages [h2lib]: Downloading https://files.pythonhosted.org/packages/28/51/aaec84832b2b5057f7444156ac78fe2171fee24ee48db5279b6ec23a43b2/h2lib-13.1.4-cp39-cp39-win_amd64.whl
+[2024-06-03 12:15:09] INFO root fetch - processPackages [xbot.framework]: Remove: archive file [/home/abi/fetcher/tmp/xbot.framework-0.1.0.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - processPackages [xbot.framework]: Remove: archive file [/home/abi/fetcher/tmp/xbot.framework-0.2.0.tar.gz]
+[2024-06-03 12:15:09] INFO root fetch - main [MainThread]: End processing [xbot.framework]: success
+[2024-06-03 12:15:09] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 12:15:09] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 12:15:09] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 12:15:10] INFO root fetch - processPackages [h2lib]: executing diffoscope
+[2024-06-03 12:15:10] INFO root fetch - processPackages [h2lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2lib-13.1.3-cp39-cp39-win_amd64.whl.zip tmp/h2lib-13.1.4-cp39-cp39-win_amd64.whl.zip --markdown 20240603/h/h2lib/13.1.3-13.1.4/README.md --exclude *.pyd
+[2024-06-03 12:16:02] INFO root fetch - processPackages [h2lib]: Remove: archive file [/home/abi/fetcher/tmp/h2lib-13.1.3-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 12:16:02] INFO root fetch - processPackages [h2lib]: Remove: archive file [/home/abi/fetcher/tmp/h2lib-13.1.4-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 12:16:02] INFO root fetch - main [MainThread]: End processing [h2lib]: success
+[2024-06-03 12:16:02] INFO root fetch - main [MainThread]: Store serial: [23500250]
