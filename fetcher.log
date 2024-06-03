@@ -10800,3 +10800,74 @@ EOFError: EOF read where object expected
 [2024-06-03 10:59:24] INFO root fetch - processPackages [gwbench]: Remove: archive file [/home/abi/fetcher/tmp/gwbench-0.8.0.tar.gz]
 [2024-06-03 10:59:24] INFO root fetch - main [MainThread]: End processing [gwbench]: success
 [2024-06-03 10:59:24] INFO root fetch - main [MainThread]: Store serial: [23499006]
+[2024-06-03 11:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499006]
+[2024-06-03 11:01:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 11:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: probe-design
+[2024-06-03 11:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flashback
+[2024-06-03 11:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-helpwithpic
+[2024-06-03 11:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotify-confidence-sdk
+[2024-06-03 11:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: triton-copilot
+[2024-06-03 11:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aixhello
+[2024-06-03 11:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: power-grid-model
+[2024-06-03 11:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WGSE-NG-3rd-party
+[2024-06-03 11:01:34] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b0] Old Version: [0.1.3]
+[2024-06-03 11:01:34] INFO root fetch - processPackages [WGSE-NG-3rd-party]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 11:01:34] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/59/ae/070ac9e8eba61e25e57255b9109f115bed5c2e1f828e9b41e5093947312f/triton_copilot-0.1.3.tar.gz
+[2024-06-03 11:01:34] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: New version: [1.6] Old Version: [1.5.1]
+[2024-06-03 11:01:34] INFO root fetch - processPackages [WGSE-NG-3rd-party]: Downloading https://files.pythonhosted.org/packages/d1/7e/ff6ab538beb19f08a02cb36f16d83ab3c0443ce9c43f7356c7baba4b6c3a/wgse_ng_3rd_party-0.0.1.tar.gz
+[2024-06-03 11:01:35] INFO root fetch - processPackages [aixhello]: New version: [4.4] Old Version: [4.3]
+[2024-06-03 11:01:35] INFO root fetch - processPackages [flashback]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-06-03 11:01:35] INFO root fetch - processPackages [spotify-confidence-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 11:01:35] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 11:01:35] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-06-03 11:01:35] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: Downloading https://files.pythonhosted.org/packages/43/31/490a80a1eb1d209a681b903ab727910ed16a63b2f151d272631e86aeb970/nonebot_plugin_helpwithpic-1.5.1.tar.gz
+[2024-06-03 11:01:35] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/e2/1e/7953c2d993d661c4a2e5d665c18c4763bfaec83dbfe8f1e4f754a24757ed/aixhello-4.3.tar.gz
+[2024-06-03 11:01:35] INFO root fetch - processPackages [spotify-confidence-sdk]: Downloading https://files.pythonhosted.org/packages/54/18/b90be50fb76ee24b33f4fe4b3e1041af14bfb0316cde9c57f7a4d38beffc/spotify_confidence_sdk-0.2.1.tar.gz
+[2024-06-03 11:01:35] INFO root fetch - processPackages [flashback]: Downloading https://files.pythonhosted.org/packages/c8/c3/afbefd2c8f23303ec8e1b740bac6f8513717f3f1bfd096073613644bfcc8/flashback-2.1.0.tar.gz
+[2024-06-03 11:01:35] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-06-03 11:01:35] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-06-03 11:01:36] WARNING root fetch - processPackages [WGSE-NG-3rd-party]: Skipping package: exceeds size limit 30940690>=10485760
+[2024-06-03 11:01:36] INFO root fetch - main [MainThread]: End processing [WGSE-NG-3rd-party] error
+[2024-06-03 11:01:36] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/73/63/7bd85e743667e053e222582bef13ced365b1754efcb9d72f06f14ea2c4d7/triton_copilot-0.1.3b0.tar.gz
+[2024-06-03 11:01:36] INFO root fetch - processPackages [spotify-confidence-sdk]: Downloading https://files.pythonhosted.org/packages/06/86/34f67a91fee99c39a288c49cee659896d6800851bcb8c5042e7f95f4a682/spotify_confidence_sdk-0.2.2.tar.gz
+[2024-06-03 11:01:36] INFO root fetch - processPackages [flashback]: Downloading https://files.pythonhosted.org/packages/64/16/c391d8a382af3a3b2854b5f845eef21b6e02dfca69916d6b4c84869e41e2/flashback-2.2.0.tar.gz
+[2024-06-03 11:01:36] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/d3/b7/71c155f911568cd0978e5e0532ada00980ebfa756501855cb4bcd9482049/aixhello-4.4.tar.gz
+[2024-06-03 11:01:36] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: Downloading https://files.pythonhosted.org/packages/d3/a8/1a84dd6ddcea3cb23b5c7652c31b3e4192ed0e6d2e9285ab9220f52908f6/nonebot_plugin_helpwithpic-1.6.tar.gz
+[2024-06-03 11:01:36] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-06-03 11:01:36] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 11:01:36] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3.tar.gz tmp/triton_copilot-0.1.3b0.tar.gz --markdown 20240603/t/triton-copilot/0.1.3-0.1.3b0/README.md --exclude *.pyd
+[2024-06-03 11:01:36] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-06-03 11:01:36] INFO root fetch - processPackages [spotify-confidence-sdk]: executing diffoscope
+[2024-06-03 11:01:36] INFO root fetch - processPackages [spotify-confidence-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_confidence_sdk-0.2.1.tar.gz tmp/spotify_confidence_sdk-0.2.2.tar.gz --markdown 20240603/s/spotify-confidence-sdk/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 11:01:36] INFO root fetch - processPackages [aixhello]: executing diffoscope
+[2024-06-03 11:01:36] INFO root fetch - processPackages [aixhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixhello-4.3.tar.gz tmp/aixhello-4.4.tar.gz --markdown 20240603/a/aixhello/4.3-4.4/README.md --exclude *.pyd
+[2024-06-03 11:01:36] INFO root fetch - processPackages [flashback]: executing diffoscope
+[2024-06-03 11:01:36] INFO root fetch - processPackages [flashback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashback-2.1.0.tar.gz tmp/flashback-2.2.0.tar.gz --markdown 20240603/f/flashback/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-06-03 11:01:36] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-06-03 11:01:36] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240603/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 11:01:36] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: executing diffoscope
+[2024-06-03 11:01:36] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_helpwithpic-1.5.1.tar.gz tmp/nonebot_plugin_helpwithpic-1.6.tar.gz --markdown 20240603/n/nonebot-plugin-helpwithpic/1.5.1-1.6/README.md --exclude *.pyd
+[2024-06-03 11:01:37] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b0.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 11:01:37] INFO root fetch - processPackages [spotify-confidence-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotify_confidence_sdk-0.2.1.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - processPackages [spotify-confidence-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotify_confidence_sdk-0.2.2.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - main [MainThread]: End processing [spotify-confidence-sdk]: success
+[2024-06-03 11:01:37] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.3.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.4.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - main [MainThread]: End processing [aixhello]: success
+[2024-06-03 11:01:37] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-06-03 11:01:37] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240603/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-06-03 11:01:37] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-06-03 11:01:37] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_helpwithpic-1.5.1.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_helpwithpic-1.6.tar.gz]
+[2024-06-03 11:01:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-helpwithpic]: success
+[2024-06-03 11:01:38] INFO root fetch - processPackages [flashback]: Remove: archive file [/home/abi/fetcher/tmp/flashback-2.1.0.tar.gz]
+[2024-06-03 11:01:38] INFO root fetch - processPackages [flashback]: Remove: archive file [/home/abi/fetcher/tmp/flashback-2.2.0.tar.gz]
+[2024-06-03 11:01:38] INFO root fetch - main [MainThread]: End processing [flashback]: success
+[2024-06-03 11:01:39] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-06-03 11:01:39] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-06-03 11:01:39] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-06-03 11:01:39] INFO root fetch - main [MainThread]: Store serial: [23499048]
