@@ -22086,3 +22086,51 @@ EOFError: EOF read where object expected
 [2024-06-03 15:47:49] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.9.0.tar.gz]
 [2024-06-03 15:47:49] INFO root fetch - main [MainThread]: End processing [osbot-aws]: success
 [2024-06-03 15:47:49] INFO root fetch - main [MainThread]: Store serial: [23503585]
+[2024-06-03 15:49:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503585]
+[2024-06-03 15:49:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enzope
+[2024-06-03 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamstats-access
+[2024-06-03 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syft
+[2024-06-03 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cthulhucli
+[2024-06-03 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CI-CloudConnector
+[2024-06-03 15:49:58] INFO root fetch - processPackages [CI-CloudConnector]: New version: [3.1] Old Version: [2.9]
+[2024-06-03 15:49:58] INFO root fetch - processPackages [streamstats-access]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 15:49:58] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/66/2d/199365d1f91b94c3826e2bc53231a8460cd3c8690bbf3fbeee3fc1213581/ci_cloudconnector-2.9.tar.gz
+[2024-06-03 15:49:58] INFO root fetch - processPackages [cthulhucli]: New version: [1.0.0] Old Version: [0.2.0]
+[2024-06-03 15:49:58] INFO root fetch - processPackages [enzope]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 15:49:58] INFO root fetch - processPackages [syft]: New version: [0.8.7b9] Old Version: [0.8.7b8]
+[2024-06-03 15:49:58] INFO root fetch - processPackages [streamstats-access]: Downloading https://files.pythonhosted.org/packages/7b/41/d672ed7dc79bd75e0ecc39ef77a58e72c2f8e202dc2ad29948be0afcd094/streamstats_access-0.1.4.tar.gz
+[2024-06-03 15:49:58] INFO root fetch - processPackages [cthulhucli]: Downloading https://files.pythonhosted.org/packages/a0/e7/1f278c475fbd74f45575b906685eb85432776d6517a8f23f3910334778a6/cthulhucli-0.2.0-py3-none-any.whl
+[2024-06-03 15:49:58] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/83/d5/341f4cd63ca72a044c7ceb4681e85f220b29584085f8bb473f93ef275156/syft-0.8.7b8.tar.gz
+[2024-06-03 15:49:58] INFO root fetch - processPackages [enzope]: Downloading https://files.pythonhosted.org/packages/96/ee/810e8bd26ceb448740e43d450a7bea82bf4b74731c52ec34691ba09934f7/enzope-0.0.8.tar.gz
+[2024-06-03 15:49:58] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/9a/9e/02cd85abc98a6fd787965d790ace5a1ef2d2e6a733ec94ed4ab75e2017c0/ci_cloudconnector-3.1.tar.gz
+[2024-06-03 15:49:58] INFO root fetch - processPackages [streamstats-access]: Downloading https://files.pythonhosted.org/packages/e4/5f/6a8f9b72229a8434731f0f5b81467ce4257579af559bde4f77fbb1feffeb/streamstats_access-0.1.5.tar.gz
+[2024-06-03 15:49:58] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-06-03 15:49:58] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-2.9.tar.gz tmp/ci_cloudconnector-3.1.tar.gz --markdown 20240603/C/CI-CloudConnector/2.9-3.1/README.md --exclude *.pyd
+[2024-06-03 15:49:58] INFO root fetch - processPackages [cthulhucli]: Downloading https://files.pythonhosted.org/packages/ce/0b/4a20d3504056acc423462ad8286592688f4c9f8d6c2b06eb04a8ebb80e6a/cthulhucli-1.0.0.tar.gz
+[2024-06-03 15:49:59] INFO root fetch - processPackages [streamstats-access]: executing diffoscope
+[2024-06-03 15:49:59] INFO root fetch - processPackages [streamstats-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamstats_access-0.1.4.tar.gz tmp/streamstats_access-0.1.5.tar.gz --markdown 20240603/s/streamstats-access/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 15:49:59] INFO root fetch - processPackages [enzope]: Downloading https://files.pythonhosted.org/packages/64/2d/9bb9f445e2ce7ac40d6f6f981e645c1c3202328488c36f3614dda4b2fe00/enzope-0.0.9.tar.gz
+[2024-06-03 15:49:59] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/d7/27/e32465cbe33d917b6891c1627eb7b7e7b9bc674a4fc99c1539eb65ae7399/syft-0.8.7b9.tar.gz
+[2024-06-03 15:49:59] INFO root fetch - processPackages [cthulhucli]: executing diffoscope
+[2024-06-03 15:49:59] INFO root fetch - processPackages [cthulhucli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cthulhucli-0.2.0-py3-none-any.whl.zip tmp/cthulhucli-1.0.0.tar.gz --markdown 20240603/c/cthulhucli/0.2.0-1.0.0/README.md --exclude *.pyd
+[2024-06-03 15:49:59] INFO root fetch - processPackages [enzope]: executing diffoscope
+[2024-06-03 15:49:59] INFO root fetch - processPackages [enzope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enzope-0.0.8.tar.gz tmp/enzope-0.0.9.tar.gz --markdown 20240603/e/enzope/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 15:49:59] INFO root fetch - processPackages [syft]: executing diffoscope
+[2024-06-03 15:49:59] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.7b8.tar.gz tmp/syft-0.8.7b9.tar.gz --markdown 20240603/s/syft/0.8.7b8-0.8.7b9/README.md --exclude *.pyd
+[2024-06-03 15:49:59] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-2.9.tar.gz]
+[2024-06-03 15:49:59] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-3.1.tar.gz]
+[2024-06-03 15:49:59] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-06-03 15:49:59] INFO root fetch - processPackages [streamstats-access]: Remove: archive file [/home/abi/fetcher/tmp/streamstats_access-0.1.4.tar.gz]
+[2024-06-03 15:49:59] INFO root fetch - processPackages [streamstats-access]: Remove: archive file [/home/abi/fetcher/tmp/streamstats_access-0.1.5.tar.gz]
+[2024-06-03 15:49:59] INFO root fetch - main [MainThread]: End processing [streamstats-access]: success
+[2024-06-03 15:49:59] INFO root fetch - processPackages [enzope]: Remove: archive file [/home/abi/fetcher/tmp/enzope-0.0.8.tar.gz]
+[2024-06-03 15:49:59] INFO root fetch - processPackages [enzope]: Remove: archive file [/home/abi/fetcher/tmp/enzope-0.0.9.tar.gz]
+[2024-06-03 15:49:59] INFO root fetch - main [MainThread]: End processing [enzope]: success
+[2024-06-03 15:50:00] INFO root fetch - processPackages [cthulhucli]: Remove: archive file [/home/abi/fetcher/tmp/cthulhucli-0.2.0-py3-none-any.whl.zip]
+[2024-06-03 15:50:00] INFO root fetch - processPackages [cthulhucli]: Remove: archive file [/home/abi/fetcher/tmp/cthulhucli-1.0.0.tar.gz]
+[2024-06-03 15:50:00] INFO root fetch - main [MainThread]: End processing [cthulhucli]: success
+[2024-06-03 15:50:00] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b8.tar.gz]
+[2024-06-03 15:50:00] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b9.tar.gz]
+[2024-06-03 15:50:00] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2024-06-03 15:50:00] INFO root fetch - main [MainThread]: Store serial: [23503599]
