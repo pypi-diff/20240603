@@ -15964,3 +15964,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:18:35] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.7.0a0.tar.gz]
 [2024-06-03 13:18:35] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
 [2024-06-03 13:18:35] INFO root fetch - main [MainThread]: Store serial: [23501166]
+[2024-06-03 13:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501166]
+[2024-06-03 13:20:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 13:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-matter-server
+[2024-06-03 13:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flashcam
+[2024-06-03 13:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoRAG
+[2024-06-03 13:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-btripopen20220520
+[2024-06-03 13:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arion-library
+[2024-06-03 13:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-automation
+[2024-06-03 13:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-hologram
+[2024-06-03 13:20:44] WARNING root fetch - processPackages [python-automation]: Skipping, unable to determine old version
+[2024-06-03 13:20:44] INFO root fetch - main [MainThread]: End processing [python-automation] error
+[2024-06-03 13:20:44] INFO root fetch - processPackages [arion-library]: New version: [1.1rc99.dev99] Old Version: [1.1rc97.dev97]
+[2024-06-03 13:20:44] INFO root fetch - processPackages [flashcam]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-06-03 13:20:44] INFO root fetch - processPackages [ros-cdk-hologram]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:20:44] INFO root fetch - processPackages [AutoRAG]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 13:20:44] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-06-03 13:20:44] INFO root fetch - processPackages [python-matter-server]: New version: [6.1.0b2] Old Version: [6.1.0b1]
+[2024-06-03 13:20:45] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/40/50/fad8ad3850201a3f4dca71fc722390820cc88a2bd5e153c61941e98d0bb1/flashcam-1.9.2.tar.gz
+[2024-06-03 13:20:45] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/c4/c2/01c8eb5afbe9006ebc86b772f3019a38e0a770c20149e15d813c0a8be99d/python_matter_server-6.1.0b1.tar.gz
+[2024-06-03 13:20:45] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-06-03 13:20:45] INFO root fetch - processPackages [ros-cdk-hologram]: Downloading https://files.pythonhosted.org/packages/dd/a4/80789eb76d1147f24da9fa12c655ae8804cecc11a5a5a5bf6269293904d5/ros-cdk-hologram-1.0.24.tar.gz
+[2024-06-03 13:20:45] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/f2/e2/3d7b6579b4f2d6d2a21dea8b4322c49683aa74af3220342e2d9535dedca4/alibabacloud_btripopen20220520-3.1.0.tar.gz
+[2024-06-03 13:20:45] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/1c/12/eef20209f6d9f9b94a62f489d52aae3994dd910fa0a8e3992a53619b2c08/autorag-0.2.2.tar.gz
+[2024-06-03 13:20:46] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/0a/f8/3cf6a2206e8f9dcfbe2ef2638873c7eabe46ed539391239966311c7b7a7e/python_matter_server-6.1.0b2.tar.gz
+[2024-06-03 13:20:46] INFO root fetch - processPackages [ros-cdk-hologram]: Downloading https://files.pythonhosted.org/packages/76/bf/a15e35fd449fb87e68333576e708753a98d5226dfdf87b3f29e4b1eea4ea/ros-cdk-hologram-1.0.25.tar.gz
+[2024-06-03 13:20:46] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/eb/6a/2a118dcc80b4b2d77ee26a645a3495fb1302d856a327caeeb4d26e4d2f59/arion_library-1.1rc99.dev99.tar.gz
+[2024-06-03 13:20:46] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/d1/02/77d970f75078d81063eab5dd5b68bde5ff67a98c3c72d93b25e5352e5091/alibabacloud_btripopen20220520-3.1.1.tar.gz
+[2024-06-03 13:20:46] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/71/14/b3de84b7038e7f199e8d5ac0b54fef8c88161a91e1685ef3f3b0d367e81c/flashcam-1.9.3.tar.gz
+[2024-06-03 13:20:46] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-06-03 13:20:46] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc97.dev97.tar.gz tmp/arion_library-1.1rc99.dev99.tar.gz --markdown 20240603/a/arion-library/1.1rc97.dev97-1.1rc99.dev99/README.md --exclude *.pyd
+[2024-06-03 13:20:46] INFO root fetch - processPackages [python-matter-server]: executing diffoscope
+[2024-06-03 13:20:46] INFO root fetch - processPackages [python-matter-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_matter_server-6.1.0b1.tar.gz tmp/python_matter_server-6.1.0b2.tar.gz --markdown 20240603/p/python-matter-server/6.1.0b1-6.1.0b2/README.md --exclude *.pyd
+[2024-06-03 13:20:46] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-06-03 13:20:46] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.9.2.tar.gz tmp/flashcam-1.9.3.tar.gz --markdown 20240603/f/flashcam/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-06-03 13:20:46] INFO root fetch - processPackages [ros-cdk-hologram]: executing diffoscope
+[2024-06-03 13:20:46] INFO root fetch - processPackages [ros-cdk-hologram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-hologram-1.0.24.tar.gz tmp/ros-cdk-hologram-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-hologram/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:20:46] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2024-06-03 13:20:46] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-3.1.0.tar.gz tmp/alibabacloud_btripopen20220520-3.1.1.tar.gz --markdown 20240603/a/alibabacloud-btripopen20220520/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-06-03 13:20:47] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/e4/16/267b0a593b8573b8a97211fd5a808f0a4a0b733fe79fab17e23910ee3e58/autorag-0.2.3.tar.gz
+[2024-06-03 13:20:47] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-06-03 13:20:47] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc99.dev99.tar.gz]
+[2024-06-03 13:20:47] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-06-03 13:20:47] INFO root fetch - processPackages [ros-cdk-hologram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hologram-1.0.24.tar.gz]
+[2024-06-03 13:20:47] INFO root fetch - processPackages [ros-cdk-hologram]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hologram-1.0.25.tar.gz]
+[2024-06-03 13:20:47] INFO root fetch - main [MainThread]: End processing [ros-cdk-hologram]: success
+[2024-06-03 13:20:47] INFO root fetch - processPackages [AutoRAG]: executing diffoscope
+[2024-06-03 13:20:47] INFO root fetch - processPackages [AutoRAG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorag-0.2.2.tar.gz tmp/autorag-0.2.3.tar.gz --markdown 20240603/A/AutoRAG/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 13:20:47] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.2.tar.gz]
+[2024-06-03 13:20:47] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.3.tar.gz]
+[2024-06-03 13:20:47] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-06-03 13:20:47] INFO root fetch - processPackages [python-matter-server]: Remove: archive file [/home/abi/fetcher/tmp/python_matter_server-6.1.0b1.tar.gz]
+[2024-06-03 13:20:47] INFO root fetch - processPackages [python-matter-server]: Remove: archive file [/home/abi/fetcher/tmp/python_matter_server-6.1.0b2.tar.gz]
+[2024-06-03 13:20:47] INFO root fetch - main [MainThread]: End processing [python-matter-server]: success
+[2024-06-03 13:20:50] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-3.1.0.tar.gz]
+[2024-06-03 13:20:50] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-3.1.1.tar.gz]
+[2024-06-03 13:20:50] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2024-06-03 13:20:50] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.2.tar.gz]
+[2024-06-03 13:20:50] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.3.tar.gz]
+[2024-06-03 13:20:50] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
+[2024-06-03 13:20:50] INFO root fetch - main [MainThread]: Store serial: [23501193]
