@@ -1,4 +1,4 @@
-# Comparing `tmp/gardener_cicd_cli-1.2410.0.tar.gz` & `tmp/gardener_cicd_cli-1.2411.0-py3-none-any.whl.zip`
+# Comparing `tmp/gardener_cicd_cli-1.2410.0.tar.gz` & `tmp/gardener_cicd_cli-1.2411.0.tar.gz`
 
 ## filetype from file(1)
 
