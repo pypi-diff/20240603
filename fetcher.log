@@ -7119,3 +7119,33 @@ EOFError: EOF read where object expected
 [2024-06-03 07:55:32] INFO root fetch - main [MainThread]: End processing [abadpour]: success
 [2024-06-03 07:55:32] INFO root fetch - main [MainThread]: End processing [abadpour]: success
 [2024-06-03 07:55:32] INFO root fetch - main [MainThread]: Store serial: [23497162]
+[2024-06-03 07:57:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497162]
+[2024-06-03 07:57:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 07:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abadpour
+[2024-06-03 07:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ferncrypter
+[2024-06-03 07:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kamangir
+[2024-06-03 07:57:41] INFO root fetch - processPackages [abadpour]: New version: [6.30.1] Old Version: [6.29.1]
+[2024-06-03 07:57:41] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/dd/35/3be23563bac131c7b4443e414383dc726dd5ac66f9ada00aa2044d4fe639/abadpour-6.29.1.tar.gz
+[2024-06-03 07:57:41] INFO root fetch - processPackages [ferncrypter]: New version: [1.3] Old Version: [1.2]
+[2024-06-03 07:57:41] INFO root fetch - processPackages [kamangir]: New version: [3.78.1] Old Version: [3.77.1]
+[2024-06-03 07:57:42] INFO root fetch - processPackages [ferncrypter]: Downloading https://files.pythonhosted.org/packages/a3/79/9726e5a7d504b96e2c09d1fd11e77e534556c6e0c1952d8b59f14693c2e9/ferncrypter-1.2-py3-none-any.whl
+[2024-06-03 07:57:42] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/d7/d1/f0d6aaa854cc419f3eed3c263d4123620f383eda72b672e88ee50ed48447/abadpour-6.30.1.tar.gz
+[2024-06-03 07:57:42] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/db/e0/dd0eb0606293376d3342f5a79f7cac2010bb2b9e9f932bb92c772c9c5b51/kamangir-3.77.1.tar.gz
+[2024-06-03 07:57:42] INFO root fetch - processPackages [abadpour]: executing diffoscope
+[2024-06-03 07:57:42] INFO root fetch - processPackages [abadpour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abadpour-6.29.1.tar.gz tmp/abadpour-6.30.1.tar.gz --markdown 20240603/a/abadpour/6.29.1-6.30.1/README.md --exclude *.pyd
+[2024-06-03 07:57:42] INFO root fetch - processPackages [ferncrypter]: Downloading https://files.pythonhosted.org/packages/e7/ef/d411d7a77ec9659c92369775ac735d4698f5284cfa18e1586b3bd9b1ffdd/ferncrypter-1.3-py3-none-any.whl
+[2024-06-03 07:57:42] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/2d/8e/750fdd4a0dc2f0c592c32e69b87c870e06b54f4160ff3800380e4c2dfc24/kamangir-3.78.1.tar.gz
+[2024-06-03 07:57:42] INFO root fetch - processPackages [ferncrypter]: executing diffoscope
+[2024-06-03 07:57:42] INFO root fetch - processPackages [ferncrypter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferncrypter-1.2-py3-none-any.whl.zip tmp/ferncrypter-1.3-py3-none-any.whl.zip --markdown 20240603/f/ferncrypter/1.2-1.3/README.md --exclude *.pyd
+[2024-06-03 07:57:42] INFO root fetch - processPackages [kamangir]: executing diffoscope
+[2024-06-03 07:57:42] INFO root fetch - processPackages [kamangir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kamangir-3.77.1.tar.gz tmp/kamangir-3.78.1.tar.gz --markdown 20240603/k/kamangir/3.77.1-3.78.1/README.md --exclude *.pyd
+[2024-06-03 07:57:43] INFO root fetch - processPackages [abadpour]: Remove: archive file [/home/abi/fetcher/tmp/abadpour-6.29.1.tar.gz]
+[2024-06-03 07:57:43] INFO root fetch - processPackages [abadpour]: Remove: archive file [/home/abi/fetcher/tmp/abadpour-6.30.1.tar.gz]
+[2024-06-03 07:57:43] INFO root fetch - main [MainThread]: End processing [abadpour]: success
+[2024-06-03 07:57:43] INFO root fetch - processPackages [ferncrypter]: Remove: archive file [/home/abi/fetcher/tmp/ferncrypter-1.2-py3-none-any.whl.zip]
+[2024-06-03 07:57:43] INFO root fetch - processPackages [ferncrypter]: Remove: archive file [/home/abi/fetcher/tmp/ferncrypter-1.3-py3-none-any.whl.zip]
+[2024-06-03 07:57:43] INFO root fetch - main [MainThread]: End processing [ferncrypter]: success
+[2024-06-03 07:57:43] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.77.1.tar.gz]
+[2024-06-03 07:57:43] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.78.1.tar.gz]
+[2024-06-03 07:57:43] INFO root fetch - main [MainThread]: End processing [kamangir]: success
+[2024-06-03 07:57:43] INFO root fetch - main [MainThread]: Store serial: [23497170]
