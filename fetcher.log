@@ -9764,3 +9764,102 @@ EOFError: EOF read where object expected
 [2024-06-03 10:16:37] INFO root fetch - processPackages [pesummary]: Remove: archive file [/home/abi/fetcher/tmp/pesummary-1.3.0.tar.gz]
 [2024-06-03 10:16:37] INFO root fetch - main [MainThread]: End processing [pesummary]: success
 [2024-06-03 10:16:37] INFO root fetch - main [MainThread]: Store serial: [23498370]
+[2024-06-03 10:18:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498370]
+[2024-06-03 10:18:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panfeed
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indonesia-latestearthquake-Rx168059
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anaouder
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CVE-2024-1208
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxsim
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rockai-cli-app
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pulse-Linter
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pulse-Linter
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SynapseTrie
+[2024-06-03 10:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: matchms
+[2024-06-03 10:18:46] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: New version: [2024.0.0.3] Old Version: [2024.0.0.2]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [anaouder]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 10:18:46] WARNING root fetch - processPackages [CVE-2024-1208]: Skipping, unable to determine old version
+[2024-06-03 10:18:46] INFO root fetch - processPackages [CVE-2024-1208]: Start processing: eodash_catalog
+[2024-06-03 10:18:46] INFO root fetch - main [MainThread]: End processing [CVE-2024-1208] error
+[2024-06-03 10:18:46] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Downloading https://files.pythonhosted.org/packages/8a/31/edc9379e6ab70b81a16a88e3f427277584fa7e8451be209e32a4c70d98be/indonesia_latestearthquake_rx168059-2024.0.0.2.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [anaouder]: Downloading https://files.pythonhosted.org/packages/58/8e/51a6167c9a3e5634c55c6e6f4490577539765a12615c5b278f53757c5f3a/anaouder-0.9.2.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [Pulse-Linter]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [Pulse-Linter]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [panfeed]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [SynapseTrie]: New version: [0.2] Old Version: [0.1]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [matchms]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [eodash_catalog]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 10:18:46] INFO root fetch - processPackages [SynapseTrie]: Downloading https://files.pythonhosted.org/packages/80/ed/94e8e5a8e5550ef344493b659395e17d3a2bf5fddeb9a44e54cdf6a9fd69/SynapseTrie-0.1.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [Pulse-Linter]: Downloading https://files.pythonhosted.org/packages/79/d4/c81a54a1fb1b331996d7b3b9c9014e0673d2b5c4ea125115e79b6d080791/Pulse_Linter-0.0.23-py3-none-any.whl
+[2024-06-03 10:18:46] INFO root fetch - processPackages [Pulse-Linter]: Downloading https://files.pythonhosted.org/packages/79/d4/c81a54a1fb1b331996d7b3b9c9014e0673d2b5c4ea125115e79b6d080791/Pulse_Linter-0.0.23-py3-none-any.whl
+[2024-06-03 10:18:46] INFO root fetch - processPackages [panfeed]: Downloading https://files.pythonhosted.org/packages/a7/ce/42db0bf6ce01d3db8e5deea9199f0f990cefd25995294d51381b2f2bd782/panfeed-1.6.0.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [eodash_catalog]: Downloading https://files.pythonhosted.org/packages/f7/f7/336a611876bb14a6d9903abdf04e5a3898d6a6808a285cbc85174bdf7113/eodash_catalog-0.0.6.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [anaouder]: Downloading https://files.pythonhosted.org/packages/31/cd/1dc5680f72816264b872cef1a7bb94ff3aaa842c75c1c081146d0c80f9e8/anaouder-0.9.3.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/94/f9/e417fc6b3d303bae0c45dd2a090977a0eaac69a7676ae6d9adf3125c53e7/matchms-0.9.1.tar.gz
+[2024-06-03 10:18:46] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Downloading https://files.pythonhosted.org/packages/d4/82/773775d5f978f0bfc4297caf056cdfd2aba1d2363804c412899532209770/indonesia_latestearthquake_rx168059-2024.0.0.3.tar.gz
+[2024-06-03 10:18:46] WARNING root fetch - processPackages [panfeed]: Skipping package: exceeds size limit 17213824>=10485760
+[2024-06-03 10:18:46] INFO root fetch - processPackages [panfeed]: Start processing: dalpha
+[2024-06-03 10:18:46] INFO root fetch - main [MainThread]: End processing [panfeed] error
+[2024-06-03 10:18:46] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-06-03 10:18:46] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240603/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-06-03 10:18:46] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: executing diffoscope
+[2024-06-03 10:18:46] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indonesia_latestearthquake_rx168059-2024.0.0.2.tar.gz tmp/indonesia_latestearthquake_rx168059-2024.0.0.3.tar.gz --markdown 20240603/i/indonesia-latestearthquake-Rx168059/2024.0.0.2-2024.0.0.3/README.md --exclude *.pyd
+[2024-06-03 10:18:46] INFO root fetch - processPackages [anaouder]: executing diffoscope
+[2024-06-03 10:18:46] INFO root fetch - processPackages [anaouder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaouder-0.9.2.tar.gz tmp/anaouder-0.9.3.tar.gz --markdown 20240603/a/anaouder/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 10:18:46] INFO root fetch - processPackages [dalpha]: New version: [0.5.5rc3] Old Version: [0.5.5rc2]
+[2024-06-03 10:18:47] INFO root fetch - processPackages [SynapseTrie]: Downloading https://files.pythonhosted.org/packages/13/0f/08328167108180735f9a3d6700c1bce4f723828f06eb6fa536a12f41c53f/SynapseTrie-0.2.tar.gz
+[2024-06-03 10:18:47] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-06-03 10:18:47] INFO root fetch - processPackages [Pulse-Linter]: Downloading https://files.pythonhosted.org/packages/cd/ec/1a657898c2332a98d496150cb4ac068fbb2f3428a16fa350842f092662a8/Pulse_Linter-0.0.24-py3-none-any.whl
+[2024-06-03 10:18:47] INFO root fetch - processPackages [Pulse-Linter]: Downloading https://files.pythonhosted.org/packages/cd/ec/1a657898c2332a98d496150cb4ac068fbb2f3428a16fa350842f092662a8/Pulse_Linter-0.0.24-py3-none-any.whl
+[2024-06-03 10:18:47] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/a0/1f/afe76be976e1b3c3551112bf8a1ffff8624c26e9e230720c15c9138f7e6a/matchms-0.9.2.tar.gz
+[2024-06-03 10:18:47] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/dd/a0/174068521a97803e298b45ab3ff3675b19f40989c9152d7830ac24ff40e4/dalpha-0.5.5rc2.tar.gz
+[2024-06-03 10:18:47] INFO root fetch - processPackages [Pulse-Linter]: executing diffoscope
+[2024-06-03 10:18:47] INFO root fetch - processPackages [Pulse-Linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse_Linter-0.0.23-py3-none-any.whl.zip tmp/Pulse_Linter-0.0.24-py3-none-any.whl.zip --markdown 20240603/P/Pulse-Linter/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-06-03 10:18:47] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-06-03 10:18:47] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240603/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-06-03 10:18:47] INFO root fetch - processPackages [Pulse-Linter]: executing diffoscope
+[2024-06-03 10:18:47] INFO root fetch - processPackages [Pulse-Linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse_Linter-0.0.23-py3-none-any.whl.zip tmp/Pulse_Linter-0.0.24-py3-none-any.whl.zip --markdown 20240603/P/Pulse-Linter/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-06-03 10:18:47] INFO root fetch - processPackages [SynapseTrie]: executing diffoscope
+[2024-06-03 10:18:47] INFO root fetch - processPackages [SynapseTrie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SynapseTrie-0.1.tar.gz tmp/SynapseTrie-0.2.tar.gz --markdown 20240603/S/SynapseTrie/0.1-0.2/README.md --exclude *.pyd
+[2024-06-03 10:18:47] INFO root fetch - processPackages [eodash_catalog]: Downloading https://files.pythonhosted.org/packages/31/dc/a4d1cf608a59ae3836245866bc56b364a7ae6be9eb188ae3a4b15eda8d37/eodash_catalog-0.0.7.tar.gz
+[2024-06-03 10:18:47] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/b1/e0/20ae929d42adf2431f5e6c4a0f5e6e67478634330064ef5784d7936dcabe/dalpha-0.5.5rc3.tar.gz
+[2024-06-03 10:18:47] INFO root fetch - processPackages [matchms]: executing diffoscope
+[2024-06-03 10:18:47] INFO root fetch - processPackages [matchms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchms-0.9.1.tar.gz tmp/matchms-0.9.2.tar.gz --markdown 20240603/m/matchms/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-06-03 10:18:47] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-06-03 10:18:47] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.5.5rc2.tar.gz tmp/dalpha-0.5.5rc3.tar.gz --markdown 20240603/d/dalpha/0.5.5rc2-0.5.5rc3/README.md --exclude *.pyd
+[2024-06-03 10:18:47] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-06-03 10:18:47] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-06-03 10:18:47] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-06-03 10:18:47] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/indonesia_latestearthquake_rx168059-2024.0.0.2.tar.gz]
+[2024-06-03 10:18:47] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/indonesia_latestearthquake_rx168059-2024.0.0.3.tar.gz]
+[2024-06-03 10:18:47] INFO root fetch - main [MainThread]: End processing [indonesia-latestearthquake-Rx168059]: success
+[2024-06-03 10:18:48] INFO root fetch - processPackages [anaouder]: Remove: archive file [/home/abi/fetcher/tmp/anaouder-0.9.2.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - processPackages [anaouder]: Remove: archive file [/home/abi/fetcher/tmp/anaouder-0.9.3.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - main [MainThread]: End processing [anaouder]: success
+[2024-06-03 10:18:48] INFO root fetch - processPackages [eodash_catalog]: executing diffoscope
+[2024-06-03 10:18:48] INFO root fetch - processPackages [eodash_catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodash_catalog-0.0.6.tar.gz tmp/eodash_catalog-0.0.7.tar.gz --markdown 20240603/e/eodash_catalog/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 10:18:48] INFO root fetch - processPackages [SynapseTrie]: Remove: archive file [/home/abi/fetcher/tmp/SynapseTrie-0.1.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - processPackages [SynapseTrie]: Remove: archive file [/home/abi/fetcher/tmp/SynapseTrie-0.2.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - main [MainThread]: End processing [SynapseTrie]: success
+[2024-06-03 10:18:48] INFO root fetch - processPackages [Pulse-Linter]: Remove: archive file [/home/abi/fetcher/tmp/Pulse_Linter-0.0.23-py3-none-any.whl.zip]
+[2024-06-03 10:18:48] INFO root fetch - processPackages [Pulse-Linter]: Remove: archive file [/home/abi/fetcher/tmp/Pulse_Linter-0.0.24-py3-none-any.whl.zip]
+[2024-06-03 10:18:48] INFO root fetch - main [MainThread]: End processing [Pulse-Linter]: success
+[2024-06-03 10:18:48] INFO root fetch - main [MainThread]: End processing [Pulse-Linter]: success
+[2024-06-03 10:18:48] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-06-03 10:18:48] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.5rc2.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.5rc3.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-06-03 10:18:48] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.1.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.2.tar.gz]
+[2024-06-03 10:18:48] INFO root fetch - main [MainThread]: End processing [matchms]: success
+[2024-06-03 10:18:50] INFO root fetch - processPackages [eodash_catalog]: Remove: archive file [/home/abi/fetcher/tmp/eodash_catalog-0.0.6.tar.gz]
+[2024-06-03 10:18:50] INFO root fetch - processPackages [eodash_catalog]: Remove: archive file [/home/abi/fetcher/tmp/eodash_catalog-0.0.7.tar.gz]
+[2024-06-03 10:18:50] INFO root fetch - main [MainThread]: End processing [eodash_catalog]: success
+[2024-06-03 10:18:50] INFO root fetch - main [MainThread]: Store serial: [23498408]
