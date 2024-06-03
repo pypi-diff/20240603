@@ -23210,3 +23210,147 @@ EOFError: EOF read where object expected
 [2024-06-03 16:21:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
 [2024-06-03 16:21:35] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
 [2024-06-03 16:21:35] INFO root fetch - main [MainThread]: Store serial: [23504106]
+[2024-06-03 16:23:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504106]
+[2024-06-03 16:23:44] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-shopinvader-api-payment-provider-custom
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-shopinvader-api-payment-provider-sips
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyGuardPoint
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danila-lib
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sage-lib
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ComSeg
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydependence
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SCDB-ML-app
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sp-variant
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mambular
+[2024-06-03 16:23:44] WARNING root fetch - processPackages [odoo-addon-shopinvader-api-payment-provider-custom]: Skipping, unable to determine old version
+[2024-06-03 16:23:44] INFO root fetch - processPackages [odoo-addon-shopinvader-api-payment-provider-custom]: Start processing: bronkhorstControlbm31
+[2024-06-03 16:23:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopinvader-api-payment-provider-custom] error
+[2024-06-03 16:23:44] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [mambular]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [danila-lib]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [sage-lib]: New version: [0.1.5.7] Old Version: [0.1.5.6]
+[2024-06-03 16:23:44] WARNING root fetch - processPackages [pydependence]: Skipping, unable to determine old version
+[2024-06-03 16:23:44] INFO root fetch - processPackages [pydependence]: Start processing: beam-client
+[2024-06-03 16:23:44] INFO root fetch - main [MainThread]: End processing [pydependence] error
+[2024-06-03 16:23:44] WARNING root fetch - processPackages [odoo-addon-shopinvader-api-payment-provider-sips]: Skipping, unable to determine old version
+[2024-06-03 16:23:44] INFO root fetch - processPackages [odoo-addon-shopinvader-api-payment-provider-sips]: Start processing: literalai
+[2024-06-03 16:23:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopinvader-api-payment-provider-sips] error
+[2024-06-03 16:23:44] INFO root fetch - processPackages [ComSeg]: New version: [0.2] Old Version: [0.1]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [sp-variant]: New version: [3.5.2] Old Version: [3.5.1]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [pyGuardPoint]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [beam-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/75/4f/f3366c891278e41a37bd608c738d15bb8391c750c069c04fd531ab1321b3/SCDB_ML_app-1.0.8-py3-none-any.whl
+[2024-06-03 16:23:44] INFO root fetch - processPackages [literalai]: New version: [0.0.605] Old Version: [0.0.604]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [bronkhorstControlbm31]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-06-03 16:23:44] INFO root fetch - processPackages [mambular]: Downloading https://files.pythonhosted.org/packages/17/ef/24d9efd257f5388e10524d30e597ff2656218e706fcd67ceea8ccd7bf94d/mambular-0.1.2.tar.gz
+[2024-06-03 16:23:44] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/71/82/e3b9e73364ce9c7e61e843f52680dc5dad70ed26e4787e05e9495ad5d074/danila-lib-1.9.1.tar.gz
+[2024-06-03 16:23:44] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/01/6d/e1a1788e0eb83967bdf3a043f6398b21aecf95a3b39ddb63726b157237f5/sage_lib-0.1.5.6.tar.gz
+[2024-06-03 16:23:44] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/b4/5d/a42a0cf1e4bb99a6c2dfb29efdb646606cf945b6c6b70403db928b77e21f/literalai-0.0.604.tar.gz
+[2024-06-03 16:23:44] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/ac/ee/27de4b2569a707f2361330414b50f795635cafa3adaf9743f08393a1b368/beam_client-0.2.8.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [ComSeg]: Downloading https://files.pythonhosted.org/packages/91/8b/5aaa294ba888309bc75bbb11b6bd13782782a02ea8f54ce50f08b25ed6d9/comseg-0.1.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [sp-variant]: Downloading https://files.pythonhosted.org/packages/2f/5c/911e30391741d4635cf32fbe56cb70b526a38f7b89f7ca0fef8578aeb3d1/sp_variant-3.5.1.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/cc/96/d98b00b0b53b29ca5bfb70d420a7f16bb01c6c33baf103f12013360ab248/pyguardpoint-1.4.1.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [bronkhorstControlbm31]: Downloading https://files.pythonhosted.org/packages/4e/4d/03c32611f335fffc5079bbdf472af36d1a1054a2a24ba576aca75887f215/bronkhorstcontrolbm31-1.1.0.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [mambular]: Downloading https://files.pythonhosted.org/packages/59/97/a00ded8d22ec67dac0b1ae295775c95cb18367acd6c4aa548ee00364e337/mambular-0.1.3.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/8f/37/484d005927ce4868545b528cca1ab3d718e447d32b7120bebe34f709edc8/danila-lib-1.9.2.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/a4/0d/a92a6737ec9fb2954f7c5014e9fc80cfa2fc61c8ff676dbb34e9e4002671/literalai-0.0.605.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/0f/80/037a47920f7ee460e1bead187a01944da782ac41716b24e419e635eedc8f/SCDB_ML_app-1.0.9-py3-none-any.whl
+[2024-06-03 16:23:45] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/66/a4/1f0f38f8b3fd0e207b5d1ccbacf26ad5257c7b04e4d508850f9e89be9edb/sage_lib-0.1.5.7.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/30/15/606a85353776a9e1c941977e724bfc92806b27223b9e341df4fc22e5bbdf/beam_client-0.2.9.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [ComSeg]: Downloading https://files.pythonhosted.org/packages/49/9a/f6d950c6c0bcbab504030abb72f59b61ea124f932c909b9560810307e9dd/comseg-0.2.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [sp-variant]: Downloading https://files.pythonhosted.org/packages/93/0e/64d3f1e5d25846b0c48e34d2b1e8d474142e8496166d47b2078c9dabb88c/sp_variant-3.5.2.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [bronkhorstControlbm31]: Downloading https://files.pythonhosted.org/packages/1b/9e/e44709ad42aab0f7c5f80f78ce8aa40187307c9f49d60e627d5cdd1c3e98/bronkhorstcontrolbm31-1.2.0.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [mambular]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [mambular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mambular-0.1.2.tar.gz tmp/mambular-0.1.3.tar.gz --markdown 20240603/m/mambular/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 16:23:45] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.604.tar.gz tmp/literalai-0.0.605.tar.gz --markdown 20240603/l/literalai/0.0.604-0.0.605/README.md --exclude *.pyd
+[2024-06-03 16:23:45] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/e6/a0/5981ab9b4ec9dc82a0ee3ea09b8829729de48af3aad6490450a55346a3ec/pyguardpoint-1.4.2.tar.gz
+[2024-06-03 16:23:45] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.9.1.tar.gz tmp/danila-lib-1.9.2.tar.gz --markdown 20240603/d/danila-lib/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-06-03 16:23:45] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.5.6.tar.gz tmp/sage_lib-0.1.5.7.tar.gz --markdown 20240603/s/sage-lib/0.1.5.6-0.1.5.7/README.md --exclude *.pyd
+[2024-06-03 16:23:45] INFO root fetch - processPackages [ComSeg]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [ComSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comseg-0.1.tar.gz tmp/comseg-0.2.tar.gz --markdown 20240603/C/ComSeg/0.1-0.2/README.md --exclude *.pyd
+[2024-06-03 16:23:45] INFO root fetch - processPackages [beam-client]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [beam-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_client-0.2.8.tar.gz tmp/beam_client-0.2.9.tar.gz --markdown 20240603/b/beam-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 16:23:45] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.8-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.9-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 16:23:45] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguardpoint-1.4.1.tar.gz tmp/pyguardpoint-1.4.2.tar.gz --markdown 20240603/p/pyGuardPoint/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-06-03 16:23:45] INFO root fetch - processPackages [sp-variant]: executing diffoscope
+[2024-06-03 16:23:45] INFO root fetch - processPackages [sp-variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sp_variant-3.5.1.tar.gz tmp/sp_variant-3.5.2.tar.gz --markdown 20240603/s/sp-variant/3.5.1-3.5.2/README.md --exclude *.pyd
+[2024-06-03 16:23:46] INFO root fetch - processPackages [bronkhorstControlbm31]: executing diffoscope
+[2024-06-03 16:23:46] INFO root fetch - processPackages [bronkhorstControlbm31]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bronkhorstcontrolbm31-1.1.0.tar.gz tmp/bronkhorstcontrolbm31-1.2.0.tar.gz --markdown 20240603/b/bronkhorstControlbm31/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-06-03 16:23:46] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.8.tar.gz]
+[2024-06-03 16:23:46] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.9.tar.gz]
+[2024-06-03 16:23:46] INFO root fetch - processPackages [beam-client]: Start processing: pylebai
+[2024-06-03 16:23:46] INFO root fetch - main [MainThread]: End processing [beam-client]: success
+[2024-06-03 16:23:46] INFO root fetch - processPackages [ComSeg]: Remove: archive file [/home/abi/fetcher/tmp/comseg-0.1.tar.gz]
+[2024-06-03 16:23:46] INFO root fetch - processPackages [ComSeg]: Remove: archive file [/home/abi/fetcher/tmp/comseg-0.2.tar.gz]
+[2024-06-03 16:23:46] INFO root fetch - processPackages [ComSeg]: Start processing: mcap-bag-parser
+[2024-06-03 16:23:46] INFO root fetch - main [MainThread]: End processing [ComSeg]: success
+[2024-06-03 16:23:46] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.604.tar.gz]
+[2024-06-03 16:23:46] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.605.tar.gz]
+[2024-06-03 16:23:46] INFO root fetch - processPackages [literalai]: Start processing: submit4dn
+[2024-06-03 16:23:46] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-06-03 16:23:46] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.1.tar.gz]
+[2024-06-03 16:23:46] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.2.tar.gz]
+[2024-06-03 16:23:46] INFO root fetch - processPackages [danila-lib]: Start processing: metal-gpu
+[2024-06-03 16:23:46] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-06-03 16:23:47] INFO root fetch - processPackages [mambular]: Remove: archive file [/home/abi/fetcher/tmp/mambular-0.1.2.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [mambular]: Remove: archive file [/home/abi/fetcher/tmp/mambular-0.1.3.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [mambular]: Start processing: dbworkload
+[2024-06-03 16:23:47] INFO root fetch - main [MainThread]: End processing [mambular]: success
+[2024-06-03 16:23:47] INFO root fetch - processPackages [metal-gpu]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [pylebai]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-06-03 16:23:47] WARNING root fetch - processPackages [mcap-bag-parser]: Skipping, unable to determine old version
+[2024-06-03 16:23:47] INFO root fetch - processPackages [mcap-bag-parser]: Start processing: pydatastreams
+[2024-06-03 16:23:47] INFO root fetch - main [MainThread]: End processing [mcap-bag-parser] error
+[2024-06-03 16:23:47] INFO root fetch - processPackages [sp-variant]: Remove: archive file [/home/abi/fetcher/tmp/sp_variant-3.5.1.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [sp-variant]: Remove: archive file [/home/abi/fetcher/tmp/sp_variant-3.5.2.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - main [MainThread]: End processing [sp-variant]: success
+[2024-06-03 16:23:47] INFO root fetch - processPackages [pydatastreams]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [submit4dn]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [bronkhorstControlbm31]: Remove: archive file [/home/abi/fetcher/tmp/bronkhorstcontrolbm31-1.1.0.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [bronkhorstControlbm31]: Remove: archive file [/home/abi/fetcher/tmp/bronkhorstcontrolbm31-1.2.0.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - main [MainThread]: End processing [bronkhorstControlbm31]: success
+[2024-06-03 16:23:47] ERROR root fetch - processPackages [dbworkload]: Unable to get metadata: No such project 'dbworkload'
+[2024-06-03 16:23:47] INFO root fetch - main [MainThread]: End processing [dbworkload] error
+[2024-06-03 16:23:47] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.5.6.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.5.7.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-06-03 16:23:47] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyguardpoint-1.4.1.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyguardpoint-1.4.2.tar.gz]
+[2024-06-03 16:23:47] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2024-06-03 16:23:47] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/8f/c6/9479dfbd5c88dce2471b53ea4e1939d2c84dea32f7c0bb4e8083a9ef677d/pydatastreams-1.2.4.tar.gz
+[2024-06-03 16:23:47] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.8-py3-none-any.whl.zip]
+[2024-06-03 16:23:47] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.9-py3-none-any.whl.zip]
+[2024-06-03 16:23:47] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 16:23:47] INFO root fetch - processPackages [metal-gpu]: Downloading https://files.pythonhosted.org/packages/3f/66/7f881ba3c2adce57527c472127fe3a363adf9416386e05bd73499ce68f93/metal_gpu-0.0.1.tar.gz
+[2024-06-03 16:23:47] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/a5/11/ad03e061dfc30128cd769a14c8e0713bf3e5361d0195c39d2245011fd32a/pylebai-1.1.8-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2024-06-03 16:23:47] INFO root fetch - processPackages [submit4dn]: Downloading https://files.pythonhosted.org/packages/df/d4/701c97226f49d8ef24f879d5031a9563aff9e0ce0bbe7a3f8e49febb7831/submit4dn-4.0.2.tar.gz
+[2024-06-03 16:23:47] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/d5/74/17cc2caa7b1b4fb9076d2c7a8b7622f519ab0c7498abcca06a14f0bbf92b/pydatastreams-1.2.5.tar.gz
+[2024-06-03 16:23:47] INFO root fetch - processPackages [metal-gpu]: Downloading https://files.pythonhosted.org/packages/89/91/17b5eb3a7082ac4485f3d20aef4f54182e627a8b52c2b953d6cf6251fe64/metal_gpu-0.1.0.tar.gz
+[2024-06-03 16:23:47] INFO root fetch - processPackages [submit4dn]: Downloading https://files.pythonhosted.org/packages/c1/27/8c37e18f967961f726ceb889307f773465ade8679537dc56b8f331b2b251/submit4dn-4.0.3.tar.gz
+[2024-06-03 16:23:48] INFO root fetch - processPackages [pydatastreams]: executing diffoscope
+[2024-06-03 16:23:48] INFO root fetch - processPackages [pydatastreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatastreams-1.2.4.tar.gz tmp/pydatastreams-1.2.5.tar.gz --markdown 20240603/p/pydatastreams/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-06-03 16:23:48] INFO root fetch - processPackages [metal-gpu]: executing diffoscope
+[2024-06-03 16:23:48] INFO root fetch - processPackages [metal-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_gpu-0.0.1.tar.gz tmp/metal_gpu-0.1.0.tar.gz --markdown 20240603/m/metal-gpu/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-06-03 16:23:48] INFO root fetch - processPackages [submit4dn]: executing diffoscope
+[2024-06-03 16:23:48] INFO root fetch - processPackages [submit4dn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/submit4dn-4.0.2.tar.gz tmp/submit4dn-4.0.3.tar.gz --markdown 20240603/s/submit4dn/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-06-03 16:23:48] INFO root fetch - processPackages [pylebai]: Downloading https://files.pythonhosted.org/packages/74/79/e4500cf5e9ab63cddf90f1608cc415d81899396482c243561719556cab7d/pylebai-1.1.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2024-06-03 16:23:48] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.4.tar.gz]
+[2024-06-03 16:23:48] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.5.tar.gz]
+[2024-06-03 16:23:48] INFO root fetch - main [MainThread]: End processing [pydatastreams]: success
+[2024-06-03 16:23:48] INFO root fetch - processPackages [metal-gpu]: Remove: archive file [/home/abi/fetcher/tmp/metal_gpu-0.0.1.tar.gz]
+[2024-06-03 16:23:48] INFO root fetch - processPackages [metal-gpu]: Remove: archive file [/home/abi/fetcher/tmp/metal_gpu-0.1.0.tar.gz]
+[2024-06-03 16:23:48] INFO root fetch - main [MainThread]: End processing [metal-gpu]: success
+[2024-06-03 16:23:48] INFO root fetch - processPackages [submit4dn]: Remove: archive file [/home/abi/fetcher/tmp/submit4dn-4.0.2.tar.gz]
+[2024-06-03 16:23:48] INFO root fetch - processPackages [submit4dn]: Remove: archive file [/home/abi/fetcher/tmp/submit4dn-4.0.3.tar.gz]
+[2024-06-03 16:23:48] INFO root fetch - main [MainThread]: End processing [submit4dn]: success
+[2024-06-03 16:23:49] INFO root fetch - processPackages [pylebai]: executing diffoscope
+[2024-06-03 16:23:49] INFO root fetch - processPackages [pylebai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylebai-1.1.8-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/pylebai-1.1.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20240603/p/pylebai/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-06-03 16:24:02] INFO root fetch - processPackages [pylebai]: Remove: archive file [/home/abi/fetcher/tmp/pylebai-1.1.8-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2024-06-03 16:24:02] INFO root fetch - processPackages [pylebai]: Remove: archive file [/home/abi/fetcher/tmp/pylebai-1.1.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2024-06-03 16:24:02] INFO root fetch - main [MainThread]: End processing [pylebai]: success
+[2024-06-03 16:24:02] INFO root fetch - main [MainThread]: Store serial: [23504167]
