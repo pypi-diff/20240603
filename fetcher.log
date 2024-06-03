@@ -23792,3 +23792,99 @@ EOFError: EOF read where object expected
 [2024-06-03 16:39:42] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.9.2.tar.gz]
 [2024-06-03 16:39:42] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2024-06-03 16:39:42] INFO root fetch - main [MainThread]: Store serial: [23504478]
+[2024-06-03 16:41:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504478]
+[2024-06-03 16:41:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocpp
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gevent_requests
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlite
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: realcomplexnet
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: songtradr-api-client-python
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mamba-ssm
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hddm-s
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bus-user
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: craft-ai-sdk
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bcraapi
+[2024-06-03 16:41:51] INFO root fetch - processPackages [mamba-ssm]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [hddm-s]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [bcraapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [bus-user]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ocpp]: New version: [2.0.0rc1] Old Version: [2.0.0rc0]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [gevent_requests]: New version: [1.0.0] Old Version: [0.6.1]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [mamba-ssm]: Downloading https://files.pythonhosted.org/packages/7e/9f/2ec5a608cc0464d80968438b39307f623e47a09f154cafecabf8948bc376/mamba_ssm-2.0.1.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [songtradr-api-client-python]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [bcraapi]: Downloading https://files.pythonhosted.org/packages/c2/8f/d6033ac98f8e4cdfc46467f63b62e8abe0ff1c41dbc33caaa4cb48eb8045/bcraapi-0.0.1.tar.gz
+[2024-06-03 16:41:51] WARNING root fetch - processPackages [realcomplexnet]: Skipping, unable to determine old version
+[2024-06-03 16:41:51] INFO root fetch - processPackages [realcomplexnet]: Start processing: oscb
+[2024-06-03 16:41:51] INFO root fetch - main [MainThread]: End processing [realcomplexnet] error
+[2024-06-03 16:41:51] INFO root fetch - processPackages [jupyterlite]: New version: [0.4.0a3] Old Version: [0.4.0a2]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/f3/ea/69a0f66e7c23d9cac8c8c0077b1cf136d0bb0bb77a87c16975b924c62f5d/hddm_s-2.0.0.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/9b/1d/d3cbe537c0a4fe6e1aaeabc2ee76df2541f7b9e06b83b8cf009d7571a4d9/bus_user-0.3.8.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [oscb]: New version: [2.0.0] Old Version: [1.8.9]
+[2024-06-03 16:41:51] INFO root fetch - processPackages [gevent_requests]: Downloading https://files.pythonhosted.org/packages/11/58/81cf857b03af61232e327197b434c95ccc47f2111a624503cd9f3f77cfd4/gevent_requests-0.6.1.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [ocpp]: Downloading https://files.pythonhosted.org/packages/21/c6/ecad1a6f05d021153945e4d0b947299c4a31f34fbbb4beb14c0eb0446894/ocpp-2.0.0rc0.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [bcraapi]: Downloading https://files.pythonhosted.org/packages/7e/31/0b28727f200443e281b7106bff166856c04dedcba4e9739c39de4f5f585c/bcraapi-0.0.2.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [songtradr-api-client-python]: Downloading https://files.pythonhosted.org/packages/49/07/ecc3492a723e6c3f5d90f55c63bac30569646d1e6c24fb2aa8b04a841a0a/songtradr_api_client_python-2.1.0.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [jupyterlite]: Downloading https://files.pythonhosted.org/packages/4b/37/ee57cafbc459ae9010ee9fdbdf25955d49de4f3f33183b6b029b4b6a9b50/jupyterlite-0.4.0a2.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [mamba-ssm]: Downloading https://files.pythonhosted.org/packages/43/60/505aedbd2dcd5ccc55bd17d8f91c5cba5ba68e7cc347e2b58fcda59addce/mamba_ssm-2.0.2.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [bcraapi]: executing diffoscope
+[2024-06-03 16:41:51] INFO root fetch - processPackages [bcraapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcraapi-0.0.1.tar.gz tmp/bcraapi-0.0.2.tar.gz --markdown 20240603/b/bcraapi/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 16:41:51] INFO root fetch - processPackages [oscb]: Downloading https://files.pythonhosted.org/packages/36/cc/5d6d17be065106463996f7034cb75151ed21a97de5f40e3473db9168492c/oscb-1.8.9.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/06/ac/b282bfb98090d01ea5a17d028d51e6117de25a1603ebfbfc69cd9afb81fc/hddm_s-2.0.1.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [gevent_requests]: Downloading https://files.pythonhosted.org/packages/f0/dc/b589933543b6680b698c7bd43598fefde0ac58752d133ce9c9b149b1a02b/gevent_requests-1.0.0.tar.gz
+[2024-06-03 16:41:51] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/d4/bf/f63d023816d575e011bf3dbd86c1653c873c487d135ef7c8322ba2f91631/bus_user-0.3.9.tar.gz
+[2024-06-03 16:41:52] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-2.0.0.tar.gz tmp/hddm_s-2.0.1.tar.gz --markdown 20240603/h/hddm-s/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [mamba-ssm]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [mamba-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mamba_ssm-2.0.1.tar.gz tmp/mamba_ssm-2.0.2.tar.gz --markdown 20240603/m/mamba-ssm/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [ocpp]: Downloading https://files.pythonhosted.org/packages/e6/ae/ea49aa9f75074b555e8d75ec83785f69a239ec4a425997ba23c210bbc3c1/ocpp-2.0.0rc1.tar.gz
+[2024-06-03 16:41:52] INFO root fetch - processPackages [gevent_requests]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [gevent_requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gevent_requests-0.6.1.tar.gz tmp/gevent_requests-1.0.0.tar.gz --markdown 20240603/g/gevent_requests/0.6.1-1.0.0/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [jupyterlite]: Downloading https://files.pythonhosted.org/packages/33/36/098f2e4f6ac2d607275a92ef9805487213df45cb616c7b4ad56bc33278d3/jupyterlite-0.4.0a3.tar.gz
+[2024-06-03 16:41:52] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.3.8.tar.gz tmp/bus_user-0.3.9.tar.gz --markdown 20240603/b/bus-user/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [songtradr-api-client-python]: Downloading https://files.pythonhosted.org/packages/4b/77/dc643e984f658c6784a932d7d99eeed7b0e69b38357949ebf6deff68122b/songtradr_api_client_python-3.0.0.tar.gz
+[2024-06-03 16:41:52] INFO root fetch - processPackages [ocpp]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [ocpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocpp-2.0.0rc0.tar.gz tmp/ocpp-2.0.0rc1.tar.gz --markdown 20240603/o/ocpp/2.0.0rc0-2.0.0rc1/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [jupyterlite]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [jupyterlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite-0.4.0a2.tar.gz tmp/jupyterlite-0.4.0a3.tar.gz --markdown 20240603/j/jupyterlite/0.4.0a2-0.4.0a3/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2024-06-03 16:41:52] INFO root fetch - processPackages [songtradr-api-client-python]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [songtradr-api-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/songtradr_api_client_python-2.1.0.tar.gz tmp/songtradr_api_client_python-3.0.0.tar.gz --markdown 20240603/s/songtradr-api-client-python/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [oscb]: Downloading https://files.pythonhosted.org/packages/a3/16/b62cab6ea6724c1e270b831f0c5766a282f506aef2c429ab4ce3c5c38cb7/oscb-2.0.0.tar.gz
+[2024-06-03 16:41:52] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20240603/c/craft-ai-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [oscb]: executing diffoscope
+[2024-06-03 16:41:52] INFO root fetch - processPackages [oscb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oscb-1.8.9.tar.gz tmp/oscb-2.0.0.tar.gz --markdown 20240603/o/oscb/1.8.9-2.0.0/README.md --exclude *.pyd
+[2024-06-03 16:41:52] INFO root fetch - processPackages [bcraapi]: Remove: archive file [/home/abi/fetcher/tmp/bcraapi-0.0.1.tar.gz]
+[2024-06-03 16:41:52] INFO root fetch - processPackages [bcraapi]: Remove: archive file [/home/abi/fetcher/tmp/bcraapi-0.0.2.tar.gz]
+[2024-06-03 16:41:52] INFO root fetch - main [MainThread]: End processing [bcraapi]: success
+[2024-06-03 16:41:53] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.8.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.9.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-06-03 16:41:53] INFO root fetch - processPackages [mamba-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mamba_ssm-2.0.1.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - processPackages [mamba-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mamba_ssm-2.0.2.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - main [MainThread]: End processing [mamba-ssm]: success
+[2024-06-03 16:41:53] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-2.0.0.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-2.0.1.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-06-03 16:41:53] INFO root fetch - processPackages [jupyterlite]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite-0.4.0a2.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - processPackages [jupyterlite]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlite-0.4.0a3.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - main [MainThread]: End processing [jupyterlite]: success
+[2024-06-03 16:41:53] INFO root fetch - processPackages [gevent_requests]: Remove: archive file [/home/abi/fetcher/tmp/gevent_requests-0.6.1.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - processPackages [gevent_requests]: Remove: archive file [/home/abi/fetcher/tmp/gevent_requests-1.0.0.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - main [MainThread]: End processing [gevent_requests]: success
+[2024-06-03 16:41:53] INFO root fetch - processPackages [oscb]: Remove: archive file [/home/abi/fetcher/tmp/oscb-1.8.9.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - processPackages [oscb]: Remove: archive file [/home/abi/fetcher/tmp/oscb-2.0.0.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - main [MainThread]: End processing [oscb]: success
+[2024-06-03 16:41:53] INFO root fetch - processPackages [ocpp]: Remove: archive file [/home/abi/fetcher/tmp/ocpp-2.0.0rc0.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - processPackages [ocpp]: Remove: archive file [/home/abi/fetcher/tmp/ocpp-2.0.0rc1.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - main [MainThread]: End processing [ocpp]: success
+[2024-06-03 16:41:53] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2024-06-03 16:41:53] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2024-06-03 16:41:54] INFO root fetch - processPackages [songtradr-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/songtradr_api_client_python-2.1.0.tar.gz]
+[2024-06-03 16:41:54] INFO root fetch - processPackages [songtradr-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/songtradr_api_client_python-3.0.0.tar.gz]
+[2024-06-03 16:41:54] INFO root fetch - main [MainThread]: End processing [songtradr-api-client-python]: success
+[2024-06-03 16:41:54] INFO root fetch - main [MainThread]: Store serial: [23504533]
