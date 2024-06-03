@@ -1924,3 +1924,52 @@
 [2024-06-03 02:29:02] INFO root fetch - processPackages [django-simple-deploy]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_deploy-0.7.0.tar.gz]
 [2024-06-03 02:29:02] INFO root fetch - main [MainThread]: End processing [django-simple-deploy]: success
 [2024-06-03 02:29:02] INFO root fetch - main [MainThread]: Store serial: [23494898]
+[2024-06-03 02:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494898]
+[2024-06-03 02:31:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 02:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-06-03 02:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goatools
+[2024-06-03 02:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Simplex
+[2024-06-03 02:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2024-06-03 02:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aurora-globaldatabase
+[2024-06-03 02:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspark
+[2024-06-03 02:31:10] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-06-03 02:31:10] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-06-03 02:31:10] INFO root fetch - processPackages [pyspark]: New version: [4.0.0.dev1] Old Version: [3.5.1]
+[2024-06-03 02:31:10] INFO root fetch - processPackages [goatools]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-06-03 02:31:11] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.8.3rc1] Old Version: [6.8.3]
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-06-03 02:31:11] INFO root fetch - processPackages [pyspark]: Downloading https://files.pythonhosted.org/packages/73/e5/c9eb78cc982dafb7b5834bc5c368fe596216c8b9f7c4b4ffa104c4d2ab8f/pyspark-3.5.1.tar.gz
+[2024-06-03 02:31:11] INFO root fetch - processPackages [goatools]: Downloading https://files.pythonhosted.org/packages/c8/23/ef46afa4d408811ee132f9ed5e089a8ccbc181b67d6100f5e0424f805efa/goatools-1.4.6.tar.gz
+[2024-06-03 02:31:11] WARNING root fetch - processPackages [pyspark]: Skipping package: exceeds size limit 316955685>=10485760
+[2024-06-03 02:31:11] INFO root fetch - main [MainThread]: End processing [pyspark] error
+[2024-06-03 02:31:11] WARNING root fetch - processPackages [goatools]: Skipping package: exceeds size limit 15091475>=10485760
+[2024-06-03 02:31:11] INFO root fetch - main [MainThread]: End processing [goatools] error
+[2024-06-03 02:31:11] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/97/2a/d64396d23ccd5e001663f0f732c6f30b2c494cce8b372df670c36e652dbc/Geode_Simplex-6.8.3-cp39-cp39-win_amd64.whl
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240603/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240603/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-06-03 02:31:11] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240603/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-06-03 02:31:12] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-06-03 02:31:12] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-06-03 02:31:12] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-06-03 02:31:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-06-03 02:31:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-06-03 02:31:12] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-06-03 02:31:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-06-03 02:31:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-06-03 02:31:12] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-06-03 02:31:15] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/ca/4c/d0a6e1aab4bfd9076bc369123ad68c5ff79ae5c87934cfba4137a01ede0c/Geode_Simplex-6.8.3rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 02:31:16] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-06-03 02:31:16] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.8.3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.8.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240603/G/Geode-Simplex/6.8.3-6.8.3rc1/README.md --exclude *.pyd
+[2024-06-03 02:31:44] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.3-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 02:31:44] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 02:31:44] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-06-03 02:31:44] INFO root fetch - main [MainThread]: Store serial: [23494923]
