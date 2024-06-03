@@ -2586,3 +2586,33 @@ EOFError: EOF read where object expected
 [2024-06-03 03:14:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-06-03 03:14:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-06-03 03:14:11] INFO root fetch - main [MainThread]: Store serial: [23495206]
+[2024-06-03 03:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495206]
+[2024-06-03 03:16:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 03:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-readers-web
+[2024-06-03 03:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stablehash
+[2024-06-03 03:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctidb
+[2024-06-03 03:16:20] INFO root fetch - processPackages [stablehash]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 03:16:20] INFO root fetch - processPackages [stablehash]: Downloading https://files.pythonhosted.org/packages/3e/c4/c6e8cdc8d5f059dace950af5734889a384719671d21f3a07ce21220e471e/stablehash-0.1.1.tar.gz
+[2024-06-03 03:16:20] INFO root fetch - processPackages [ctidb]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-06-03 03:16:20] INFO root fetch - processPackages [llama-index-readers-web]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 03:16:20] INFO root fetch - processPackages [stablehash]: Downloading https://files.pythonhosted.org/packages/af/8d/fb5f225e814a8205b986768575e3ad9d6fb421ff47bf0332869c7ef26daa/stablehash-0.1.2.tar.gz
+[2024-06-03 03:16:20] INFO root fetch - processPackages [llama-index-readers-web]: Downloading https://files.pythonhosted.org/packages/41/30/f0a9b5b9942a884a82dd47ccc650d77fa490627945042c8a88f2846837e8/llama_index_readers_web-0.1.8.tar.gz
+[2024-06-03 03:16:20] INFO root fetch - processPackages [ctidb]: Downloading https://files.pythonhosted.org/packages/42/78/e4fb1362a901babbfdf5db8b1180c09265601bf55cedc675ff341ff4370b/ctidb-1.1.8.tar.gz
+[2024-06-03 03:16:20] INFO root fetch - processPackages [stablehash]: executing diffoscope
+[2024-06-03 03:16:20] INFO root fetch - processPackages [stablehash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stablehash-0.1.1.tar.gz tmp/stablehash-0.1.2.tar.gz --markdown 20240603/s/stablehash/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 03:16:20] INFO root fetch - processPackages [llama-index-readers-web]: Downloading https://files.pythonhosted.org/packages/80/7d/000003000811a7cc0a90a8b0b5a0d488b1dc29ade556562a3aa034792793/llama_index_readers_web-0.1.9.tar.gz
+[2024-06-03 03:16:20] INFO root fetch - processPackages [ctidb]: Downloading https://files.pythonhosted.org/packages/6d/b1/1fbd1aad7ad645bfb5a0bb144397f640c1e2e8ae66989c7b0e27ad811e41/ctidb-1.1.9.tar.gz
+[2024-06-03 03:16:20] INFO root fetch - processPackages [llama-index-readers-web]: executing diffoscope
+[2024-06-03 03:16:20] INFO root fetch - processPackages [llama-index-readers-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_web-0.1.8.tar.gz tmp/llama_index_readers_web-0.1.9.tar.gz --markdown 20240603/l/llama-index-readers-web/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:16:20] INFO root fetch - processPackages [ctidb]: executing diffoscope
+[2024-06-03 03:16:20] INFO root fetch - processPackages [ctidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctidb-1.1.8.tar.gz tmp/ctidb-1.1.9.tar.gz --markdown 20240603/c/ctidb/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-06-03 03:16:20] INFO root fetch - processPackages [stablehash]: Remove: archive file [/home/abi/fetcher/tmp/stablehash-0.1.1.tar.gz]
+[2024-06-03 03:16:20] INFO root fetch - processPackages [stablehash]: Remove: archive file [/home/abi/fetcher/tmp/stablehash-0.1.2.tar.gz]
+[2024-06-03 03:16:20] INFO root fetch - main [MainThread]: End processing [stablehash]: success
+[2024-06-03 03:16:21] INFO root fetch - processPackages [ctidb]: Remove: archive file [/home/abi/fetcher/tmp/ctidb-1.1.8.tar.gz]
+[2024-06-03 03:16:21] INFO root fetch - processPackages [ctidb]: Remove: archive file [/home/abi/fetcher/tmp/ctidb-1.1.9.tar.gz]
+[2024-06-03 03:16:21] INFO root fetch - main [MainThread]: End processing [ctidb]: success
+[2024-06-03 03:16:21] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.8.tar.gz]
+[2024-06-03 03:16:21] INFO root fetch - processPackages [llama-index-readers-web]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_web-0.1.9.tar.gz]
+[2024-06-03 03:16:21] INFO root fetch - main [MainThread]: End processing [llama-index-readers-web]: success
+[2024-06-03 03:16:21] INFO root fetch - main [MainThread]: Store serial: [23495220]
