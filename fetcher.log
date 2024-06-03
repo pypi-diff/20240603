@@ -24413,3 +24413,108 @@ EOFError: EOF read where object expected
 [2024-06-03 17:00:37] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.7.tar.gz]
 [2024-06-03 17:00:37] INFO root fetch - main [MainThread]: End processing [moonstreamdb-v3]: success
 [2024-06-03 17:00:37] INFO root fetch - main [MainThread]: Store serial: [23504767]
+[2024-06-03 17:02:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504767]
+[2024-06-03 17:02:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-cdk-constructs
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Solverz
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eink-calendar
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thoughtspot-rest-api-v1
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomicshop
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: morphdb-utils
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-reconcile-oca
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mapchete
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ctek
+[2024-06-03 17:02:46] INFO root fetch - processPackages [Solverz]: New version: [0.0.3rc2] Old Version: [0.0.3]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [morphdb-utils]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.2.1] Old Version: [17.0.1.2.0.1]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/c4/d97e66fee7386a97857c0df72c38f81bfa793375b658e98b6735af04bd66/morphdb_utils-0.2.5.tar.gz
+[2024-06-03 17:02:46] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/fc/be/5883fd119c335907c91ae354f6921bc360f728066da2c92ce9364ac8de31/odoo_addon_account_reconcile_oca-17.0.1.2.0.1-py3-none-any.whl
+[2024-06-03 17:02:46] WARNING root fetch - processPackages [ctek]: Skipping, unable to determine old version
+[2024-06-03 17:02:46] INFO root fetch - processPackages [ctek]: Start processing: muttfuzz
+[2024-06-03 17:02:46] INFO root fetch - main [MainThread]: End processing [ctek] error
+[2024-06-03 17:02:46] INFO root fetch - processPackages [eink-calendar]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [aws-cdk-constructs]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [mapchete]: New version: [2024.6.0] Old Version: [2024.5.2]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 17:02:46] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-06-03 17:02:46] INFO root fetch - processPackages [muttfuzz]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 17:02:47] INFO root fetch - processPackages [Solverz]: Downloading https://files.pythonhosted.org/packages/22/2b/09f673c3828fb3d8d51c754cf4882886ef1a1fce27959e6fe865d0f46f9b/solverz-0.0.3.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/cc/f3/ded49bb5d26d3938cf5d0d9834456e1b25d79551ee0dcc7a761f7527e4a3/muttfuzz-0.9.1-py3-none-any.whl
+[2024-06-03 17:02:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Downloading https://files.pythonhosted.org/packages/73/9a/d2a63140143a27f6b084db0efdb29a1a99ce2de96581b4c5475a8b92f99c/thoughtspot_rest_api_v1-1.6.1.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/0c/7d/ae02ab9e7452ba3df074ebb2e7005d7ab58e42f059d096768d37f96de4a6/mapchete-2024.5.2.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/e6/37/d91f15ad3ff666b7db55fc300424baecc14de758543e3ada24b95f4ff718/aws_cdk_constructs-2.9.1.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [eink-calendar]: Downloading https://files.pythonhosted.org/packages/60/d0/a61dfac578808d364983ea439c3d6f607c1497f12a8434f2121d2330ad77/eink_calendar-0.2.0.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/bc/d3/af9cbdeae44b5fa1e833bd60e1d7db4da3b6bf7765777a85bbb8b742ec8d/odoo_addon_account_reconcile_oca-17.0.1.2.1-py3-none-any.whl
+[2024-06-03 17:02:47] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-06-03 17:02:47] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/79/42/21499ee7dbf149c36d2acda04dd0715b0db0d533a042da9e7bbb67638bd2/morphdb_utils-0.2.6.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 17:02:47] INFO root fetch - processPackages [Solverz]: Downloading https://files.pythonhosted.org/packages/10/e9/fc076d92c0a2868e2fff7f13c6b9958589320bfc1d463add05becfe01949/solverz-0.0.3rc2.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-06-03 17:02:47] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.2.1-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-account-reconcile-oca/17.0.1.2.0.1-17.0.1.2.1/README.md --exclude *.pyd
+[2024-06-03 17:02:47] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-06-03 17:02:47] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.2.5.tar.gz tmp/morphdb_utils-0.2.6.tar.gz --markdown 20240603/m/morphdb-utils/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-06-03 17:02:47] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/87/20/9ef336741e1b8d1778ae4eb73e836f04c43d9a87b772e9a3c97b4a1137bc/muttfuzz-0.9.2-py3-none-any.whl
+[2024-06-03 17:02:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Downloading https://files.pythonhosted.org/packages/31/3c/23a5c80cee9e845c6aec7c70744e0ffada48ea5083b1988900503821caae/thoughtspot_rest_api_v1-1.7.0.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 17:02:47] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 17:02:47] INFO root fetch - processPackages [eink-calendar]: Downloading https://files.pythonhosted.org/packages/e7/40/c7b60a948e362d4960f80721cb2be8a087275846978ffb947ae8125a103a/eink_calendar-0.2.1.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/a1/4f/f179a138039d439656581f748aa0f69185eefa46f4f4c5ed4e47b51dbbac/mapchete-2024.6.0.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [Solverz]: executing diffoscope
+[2024-06-03 17:02:47] INFO root fetch - processPackages [Solverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solverz-0.0.3.tar.gz tmp/solverz-0.0.3rc2.tar.gz --markdown 20240603/S/Solverz/0.0.3-0.0.3rc2/README.md --exclude *.pyd
+[2024-06-03 17:02:47] INFO root fetch - processPackages [aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/35/f4/09f600eaed6a0720c0130482f53b61f86271746b2385735edef0f6e0c731/aws_cdk_constructs-2.9.2.tar.gz
+[2024-06-03 17:02:47] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-06-03 17:02:47] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.9.1-py3-none-any.whl.zip tmp/muttfuzz-0.9.2-py3-none-any.whl.zip --markdown 20240603/m/muttfuzz/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-06-03 17:02:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: executing diffoscope
+[2024-06-03 17:02:47] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoughtspot_rest_api_v1-1.6.1.tar.gz tmp/thoughtspot_rest_api_v1-1.7.0.tar.gz --markdown 20240603/t/thoughtspot-rest-api-v1/1.6.1-1.7.0/README.md --exclude *.pyd
+[2024-06-03 17:02:47] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-06-03 17:02:47] INFO root fetch - processPackages [mapchete]: executing diffoscope
+[2024-06-03 17:02:47] INFO root fetch - processPackages [mapchete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapchete-2024.5.2.tar.gz tmp/mapchete-2024.6.0.tar.gz --markdown 20240603/m/mapchete/2024.5.2-2024.6.0/README.md --exclude *.pyd
+[2024-06-03 17:02:47] INFO root fetch - processPackages [eink-calendar]: executing diffoscope
+[2024-06-03 17:02:47] INFO root fetch - processPackages [eink-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eink_calendar-0.2.0.tar.gz tmp/eink_calendar-0.2.1.tar.gz --markdown 20240603/e/eink-calendar/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-06-03 17:02:48] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-06-03 17:02:48] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240603/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-06-03 17:02:48] INFO root fetch - processPackages [aws-cdk-constructs]: executing diffoscope
+[2024-06-03 17:02:48] INFO root fetch - processPackages [aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cdk_constructs-2.9.1.tar.gz tmp/aws_cdk_constructs-2.9.2.tar.gz --markdown 20240603/a/aws-cdk-constructs/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-06-03 17:02:48] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.5.tar.gz]
+[2024-06-03 17:02:48] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.6.tar.gz]
+[2024-06-03 17:02:48] INFO root fetch - processPackages [morphdb-utils]: Start processing: craft-ai-sdk
+[2024-06-03 17:02:48] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-06-03 17:02:48] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-06-03 17:02:48] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2024-06-03 17:02:49] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Remove: archive file [/home/abi/fetcher/tmp/thoughtspot_rest_api_v1-1.6.1.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.2.1-py3-none-any.whl.zip]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [thoughtspot-rest-api-v1]: Remove: archive file [/home/abi/fetcher/tmp/thoughtspot_rest_api_v1-1.7.0.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [thoughtspot-rest-api-v1]: success
+[2024-06-03 17:02:49] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.9.1-py3-none-any.whl.zip]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.9.2-py3-none-any.whl.zip]
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-06-03 17:02:49] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2024-06-03 17:02:49] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.3.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.3rc2.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [Solverz]: success
+[2024-06-03 17:02:49] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2024-06-03 17:02:49] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20240603/c/craft-ai-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 17:02:49] INFO root fetch - processPackages [aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_constructs-2.9.1.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [eink-calendar]: Remove: archive file [/home/abi/fetcher/tmp/eink_calendar-0.2.0.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_constructs-2.9.2.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [eink-calendar]: Remove: archive file [/home/abi/fetcher/tmp/eink_calendar-0.2.1.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [aws-cdk-constructs]: success
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [eink-calendar]: success
+[2024-06-03 17:02:49] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-06-03 17:02:49] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2024.5.2.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2024.6.0.tar.gz]
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [mapchete]: success
+[2024-06-03 17:02:49] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 17:02:49] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 17:02:49] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 17:02:50] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2024-06-03 17:02:50] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2024-06-03 17:02:50] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2024-06-03 17:02:50] INFO root fetch - main [MainThread]: Store serial: [23504803]
