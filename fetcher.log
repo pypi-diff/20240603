@@ -6479,3 +6479,30 @@ EOFError: EOF read where object expected
 [2024-06-03 07:18:30] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.52.tar.gz]
 [2024-06-03 07:18:30] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-06-03 07:18:30] INFO root fetch - main [MainThread]: Store serial: [23496934]
+[2024-06-03 07:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496934]
+[2024-06-03 07:20:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 07:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sopel-modules.youtube
+[2024-06-03 07:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-breadcrumbs
+[2024-06-03 07:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timmytimesheet
+[2024-06-03 07:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accmt
+[2024-06-03 07:20:39] WARNING root fetch - processPackages [timmytimesheet]: Skipping, unable to determine old version
+[2024-06-03 07:20:39] INFO root fetch - main [MainThread]: End processing [timmytimesheet] error
+[2024-06-03 07:20:39] WARNING root fetch - processPackages [easy-breadcrumbs]: Skipping, unable to determine old version
+[2024-06-03 07:20:39] INFO root fetch - main [MainThread]: End processing [easy-breadcrumbs] error
+[2024-06-03 07:20:39] INFO root fetch - processPackages [sopel-modules.youtube]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-06-03 07:20:39] INFO root fetch - processPackages [accmt]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-06-03 07:20:39] INFO root fetch - processPackages [sopel-modules.youtube]: Downloading https://files.pythonhosted.org/packages/5e/d8/240bfac38e7ea9281ebcc74b91379b6bc603e5f6ab3a5329332b35abd16e/sopel_modules.youtube-0.5.1.tar.gz
+[2024-06-03 07:20:39] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/15/89/d90d3daf0bdfe0b8527bc99976aca8ec0fc5a91c1d2f046251e733052a62/accmt-1.0.3.tar.gz
+[2024-06-03 07:20:39] INFO root fetch - processPackages [sopel-modules.youtube]: Downloading https://files.pythonhosted.org/packages/9d/ad/254fad25d68cf0287738b0a1238875712587e7cb128fc2ae31479a1e5026/sopel_modules_youtube-0.5.2.tar.gz
+[2024-06-03 07:20:39] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/83/7d/160275bd1db68ca24886cccb977287c37fea2916aeac889cc78a9286b85c/accmt-1.0.4.tar.gz
+[2024-06-03 07:20:39] INFO root fetch - processPackages [sopel-modules.youtube]: executing diffoscope
+[2024-06-03 07:20:39] INFO root fetch - processPackages [sopel-modules.youtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel_modules.youtube-0.5.1.tar.gz tmp/sopel_modules_youtube-0.5.2.tar.gz --markdown 20240603/s/sopel-modules.youtube/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-06-03 07:20:40] INFO root fetch - processPackages [accmt]: executing diffoscope
+[2024-06-03 07:20:40] INFO root fetch - processPackages [accmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accmt-1.0.3.tar.gz tmp/accmt-1.0.4.tar.gz --markdown 20240603/a/accmt/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-06-03 07:20:40] INFO root fetch - processPackages [sopel-modules.youtube]: Remove: archive file [/home/abi/fetcher/tmp/sopel_modules.youtube-0.5.1.tar.gz]
+[2024-06-03 07:20:40] INFO root fetch - processPackages [sopel-modules.youtube]: Remove: archive file [/home/abi/fetcher/tmp/sopel_modules_youtube-0.5.2.tar.gz]
+[2024-06-03 07:20:40] INFO root fetch - main [MainThread]: End processing [sopel-modules.youtube]: success
+[2024-06-03 07:20:40] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-1.0.3.tar.gz]
+[2024-06-03 07:20:40] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-1.0.4.tar.gz]
+[2024-06-03 07:20:40] INFO root fetch - main [MainThread]: End processing [accmt]: success
+[2024-06-03 07:20:40] INFO root fetch - main [MainThread]: Store serial: [23496947]
