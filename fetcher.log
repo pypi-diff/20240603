@@ -4444,3 +4444,56 @@ EOFError: EOF read where object expected
 [2024-06-03 05:17:10] INFO root fetch - processPackages [novelai-python]: Remove: archive file [/home/abi/fetcher/tmp/novelai_python-0.4.9.tar.gz]
 [2024-06-03 05:17:10] INFO root fetch - main [MainThread]: End processing [novelai-python]: success
 [2024-06-03 05:17:10] INFO root fetch - main [MainThread]: Store serial: [23496028]
+[2024-06-03 05:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496028]
+[2024-06-03 05:19:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 05:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gm
+[2024-06-03 05:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discminer
+[2024-06-03 05:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatastreams
+[2024-06-03 05:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyclicpeptide
+[2024-06-03 05:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipdeptree
+[2024-06-03 05:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pr-pilot
+[2024-06-03 05:19:18] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 05:19:18] INFO root fetch - processPackages [pr-pilot]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-06-03 05:19:18] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/99/de/7687786d22b1de9896f07405345ed34e1d784fc42de6d0d202388c0f002f/cyclicpeptide-1.0.8.tar.gz
+[2024-06-03 05:19:18] INFO root fetch - processPackages [pydatastreams]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-06-03 05:19:18] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/d4/38/2e577a00eef9be2d5cab2cc0f46d4bac932af1bb66f04175b897a13edb87/pr_pilot-1.4.1.tar.gz
+[2024-06-03 05:19:18] INFO root fetch - processPackages [discminer]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 05:19:19] INFO root fetch - processPackages [gm]: New version: [3.0.167] Old Version: [3.0.166]
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pipdeptree]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/cd/32/101934b295598d040a5e815431abbcdebed2f041c144b29d6fbced88f3a8/pydatastreams-1.2.1.tar.gz
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/aa/6c/4c6410af91ce4d26ec1b1c602555b5e7c889a3bb1ca8d39088394f8aacc0/pr_pilot-1.5.0.tar.gz
+[2024-06-03 05:19:19] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/3a/38/1585212738966a5e64a42d5af887ca097608b1c38b7d4b5eb89e2f642b95/cyclicpeptide-1.0.9.tar.gz
+[2024-06-03 05:19:19] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/ed/9c/b495211b50350b525a7e1d5a217a4208328775a092281ed08e9e2289c966/gm-3.0.166-cp39-cp39-win_amd64.whl
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pr-pilot]: executing diffoscope
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pr-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot-1.4.1.tar.gz tmp/pr_pilot-1.5.0.tar.gz --markdown 20240603/p/pr-pilot/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-06-03 05:19:19] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-06-03 05:19:19] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.8.tar.gz tmp/cyclicpeptide-1.0.9.tar.gz --markdown 20240603/c/cyclicpeptide/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/23/39/12b6eed3587a31ee7a301f462d21fa5dadc24cdc554dc78edbcdb0a505ce/pydatastreams-1.2.2.tar.gz
+[2024-06-03 05:19:19] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/82/25/c05cbcbaea7b51dcc80bf33dbe97400f612e7521d9e0a7c767f170087a8c/discminer-0.2.9.tar.gz
+[2024-06-03 05:19:19] WARNING root fetch - processPackages [discminer]: Skipping package: exceeds size limit 11323881>=10485760
+[2024-06-03 05:19:19] INFO root fetch - main [MainThread]: End processing [discminer] error
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/0a/b2/2508e11f44e0e7b136555175f21c121f20642d43ab2a09797b178e968834/pipdeptree-2.9.6.tar.gz
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pydatastreams]: executing diffoscope
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pydatastreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatastreams-1.2.1.tar.gz tmp/pydatastreams-1.2.2.tar.gz --markdown 20240603/p/pydatastreams/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pipdeptree]: executing diffoscope
+[2024-06-03 05:19:19] INFO root fetch - processPackages [pipdeptree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipdeptree-2.9.5.tar.gz tmp/pipdeptree-2.9.6.tar.gz --markdown 20240603/p/pipdeptree/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 05:19:19] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/b9/a6/ff9f0832d2ce933f99b02b488df390cbfa92a91a5eeb8bcd191bd64a0036/gm-3.0.167-cp39-cp39-win_amd64.whl
+[2024-06-03 05:19:20] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.4.1.tar.gz]
+[2024-06-03 05:19:20] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.5.0.tar.gz]
+[2024-06-03 05:19:20] INFO root fetch - main [MainThread]: End processing [pr-pilot]: success
+[2024-06-03 05:19:20] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.8.tar.gz]
+[2024-06-03 05:19:20] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.9.tar.gz]
+[2024-06-03 05:19:20] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-06-03 05:19:20] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.1.tar.gz]
+[2024-06-03 05:19:20] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.2.tar.gz]
+[2024-06-03 05:19:20] INFO root fetch - main [MainThread]: End processing [pydatastreams]: success
+[2024-06-03 05:19:20] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.5.tar.gz]
+[2024-06-03 05:19:20] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.6.tar.gz]
+[2024-06-03 05:19:20] INFO root fetch - main [MainThread]: End processing [pipdeptree]: success
+[2024-06-03 05:19:20] INFO root fetch - processPackages [gm]: executing diffoscope
+[2024-06-03 05:19:20] INFO root fetch - processPackages [gm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gm-3.0.166-cp39-cp39-win_amd64.whl.zip tmp/gm-3.0.167-cp39-cp39-win_amd64.whl.zip --markdown 20240603/g/gm/3.0.166-3.0.167/README.md --exclude *.pyd
+[2024-06-03 05:19:54] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.166-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 05:19:54] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.167-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 05:19:54] INFO root fetch - main [MainThread]: End processing [gm]: success
+[2024-06-03 05:19:54] INFO root fetch - main [MainThread]: Store serial: [23496063]
