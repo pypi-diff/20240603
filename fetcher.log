@@ -19662,3 +19662,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:48:32] INFO root fetch - processPackages [random-events]: Remove: archive file [/home/abi/fetcher/tmp/random_events-2.0.9.tar.gz]
 [2024-06-03 14:48:32] INFO root fetch - main [MainThread]: End processing [random-events]: success
 [2024-06-03 14:48:32] INFO root fetch - main [MainThread]: Store serial: [23502573]
+[2024-06-03 14:50:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502573]
+[2024-06-03 14:50:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PhenoFeatureFinder
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gumbi
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycyclops
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-all-auth
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cosmic-crisp
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: isystem.connect
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-locality-two
+[2024-06-03 14:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pnnx
+[2024-06-03 14:50:41] INFO root fetch - processPackages [cosmic-crisp]: New version: [0.1.0.dev20240603124322] Old Version: [0.1.0.dev20240602213601]
+[2024-06-03 14:50:41] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-06-03 14:50:41] INFO root fetch - processPackages [dj-all-auth]: New version: [0.1b5] Old Version: [0.1b4]
+[2024-06-03 14:50:41] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-06-03 14:50:41] INFO root fetch - processPackages [django-locality-two]: New version: [3.0] Old Version: [2.2]
+[2024-06-03 14:50:41] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/d4/71/478b92cb292c7a1297f45ae3ae2c42b7da9fa29438c4b1cee09426b9dd0d/cosmic_crisp-0.1.0.dev20240602213601.tar.gz
+[2024-06-03 14:50:41] INFO root fetch - processPackages [gumbi]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 14:50:41] WARNING root fetch - processPackages [PhenoFeatureFinder]: Skipping, unable to determine old version
+[2024-06-03 14:50:41] INFO root fetch - main [MainThread]: End processing [PhenoFeatureFinder] error
+[2024-06-03 14:50:41] INFO root fetch - processPackages [dj-all-auth]: Downloading https://files.pythonhosted.org/packages/da/46/5d1dcec38f2e5a02ec816ac92e358e22d2c34427f4b4bd32ccc61b93dbb6/dj_all_auth-0.1b4.tar.gz
+[2024-06-03 14:50:41] INFO root fetch - processPackages [pycyclops]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 14:50:41] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-06-03 14:50:41] INFO root fetch - processPackages [pnnx]: New version: [20240603] Old Version: [20240527]
+[2024-06-03 14:50:41] INFO root fetch - processPackages [django-locality-two]: Downloading https://files.pythonhosted.org/packages/6c/9e/270fda79779d19a6691e9242f2486aec991b0c764c8b416dde786c7f0e42/django-locality-two-2.2.tar.gz
+[2024-06-03 14:50:41] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-06-03 14:50:41] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/3f/86/271464ed73d4adb5cfa1a2a78b407f68382f99406b8ec97bb2ed49e7965f/pycyclops-0.2.8.tar.gz
+[2024-06-03 14:50:41] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/14/c2/25aa603d1432f7b01f285a512496cc124381cc503db56d2549eceb54b62e/gumbi-0.2.3.tar.gz
+[2024-06-03 14:50:41] INFO root fetch - processPackages [pnnx]: Downloading https://files.pythonhosted.org/packages/85/c0/a9ae7490300681c6c6d6b62eb027ffee30c0e480d7f8f89b7ca9307f44e5/pnnx-20240527-py3-none-win_amd64.whl
+[2024-06-03 14:50:41] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/dc/4e/481d1f1bde096a22a8e25948e20dc517a472083e545041f9e2de5c3b237a/cosmic_crisp-0.1.0.dev20240603124322.tar.gz
+[2024-06-03 14:50:41] INFO root fetch - processPackages [dj-all-auth]: Downloading https://files.pythonhosted.org/packages/e5/c4/26c524dedace37cf3ba7313d823d25b7b4b5283e0af66b525c5b18bdedaf/dj_all_auth-0.1b5.tar.gz
+[2024-06-03 14:50:42] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-06-03 14:50:42] INFO root fetch - processPackages [django-locality-two]: Downloading https://files.pythonhosted.org/packages/de/f9/7a7b636461c85c676e9877253e2f34c527cd6dbb7d74fa25386402271b63/django_locality_two-3.0-py3-none-any.whl
+[2024-06-03 14:50:42] INFO root fetch - processPackages [pycyclops]: Downloading https://files.pythonhosted.org/packages/46/c8/eb31cf6f4b10b1f3d4a0d70e7c3cfb5261c4ed7204c4e3cc5a8230ecc7dc/pycyclops-0.2.9.tar.gz
+[2024-06-03 14:50:42] INFO root fetch - processPackages [cosmic-crisp]: executing diffoscope
+[2024-06-03 14:50:42] INFO root fetch - processPackages [cosmic-crisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmic_crisp-0.1.0.dev20240602213601.tar.gz tmp/cosmic_crisp-0.1.0.dev20240603124322.tar.gz --markdown 20240603/c/cosmic-crisp/0.1.0.dev20240602213601-0.1.0.dev20240603124322/README.md --exclude *.pyd
+[2024-06-03 14:50:42] INFO root fetch - processPackages [dj-all-auth]: executing diffoscope
+[2024-06-03 14:50:42] INFO root fetch - processPackages [dj-all-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_all_auth-0.1b4.tar.gz tmp/dj_all_auth-0.1b5.tar.gz --markdown 20240603/d/dj-all-auth/0.1b4-0.1b5/README.md --exclude *.pyd
+[2024-06-03 14:50:42] WARNING root fetch - processPackages [pnnx]: Skipping package: exceeds size limit 13104203>=10485760
+[2024-06-03 14:50:42] INFO root fetch - processPackages [pycyclops]: executing diffoscope
+[2024-06-03 14:50:42] INFO root fetch - processPackages [pycyclops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycyclops-0.2.8.tar.gz tmp/pycyclops-0.2.9.tar.gz --markdown 20240603/p/pycyclops/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 14:50:42] INFO root fetch - main [MainThread]: End processing [pnnx] error
+[2024-06-03 14:50:42] INFO root fetch - processPackages [django-locality-two]: executing diffoscope
+[2024-06-03 14:50:42] INFO root fetch - processPackages [django-locality-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-locality-two-2.2.tar.gz tmp/django_locality_two-3.0-py3-none-any.whl.zip --markdown 20240603/d/django-locality-two/2.2-3.0/README.md --exclude *.pyd
+[2024-06-03 14:50:42] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/94/8d/8e4337a4cd6b059c826c1df720391e4ef03555cfee05590d7e938342a98b/gumbi-0.2.4.tar.gz
+[2024-06-03 14:50:42] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-06-03 14:50:42] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240603/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-06-03 14:50:42] INFO root fetch - processPackages [gumbi]: executing diffoscope
+[2024-06-03 14:50:42] INFO root fetch - processPackages [gumbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gumbi-0.2.3.tar.gz tmp/gumbi-0.2.4.tar.gz --markdown 20240603/g/gumbi/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 14:50:42] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240602213601.tar.gz]
+[2024-06-03 14:50:42] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240603124322.tar.gz]
+[2024-06-03 14:50:42] INFO root fetch - main [MainThread]: End processing [cosmic-crisp]: success
+[2024-06-03 14:50:43] INFO root fetch - processPackages [django-locality-two]: Remove: archive file [/home/abi/fetcher/tmp/django-locality-two-2.2.tar.gz]
+[2024-06-03 14:50:43] INFO root fetch - processPackages [django-locality-two]: Remove: archive file [/home/abi/fetcher/tmp/django_locality_two-3.0-py3-none-any.whl.zip]
+[2024-06-03 14:50:43] INFO root fetch - main [MainThread]: End processing [django-locality-two]: success
+[2024-06-03 14:50:43] INFO root fetch - processPackages [dj-all-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj_all_auth-0.1b4.tar.gz]
+[2024-06-03 14:50:43] INFO root fetch - processPackages [dj-all-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj_all_auth-0.1b5.tar.gz]
+[2024-06-03 14:50:43] INFO root fetch - main [MainThread]: End processing [dj-all-auth]: success
+[2024-06-03 14:50:43] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-06-03 14:50:43] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-06-03 14:50:43] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-06-03 14:50:43] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.2.8.tar.gz]
+[2024-06-03 14:50:43] INFO root fetch - processPackages [pycyclops]: Remove: archive file [/home/abi/fetcher/tmp/pycyclops-0.2.9.tar.gz]
+[2024-06-03 14:50:43] INFO root fetch - main [MainThread]: End processing [pycyclops]: success
+[2024-06-03 14:50:43] INFO root fetch - processPackages [gumbi]: Remove: archive file [/home/abi/fetcher/tmp/gumbi-0.2.3.tar.gz]
+[2024-06-03 14:50:43] INFO root fetch - processPackages [gumbi]: Remove: archive file [/home/abi/fetcher/tmp/gumbi-0.2.4.tar.gz]
+[2024-06-03 14:50:43] INFO root fetch - main [MainThread]: End processing [gumbi]: success
+[2024-06-03 14:50:44] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-06-03 14:50:46] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-06-03 14:50:46] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240603/i/isystem.connect/9.21.98.0-9.21.99.0/README.md --exclude *.pyd
+[2024-06-03 14:50:47] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-06-03 14:50:47] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-06-03 14:50:47] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-06-03 14:50:47] INFO root fetch - main [MainThread]: Store serial: [23502615]
