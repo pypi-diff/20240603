@@ -5832,3 +5832,42 @@ EOFError: EOF read where object expected
 [2024-06-03 06:35:00] INFO root fetch - main [MainThread]: End processing [roofAI]: success
 [2024-06-03 06:35:00] INFO root fetch - main [MainThread]: End processing [roofAI]: success
 [2024-06-03 06:35:00] INFO root fetch - main [MainThread]: Store serial: [23496679]
+[2024-06-03 06:37:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496679]
+[2024-06-03 06:37:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 06:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrtz2
+[2024-06-03 06:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iii-api-helper
+[2024-06-03 06:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roofAI
+[2024-06-03 06:37:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blueness
+[2024-06-03 06:37:09] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-06-03 06:37:09] INFO root fetch - processPackages [roofAI]: New version: [4.39.1] Old Version: [4.38.1]
+[2024-06-03 06:37:09] INFO root fetch - processPackages [pyrtz2]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-06-03 06:37:09] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-06-03 06:37:09] INFO root fetch - processPackages [iii-api-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 06:37:09] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/10/ed/ef02f6a4110bc568549edd5f52044fe4e81b21ae33319188d82075d625e3/roofai-4.38.1.tar.gz
+[2024-06-03 06:37:09] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/26/cd/4db64e4e99dbea455e8b78249ad8da105fb44ce943990c758443c11a7507/pyrtz2-1.2.2.tar.gz
+[2024-06-03 06:37:09] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-06-03 06:37:09] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/2b/87/3ec24f67ddcf117569f64f40bbe99c9884baf3eadf42eb930622e1c2b35e/iii_api_helper-0.0.8.tar.gz
+[2024-06-03 06:37:09] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-06-03 06:37:09] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240603/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-06-03 06:37:09] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/ec/16/5c73fdc582e88934f3007d719eef59b2c00f6f7517448217adfcc2b51c46/roofai-4.39.1.tar.gz
+[2024-06-03 06:37:09] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/df/39/db373f60207c61e8415caed9d0d292767f5c23097ed67d6dd7bd7cf9a6f5/iii_api_helper-0.0.9.tar.gz
+[2024-06-03 06:37:09] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-06-03 06:37:09] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofai-4.38.1.tar.gz tmp/roofai-4.39.1.tar.gz --markdown 20240603/r/roofAI/4.38.1-4.39.1/README.md --exclude *.pyd
+[2024-06-03 06:37:09] INFO root fetch - processPackages [iii-api-helper]: executing diffoscope
+[2024-06-03 06:37:09] INFO root fetch - processPackages [iii-api-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iii_api_helper-0.0.8.tar.gz tmp/iii_api_helper-0.0.9.tar.gz --markdown 20240603/i/iii-api-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 06:37:09] INFO root fetch - processPackages [pyrtz2]: Downloading https://files.pythonhosted.org/packages/5a/6a/8ef601562a65410aa2908d793051de6f38bc9cac14769ef5bb525a6d66eb/pyrtz2-1.2.3.tar.gz
+[2024-06-03 06:37:09] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-06-03 06:37:09] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-06-03 06:37:09] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-06-03 06:37:10] INFO root fetch - processPackages [pyrtz2]: executing diffoscope
+[2024-06-03 06:37:10] INFO root fetch - processPackages [pyrtz2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtz2-1.2.2.tar.gz tmp/pyrtz2-1.2.3.tar.gz --markdown 20240603/p/pyrtz2/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-06-03 06:37:10] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.8.tar.gz]
+[2024-06-03 06:37:10] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.9.tar.gz]
+[2024-06-03 06:37:10] INFO root fetch - main [MainThread]: End processing [iii-api-helper]: success
+[2024-06-03 06:37:10] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.38.1.tar.gz]
+[2024-06-03 06:37:10] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.39.1.tar.gz]
+[2024-06-03 06:37:10] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-06-03 06:37:11] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.2.2.tar.gz]
+[2024-06-03 06:37:11] INFO root fetch - processPackages [pyrtz2]: Remove: archive file [/home/abi/fetcher/tmp/pyrtz2-1.2.3.tar.gz]
+[2024-06-03 06:37:11] INFO root fetch - main [MainThread]: End processing [pyrtz2]: success
+[2024-06-03 06:37:11] INFO root fetch - main [MainThread]: Store serial: [23496690]
