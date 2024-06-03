@@ -21889,3 +21889,96 @@ EOFError: EOF read where object expected
 [2024-06-03 15:41:16] INFO root fetch - processPackages [inmoose]: Remove: archive file [/home/abi/fetcher/tmp/inmoose-0.5.0.tar.gz]
 [2024-06-03 15:41:16] INFO root fetch - main [MainThread]: End processing [inmoose]: success
 [2024-06-03 15:41:16] INFO root fetch - main [MainThread]: Store serial: [23503507]
+[2024-06-03 15:43:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503507]
+[2024-06-03 15:43:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recon-lw
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbally
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blint
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CI-CloudConnector
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AAIT
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opal-common
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: image-functions
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opal-client
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opal-server
+[2024-06-03 15:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-env-robots
+[2024-06-03 15:43:25] INFO root fetch - processPackages [recon-lw]: New version: [3.1.0.dev9348340929] Old Version: [3.1.0.dev9293282609]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [django-env-robots]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [CI-CloudConnector]: New version: [2.9] Old Version: [2.8]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [opal-common]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/ad/81/3ba752594218c659351ec43f1b01341c48b30cc38a98db449f179450464d/recon_lw-3.1.0.dev9293282609.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [opal-client]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [image-functions]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [dbally]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [blint]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [opal-server]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-06-03 15:43:25] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/4b/ec/a3e05f449cce0171eccc1aaf2042c86118c169df00af32df839b4226b8b2/AAIT-0.0.2.8.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/40/f9/2542ce1ad7cd48aafba773a83220e84c88fb3dabfcc1c87eae97e6d68f3e/ci_cloudconnector-2.8.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [django-env-robots]: Downloading https://files.pythonhosted.org/packages/fe/ed/d311468a41fdf3b2046870e2250103f4a1218f18d6ef48b220903d0e10ed/django_env_robots-0.0.3.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [opal-common]: Downloading https://files.pythonhosted.org/packages/01/1d/f1cb6653a3a2fcaa5275e467a838f29fc2210321f4ecdd59dbf0efac1997/opal_common-0.7.6.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/a0/ed/929afa211bad78b2612459dbcacb9dca8231b0e919d21a6da65137005c11/AAIT-0.0.2.9.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [image-functions]: Downloading https://files.pythonhosted.org/packages/cb/ee/23da86195c30a9dd04539c3d55a5c768f24131a511869105a5e0cf81e931/image_functions-0.1.2.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/40/70/9ad7f5723b55e7a83129a574fa1fcbbbadae226ecc11bf297b95a89a13c5/recon_lw-3.1.0.dev9348340929.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [opal-client]: Downloading https://files.pythonhosted.org/packages/14/25/a2fb2eaa3a4077eda8618804d9ebbcc308ae0e575f8eda825d0767684c7b/opal_client-0.7.6.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [opal-server]: Downloading https://files.pythonhosted.org/packages/cb/e2/8265751dcb49c7936d5851f7a4ed35f3fa8eaafa1a7ea3099ca7fcb1a02e/opal_server-0.7.6.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/15/fb/31e11a84ada7a2debee8b11bdf138ddf32bf336745d90470dba997e3ac18/blint-2.1.7.tar.gz
+[2024-06-03 15:43:25] INFO root fetch - processPackages [dbally]: Downloading https://files.pythonhosted.org/packages/e3/f6/886a8ab277d0f86ed8ad40b0497d12ba9295a22a05f2c95933832ec6530f/dbally-0.1.0.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.8.tar.gz tmp/AAIT-0.0.2.9.tar.gz --markdown 20240603/A/AAIT/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.1.0.dev9293282609.tar.gz tmp/recon_lw-3.1.0.dev9348340929.tar.gz --markdown 20240603/r/recon-lw/3.1.0.dev9293282609-3.1.0.dev9348340929/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [django-env-robots]: Downloading https://files.pythonhosted.org/packages/6c/61/f6539fad7b4ed901dd8bc8bda203cfc6da4e8b8084d4c6370c08dd225937/django_env_robots-0.0.4.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/66/2d/199365d1f91b94c3826e2bc53231a8460cd3c8690bbf3fbeee3fc1213581/ci_cloudconnector-2.9.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-common]: Downloading https://files.pythonhosted.org/packages/99/45/6a105b7c84731de0dbc193668427d967b653144f943b63f76743e2570893/opal-common-0.7.7.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [django-env-robots]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [django-env-robots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_env_robots-0.0.3.tar.gz tmp/django_env_robots-0.0.4.tar.gz --markdown 20240603/d/django-env-robots/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-client]: Downloading https://files.pythonhosted.org/packages/3e/4e/19fecedf94708c008e921173e34e435a330074a97c4a6689330ae88f4b30/opal-client-0.7.7.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [image-functions]: Downloading https://files.pythonhosted.org/packages/ae/d3/2b622cf611c7efce2cd8b2b05334481007b5fad5817eb3bbd4aa4f6a7511/image_functions-0.1.3.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-2.8.tar.gz tmp/ci_cloudconnector-2.9.tar.gz --markdown 20240603/C/CI-CloudConnector/2.8-2.9/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-server]: Downloading https://files.pythonhosted.org/packages/d2/d4/5e4515066cd1cf491ceeb645adf94b310da7da18b72f79c1d2a53389ea15/opal-server-0.7.7.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [blint]: Downloading https://files.pythonhosted.org/packages/ba/60/41898b95ec92de527e166e4b4bbdd1014b9b44eb28732f289f9588c0152c/blint-2.1.8.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [dbally]: Downloading https://files.pythonhosted.org/packages/65/9a/0091b2ab659f7714674de850534684b8768b120dc84820063fc477342a1e/dbally-0.2.0.tar.gz
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-common]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opal_common-0.7.6.tar.gz tmp/opal-common-0.7.7.tar.gz --markdown 20240603/o/opal-common/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [blint]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [blint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blint-2.1.7.tar.gz tmp/blint-2.1.8.tar.gz --markdown 20240603/b/blint/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [dbally]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [dbally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbally-0.1.0.tar.gz tmp/dbally-0.2.0.tar.gz --markdown 20240603/d/dbally/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-client]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opal_client-0.7.6.tar.gz tmp/opal-client-0.7.7.tar.gz --markdown 20240603/o/opal-client/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [image-functions]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [image-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_functions-0.1.2.tar.gz tmp/image_functions-0.1.3.tar.gz --markdown 20240603/i/image-functions/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-server]: executing diffoscope
+[2024-06-03 15:43:26] INFO root fetch - processPackages [opal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opal_server-0.7.6.tar.gz tmp/opal-server-0.7.7.tar.gz --markdown 20240603/o/opal-server/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-06-03 15:43:27] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.8.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.9.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-2.8.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-2.9.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [django-env-robots]: Remove: archive file [/home/abi/fetcher/tmp/django_env_robots-0.0.3.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [django-env-robots]: Remove: archive file [/home/abi/fetcher/tmp/django_env_robots-0.0.4.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [django-env-robots]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [opal-client]: Remove: archive file [/home/abi/fetcher/tmp/opal_client-0.7.6.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [opal-client]: Remove: archive file [/home/abi/fetcher/tmp/opal-client-0.7.7.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [opal-client]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev9293282609.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev9348340929.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-2.1.7.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [blint]: Remove: archive file [/home/abi/fetcher/tmp/blint-2.1.8.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [blint]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [dbally]: Remove: archive file [/home/abi/fetcher/tmp/dbally-0.1.0.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [dbally]: Remove: archive file [/home/abi/fetcher/tmp/dbally-0.2.0.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [dbally]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [opal-server]: Remove: archive file [/home/abi/fetcher/tmp/opal_server-0.7.6.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [opal-server]: Remove: archive file [/home/abi/fetcher/tmp/opal-server-0.7.7.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [opal-server]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [opal-common]: Remove: archive file [/home/abi/fetcher/tmp/opal_common-0.7.6.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [opal-common]: Remove: archive file [/home/abi/fetcher/tmp/opal-common-0.7.7.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [opal-common]: success
+[2024-06-03 15:43:27] INFO root fetch - processPackages [image-functions]: Remove: archive file [/home/abi/fetcher/tmp/image_functions-0.1.2.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - processPackages [image-functions]: Remove: archive file [/home/abi/fetcher/tmp/image_functions-0.1.3.tar.gz]
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [image-functions]: success
+[2024-06-03 15:43:27] INFO root fetch - main [MainThread]: Store serial: [23503537]
