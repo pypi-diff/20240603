@@ -5785,3 +5785,15 @@ EOFError: EOF read where object expected
 [2024-06-03 06:30:41] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.8-py3-none-any.whl.zip]
 [2024-06-03 06:30:41] INFO root fetch - main [MainThread]: End processing [toyai]: success
 [2024-06-03 06:30:41] INFO root fetch - main [MainThread]: Store serial: [23496665]
+[2024-06-03 06:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496665]
+[2024-06-03 06:32:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 06:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roofAI
+[2024-06-03 06:32:50] INFO root fetch - processPackages [roofAI]: New version: [4.35.1] Old Version: [4.34.1]
+[2024-06-03 06:32:50] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/eb/f7/90add71bab4ea0bf28bc171c273ba123c491651601148523a63cce83c8ed/roofai-4.34.1.tar.gz
+[2024-06-03 06:32:50] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/8c/4e/10504b79c970e861683ca313f08e0cfed4ef264fa2563abce751b22de483/roofai-4.35.1.tar.gz
+[2024-06-03 06:32:50] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-06-03 06:32:50] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofai-4.34.1.tar.gz tmp/roofai-4.35.1.tar.gz --markdown 20240603/r/roofAI/4.34.1-4.35.1/README.md --exclude *.pyd
+[2024-06-03 06:32:50] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.34.1.tar.gz]
+[2024-06-03 06:32:50] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.35.1.tar.gz]
+[2024-06-03 06:32:50] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-06-03 06:32:50] INFO root fetch - main [MainThread]: Store serial: [23496668]
