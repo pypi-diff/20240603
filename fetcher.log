@@ -3434,3 +3434,33 @@ EOFError: EOF read where object expected
 [2024-06-03 04:11:49] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.33.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-06-03 04:11:49] INFO root fetch - main [MainThread]: End processing [baml-py]: success
 [2024-06-03 04:11:49] INFO root fetch - main [MainThread]: Store serial: [23495584]
+[2024-06-03 04:13:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495584]
+[2024-06-03 04:13:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spiritlong
+[2024-06-03 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fish-util
+[2024-06-03 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kumparanian
+[2024-06-03 04:13:57] INFO root fetch - processPackages [spiritlong]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 04:13:57] INFO root fetch - processPackages [kumparanian]: New version: [1.2.0rc3] Old Version: [1.2.0rc2]
+[2024-06-03 04:13:57] INFO root fetch - processPackages [fish-util]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 04:13:57] INFO root fetch - processPackages [spiritlong]: Downloading https://files.pythonhosted.org/packages/5e/d8/143d2ed94f71c39fb927d0d25ed1317ebd1a296f2a08fe7afc6bbe7a3421/spiritlong-0.0.8.tar.gz
+[2024-06-03 04:13:57] INFO root fetch - processPackages [fish-util]: Downloading https://files.pythonhosted.org/packages/a5/de/e1c5c6012a65cfaa624abb3728533f54a626460c2a6d087b37043ec203a5/fish_util-0.0.5.tar.gz
+[2024-06-03 04:13:57] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/c2/f7/90a13e3f4bbc4c4ad2852e4f151dc06f8b0bd9b59c41c24f2c85cbe0d9c5/kumparanian-1.2.0rc2.tar.gz
+[2024-06-03 04:13:58] INFO root fetch - processPackages [fish-util]: Downloading https://files.pythonhosted.org/packages/35/bb/384fe477cafcc7886e21c88a84770ba555e046b359c27ec95378b5442287/fish_util-0.0.6.tar.gz
+[2024-06-03 04:13:58] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/0e/3d/bdadfd48ba0ef930e73052081270a8663228287e92bf97ca9a51fc189f34/kumparanian-1.2.0rc3.tar.gz
+[2024-06-03 04:13:58] INFO root fetch - processPackages [fish-util]: executing diffoscope
+[2024-06-03 04:13:58] INFO root fetch - processPackages [fish-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_util-0.0.5.tar.gz tmp/fish_util-0.0.6.tar.gz --markdown 20240603/f/fish-util/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 04:13:58] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-06-03 04:13:58] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.2.0rc2.tar.gz tmp/kumparanian-1.2.0rc3.tar.gz --markdown 20240603/k/kumparanian/1.2.0rc2-1.2.0rc3/README.md --exclude *.pyd
+[2024-06-03 04:13:58] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.2.0rc2.tar.gz]
+[2024-06-03 04:13:58] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.2.0rc3.tar.gz]
+[2024-06-03 04:13:58] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-06-03 04:13:58] INFO root fetch - processPackages [fish-util]: Remove: archive file [/home/abi/fetcher/tmp/fish_util-0.0.5.tar.gz]
+[2024-06-03 04:13:58] INFO root fetch - processPackages [fish-util]: Remove: archive file [/home/abi/fetcher/tmp/fish_util-0.0.6.tar.gz]
+[2024-06-03 04:13:58] INFO root fetch - main [MainThread]: End processing [fish-util]: success
+[2024-06-03 04:13:59] INFO root fetch - processPackages [spiritlong]: Downloading https://files.pythonhosted.org/packages/69/03/0a73ef95ca97480a75a1e73ef622a4e6470aede2a9778b93c73b0020bd62/spiritlong-0.0.9.tar.gz
+[2024-06-03 04:13:59] INFO root fetch - processPackages [spiritlong]: executing diffoscope
+[2024-06-03 04:13:59] INFO root fetch - processPackages [spiritlong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiritlong-0.0.8.tar.gz tmp/spiritlong-0.0.9.tar.gz --markdown 20240603/s/spiritlong/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 04:13:59] INFO root fetch - processPackages [spiritlong]: Remove: archive file [/home/abi/fetcher/tmp/spiritlong-0.0.8.tar.gz]
+[2024-06-03 04:13:59] INFO root fetch - processPackages [spiritlong]: Remove: archive file [/home/abi/fetcher/tmp/spiritlong-0.0.9.tar.gz]
+[2024-06-03 04:13:59] INFO root fetch - main [MainThread]: End processing [spiritlong]: success
+[2024-06-03 04:13:59] INFO root fetch - main [MainThread]: Store serial: [23495596]
