@@ -3735,3 +3735,33 @@ EOFError: EOF read where object expected
 [2024-06-03 04:29:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240602171230.tar.gz]
 [2024-06-03 04:29:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-06-03 04:29:32] INFO root fetch - main [MainThread]: Store serial: [23495733]
+[2024-06-03 04:31:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495733]
+[2024-06-03 04:31:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 04:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deshi-hello-world
+[2024-06-03 04:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Agentic-Reports
+[2024-06-03 04:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yuankong
+[2024-06-03 04:31:40] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.5] Old Version: [0.4]
+[2024-06-03 04:31:40] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 04:31:41] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/6d/ac/0c43dc303db101762e7cb95123d3e186a17d86b36d4f52ce7496dece0500/deshi_hello_world-0.4.tar.gz
+[2024-06-03 04:31:41] INFO root fetch - processPackages [yuankong]: New version: [0.8] Old Version: [0.7]
+[2024-06-03 04:31:41] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/0e/76/b2bb93a97791f5aa4fc23c5a5e70ca9cf92056b9358c2d91cb0abe778075/Agentic-Reports-0.0.5.tar.gz
+[2024-06-03 04:31:41] INFO root fetch - processPackages [yuankong]: Downloading https://files.pythonhosted.org/packages/23/4b/ece05b15490f1111c14b4f60fe8ab26bd93bb0de12cf2938621911bbdf44/yuankong-0.7.tar.gz
+[2024-06-03 04:31:41] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/7a/19/2b056a98abdf9319d969fafeeae9c5b9b5826c7542e16714caa13d58b1a7/deshi_hello_world-0.5.tar.gz
+[2024-06-03 04:31:41] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/04/ee/4cb4ae827bece1905e803eee195035e9ab06d7e089bf1803fcac1a50edd6/Agentic-Reports-0.0.6.tar.gz
+[2024-06-03 04:31:41] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 04:31:41] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.4.tar.gz tmp/deshi_hello_world-0.5.tar.gz --markdown 20240603/d/deshi-hello-world/0.4-0.5/README.md --exclude *.pyd
+[2024-06-03 04:31:41] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 04:31:41] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.5.tar.gz tmp/Agentic-Reports-0.0.6.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 04:31:41] INFO root fetch - processPackages [yuankong]: Downloading https://files.pythonhosted.org/packages/bd/ed/2e08a16236fad6810a247476b1ad12201ef90bdd0012574b36b532dc7895/yuankong-0.8.tar.gz
+[2024-06-03 04:31:41] INFO root fetch - processPackages [yuankong]: executing diffoscope
+[2024-06-03 04:31:41] INFO root fetch - processPackages [yuankong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuankong-0.7.tar.gz tmp/yuankong-0.8.tar.gz --markdown 20240603/y/yuankong/0.7-0.8/README.md --exclude *.pyd
+[2024-06-03 04:31:41] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.4.tar.gz]
+[2024-06-03 04:31:41] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.5.tar.gz]
+[2024-06-03 04:31:41] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 04:31:42] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.5.tar.gz]
+[2024-06-03 04:31:42] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.6.tar.gz]
+[2024-06-03 04:31:42] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 04:31:42] INFO root fetch - processPackages [yuankong]: Remove: archive file [/home/abi/fetcher/tmp/yuankong-0.7.tar.gz]
+[2024-06-03 04:31:42] INFO root fetch - processPackages [yuankong]: Remove: archive file [/home/abi/fetcher/tmp/yuankong-0.8.tar.gz]
+[2024-06-03 04:31:42] INFO root fetch - main [MainThread]: End processing [yuankong]: success
+[2024-06-03 04:31:42] INFO root fetch - main [MainThread]: Store serial: [23495742]
