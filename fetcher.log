@@ -7341,3 +7341,15 @@ EOFError: EOF read where object expected
 [2024-06-03 08:08:44] INFO root fetch - processPackages [gget]: Remove: archive file [/home/abi/fetcher/tmp/gget-0.3.9.tar.gz]
 [2024-06-03 08:08:44] INFO root fetch - main [MainThread]: End processing [gget]: success
 [2024-06-03 08:08:44] INFO root fetch - main [MainThread]: Store serial: [23497248]
+[2024-06-03 08:10:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497248]
+[2024-06-03 08:10:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-command-center
+[2024-06-03 08:10:52] INFO root fetch - processPackages [dbt-command-center]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 08:10:53] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/be/f2/bd7bb6ed02db3abf4be3dbd9bec4ac6ec28c78772395c4c048c5d2e7ab67/dbt_command_center-0.1.8.tar.gz
+[2024-06-03 08:10:53] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/66/5f/5fedd28b2272fdf006ed8bb414d5fad18369ccd87f8092e9f90a626017b7/dbt_command_center-0.1.9.tar.gz
+[2024-06-03 08:10:53] INFO root fetch - processPackages [dbt-command-center]: executing diffoscope
+[2024-06-03 08:10:53] INFO root fetch - processPackages [dbt-command-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_command_center-0.1.8.tar.gz tmp/dbt_command_center-0.1.9.tar.gz --markdown 20240603/d/dbt-command-center/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 08:10:56] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.8.tar.gz]
+[2024-06-03 08:10:56] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.9.tar.gz]
+[2024-06-03 08:10:56] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
+[2024-06-03 08:10:56] INFO root fetch - main [MainThread]: Store serial: [23497254]
