@@ -8458,3 +8458,61 @@ EOFError: EOF read where object expected
 [2024-06-03 09:19:42] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.9.tar.gz]
 [2024-06-03 09:19:42] INFO root fetch - main [MainThread]: End processing [jms-storage]: success
 [2024-06-03 09:19:42] INFO root fetch - main [MainThread]: Store serial: [23497763]
+[2024-06-03 09:21:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497763]
+[2024-06-03 09:21:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dpwx
+[2024-06-03 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afl-ai-utils
+[2024-06-03 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copilothistoryexporter
+[2024-06-03 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gluonts
+[2024-06-03 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-runtime-nightly
+[2024-06-03 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloud-governance
+[2024-06-03 09:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-runtime-nightly
+[2024-06-03 09:21:50] WARNING root fetch - processPackages [dpwx]: Skipping, unable to determine old version
+[2024-06-03 09:21:50] INFO root fetch - main [MainThread]: End processing [dpwx] error
+[2024-06-03 09:21:50] INFO root fetch - processPackages [copilothistoryexporter]: New version: [1.1.0] Old Version: [1.0.3.8]
+[2024-06-03 09:21:50] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/08/f5/3512cfd00ca6d64f293f2cff126af5474e3f4b542a0a18ec39863bd540bb/copilothistoryexporter-1.0.3.8.tar.gz
+[2024-06-03 09:21:50] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-06-03 09:21:50] INFO root fetch - processPackages [afl-ai-utils]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-06-03 09:21:50] INFO root fetch - processPackages [gluonts]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 09:21:51] INFO root fetch - processPackages [afl-ai-utils]: Downloading https://files.pythonhosted.org/packages/dd/59/13e53312cc065bbf3f6e88b189e2133519a6702bb6179edbe4086488781a/afl-ai-utils-0.5.1.tar.gz
+[2024-06-03 09:21:51] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/60/f7/d0ddd80a3d92edfb8f3c89386d86c59ef4105f9632ec7c2b9beed228df72/gluonts-0.9.8.tar.gz
+[2024-06-03 09:21:51] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-06-03 09:21:51] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/7b/a1/85067c899607ebd1794c3e3b8ce3c0b03ad2c5c11162e8f9c415e25ff099/copilothistoryexporter-1.1.0.tar.gz
+[2024-06-03 09:21:51] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240603] Old Version: [2.17.0.dev20240602]
+[2024-06-03 09:21:51] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240603] Old Version: [2.17.0.dev20240602]
+[2024-06-03 09:21:51] INFO root fetch - processPackages [copilothistoryexporter]: executing diffoscope
+[2024-06-03 09:21:51] INFO root fetch - processPackages [copilothistoryexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copilothistoryexporter-1.0.3.8.tar.gz tmp/copilothistoryexporter-1.1.0.tar.gz --markdown 20240603/c/copilothistoryexporter/1.0.3.8-1.1.0/README.md --exclude *.pyd
+[2024-06-03 09:21:51] INFO root fetch - processPackages [afl-ai-utils]: Downloading https://files.pythonhosted.org/packages/c8/4b/87554745ff5fd141055a5351741708d2fd38d509a140b9ddf77a637e9edc/afl-ai-utils-0.5.2.tar.gz
+[2024-06-03 09:21:51] INFO root fetch - processPackages [afl-ai-utils]: executing diffoscope
+[2024-06-03 09:21:51] INFO root fetch - processPackages [afl-ai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afl-ai-utils-0.5.1.tar.gz tmp/afl-ai-utils-0.5.2.tar.gz --markdown 20240603/a/afl-ai-utils/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-06-03 09:21:51] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ef/6c/966001d115989bb16ca49d33942bbad4461a431b6864f90c1228b6b5e2bd/tflite_runtime_nightly-2.17.0.dev20240602-cp311-cp311-manylinux_2_34_armv7l.whl
+[2024-06-03 09:21:51] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ef/6c/966001d115989bb16ca49d33942bbad4461a431b6864f90c1228b6b5e2bd/tflite_runtime_nightly-2.17.0.dev20240602-cp311-cp311-manylinux_2_34_armv7l.whl
+[2024-06-03 09:21:51] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-06-03 09:21:51] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-06-03 09:21:51] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240603/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-06-03 09:21:51] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/f7/87/dfac0670fc583f4f815e8f67a47876c663c990e089c5d7a218bf3da607d2/gluonts-0.9.9.tar.gz
+[2024-06-03 09:21:52] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.0.3.8.tar.gz]
+[2024-06-03 09:21:52] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.1.0.tar.gz]
+[2024-06-03 09:21:52] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter]: success
+[2024-06-03 09:21:52] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.5.1.tar.gz]
+[2024-06-03 09:21:52] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.5.2.tar.gz]
+[2024-06-03 09:21:52] INFO root fetch - main [MainThread]: End processing [afl-ai-utils]: success
+[2024-06-03 09:21:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ce/91/7bf90afa75d69d98585a77bcc83db12e0789b1dc87fb450e427df45aabc8/tflite_runtime_nightly-2.17.0.dev20240603-cp39-cp39-manylinux2014_x86_64.whl
+[2024-06-03 09:21:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ce/91/7bf90afa75d69d98585a77bcc83db12e0789b1dc87fb450e427df45aabc8/tflite_runtime_nightly-2.17.0.dev20240603-cp39-cp39-manylinux2014_x86_64.whl
+[2024-06-03 09:21:52] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-06-03 09:21:52] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-06-03 09:21:52] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-06-03 09:21:53] INFO root fetch - processPackages [gluonts]: executing diffoscope
+[2024-06-03 09:21:53] INFO root fetch - processPackages [gluonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluonts-0.9.8.tar.gz tmp/gluonts-0.9.9.tar.gz --markdown 20240603/g/gluonts/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 09:21:55] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-06-03 09:21:55] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240602-cp311-cp311-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240603-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240603/t/tflite-runtime-nightly/2.17.0.dev20240602-2.17.0.dev20240603/README.md --exclude *.pyd
+[2024-06-03 09:21:55] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-06-03 09:21:55] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240602-cp311-cp311-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240603-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240603/t/tflite-runtime-nightly/2.17.0.dev20240602-2.17.0.dev20240603/README.md --exclude *.pyd
+[2024-06-03 09:21:57] INFO root fetch - processPackages [gluonts]: Remove: archive file [/home/abi/fetcher/tmp/gluonts-0.9.8.tar.gz]
+[2024-06-03 09:21:57] INFO root fetch - processPackages [gluonts]: Remove: archive file [/home/abi/fetcher/tmp/gluonts-0.9.9.tar.gz]
+[2024-06-03 09:21:57] INFO root fetch - main [MainThread]: End processing [gluonts]: success
+[2024-06-03 09:22:23] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240602-cp311-cp311-manylinux_2_34_armv7l.whl.zip]
+[2024-06-03 09:22:23] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240603-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-06-03 09:22:23] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-06-03 09:22:23] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-06-03 09:22:23] INFO root fetch - main [MainThread]: Store serial: [23497787]
