@@ -21395,3 +21395,162 @@ EOFError: EOF read where object expected
 [2024-06-03 15:30:09] INFO root fetch - processPackages [spacestudio-satellite-client]: Remove: archive file [/home/abi/fetcher/tmp/spacestudio-satellite-client-1.0.9.tar.gz]
 [2024-06-03 15:30:09] INFO root fetch - main [MainThread]: End processing [spacestudio-satellite-client]: success
 [2024-06-03 15:30:09] INFO root fetch - main [MainThread]: Store serial: [23503311]
+[2024-06-03 15:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503311]
+[2024-06-03 15:32:19] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-nd2
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-ometiff
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polaris-catalog
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dropbox
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: massmarket-hash-event
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: large-image-source-openjpeg
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cosmic-crisp
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rxnSMILES4AtomEco
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-source-openslide
+[2024-06-03 15:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-pil
+[2024-06-03 15:32:19] INFO root fetch - processPackages [cosmic-crisp]: New version: [0.1.0.dev20240603124937] Old Version: [0.1.0.dev20240603124322]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [massmarket-hash-event]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [rxnSMILES4AtomEco]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-ometiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-nd2]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 15:32:19] WARNING root fetch - processPackages [polaris-catalog]: Skipping, unable to determine old version
+[2024-06-03 15:32:19] INFO root fetch - processPackages [polaris-catalog]: Start processing: CI-CloudConnector
+[2024-06-03 15:32:19] INFO root fetch - main [MainThread]: End processing [polaris-catalog] error
+[2024-06-03 15:32:19] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/dc/4e/481d1f1bde096a22a8e25948e20dc517a472083e545041f9e2de5c3b237a/cosmic_crisp-0.1.0.dev20240603124322.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [dropbox]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/62/43/ee7dff22ed2010638ae04420c847d0eeeffd3ec95c15aef5dd78c0f9de79/large-image-source-pil-1.9.1.dev6.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/a4/96/04ee73ff01b3b25987f5d8e668b4fcbe9a3c9f03958f5f6c4fedb9574e7a/rxnSMILES4AtomEco-1.0.8.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/73/2c/cb5bcd12f494516af0965d8399bae2e5b62d6c0afc01da7b16b2ebef69c2/large-image-source-openslide-1.9.1.dev6.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/1a/29/7390d858dfa6f7980312cb40b7706fbad943f78bf477bf6315522dafc015/large-image-source-nd2-1.9.1.dev6.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/bb/20/abe29d1a7090a27942d561a017cb03bc54c866fbfa013b3b78b0298d9f38/massmarket_hash_event-0.1.5.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/95/ea/1df84324de3d3648afee1380dfe201cc2df04f407dc2811e7244e4f911d8/large-image-source-openjpeg-1.9.1.dev6.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [CI-CloudConnector]: New version: [2.8] Old Version: [2.7]
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/e8/92/40431cff52dd08697018589d4cd716496dc3b1a45d50f232d8d37f735798/large-image-source-ometiff-1.9.1.dev6.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [dropbox]: Downloading https://files.pythonhosted.org/packages/88/c9/899c5d112eb4aa48fb611153c2f2eadafd859cbdee637b376d140a60e50d/dropbox-9.4.0.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/b7/7b/cc30d5fc7ad5640b0c977c3652c6cbace19580ae4a6cd5bcdd7f7446f1d4/ci_cloudconnector-2.7.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/51/73/2b201201e4bd4d42037d602dc35d468eba8131dce691debda3e43e3817f7/large-image-source-pil-1.9.1.dev8.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/9e/92/e9db54b12dc4ca451784b66af1e6427ceaa6cb3b19737a0b7b979d7ff006/rxnSMILES4AtomEco-1.0.9.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/f0/7e/d45a7c8f1888ff585bf418622f627fb048aaa7ed8d8e2b8d7e97a3c27f8e/large-image-source-openslide-1.9.1.dev8.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/e2/73/86ec6d93de63690b5e2a8a2f6fc98fce9a12e4da38b4cfc37f1188c0240c/large-image-source-nd2-1.9.1.dev8.tar.gz
+[2024-06-03 15:32:19] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/47/60/d33df50ba036783c4851d0f8aa9a8c968be4c6fbbef348edf250975eb306/cosmic_crisp-0.1.0.dev20240603124937.tar.gz
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/8f/73/a25300dd64f045a5c3bad6c454d98e1d7dc0728d40536c8ec22fe913f92b/large-image-source-ometiff-1.9.1.dev8.tar.gz
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/b7/c9/95c7e2154104780b160e9968dd9863f2de88d77a5986bc280d05e4811ebd/large-image-source-openjpeg-1.9.1.dev8.tar.gz
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [rxnSMILES4AtomEco]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [rxnSMILES4AtomEco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxnSMILES4AtomEco-1.0.8.tar.gz tmp/rxnSMILES4AtomEco-1.0.9.tar.gz --markdown 20240603/r/rxnSMILES4AtomEco/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/12/1d/eb2254d5043c7880589e3677ff5bda954a1796b5688bdbf92ca8020f3f66/massmarket_hash_event-0.1.6.tar.gz
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-nd2]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-nd2-1.9.1.dev6.tar.gz tmp/large-image-source-nd2-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-nd2/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-ometiff]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-ometiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-ometiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [cosmic-crisp]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [cosmic-crisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmic_crisp-0.1.0.dev20240603124322.tar.gz tmp/cosmic_crisp-0.1.0.dev20240603124937.tar.gz --markdown 20240603/c/cosmic-crisp/0.1.0.dev20240603124322-0.1.0.dev20240603124937/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [massmarket-hash-event]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/40/f9/2542ce1ad7cd48aafba773a83220e84c88fb3dabfcc1c87eae97e6d68f3e/ci_cloudconnector-2.8.tar.gz
+[2024-06-03 15:32:20] INFO root fetch - processPackages [massmarket-hash-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massmarket_hash_event-0.1.5.tar.gz tmp/massmarket_hash_event-0.1.6.tar.gz --markdown 20240603/m/massmarket-hash-event/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [dropbox]: Downloading https://files.pythonhosted.org/packages/20/6c/e48d2ee92514240ce8b779985f108cad3833f2ef7a1b004af575e279220e/dropbox-9.5.0.tar.gz
+[2024-06-03 15:32:20] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-2.7.tar.gz tmp/ci_cloudconnector-2.8.tar.gz --markdown 20240603/C/CI-CloudConnector/2.7-2.8/README.md --exclude *.pyd
+[2024-06-03 15:32:20] INFO root fetch - processPackages [dropbox]: executing diffoscope
+[2024-06-03 15:32:20] INFO root fetch - processPackages [dropbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dropbox-9.4.0.tar.gz tmp/dropbox-9.5.0.tar.gz --markdown 20240603/d/dropbox/9.4.0-9.5.0/README.md --exclude *.pyd
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev6.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev8.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-pil]: Start processing: large-image-source-rasterio
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev6.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev8.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-openslide]: Start processing: credsweeper
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.28.3.dev8] Old Version: [1.28.3.dev6]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.8.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.9.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Start processing: large-image-source-test
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [rxnSMILES4AtomEco]: success
+[2024-06-03 15:32:21] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.5.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.6.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev6.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [massmarket-hash-event]: Start processing: literalai
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev8.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [massmarket-hash-event]: success
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-nd2]: Start processing: large-image-source-tiff
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [large-image-source-nd2]: success
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [credsweeper]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-openjpeg]: Start processing: feeluown-bilibili
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240603124322.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240603124937.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [cosmic-crisp]: Start processing: large-image-source-tifffile
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [cosmic-crisp]: success
+[2024-06-03 15:32:21] INFO root fetch - processPackages [literalai]: New version: [0.0.605] Old Version: [0.0.604]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/59/fd/85010827dcfb31a43360ecb5fc659be3439f2f1fe9ccdb0febc47aacbb5d/large-image-source-rasterio-1.28.3.dev6.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-2.7.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-2.8.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz]
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-06-03 15:32:21] INFO root fetch - main [MainThread]: End processing [large-image-source-ometiff]: success
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [feeluown-bilibili]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.28.3.dev8] Old Version: [1.28.3.dev6]
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/33/e3/5d1af31a7523db06bf499646b54f98da0beee859eb1ec88c6b5161a24317/credsweeper-1.7.0.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/72/b7/014ae63963299a5acef94e7ae73f1b5af8f2d642ee05a4ec2ffbe3a1ab70/large-image-source-tifffile-1.28.3.dev6.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/b4/5d/a42a0cf1e4bb99a6c2dfb29efdb646606cf945b6c6b70403db928b77e21f/literalai-0.0.604.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/11/db/a0b7850a7c17cf0845c21d1c6f3c451736d5a8e89d13f852162254724f68/large-image-source-rasterio-1.28.3.dev8.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [feeluown-bilibili]: Downloading https://files.pythonhosted.org/packages/d4/02/b893399d80321959a025d1af3429dd53d1305afb3e051896ad3f89c3a727/feeluown-bilibili-0.3.3.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.28.3.dev6.tar.gz tmp/large-image-source-rasterio-1.28.3.dev8.tar.gz --markdown 20240603/l/large-image-source-rasterio/1.28.3.dev6-1.28.3.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:21] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/ca/ec/fa63e4b91bcfc924e8f57e2bfbf35f589e88decd9e92b5491dffc8a04a65/large-image-source-tifffile-1.28.3.dev8.tar.gz
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240603/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.28.3.dev6.tar.gz tmp/large-image-source-tifffile-1.28.3.dev8.tar.gz --markdown 20240603/l/large-image-source-tifffile/1.28.3.dev6-1.28.3.dev8/README.md --exclude *.pyd
+[2024-06-03 15:32:22] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/a4/0d/a92a6737ec9fb2954f7c5014e9fc80cfa2fc61c8ff676dbb34e9e4002671/literalai-0.0.605.tar.gz
+[2024-06-03 15:32:22] INFO root fetch - processPackages [feeluown-bilibili]: Downloading https://files.pythonhosted.org/packages/5f/5f/189d733020d1314ee3bf961c5134e3c20cae4023762ffddf2ade4cbd2caf/feeluown-bilibili-0.4.0.tar.gz
+[2024-06-03 15:32:22] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-06-03 15:32:22] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.604.tar.gz tmp/literalai-0.0.605.tar.gz --markdown 20240603/l/literalai/0.0.604-0.0.605/README.md --exclude *.pyd
+[2024-06-03 15:32:22] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/32/e2/645efc85f15805fb95d25b206caeb99bece3c9f03673b4ee6223c6ddbc1e/credsweeper-1.7.1.tar.gz
+[2024-06-03 15:32:22] INFO root fetch - processPackages [feeluown-bilibili]: executing diffoscope
+[2024-06-03 15:32:22] INFO root fetch - processPackages [feeluown-bilibili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feeluown-bilibili-0.3.3.tar.gz tmp/feeluown-bilibili-0.4.0.tar.gz --markdown 20240603/f/feeluown-bilibili/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-06-03 15:32:22] INFO root fetch - processPackages [credsweeper]: executing diffoscope
+[2024-06-03 15:32:22] INFO root fetch - processPackages [credsweeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credsweeper-1.7.0.tar.gz tmp/credsweeper-1.7.1.tar.gz --markdown 20240603/c/credsweeper/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.3.dev6.tar.gz]
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.3.dev8.tar.gz]
+[2024-06-03 15:32:22] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2024-06-03 15:32:22] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2024-06-03 15:32:22] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2024-06-03 15:32:23] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-06-03 15:32:23] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-06-03 15:32:23] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-06-03 15:32:23] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.3.dev6.tar.gz]
+[2024-06-03 15:32:23] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.3.dev8.tar.gz]
+[2024-06-03 15:32:23] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-06-03 15:32:23] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.604.tar.gz]
+[2024-06-03 15:32:23] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.605.tar.gz]
+[2024-06-03 15:32:23] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-06-03 15:32:23] INFO root fetch - processPackages [feeluown-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/feeluown-bilibili-0.3.3.tar.gz]
+[2024-06-03 15:32:23] INFO root fetch - processPackages [feeluown-bilibili]: Remove: archive file [/home/abi/fetcher/tmp/feeluown-bilibili-0.4.0.tar.gz]
+[2024-06-03 15:32:23] INFO root fetch - main [MainThread]: End processing [feeluown-bilibili]: success
+[2024-06-03 15:32:24] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.7.0.tar.gz]
+[2024-06-03 15:32:24] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.7.1.tar.gz]
+[2024-06-03 15:32:24] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
+[2024-06-03 15:32:24] INFO root fetch - processPackages [dropbox]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-9.4.0.tar.gz]
+[2024-06-03 15:32:24] INFO root fetch - processPackages [dropbox]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-9.5.0.tar.gz]
+[2024-06-03 15:32:24] INFO root fetch - main [MainThread]: End processing [dropbox]: success
+[2024-06-03 15:32:24] INFO root fetch - main [MainThread]: Store serial: [23503370]
