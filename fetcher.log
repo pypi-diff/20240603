@@ -22134,3 +22134,106 @@ EOFError: EOF read where object expected
 [2024-06-03 15:50:00] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.7b9.tar.gz]
 [2024-06-03 15:50:00] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2024-06-03 15:50:00] INFO root fetch - main [MainThread]: Store serial: [23503599]
+[2024-06-03 15:52:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503599]
+[2024-06-03 15:52:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xpresslibs
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-node-binding
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xpress
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-energy-communities
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-intel
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbworkload
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: folx
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multi-med-image-ml
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: haystack-ai
+[2024-06-03 15:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mail-post-defer
+[2024-06-03 15:52:10] INFO root fetch - processPackages [folx]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-06-03 15:52:10] INFO root fetch - processPackages [xpress]: New version: [9.4.0] Old Version: [9.3.1]
+[2024-06-03 15:52:10] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240531] Old Version: [2.17.0.dev20240530]
+[2024-06-03 15:52:10] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.9.2.0] Old Version: [14.0.9.1.0]
+[2024-06-03 15:52:10] WARNING root fetch - processPackages [dbworkload]: Skipping, unable to determine old version
+[2024-06-03 15:52:10] INFO root fetch - processPackages [dbworkload]: Start processing: hddm-r
+[2024-06-03 15:52:10] INFO root fetch - main [MainThread]: End processing [dbworkload] error
+[2024-06-03 15:52:10] INFO root fetch - processPackages [haystack-ai]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2024-06-03 15:52:10] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 15:52:10] WARNING root fetch - processPackages [xpresslibs]: Skipping, unable to determine old version
+[2024-06-03 15:52:10] INFO root fetch - processPackages [xpresslibs]: Start processing: odoo14-addon-energy-communities-cooperator
+[2024-06-03 15:52:10] INFO root fetch - main [MainThread]: End processing [xpresslibs] error
+[2024-06-03 15:52:10] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.2]
+[2024-06-03 15:52:10] INFO root fetch - processPackages [folx]: Downloading https://files.pythonhosted.org/packages/f7/d1/19d5ad7c1a2e1f94ec69b13d34b8fed10dfab24cb0a952e2cfa86b97adcf/folx-0.2.6.tar.gz
+[2024-06-03 15:52:10] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [4.0.3.post1388] Old Version: [4.0.1.post1382]
+[2024-06-03 15:52:10] WARNING root fetch - processPackages [hddm-r]: Skipping, unable to determine old version
+[2024-06-03 15:52:10] INFO root fetch - processPackages [hddm-r]: Start processing: yatbaf
+[2024-06-03 15:52:10] INFO root fetch - main [MainThread]: End processing [hddm-r] error
+[2024-06-03 15:52:10] INFO root fetch - processPackages [xpress]: Downloading https://files.pythonhosted.org/packages/1b/9e/ea210b27c314bcde9c9bb0e5ac1e539fbcfaec656f3271d389e3cfb46594/xpress-9.3.1-cp39-cp39-win_amd64.whl
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/d1/db/6c706fe5d999e846f52eb04f22364e2b6fb71d27b86cd98cae9fa653938b/odoo14-addon-energy_communities-14.0.9.1.0.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [haystack-ai]: Downloading https://files.pythonhosted.org/packages/19/f7/1fc7109c56cc4373f52dbd9134abbfe42bb9ed6fbe3896d9630b59836268/haystack_ai-2.2.0rc1.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: Downloading https://files.pythonhosted.org/packages/c3/1c/7fde762ed28078b1404f67aa5c76347856f6c5a408fec1dad3b9d6a0fb1b/odoo_addon_mail_post_defer-16.0.1.1.0.2-py3-none-any.whl
+[2024-06-03 15:52:11] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/82/19/8d7762ff713c3d5d4cf1cb684b707dd4cf4fb6d7a6d88f6bea2953d156ae/tf_nightly_intel-2.17.0.dev20240530-cp39-cp39-win_amd64.whl
+[2024-06-03 15:52:11] INFO root fetch - processPackages [yatbaf]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities-cooperator]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2024-06-03 15:52:11] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/85/7a/40b2a31727d866d00462a3c5c0336dcd67a130b33da41471747d6ae79d0b/multi_med_image_ml-0.0.8.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [folx]: Downloading https://files.pythonhosted.org/packages/9a/fe/f75f6303dfc5c1ec0aed8fd0e06c67d594b3ae425b50222b29fff611a933/folx-0.2.7.tar.gz
+[2024-06-03 15:52:11] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 218672160>=10485760
+[2024-06-03 15:52:11] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: vonage
+[2024-06-03 15:52:11] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-06-03 15:52:11] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/70/3e/867ec79eb2d35569e0c7a9e910dbbd4de353b8d257ad17a5bc79d76adcc3/nucliadb_node_binding-4.0.1.post1382.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [folx]: executing diffoscope
+[2024-06-03 15:52:11] INFO root fetch - processPackages [folx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folx-0.2.6.tar.gz tmp/folx-0.2.7.tar.gz --markdown 20240603/f/folx/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities-cooperator]: Downloading https://files.pythonhosted.org/packages/8a/24/704475369cd0b8a1dd4327aceda0cf8c775274d149428a0ead96a37ead30/odoo14-addon-energy_communities_cooperator-14.0.1.0.1.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [yatbaf]: Downloading https://files.pythonhosted.org/packages/a9/9f/887e5b16de0adeae63e13804a8d50a16a30487d0bf5176771fedc3021d30/yatbaf-0.9.0.tar.gz
+[2024-06-03 15:52:11] WARNING root fetch - processPackages [xpress]: Skipping package: exceeds size limit 55717031>=10485760
+[2024-06-03 15:52:11] INFO root fetch - main [MainThread]: End processing [xpress] error
+[2024-06-03 15:52:11] INFO root fetch - processPackages [vonage]: New version: [3.99.1a10] Old Version: [3.99.0a9]
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/2c/84/7df072d0c00a1b60d595658c6bf50173fda4f185beb8c6524a1328356bdf/odoo14-addon-energy_communities-14.0.9.2.0.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: Downloading https://files.pythonhosted.org/packages/b4/ed/d2cd626511dd5100ca1b6e830512119f2ce620104b2ab6386d0f14fd2da0/odoo_addon_mail_post_defer-16.0.1.1.1-py3-none-any.whl
+[2024-06-03 15:52:11] INFO root fetch - processPackages [haystack-ai]: Downloading https://files.pythonhosted.org/packages/71/0e/f88048f05ed62073c889616b68d932f04e572bbd66de6111ba9835f328fe/haystack_ai-2.2.0rc2.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/4b/7b/da2c90701bab39a34a9486aaf4eecdecc4a60c53004857c14efa455d7e9b/nucliadb_node_binding-4.0.3.post1388.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [haystack-ai]: executing diffoscope
+[2024-06-03 15:52:11] INFO root fetch - processPackages [haystack-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haystack_ai-2.2.0rc1.tar.gz tmp/haystack_ai-2.2.0rc2.tar.gz --markdown 20240603/h/haystack-ai/2.2.0rc1-2.2.0rc2/README.md --exclude *.pyd
+[2024-06-03 15:52:11] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/4c/a5/8767d0465caed193c65f9b88dc57fa32a9d7d3fcee331aa071b3040fc21a/vonage-3.99.0a9.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities-cooperator]: Downloading https://files.pythonhosted.org/packages/bc/a2/119900b4ec1edcc39fe29fad4086618413b9b6621517ddbd11c3334576fb/odoo14-addon-energy_communities_cooperator-14.0.1.0.2.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: executing diffoscope
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_post_defer-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_post_defer-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-mail-post-defer/16.0.1.1.0.2-16.0.1.1.1/README.md --exclude *.pyd
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_communities-14.0.9.1.0.tar.gz tmp/odoo14-addon-energy_communities-14.0.9.2.0.tar.gz --markdown 20240603/o/odoo14-addon-energy-communities/14.0.9.1.0-14.0.9.2.0/README.md --exclude *.pyd
+[2024-06-03 15:52:11] INFO root fetch - processPackages [yatbaf]: Downloading https://files.pythonhosted.org/packages/52/06/6b6e99b630cf99858f98adfe75b0963f97edb6e0a3c22ce69ebd990437d1/yatbaf-0.9.1.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/af/bb/6cd3104b2205a0a01bd5686681b87f4f4253ff30f5fc219ba7c3cc390397/multi_med_image_ml-0.0.9.tar.gz
+[2024-06-03 15:52:11] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-06-03 15:52:11] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-4.0.1.post1382.tar.gz tmp/nucliadb_node_binding-4.0.3.post1388.tar.gz --markdown 20240603/n/nucliadb-node-binding/4.0.1.post1382-4.0.3.post1388/README.md --exclude *.pyd
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities-cooperator]: executing diffoscope
+[2024-06-03 15:52:11] INFO root fetch - processPackages [odoo14-addon-energy-communities-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_communities_cooperator-14.0.1.0.1.tar.gz tmp/odoo14-addon-energy_communities_cooperator-14.0.1.0.2.tar.gz --markdown 20240603/o/odoo14-addon-energy-communities-cooperator/14.0.1.0.1-14.0.1.0.2/README.md --exclude *.pyd
+[2024-06-03 15:52:11] INFO root fetch - processPackages [yatbaf]: executing diffoscope
+[2024-06-03 15:52:11] INFO root fetch - processPackages [yatbaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatbaf-0.9.0.tar.gz tmp/yatbaf-0.9.1.tar.gz --markdown 20240603/y/yatbaf/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 15:52:12] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/92/01/a52f3202c41d7ecd79ae2c73c318805f7446927b945e7ceae82635c0fa92/vonage-3.99.1a10.tar.gz
+[2024-06-03 15:52:12] INFO root fetch - processPackages [folx]: Remove: archive file [/home/abi/fetcher/tmp/folx-0.2.6.tar.gz]
+[2024-06-03 15:52:12] INFO root fetch - processPackages [folx]: Remove: archive file [/home/abi/fetcher/tmp/folx-0.2.7.tar.gz]
+[2024-06-03 15:52:12] INFO root fetch - main [MainThread]: End processing [folx]: success
+[2024-06-03 15:52:12] INFO root fetch - processPackages [vonage]: executing diffoscope
+[2024-06-03 15:52:12] INFO root fetch - processPackages [vonage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage-3.99.0a9.tar.gz tmp/vonage-3.99.1a10.tar.gz --markdown 20240603/v/vonage/3.99.0a9-3.99.1a10/README.md --exclude *.pyd
+[2024-06-03 15:52:12] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-06-03 15:52:12] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.8.tar.gz tmp/multi_med_image_ml-0.0.9.tar.gz --markdown 20240603/m/multi-med-image-ml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 15:52:12] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_post_defer-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-06-03 15:52:12] INFO root fetch - processPackages [odoo-addon-mail-post-defer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_post_defer-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-06-03 15:52:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-post-defer]: success
+[2024-06-03 15:52:12] INFO root fetch - processPackages [odoo14-addon-energy-communities-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities_cooperator-14.0.1.0.1.tar.gz]
+[2024-06-03 15:52:12] INFO root fetch - processPackages [odoo14-addon-energy-communities-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities_cooperator-14.0.1.0.2.tar.gz]
+[2024-06-03 15:52:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities-cooperator]: success
+[2024-06-03 15:52:12] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.0a9.tar.gz]
+[2024-06-03 15:52:12] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.1a10.tar.gz]
+[2024-06-03 15:52:12] INFO root fetch - main [MainThread]: End processing [vonage]: success
+[2024-06-03 15:52:13] INFO root fetch - processPackages [haystack-ai]: Remove: archive file [/home/abi/fetcher/tmp/haystack_ai-2.2.0rc1.tar.gz]
+[2024-06-03 15:52:13] INFO root fetch - processPackages [haystack-ai]: Remove: archive file [/home/abi/fetcher/tmp/haystack_ai-2.2.0rc2.tar.gz]
+[2024-06-03 15:52:13] INFO root fetch - main [MainThread]: End processing [haystack-ai]: success
+[2024-06-03 15:52:13] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities-14.0.9.1.0.tar.gz]
+[2024-06-03 15:52:13] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities-14.0.9.2.0.tar.gz]
+[2024-06-03 15:52:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities]: success
+[2024-06-03 15:52:13] INFO root fetch - processPackages [yatbaf]: Remove: archive file [/home/abi/fetcher/tmp/yatbaf-0.9.0.tar.gz]
+[2024-06-03 15:52:13] INFO root fetch - processPackages [yatbaf]: Remove: archive file [/home/abi/fetcher/tmp/yatbaf-0.9.1.tar.gz]
+[2024-06-03 15:52:13] INFO root fetch - main [MainThread]: End processing [yatbaf]: success
+[2024-06-03 15:52:13] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.8.tar.gz]
+[2024-06-03 15:52:13] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.9.tar.gz]
+[2024-06-03 15:52:13] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-06-03 15:52:14] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.1.post1382.tar.gz]
+[2024-06-03 15:52:14] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.3.post1388.tar.gz]
+[2024-06-03 15:52:14] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-06-03 15:52:14] INFO root fetch - main [MainThread]: Store serial: [23503656]
