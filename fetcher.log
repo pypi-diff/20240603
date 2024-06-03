@@ -23141,3 +23141,72 @@ EOFError: EOF read where object expected
 [2024-06-03 16:19:22] INFO root fetch - processPackages [sg-otio]: Remove: archive file [/home/abi/fetcher/tmp/sg_otio-1.1.1-py3-none-any.whl.zip]
 [2024-06-03 16:19:22] INFO root fetch - main [MainThread]: End processing [sg-otio]: success
 [2024-06-03 16:19:22] INFO root fetch - main [MainThread]: Store serial: [23504072]
+[2024-06-03 16:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504072]
+[2024-06-03 16:21:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmsdna-lakeapi
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hddm-r
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FoxDotChord
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astro-gdt-fermi
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-source-local
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-shopinvader-api-payment
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-shopinvader-api-payment-provider-stripe
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-shopinvader-api-payment-cart
+[2024-06-03 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-shopinvader-api-payment-provider-custom
+[2024-06-03 16:21:31] INFO root fetch - processPackages [hddm-r]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-06-03 16:21:31] INFO root fetch - processPackages [hddm-r]: Downloading https://files.pythonhosted.org/packages/fe/e3/c365a0eb6f9825128b6fd3fde7ae9819f8746c6c3ecddb55fbf5cd2c6475/hddm_r-2.0.0.tar.gz
+[2024-06-03 16:21:31] INFO root fetch - processPackages [astro-gdt-fermi]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-06-03 16:21:31] WARNING root fetch - processPackages [odoo-addon-shopinvader-api-payment]: Skipping, unable to determine old version
+[2024-06-03 16:21:31] INFO root fetch - processPackages [data-source-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:21:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopinvader-api-payment] error
+[2024-06-03 16:21:31] INFO root fetch - processPackages [FoxDotChord]: New version: [0.0.4b0] Old Version: [0.0.3b0]
+[2024-06-03 16:21:31] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-06-03 16:21:31] WARNING root fetch - processPackages [odoo-addon-shopinvader-api-payment-cart]: Skipping, unable to determine old version
+[2024-06-03 16:21:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopinvader-api-payment-cart] error
+[2024-06-03 16:21:31] WARNING root fetch - processPackages [odoo-addon-shopinvader-api-payment-provider-stripe]: Skipping, unable to determine old version
+[2024-06-03 16:21:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopinvader-api-payment-provider-stripe] error
+[2024-06-03 16:21:31] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-06-03 16:21:31] WARNING root fetch - processPackages [odoo-addon-shopinvader-api-payment-provider-custom]: Skipping, unable to determine old version
+[2024-06-03 16:21:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopinvader-api-payment-provider-custom] error
+[2024-06-03 16:21:31] INFO root fetch - processPackages [FoxDotChord]: Downloading https://files.pythonhosted.org/packages/a8/1c/ba1abb05e35803fd6999faaa909dd3c4d836e594ebd0e94b40490cdf13b0/foxdotchord-0.0.3b0.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [astro-gdt-fermi]: Downloading https://files.pythonhosted.org/packages/4e/a4/d836333eac9835e34e04a99464d6a16989bd93ea909e710b3abc08e1c0b6/astro-gdt-fermi-2.0.0.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/30/97/1247a81c07f22adae3aefb39a4a3b05b4f42bc3a1ee3d5d6b70ef1f952c6/bmsdna_lakeapi-0.9.6.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [data-source-local]: Downloading https://files.pythonhosted.org/packages/eb/bd/49d69b53852cf40e2bc497b50c2ec3c907d75b759be423a41d3b714fe05f/data_source_local-0.0.8.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [hddm-r]: Downloading https://files.pythonhosted.org/packages/df/41/121908e4733257b1e21efe92f5de067af78d4990810e2f295eb855821a06/hddm_r-2.0.1.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [FoxDotChord]: Downloading https://files.pythonhosted.org/packages/d6/c7/ebad51bd8fd9a57162402f9b4ee99f43f48fcd54f6c14ea9904a282bb91c/foxdotchord-0.0.4b0.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [hddm-r]: executing diffoscope
+[2024-06-03 16:21:32] INFO root fetch - processPackages [hddm-r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_r-2.0.0.tar.gz tmp/hddm_r-2.0.1.tar.gz --markdown 20240603/h/hddm-r/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-06-03 16:21:32] INFO root fetch - processPackages [astro-gdt-fermi]: Downloading https://files.pythonhosted.org/packages/f0/cb/81f75303e7c8b8ae4b02523cf559e2767bfff08e8392c29557890fa49317/astro_gdt_fermi-2.1.0.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [data-source-local]: Downloading https://files.pythonhosted.org/packages/2e/2d/7d27f0ad108d31397ab72ffc8a2bb642d997257f9f39ba76b0b6c008fc62/data_source_local-0.0.9.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/73/d2/49277a33825c2fbbed400dec012e2410e757f6a5c7ba04608709388615b1/bmsdna_lakeapi-0.9.7.tar.gz
+[2024-06-03 16:21:32] INFO root fetch - processPackages [FoxDotChord]: executing diffoscope
+[2024-06-03 16:21:32] INFO root fetch - processPackages [FoxDotChord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxdotchord-0.0.3b0.tar.gz tmp/foxdotchord-0.0.4b0.tar.gz --markdown 20240603/F/FoxDotChord/0.0.3b0-0.0.4b0/README.md --exclude *.pyd
+[2024-06-03 16:21:32] INFO root fetch - processPackages [data-source-local]: executing diffoscope
+[2024-06-03 16:21:32] INFO root fetch - processPackages [data-source-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_source_local-0.0.8.tar.gz tmp/data_source_local-0.0.9.tar.gz --markdown 20240603/d/data-source-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:21:32] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2024-06-03 16:21:32] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.6.tar.gz tmp/bmsdna_lakeapi-0.9.7.tar.gz --markdown 20240603/b/bmsdna-lakeapi/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-06-03 16:21:33] INFO root fetch - processPackages [hddm-r]: Remove: archive file [/home/abi/fetcher/tmp/hddm_r-2.0.0.tar.gz]
+[2024-06-03 16:21:33] INFO root fetch - processPackages [hddm-r]: Remove: archive file [/home/abi/fetcher/tmp/hddm_r-2.0.1.tar.gz]
+[2024-06-03 16:21:33] INFO root fetch - main [MainThread]: End processing [hddm-r]: success
+[2024-06-03 16:21:33] INFO root fetch - processPackages [data-source-local]: Remove: archive file [/home/abi/fetcher/tmp/data_source_local-0.0.8.tar.gz]
+[2024-06-03 16:21:33] INFO root fetch - processPackages [data-source-local]: Remove: archive file [/home/abi/fetcher/tmp/data_source_local-0.0.9.tar.gz]
+[2024-06-03 16:21:33] INFO root fetch - main [MainThread]: End processing [data-source-local]: success
+[2024-06-03 16:21:33] INFO root fetch - processPackages [FoxDotChord]: Remove: archive file [/home/abi/fetcher/tmp/foxdotchord-0.0.3b0.tar.gz]
+[2024-06-03 16:21:33] INFO root fetch - processPackages [FoxDotChord]: Remove: archive file [/home/abi/fetcher/tmp/foxdotchord-0.0.4b0.tar.gz]
+[2024-06-03 16:21:33] INFO root fetch - main [MainThread]: End processing [FoxDotChord]: success
+[2024-06-03 16:21:33] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.6.tar.gz]
+[2024-06-03 16:21:33] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.7.tar.gz]
+[2024-06-03 16:21:33] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2024-06-03 16:21:34] INFO root fetch - processPackages [astro-gdt-fermi]: executing diffoscope
+[2024-06-03 16:21:34] INFO root fetch - processPackages [astro-gdt-fermi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-gdt-fermi-2.0.0.tar.gz tmp/astro_gdt_fermi-2.1.0.tar.gz --markdown 20240603/a/astro-gdt-fermi/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-06-03 16:21:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-06-03 16:21:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-06-03 16:21:34] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240603/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-06-03 16:21:35] INFO root fetch - processPackages [astro-gdt-fermi]: Remove: archive file [/home/abi/fetcher/tmp/astro-gdt-fermi-2.0.0.tar.gz]
+[2024-06-03 16:21:35] INFO root fetch - processPackages [astro-gdt-fermi]: Remove: archive file [/home/abi/fetcher/tmp/astro_gdt_fermi-2.1.0.tar.gz]
+[2024-06-03 16:21:35] INFO root fetch - main [MainThread]: End processing [astro-gdt-fermi]: success
+[2024-06-03 16:21:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-06-03 16:21:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-06-03 16:21:35] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-06-03 16:21:35] INFO root fetch - main [MainThread]: Store serial: [23504106]
