@@ -8371,3 +8371,54 @@ EOFError: EOF read where object expected
 [2024-06-03 09:15:18] INFO root fetch - processPackages [paibox]: Remove: archive file [/home/abi/fetcher/tmp/paibox-1.1.0a3.tar.gz]
 [2024-06-03 09:15:18] INFO root fetch - main [MainThread]: End processing [paibox]: success
 [2024-06-03 09:15:18] INFO root fetch - main [MainThread]: Store serial: [23497717]
+[2024-06-03 09:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497717]
+[2024-06-03 09:17:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xeus-python-shell
+[2024-06-03 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fsspec-ftps-extension
+[2024-06-03 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cambai
+[2024-06-03 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlpx
+[2024-06-03 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-command-center
+[2024-06-03 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hf-download
+[2024-06-03 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: market-generic
+[2024-06-03 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xlstm
+[2024-06-03 09:17:27] INFO root fetch - processPackages [market-generic]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-06-03 09:17:27] INFO root fetch - processPackages [nlpx]: New version: [1.3.0] Old Version: [1.2.9]
+[2024-06-03 09:17:27] INFO root fetch - processPackages [dbt-command-center]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 09:17:27] INFO root fetch - processPackages [xeus-python-shell]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-06-03 09:17:27] WARNING root fetch - processPackages [fsspec-ftps-extension]: Skipping, unable to determine old version
+[2024-06-03 09:17:27] INFO root fetch - main [MainThread]: End processing [fsspec-ftps-extension] error
+[2024-06-03 09:17:27] WARNING root fetch - processPackages [xlstm]: Skipping, unable to determine old version
+[2024-06-03 09:17:27] WARNING root fetch - processPackages [hf-download]: Skipping, unable to determine old version
+[2024-06-03 09:17:27] INFO root fetch - main [MainThread]: End processing [xlstm] error
+[2024-06-03 09:17:27] INFO root fetch - main [MainThread]: End processing [hf-download] error
+[2024-06-03 09:17:27] WARNING root fetch - processPackages [cambai]: Skipping, unable to determine old version
+[2024-06-03 09:17:27] INFO root fetch - main [MainThread]: End processing [cambai] error
+[2024-06-03 09:17:27] INFO root fetch - processPackages [market-generic]: Downloading https://files.pythonhosted.org/packages/13/1f/b71dfa1a53efb92bcd117f0a3a41e1baf22b0cac8ef670fa3aef3cd602d6/market_generic-0.2.0.tar.gz
+[2024-06-03 09:17:27] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/a6/b2/c371babdf3320af41d34f169eed3d959fe9f3f52eb33bbea700ce5ea2785/nlpx-1.2.9.tar.gz
+[2024-06-03 09:17:27] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/be/f2/bd7bb6ed02db3abf4be3dbd9bec4ac6ec28c78772395c4c048c5d2e7ab67/dbt_command_center-0.1.8.tar.gz
+[2024-06-03 09:17:27] INFO root fetch - processPackages [xeus-python-shell]: Downloading https://files.pythonhosted.org/packages/90/75/bd418e42e806af439c963923b996c0e50096d849dcd74550202458ce4bff/xeus_python_shell-0.6.2.tar.gz
+[2024-06-03 09:17:27] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/8a/e9/fe9323ce8acb199caa8595517b668e598a92c8d4b847d2a6f2f5a6d73f05/nlpx-1.3.0.tar.gz
+[2024-06-03 09:17:27] INFO root fetch - processPackages [market-generic]: Downloading https://files.pythonhosted.org/packages/52/35/b02ef76f7633711b63e039937bcec5deec90e501835c0bc8a02ef8901754/market_generic-0.2.1.tar.gz
+[2024-06-03 09:17:27] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/66/5f/5fedd28b2272fdf006ed8bb414d5fad18369ccd87f8092e9f90a626017b7/dbt_command_center-0.1.9.tar.gz
+[2024-06-03 09:17:27] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-06-03 09:17:27] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.2.9.tar.gz tmp/nlpx-1.3.0.tar.gz --markdown 20240603/n/nlpx/1.2.9-1.3.0/README.md --exclude *.pyd
+[2024-06-03 09:17:27] INFO root fetch - processPackages [xeus-python-shell]: Downloading https://files.pythonhosted.org/packages/a9/ee/fc50b6c03c395c53e454860d9df3b645fc845aa9838c54d0e3198a241b42/xeus_python_shell-0.6.3.tar.gz
+[2024-06-03 09:17:27] INFO root fetch - processPackages [market-generic]: executing diffoscope
+[2024-06-03 09:17:27] INFO root fetch - processPackages [market-generic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market_generic-0.2.0.tar.gz tmp/market_generic-0.2.1.tar.gz --markdown 20240603/m/market-generic/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-06-03 09:17:28] INFO root fetch - processPackages [xeus-python-shell]: executing diffoscope
+[2024-06-03 09:17:28] INFO root fetch - processPackages [xeus-python-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeus_python_shell-0.6.2.tar.gz tmp/xeus_python_shell-0.6.3.tar.gz --markdown 20240603/x/xeus-python-shell/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-06-03 09:17:28] INFO root fetch - processPackages [dbt-command-center]: executing diffoscope
+[2024-06-03 09:17:28] INFO root fetch - processPackages [dbt-command-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_command_center-0.1.8.tar.gz tmp/dbt_command_center-0.1.9.tar.gz --markdown 20240603/d/dbt-command-center/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 09:17:28] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.9.tar.gz]
+[2024-06-03 09:17:28] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.3.0.tar.gz]
+[2024-06-03 09:17:28] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-06-03 09:17:28] INFO root fetch - processPackages [market-generic]: Remove: archive file [/home/abi/fetcher/tmp/market_generic-0.2.0.tar.gz]
+[2024-06-03 09:17:28] INFO root fetch - processPackages [market-generic]: Remove: archive file [/home/abi/fetcher/tmp/market_generic-0.2.1.tar.gz]
+[2024-06-03 09:17:28] INFO root fetch - main [MainThread]: End processing [market-generic]: success
+[2024-06-03 09:17:29] INFO root fetch - processPackages [xeus-python-shell]: Remove: archive file [/home/abi/fetcher/tmp/xeus_python_shell-0.6.2.tar.gz]
+[2024-06-03 09:17:29] INFO root fetch - processPackages [xeus-python-shell]: Remove: archive file [/home/abi/fetcher/tmp/xeus_python_shell-0.6.3.tar.gz]
+[2024-06-03 09:17:29] INFO root fetch - main [MainThread]: End processing [xeus-python-shell]: success
+[2024-06-03 09:17:31] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.8.tar.gz]
+[2024-06-03 09:17:31] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.9.tar.gz]
+[2024-06-03 09:17:31] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
+[2024-06-03 09:17:31] INFO root fetch - main [MainThread]: Store serial: [23497746]
