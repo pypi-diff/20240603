@@ -24577,3 +24577,48 @@ EOFError: EOF read where object expected
 [2024-06-03 17:05:03] INFO root fetch - processPackages [EOxServer]: Remove: archive file [/home/abi/fetcher/tmp/EOxServer-1.3.2.tar.gz]
 [2024-06-03 17:05:03] INFO root fetch - main [MainThread]: End processing [EOxServer]: success
 [2024-06-03 17:05:03] INFO root fetch - main [MainThread]: Store serial: [23504825]
+[2024-06-03 17:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504825]
+[2024-06-03 17:07:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ado_wrapper
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipex-llm
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylmm3
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-customvueadmin
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avrotize
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hzon-tools
+[2024-06-03 17:07:12] INFO root fetch - processPackages [avrotize]: New version: [2.0.0] Old Version: [1.9.6]
+[2024-06-03 17:07:12] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240602] Old Version: [2.1.0b20240601]
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ado_wrapper]: New version: [1.9.0] Old Version: [1.8.5]
+[2024-06-03 17:07:12] WARNING root fetch - processPackages [pylmm3]: Skipping, unable to determine old version
+[2024-06-03 17:07:12] INFO root fetch - main [MainThread]: End processing [pylmm3] error
+[2024-06-03 17:07:12] WARNING root fetch - processPackages [hzon-tools]: Skipping, unable to determine old version
+[2024-06-03 17:07:12] INFO root fetch - main [MainThread]: End processing [hzon-tools] error
+[2024-06-03 17:07:12] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/77/40/65a6c6db2572caf1a7cfe1a6f00a14927346e9de5d7b28506ca6bbc8f77f/ipex_llm-2.1.0b20240601-py3-none-win_amd64.whl
+[2024-06-03 17:07:12] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/31/50/280939b332d60989a531fcacc50a38e66005fc149e822b18752cc055f01c/avrotize-1.9.6.tar.gz
+[2024-06-03 17:07:12] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/cd/76/d69f3bcfb225da8b2c3acdf5292ed6ab47bd462797def9763470369a4ccc/django_customvueadmin-0.2.8.tar.gz
+[2024-06-03 17:07:13] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/e6/e6/e453dc35948838987ed871a7715cb80f4e68220ab96517b6b39c3cd9e80b/ado_wrapper-1.8.5.tar.gz
+[2024-06-03 17:07:13] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/58/d7/756235e2599b5d6782f33fa14c9380d46d6bda5fbef4786f3f9681660ded/avrotize-2.0.0.tar.gz
+[2024-06-03 17:07:13] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-06-03 17:07:13] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.9.6.tar.gz tmp/avrotize-2.0.0.tar.gz --markdown 20240603/a/avrotize/1.9.6-2.0.0/README.md --exclude *.pyd
+[2024-06-03 17:07:13] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/8a/20/c6361efd124e0fcf9696f872f5b87a0ee235baa75c42283faf2a63bc372f/ado_wrapper-1.9.0.tar.gz
+[2024-06-03 17:07:13] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/7a/35/028aec416e8a1c6692c17ff376d6e11b1e81930a7137229e3b773226fad5/ipex_llm-2.1.0b20240602-py3-none-win_amd64.whl
+[2024-06-03 17:07:13] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/ee/7b/bc29ddb1585425e8738f7c46f715bf2633c8fc923eff807dcc4289a75f62/django_customvueadmin-0.2.9.tar.gz
+[2024-06-03 17:07:13] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-06-03 17:07:13] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.8.5.tar.gz tmp/ado_wrapper-1.9.0.tar.gz --markdown 20240603/a/ado_wrapper/1.8.5-1.9.0/README.md --exclude *.pyd
+[2024-06-03 17:07:13] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-06-03 17:07:13] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.8.tar.gz tmp/django_customvueadmin-0.2.9.tar.gz --markdown 20240603/d/django-customvueadmin/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 17:07:14] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-06-03 17:07:14] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240601-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240602-py3-none-win_amd64.whl.zip --markdown 20240603/i/ipex-llm/2.1.0b20240601-2.1.0b20240602/README.md --exclude *.pyd
+[2024-06-03 17:07:14] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.8.5.tar.gz]
+[2024-06-03 17:07:14] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.9.0.tar.gz]
+[2024-06-03 17:07:14] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-06-03 17:07:14] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.9.6.tar.gz]
+[2024-06-03 17:07:14] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
+[2024-06-03 17:07:14] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-06-03 17:07:39] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.8.tar.gz]
+[2024-06-03 17:07:39] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
+[2024-06-03 17:07:39] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-06-03 17:07:40] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240601-py3-none-win_amd64.whl.zip]
+[2024-06-03 17:07:40] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240602-py3-none-win_amd64.whl.zip]
+[2024-06-03 17:07:40] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-06-03 17:07:40] INFO root fetch - main [MainThread]: Store serial: [23504847]
