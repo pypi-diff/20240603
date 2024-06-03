@@ -11250,3 +11250,129 @@ EOFError: EOF read where object expected
 [2024-06-03 11:14:37] INFO root fetch - processPackages [libSGM]: Remove: archive file [/home/abi/fetcher/tmp/libsgm-0.4.6a1.tar.gz]
 [2024-06-03 11:14:37] INFO root fetch - main [MainThread]: End processing [libSGM]: success
 [2024-06-03 11:14:37] INFO root fetch - main [MainThread]: Store serial: [23499308]
+[2024-06-03 11:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499308]
+[2024-06-03 11:16:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastdup
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyvisjs
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seven-cloudapp-frame
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perian
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-command
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agiflow-sdk
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mia-vgg
+[2024-06-03 11:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qtmodel
+[2024-06-03 11:16:46] INFO root fetch - processPackages [pyvisjs]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [agiflow-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [fastdup]: New version: [2.0.19] Old Version: [1.85]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [perian]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [qtmodel]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [agiflow-sdk]: Downloading https://files.pythonhosted.org/packages/79/7f/9f6ecf2ea4232a8661efbc3bed36d4424f5c0db5396824abbcfa7e43f2d1/agiflow_sdk-0.0.3.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/47/43/a3adac9bc4d53ba881a27cbac335b37f2762bce299387be2e291f04f52f7/fastdup-1.85-cp39-cp39-manylinux_2_31_x86_64.whl
+[2024-06-03 11:16:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/2d/2a/cd941676401f908be541eef5e79017ee823216aa58f49954094133742a9a/pyvisjs-1.0.0b5.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-06-03 11:16:47] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75199081>=10485760
+[2024-06-03 11:16:47] INFO root fetch - processPackages [fastdup]: Start processing: mucsi96.publish-tools
+[2024-06-03 11:16:47] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2024-06-03 11:16:47] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/34/16/d79b1c2addcfbbc1437a459c7b3c17a723da8a9a74665f5ae69779d48424/qtmodel-0.3.8.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [perian]: Downloading https://files.pythonhosted.org/packages/94/6f/187a56eac4aadf5538de6230cc28a668ccad2ff76b3f1d88d3f678e7ca11/perian-0.2.2-py3-none-any.whl
+[2024-06-03 11:16:47] ERROR root fetch - processPackages [mucsi96.publish-tools]: Unable to get metadata: No such project 'mucsi96.publish-tools'
+[2024-06-03 11:16:47] INFO root fetch - processPackages [mucsi96.publish-tools]: Start processing: azureml-acft-contrib-hf-nlp
+[2024-06-03 11:16:47] INFO root fetch - main [MainThread]: End processing [mucsi96.publish-tools] error
+[2024-06-03 11:16:47] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [agiflow-sdk]: Downloading https://files.pythonhosted.org/packages/fe/37/983b2dac533e528fb13001d5511a51dbc7713ff75abc05b55d7f34bb8c75/agiflow_sdk-0.0.4.tar.gz
+[2024-06-03 11:16:47] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: New version: [47.0.0] Old Version: [0.0.9]
+[2024-06-03 11:16:47] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/5c/8d/09b2077a31eba30a7ad70c5748792e69d9d43823b3114fd855468a7b3242/pyvisjs-1.0.0b6.tar.gz
+[2024-06-03 11:16:48] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-06-03 11:16:48] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240603/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-06-03 11:16:48] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-06-03 11:16:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-06-03 11:16:48] INFO root fetch - processPackages [agiflow-sdk]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [agiflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agiflow_sdk-0.0.3.tar.gz tmp/agiflow_sdk-0.0.4.tar.gz --markdown 20240603/a/agiflow-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/75/a5/dd150e2abd2377b90cce48aa96134a633c690238b5aadb2bd0b4c2d61da4/qtmodel-0.3.9.tar.gz
+[2024-06-03 11:16:48] INFO root fetch - processPackages [pyvisjs]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [pyvisjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisjs-1.0.0b5.tar.gz tmp/pyvisjs-1.0.0b6.tar.gz --markdown 20240603/p/pyvisjs/1.0.0b5-1.0.0b6/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240603/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/3f/53/207e2ef0fc5d44967253be36d79a263cd47893128e4f9c253c01c386828a/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl
+[2024-06-03 11:16:48] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240603/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240603/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240603/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [perian]: Downloading https://files.pythonhosted.org/packages/59/fb/95fd4056b9adee77840dd93373cb67082c0446aa887c6c5e3e7445506591/perian-0.2.3.tar.gz
+[2024-06-03 11:16:48] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.3.8.tar.gz tmp/qtmodel-0.3.9.tar.gz --markdown 20240603/q/qtmodel/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [perian]: executing diffoscope
+[2024-06-03 11:16:48] INFO root fetch - processPackages [perian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perian-0.2.2-py3-none-any.whl.zip tmp/perian-0.2.3.tar.gz --markdown 20240603/p/perian/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 11:16:48] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/c7/5d/167b02b9d1427690af58a019ae4e722715160443310a5d19f6b9afb7a8c1/azureml_acft_contrib_hf_nlp-47.0.0-py3-none-any.whl
+[2024-06-03 11:16:49] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: executing diffoscope
+[2024-06-03 11:16:49] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_nlp-47.0.0-py3-none-any.whl.zip --markdown 20240603/a/azureml-acft-contrib-hf-nlp/0.0.9-47.0.0/README.md --exclude *.pyd
+[2024-06-03 11:16:50] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [pulumi-command]: Start processing: spaceone-identity
+[2024-06-03 11:16:50] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-06-03 11:16:50] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [mia-vgg]: Start processing: leptonai
+[2024-06-03 11:16:50] INFO root fetch - processPackages [spanishconjugator]: Start processing: bwalign
+[2024-06-03 11:16:50] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-06-03 11:16:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-06-03 11:16:50] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.8.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.9.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-06-03 11:16:50] INFO root fetch - processPackages [bwalign]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [leptonai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [perian]: Remove: archive file [/home/abi/fetcher/tmp/perian-0.2.2-py3-none-any.whl.zip]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [perian]: Remove: archive file [/home/abi/fetcher/tmp/perian-0.2.3.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-06-03 11:16:50] INFO root fetch - main [MainThread]: End processing [perian]: success
+[2024-06-03 11:16:50] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/95/58/cdc2ae5a99973ab3e2a5c174f9f27117f05fda60dc378c711d549ce3ac24/bwalign-1.2.4.tar.gz
+[2024-06-03 11:16:50] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0b5.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-06-03 11:16:50] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0b6.tar.gz]
+[2024-06-03 11:16:50] INFO root fetch - main [MainThread]: End processing [pyvisjs]: success
+[2024-06-03 11:16:51] INFO root fetch - processPackages [leptonai]: Downloading https://files.pythonhosted.org/packages/ae/5d/e981b10294d636dced521144aadba2e7ff7287a7370c3846f4dcbb6e96d3/leptonai-0.9.8-py3-none-any.whl
+[2024-06-03 11:16:51] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-06-03 11:16:51] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/58/e1/dbcbe18d761a4e383c6389ac62ecd49790c4ca5e88f21f20ee11a3db7516/bwalign-1.2.5.tar.gz
+[2024-06-03 11:16:51] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-06-03 11:16:51] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-06-03 11:16:51] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-06-03 11:16:51] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 11:16:51] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.2.4.tar.gz tmp/bwalign-1.2.5.tar.gz --markdown 20240603/b/bwalign/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-06-03 11:16:51] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-06-03 11:16:51] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240603/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-06-03 11:16:51] INFO root fetch - processPackages [leptonai]: Downloading https://files.pythonhosted.org/packages/2c/46/8a0440ef08931abb629f99043abb2b21c3a05fc8d92b46bbe53302a34b5a/leptonai-0.9.9-py3-none-any.whl
+[2024-06-03 11:16:51] INFO root fetch - processPackages [leptonai]: executing diffoscope
+[2024-06-03 11:16:51] INFO root fetch - processPackages [leptonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leptonai-0.9.8-py3-none-any.whl.zip tmp/leptonai-0.9.9-py3-none-any.whl.zip --markdown 20240603/l/leptonai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 11:16:52] INFO root fetch - processPackages [agiflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/agiflow_sdk-0.0.3.tar.gz]
+[2024-06-03 11:16:52] INFO root fetch - processPackages [agiflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/agiflow_sdk-0.0.4.tar.gz]
+[2024-06-03 11:16:52] INFO root fetch - main [MainThread]: End processing [agiflow-sdk]: success
+[2024-06-03 11:16:52] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-0.0.9-py3-none-any.whl.zip]
+[2024-06-03 11:16:52] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_acft_contrib_hf_nlp-47.0.0-py3-none-any.whl.zip]
+[2024-06-03 11:16:52] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-nlp]: success
+[2024-06-03 11:16:52] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.2.4.tar.gz]
+[2024-06-03 11:16:52] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.2.5.tar.gz]
+[2024-06-03 11:16:52] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 11:16:53] INFO root fetch - processPackages [leptonai]: Remove: archive file [/home/abi/fetcher/tmp/leptonai-0.9.8-py3-none-any.whl.zip]
+[2024-06-03 11:16:53] INFO root fetch - processPackages [leptonai]: Remove: archive file [/home/abi/fetcher/tmp/leptonai-0.9.9-py3-none-any.whl.zip]
+[2024-06-03 11:16:53] INFO root fetch - main [MainThread]: End processing [leptonai]: success
+[2024-06-03 11:16:53] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-06-03 11:16:53] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-06-03 11:16:53] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-06-03 11:16:53] INFO root fetch - main [MainThread]: Store serial: [23499349]
