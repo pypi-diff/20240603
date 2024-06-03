@@ -16024,3 +16024,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:20:50] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.3.tar.gz]
 [2024-06-03 13:20:50] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
 [2024-06-03 13:20:50] INFO root fetch - main [MainThread]: Store serial: [23501193]
+[2024-06-03 13:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501193]
+[2024-06-03 13:23:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-cms
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clang-format
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bwalign
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: youssef-forked-django-axes
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-polardbx
+[2024-06-03 13:23:02] INFO root fetch - processPackages [bwalign]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-06-03 13:23:02] INFO root fetch - processPackages [clang-format]: New version: [9.0.0] Old Version: [8.0.1]
+[2024-06-03 13:23:02] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/dc/a3/9eb8e772134419d5ed95aa5b4bde1a378842c6d08a728d22c3dffd8b8261/bwalign-1.6.1.tar.gz
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ros-cdk-cms]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:23:02] WARNING root fetch - processPackages [youssef-forked-django-axes]: Skipping, unable to determine old version
+[2024-06-03 13:23:02] INFO root fetch - main [MainThread]: End processing [youssef-forked-django-axes] error
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ros-cdk-polardbx]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:23:02] INFO root fetch - processPackages [clang-format]: Downloading https://files.pythonhosted.org/packages/37/66/75e3c14f22c8a7a02c7e337547e29d42bed516ba8067fdef87d3d9346e52/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ros-cdk-cms]: Downloading https://files.pythonhosted.org/packages/17/80/086a1bf95e4ba13c316fbcdc70533d8b8f133ff6f82a8626afff82eec572/ros-cdk-cms-1.0.8.tar.gz
+[2024-06-03 13:23:02] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/a0/01/78d64ef1cf8af5ff845434516288f0728afba9cd626600426e796591d4e2/ros-cdk-polardbx-1.0.24.tar.gz
+[2024-06-03 13:23:02] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/97/d8/27072294bbc477ea5c2e2cf880122dc6adff415225cb76a813dd88cd04f5/bwalign-1.6.2.tar.gz
+[2024-06-03 13:23:03] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 13:23:03] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.6.1.tar.gz tmp/bwalign-1.6.2.tar.gz --markdown 20240603/b/bwalign/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-06-03 13:23:03] INFO root fetch - processPackages [clang-format]: Downloading https://files.pythonhosted.org/packages/25/f2/d989afaf8a91385f18fd06e6202644be0bc3a1d14548c18a8ece4911e005/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl
+[2024-06-03 13:23:03] INFO root fetch - processPackages [ros-cdk-cms]: Downloading https://files.pythonhosted.org/packages/9b/42/378ce1abf11de31005aee8a49715db281e4424ac3ddfa3ee5635dc2df741/ros-cdk-cms-1.0.9.tar.gz
+[2024-06-03 13:23:03] INFO root fetch - processPackages [ros-cdk-polardbx]: Downloading https://files.pythonhosted.org/packages/d2/8d/c551a2077e71ebccebd57e1124a358d1857c4055842362fd180717076433/ros-cdk-polardbx-1.0.25.tar.gz
+[2024-06-03 13:23:03] INFO root fetch - processPackages [ros-cdk-cms]: executing diffoscope
+[2024-06-03 13:23:03] INFO root fetch - processPackages [ros-cdk-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cms-1.0.8.tar.gz tmp/ros-cdk-cms-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cms/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:23:03] INFO root fetch - processPackages [ros-cdk-polardbx]: executing diffoscope
+[2024-06-03 13:23:03] INFO root fetch - processPackages [ros-cdk-polardbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardbx-1.0.24.tar.gz tmp/ros-cdk-polardbx-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-polardbx/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:23:03] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.6.1.tar.gz]
+[2024-06-03 13:23:03] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.6.2.tar.gz]
+[2024-06-03 13:23:03] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 13:23:03] INFO root fetch - processPackages [clang-format]: executing diffoscope
+[2024-06-03 13:23:03] INFO root fetch - processPackages [clang-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl.zip tmp/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl.zip --markdown 20240603/c/clang-format/8.0.1-9.0.0/README.md --exclude *.pyd
+[2024-06-03 13:23:04] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.24.tar.gz]
+[2024-06-03 13:23:04] INFO root fetch - processPackages [ros-cdk-polardbx]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardbx-1.0.25.tar.gz]
+[2024-06-03 13:23:04] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardbx]: success
+[2024-06-03 13:23:04] INFO root fetch - processPackages [ros-cdk-cms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cms-1.0.8.tar.gz]
+[2024-06-03 13:23:04] INFO root fetch - processPackages [ros-cdk-cms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cms-1.0.9.tar.gz]
+[2024-06-03 13:23:04] INFO root fetch - main [MainThread]: End processing [ros-cdk-cms]: success
+[2024-06-03 13:23:16] INFO root fetch - processPackages [clang-format]: Remove: archive file [/home/abi/fetcher/tmp/clang_format-8.0.1-py2.py3-none-manylinux1_x86_64.whl.zip]
+[2024-06-03 13:23:16] INFO root fetch - processPackages [clang-format]: Remove: archive file [/home/abi/fetcher/tmp/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl.zip]
+[2024-06-03 13:23:16] INFO root fetch - main [MainThread]: End processing [clang-format]: success
+[2024-06-03 13:23:16] INFO root fetch - main [MainThread]: Store serial: [23501225]
