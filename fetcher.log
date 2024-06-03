@@ -5046,3 +5046,42 @@ EOFError: EOF read where object expected
 [2024-06-03 05:48:35] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.6.3.1.tar.gz]
 [2024-06-03 05:48:35] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2024-06-03 05:48:35] INFO root fetch - main [MainThread]: Store serial: [23496390]
+[2024-06-03 05:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496390]
+[2024-06-03 05:50:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 05:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SJRSdetects
+[2024-06-03 05:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loggissimo
+[2024-06-03 05:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neoval-py-utils
+[2024-06-03 05:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toyai
+[2024-06-03 05:50:44] INFO root fetch - processPackages [SJRSdetects]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-06-03 05:50:44] INFO root fetch - processPackages [loggissimo]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 05:50:44] INFO root fetch - processPackages [toyai]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 05:50:44] INFO root fetch - processPackages [neoval-py-utils]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-06-03 05:50:44] INFO root fetch - processPackages [SJRSdetects]: Downloading https://files.pythonhosted.org/packages/14/0d/9027600ef4ec0554ad6a7acea40c6a6d44f5224fb1b010e471692c00641e/sjrsdetects-1.0.2.tar.gz
+[2024-06-03 05:50:44] INFO root fetch - processPackages [loggissimo]: Downloading https://files.pythonhosted.org/packages/98/e7/095b487ac9de978d68d6e5b3d95136a324be344f1da8e9556960bb754139/loggissimo-0.2.1.tar.gz
+[2024-06-03 05:50:44] INFO root fetch - processPackages [neoval-py-utils]: Downloading https://files.pythonhosted.org/packages/6b/11/5d8b7bea04b1f4c14de18a4965cc6ff4329dbd48da12645c8b6e691d9871/neoval_py_utils-0.3.1.tar.gz
+[2024-06-03 05:50:44] INFO root fetch - processPackages [SJRSdetects]: Downloading https://files.pythonhosted.org/packages/c7/9d/39035efc9327683e8dac135cc0acef371efff979dc5bf009ff56bee4b708/sjrsdetects-1.0.4.tar.gz
+[2024-06-03 05:50:44] INFO root fetch - processPackages [loggissimo]: Downloading https://files.pythonhosted.org/packages/ab/ee/4516a4a179f9652421bcde965551770984fff8f9d2bf28a6f20df67f7f4f/loggissimo-0.2.2.tar.gz
+[2024-06-03 05:50:44] INFO root fetch - processPackages [neoval-py-utils]: Downloading https://files.pythonhosted.org/packages/16/8f/b0f9dd66bde051e9680e6d89104d7acb50e52abdd8b7aff63bd53f26c46a/neoval_py_utils-0.3.2.tar.gz
+[2024-06-03 05:50:44] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/9e/40/e549594290501318a7f628d702d36ec5cdb599f346a55b27694ae58e80a9/toyai-0.1.5-py3-none-any.whl
+[2024-06-03 05:50:44] INFO root fetch - processPackages [loggissimo]: executing diffoscope
+[2024-06-03 05:50:44] INFO root fetch - processPackages [loggissimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggissimo-0.2.1.tar.gz tmp/loggissimo-0.2.2.tar.gz --markdown 20240603/l/loggissimo/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 05:50:45] INFO root fetch - processPackages [SJRSdetects]: executing diffoscope
+[2024-06-03 05:50:45] INFO root fetch - processPackages [SJRSdetects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sjrsdetects-1.0.2.tar.gz tmp/sjrsdetects-1.0.4.tar.gz --markdown 20240603/S/SJRSdetects/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-06-03 05:50:45] INFO root fetch - processPackages [neoval-py-utils]: executing diffoscope
+[2024-06-03 05:50:45] INFO root fetch - processPackages [neoval-py-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neoval_py_utils-0.3.1.tar.gz tmp/neoval_py_utils-0.3.2.tar.gz --markdown 20240603/n/neoval-py-utils/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-06-03 05:50:45] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/2a/db/219ae05f7ea8997f650e2ba58072913077ebdfed8c412bbd6cc376dbff40/toyai-0.1.6-py3-none-any.whl
+[2024-06-03 05:50:45] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 05:50:45] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.5-py3-none-any.whl.zip tmp/toyai-0.1.6-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 05:50:45] INFO root fetch - processPackages [loggissimo]: Remove: archive file [/home/abi/fetcher/tmp/loggissimo-0.2.1.tar.gz]
+[2024-06-03 05:50:45] INFO root fetch - processPackages [loggissimo]: Remove: archive file [/home/abi/fetcher/tmp/loggissimo-0.2.2.tar.gz]
+[2024-06-03 05:50:45] INFO root fetch - main [MainThread]: End processing [loggissimo]: success
+[2024-06-03 05:50:45] INFO root fetch - processPackages [neoval-py-utils]: Remove: archive file [/home/abi/fetcher/tmp/neoval_py_utils-0.3.1.tar.gz]
+[2024-06-03 05:50:45] INFO root fetch - processPackages [neoval-py-utils]: Remove: archive file [/home/abi/fetcher/tmp/neoval_py_utils-0.3.2.tar.gz]
+[2024-06-03 05:50:45] INFO root fetch - main [MainThread]: End processing [neoval-py-utils]: success
+[2024-06-03 05:50:45] INFO root fetch - processPackages [SJRSdetects]: Remove: archive file [/home/abi/fetcher/tmp/sjrsdetects-1.0.2.tar.gz]
+[2024-06-03 05:50:45] INFO root fetch - processPackages [SJRSdetects]: Remove: archive file [/home/abi/fetcher/tmp/sjrsdetects-1.0.4.tar.gz]
+[2024-06-03 05:50:45] INFO root fetch - main [MainThread]: End processing [SJRSdetects]: success
+[2024-06-03 05:50:46] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.5-py3-none-any.whl.zip]
+[2024-06-03 05:50:46] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.6-py3-none-any.whl.zip]
+[2024-06-03 05:50:46] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 05:50:46] INFO root fetch - main [MainThread]: Store serial: [23496400]
