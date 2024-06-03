@@ -2664,3 +2664,62 @@ EOFError: EOF read where object expected
 [2024-06-03 03:20:42] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
 [2024-06-03 03:20:42] INFO root fetch - main [MainThread]: End processing [moped]: success
 [2024-06-03 03:20:42] INFO root fetch - main [MainThread]: Store serial: [23495260]
+[2024-06-03 03:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495260]
+[2024-06-03 03:22:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 03:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cube-recognizer-for-agv
+[2024-06-03 03:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant
+[2024-06-03 03:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-municipalities
+[2024-06-03 03:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homebase-calendar-sync
+[2024-06-03 03:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omop2survey
+[2024-06-03 03:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mutt-html-reply
+[2024-06-03 03:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stablehash
+[2024-06-03 03:22:50] INFO root fetch - processPackages [omop2survey]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 03:22:50] WARNING root fetch - processPackages [abstract-municipalities]: Skipping, unable to determine old version
+[2024-06-03 03:22:50] WARNING root fetch - processPackages [cube-recognizer-for-agv]: Skipping, unable to determine old version
+[2024-06-03 03:22:50] INFO root fetch - main [MainThread]: End processing [abstract-municipalities] error
+[2024-06-03 03:22:50] INFO root fetch - main [MainThread]: End processing [cube-recognizer-for-agv] error
+[2024-06-03 03:22:50] INFO root fetch - processPackages [homebase-calendar-sync]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 03:22:50] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 03:22:50] INFO root fetch - processPackages [stablehash]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 03:22:50] INFO root fetch - processPackages [homeassistant]: New version: [2024.6.0b5] Old Version: [2024.6.0b4]
+[2024-06-03 03:22:50] INFO root fetch - processPackages [mutt-html-reply]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-06-03 03:22:50] INFO root fetch - processPackages [stablehash]: Downloading https://files.pythonhosted.org/packages/af/8d/fb5f225e814a8205b986768575e3ad9d6fb421ff47bf0332869c7ef26daa/stablehash-0.1.2.tar.gz
+[2024-06-03 03:22:50] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/d0/3d/a88573a96f559d123cb3e1d168e45f905a3a99a738efb65bb74f949ea018/omop2survey-0.0.5.tar.gz
+[2024-06-03 03:22:50] INFO root fetch - processPackages [homebase-calendar-sync]: Downloading https://files.pythonhosted.org/packages/41/38/42b6be1e6a6f8b8cda1925753b596f8f6de370cf231547f62b6032cb93da/homebase_calendar_sync-0.1.8.tar.gz
+[2024-06-03 03:22:50] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/81/61/6c2ceceace9b7556b8f7b3952aba9bd14a3e17e2278caab04a62e701ee1e/homeassistant-2024.6.0b4.tar.gz
+[2024-06-03 03:22:50] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 21190248>=10485760
+[2024-06-03 03:22:50] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2024-06-03 03:22:50] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/6f/6d/9037368cbe6a0f99ec53451fb003d415606a35ad96f849bac36560f2066f/cs_ob_mini_scikit_learn-0.1.0.tar.gz
+[2024-06-03 03:22:51] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/9f/a9/36a37667c869399d8488851d27b6eca8b953648a45c4a90caf5069cb9ab8/mutt_html_reply-0.4.2.tar.gz
+[2024-06-03 03:22:51] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/40/8e/00f2e64641121c524dd7d6d01bb95ccf064bfb020b83cf52d2517311dae9/omop2survey-0.0.6.tar.gz
+[2024-06-03 03:22:51] INFO root fetch - processPackages [stablehash]: Downloading https://files.pythonhosted.org/packages/21/12/3b85110a46c76ad8a21da08623ad0ab3255b79fa4f440fe6ca28c31378b3/stablehash-0.1.3.tar.gz
+[2024-06-03 03:22:51] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-06-03 03:22:51] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.5.tar.gz tmp/omop2survey-0.0.6.tar.gz --markdown 20240603/o/omop2survey/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 03:22:51] INFO root fetch - processPackages [homebase-calendar-sync]: Downloading https://files.pythonhosted.org/packages/c4/b1/a07652c2e7ce2605d5082f022eeabe735a1060e97f48ee9c322c804d1b55/homebase_calendar_sync-0.1.9.tar.gz
+[2024-06-03 03:22:51] INFO root fetch - processPackages [stablehash]: executing diffoscope
+[2024-06-03 03:22:51] INFO root fetch - processPackages [stablehash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stablehash-0.1.2.tar.gz tmp/stablehash-0.1.3.tar.gz --markdown 20240603/s/stablehash/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 03:22:51] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/6d/e4/5ebeac7d6d4e947e773f2030e3d6b55c28d5921d0d01740843c366f74428/cs_ob_mini_scikit_learn-0.1.1.tar.gz
+[2024-06-03 03:22:51] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/e3/e1/76a8ac88755ee06966a3ffae793bd6b4cbce21bfc064d56a199930596656/mutt_html_reply-0.4.3.tar.gz
+[2024-06-03 03:22:51] INFO root fetch - processPackages [homebase-calendar-sync]: executing diffoscope
+[2024-06-03 03:22:51] INFO root fetch - processPackages [homebase-calendar-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homebase_calendar_sync-0.1.8.tar.gz tmp/homebase_calendar_sync-0.1.9.tar.gz --markdown 20240603/h/homebase-calendar-sync/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:22:51] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:22:51] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_ob_mini_scikit_learn-0.1.0.tar.gz tmp/cs_ob_mini_scikit_learn-0.1.1.tar.gz --markdown 20240603/c/cs-ob-mini-scikit-learn/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 03:22:51] INFO root fetch - processPackages [mutt-html-reply]: executing diffoscope
+[2024-06-03 03:22:51] INFO root fetch - processPackages [mutt-html-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutt_html_reply-0.4.2.tar.gz tmp/mutt_html_reply-0.4.3.tar.gz --markdown 20240603/m/mutt-html-reply/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-06-03 03:22:51] INFO root fetch - processPackages [stablehash]: Remove: archive file [/home/abi/fetcher/tmp/stablehash-0.1.2.tar.gz]
+[2024-06-03 03:22:51] INFO root fetch - processPackages [stablehash]: Remove: archive file [/home/abi/fetcher/tmp/stablehash-0.1.3.tar.gz]
+[2024-06-03 03:22:51] INFO root fetch - main [MainThread]: End processing [stablehash]: success
+[2024-06-03 03:22:51] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.5.tar.gz]
+[2024-06-03 03:22:51] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.6.tar.gz]
+[2024-06-03 03:22:51] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-06-03 03:22:52] INFO root fetch - processPackages [homebase-calendar-sync]: Remove: archive file [/home/abi/fetcher/tmp/homebase_calendar_sync-0.1.8.tar.gz]
+[2024-06-03 03:22:52] INFO root fetch - processPackages [homebase-calendar-sync]: Remove: archive file [/home/abi/fetcher/tmp/homebase_calendar_sync-0.1.9.tar.gz]
+[2024-06-03 03:22:52] INFO root fetch - main [MainThread]: End processing [homebase-calendar-sync]: success
+[2024-06-03 03:22:52] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.0.tar.gz]
+[2024-06-03 03:22:52] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.1.tar.gz]
+[2024-06-03 03:22:52] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
+[2024-06-03 03:22:52] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.4.2.tar.gz]
+[2024-06-03 03:22:52] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.4.3.tar.gz]
+[2024-06-03 03:22:52] INFO root fetch - main [MainThread]: End processing [mutt-html-reply]: success
+[2024-06-03 03:22:52] INFO root fetch - main [MainThread]: Store serial: [23495283]
