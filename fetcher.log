@@ -10749,3 +10749,54 @@ EOFError: EOF read where object expected
 [2024-06-03 10:57:13] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
 [2024-06-03 10:57:13] INFO root fetch - main [MainThread]: End processing [codegrade]: success
 [2024-06-03 10:57:13] INFO root fetch - main [MainThread]: Store serial: [23498954]
+[2024-06-03 10:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498954]
+[2024-06-03 10:59:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 10:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeodeWeb-Back
+[2024-06-03 10:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwbench
+[2024-06-03 10:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulse-linter
+[2024-06-03 10:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfem
+[2024-06-03 10:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlitecloud
+[2024-06-03 10:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funky-modifiers
+[2024-06-03 10:59:22] INFO root fetch - processPackages [funky-modifiers]: New version: [0.3.6] Old Version: [0.3.4]
+[2024-06-03 10:59:22] INFO root fetch - processPackages [funky-modifiers]: Downloading https://files.pythonhosted.org/packages/06/b8/27005cdd700dc9702504f0131f8cde0e417bf142542ddd7d317a5a65813b/funky_modifiers-0.3.4.tar.gz
+[2024-06-03 10:59:22] INFO root fetch - processPackages [gwbench]: New version: [0.8.0] Old Version: [0.7.5]
+[2024-06-03 10:59:22] INFO root fetch - processPackages [sqlitecloud]: New version: [0.0.78] Old Version: [0.0.77]
+[2024-06-03 10:59:22] ERROR root fetch - processPackages [pulse-linter]: Unable to get metadata: No such project 'pulse-linter'
+[2024-06-03 10:59:22] INFO root fetch - main [MainThread]: End processing [pulse-linter] error
+[2024-06-03 10:59:22] INFO root fetch - processPackages [pyfem]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 10:59:22] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [4.2.1rc1] Old Version: [4.2.0rc1]
+[2024-06-03 10:59:22] INFO root fetch - processPackages [funky-modifiers]: Downloading https://files.pythonhosted.org/packages/4b/eb/415a2c297fb9c5230da009fb8367448ef4f1f314368c5fec3fa31bb06419/funky_modifiers-0.3.6.tar.gz
+[2024-06-03 10:59:22] INFO root fetch - processPackages [gwbench]: Downloading https://files.pythonhosted.org/packages/e4/cd/a93b3313de101262e45220a09980361c65bbe5c60037046319c6df25d2ab/gwbench-0.7.5.tar.gz
+[2024-06-03 10:59:22] INFO root fetch - processPackages [sqlitecloud]: Downloading https://files.pythonhosted.org/packages/1f/fc/da3d84bf382a2876b8226190ce19f593b69ba178092228aeb5898d07d054/sqlitecloud-0.0.77.tar.gz
+[2024-06-03 10:59:22] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/9f/83/0356882072a4a869dba05e37001b639340e1147c02378c0688a9f4b32399/pyfem-0.2.2.tar.gz
+[2024-06-03 10:59:22] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/01/fb/97978fa00642d68e2d84ebdaadd08fcad39099f5610959606f98698551d6/opengeodeweb_back-4.2.0rc1.tar.gz
+[2024-06-03 10:59:22] INFO root fetch - processPackages [funky-modifiers]: executing diffoscope
+[2024-06-03 10:59:22] INFO root fetch - processPackages [funky-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funky_modifiers-0.3.4.tar.gz tmp/funky_modifiers-0.3.6.tar.gz --markdown 20240603/f/funky-modifiers/0.3.4-0.3.6/README.md --exclude *.pyd
+[2024-06-03 10:59:23] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/41/b9/341caf4dfacac588bca37859b5ac126e2b5da8bb8ac231bd687587e29ad7/pyfem-0.2.3.tar.gz
+[2024-06-03 10:59:23] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/a9/2a/fc9ffb766597aaeebfda1006959df86f8c813da3e93cfc42b87f6b5f51c2/opengeodeweb_back-4.2.1rc1.tar.gz
+[2024-06-03 10:59:23] INFO root fetch - processPackages [sqlitecloud]: Downloading https://files.pythonhosted.org/packages/3b/44/77b046e178300bce387981a4a780e8e2ef7966dc21c3de745a79bb243e07/sqlitecloud-0.0.78.tar.gz
+[2024-06-03 10:59:23] INFO root fetch - processPackages [gwbench]: Downloading https://files.pythonhosted.org/packages/fa/46/4266144a66112f3028fc06183c198421882e65b1a9ea05e3f71a83de9874/gwbench-0.8.0.tar.gz
+[2024-06-03 10:59:23] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2024-06-03 10:59:23] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeodeweb_back-4.2.0rc1.tar.gz tmp/opengeodeweb_back-4.2.1rc1.tar.gz --markdown 20240603/O/OpenGeodeWeb-Back/4.2.0rc1-4.2.1rc1/README.md --exclude *.pyd
+[2024-06-03 10:59:23] INFO root fetch - processPackages [pyfem]: executing diffoscope
+[2024-06-03 10:59:23] INFO root fetch - processPackages [pyfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfem-0.2.2.tar.gz tmp/pyfem-0.2.3.tar.gz --markdown 20240603/p/pyfem/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 10:59:23] INFO root fetch - processPackages [sqlitecloud]: executing diffoscope
+[2024-06-03 10:59:23] INFO root fetch - processPackages [sqlitecloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlitecloud-0.0.77.tar.gz tmp/sqlitecloud-0.0.78.tar.gz --markdown 20240603/s/sqlitecloud/0.0.77-0.0.78/README.md --exclude *.pyd
+[2024-06-03 10:59:23] INFO root fetch - processPackages [gwbench]: executing diffoscope
+[2024-06-03 10:59:23] INFO root fetch - processPackages [gwbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwbench-0.7.5.tar.gz tmp/gwbench-0.8.0.tar.gz --markdown 20240603/g/gwbench/0.7.5-0.8.0/README.md --exclude *.pyd
+[2024-06-03 10:59:23] INFO root fetch - processPackages [funky-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/funky_modifiers-0.3.4.tar.gz]
+[2024-06-03 10:59:23] INFO root fetch - processPackages [funky-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/funky_modifiers-0.3.6.tar.gz]
+[2024-06-03 10:59:23] INFO root fetch - main [MainThread]: End processing [funky-modifiers]: success
+[2024-06-03 10:59:24] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.2.0rc1.tar.gz]
+[2024-06-03 10:59:24] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.2.1rc1.tar.gz]
+[2024-06-03 10:59:24] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2024-06-03 10:59:24] INFO root fetch - processPackages [sqlitecloud]: Remove: archive file [/home/abi/fetcher/tmp/sqlitecloud-0.0.77.tar.gz]
+[2024-06-03 10:59:24] INFO root fetch - processPackages [sqlitecloud]: Remove: archive file [/home/abi/fetcher/tmp/sqlitecloud-0.0.78.tar.gz]
+[2024-06-03 10:59:24] INFO root fetch - main [MainThread]: End processing [sqlitecloud]: success
+[2024-06-03 10:59:24] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.2.2.tar.gz]
+[2024-06-03 10:59:24] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.2.3.tar.gz]
+[2024-06-03 10:59:24] INFO root fetch - main [MainThread]: End processing [pyfem]: success
+[2024-06-03 10:59:24] INFO root fetch - processPackages [gwbench]: Remove: archive file [/home/abi/fetcher/tmp/gwbench-0.7.5.tar.gz]
+[2024-06-03 10:59:24] INFO root fetch - processPackages [gwbench]: Remove: archive file [/home/abi/fetcher/tmp/gwbench-0.8.0.tar.gz]
+[2024-06-03 10:59:24] INFO root fetch - main [MainThread]: End processing [gwbench]: success
+[2024-06-03 10:59:24] INFO root fetch - main [MainThread]: Store serial: [23499006]
