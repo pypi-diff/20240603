@@ -8055,3 +8055,27 @@ EOFError: EOF read where object expected
 [2024-06-03 08:57:40] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240601.tar.gz]
 [2024-06-03 08:57:40] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-06-03 08:57:40] INFO root fetch - main [MainThread]: Store serial: [23497523]
+[2024-06-03 08:59:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497523]
+[2024-06-03 08:59:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matfree
+[2024-06-03 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dpwx
+[2024-06-03 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feincms3-sites
+[2024-06-03 08:59:50] WARNING root fetch - processPackages [dpwx]: Skipping, unable to determine old version
+[2024-06-03 08:59:50] INFO root fetch - main [MainThread]: End processing [dpwx] error
+[2024-06-03 08:59:50] INFO root fetch - processPackages [matfree]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 08:59:50] INFO root fetch - processPackages [feincms3-sites]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-06-03 08:59:50] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/77/f5/a49ff854179a9f6ee2f8ff50e252eec11bf3ec533292fa6d8ae829c16b84/matfree-0.0.8.tar.gz
+[2024-06-03 08:59:50] INFO root fetch - processPackages [feincms3-sites]: Downloading https://files.pythonhosted.org/packages/63/be/6c289303cebad60adedcdcb6cded87d340b7c55d29fe4eacb5f2c60856ea/feincms3-sites-0.8.1.tar.gz
+[2024-06-03 08:59:50] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/80/71/78a842f49668a013399ae044db96aea6b7bd38387e2c345b454f51f44f6a/matfree-0.0.9.tar.gz
+[2024-06-03 08:59:50] INFO root fetch - processPackages [feincms3-sites]: Downloading https://files.pythonhosted.org/packages/b9/e2/14e9f00ad55277ffdf41a3890cb7cb5928fac0f70887bdb07551a3945803/feincms3-sites-0.9.0.tar.gz
+[2024-06-03 08:59:50] INFO root fetch - processPackages [matfree]: executing diffoscope
+[2024-06-03 08:59:50] INFO root fetch - processPackages [matfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matfree-0.0.8.tar.gz tmp/matfree-0.0.9.tar.gz --markdown 20240603/m/matfree/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 08:59:51] INFO root fetch - processPackages [feincms3-sites]: executing diffoscope
+[2024-06-03 08:59:51] INFO root fetch - processPackages [feincms3-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feincms3-sites-0.8.1.tar.gz tmp/feincms3-sites-0.9.0.tar.gz --markdown 20240603/f/feincms3-sites/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-06-03 08:59:51] INFO root fetch - processPackages [matfree]: Remove: archive file [/home/abi/fetcher/tmp/matfree-0.0.8.tar.gz]
+[2024-06-03 08:59:51] INFO root fetch - processPackages [matfree]: Remove: archive file [/home/abi/fetcher/tmp/matfree-0.0.9.tar.gz]
+[2024-06-03 08:59:51] INFO root fetch - main [MainThread]: End processing [matfree]: success
+[2024-06-03 08:59:51] INFO root fetch - processPackages [feincms3-sites]: Remove: archive file [/home/abi/fetcher/tmp/feincms3-sites-0.8.1.tar.gz]
+[2024-06-03 08:59:51] INFO root fetch - processPackages [feincms3-sites]: Remove: archive file [/home/abi/fetcher/tmp/feincms3-sites-0.9.0.tar.gz]
+[2024-06-03 08:59:51] INFO root fetch - main [MainThread]: End processing [feincms3-sites]: success
+[2024-06-03 08:59:51] INFO root fetch - main [MainThread]: Store serial: [23497549]
