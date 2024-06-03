@@ -12386,3 +12386,117 @@ EOFError: EOF read where object expected
 [2024-06-03 11:45:42] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.5.3.tar.gz]
 [2024-06-03 11:45:42] INFO root fetch - main [MainThread]: End processing [afl-ai-utils]: success
 [2024-06-03 11:45:42] INFO root fetch - main [MainThread]: Store serial: [23499757]
+[2024-06-03 11:47:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499757]
+[2024-06-03 11:47:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: richie
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AparatLib
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-cxapi
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nkululeko
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: km-nlp
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dao-scripts
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpm-api
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imgori
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-command-center
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LayerupSecurity
+[2024-06-03 11:47:51] INFO root fetch - processPackages [dao-scripts]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-06-03 11:47:51] INFO root fetch - processPackages [dbt-command-center]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 11:47:51] INFO root fetch - processPackages [AparatLib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 11:47:51] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-06-03 11:47:51] WARNING root fetch - processPackages [km-nlp]: Skipping, unable to determine old version
+[2024-06-03 11:47:51] INFO root fetch - processPackages [km-nlp]: Start processing: ros-cdk-core
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ros-cdk-cxapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 11:47:51] INFO root fetch - main [MainThread]: End processing [km-nlp] error
+[2024-06-03 11:47:51] INFO root fetch - processPackages [LayerupSecurity]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-06-03 11:47:51] INFO root fetch - processPackages [gpm-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 11:47:51] INFO root fetch - processPackages [imgori]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-06-03 11:47:51] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/8e/ca/0a98558f5a7768ad3b2c9310c74b12b911f59b00865ba956938fd7ebfb30/dao_scripts-1.4.0.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/be/f2/bd7bb6ed02db3abf4be3dbd9bec4ac6ec28c78772395c4c048c5d2e7ab67/dbt_command_center-0.1.8.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [AparatLib]: Downloading https://files.pythonhosted.org/packages/39/f4/f6f2678af99a66c05d09d1eb2fefe16b67cd9d7797f82029a3731a85f7d7/aparatlib-0.1.1.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [nkululeko]: New version: [0.86.4] Old Version: [0.86.3]
+[2024-06-03 11:47:51] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ros-cdk-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/1f/e6/dd583ddab582d1221ee1a969c71696b74f6d06ac7793da54d7549f70cf57/ros-cdk-cxapi-1.0.8.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/40/b2/e73361a2ee3340c9714c4d2f6dbf00a9baf8726a2e1276912f554df5f746/imgori-0.3.1-py3-none-any.whl
+[2024-06-03 11:47:51] INFO root fetch - processPackages [LayerupSecurity]: Downloading https://files.pythonhosted.org/packages/54/92/08357f376fb88b5ae5b601f27f4c05cb3922aed94405bed9a3775fd8f596/LayerupSecurity-1.2.1.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/78/a2/e57d12de5d6c87dbb680fac87f69998e476060ded89544f2e96b50c96328/nkululeko-0.86.3.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [gpm-api]: Downloading https://files.pythonhosted.org/packages/99/d6/cfa0eb5a657844e9fd106063f660adb1d08ac20a96178a5f603421d2ed89/gpm_api-0.2.8.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/8e/b2/5b8e95b2e309ee94dc0d4001ae038e4d33f467a99ee7cd5607248d0f7b9e/ros-cdk-core-1.0.8.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/66/5f/5fedd28b2272fdf006ed8bb414d5fad18369ccd87f8092e9f90a626017b7/dbt_command_center-0.1.9.tar.gz
+[2024-06-03 11:47:51] INFO root fetch - processPackages [AparatLib]: Downloading https://files.pythonhosted.org/packages/61/45/ccaf0415bd33fe653dca3de9df3c5621187648e0328355634dba7b2a2e71/aparatlib-0.1.2.tar.gz
+[2024-06-03 11:47:52] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/09/24/842d48f87461e968a27317e38743c0be2f531b9486287a2ca02b0465e4ef/dao_scripts-1.4.1.tar.gz
+[2024-06-03 11:47:52] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-06-03 11:47:52] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/1d/86/4174eac1055c756d95cf9ce6afc563163852b7a4b23a94d6869a39ce41b8/imgori-0.3.2-py3-none-any.whl
+[2024-06-03 11:47:52] INFO root fetch - processPackages [AparatLib]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [AparatLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparatlib-0.1.1.tar.gz tmp/aparatlib-0.1.2.tar.gz --markdown 20240603/A/AparatLib/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [ros-cdk-cxapi]: Downloading https://files.pythonhosted.org/packages/05/55/8d7adff1d9a900e400ca314b191384110e8121856571cb39beb715207859/ros-cdk-cxapi-1.0.9.tar.gz
+[2024-06-03 11:47:52] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_scripts-1.4.0.tar.gz tmp/dao_scripts-1.4.1.tar.gz --markdown 20240603/d/dao-scripts/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [LayerupSecurity]: Downloading https://files.pythonhosted.org/packages/be/bb/8427d40bb9706d7bfb3cc939f0f5785135aecb7eff72a76e512bdd369026/LayerupSecurity-1.3.0.tar.gz
+[2024-06-03 11:47:52] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/55/98/d6620b4eee6ba1d35b30149a7ea03a6cba211d9634bb9698a0a61d0a63f8/nkululeko-0.86.4.tar.gz
+[2024-06-03 11:47:52] INFO root fetch - processPackages [dbt-command-center]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [dbt-command-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_command_center-0.1.8.tar.gz tmp/dbt_command_center-0.1.9.tar.gz --markdown 20240603/d/dbt-command-center/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [imgori]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [imgori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgori-0.3.1-py3-none-any.whl.zip tmp/imgori-0.3.2-py3-none-any.whl.zip --markdown 20240603/i/imgori/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [gpm-api]: Downloading https://files.pythonhosted.org/packages/56/c4/0f75cda5fb04f0a7fa347edeacc7fc68aa59d34aaa465b77c9c76cb66190/gpm_api-0.2.9.tar.gz
+[2024-06-03 11:47:52] INFO root fetch - processPackages [ros-cdk-cxapi]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [ros-cdk-cxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cxapi-1.0.8.tar.gz tmp/ros-cdk-cxapi-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cxapi/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240603/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.86.3.tar.gz tmp/nkululeko-0.86.4.tar.gz --markdown 20240603/n/nkululeko/0.86.3-0.86.4/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [LayerupSecurity]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [LayerupSecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LayerupSecurity-1.2.1.tar.gz tmp/LayerupSecurity-1.3.0.tar.gz --markdown 20240603/L/LayerupSecurity/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [ros-cdk-core]: Downloading https://files.pythonhosted.org/packages/3b/0f/07a63c14f29091bf122a8f24d6cca124f8b20a91fce17451b0ef6cd7b85b/ros-cdk-core-1.0.9.tar.gz
+[2024-06-03 11:47:52] INFO root fetch - processPackages [gpm-api]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [gpm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpm_api-0.2.8.tar.gz tmp/gpm_api-0.2.9.tar.gz --markdown 20240603/g/gpm-api/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 11:47:52] INFO root fetch - processPackages [ros-cdk-core]: executing diffoscope
+[2024-06-03 11:47:52] INFO root fetch - processPackages [ros-cdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-core-1.0.8.tar.gz tmp/ros-cdk-core-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 11:47:53] INFO root fetch - processPackages [AparatLib]: Remove: archive file [/home/abi/fetcher/tmp/aparatlib-0.1.1.tar.gz]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [AparatLib]: Remove: archive file [/home/abi/fetcher/tmp/aparatlib-0.1.2.tar.gz]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [AparatLib]: Start processing: traceloop-sdk
+[2024-06-03 11:47:53] INFO root fetch - main [MainThread]: End processing [AparatLib]: success
+[2024-06-03 11:47:53] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.3.1-py3-none-any.whl.zip]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.3.2-py3-none-any.whl.zip]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [imgori]: Start processing: mongodb-orm
+[2024-06-03 11:47:53] INFO root fetch - main [MainThread]: End processing [imgori]: success
+[2024-06-03 11:47:53] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.0.tar.gz]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.1.tar.gz]
+[2024-06-03 11:47:53] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2024-06-03 11:47:53] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.8.tar.gz]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [ros-cdk-cxapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cxapi-1.0.9.tar.gz]
+[2024-06-03 11:47:53] INFO root fetch - main [MainThread]: End processing [ros-cdk-cxapi]: success
+[2024-06-03 11:47:53] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-06-03 11:47:53] INFO root fetch - processPackages [LayerupSecurity]: Remove: archive file [/home/abi/fetcher/tmp/LayerupSecurity-1.2.1.tar.gz]
+[2024-06-03 11:47:53] INFO root fetch - processPackages [LayerupSecurity]: Remove: archive file [/home/abi/fetcher/tmp/LayerupSecurity-1.3.0.tar.gz]
+[2024-06-03 11:47:53] INFO root fetch - main [MainThread]: End processing [LayerupSecurity]: success
+[2024-06-03 11:47:53] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/6e/1f/c1241e9569cb096add47dfc527dbcdb72a01ad3442ec4102a53625e994f4/mongodb_orm-0.1.0a1.tar.gz
+[2024-06-03 11:47:54] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.8.tar.gz]
+[2024-06-03 11:47:54] INFO root fetch - processPackages [ros-cdk-core]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-core-1.0.9.tar.gz]
+[2024-06-03 11:47:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-core]: success
+[2024-06-03 11:47:54] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-06-03 11:47:54] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/98/0f/63bae573074f8f977a1048fbfedb8a5d06e6a6c876c42a4be024ee4aedb1/mongodb_orm-0.1.0a2.tar.gz
+[2024-06-03 11:47:54] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-06-03 11:47:54] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240603/t/traceloop-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-06-03 11:47:54] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 11:47:54] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0a1.tar.gz tmp/mongodb_orm-0.1.0a2.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-06-03 11:47:54] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.86.3.tar.gz]
+[2024-06-03 11:47:54] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.86.4.tar.gz]
+[2024-06-03 11:47:54] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-06-03 11:47:54] INFO root fetch - processPackages [gpm-api]: Remove: archive file [/home/abi/fetcher/tmp/gpm_api-0.2.8.tar.gz]
+[2024-06-03 11:47:54] INFO root fetch - processPackages [gpm-api]: Remove: archive file [/home/abi/fetcher/tmp/gpm_api-0.2.9.tar.gz]
+[2024-06-03 11:47:54] INFO root fetch - main [MainThread]: End processing [gpm-api]: success
+[2024-06-03 11:47:55] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a1.tar.gz]
+[2024-06-03 11:47:55] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a2.tar.gz]
+[2024-06-03 11:47:55] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 11:47:55] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-06-03 11:47:55] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-06-03 11:47:55] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-06-03 11:47:56] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.8.tar.gz]
+[2024-06-03 11:47:56] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.9.tar.gz]
+[2024-06-03 11:47:56] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
+[2024-06-03 11:49:56] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-06-03 11:49:56] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-06-03 11:49:56] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-06-03 11:49:56] INFO root fetch - main [MainThread]: Store serial: [23499803]
