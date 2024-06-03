@@ -23953,3 +23953,90 @@ EOFError: EOF read where object expected
 [2024-06-03 16:44:10] INFO root fetch - processPackages [qutebrowser]: Remove: archive file [/home/abi/fetcher/tmp/qutebrowser-3.2.0.tar.gz]
 [2024-06-03 16:44:10] INFO root fetch - main [MainThread]: End processing [qutebrowser]: success
 [2024-06-03 16:44:10] INFO root fetch - main [MainThread]: Store serial: [23504557]
+[2024-06-03 16:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504557]
+[2024-06-03 16:46:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PermutiveAPI
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sneat
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ucam-identitylib
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molflux
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chemicalspace
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dao-scripts
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atomicshop
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iminuit
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testjaehyun
+[2024-06-03 16:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sale-payment-sheet
+[2024-06-03 16:46:19] INFO root fetch - processPackages [dao-scripts]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-06-03 16:46:19] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 16:46:19] INFO root fetch - processPackages [testjaehyun]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 16:46:19] INFO root fetch - processPackages [PermutiveAPI]: New version: [3.5.3] Old Version: [3.5.2]
+[2024-06-03 16:46:20] INFO root fetch - processPackages [sneat]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-06-03 16:46:20] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0]
+[2024-06-03 16:46:20] INFO root fetch - processPackages [molflux]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-06-03 16:46:20] WARNING root fetch - processPackages [chemicalspace]: Skipping, unable to determine old version
+[2024-06-03 16:46:20] INFO root fetch - main [MainThread]: End processing [chemicalspace] error
+[2024-06-03 16:46:20] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/6e/a9/44c54627c307f4d5de943e995fc5d010f388090fd3b4d7de4b7532c725db/dao_scripts-1.4.4.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [ucam-identitylib]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-06-03 16:46:20] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 16:46:20] INFO root fetch - processPackages [testjaehyun]: Downloading https://files.pythonhosted.org/packages/6a/fe/00d8b5e87dd63fa4621f83acd0fe7c772ba441f5999d1e036df1da06fd81/testjaehyun-0.0.2.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [PermutiveAPI]: Downloading https://files.pythonhosted.org/packages/be/35/bb0a2545e67aea05abb2a025e52d19d5bcc77c032028e2c26a082958f7f5/permutiveapi-3.5.2.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [sneat]: Downloading https://files.pythonhosted.org/packages/cc/95/eb205e6552e55b4c11159258417ad5344f6d419cf1cc8a75491a9c7e61b4/sneat-0.0.3.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/5e/81/50c458f2994d0d0ee5f44df30f1c0b215874b23481a7484e6e70b4acaeef/odoo_addon_sale_payment_sheet-16.0.1.1.0-py3-none-any.whl
+[2024-06-03 16:46:20] INFO root fetch - processPackages [molflux]: Downloading https://files.pythonhosted.org/packages/ab/4f/77bb53815db8293d05e3d936d2824ef52b87296600a4cb6e94d1d9e66139/molflux-0.3.0.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [PermutiveAPI]: Downloading https://files.pythonhosted.org/packages/99/d9/741a3272b80bc8d7014e1bb24861dd8c5aa47efca7bfbf927fc0ee321157/permutiveapi-3.5.3.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [testjaehyun]: Downloading https://files.pythonhosted.org/packages/7b/63/db432f7da3beac5533c3ff603c1ae4b34ee3a6c6e2113027758229dcfcaf/testjaehyun-0.0.3.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [ucam-identitylib]: Downloading https://files.pythonhosted.org/packages/c6/9c/f05e688179a696978e9bbe771a7879bdb558cc6594878a1ce1da8daa1c52/ucam_identitylib-3.3.0.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 16:46:20] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/74/dc/2aa93cb752a7b9df6538f5e979b809bf7f2344c421a79ca2c84756e4fbf3/dao_scripts-1.4.5.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [PermutiveAPI]: executing diffoscope
+[2024-06-03 16:46:20] INFO root fetch - processPackages [testjaehyun]: executing diffoscope
+[2024-06-03 16:46:20] INFO root fetch - processPackages [PermutiveAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permutiveapi-3.5.2.tar.gz tmp/permutiveapi-3.5.3.tar.gz --markdown 20240603/P/PermutiveAPI/3.5.2-3.5.3/README.md --exclude *.pyd
+[2024-06-03 16:46:20] INFO root fetch - processPackages [testjaehyun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testjaehyun-0.0.2.tar.gz tmp/testjaehyun-0.0.3.tar.gz --markdown 20240603/t/testjaehyun/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 16:46:20] INFO root fetch - processPackages [iminuit]: New version: [2.9.0] Old Version: [2.8.4]
+[2024-06-03 16:46:20] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 16:46:20] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 16:46:20] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2024-06-03 16:46:20] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_scripts-1.4.4.tar.gz tmp/dao_scripts-1.4.5.tar.gz --markdown 20240603/d/dao-scripts/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-06-03 16:46:20] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Downloading https://files.pythonhosted.org/packages/3f/12/ecf4b49b10fd0a815758c782248379fa83ab777fd8c0408557ea15f46823/odoo_addon_sale_payment_sheet-16.0.1.1.1-py3-none-any.whl
+[2024-06-03 16:46:20] INFO root fetch - processPackages [sneat]: Downloading https://files.pythonhosted.org/packages/bf/13/5b67021c3df392387972550e6662464bec9b5c17c4950693f77c7ca3a1aa/sneat-0.0.5.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [ucam-identitylib]: Downloading https://files.pythonhosted.org/packages/1e/82/b2ce1625e7c5f86e39a6c33c04e7b435b185e28f2ecd944a724fa81f9f77/ucam_identitylib-3.3.1.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [iminuit]: Downloading https://files.pythonhosted.org/packages/02/93/03a5b0c66b17027400a0e596fec5928e6b895eaf8c46902878ceaecd7902/iminuit-2.8.4.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [molflux]: Downloading https://files.pythonhosted.org/packages/45/04/72702260be927e39913093146548e9bd83f207777cf6eeb1142b769fbe84/molflux-0.4.0.tar.gz
+[2024-06-03 16:46:20] INFO root fetch - processPackages [sneat]: executing diffoscope
+[2024-06-03 16:46:20] INFO root fetch - processPackages [sneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneat-0.0.3.tar.gz tmp/sneat-0.0.5.tar.gz --markdown 20240603/s/sneat/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-06-03 16:46:20] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: executing diffoscope
+[2024-06-03 16:46:20] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_payment_sheet-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_payment_sheet-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-sale-payment-sheet/16.0.1.1.0-16.0.1.1.1/README.md --exclude *.pyd
+[2024-06-03 16:46:21] INFO root fetch - processPackages [ucam-identitylib]: executing diffoscope
+[2024-06-03 16:46:21] INFO root fetch - processPackages [ucam-identitylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucam_identitylib-3.3.0.tar.gz tmp/ucam_identitylib-3.3.1.tar.gz --markdown 20240603/u/ucam-identitylib/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-06-03 16:46:21] INFO root fetch - processPackages [PermutiveAPI]: Remove: archive file [/home/abi/fetcher/tmp/permutiveapi-3.5.2.tar.gz]
+[2024-06-03 16:46:21] INFO root fetch - processPackages [PermutiveAPI]: Remove: archive file [/home/abi/fetcher/tmp/permutiveapi-3.5.3.tar.gz]
+[2024-06-03 16:46:21] INFO root fetch - main [MainThread]: End processing [PermutiveAPI]: success
+[2024-06-03 16:46:21] INFO root fetch - processPackages [molflux]: executing diffoscope
+[2024-06-03 16:46:21] INFO root fetch - processPackages [molflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molflux-0.3.0.tar.gz tmp/molflux-0.4.0.tar.gz --markdown 20240603/m/molflux/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-06-03 16:46:21] INFO root fetch - processPackages [testjaehyun]: Remove: archive file [/home/abi/fetcher/tmp/testjaehyun-0.0.2.tar.gz]
+[2024-06-03 16:46:21] INFO root fetch - processPackages [testjaehyun]: Remove: archive file [/home/abi/fetcher/tmp/testjaehyun-0.0.3.tar.gz]
+[2024-06-03 16:46:21] INFO root fetch - main [MainThread]: End processing [testjaehyun]: success
+[2024-06-03 16:46:21] INFO root fetch - processPackages [iminuit]: Downloading https://files.pythonhosted.org/packages/2c/d9/a53b8644237fd08bc603600867cd3ad1d29dbb2a007d8d28b51f7759c540/iminuit-2.9.0.tar.gz
+[2024-06-03 16:46:21] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.4.tar.gz]
+[2024-06-03 16:46:21] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.5.tar.gz]
+[2024-06-03 16:46:21] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2024-06-03 16:46:21] INFO root fetch - processPackages [iminuit]: executing diffoscope
+[2024-06-03 16:46:21] INFO root fetch - processPackages [iminuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iminuit-2.8.4.tar.gz tmp/iminuit-2.9.0.tar.gz --markdown 20240603/i/iminuit/2.8.4-2.9.0/README.md --exclude *.pyd
+[2024-06-03 16:46:21] INFO root fetch - processPackages [sneat]: Remove: archive file [/home/abi/fetcher/tmp/sneat-0.0.3.tar.gz]
+[2024-06-03 16:46:21] INFO root fetch - processPackages [sneat]: Remove: archive file [/home/abi/fetcher/tmp/sneat-0.0.5.tar.gz]
+[2024-06-03 16:46:21] INFO root fetch - main [MainThread]: End processing [sneat]: success
+[2024-06-03 16:46:21] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_payment_sheet-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-06-03 16:46:21] INFO root fetch - processPackages [odoo-addon-sale-payment-sheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_payment_sheet-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-06-03 16:46:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-payment-sheet]: success
+[2024-06-03 16:46:22] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 16:46:22] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 16:46:22] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 16:46:23] INFO root fetch - processPackages [iminuit]: Remove: archive file [/home/abi/fetcher/tmp/iminuit-2.8.4.tar.gz]
+[2024-06-03 16:46:23] INFO root fetch - processPackages [iminuit]: Remove: archive file [/home/abi/fetcher/tmp/iminuit-2.9.0.tar.gz]
+[2024-06-03 16:46:23] INFO root fetch - main [MainThread]: End processing [iminuit]: success
+[2024-06-03 16:46:24] INFO root fetch - processPackages [ucam-identitylib]: Remove: archive file [/home/abi/fetcher/tmp/ucam_identitylib-3.3.0.tar.gz]
+[2024-06-03 16:46:24] INFO root fetch - processPackages [ucam-identitylib]: Remove: archive file [/home/abi/fetcher/tmp/ucam_identitylib-3.3.1.tar.gz]
+[2024-06-03 16:46:24] INFO root fetch - main [MainThread]: End processing [ucam-identitylib]: success
+[2024-06-03 16:46:24] INFO root fetch - processPackages [molflux]: Remove: archive file [/home/abi/fetcher/tmp/molflux-0.3.0.tar.gz]
+[2024-06-03 16:46:24] INFO root fetch - processPackages [molflux]: Remove: archive file [/home/abi/fetcher/tmp/molflux-0.4.0.tar.gz]
+[2024-06-03 16:46:24] INFO root fetch - main [MainThread]: End processing [molflux]: success
+[2024-06-03 16:46:24] INFO root fetch - main [MainThread]: Store serial: [23504601]
