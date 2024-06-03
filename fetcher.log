@@ -1397,3 +1397,15 @@
 [2024-06-03 01:57:58] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.7.tar.gz]
 [2024-06-03 01:57:58] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-06-03 01:57:58] INFO root fetch - main [MainThread]: Store serial: [23494679]
+[2024-06-03 02:00:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494679]
+[2024-06-03 02:00:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 02:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rstms-cloudflare
+[2024-06-03 02:00:07] INFO root fetch - processPackages [rstms-cloudflare]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-06-03 02:00:07] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/3d/e4/31667acfacf0e98fb9e3d4024f35c76a67806ee71f2aba52458a2c5d20a9/rstms_cloudflare-1.1.5.tar.gz
+[2024-06-03 02:00:07] INFO root fetch - processPackages [rstms-cloudflare]: Downloading https://files.pythonhosted.org/packages/ae/36/638e646d59a18e3550e8d7851dc91c56a62b386f3c58db5de79320eafe89/rstms_cloudflare-1.1.6.tar.gz
+[2024-06-03 02:00:07] INFO root fetch - processPackages [rstms-cloudflare]: executing diffoscope
+[2024-06-03 02:00:07] INFO root fetch - processPackages [rstms-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_cloudflare-1.1.5.tar.gz tmp/rstms_cloudflare-1.1.6.tar.gz --markdown 20240603/r/rstms-cloudflare/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-06-03 02:00:08] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.1.5.tar.gz]
+[2024-06-03 02:00:08] INFO root fetch - processPackages [rstms-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/rstms_cloudflare-1.1.6.tar.gz]
+[2024-06-03 02:00:08] INFO root fetch - main [MainThread]: End processing [rstms-cloudflare]: success
+[2024-06-03 02:00:08] INFO root fetch - main [MainThread]: Store serial: [23494682]
