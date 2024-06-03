@@ -6206,3 +6206,54 @@ EOFError: EOF read where object expected
 [2024-06-03 07:03:19] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.9.0.tar.gz]
 [2024-06-03 07:03:19] INFO root fetch - main [MainThread]: End processing [fyle-integrations-platform-connector]: success
 [2024-06-03 07:03:19] INFO root fetch - main [MainThread]: Store serial: [23496839]
+[2024-06-03 07:05:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496839]
+[2024-06-03 07:05:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 07:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-06-03 07:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-injection-framework
+[2024-06-03 07:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SJRSdetects
+[2024-06-03 07:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otsuwinAPI
+[2024-06-03 07:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morphdb-utils
+[2024-06-03 07:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-homeassistant-custom-component
+[2024-06-03 07:05:27] INFO root fetch - processPackages [SJRSdetects]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-06-03 07:05:27] INFO root fetch - processPackages [morphdb-utils]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 07:05:27] INFO root fetch - processPackages [otsuwinAPI]: New version: [2022.11.30] Old Version: [2022.11.23.1]
+[2024-06-03 07:05:28] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 07:05:28] INFO root fetch - processPackages [SJRSdetects]: Downloading https://files.pythonhosted.org/packages/14/0d/9027600ef4ec0554ad6a7acea40c6a6d44f5224fb1b010e471692c00641e/sjrsdetects-1.0.2.tar.gz
+[2024-06-03 07:05:28] WARNING root fetch - processPackages [python-injection-framework]: Skipping, unable to determine old version
+[2024-06-03 07:05:28] INFO root fetch - main [MainThread]: End processing [python-injection-framework] error
+[2024-06-03 07:05:28] INFO root fetch - processPackages [otsuwinAPI]: Downloading https://files.pythonhosted.org/packages/f3/35/87aa81f59696133704673a49897325407e0337222ecb37e539a4ca89c74b/otsuwinAPI-2022.11.23.1.tar.gz
+[2024-06-03 07:05:28] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/02/ff/a753d22feda3ed63998e9a35adec52c325e614359f5ed992ba666cb4aac8/morphdb_utils-0.2.1.tar.gz
+[2024-06-03 07:05:28] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-06-03 07:05:28] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 07:05:28] INFO root fetch - processPackages [SJRSdetects]: Downloading https://files.pythonhosted.org/packages/c7/9d/39035efc9327683e8dac135cc0acef371efff979dc5bf009ff56bee4b708/sjrsdetects-1.0.4.tar.gz
+[2024-06-03 07:05:28] INFO root fetch - processPackages [otsuwinAPI]: Downloading https://files.pythonhosted.org/packages/b0/8d/b0a8fd4ab1da597520c0ed4ccf6d38bad15b3772297c1efa1ecdefd2eca4/otsuwinAPI-2022.11.30.tar.gz
+[2024-06-03 07:05:28] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/4e/38/2b91d51108810f680a092322d14a32d28944253de1df75c11c6491403ed8/morphdb_utils-0.2.2.tar.gz
+[2024-06-03 07:05:28] INFO root fetch - processPackages [SJRSdetects]: executing diffoscope
+[2024-06-03 07:05:28] INFO root fetch - processPackages [SJRSdetects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sjrsdetects-1.0.2.tar.gz tmp/sjrsdetects-1.0.4.tar.gz --markdown 20240603/S/SJRSdetects/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-06-03 07:05:28] INFO root fetch - processPackages [otsuwinAPI]: executing diffoscope
+[2024-06-03 07:05:28] INFO root fetch - processPackages [otsuwinAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otsuwinAPI-2022.11.23.1.tar.gz tmp/otsuwinAPI-2022.11.30.tar.gz --markdown 20240603/o/otsuwinAPI/2022.11.23.1-2022.11.30/README.md --exclude *.pyd
+[2024-06-03 07:05:28] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-06-03 07:05:28] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-06-03 07:05:28] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-06-03 07:05:28] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.2.1.tar.gz tmp/morphdb_utils-0.2.2.tar.gz --markdown 20240603/m/morphdb-utils/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 07:05:28] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-06-03 07:05:28] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240603/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 07:05:28] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-06-03 07:05:29] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-06-03 07:05:29] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240603/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 07:05:29] INFO root fetch - processPackages [otsuwinAPI]: Remove: archive file [/home/abi/fetcher/tmp/otsuwinAPI-2022.11.23.1.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - processPackages [otsuwinAPI]: Remove: archive file [/home/abi/fetcher/tmp/otsuwinAPI-2022.11.30.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - main [MainThread]: End processing [otsuwinAPI]: success
+[2024-06-03 07:05:29] INFO root fetch - processPackages [SJRSdetects]: Remove: archive file [/home/abi/fetcher/tmp/sjrsdetects-1.0.2.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - processPackages [SJRSdetects]: Remove: archive file [/home/abi/fetcher/tmp/sjrsdetects-1.0.4.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - main [MainThread]: End processing [SJRSdetects]: success
+[2024-06-03 07:05:29] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.1.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.2.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-06-03 07:05:29] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-06-03 07:05:29] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-06-03 07:05:29] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-06-03 07:05:29] INFO root fetch - main [MainThread]: Store serial: [23496855]
