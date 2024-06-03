@@ -2723,3 +2723,24 @@ EOFError: EOF read where object expected
 [2024-06-03 03:22:52] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.4.3.tar.gz]
 [2024-06-03 03:22:52] INFO root fetch - main [MainThread]: End processing [mutt-html-reply]: success
 [2024-06-03 03:22:52] INFO root fetch - main [MainThread]: Store serial: [23495283]
+[2024-06-03 03:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495283]
+[2024-06-03 03:25:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 03:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2024-06-03 03:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/27/ed/8df62f302a8047748be8400127b53001c116715b573d562a797eeed0f425/cs_ob_mini_scikit_learn-0.1.4.tar.gz
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240603/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/0f/f6/44bfac920622e1708624c4c47ef092bdc6fc0c00d6167630dca412d1393e/cs_ob_mini_scikit_learn-0.1.5.tar.gz
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:25:00] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_ob_mini_scikit_learn-0.1.4.tar.gz tmp/cs_ob_mini_scikit_learn-0.1.5.tar.gz --markdown 20240603/c/cs-ob-mini-scikit-learn/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 03:25:01] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-06-03 03:25:01] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-06-03 03:25:01] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-06-03 03:25:01] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.4.tar.gz]
+[2024-06-03 03:25:01] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.5.tar.gz]
+[2024-06-03 03:25:01] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
+[2024-06-03 03:25:01] INFO root fetch - main [MainThread]: Store serial: [23495296]
