@@ -17852,3 +17852,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:07:24] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.3-py3-none-any.whl.zip]
 [2024-06-03 14:07:24] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
 [2024-06-03 14:07:24] INFO root fetch - main [MainThread]: Store serial: [23501896]
+[2024-06-03 14:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501896]
+[2024-06-03 14:09:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocf-datapipes
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robusta-api
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudquery-plugin-sdk
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TiRank
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clinlp
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-iterutils
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medicraft
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-iterutils
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esiaccel
+[2024-06-03 14:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyprocessors-reconciliation
+[2024-06-03 14:09:33] WARNING root fetch - processPackages [robusta-api]: Skipping, unable to determine old version
+[2024-06-03 14:09:33] INFO root fetch - processPackages [robusta-api]: Start processing: oci
+[2024-06-03 14:09:33] INFO root fetch - main [MainThread]: End processing [robusta-api] error
+[2024-06-03 14:09:33] INFO root fetch - processPackages [cloudquery-plugin-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [medicraft]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [TiRank]: New version: [0.2] Old Version: [0.1]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [clinlp]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [python-iterutils]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [python-iterutils]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [pyprocessors-reconciliation]: New version: [0.5.9] Old Version: [0.5.7]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [esiaccel]: New version: [0.0.5.dev46] Old Version: [0.0.5.dev22]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/8d/fb/733720cbd77f5285dbf2d5e27b1c0aaaa06ff7792bcb8073c0ee5339ca57/cloudquery-plugin-sdk-0.1.8.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [TiRank]: Downloading https://files.pythonhosted.org/packages/52/67/380b1b9d7d741bca177e5841f881fbdfb831bc02534b165c9e50a8707b89/TiRank-0.1.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2024-06-03 14:09:33] INFO root fetch - processPackages [medicraft]: Downloading https://files.pythonhosted.org/packages/a0/0f/23470dd1de782bca6b3c07ce822d8e641bca4d3398555d70f46a616cb1b2/medicraft-0.9.0.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [clinlp]: Downloading https://files.pythonhosted.org/packages/e3/25/706ed017fb8bc85b98cf8214c4a0808af5ea688f16bd5789aaaebd9f138c/clinlp-0.7.0.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [python-iterutils]: Downloading https://files.pythonhosted.org/packages/b4/e6/2f12beeb41a7114589c44cb83ca87265a1cf62385dd7c8e6e7fb07d962d6/python_iterutils-0.0.3.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [python-iterutils]: Downloading https://files.pythonhosted.org/packages/b4/e6/2f12beeb41a7114589c44cb83ca87265a1cf62385dd7c8e6e7fb07d962d6/python_iterutils-0.0.3.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/aa/68/3f8f0676283a210acf3cc821e49fa6c955129c8b1a42d574ddae86209fa6/esiaccel-0.0.5.dev22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 14:09:33] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/05/dd/0462f062ce579c3d91af881cc72873b51b63a963fc6e8cfc436135ef582a/cloudquery-plugin-sdk-0.1.9.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [pyprocessors-reconciliation]: Downloading https://files.pythonhosted.org/packages/2d/32/73fddb1d9054df484060a0fd13b0d3e9765da33f767993f57481f9c94992/pyprocessors_reconciliation-0.5.7.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/b7/50/166794801e82f1f65176a501f1451e6c542bd24f1b9bc4cae6e79a4bcd64/oci-2.99.0.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-06-03 14:09:33] ERROR root fetch - processPackages [TiRank]: Unable to fetch info: No such project/version 'TiRank' 0.2
+[2024-06-03 14:09:33] INFO root fetch - main [MainThread]: End processing [TiRank] error
+[2024-06-03 14:09:33] INFO root fetch - processPackages [cloudquery-plugin-sdk]: executing diffoscope
+[2024-06-03 14:09:33] INFO root fetch - processPackages [cloudquery-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-sdk-0.1.8.tar.gz tmp/cloudquery-plugin-sdk-0.1.9.tar.gz --markdown 20240603/c/cloudquery-plugin-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 14:09:33] INFO root fetch - processPackages [medicraft]: Downloading https://files.pythonhosted.org/packages/df/92/301e7bfe91885f08be4a73fc174edf43537d9feb7e930737f480833343c6/medicraft-0.9.1.tar.gz
+[2024-06-03 14:09:33] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-06-03 14:09:33] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240603/o/ocf-datapipes/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-06-03 14:09:33] INFO root fetch - processPackages [clinlp]: Downloading https://files.pythonhosted.org/packages/a2/5b/f9ca7daf36e54f61c069396e17fc1f3369fd090d353f35f741b14197c6a4/clinlp-0.8.0.tar.gz
+[2024-06-03 14:09:34] INFO root fetch - processPackages [python-iterutils]: Downloading https://files.pythonhosted.org/packages/ab/ef/ab4e7db329efdb6149db95e18d9e9a09af35c07b78580854ce6901515902/python_iterutils-0.0.3.1.tar.gz
+[2024-06-03 14:09:34] INFO root fetch - processPackages [python-iterutils]: Downloading https://files.pythonhosted.org/packages/ab/ef/ab4e7db329efdb6149db95e18d9e9a09af35c07b78580854ce6901515902/python_iterutils-0.0.3.1.tar.gz
+[2024-06-03 14:09:34] INFO root fetch - processPackages [medicraft]: executing diffoscope
+[2024-06-03 14:09:34] INFO root fetch - processPackages [medicraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicraft-0.9.0.tar.gz tmp/medicraft-0.9.1.tar.gz --markdown 20240603/m/medicraft/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 14:09:34] INFO root fetch - processPackages [clinlp]: executing diffoscope
+[2024-06-03 14:09:34] INFO root fetch - processPackages [clinlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinlp-0.7.0.tar.gz tmp/clinlp-0.8.0.tar.gz --markdown 20240603/c/clinlp/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-06-03 14:09:34] INFO root fetch - processPackages [pyprocessors-reconciliation]: Downloading https://files.pythonhosted.org/packages/f0/2a/13b012532f2e9f816cabc3bf9135162831c70d73bc57c147e9167780c53e/pyprocessors_reconciliation-0.5.9.tar.gz
+[2024-06-03 14:09:34] INFO root fetch - processPackages [python-iterutils]: executing diffoscope
+[2024-06-03 14:09:34] INFO root fetch - processPackages [python-iterutils]: executing diffoscope
+[2024-06-03 14:09:34] INFO root fetch - processPackages [python-iterutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_iterutils-0.0.3.tar.gz tmp/python_iterutils-0.0.3.1.tar.gz --markdown 20240603/p/python-iterutils/0.0.3-0.0.3.1/README.md --exclude *.pyd
+[2024-06-03 14:09:34] INFO root fetch - processPackages [python-iterutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_iterutils-0.0.3.tar.gz tmp/python_iterutils-0.0.3.1.tar.gz --markdown 20240603/p/python-iterutils/0.0.3-0.0.3.1/README.md --exclude *.pyd
+[2024-06-03 14:09:34] INFO root fetch - processPackages [pyprocessors-reconciliation]: executing diffoscope
+[2024-06-03 14:09:34] INFO root fetch - processPackages [pyprocessors-reconciliation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_reconciliation-0.5.7.tar.gz tmp/pyprocessors_reconciliation-0.5.9.tar.gz --markdown 20240603/p/pyprocessors-reconciliation/0.5.7-0.5.9/README.md --exclude *.pyd
+[2024-06-03 14:09:34] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/1d/be/6bbe6542d7592ce51a14c623f888e96fe6f1083f41a1f49054a3f645e46d/esiaccel-0.0.5.dev46-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 14:09:34] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.8.tar.gz]
+[2024-06-03 14:09:34] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
+[2024-06-03 14:09:34] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
+[2024-06-03 14:09:34] INFO root fetch - processPackages [medicraft]: Remove: archive file [/home/abi/fetcher/tmp/medicraft-0.9.0.tar.gz]
+[2024-06-03 14:09:34] INFO root fetch - processPackages [medicraft]: Remove: archive file [/home/abi/fetcher/tmp/medicraft-0.9.1.tar.gz]
+[2024-06-03 14:09:34] INFO root fetch - main [MainThread]: End processing [medicraft]: success
+[2024-06-03 14:09:35] INFO root fetch - processPackages [python-iterutils]: Remove: archive file [/home/abi/fetcher/tmp/python_iterutils-0.0.3.tar.gz]
+[2024-06-03 14:09:35] INFO root fetch - processPackages [python-iterutils]: Remove: archive file [/home/abi/fetcher/tmp/python_iterutils-0.0.3.1.tar.gz]
+[2024-06-03 14:09:35] INFO root fetch - main [MainThread]: End processing [python-iterutils]: success
+[2024-06-03 14:09:35] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-06-03 14:09:35] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.0.5.dev22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.0.5.dev46-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240603/e/esiaccel/0.0.5.dev22-0.0.5.dev46/README.md --exclude *.pyd
+[2024-06-03 14:09:35] INFO root fetch - processPackages [pyprocessors-reconciliation]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_reconciliation-0.5.7.tar.gz]
+[2024-06-03 14:09:35] INFO root fetch - processPackages [pyprocessors-reconciliation]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_reconciliation-0.5.9.tar.gz]
+[2024-06-03 14:09:35] INFO root fetch - main [MainThread]: End processing [pyprocessors-reconciliation]: success
+[2024-06-03 14:09:35] INFO root fetch - processPackages [clinlp]: Remove: archive file [/home/abi/fetcher/tmp/clinlp-0.7.0.tar.gz]
+[2024-06-03 14:09:35] INFO root fetch - processPackages [clinlp]: Remove: archive file [/home/abi/fetcher/tmp/clinlp-0.8.0.tar.gz]
+[2024-06-03 14:09:35] INFO root fetch - main [MainThread]: End processing [clinlp]: success
+[2024-06-03 14:09:35] INFO root fetch - main [MainThread]: End processing [python-iterutils]: success
+[2024-06-03 14:09:35] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-06-03 14:09:35] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-06-03 14:09:35] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-06-03 14:09:35] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.5.dev22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 14:09:35] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.5.dev46-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 14:09:35] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-06-03 14:09:37] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/8f/3f/4d237aeedaa8d6cb488beefd362f4e0024342ac507be45fc223132c6f3a6/oci-2.99.1.tar.gz
+[2024-06-03 14:09:39] INFO root fetch - processPackages [oci]: executing diffoscope
+[2024-06-03 14:09:39] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20240603/o/oci/2.99.0-2.99.1/README.md --exclude *.pyd
+[2024-06-03 14:11:59] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.0.tar.gz]
+[2024-06-03 14:11:59] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.1.tar.gz]
+[2024-06-03 14:11:59] INFO root fetch - main [MainThread]: End processing [oci]: success
+[2024-06-03 14:11:59] INFO root fetch - main [MainThread]: Store serial: [23501938]
