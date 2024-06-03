@@ -4986,3 +4986,27 @@ EOFError: EOF read where object expected
 [2024-06-03 05:42:05] INFO root fetch - processPackages [libem]: Remove: archive file [/home/abi/fetcher/tmp/libem-0.0.9.tar.gz]
 [2024-06-03 05:42:05] INFO root fetch - main [MainThread]: End processing [libem]: success
 [2024-06-03 05:42:05] INFO root fetch - main [MainThread]: Store serial: [23496366]
+[2024-06-03 05:44:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496366]
+[2024-06-03 05:44:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aily-code-sdk
+[2024-06-03 05:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MIScikit-Learn
+[2024-06-03 05:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-resources
+[2024-06-03 05:44:14] INFO root fetch - processPackages [aily-code-sdk]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2024-06-03 05:44:14] WARNING root fetch - processPackages [MIScikit-Learn]: Skipping, unable to determine old version
+[2024-06-03 05:44:14] INFO root fetch - main [MainThread]: End processing [MIScikit-Learn] error
+[2024-06-03 05:44:14] INFO root fetch - processPackages [fastapi-resources]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-06-03 05:44:14] INFO root fetch - processPackages [fastapi-resources]: Downloading https://files.pythonhosted.org/packages/7f/dc/118e71fb18bb7fb68d729fa3e63c0941d17cba21ae4247369119a71f0684/fastapi_resources-0.5.0.tar.gz
+[2024-06-03 05:44:14] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/0c/5c/494d24c10fb27e92f515485f4031bb6a00cfbe937bff1dc3723879a80f01/aily_code_sdk-0.1.0b3.tar.gz
+[2024-06-03 05:44:14] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/77/ed/74e95fd9611cd9ac4e405cc841f6b25e8a57ee757a85443759245fc3a18e/aily_code_sdk-0.1.0b4.tar.gz
+[2024-06-03 05:44:14] INFO root fetch - processPackages [fastapi-resources]: Downloading https://files.pythonhosted.org/packages/fc/70/77bce057e310da17ebb9397a086cca7986d6f1aec736cbb1feaa235c7e09/fastapi_resources-0.5.1.tar.gz
+[2024-06-03 05:44:15] INFO root fetch - processPackages [aily-code-sdk]: executing diffoscope
+[2024-06-03 05:44:15] INFO root fetch - processPackages [aily-code-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk-0.1.0b3.tar.gz tmp/aily_code_sdk-0.1.0b4.tar.gz --markdown 20240603/a/aily-code-sdk/0.1.0b3-0.1.0b4/README.md --exclude *.pyd
+[2024-06-03 05:44:15] INFO root fetch - processPackages [fastapi-resources]: executing diffoscope
+[2024-06-03 05:44:15] INFO root fetch - processPackages [fastapi-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_resources-0.5.0.tar.gz tmp/fastapi_resources-0.5.1.tar.gz --markdown 20240603/f/fastapi-resources/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-06-03 05:44:15] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b3.tar.gz]
+[2024-06-03 05:44:15] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b4.tar.gz]
+[2024-06-03 05:44:15] INFO root fetch - main [MainThread]: End processing [aily-code-sdk]: success
+[2024-06-03 05:44:15] INFO root fetch - processPackages [fastapi-resources]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_resources-0.5.0.tar.gz]
+[2024-06-03 05:44:15] INFO root fetch - processPackages [fastapi-resources]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_resources-0.5.1.tar.gz]
+[2024-06-03 05:44:15] INFO root fetch - main [MainThread]: End processing [fastapi-resources]: success
+[2024-06-03 05:44:15] INFO root fetch - main [MainThread]: Store serial: [23496377]
