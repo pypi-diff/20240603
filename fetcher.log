@@ -13303,3 +13303,81 @@ EOFError: EOF read where object expected
 [2024-06-03 12:09:47] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.9.tar.gz]
 [2024-06-03 12:09:47] INFO root fetch - main [MainThread]: End processing [onyx-extension]: success
 [2024-06-03 12:09:47] INFO root fetch - main [MainThread]: Store serial: [23500182]
+[2024-06-03 12:11:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500182]
+[2024-06-03 12:11:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongodb-orm
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-cloudsso
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bingo-elastic
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epam.indigo
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: livepriceofgold-usa-Rx168059
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-ossdeployment
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hotsos
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-cddc
+[2024-06-03 12:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-edge-torch-nightly
+[2024-06-03 12:11:56] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: New version: [2024.0.0.3.4] Old Version: [2024.0.0.3.3]
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ai-edge-torch-nightly]: New version: [0.2.0.dev20240602] Old Version: [0.2.0.dev20240601]
+[2024-06-03 12:11:56] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cloudsso]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:11:56] INFO root fetch - processPackages [hotsos]: New version: [1.18.post9] Old Version: [1.18.post8]
+[2024-06-03 12:11:56] WARNING root fetch - processPackages [ros-cdk-ossdeployment]: Skipping, unable to determine old version
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cddc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:11:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-ossdeployment] error
+[2024-06-03 12:11:56] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/a7/f0/a9ef1141c40ff587514461220ab3f2a2de2a84dac7d42f9bea3d963606ea/mongodb_orm-0.1.0a6.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [bingo-elastic]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-06-03 12:11:56] INFO root fetch - processPackages [epam.indigo]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-06-03 12:11:56] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/df/c8/0c366dd511665ad8e8cb0f516137e38853d87a5b48c36525a3fa6c1ba683/livepriceofgold_usa_rx168059-2024.0.0.3.3.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ai-edge-torch-nightly]: Downloading https://files.pythonhosted.org/packages/f0/3b/2d23810e8516f1a3180b67c4ae673a0aecfb0c9657fe3b50fec731ba0c9d/ai_edge_torch_nightly-0.2.0.dev20240601-py3-none-any.whl
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cloudsso]: Downloading https://files.pythonhosted.org/packages/2c/07/77c79da1c80006ef2b4b63921fe9ff9cb0b5d0900e615bc9aeb8b5b723e7/ros-cdk-cloudsso-1.0.24.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cddc]: Downloading https://files.pythonhosted.org/packages/0e/ff/b3d167b53d82837916c46bc8e6f1f431ad83cacafab4b0478a927a81c840/ros-cdk-cddc-1.0.8.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5b/18/772593272e7642292d93a2964a23218b5a7b0f7cd656b0309d54b05b613d/hotsos-1.18.post8.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/9c/79/5347eba118f9933e0a487d8029ab2b0766b1bd05b392c56497ddedd20d89/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl
+[2024-06-03 12:11:56] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/6d/cd/04a2f25555f373f632dbc074e0d2f89db55708716d7884c4a097a82d2ef3/bingo_elastic-1.9.0rc3-py3-none-any.whl
+[2024-06-03 12:11:56] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/d0/cb/f070484376fb9773b04b973520c2a23361e648c2313a953303be2156c94a/livepriceofgold_usa_rx168059-2024.0.0.3.4.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/1a/81/0e32a2954f80780e5238be78622df9fcb9d38d2a2aa4082ad015e3be10c0/mongodb_orm-0.1.0a7.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ai-edge-torch-nightly]: Downloading https://files.pythonhosted.org/packages/60/28/72c98947bfd6068826137fef5c4f53b48be319710d6556741a86f1cd0ff5/ai_edge_torch_nightly-0.2.0.dev20240602-py3-none-any.whl
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cloudsso]: Downloading https://files.pythonhosted.org/packages/83/88/cea778e21d53b1bfa1705f44786659e78a17d69681627819eaed7a4461df/ros-cdk-cloudsso-1.0.25.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 12:11:56] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0a6.tar.gz tmp/mongodb_orm-0.1.0a7.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0a6-0.1.0a7/README.md --exclude *.pyd
+[2024-06-03 12:11:56] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: executing diffoscope
+[2024-06-03 12:11:56] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livepriceofgold_usa_rx168059-2024.0.0.3.3.tar.gz tmp/livepriceofgold_usa_rx168059-2024.0.0.3.4.tar.gz --markdown 20240603/l/livepriceofgold-usa-Rx168059/2024.0.0.3.3-2024.0.0.3.4/README.md --exclude *.pyd
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ai-edge-torch-nightly]: executing diffoscope
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ai-edge-torch-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_torch_nightly-0.2.0.dev20240601-py3-none-any.whl.zip tmp/ai_edge_torch_nightly-0.2.0.dev20240602-py3-none-any.whl.zip --markdown 20240603/a/ai-edge-torch-nightly/0.2.0.dev20240601-0.2.0.dev20240602/README.md --exclude *.pyd
+[2024-06-03 12:11:56] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/34/fb/8816f55d488eeaa423309aa1b297f9a04a91087d26fb5d4641f534342096/bingo_elastic-1.9.0rc4-py3-none-any.whl
+[2024-06-03 12:11:56] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/b7/2d/6540ac83f257a1a28f590a3f56eca7317e363a4b0e825c95a419d84532c7/hotsos-1.18.post9.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cddc]: Downloading https://files.pythonhosted.org/packages/4c/31/86dd2c5e585276d59653d1c1f4e4e497f8df96aebe034b16097904065906/ros-cdk-cddc-1.0.9.tar.gz
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cloudsso]: executing diffoscope
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cloudsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudsso-1.0.24.tar.gz tmp/ros-cdk-cloudsso-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-cloudsso/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:11:56] INFO root fetch - processPackages [bingo-elastic]: executing diffoscope
+[2024-06-03 12:11:56] INFO root fetch - processPackages [bingo-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip --markdown 20240603/b/bingo-elastic/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cddc]: executing diffoscope
+[2024-06-03 12:11:56] INFO root fetch - processPackages [ros-cdk-cddc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cddc-1.0.8.tar.gz tmp/ros-cdk-cddc-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cddc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:11:57] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-06-03 12:11:57] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.18.post8.tar.gz tmp/hotsos-1.18.post9.tar.gz --markdown 20240603/h/hotsos/1.18.post8-1.18.post9/README.md --exclude *.pyd
+[2024-06-03 12:11:57] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a6.tar.gz]
+[2024-06-03 12:11:57] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a7.tar.gz]
+[2024-06-03 12:11:57] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 12:11:57] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.3.tar.gz]
+[2024-06-03 12:11:57] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.4.tar.gz]
+[2024-06-03 12:11:57] INFO root fetch - main [MainThread]: End processing [livepriceofgold-usa-Rx168059]: success
+[2024-06-03 12:11:57] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip]
+[2024-06-03 12:11:57] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip]
+[2024-06-03 12:11:57] INFO root fetch - main [MainThread]: End processing [bingo-elastic]: success
+[2024-06-03 12:11:57] INFO root fetch - processPackages [ros-cdk-cloudsso]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudsso-1.0.24.tar.gz]
+[2024-06-03 12:11:57] INFO root fetch - processPackages [ros-cdk-cloudsso]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudsso-1.0.25.tar.gz]
+[2024-06-03 12:11:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudsso]: success
+[2024-06-03 12:11:57] INFO root fetch - processPackages [ros-cdk-cddc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cddc-1.0.8.tar.gz]
+[2024-06-03 12:11:57] INFO root fetch - processPackages [ros-cdk-cddc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cddc-1.0.9.tar.gz]
+[2024-06-03 12:11:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-cddc]: success
+[2024-06-03 12:11:57] INFO root fetch - processPackages [ai-edge-torch-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch_nightly-0.2.0.dev20240601-py3-none-any.whl.zip]
+[2024-06-03 12:11:57] INFO root fetch - processPackages [ai-edge-torch-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch_nightly-0.2.0.dev20240602-py3-none-any.whl.zip]
+[2024-06-03 12:11:57] INFO root fetch - main [MainThread]: End processing [ai-edge-torch-nightly]: success
+[2024-06-03 12:11:58] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post8.tar.gz]
+[2024-06-03 12:11:58] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post9.tar.gz]
+[2024-06-03 12:11:58] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-06-03 12:11:59] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/74/8b/89f1c05a7600f204968e2f264edc40664ea3e59f6c837d3f189bdd08f1d0/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl
+[2024-06-03 12:12:00] INFO root fetch - processPackages [epam.indigo]: executing diffoscope
+[2024-06-03 12:12:00] INFO root fetch - processPackages [epam.indigo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip --markdown 20240603/e/epam.indigo/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-06-03 12:12:44] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip]
+[2024-06-03 12:12:44] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
+[2024-06-03 12:12:44] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
+[2024-06-03 12:12:44] INFO root fetch - main [MainThread]: Store serial: [23500212]
