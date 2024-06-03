@@ -6311,3 +6311,33 @@ EOFError: EOF read where object expected
 [2024-06-03 07:09:49] WARNING root fetch - processPackages [interactive-GUI]: Skipping, unable to determine old version
 [2024-06-03 07:09:49] INFO root fetch - main [MainThread]: End processing [interactive-GUI] error
 [2024-06-03 07:09:49] INFO root fetch - main [MainThread]: Store serial: [23496875]
+[2024-06-03 07:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496875]
+[2024-06-03 07:11:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 07:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uaiDiffusers
+[2024-06-03 07:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-med-image-ml
+[2024-06-03 07:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasets
+[2024-06-03 07:11:57] INFO root fetch - processPackages [uaiDiffusers]: New version: [1.1.5.7] Old Version: [1.1.5.6]
+[2024-06-03 07:11:57] INFO root fetch - processPackages [uaiDiffusers]: Downloading https://files.pythonhosted.org/packages/22/c7/72a69e97a63784a6a0433a0c40bf1d119160cf12fbd1371914bc67661c07/uaiDiffusers-1.1.5.6-py2.py3-none-any.whl
+[2024-06-03 07:11:57] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 07:11:57] INFO root fetch - processPackages [datasets]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-06-03 07:11:57] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/85/7a/40b2a31727d866d00462a3c5c0336dcd67a130b33da41471747d6ae79d0b/multi_med_image_ml-0.0.8.tar.gz
+[2024-06-03 07:11:57] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/ce/ba/2ed94e21dd2d425ebd185a2f5ea6cc63b48c145a374b161c7eb274d76229/datasets-2.8.0.tar.gz
+[2024-06-03 07:11:57] INFO root fetch - processPackages [uaiDiffusers]: Downloading https://files.pythonhosted.org/packages/26/c0/5ef5963a2490e3a1b1cd029491766125dc484e5c1ffee3559bd86958a0b9/uaiDiffusers-1.1.5.7-py2.py3-none-any.whl
+[2024-06-03 07:11:57] INFO root fetch - processPackages [uaiDiffusers]: executing diffoscope
+[2024-06-03 07:11:57] INFO root fetch - processPackages [uaiDiffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uaiDiffusers-1.1.5.6-py2.py3-none-any.whl.zip tmp/uaiDiffusers-1.1.5.7-py2.py3-none-any.whl.zip --markdown 20240603/u/uaiDiffusers/1.1.5.6-1.1.5.7/README.md --exclude *.pyd
+[2024-06-03 07:11:58] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/af/bb/6cd3104b2205a0a01bd5686681b87f4f4253ff30f5fc219ba7c3cc390397/multi_med_image_ml-0.0.9.tar.gz
+[2024-06-03 07:11:58] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/f6/d0/ccd1c9148fe300a069b42a8701fe9f1cb9a22c056d449c96ef5d546e18aa/datasets-2.9.0.tar.gz
+[2024-06-03 07:11:58] INFO root fetch - processPackages [uaiDiffusers]: Remove: archive file [/home/abi/fetcher/tmp/uaiDiffusers-1.1.5.6-py2.py3-none-any.whl.zip]
+[2024-06-03 07:11:58] INFO root fetch - processPackages [uaiDiffusers]: Remove: archive file [/home/abi/fetcher/tmp/uaiDiffusers-1.1.5.7-py2.py3-none-any.whl.zip]
+[2024-06-03 07:11:58] INFO root fetch - main [MainThread]: End processing [uaiDiffusers]: success
+[2024-06-03 07:11:58] INFO root fetch - processPackages [datasets]: executing diffoscope
+[2024-06-03 07:11:58] INFO root fetch - processPackages [datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasets-2.8.0.tar.gz tmp/datasets-2.9.0.tar.gz --markdown 20240603/d/datasets/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-06-03 07:11:58] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-06-03 07:11:58] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.8.tar.gz tmp/multi_med_image_ml-0.0.9.tar.gz --markdown 20240603/m/multi-med-image-ml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 07:11:59] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.8.tar.gz]
+[2024-06-03 07:11:59] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.9.tar.gz]
+[2024-06-03 07:11:59] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-06-03 07:11:59] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.8.0.tar.gz]
+[2024-06-03 07:11:59] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.9.0.tar.gz]
+[2024-06-03 07:12:00] INFO root fetch - main [MainThread]: End processing [datasets]: success
+[2024-06-03 07:12:00] INFO root fetch - main [MainThread]: Store serial: [23496883]
