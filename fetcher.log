@@ -23354,3 +23354,63 @@ EOFError: EOF read where object expected
 [2024-06-03 16:24:02] INFO root fetch - processPackages [pylebai]: Remove: archive file [/home/abi/fetcher/tmp/pylebai-1.1.9-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
 [2024-06-03 16:24:02] INFO root fetch - main [MainThread]: End processing [pylebai]: success
 [2024-06-03 16:24:02] INFO root fetch - main [MainThread]: Store serial: [23504167]
+[2024-06-03 16:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504167]
+[2024-06-03 16:26:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 16:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amisui
+[2024-06-03 16:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HiggsML
+[2024-06-03 16:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: watchlog-python
+[2024-06-03 16:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-smartbase-admin
+[2024-06-03 16:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chess-transformer
+[2024-06-03 16:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osvg
+[2024-06-03 16:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litellm
+[2024-06-03 16:26:15] WARNING root fetch - processPackages [watchlog-python]: Skipping, unable to determine old version
+[2024-06-03 16:26:15] INFO root fetch - main [MainThread]: End processing [watchlog-python] error
+[2024-06-03 16:26:15] INFO root fetch - processPackages [HiggsML]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:26:15] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-06-03 16:26:15] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 16:26:15] INFO root fetch - processPackages [amisui]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 16:26:15] INFO root fetch - processPackages [osvg]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-06-03 16:26:15] INFO root fetch - processPackages [HiggsML]: Downloading https://files.pythonhosted.org/packages/51/14/508744d17a41e352fb307bdfe258e299319dc15bdff344902e5f9ec56ff4/higgsml-0.0.8.tar.gz
+[2024-06-03 16:26:15] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-06-03 16:26:15] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/17/9a/4eaffd0a6a3b549dde852c3725d047241701c2bfbd76111bc2bccccb0658/chess_transformer-0.1.8.tar.gz
+[2024-06-03 16:26:16] INFO root fetch - processPackages [osvg]: Downloading https://files.pythonhosted.org/packages/dc/d0/96471e011e81bb5f9a44dd1002844eec2eb7c8d2daccb7df7cf09f050b84/osvg-1.1.1.tar.gz
+[2024-06-03 16:26:16] INFO root fetch - processPackages [amisui]: Downloading https://files.pythonhosted.org/packages/37/43/a4c064436a683e4ce527a2e4d43ec5b26b9e75f727015354bf95cd10dad9/amisui-0.1.4.tar.gz
+[2024-06-03 16:26:16] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-06-03 16:26:16] INFO root fetch - processPackages [HiggsML]: Downloading https://files.pythonhosted.org/packages/16/3a/936d763cb3c0985c6cf3e10ea7d42c693e9d98fbe8eb34b646793b51b6f5/higgsml-0.0.9.tar.gz
+[2024-06-03 16:26:16] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-06-03 16:26:16] INFO root fetch - processPackages [HiggsML]: executing diffoscope
+[2024-06-03 16:26:16] INFO root fetch - processPackages [HiggsML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/higgsml-0.0.8.tar.gz tmp/higgsml-0.0.9.tar.gz --markdown 20240603/H/HiggsML/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:26:16] INFO root fetch - processPackages [osvg]: Downloading https://files.pythonhosted.org/packages/4e/8c/c3598d053f51059da35ac9508d35700e79d2e3d844ff775b25e905bd8a62/osvg-1.1.2.tar.gz
+[2024-06-03 16:26:16] INFO root fetch - processPackages [amisui]: Downloading https://files.pythonhosted.org/packages/7f/18/5cc2718dd0fd961d57f740808e70d8d59fe0761547cf841e2603b7bc5ce4/amisui-0.1.5.tar.gz
+[2024-06-03 16:26:16] INFO root fetch - processPackages [osvg]: executing diffoscope
+[2024-06-03 16:26:16] INFO root fetch - processPackages [osvg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osvg-1.1.1.tar.gz tmp/osvg-1.1.2.tar.gz --markdown 20240603/o/osvg/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-06-03 16:26:16] INFO root fetch - processPackages [HiggsML]: Remove: archive file [/home/abi/fetcher/tmp/higgsml-0.0.8.tar.gz]
+[2024-06-03 16:26:16] INFO root fetch - processPackages [HiggsML]: Remove: archive file [/home/abi/fetcher/tmp/higgsml-0.0.9.tar.gz]
+[2024-06-03 16:26:17] INFO root fetch - main [MainThread]: End processing [HiggsML]: success
+[2024-06-03 16:26:17] INFO root fetch - processPackages [amisui]: executing diffoscope
+[2024-06-03 16:26:17] INFO root fetch - processPackages [amisui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amisui-0.1.4.tar.gz tmp/amisui-0.1.5.tar.gz --markdown 20240603/a/amisui/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 16:26:17] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-06-03 16:26:17] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-06-03 16:26:17] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/ee/65/ac93cfdac6866e37c13a65533e65710bf7f19f73880bfb7a9eaeb907f8e0/chess_transformer-0.1.9.tar.gz
+[2024-06-03 16:26:17] INFO root fetch - processPackages [osvg]: Remove: archive file [/home/abi/fetcher/tmp/osvg-1.1.1.tar.gz]
+[2024-06-03 16:26:17] INFO root fetch - processPackages [osvg]: Remove: archive file [/home/abi/fetcher/tmp/osvg-1.1.2.tar.gz]
+[2024-06-03 16:26:17] INFO root fetch - main [MainThread]: End processing [osvg]: success
+[2024-06-03 16:26:17] INFO root fetch - processPackages [amisui]: Remove: archive file [/home/abi/fetcher/tmp/amisui-0.1.4.tar.gz]
+[2024-06-03 16:26:17] INFO root fetch - processPackages [amisui]: Remove: archive file [/home/abi/fetcher/tmp/amisui-0.1.5.tar.gz]
+[2024-06-03 16:26:17] INFO root fetch - main [MainThread]: End processing [amisui]: success
+[2024-06-03 16:26:17] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-06-03 16:26:17] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.8.tar.gz tmp/chess_transformer-0.1.9.tar.gz --markdown 20240603/c/chess-transformer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 16:26:17] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-06-03 16:26:17] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240603/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-06-03 16:26:18] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.8.tar.gz]
+[2024-06-03 16:26:18] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.9.tar.gz]
+[2024-06-03 16:26:18] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-06-03 16:26:18] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-06-03 16:26:18] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240603/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-06-03 16:26:19] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-06-03 16:26:19] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-06-03 16:26:19] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-06-03 16:26:23] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-06-03 16:26:23] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-06-03 16:26:23] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-06-03 16:26:23] INFO root fetch - main [MainThread]: Store serial: [23504191]
