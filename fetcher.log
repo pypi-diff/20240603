@@ -12991,3 +12991,102 @@ EOFError: EOF read where object expected
 [2024-06-03 12:01:07] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024060209.tar.gz]
 [2024-06-03 12:01:07] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-06-03 12:01:07] INFO root fetch - main [MainThread]: Store serial: [23500047]
+[2024-06-03 12:03:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500047]
+[2024-06-03 12:03:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-dcdn
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ponytail-agents
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-ecs
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongodb-orm
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gen-vm-image
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphclass
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyctapi
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atomicshop
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-bss
+[2024-06-03 12:03:16] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2024-06-03 12:03:16] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 12:03:16] INFO root fetch - processPackages [bagbag]: New version: [0.68.9] Old Version: [0.68.8]
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ponytail-agents]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ros-cdk-bss]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:03:16] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/c0/c4/f433647c044d03a531371defd3ac92147b11293ad1b91f3200477c2e2241/mongodb_orm-0.1.0a5.tar.gz
+[2024-06-03 12:03:16] WARNING root fetch - processPackages [graphclass]: Skipping, unable to determine old version
+[2024-06-03 12:03:16] INFO root fetch - processPackages [graphclass]: Start processing: ros-cdk-arms
+[2024-06-03 12:03:16] INFO root fetch - main [MainThread]: End processing [graphclass] error
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ros-cdk-ecs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:03:16] INFO root fetch - processPackages [ros-cdk-dcdn]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:03:16] WARNING root fetch - processPackages [pyctapi]: Skipping, unable to determine old version
+[2024-06-03 12:03:16] INFO root fetch - processPackages [gen-vm-image]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-06-03 12:03:16] INFO root fetch - processPackages [pyctapi]: Start processing: livepriceofgold-usa-Rx168059
+[2024-06-03 12:03:16] INFO root fetch - main [MainThread]: End processing [pyctapi] error
+[2024-06-03 12:03:16] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 12:03:17] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: New version: [2024.0.0.3.3] Old Version: [2024.0.0.3.2]
+[2024-06-03 12:03:17] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/96/cec1b60756a800353138acafbcdaf59362f72a46b4a91cae324ae5b6118b/bagbag-0.68.8.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-arms]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-bss]: Downloading https://files.pythonhosted.org/packages/01/5d/7367ba097309c2cad4d93042e0b57559d3baca78f6413adfc0241c79ab5c/ros-cdk-bss-1.0.8.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ponytail-agents]: Downloading https://files.pythonhosted.org/packages/c1/50/2f1a957a6a8acacf42cd9978b18b8001c765826dc53bbf944c9d2919e664/ponytail-agents-0.1.6.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-ecs]: Downloading https://files.pythonhosted.org/packages/b8/dc/4d8f536da0ccdadad4e0b61144a3c22557401b784fd85b11f4e99134ce4c/ros-cdk-ecs-1.0.8.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/9e/e3/08dd12d646f0ac78c30677789ec1806fd6df8d98ccc58346706bce56e906/livepriceofgold_usa_rx168059-2024.0.0.3.2.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [gen-vm-image]: Downloading https://files.pythonhosted.org/packages/ad/9f/1ecce81179529a94211e4a0f0f968f1a36dc9028b2042255971535fa4909/gen_vm_image-0.0.1a1.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-dcdn]: Downloading https://files.pythonhosted.org/packages/43/c9/5faa81c4a8fe90059126c4bf6e43a1e05449073cff696af4cdd467da7da5/ros-cdk-dcdn-1.0.24.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/a7/f0/a9ef1141c40ff587514461220ab3f2a2de2a84dac7d42f9bea3d963606ea/mongodb_orm-0.1.0a6.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-arms]: Downloading https://files.pythonhosted.org/packages/05/d5/556a94dd81b599d712e14c8e5e30cf5e570e55be55da1fed52df879727b2/ros-cdk-arms-1.0.8.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 12:03:17] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0a5.tar.gz tmp/mongodb_orm-0.1.0a6.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0a5-0.1.0a6/README.md --exclude *.pyd
+[2024-06-03 12:03:17] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/a7/ce/36d9c874c6e340bb1da40a8b9b41a914e0760f19171ede585a00fb45323d/bagbag-0.68.9.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ponytail-agents]: Downloading https://files.pythonhosted.org/packages/7f/52/5bd85e92a75fb2e785fc16d96bf1f2065823c0329aa7dd29f9dff28138cc/ponytail-agents-0.1.7.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 12:03:17] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 12:03:17] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/df/c8/0c366dd511665ad8e8cb0f516137e38853d87a5b48c36525a3fa6c1ba683/livepriceofgold_usa_rx168059-2024.0.0.3.3.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [gen-vm-image]: Downloading https://files.pythonhosted.org/packages/b3/d9/030d0749ad39b33aa0a8b87257a779d1645d57949a05c0bfd130ed036315/gen_vm_image-0.0.1a2.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-dcdn]: Downloading https://files.pythonhosted.org/packages/e4/59/c6ace9bacfac91bff36c95f38c0d52a5c3b1779cb5fa3a912109ecd81152/ros-cdk-dcdn-1.0.25.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-06-03 12:03:17] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.8.tar.gz tmp/bagbag-0.68.9.tar.gz --markdown 20240603/b/bagbag/0.68.8-0.68.9/README.md --exclude *.pyd
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ponytail-agents]: executing diffoscope
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ponytail-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ponytail-agents-0.1.6.tar.gz tmp/ponytail-agents-0.1.7.tar.gz --markdown 20240603/p/ponytail-agents/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-bss]: Downloading https://files.pythonhosted.org/packages/3a/67/4f5261976d3d0ebbad88eead45b2e0cea6f54d974cab64d1e56e73d28912/ros-cdk-bss-1.0.9.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-ecs]: Downloading https://files.pythonhosted.org/packages/3a/15/8d8cb5408298eea80071698c66dd31874bf70897a42bf316f9575236aa30/ros-cdk-ecs-1.0.9.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: executing diffoscope
+[2024-06-03 12:03:17] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livepriceofgold_usa_rx168059-2024.0.0.3.2.tar.gz tmp/livepriceofgold_usa_rx168059-2024.0.0.3.3.tar.gz --markdown 20240603/l/livepriceofgold-usa-Rx168059/2024.0.0.3.2-2024.0.0.3.3/README.md --exclude *.pyd
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-dcdn]: executing diffoscope
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-dcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dcdn-1.0.24.tar.gz tmp/ros-cdk-dcdn-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-dcdn/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-arms]: Downloading https://files.pythonhosted.org/packages/0e/8f/eb220bbdd4df3638ff8d5656ad26a2eb3f90a94248ab44058eade9b49c78/ros-cdk-arms-1.0.9.tar.gz
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-bss]: executing diffoscope
+[2024-06-03 12:03:17] INFO root fetch - processPackages [ros-cdk-bss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bss-1.0.8.tar.gz tmp/ros-cdk-bss-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-bss/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:03:17] INFO root fetch - processPackages [gen-vm-image]: executing diffoscope
+[2024-06-03 12:03:17] INFO root fetch - processPackages [gen-vm-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_vm_image-0.0.1a1.tar.gz tmp/gen_vm_image-0.0.1a2.tar.gz --markdown 20240603/g/gen-vm-image/0.0.1a1-0.0.1a2/README.md --exclude *.pyd
+[2024-06-03 12:03:18] INFO root fetch - processPackages [ros-cdk-arms]: executing diffoscope
+[2024-06-03 12:03:18] INFO root fetch - processPackages [ros-cdk-arms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-arms-1.0.8.tar.gz tmp/ros-cdk-arms-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-arms/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:03:18] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a5.tar.gz]
+[2024-06-03 12:03:18] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a6.tar.gz]
+[2024-06-03 12:03:18] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 12:03:18] INFO root fetch - processPackages [ros-cdk-dcdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dcdn-1.0.24.tar.gz]
+[2024-06-03 12:03:18] INFO root fetch - processPackages [ros-cdk-dcdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dcdn-1.0.25.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - main [MainThread]: End processing [ros-cdk-dcdn]: success
+[2024-06-03 12:03:19] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.2.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.3.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - main [MainThread]: End processing [livepriceofgold-usa-Rx168059]: success
+[2024-06-03 12:03:19] INFO root fetch - processPackages [gen-vm-image]: Remove: archive file [/home/abi/fetcher/tmp/gen_vm_image-0.0.1a1.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - processPackages [gen-vm-image]: Remove: archive file [/home/abi/fetcher/tmp/gen_vm_image-0.0.1a2.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - main [MainThread]: End processing [gen-vm-image]: success
+[2024-06-03 12:03:19] INFO root fetch - processPackages [ros-cdk-bss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bss-1.0.8.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - processPackages [ros-cdk-bss]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bss-1.0.9.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - main [MainThread]: End processing [ros-cdk-bss]: success
+[2024-06-03 12:03:19] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.8.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - processPackages [ros-cdk-arms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-arms-1.0.9.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - main [MainThread]: End processing [ros-cdk-arms]: success
+[2024-06-03 12:03:19] INFO root fetch - processPackages [ponytail-agents]: Remove: archive file [/home/abi/fetcher/tmp/ponytail-agents-0.1.6.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - processPackages [ponytail-agents]: Remove: archive file [/home/abi/fetcher/tmp/ponytail-agents-0.1.7.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - main [MainThread]: End processing [ponytail-agents]: success
+[2024-06-03 12:03:19] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 12:03:19] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 12:03:19] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 12:03:19] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.8.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.9.tar.gz]
+[2024-06-03 12:03:19] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-06-03 12:03:19] INFO root fetch - processPackages [ros-cdk-ecs]: executing diffoscope
+[2024-06-03 12:03:19] INFO root fetch - processPackages [ros-cdk-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ecs-1.0.8.tar.gz tmp/ros-cdk-ecs-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-ecs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:03:20] INFO root fetch - processPackages [ros-cdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecs-1.0.8.tar.gz]
+[2024-06-03 12:03:20] INFO root fetch - processPackages [ros-cdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecs-1.0.9.tar.gz]
+[2024-06-03 12:03:20] INFO root fetch - main [MainThread]: End processing [ros-cdk-ecs]: success
+[2024-06-03 12:03:20] INFO root fetch - main [MainThread]: Store serial: [23500094]
