@@ -6738,3 +6738,38 @@ EOFError: EOF read where object expected
 [2024-06-03 07:33:46] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.9.3.tar.gz]
 [2024-06-03 07:33:46] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-06-03 07:33:46] INFO root fetch - main [MainThread]: Store serial: [23497026]
+[2024-06-03 07:35:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497026]
+[2024-06-03 07:35:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 07:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-plugin
+[2024-06-03 07:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-highlighter
+[2024-06-03 07:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blue-plugin
+[2024-06-03 07:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blue-plugin
+[2024-06-03 07:35:56] INFO root fetch - processPackages [text-highlighter]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: New version: [3.65.1] Old Version: [3.64.1]
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: New version: [3.65.1] Old Version: [3.64.1]
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: New version: [3.65.1] Old Version: [3.64.1]
+[2024-06-03 07:35:56] INFO root fetch - processPackages [text-highlighter]: Downloading https://files.pythonhosted.org/packages/f2/7c/bdb2383ecb22e9e870312b7f1b35201d57bd4519f978d5cc0ac6b0c3f4ed/text-highlighter-0.0.8.tar.gz
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b4/11/f61ced6f70f63e0a0ee580347c15e927b2d391a1a282086d3c63e6575389/blue_plugin-3.64.1.tar.gz
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b4/11/f61ced6f70f63e0a0ee580347c15e927b2d391a1a282086d3c63e6575389/blue_plugin-3.64.1.tar.gz
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b4/11/f61ced6f70f63e0a0ee580347c15e927b2d391a1a282086d3c63e6575389/blue_plugin-3.64.1.tar.gz
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/a9/d1/1aff03f7f41ebe1144c27dabe18fecdcac821258dbfa3b6224f9b1f7ac7f/blue_plugin-3.65.1.tar.gz
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/a9/d1/1aff03f7f41ebe1144c27dabe18fecdcac821258dbfa3b6224f9b1f7ac7f/blue_plugin-3.65.1.tar.gz
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/a9/d1/1aff03f7f41ebe1144c27dabe18fecdcac821258dbfa3b6224f9b1f7ac7f/blue_plugin-3.65.1.tar.gz
+[2024-06-03 07:35:56] INFO root fetch - processPackages [text-highlighter]: Downloading https://files.pythonhosted.org/packages/b2/11/78d578a8e90c0333120fc009edff59821e1406accf5186c794d1924fc5b9/text-highlighter-0.0.9.tar.gz
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.64.1.tar.gz tmp/blue_plugin-3.65.1.tar.gz --markdown 20240603/b/blue-plugin/3.64.1-3.65.1/README.md --exclude *.pyd
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.64.1.tar.gz tmp/blue_plugin-3.65.1.tar.gz --markdown 20240603/b/blue-plugin/3.64.1-3.65.1/README.md --exclude *.pyd
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-06-03 07:35:56] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.64.1.tar.gz tmp/blue_plugin-3.65.1.tar.gz --markdown 20240603/b/blue-plugin/3.64.1-3.65.1/README.md --exclude *.pyd
+[2024-06-03 07:35:56] INFO root fetch - processPackages [text-highlighter]: executing diffoscope
+[2024-06-03 07:35:56] INFO root fetch - processPackages [text-highlighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-highlighter-0.0.8.tar.gz tmp/text-highlighter-0.0.9.tar.gz --markdown 20240603/t/text-highlighter/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 07:35:57] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.64.1.tar.gz]
+[2024-06-03 07:35:57] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.65.1.tar.gz]
+[2024-06-03 07:35:57] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-06-03 07:35:57] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-06-03 07:35:57] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-06-03 07:35:57] INFO root fetch - processPackages [text-highlighter]: Remove: archive file [/home/abi/fetcher/tmp/text-highlighter-0.0.8.tar.gz]
+[2024-06-03 07:35:57] INFO root fetch - processPackages [text-highlighter]: Remove: archive file [/home/abi/fetcher/tmp/text-highlighter-0.0.9.tar.gz]
+[2024-06-03 07:35:57] INFO root fetch - main [MainThread]: End processing [text-highlighter]: success
+[2024-06-03 07:35:57] INFO root fetch - main [MainThread]: Store serial: [23497038]
