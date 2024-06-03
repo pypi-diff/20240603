@@ -6101,3 +6101,33 @@ EOFError: EOF read where object expected
 [2024-06-03 06:54:33] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
 [2024-06-03 06:54:33] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
 [2024-06-03 06:54:33] INFO root fetch - main [MainThread]: Store serial: [23496790]
+[2024-06-03 06:56:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496790]
+[2024-06-03 06:56:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instill-sdk
+[2024-06-03 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypowerwall
+[2024-06-03 06:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redbacktechpy
+[2024-06-03 06:56:41] INFO root fetch - processPackages [redbacktechpy]: New version: [2024.5.1b8] Old Version: [2024.5.1b7]
+[2024-06-03 06:56:42] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/d4/8e/3d11ccbc50753992517137006077beeb31b5199210df8886b7218f67764e/redbacktechpy-2024.5.1b7.tar.gz
+[2024-06-03 06:56:42] INFO root fetch - processPackages [pypowerwall]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-06-03 06:56:42] INFO root fetch - processPackages [instill-sdk]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2024-06-03 06:56:42] INFO root fetch - processPackages [pypowerwall]: Downloading https://files.pythonhosted.org/packages/37/90/6149d358a0b49593bb684371560220a9a91ca1f3616c0fac619193b5227d/pypowerwall-0.9.0-py2.py3-none-any.whl
+[2024-06-03 06:56:42] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/ef/44/e82999958d2e8f11d401e144dcdb581def936306f8fa41cd0bb7bff4b3ca/instill_sdk-0.9.0.tar.gz
+[2024-06-03 06:56:42] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/03/0c/e4b7e2b7b0d9cc8ef636698f3935ebd62a2564638c10054a380a0bd4ad56/redbacktechpy-2024.5.1b8.tar.gz
+[2024-06-03 06:56:42] INFO root fetch - processPackages [redbacktechpy]: executing diffoscope
+[2024-06-03 06:56:42] INFO root fetch - processPackages [redbacktechpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbacktechpy-2024.5.1b7.tar.gz tmp/redbacktechpy-2024.5.1b8.tar.gz --markdown 20240603/r/redbacktechpy/2024.5.1b7-2024.5.1b8/README.md --exclude *.pyd
+[2024-06-03 06:56:42] INFO root fetch - processPackages [pypowerwall]: Downloading https://files.pythonhosted.org/packages/79/97/560f23af784b65e70c24673c72d07814c49e6ffbbca35e61e60af440793d/pypowerwall-0.9.1-py2.py3-none-any.whl
+[2024-06-03 06:56:42] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/9d/ba/55f436eb8ceb30331f9f7e4df95a211e70671823a66e26c8867e4efa7fdc/instill_sdk-0.9.0rc0.tar.gz
+[2024-06-03 06:56:42] INFO root fetch - processPackages [pypowerwall]: executing diffoscope
+[2024-06-03 06:56:42] INFO root fetch - processPackages [pypowerwall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypowerwall-0.9.0-py2.py3-none-any.whl.zip tmp/pypowerwall-0.9.1-py2.py3-none-any.whl.zip --markdown 20240603/p/pypowerwall/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 06:56:42] INFO root fetch - processPackages [instill-sdk]: executing diffoscope
+[2024-06-03 06:56:42] INFO root fetch - processPackages [instill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instill_sdk-0.9.0.tar.gz tmp/instill_sdk-0.9.0rc0.tar.gz --markdown 20240603/i/instill-sdk/0.9.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-06-03 06:56:43] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b7.tar.gz]
+[2024-06-03 06:56:43] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b8.tar.gz]
+[2024-06-03 06:56:43] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
+[2024-06-03 06:56:43] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.9.0-py2.py3-none-any.whl.zip]
+[2024-06-03 06:56:43] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.9.1-py2.py3-none-any.whl.zip]
+[2024-06-03 06:56:43] INFO root fetch - main [MainThread]: End processing [pypowerwall]: success
+[2024-06-03 06:56:44] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0.tar.gz]
+[2024-06-03 06:56:44] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0rc0.tar.gz]
+[2024-06-03 06:56:44] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
+[2024-06-03 06:56:44] INFO root fetch - main [MainThread]: Store serial: [23496807]
