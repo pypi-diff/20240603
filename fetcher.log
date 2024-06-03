@@ -3326,3 +3326,33 @@ EOFError: EOF read where object expected
 [2024-06-03 04:02:54] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.90.1.tar.gz]
 [2024-06-03 04:02:54] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-06-03 04:02:54] INFO root fetch - main [MainThread]: Store serial: [23495550]
+[2024-06-03 04:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495550]
+[2024-06-03 04:05:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 04:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-top
+[2024-06-03 04:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batchalign
+[2024-06-03 04:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notion-database
+[2024-06-03 04:05:03] INFO root fetch - processPackages [batchalign]: New version: [0.7.1b9] Old Version: [0.7.1b8]
+[2024-06-03 04:05:03] INFO root fetch - processPackages [batchalign]: Downloading https://files.pythonhosted.org/packages/5e/69/fffb9b55ff008fb99719939ef95803ed3d3e1242efd310a7ea0f58e9f0dc/batchalign-0.7.1b8.tar.gz
+[2024-06-03 04:05:03] INFO root fetch - processPackages [notion-database]: New version: [20220628.8] Old Version: [20220628.7]
+[2024-06-03 04:05:03] INFO root fetch - processPackages [seven-top]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 04:05:03] INFO root fetch - processPackages [seven-top]: Downloading https://files.pythonhosted.org/packages/ba/fe/59b6035338014cbf562eeba70661cb4ed74de8bf51d6dd23c591b4256075/seven_top-1.0.8.tar.gz
+[2024-06-03 04:05:03] INFO root fetch - processPackages [batchalign]: Downloading https://files.pythonhosted.org/packages/7a/33/7eb30dfc9d41b546abf384d7f28e0db1c8909bb1f1dae1e8e495c14bf2ea/batchalign-0.7.1b9.tar.gz
+[2024-06-03 04:05:03] INFO root fetch - processPackages [notion-database]: Downloading https://files.pythonhosted.org/packages/e2/4f/7f846c550fc2e6faf13b302583d5537a310f6a935579d4c08aba3b42b413/notion-database-20220628.7.tar.gz
+[2024-06-03 04:05:03] INFO root fetch - processPackages [batchalign]: executing diffoscope
+[2024-06-03 04:05:03] INFO root fetch - processPackages [batchalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchalign-0.7.1b8.tar.gz tmp/batchalign-0.7.1b9.tar.gz --markdown 20240603/b/batchalign/0.7.1b8-0.7.1b9/README.md --exclude *.pyd
+[2024-06-03 04:05:04] INFO root fetch - processPackages [seven-top]: Downloading https://files.pythonhosted.org/packages/96/53/e89ae512fbde7ffda9a69d1f4d914fc354b75c5994aa199a57c84fff21aa/seven_top-1.0.9.tar.gz
+[2024-06-03 04:05:04] INFO root fetch - processPackages [notion-database]: Downloading https://files.pythonhosted.org/packages/b8/ae/e2d8ed8b9703b3deb62ed71811d8fb41926ab5681d278f365177c7dea0ed/notion-database-20220628.8.tar.gz
+[2024-06-03 04:05:04] INFO root fetch - processPackages [seven-top]: executing diffoscope
+[2024-06-03 04:05:04] INFO root fetch - processPackages [seven-top]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_top-1.0.8.tar.gz tmp/seven_top-1.0.9.tar.gz --markdown 20240603/s/seven-top/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 04:05:04] INFO root fetch - processPackages [notion-database]: executing diffoscope
+[2024-06-03 04:05:04] INFO root fetch - processPackages [notion-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-database-20220628.7.tar.gz tmp/notion-database-20220628.8.tar.gz --markdown 20240603/n/notion-database/20220628.7-20220628.8/README.md --exclude *.pyd
+[2024-06-03 04:05:04] INFO root fetch - processPackages [batchalign]: Remove: archive file [/home/abi/fetcher/tmp/batchalign-0.7.1b8.tar.gz]
+[2024-06-03 04:05:04] INFO root fetch - processPackages [batchalign]: Remove: archive file [/home/abi/fetcher/tmp/batchalign-0.7.1b9.tar.gz]
+[2024-06-03 04:05:04] INFO root fetch - main [MainThread]: End processing [batchalign]: success
+[2024-06-03 04:05:04] INFO root fetch - processPackages [seven-top]: Remove: archive file [/home/abi/fetcher/tmp/seven_top-1.0.8.tar.gz]
+[2024-06-03 04:05:04] INFO root fetch - processPackages [seven-top]: Remove: archive file [/home/abi/fetcher/tmp/seven_top-1.0.9.tar.gz]
+[2024-06-03 04:05:04] INFO root fetch - main [MainThread]: End processing [seven-top]: success
+[2024-06-03 04:05:04] INFO root fetch - processPackages [notion-database]: Remove: archive file [/home/abi/fetcher/tmp/notion-database-20220628.7.tar.gz]
+[2024-06-03 04:05:04] INFO root fetch - processPackages [notion-database]: Remove: archive file [/home/abi/fetcher/tmp/notion-database-20220628.8.tar.gz]
+[2024-06-03 04:05:04] INFO root fetch - main [MainThread]: End processing [notion-database]: success
+[2024-06-03 04:05:04] INFO root fetch - main [MainThread]: Store serial: [23495558]
