@@ -3960,3 +3960,18 @@ EOFError: EOF read where object expected
 [2024-06-03 04:46:45] INFO root fetch - processPackages [flexidata]: Remove: archive file [/home/abi/fetcher/tmp/flexidata-0.0.9.tar.gz]
 [2024-06-03 04:46:45] INFO root fetch - main [MainThread]: End processing [flexidata]: success
 [2024-06-03 04:46:45] INFO root fetch - main [MainThread]: Store serial: [23495808]
+[2024-06-03 04:48:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495808]
+[2024-06-03 04:48:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KOnezumiAID
+[2024-06-03 04:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclicpeptide
+[2024-06-03 04:48:54] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-06-03 04:48:54] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/d3/85/0e951c635baacb54ec38009ebe5c886a2e1dabe2c5ea6ad4d3dc15e85c5e/cyclicpeptide-1.0.7.tar.gz
+[2024-06-03 04:48:54] WARNING root fetch - processPackages [KOnezumiAID]: Skipping, unable to determine old version
+[2024-06-03 04:48:54] INFO root fetch - main [MainThread]: End processing [KOnezumiAID] error
+[2024-06-03 04:48:54] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/99/de/7687786d22b1de9896f07405345ed34e1d784fc42de6d0d202388c0f002f/cyclicpeptide-1.0.8.tar.gz
+[2024-06-03 04:48:54] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-06-03 04:48:54] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.7.tar.gz tmp/cyclicpeptide-1.0.8.tar.gz --markdown 20240603/c/cyclicpeptide/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-06-03 04:48:55] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.7.tar.gz]
+[2024-06-03 04:48:55] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.8.tar.gz]
+[2024-06-03 04:48:55] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-06-03 04:48:55] INFO root fetch - main [MainThread]: Store serial: [23495816]
