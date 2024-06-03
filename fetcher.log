@@ -17594,3 +17594,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:00:48] ERROR root fetch - processPackages [chemfusekit]: Timeout during execution of pkgdiff
 [2024-06-03 14:00:48] INFO root fetch - main [MainThread]: End processing [chemfusekit] error
 [2024-06-03 14:00:48] INFO root fetch - main [MainThread]: Store serial: [23501800]
+[2024-06-03 14:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501800]
+[2024-06-03 14:02:57] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valid-dataset
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-cen
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-fnf
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphclass
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcanum-newspaper-segmentation-client
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krotov
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-polardb
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyxo
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-mns
+[2024-06-03 14:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cam-manager
+[2024-06-03 14:02:58] INFO root fetch - processPackages [cam-manager]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-06-03 14:02:58] INFO root fetch - processPackages [graphclass]: New version: [0.0.23] Old Version: [0.0.21]
+[2024-06-03 14:02:58] WARNING root fetch - processPackages [valid-dataset]: Skipping, unable to determine old version
+[2024-06-03 14:02:58] INFO root fetch - processPackages [valid-dataset]: Start processing: marhaba-app
+[2024-06-03 14:02:58] INFO root fetch - main [MainThread]: End processing [valid-dataset] error
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-fnf]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 14:02:58] WARNING root fetch - processPackages [marhaba-app]: Skipping, unable to determine old version
+[2024-06-03 14:02:58] INFO root fetch - processPackages [pyxo]: New version: [1.0.2] Old Version: [0.4]
+[2024-06-03 14:02:58] INFO root fetch - processPackages [marhaba-app]: Start processing: processing-pypelines
+[2024-06-03 14:02:58] INFO root fetch - main [MainThread]: End processing [marhaba-app] error
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-mns]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 14:02:58] INFO root fetch - processPackages [cam-manager]: Downloading https://files.pythonhosted.org/packages/0f/05/adf72ede5a22c68d1f31cc2fce7df413f7be2fdee358b73b75298605a6e6/cam_manager-0.2.3.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [krotov]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-polardb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-cen]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 14:02:58] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-06-03 14:02:58] INFO root fetch - processPackages [graphclass]: Downloading https://files.pythonhosted.org/packages/b5/1b/0ecefe1382c7caf67c32d62a9b016324907b9c5193a4390a625cd7bd4182/graphclass-0.0.21.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [processing-pypelines]: New version: [0.0.63] Old Version: [0.0.62]
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-fnf]: Downloading https://files.pythonhosted.org/packages/f1/af/0962ab35b81d02279de2c615f7a67ed87ca5fc8093792b3b119ade8ac5fd/ros-cdk-fnf-1.0.8.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-mns]: Downloading https://files.pythonhosted.org/packages/38/f2/be11cad7338dc4cb326f6dfc85145c5d975783a07a94859ad8bbb7dc2350/ros-cdk-mns-1.0.8.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [pyxo]: Downloading https://files.pythonhosted.org/packages/a1/e9/b5d1dbe0f8c739eef7366892c6321247446be1515ed3b09f1754531b9371/pyxo-0.4.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [krotov]: Downloading https://files.pythonhosted.org/packages/76/cf/f2796f7126d9ad3ce30dad99385529d80df561e6a87bc292059fdc668810/krotov-1.2.1.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-polardb]: Downloading https://files.pythonhosted.org/packages/0f/c8/9a5db89a18dd5f161ed58b6d586eaadf865536c6a5fe35c121bf3e0efdda/ros-cdk-polardb-1.0.8.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: Downloading https://files.pythonhosted.org/packages/35/ec/42eaae5b04b36c29dc3b1eaac491cd0adca69124970f808927faaa010ff7/arcanum-newspaper-segmentation-client-1.8.4.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-cen]: Downloading https://files.pythonhosted.org/packages/c6/1a/44dc78838de5568cfea2978afc02f9ea03693d8fb6e5742e1fc9de316693/ros-cdk-cen-1.0.8.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [cam-manager]: Downloading https://files.pythonhosted.org/packages/50/d8/cdd9441f015a7f60302620ef3caca73294793fea45f72befcf74de2d51a9/cam_manager-0.3.0.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [processing-pypelines]: Downloading https://files.pythonhosted.org/packages/12/e0/ffbba67644da4f1a37f332020496f8031103818c4c5118c9f062b0cc396f/processing_pypelines-0.0.62.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [cam-manager]: executing diffoscope
+[2024-06-03 14:02:58] INFO root fetch - processPackages [cam-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cam_manager-0.2.3.tar.gz tmp/cam_manager-0.3.0.tar.gz --markdown 20240603/c/cam-manager/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-06-03 14:02:58] INFO root fetch - processPackages [graphclass]: Downloading https://files.pythonhosted.org/packages/24/af/e21295c5196d68f4c3164c9739cb021504482ae60a25564bce6d388b8a65/graphclass-0.0.23.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-fnf]: Downloading https://files.pythonhosted.org/packages/9c/8c/3cbf8686f54137fb4b7b7bd2a816b3b4e1b8720b3fcf5a9e628ac2224fea/ros-cdk-fnf-1.0.9.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [pyxo]: Downloading https://files.pythonhosted.org/packages/ab/79/4b698d9cc71f43e2f1fd8eb5a414c645e2336357f211c19adf452a0d1f05/pyxo-1.0.2.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: Downloading https://files.pythonhosted.org/packages/0b/cb/19f1ccadfe25c073b45b9bb2c7cce681272ebc36b21a24e283ae16783bde/arcanum_newspaper_segmentation_client-1.8.5.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-mns]: Downloading https://files.pythonhosted.org/packages/f1/89/ed3994e879a5ece35a169f8c88de185d989c2b09116444296b5701f6c571/ros-cdk-mns-1.0.9.tar.gz
+[2024-06-03 14:02:58] INFO root fetch - processPackages [ros-cdk-cen]: Downloading https://files.pythonhosted.org/packages/86/5b/bae43ed1278bcdbc996a7b6e198266f6009b65943be76f375c3a452f49b4/ros-cdk-cen-1.0.9.tar.gz
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-polardb]: Downloading https://files.pythonhosted.org/packages/e2/12/7039c84cbcf40b6fcc004c1438f54386d07f7d7a5964d065f39645f43348/ros-cdk-polardb-1.0.9.tar.gz
+[2024-06-03 14:02:59] INFO root fetch - processPackages [graphclass]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-fnf]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-fnf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-fnf-1.0.8.tar.gz tmp/ros-cdk-fnf-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-fnf/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [graphclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphclass-0.0.21.tar.gz tmp/graphclass-0.0.23.tar.gz --markdown 20240603/g/graphclass/0.0.21-0.0.23/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [processing-pypelines]: Downloading https://files.pythonhosted.org/packages/27/70/5b5b94d52ef8f8bb53135e6e77d1080c133c1bdefbc81c3f5e1dc2c618f5/processing_pypelines-0.0.63.tar.gz
+[2024-06-03 14:02:59] INFO root fetch - processPackages [pyxo]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [pyxo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxo-0.4.tar.gz tmp/pyxo-1.0.2.tar.gz --markdown 20240603/p/pyxo/0.4-1.0.2/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcanum-newspaper-segmentation-client-1.8.4.tar.gz tmp/arcanum_newspaper_segmentation_client-1.8.5.tar.gz --markdown 20240603/a/arcanum-newspaper-segmentation-client/1.8.4-1.8.5/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-cen]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-cen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cen-1.0.8.tar.gz tmp/ros-cdk-cen-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cen/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-polardb]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-polardb-1.0.8.tar.gz tmp/ros-cdk-polardb-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-polardb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [processing-pypelines]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [processing-pypelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processing_pypelines-0.0.62.tar.gz tmp/processing_pypelines-0.0.63.tar.gz --markdown 20240603/p/processing-pypelines/0.0.62-0.0.63/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-mns]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [ros-cdk-mns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mns-1.0.8.tar.gz tmp/ros-cdk-mns-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-mns/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [krotov]: Downloading https://files.pythonhosted.org/packages/50/31/526a4c99735211f51eaa90e6fdba01193ccc2d2475ae0aefbb9cd439a999/krotov-1.3.0.tar.gz
+[2024-06-03 14:02:59] INFO root fetch - processPackages [krotov]: executing diffoscope
+[2024-06-03 14:02:59] INFO root fetch - processPackages [krotov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krotov-1.2.1.tar.gz tmp/krotov-1.3.0.tar.gz --markdown 20240603/k/krotov/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-06-03 14:02:59] INFO root fetch - processPackages [cam-manager]: Remove: archive file [/home/abi/fetcher/tmp/cam_manager-0.2.3.tar.gz]
+[2024-06-03 14:02:59] INFO root fetch - processPackages [cam-manager]: Remove: archive file [/home/abi/fetcher/tmp/cam_manager-0.3.0.tar.gz]
+[2024-06-03 14:02:59] INFO root fetch - processPackages [cam-manager]: Start processing: lusid-workflow-sdk-preview
+[2024-06-03 14:02:59] INFO root fetch - main [MainThread]: End processing [cam-manager]: success
+[2024-06-03 14:02:59] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-06-03 14:02:59] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-06-03 14:03:00] INFO root fetch - processPackages [graphclass]: Remove: archive file [/home/abi/fetcher/tmp/graphclass-0.0.21.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [graphclass]: Remove: archive file [/home/abi/fetcher/tmp/graphclass-0.0.23.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [graphclass]: Start processing: modrinth-downloader
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [graphclass]: success
+[2024-06-03 14:03:00] WARNING root fetch - processPackages [modrinth-downloader]: Skipping, unable to determine old version
+[2024-06-03 14:03:00] INFO root fetch - processPackages [modrinth-downloader]: Start processing: pvsite-datamodel
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [modrinth-downloader] error
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-fnf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fnf-1.0.8.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-fnf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fnf-1.0.9.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-fnf]: Start processing: mns-common
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-fnf]: success
+[2024-06-03 14:03:00] INFO root fetch - processPackages [pvsite-datamodel]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-06-03 14:03:00] INFO root fetch - processPackages [mns-common]: New version: [1.1.4.2] Old Version: [1.1.4.1]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [pyxo]: Remove: archive file [/home/abi/fetcher/tmp/pyxo-0.4.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [pyxo]: Remove: archive file [/home/abi/fetcher/tmp/pyxo-1.0.2.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [pyxo]: success
+[2024-06-03 14:03:00] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/4f/94/17d9ce3de61a220e5960639e6088e95f0a697c74ba8a19f612cfe429b4a9/pvsite_datamodel-1.0.8.tar.gz
+[2024-06-03 14:03:00] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: Remove: archive file [/home/abi/fetcher/tmp/arcanum-newspaper-segmentation-client-1.8.4.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [arcanum-newspaper-segmentation-client]: Remove: archive file [/home/abi/fetcher/tmp/arcanum_newspaper_segmentation_client-1.8.5.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [arcanum-newspaper-segmentation-client]: success
+[2024-06-03 14:03:00] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-06-03 14:03:00] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240603/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-cen]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cen-1.0.8.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-cen]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cen-1.0.9.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-cen]: success
+[2024-06-03 14:03:00] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/46/c4/6e400811452a36aad4a24b1a51140da05c846443f1a7139dfe815ea8e655/mns_common-1.1.4.1.tar.gz
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-mns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mns-1.0.8.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-mns]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mns-1.0.9.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-mns]: success
+[2024-06-03 14:03:00] INFO root fetch - processPackages [processing-pypelines]: Remove: archive file [/home/abi/fetcher/tmp/processing_pypelines-0.0.62.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [processing-pypelines]: Remove: archive file [/home/abi/fetcher/tmp/processing_pypelines-0.0.63.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [processing-pypelines]: success
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardb-1.0.8.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - processPackages [ros-cdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-polardb-1.0.9.tar.gz]
+[2024-06-03 14:03:00] INFO root fetch - main [MainThread]: End processing [ros-cdk-polardb]: success
+[2024-06-03 14:03:00] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/09/05/b1d02e4bce0bada9effc1c581a0762ec56c98c169d8463fc2bedefa2893d/pvsite_datamodel-1.0.9.tar.gz
+[2024-06-03 14:03:00] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/e8/ce/59d53569206ef9be1096577d8d22db728b256ab402b07e847c8207b6eca5/mns_common-1.1.4.2.tar.gz
+[2024-06-03 14:03:00] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-06-03 14:03:00] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.4.1.tar.gz tmp/mns_common-1.1.4.2.tar.gz --markdown 20240603/m/mns-common/1.1.4.1-1.1.4.2/README.md --exclude *.pyd
+[2024-06-03 14:03:01] INFO root fetch - processPackages [pvsite-datamodel]: executing diffoscope
+[2024-06-03 14:03:01] INFO root fetch - processPackages [pvsite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvsite_datamodel-1.0.8.tar.gz tmp/pvsite_datamodel-1.0.9.tar.gz --markdown 20240603/p/pvsite-datamodel/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 14:03:01] INFO root fetch - processPackages [krotov]: Remove: archive file [/home/abi/fetcher/tmp/krotov-1.2.1.tar.gz]
+[2024-06-03 14:03:01] INFO root fetch - processPackages [krotov]: Remove: archive file [/home/abi/fetcher/tmp/krotov-1.3.0.tar.gz]
+[2024-06-03 14:03:01] INFO root fetch - main [MainThread]: End processing [krotov]: success
+[2024-06-03 14:03:01] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.4.1.tar.gz]
+[2024-06-03 14:03:01] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.4.2.tar.gz]
+[2024-06-03 14:03:01] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-06-03 14:03:02] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.8.tar.gz]
+[2024-06-03 14:03:02] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
+[2024-06-03 14:03:02] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
+[2024-06-03 14:03:02] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-06-03 14:03:02] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-06-03 14:03:02] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-06-03 14:03:02] INFO root fetch - main [MainThread]: Store serial: [23501850]
