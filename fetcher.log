@@ -15316,3 +15316,91 @@ EOFError: EOF read where object expected
 [2024-06-03 13:02:38] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-06-03 13:02:38] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-06-03 13:02:38] INFO root fetch - main [MainThread]: Store serial: [23500885]
+[2024-06-03 13:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500885]
+[2024-06-03 13:04:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-sag
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiAmoCRM
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avrotize
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-ens
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unzipwalk
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cpprb
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apiAmoCRM
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deadrin
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulse-linter
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djpress
+[2024-06-03 13:04:47] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 13:04:47] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 13:04:47] WARNING root fetch - processPackages [pulse-linter]: Skipping, unable to determine old version
+[2024-06-03 13:04:47] INFO root fetch - processPackages [pulse-linter]: Start processing: FastKmedoids
+[2024-06-03 13:04:47] INFO root fetch - main [MainThread]: End processing [pulse-linter] error
+[2024-06-03 13:04:47] WARNING root fetch - processPackages [deadrin]: Skipping, unable to determine old version
+[2024-06-03 13:04:47] INFO root fetch - main [MainThread]: End processing [deadrin] error
+[2024-06-03 13:04:47] INFO root fetch - processPackages [avrotize]: New version: [2.0.0] Old Version: [1.9.1]
+[2024-06-03 13:04:47] INFO root fetch - processPackages [cpprb]: New version: [9.4.6] Old Version: [9.4.5]
+[2024-06-03 13:04:47] INFO root fetch - processPackages [ros-cdk-sag]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:04:47] INFO root fetch - processPackages [djpress]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-06-03 13:04:47] INFO root fetch - processPackages [FastKmedoids]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 13:04:47] INFO root fetch - processPackages [unzipwalk]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-06-03 13:04:47] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/fb/12/41d035dca836b0c784b51f4239b44551119d1e3290502f6add8232148ea2/apiamocrm-0.1.8.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/fb/12/41d035dca836b0c784b51f4239b44551119d1e3290502f6add8232148ea2/apiamocrm-0.1.8.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [ros-cdk-ens]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:04:48] INFO root fetch - processPackages [FastKmedoids]: Downloading https://files.pythonhosted.org/packages/64/fb/bea816a125dac01731efe648a30e2bb057efe18e609a349907e6cc03c774/fastkmedoids-0.0.8.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/a4/cf/1f2f8df6724976c41029e16f8ad223e35d1d77ad6d91af18b3836483b763/ros-cdk-sag-1.0.8.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/0f/41/7d96a7020c7b434972dd25580b9b22bdf4d02a80e42711cafe6c70908495/avrotize-1.9.1.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [unzipwalk]: Downloading https://files.pythonhosted.org/packages/8f/08/a95ef150fca12003252fab95d92bc0fcfec38ba785984a143f231acf5595/unzipwalk-1.2.1.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [djpress]: Downloading https://files.pythonhosted.org/packages/09/09/2a8895dd3e1189c05e4cf9eda1ac086d21728f0e0f8b2e72defcbf9c90d0/djpress-0.3.3.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [cpprb]: Downloading https://files.pythonhosted.org/packages/e7/ed/caee89b7e434d93bc37aa5aab6f0f7794762142c6fb0daf8f4377c231368/cpprb-9.4.5.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/1b/27/ec01b48d2d0e7abcce4c6191a9af4e249beb0195733d0a79b8a0cd95c2d5/apiamocrm-0.1.9.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/a9/49/0388e72a92545a76da89ef73fc54bdb328d78c72976eaa4260901b947033/ros-cdk-ens-1.0.8.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/1b/27/ec01b48d2d0e7abcce4c6191a9af4e249beb0195733d0a79b8a0cd95c2d5/apiamocrm-0.1.9.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-06-03 13:04:48] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.8.tar.gz tmp/apiamocrm-0.1.9.tar.gz --markdown 20240603/a/apiAmoCRM/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 13:04:48] INFO root fetch - processPackages [djpress]: Downloading https://files.pythonhosted.org/packages/5e/f9/23795baaa6eaca68953230cf3e6206dbef25e5aee639f6646b6ab06c27ee/djpress-0.3.4.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-06-03 13:04:48] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.8.tar.gz tmp/apiamocrm-0.1.9.tar.gz --markdown 20240603/a/apiAmoCRM/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 13:04:48] INFO root fetch - processPackages [ros-cdk-sag]: Downloading https://files.pythonhosted.org/packages/f1/a2/17222b86429962a14aa6fa255dd53af222cd467cb5733dc5b29058ef12e0/ros-cdk-sag-1.0.9.tar.gz
+[2024-06-03 13:04:48] INFO root fetch - processPackages [djpress]: executing diffoscope
+[2024-06-03 13:04:48] INFO root fetch - processPackages [djpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djpress-0.3.3.tar.gz tmp/djpress-0.3.4.tar.gz --markdown 20240603/d/djpress/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-06-03 13:04:48] INFO root fetch - processPackages [FastKmedoids]: Downloading https://files.pythonhosted.org/packages/ff/19/90889f1c981da4ad7b98336a53821429d228ad6cb59b1d53c3bc4ff898f7/fastkmedoids-0.0.9.tar.gz
+[2024-06-03 13:04:49] INFO root fetch - processPackages [ros-cdk-sag]: executing diffoscope
+[2024-06-03 13:04:49] INFO root fetch - processPackages [ros-cdk-sag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sag-1.0.8.tar.gz tmp/ros-cdk-sag-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-sag/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:04:49] INFO root fetch - processPackages [FastKmedoids]: executing diffoscope
+[2024-06-03 13:04:49] INFO root fetch - processPackages [FastKmedoids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkmedoids-0.0.8.tar.gz tmp/fastkmedoids-0.0.9.tar.gz --markdown 20240603/F/FastKmedoids/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 13:04:49] INFO root fetch - processPackages [ros-cdk-ens]: Downloading https://files.pythonhosted.org/packages/43/fc/efd68838d06b21d7a3bc760aa32b8c78e27681eb8f472ebb66139331c44c/ros-cdk-ens-1.0.9.tar.gz
+[2024-06-03 13:04:49] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/58/d7/756235e2599b5d6782f33fa14c9380d46d6bda5fbef4786f3f9681660ded/avrotize-2.0.0.tar.gz
+[2024-06-03 13:04:49] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-06-03 13:04:49] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.9.1.tar.gz tmp/avrotize-2.0.0.tar.gz --markdown 20240603/a/avrotize/1.9.1-2.0.0/README.md --exclude *.pyd
+[2024-06-03 13:04:49] INFO root fetch - processPackages [ros-cdk-ens]: executing diffoscope
+[2024-06-03 13:04:49] INFO root fetch - processPackages [ros-cdk-ens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ens-1.0.8.tar.gz tmp/ros-cdk-ens-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-ens/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:04:49] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.8.tar.gz]
+[2024-06-03 13:04:49] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.9.tar.gz]
+[2024-06-03 13:04:49] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-06-03 13:04:49] INFO root fetch - processPackages [unzipwalk]: Downloading https://files.pythonhosted.org/packages/88/cc/5a361b255fc1e37171c918a52e01e70dbfe4342f595c91bc8c3a3f2a3066/unzipwalk-1.3.0.tar.gz
+[2024-06-03 13:04:49] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-06-03 13:04:49] INFO root fetch - processPackages [unzipwalk]: executing diffoscope
+[2024-06-03 13:04:49] INFO root fetch - processPackages [unzipwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unzipwalk-1.2.1.tar.gz tmp/unzipwalk-1.3.0.tar.gz --markdown 20240603/u/unzipwalk/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-06-03 13:04:50] INFO root fetch - processPackages [FastKmedoids]: Remove: archive file [/home/abi/fetcher/tmp/fastkmedoids-0.0.8.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - processPackages [FastKmedoids]: Remove: archive file [/home/abi/fetcher/tmp/fastkmedoids-0.0.9.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - main [MainThread]: End processing [FastKmedoids]: success
+[2024-06-03 13:04:50] INFO root fetch - processPackages [djpress]: Remove: archive file [/home/abi/fetcher/tmp/djpress-0.3.3.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - processPackages [djpress]: Remove: archive file [/home/abi/fetcher/tmp/djpress-0.3.4.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - main [MainThread]: End processing [djpress]: success
+[2024-06-03 13:04:50] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.8.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - processPackages [ros-cdk-sag]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sag-1.0.9.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - main [MainThread]: End processing [ros-cdk-sag]: success
+[2024-06-03 13:04:50] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.8.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - processPackages [ros-cdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ens-1.0.9.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - main [MainThread]: End processing [ros-cdk-ens]: success
+[2024-06-03 13:04:50] INFO root fetch - processPackages [unzipwalk]: Remove: archive file [/home/abi/fetcher/tmp/unzipwalk-1.2.1.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - processPackages [unzipwalk]: Remove: archive file [/home/abi/fetcher/tmp/unzipwalk-1.3.0.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - main [MainThread]: End processing [unzipwalk]: success
+[2024-06-03 13:04:50] INFO root fetch - processPackages [cpprb]: Downloading https://files.pythonhosted.org/packages/72/80/88fe5a1d4245326845225ad98f4c40b1329e1b48f70f7ca924bb7e68818f/cpprb-9.4.6.tar.gz
+[2024-06-03 13:04:50] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.9.1.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
+[2024-06-03 13:04:50] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-06-03 13:04:52] INFO root fetch - processPackages [cpprb]: executing diffoscope
+[2024-06-03 13:04:52] INFO root fetch - processPackages [cpprb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpprb-9.4.5.tar.gz tmp/cpprb-9.4.6.tar.gz --markdown 20240603/c/cpprb/9.4.5-9.4.6/README.md --exclude *.pyd
+[2024-06-03 13:04:53] INFO root fetch - processPackages [cpprb]: Remove: archive file [/home/abi/fetcher/tmp/cpprb-9.4.5.tar.gz]
+[2024-06-03 13:04:53] INFO root fetch - processPackages [cpprb]: Remove: archive file [/home/abi/fetcher/tmp/cpprb-9.4.6.tar.gz]
+[2024-06-03 13:04:53] INFO root fetch - main [MainThread]: End processing [cpprb]: success
+[2024-06-03 13:04:53] INFO root fetch - main [MainThread]: Store serial: [23500919]
