@@ -19293,3 +19293,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:37:29] INFO root fetch - processPackages [folx]: Remove: archive file [/home/abi/fetcher/tmp/folx-0.2.7.tar.gz]
 [2024-06-03 14:37:29] INFO root fetch - main [MainThread]: End processing [folx]: success
 [2024-06-03 14:37:29] INFO root fetch - main [MainThread]: Store serial: [23502434]
+[2024-06-03 14:39:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502434]
+[2024-06-03 14:39:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycnite
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaiju-db
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-fw-helper
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uncertainties
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbpretty
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swarmauri
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: power-grid-model
+[2024-06-03 14:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-eskiz-sms
+[2024-06-03 14:39:38] INFO root fetch - processPackages [automation-fw-helper]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [uncertainties]: New version: [3.1.7] Old Version: [3.1.6]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [pycnite]: New version: [2024.5.27] Old Version: [2023.9.8]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [kaiju-db]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [cg]: New version: [60.9.3] Old Version: [60.9.1]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [nbpretty]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [swarmauri]: New version: [0.3.0.dev13] Old Version: [0.2.9]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [automation-fw-helper]: Downloading https://files.pythonhosted.org/packages/dd/3b/e634cabb9d2ba89777ad5d4fca5eabb6f7edbd2f95957521f045fd8c5572/automation-fw-helper-0.0.4.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [django-eskiz-sms]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 14:39:38] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [uncertainties]: Downloading https://files.pythonhosted.org/packages/48/71/d1392a92cca49cabbfeac198ab8d779222d27aa79985ac7be187f1957af5/uncertainties-3.1.6.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [nbpretty]: Downloading https://files.pythonhosted.org/packages/f6/55/07212220a1117efeacbd144e47d97e0cfa97b8eb82d08992f88a20b3990c/nbpretty-0.3.2.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [pycnite]: Downloading https://files.pythonhosted.org/packages/aa/d5/91a059b4ec6c5f412ab8efac63445614306f85b6f2344c21b19a973c641f/pycnite-2023.9.8.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [kaiju-db]: Downloading https://files.pythonhosted.org/packages/40/c9/2fe3fc97490c5eb7725b3934d45b6e9b187b05a040f4e587358558477185/kaiju_db-2.1.8-py3-none-any.whl
+[2024-06-03 14:39:38] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c8/fd/4c419746e38ff568ae6c34df0233036bf3cbc0c078669bedc9a1a708585e/cg-60.9.1.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [django-eskiz-sms]: Downloading https://files.pythonhosted.org/packages/a2/3f/3ab53e56781753566ff3c0702252ecdbee0d395f3f71694717caf5727708/django-eskiz-sms-0.1.5.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/80/f3/5247432592ad2e68795cb926171ae7f1ec3d20bf08958e10bcab36e50e6b/swarmauri-0.2.9.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [automation-fw-helper]: Downloading https://files.pythonhosted.org/packages/06/de/00983aad52333f82072865457a21d4549d2c31aa7a070a8a55ac957578e5/automation-fw-helper-0.0.5.tar.gz
+[2024-06-03 14:39:38] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-06-03 14:39:39] INFO root fetch - processPackages [nbpretty]: Downloading https://files.pythonhosted.org/packages/b6/e4/0fb4036e9e3800e4458d576e6f0218cca07decf62b0c9ee8e113da9f8486/nbpretty-0.3.3.tar.gz
+[2024-06-03 14:39:39] INFO root fetch - processPackages [automation-fw-helper]: executing diffoscope
+[2024-06-03 14:39:39] INFO root fetch - processPackages [automation-fw-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-fw-helper-0.0.4.tar.gz tmp/automation-fw-helper-0.0.5.tar.gz --markdown 20240603/a/automation-fw-helper/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 14:39:39] INFO root fetch - processPackages [uncertainties]: Downloading https://files.pythonhosted.org/packages/9d/22/34b918373b9626a50117abd31c0185b96ad1242e46096d6b0a2ef6dd4303/uncertainties-3.1.7.tar.gz
+[2024-06-03 14:39:39] INFO root fetch - processPackages [pycnite]: Downloading https://files.pythonhosted.org/packages/eb/fa/ae99bd55b136b32e33e03b2e3e988104836ce023892d426934aab29f4642/pycnite-2024.5.27-py3-none-any.whl
+[2024-06-03 14:39:39] INFO root fetch - processPackages [kaiju-db]: Downloading https://files.pythonhosted.org/packages/03/cb/70db73be732df50f74975c6351fb86d54d2138499497f61f2bf481060f91/kaiju_db-2.1.9-py3-none-any.whl
+[2024-06-03 14:39:39] INFO root fetch - processPackages [nbpretty]: executing diffoscope
+[2024-06-03 14:39:39] INFO root fetch - processPackages [nbpretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbpretty-0.3.2.tar.gz tmp/nbpretty-0.3.3.tar.gz --markdown 20240603/n/nbpretty/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-06-03 14:39:39] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-06-03 14:39:39] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240603/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-06-03 14:39:39] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/0f/64/28e85588098244f1945bed8af7d8f5669192b5b97dd9794ef08bfdd6bd5e/swarmauri-0.3.0.dev13.tar.gz
+[2024-06-03 14:39:39] INFO root fetch - processPackages [django-eskiz-sms]: Downloading https://files.pythonhosted.org/packages/db/db/10bdb10a40d928c4fd3a54cb4d1b503bffc79aa92a1e08175007339c7f3e/django_eskiz_sms-0.1.6.tar.gz
+[2024-06-03 14:39:39] INFO root fetch - processPackages [pycnite]: executing diffoscope
+[2024-06-03 14:39:39] INFO root fetch - processPackages [pycnite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycnite-2023.9.8.tar.gz tmp/pycnite-2024.5.27-py3-none-any.whl.zip --markdown 20240603/p/pycnite/2023.9.8-2024.5.27/README.md --exclude *.pyd
+[2024-06-03 14:39:39] INFO root fetch - processPackages [uncertainties]: executing diffoscope
+[2024-06-03 14:39:39] INFO root fetch - processPackages [uncertainties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainties-3.1.6.tar.gz tmp/uncertainties-3.1.7.tar.gz --markdown 20240603/u/uncertainties/3.1.6-3.1.7/README.md --exclude *.pyd
+[2024-06-03 14:39:39] INFO root fetch - processPackages [kaiju-db]: executing diffoscope
+[2024-06-03 14:39:39] INFO root fetch - processPackages [kaiju-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_db-2.1.8-py3-none-any.whl.zip tmp/kaiju_db-2.1.9-py3-none-any.whl.zip --markdown 20240603/k/kaiju-db/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-06-03 14:39:39] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-06-03 14:39:39] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.9.tar.gz tmp/swarmauri-0.3.0.dev13.tar.gz --markdown 20240603/s/swarmauri/0.2.9-0.3.0.dev13/README.md --exclude *.pyd
+[2024-06-03 14:39:39] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b9/39/b52350d78b8e41fa63c28ce45519ba74f82ca2ed24671ad0810381b88154/cg-60.9.3.tar.gz
+[2024-06-03 14:39:39] INFO root fetch - processPackages [django-eskiz-sms]: executing diffoscope
+[2024-06-03 14:39:39] INFO root fetch - processPackages [django-eskiz-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-eskiz-sms-0.1.5.tar.gz tmp/django_eskiz_sms-0.1.6.tar.gz --markdown 20240603/d/django-eskiz-sms/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 14:39:39] INFO root fetch - processPackages [automation-fw-helper]: Remove: archive file [/home/abi/fetcher/tmp/automation-fw-helper-0.0.4.tar.gz]
+[2024-06-03 14:39:39] INFO root fetch - processPackages [automation-fw-helper]: Remove: archive file [/home/abi/fetcher/tmp/automation-fw-helper-0.0.5.tar.gz]
+[2024-06-03 14:39:39] INFO root fetch - main [MainThread]: End processing [automation-fw-helper]: success
+[2024-06-03 14:39:40] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-06-03 14:39:40] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.9.1.tar.gz tmp/cg-60.9.3.tar.gz --markdown 20240603/c/cg/60.9.1-60.9.3/README.md --exclude *.pyd
+[2024-06-03 14:39:40] INFO root fetch - processPackages [nbpretty]: Remove: archive file [/home/abi/fetcher/tmp/nbpretty-0.3.2.tar.gz]
+[2024-06-03 14:39:40] INFO root fetch - processPackages [nbpretty]: Remove: archive file [/home/abi/fetcher/tmp/nbpretty-0.3.3.tar.gz]
+[2024-06-03 14:39:40] INFO root fetch - main [MainThread]: End processing [nbpretty]: success
+[2024-06-03 14:39:40] INFO root fetch - processPackages [pycnite]: Remove: archive file [/home/abi/fetcher/tmp/pycnite-2023.9.8.tar.gz]
+[2024-06-03 14:39:40] INFO root fetch - processPackages [pycnite]: Remove: archive file [/home/abi/fetcher/tmp/pycnite-2024.5.27-py3-none-any.whl.zip]
+[2024-06-03 14:39:40] INFO root fetch - main [MainThread]: End processing [pycnite]: success
+[2024-06-03 14:39:40] INFO root fetch - processPackages [kaiju-db]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_db-2.1.8-py3-none-any.whl.zip]
+[2024-06-03 14:39:40] INFO root fetch - processPackages [kaiju-db]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_db-2.1.9-py3-none-any.whl.zip]
+[2024-06-03 14:39:40] INFO root fetch - main [MainThread]: End processing [kaiju-db]: success
+[2024-06-03 14:39:40] INFO root fetch - processPackages [uncertainties]: Remove: archive file [/home/abi/fetcher/tmp/uncertainties-3.1.6.tar.gz]
+[2024-06-03 14:39:40] INFO root fetch - processPackages [uncertainties]: Remove: archive file [/home/abi/fetcher/tmp/uncertainties-3.1.7.tar.gz]
+[2024-06-03 14:39:40] INFO root fetch - main [MainThread]: End processing [uncertainties]: success
+[2024-06-03 14:39:40] INFO root fetch - processPackages [django-eskiz-sms]: Remove: archive file [/home/abi/fetcher/tmp/django-eskiz-sms-0.1.5.tar.gz]
+[2024-06-03 14:39:40] INFO root fetch - processPackages [django-eskiz-sms]: Remove: archive file [/home/abi/fetcher/tmp/django_eskiz_sms-0.1.6.tar.gz]
+[2024-06-03 14:39:40] INFO root fetch - main [MainThread]: End processing [django-eskiz-sms]: success
+[2024-06-03 14:39:41] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.9.tar.gz]
+[2024-06-03 14:39:41] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.3.0.dev13.tar.gz]
+[2024-06-03 14:39:41] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-06-03 14:39:41] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-06-03 14:39:41] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-06-03 14:39:41] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-06-03 14:39:45] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.9.1.tar.gz]
+[2024-06-03 14:39:45] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.9.3.tar.gz]
+[2024-06-03 14:39:45] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-06-03 14:39:45] INFO root fetch - main [MainThread]: Store serial: [23502457]
