@@ -22489,3 +22489,111 @@ EOFError: EOF read where object expected
 [2024-06-03 15:58:55] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202406031350.tar.gz]
 [2024-06-03 15:58:55] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
 [2024-06-03 15:58:55] INFO root fetch - main [MainThread]: Store serial: [23503803]
+[2024-06-03 16:00:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503803]
+[2024-06-03 16:01:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecquote
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-splunk-addon
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wandb-workspaces
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keri
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nfinance
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lscsde-workspace-mgmt
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benchmark-runner
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: instant-json-server
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nrf-regtool
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-automation
+[2024-06-03 16:01:04] INFO root fetch - processPackages [nfinance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 16:01:04] WARNING root fetch - processPackages [instant-json-server]: Skipping, unable to determine old version
+[2024-06-03 16:01:04] INFO root fetch - processPackages [instant-json-server]: Start processing: tracksegnet
+[2024-06-03 16:01:04] INFO root fetch - main [MainThread]: End processing [instant-json-server] error
+[2024-06-03 16:01:04] INFO root fetch - processPackages [python-automation]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ecquote]: New version: [1.6.1] Old Version: [1.5.4]
+[2024-06-03 16:01:04] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/a6/06/adbe0a9d20c0b3550d857d983da73c51099dbefa5add379e638f2b2d83e7/nfinance-0.4.8.tar.gz
+[2024-06-03 16:01:04] INFO root fetch - processPackages [keri]: New version: [1.2.0.dev4] Old Version: [1.2.0.dev3]
+[2024-06-03 16:01:04] INFO root fetch - processPackages [pytest-splunk-addon]: New version: [5.3.0b3] Old Version: [5.3.0b2]
+[2024-06-03 16:01:04] WARNING root fetch - processPackages [wandb-workspaces]: Skipping, unable to determine old version
+[2024-06-03 16:01:04] INFO root fetch - processPackages [nrf-regtool]: New version: [5.3.1] Old Version: [5.3.0]
+[2024-06-03 16:01:04] INFO root fetch - processPackages [wandb-workspaces]: Start processing: alphastats
+[2024-06-03 16:01:04] INFO root fetch - main [MainThread]: End processing [wandb-workspaces] error
+[2024-06-03 16:01:04] INFO root fetch - processPackages [lscsde-workspace-mgmt]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 16:01:04] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 16:01:04] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/e4/c2/7a89eb386e527f72e41dc9004d4f937ef10e14fa4a31a01d208f1e55a947/python-automation-0.1.2.tar.gz
+[2024-06-03 16:01:04] INFO root fetch - processPackages [tracksegnet]: New version: [1.3.0] Old Version: [1.2.5]
+[2024-06-03 16:01:04] INFO root fetch - processPackages [alphastats]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-06-03 16:01:04] INFO root fetch - processPackages [ecquote]: Downloading https://files.pythonhosted.org/packages/af/eb/ce7a1378f0d641362ce37be781fb20c2fabd1e459fbf082dd75a065d7cff/ecquote-1.5.4.tar.gz
+[2024-06-03 16:01:04] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2024-06-03 16:01:04] INFO root fetch - processPackages [lscsde-workspace-mgmt]: Downloading https://files.pythonhosted.org/packages/e3/7e/fefad911f8b94509f65fb0b187c38c4b33636713a182a7cea8f5ff66ee98/lscsde_workspace_mgmt-0.1.4.tar.gz
+[2024-06-03 16:01:04] INFO root fetch - processPackages [pytest-splunk-addon]: Downloading https://files.pythonhosted.org/packages/8e/33/8cd6d768e6db812bb82c898e56d087042d10c20e00c6dfc8661aef032842/pytest_splunk_addon-5.3.0b2.tar.gz
+[2024-06-03 16:01:04] INFO root fetch - processPackages [keri]: Downloading https://files.pythonhosted.org/packages/47/48/8ff095b0c3de5a67aaf55dce5aa35df0fbd87b74e4a5d07072f76c0c3dd5/keri-1.2.0.dev3.tar.gz
+[2024-06-03 16:01:04] INFO root fetch - processPackages [nrf-regtool]: Downloading https://files.pythonhosted.org/packages/34/62/589799e2b85ff78a3a70c4c443ba266bcd7d3f389795695c43f0479b8236/nrf_regtool-5.3.0.tar.gz
+[2024-06-03 16:01:04] INFO root fetch - processPackages [tracksegnet]: Downloading https://files.pythonhosted.org/packages/ae/c4/041e645e9fd02a09d296a5ef2db8a319120201386e994d653b7b3da2ba21/tracksegnet-1.2.5.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [alphastats]: Downloading https://files.pythonhosted.org/packages/cd/4e/a78e5b8ddaf7d3c1791d870a94c8fb0b62e68468ec074006297e87299239/alphastats-0.6.6.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/34/6b/46ec181950d083608bf8cca8b3597d33fa9138974ed300ac6413a7cc5a17/nfinance-0.4.9.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/83/53/4385387066b4b31b8d6d332c5e7e674e56f95672ec32d0d0ad25cf897177/python-automation-0.1.3.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-06-03 16:01:05] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.8.tar.gz tmp/nfinance-0.4.9.tar.gz --markdown 20240603/n/nfinance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 16:01:05] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [lscsde-workspace-mgmt]: Downloading https://files.pythonhosted.org/packages/39/73/42b0ba54491fc4143ae61b7b5098be8579b6f88abf76036e3493ed43e0d9/lscsde_workspace_mgmt-0.1.5.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [pytest-splunk-addon]: Downloading https://files.pythonhosted.org/packages/8b/31/55d08d7ee6e7835396b8b8e2b1899e815fe9b0daa4f284bcca8cf0b26d43/pytest_splunk_addon-5.3.0b3.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [nrf-regtool]: Downloading https://files.pythonhosted.org/packages/a4/91/54764a1e0e1817a48987ce0bca00fad74999fe1996e27e249e025f0c6fd9/nrf_regtool-5.3.1.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [ecquote]: Downloading https://files.pythonhosted.org/packages/b4/46/b9328a9ed638fe71b9f7179e60006185505de08e1692f188148d28c46a24/ecquote-1.6.1.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [python-automation]: executing diffoscope
+[2024-06-03 16:01:05] INFO root fetch - processPackages [python-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-0.1.2.tar.gz tmp/python-automation-0.1.3.tar.gz --markdown 20240603/p/python-automation/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 16:01:05] INFO root fetch - processPackages [keri]: Downloading https://files.pythonhosted.org/packages/86/ce/0112734616a5a8e4bba88a700fe9628d13c22b1dbb5740a2bdad6359897a/keri-1.2.0.dev4.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [lscsde-workspace-mgmt]: executing diffoscope
+[2024-06-03 16:01:05] INFO root fetch - processPackages [lscsde-workspace-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lscsde_workspace_mgmt-0.1.4.tar.gz tmp/lscsde_workspace_mgmt-0.1.5.tar.gz --markdown 20240603/l/lscsde-workspace-mgmt/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 16:01:05] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2024-06-03 16:01:05] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20240603/b/benchmark-runner/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 16:01:05] INFO root fetch - processPackages [alphastats]: Downloading https://files.pythonhosted.org/packages/05/23/95ce43f6db31534111dc857f84fed17401adb6466f158bd0dc0ffe4742ac/alphastats-0.6.7.tar.gz
+[2024-06-03 16:01:05] INFO root fetch - processPackages [pytest-splunk-addon]: executing diffoscope
+[2024-06-03 16:01:05] INFO root fetch - processPackages [pytest-splunk-addon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_splunk_addon-5.3.0b2.tar.gz tmp/pytest_splunk_addon-5.3.0b3.tar.gz --markdown 20240603/p/pytest-splunk-addon/5.3.0b2-5.3.0b3/README.md --exclude *.pyd
+[2024-06-03 16:01:05] INFO root fetch - processPackages [nrf-regtool]: executing diffoscope
+[2024-06-03 16:01:05] INFO root fetch - processPackages [nrf-regtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrf_regtool-5.3.0.tar.gz tmp/nrf_regtool-5.3.1.tar.gz --markdown 20240603/n/nrf-regtool/5.3.0-5.3.1/README.md --exclude *.pyd
+[2024-06-03 16:01:05] INFO root fetch - processPackages [ecquote]: executing diffoscope
+[2024-06-03 16:01:05] INFO root fetch - processPackages [ecquote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecquote-1.5.4.tar.gz tmp/ecquote-1.6.1.tar.gz --markdown 20240603/e/ecquote/1.5.4-1.6.1/README.md --exclude *.pyd
+[2024-06-03 16:01:05] INFO root fetch - processPackages [keri]: executing diffoscope
+[2024-06-03 16:01:05] INFO root fetch - processPackages [keri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keri-1.2.0.dev3.tar.gz tmp/keri-1.2.0.dev4.tar.gz --markdown 20240603/k/keri/1.2.0.dev3-1.2.0.dev4/README.md --exclude *.pyd
+[2024-06-03 16:01:06] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.8.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.9.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - processPackages [nfinance]: Start processing: odoo-addon-sale-order-revision
+[2024-06-03 16:01:06] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-06-03 16:01:06] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.1.2.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.1.3.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - main [MainThread]: End processing [python-automation]: success
+[2024-06-03 16:01:06] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.9]
+[2024-06-03 16:01:06] INFO root fetch - processPackages [lscsde-workspace-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/lscsde_workspace_mgmt-0.1.4.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - processPackages [lscsde-workspace-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/lscsde_workspace_mgmt-0.1.5.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - main [MainThread]: End processing [lscsde-workspace-mgmt]: success
+[2024-06-03 16:01:06] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Downloading https://files.pythonhosted.org/packages/f8/d7/6e8e5d9b054ca3cfcfc40e5fb7c1a03bd189faecdf724e39ba65bedab70a/odoo_addon_sale_order_revision-16.0.1.0.1.9-py3-none-any.whl
+[2024-06-03 16:01:06] INFO root fetch - processPackages [tracksegnet]: Downloading https://files.pythonhosted.org/packages/03/b9/9fae4ba6debace59eeecf23ca10bc04ac1f7fa0620d7f65dd9110f51b2f6/tracksegnet-1.3.0.tar.gz
+[2024-06-03 16:01:06] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2024-06-03 16:01:06] INFO root fetch - processPackages [nrf-regtool]: Remove: archive file [/home/abi/fetcher/tmp/nrf_regtool-5.3.0.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - processPackages [nrf-regtool]: Remove: archive file [/home/abi/fetcher/tmp/nrf_regtool-5.3.1.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - main [MainThread]: End processing [nrf-regtool]: success
+[2024-06-03 16:01:06] INFO root fetch - processPackages [alphastats]: executing diffoscope
+[2024-06-03 16:01:06] INFO root fetch - processPackages [alphastats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphastats-0.6.6.tar.gz tmp/alphastats-0.6.7.tar.gz --markdown 20240603/a/alphastats/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-06-03 16:01:06] INFO root fetch - processPackages [pytest-splunk-addon]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon-5.3.0b2.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - processPackages [pytest-splunk-addon]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon-5.3.0b3.tar.gz]
+[2024-06-03 16:01:06] INFO root fetch - main [MainThread]: End processing [pytest-splunk-addon]: success
+[2024-06-03 16:01:07] INFO root fetch - processPackages [ecquote]: Remove: archive file [/home/abi/fetcher/tmp/ecquote-1.5.4.tar.gz]
+[2024-06-03 16:01:07] INFO root fetch - processPackages [ecquote]: Remove: archive file [/home/abi/fetcher/tmp/ecquote-1.6.1.tar.gz]
+[2024-06-03 16:01:07] INFO root fetch - main [MainThread]: End processing [ecquote]: success
+[2024-06-03 16:01:07] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Downloading https://files.pythonhosted.org/packages/21/39/c43fb83bcd434028d0a5db9fc04ae3f70bbcb914389bb41337ee1b141d1c/odoo_addon_sale_order_revision-17.0.1.0.0.2-py3-none-any.whl
+[2024-06-03 16:01:07] INFO root fetch - processPackages [keri]: Remove: archive file [/home/abi/fetcher/tmp/keri-1.2.0.dev3.tar.gz]
+[2024-06-03 16:01:07] INFO root fetch - processPackages [keri]: Remove: archive file [/home/abi/fetcher/tmp/keri-1.2.0.dev4.tar.gz]
+[2024-06-03 16:01:07] INFO root fetch - main [MainThread]: End processing [keri]: success
+[2024-06-03 16:01:07] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: executing diffoscope
+[2024-06-03 16:01:07] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_revision-16.0.1.0.1.9-py3-none-any.whl.zip tmp/odoo_addon_sale_order_revision-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-sale-order-revision/16.0.1.0.1.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-06-03 16:01:07] INFO root fetch - processPackages [tracksegnet]: executing diffoscope
+[2024-06-03 16:01:07] INFO root fetch - processPackages [tracksegnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracksegnet-1.2.5.tar.gz tmp/tracksegnet-1.3.0.tar.gz --markdown 20240603/t/tracksegnet/1.2.5-1.3.0/README.md --exclude *.pyd
+[2024-06-03 16:01:08] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_revision-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2024-06-03 16:01:08] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_revision-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-06-03 16:01:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-revision]: success
+[2024-06-03 16:01:08] INFO root fetch - processPackages [alphastats]: Remove: archive file [/home/abi/fetcher/tmp/alphastats-0.6.6.tar.gz]
+[2024-06-03 16:01:08] INFO root fetch - processPackages [alphastats]: Remove: archive file [/home/abi/fetcher/tmp/alphastats-0.6.7.tar.gz]
+[2024-06-03 16:01:08] INFO root fetch - main [MainThread]: End processing [alphastats]: success
+[2024-06-03 16:01:08] INFO root fetch - processPackages [tracksegnet]: Remove: archive file [/home/abi/fetcher/tmp/tracksegnet-1.2.5.tar.gz]
+[2024-06-03 16:01:08] INFO root fetch - processPackages [tracksegnet]: Remove: archive file [/home/abi/fetcher/tmp/tracksegnet-1.3.0.tar.gz]
+[2024-06-03 16:01:08] INFO root fetch - main [MainThread]: End processing [tracksegnet]: success
+[2024-06-03 16:01:08] INFO root fetch - main [MainThread]: Store serial: [23503843]
