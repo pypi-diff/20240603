@@ -8756,3 +8756,51 @@ EOFError: EOF read where object expected
 [2024-06-03 09:29:49] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-06-03 09:29:49] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-06-03 09:29:49] INFO root fetch - main [MainThread]: Store serial: [23497884]
+[2024-06-03 09:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497884]
+[2024-06-03 09:31:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hezar
+[2024-06-03 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: troubadix
+[2024-06-03 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioli-sdk
+[2024-06-03 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nadl
+[2024-06-03 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nlpx
+[2024-06-03 09:31:58] INFO root fetch - processPackages [nlpx]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-06-03 09:31:58] INFO root fetch - processPackages [hezar]: New version: [0.38.2] Old Version: [0.38.1]
+[2024-06-03 09:31:58] INFO root fetch - processPackages [nadl]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-06-03 09:31:58] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/8a/e9/fe9323ce8acb199caa8595517b668e598a92c8d4b847d2a6f2f5a6d73f05/nlpx-1.3.0.tar.gz
+[2024-06-03 09:31:58] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/dc/15/60483c596426cd0f6c759dfe92bb6a9472d7f55c1b6c7f5fc9e43141ce90/hezar-0.38.1.tar.gz
+[2024-06-03 09:31:58] INFO root fetch - processPackages [aioli-sdk]: New version: [0.2.4rc2] Old Version: [0.2.4rc1]
+[2024-06-03 09:31:58] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/d3/9a/bd994a8a94c8e680689843a1be084a6f18debc13297eb857f9084c1f191e/nadl-1.6.0.tar.gz
+[2024-06-03 09:31:58] INFO root fetch - processPackages [troubadix]: New version: [24.6.0] Old Version: [24.5.1]
+[2024-06-03 09:31:59] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/4f/5f/ccce43388486353bbef76ff57492e57f3fb3199780d5727358f69bb2d31c/aioli_sdk-0.2.4rc1.tar.gz
+[2024-06-03 09:31:59] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/02/2d/ae2c2292afe623c3bec2e8f9904b64128ccbc6e88e5a6ba41cf58124ea64/troubadix-24.5.1.tar.gz
+[2024-06-03 09:31:59] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/75/7a/f3b0e12d08698671a9b94296673b493f59d3ad6ca7f92356bf58687ba0fd/nlpx-1.3.1.tar.gz
+[2024-06-03 09:31:59] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/ab/65/85036da1fd5922eca438c78766a7b2eff7040cf4e6d003b4e05dee73f37a/hezar-0.38.2.tar.gz
+[2024-06-03 09:31:59] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/14/2e/632824396883d6a5a43808a7a47e4daff2eb402ef6b92bb78a55a6cb49e1/nadl-1.6.1.tar.gz
+[2024-06-03 09:31:59] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-06-03 09:31:59] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.3.0.tar.gz tmp/nlpx-1.3.1.tar.gz --markdown 20240603/n/nlpx/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-06-03 09:31:59] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-06-03 09:31:59] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.6.0.tar.gz tmp/nadl-1.6.1.tar.gz --markdown 20240603/n/nadl/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-06-03 09:31:59] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2024-06-03 09:31:59] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.38.1.tar.gz tmp/hezar-0.38.2.tar.gz --markdown 20240603/h/hezar/0.38.1-0.38.2/README.md --exclude *.pyd
+[2024-06-03 09:31:59] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/c7/9b/91b6a5871198f3646f2aa5f52e5183534906f781463a844a5e9ef931a7c3/aioli_sdk-0.2.4rc2.tar.gz
+[2024-06-03 09:31:59] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/a3/fd/8d68d7db21f1716e1944ffda301059d51998e7d8c9a6a49994af87d0daf7/troubadix-24.6.0.tar.gz
+[2024-06-03 09:31:59] INFO root fetch - processPackages [aioli-sdk]: executing diffoscope
+[2024-06-03 09:31:59] INFO root fetch - processPackages [aioli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioli_sdk-0.2.4rc1.tar.gz tmp/aioli_sdk-0.2.4rc2.tar.gz --markdown 20240603/a/aioli-sdk/0.2.4rc1-0.2.4rc2/README.md --exclude *.pyd
+[2024-06-03 09:31:59] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2024-06-03 09:31:59] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-24.5.1.tar.gz tmp/troubadix-24.6.0.tar.gz --markdown 20240603/t/troubadix/24.5.1-24.6.0/README.md --exclude *.pyd
+[2024-06-03 09:32:00] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.6.0.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.6.1.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-06-03 09:32:00] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.3.0.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.3.1.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-06-03 09:32:00] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.38.1.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.38.2.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2024-06-03 09:32:00] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.5.1.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.6.0.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2024-06-03 09:32:00] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4rc1.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4rc2.tar.gz]
+[2024-06-03 09:32:00] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
+[2024-06-03 09:32:00] INFO root fetch - main [MainThread]: Store serial: [23497900]
