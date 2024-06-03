@@ -6617,3 +6617,15 @@ EOFError: EOF read where object expected
 [2024-06-03 07:27:13] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b9.tar.gz]
 [2024-06-03 07:27:13] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
 [2024-06-03 07:27:13] INFO root fetch - main [MainThread]: Store serial: [23496982]
+[2024-06-03 07:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496982]
+[2024-06-03 07:29:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 07:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: joyrl
+[2024-06-03 07:29:23] INFO root fetch - processPackages [joyrl]: New version: [0.6.1.4] Old Version: [0.6.1.3]
+[2024-06-03 07:29:23] INFO root fetch - processPackages [joyrl]: Downloading https://files.pythonhosted.org/packages/85/a0/86f4435f4261b1126c6b172efaa32e74a70af4b8438b9af2ddf819b7629d/joyrl-0.6.1.3.tar.gz
+[2024-06-03 07:29:23] INFO root fetch - processPackages [joyrl]: Downloading https://files.pythonhosted.org/packages/90/bf/a2cfe02b4e9c38dec14eef59eea1fad6264efc4033fe606e97c5a0863b9d/joyrl-0.6.1.4.tar.gz
+[2024-06-03 07:29:23] INFO root fetch - processPackages [joyrl]: executing diffoscope
+[2024-06-03 07:29:23] INFO root fetch - processPackages [joyrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joyrl-0.6.1.3.tar.gz tmp/joyrl-0.6.1.4.tar.gz --markdown 20240603/j/joyrl/0.6.1.3-0.6.1.4/README.md --exclude *.pyd
+[2024-06-03 07:29:24] INFO root fetch - processPackages [joyrl]: Remove: archive file [/home/abi/fetcher/tmp/joyrl-0.6.1.3.tar.gz]
+[2024-06-03 07:29:24] INFO root fetch - processPackages [joyrl]: Remove: archive file [/home/abi/fetcher/tmp/joyrl-0.6.1.4.tar.gz]
+[2024-06-03 07:29:24] INFO root fetch - main [MainThread]: End processing [joyrl]: success
+[2024-06-03 07:29:24] INFO root fetch - main [MainThread]: Store serial: [23496986]
