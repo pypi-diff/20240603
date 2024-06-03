@@ -22731,3 +22731,81 @@ EOFError: EOF read where object expected
 [2024-06-03 16:05:32] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev9351264696.tar.gz]
 [2024-06-03 16:05:32] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
 [2024-06-03 16:05:32] INFO root fetch - main [MainThread]: Store serial: [23503896]
+[2024-06-03 16:07:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503896]
+[2024-06-03 16:07:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Mzhtools
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arion-library
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysmelt
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zuspec-parser
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cetpy
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hddm-r
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AparatLib
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: watchlog-python
+[2024-06-03 16:07:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bbot
+[2024-06-03 16:07:41] INFO root fetch - processPackages [Mzhtools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 16:07:41] INFO root fetch - processPackages [arion-library]: New version: [1.1rc99.dev99] Old Version: [1.1rc97.dev97]
+[2024-06-03 16:07:41] INFO root fetch - processPackages [hddm-r]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-06-03 16:07:41] INFO root fetch - processPackages [cetpy]: New version: [0.1.0b6] Old Version: [0.1.0b5]
+[2024-06-03 16:07:41] INFO root fetch - processPackages [bbot]: New version: [1.1.9.3376rc0] Old Version: [1.1.9.3372rc0]
+[2024-06-03 16:07:41] INFO root fetch - processPackages [AparatLib]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-06-03 16:07:41] WARNING root fetch - processPackages [watchlog-python]: Skipping, unable to determine old version
+[2024-06-03 16:07:41] INFO root fetch - main [MainThread]: End processing [watchlog-python] error
+[2024-06-03 16:07:41] INFO root fetch - processPackages [pysmelt]: New version: [0.3.0] Old Version: [0.1.0]
+[2024-06-03 16:07:41] INFO root fetch - processPackages [zuspec-parser]: New version: [0.0.1.9351563704] Old Version: [0.0.1.9340218502]
+[2024-06-03 16:07:41] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-06-03 16:07:41] INFO root fetch - processPackages [cetpy]: Downloading https://files.pythonhosted.org/packages/5d/bd/38501a7737278cd20a27ec6a5acdedf797a9ec08598212876a8d7c9355ae/cetpy-0.1.0b5.tar.gz
+[2024-06-03 16:07:41] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/52/4a/88c493099e07cda5818393c4ddd6590e05115925567a7e94ed4840aaf75d/bbot-1.1.9.3372rc0.tar.gz
+[2024-06-03 16:07:41] INFO root fetch - processPackages [Mzhtools]: Downloading https://files.pythonhosted.org/packages/84/e8/a50890a734991ba64a8e0458a2450f014a3ed4d8f27f1175482884085abf/Mzhtools-0.1.1-py3-none-any.whl
+[2024-06-03 16:07:41] INFO root fetch - processPackages [hddm-r]: Downloading https://files.pythonhosted.org/packages/e9/67/d7a5bc900dfac0142d258b1408a62ea8ddb768e2e2830842730edc41110e/hddm_r-1.0.1.tar.gz
+[2024-06-03 16:07:41] INFO root fetch - processPackages [AparatLib]: Downloading https://files.pythonhosted.org/packages/be/aa/a86fd62e53c6383641652af6186237dedc648e273c3389e83a794845b185/aparatlib-0.1.3.tar.gz
+[2024-06-03 16:07:41] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/86/a6/9a08548eb64cdd692216bc381683c03555f0f98919a3beb7af8c5734398c/zuspec_parser-0.0.1.9340218502-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 16:07:41] INFO root fetch - processPackages [pysmelt]: Downloading https://files.pythonhosted.org/packages/3d/8a/e4cf67799084215f979c02ce8b6e39877937b0a9815f2894af96b4670381/pysmelt-0.1.0.tar.gz
+[2024-06-03 16:07:41] INFO root fetch - processPackages [cetpy]: Downloading https://files.pythonhosted.org/packages/22/61/8591cf09b9619ff0bc3f8356eeb351c85a71b52914cb2d0ac56dffb6eb7d/cetpy-0.1.0b6.tar.gz
+[2024-06-03 16:07:41] INFO root fetch - processPackages [Mzhtools]: Downloading https://files.pythonhosted.org/packages/a1/d6/0daae528223b8c9bff62ae94098da75eb6faa6503754d2ec467fecbda9ff/Mzhtools-0.1.2-py3-none-any.whl
+[2024-06-03 16:07:42] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/eb/6a/2a118dcc80b4b2d77ee26a645a3495fb1302d856a327caeeb4d26e4d2f59/arion_library-1.1rc99.dev99.tar.gz
+[2024-06-03 16:07:42] INFO root fetch - processPackages [hddm-r]: Downloading https://files.pythonhosted.org/packages/fe/e3/c365a0eb6f9825128b6fd3fde7ae9819f8746c6c3ecddb55fbf5cd2c6475/hddm_r-2.0.0.tar.gz
+[2024-06-03 16:07:42] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/d1/4a/e131575c4e2d1230d3a8d0c14f3537b88868bcfc48c42cb5789be9892856/bbot-1.1.9.3376rc0.tar.gz
+[2024-06-03 16:07:42] INFO root fetch - processPackages [AparatLib]: Downloading https://files.pythonhosted.org/packages/84/58/3f03cb01784a12a0d4fd749320db4a3b7d57354771964ededc0d7184dfdf/aparatlib-0.2.0.tar.gz
+[2024-06-03 16:07:42] INFO root fetch - processPackages [Mzhtools]: executing diffoscope
+[2024-06-03 16:07:42] INFO root fetch - processPackages [Mzhtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mzhtools-0.1.1-py3-none-any.whl.zip tmp/Mzhtools-0.1.2-py3-none-any.whl.zip --markdown 20240603/M/Mzhtools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 16:07:42] INFO root fetch - processPackages [cetpy]: executing diffoscope
+[2024-06-03 16:07:42] INFO root fetch - processPackages [cetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cetpy-0.1.0b5.tar.gz tmp/cetpy-0.1.0b6.tar.gz --markdown 20240603/c/cetpy/0.1.0b5-0.1.0b6/README.md --exclude *.pyd
+[2024-06-03 16:07:42] INFO root fetch - processPackages [pysmelt]: Downloading https://files.pythonhosted.org/packages/d6/d5/39c023173638737c5629cdeb994612be9d87b3424e000bc0862bc49c3452/pysmelt-0.3.0.tar.gz
+[2024-06-03 16:07:42] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-06-03 16:07:42] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc97.dev97.tar.gz tmp/arion_library-1.1rc99.dev99.tar.gz --markdown 20240603/a/arion-library/1.1rc97.dev97-1.1rc99.dev99/README.md --exclude *.pyd
+[2024-06-03 16:07:42] INFO root fetch - processPackages [hddm-r]: executing diffoscope
+[2024-06-03 16:07:42] INFO root fetch - processPackages [hddm-r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_r-1.0.1.tar.gz tmp/hddm_r-2.0.0.tar.gz --markdown 20240603/h/hddm-r/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-06-03 16:07:42] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/0a/e6/0126446c59a72d4451bdf4ac5929d72c6f976cc0dca92ac69dd3e8634d1f/zuspec_parser-0.0.1.9351563704-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 16:07:42] INFO root fetch - processPackages [AparatLib]: executing diffoscope
+[2024-06-03 16:07:42] INFO root fetch - processPackages [AparatLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparatlib-0.1.3.tar.gz tmp/aparatlib-0.2.0.tar.gz --markdown 20240603/A/AparatLib/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-06-03 16:07:42] INFO root fetch - processPackages [pysmelt]: executing diffoscope
+[2024-06-03 16:07:42] INFO root fetch - processPackages [pysmelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmelt-0.1.0.tar.gz tmp/pysmelt-0.3.0.tar.gz --markdown 20240603/p/pysmelt/0.1.0-0.3.0/README.md --exclude *.pyd
+[2024-06-03 16:07:42] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-06-03 16:07:42] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.9.3372rc0.tar.gz tmp/bbot-1.1.9.3376rc0.tar.gz --markdown 20240603/b/bbot/1.1.9.3372rc0-1.1.9.3376rc0/README.md --exclude *.pyd
+[2024-06-03 16:07:43] INFO root fetch - processPackages [Mzhtools]: Remove: archive file [/home/abi/fetcher/tmp/Mzhtools-0.1.1-py3-none-any.whl.zip]
+[2024-06-03 16:07:43] INFO root fetch - processPackages [Mzhtools]: Remove: archive file [/home/abi/fetcher/tmp/Mzhtools-0.1.2-py3-none-any.whl.zip]
+[2024-06-03 16:07:43] INFO root fetch - main [MainThread]: End processing [Mzhtools]: success
+[2024-06-03 16:07:43] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc99.dev99.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-06-03 16:07:43] INFO root fetch - processPackages [hddm-r]: Remove: archive file [/home/abi/fetcher/tmp/hddm_r-1.0.1.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - processPackages [hddm-r]: Remove: archive file [/home/abi/fetcher/tmp/hddm_r-2.0.0.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - main [MainThread]: End processing [hddm-r]: success
+[2024-06-03 16:07:43] INFO root fetch - processPackages [zuspec-parser]: executing diffoscope
+[2024-06-03 16:07:43] INFO root fetch - processPackages [zuspec-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_parser-0.0.1.9340218502-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_parser-0.0.1.9351563704-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240603/z/zuspec-parser/0.0.1.9340218502-0.0.1.9351563704/README.md --exclude *.pyd
+[2024-06-03 16:07:43] INFO root fetch - processPackages [AparatLib]: Remove: archive file [/home/abi/fetcher/tmp/aparatlib-0.1.3.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - processPackages [AparatLib]: Remove: archive file [/home/abi/fetcher/tmp/aparatlib-0.2.0.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - main [MainThread]: End processing [AparatLib]: success
+[2024-06-03 16:07:43] INFO root fetch - processPackages [cetpy]: Remove: archive file [/home/abi/fetcher/tmp/cetpy-0.1.0b5.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - processPackages [cetpy]: Remove: archive file [/home/abi/fetcher/tmp/cetpy-0.1.0b6.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - main [MainThread]: End processing [cetpy]: success
+[2024-06-03 16:07:43] INFO root fetch - processPackages [pysmelt]: Remove: archive file [/home/abi/fetcher/tmp/pysmelt-0.1.0.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - processPackages [pysmelt]: Remove: archive file [/home/abi/fetcher/tmp/pysmelt-0.3.0.tar.gz]
+[2024-06-03 16:07:43] INFO root fetch - main [MainThread]: End processing [pysmelt]: success
+[2024-06-03 16:07:44] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.9.3372rc0.tar.gz]
+[2024-06-03 16:07:44] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.9.3376rc0.tar.gz]
+[2024-06-03 16:07:44] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-06-03 16:08:03] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9340218502-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 16:08:03] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9351563704-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 16:08:03] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
+[2024-06-03 16:08:03] INFO root fetch - main [MainThread]: Store serial: [23503940]
