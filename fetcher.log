@@ -4497,3 +4497,118 @@ EOFError: EOF read where object expected
 [2024-06-03 05:19:54] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.167-cp39-cp39-win_amd64.whl.zip]
 [2024-06-03 05:19:54] INFO root fetch - main [MainThread]: End processing [gm]: success
 [2024-06-03 05:19:54] INFO root fetch - main [MainThread]: Store serial: [23496063]
+[2024-06-03 05:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496063]
+[2024-06-03 05:22:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-osubot
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deshi-hello-world
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itkwasm-image-io-wasi
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cc-mini-scikit-learn
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itkwasm-image-io-emscripten
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: itkwasm-image-io
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meghana-hello-world
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bosdyn-api
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tokengeex
+[2024-06-03 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydatastreams
+[2024-06-03 05:22:14] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.7] Old Version: [0.6]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [pydatastreams]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io-wasi]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/a7/71/98b42916a03919f7336dfbd63beaef24d43833f9488cab71d21127bafd62/deshi_hello_world-0.6.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/cd/32/101934b295598d040a5e815431abbcdebed2f041c144b29d6fbced88f3a8/pydatastreams-1.2.1.tar.gz
+[2024-06-03 05:22:14] WARNING root fetch - processPackages [cc-mini-scikit-learn]: Skipping, unable to determine old version
+[2024-06-03 05:22:14] INFO root fetch - processPackages [cc-mini-scikit-learn]: Start processing: bosdyn-client
+[2024-06-03 05:22:14] INFO root fetch - main [MainThread]: End processing [cc-mini-scikit-learn] error
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io-emscripten]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.4.5] Old Version: [6.4.4]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [meghana-hello-world]: New version: [0.4] Old Version: [0.3]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-api]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [meghana-hello-world]: Downloading https://files.pythonhosted.org/packages/3b/aa/f81fb5ecee6a761ec3dfbaed071820c4a89cc2f8b5040e8f474f42c69740/meghana_hello_world-0.3.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [tokengeex]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io-wasi]: Downloading https://files.pythonhosted.org/packages/b5/05/70cbdb68f483e1d17237d95cd1656646bdaf57ee4b82a6db5f7bfa705c7c/itkwasm_image_io_wasi-1.2.0.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-client]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-06-03 05:22:14] WARNING root fetch - processPackages [itkwasm-image-io-wasi]: Skipping package: exceeds size limit 33216610>=10485760
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io-wasi]: Start processing: bosdyn-core
+[2024-06-03 05:22:14] INFO root fetch - main [MainThread]: End processing [itkwasm-image-io-wasi] error
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io]: Downloading https://files.pythonhosted.org/packages/67/9d/452f69a3fbc8583fed21977dc12fc82981f2da0dedf31a447988db15a718/itkwasm_image_io-1.2.0.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io-emscripten]: Downloading https://files.pythonhosted.org/packages/5e/34/23ae940a524d0854bc27d62b10ca7842b4d003b13cffa1d82e5e09362004/itkwasm_image_io_emscripten-1.2.0.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/bf/31/dc1845647032a34f481bfa7e64c1f4306f7a976a3d4a084c943196f41b5d/nonebot-plugin-osubot-6.4.4.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-api]: Downloading https://files.pythonhosted.org/packages/db/8e/8d808c53c6382f5ac993b15905d8fe3f972b8b620f6d441bf274d87dd373/bosdyn_api-4.0.1-py3-none-any.whl
+[2024-06-03 05:22:14] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/9f/bd/5ba0a3af42b06aaa524e23308fea127b9b8d0080c3f3607a85b50be8990e/deshi_hello_world-0.7.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/23/39/12b6eed3587a31ee7a301f462d21fa5dadc24cdc554dc78edbcdb0a505ce/pydatastreams-1.2.2.tar.gz
+[2024-06-03 05:22:14] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29721448>=10485760
+[2024-06-03 05:22:14] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: bosdyn-mission
+[2024-06-03 05:22:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-core]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 05:22:14] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.6.tar.gz tmp/deshi_hello_world-0.7.tar.gz --markdown 20240603/d/deshi-hello-world/0.6-0.7/README.md --exclude *.pyd
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-client]: Downloading https://files.pythonhosted.org/packages/43/bc/a805bf31539fb7a7189764f24b97b4efca8bd675c6385f4ad4ca2e90db7b/bosdyn_client-4.0.1-py3-none-any.whl
+[2024-06-03 05:22:14] INFO root fetch - processPackages [tokengeex]: Downloading https://files.pythonhosted.org/packages/e5/07/225d98d53c5d445fa5f6e3a5f5729c2e07d2af2e61ef85bdbb0a081ad2d3/tokengeex-1.0.1-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl
+[2024-06-03 05:22:14] INFO root fetch - processPackages [pydatastreams]: executing diffoscope
+[2024-06-03 05:22:14] INFO root fetch - processPackages [pydatastreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatastreams-1.2.1.tar.gz tmp/pydatastreams-1.2.2.tar.gz --markdown 20240603/p/pydatastreams/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-06-03 05:22:14] INFO root fetch - processPackages [meghana-hello-world]: Downloading https://files.pythonhosted.org/packages/57/4f/ee6ad78a7bc3bff0846a8528918e7c2cda22b49150735fe643c016fc5e2c/meghana_hello_world-0.4.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-mission]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-06-03 05:22:14] INFO root fetch - processPackages [meghana-hello-world]: executing diffoscope
+[2024-06-03 05:22:14] INFO root fetch - processPackages [meghana-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meghana_hello_world-0.3.tar.gz tmp/meghana_hello_world-0.4.tar.gz --markdown 20240603/m/meghana-hello-world/0.3-0.4/README.md --exclude *.pyd
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io-emscripten]: Downloading https://files.pythonhosted.org/packages/40/96/ae10f9ab80b4c44a6d9893fba255346cd3ad4248910d8f5ae9e83c62b21f/itkwasm_image_io_emscripten-1.2.1.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-core]: Downloading https://files.pythonhosted.org/packages/60/ea/2c65d6c7ea65e66a1f8003a5fdd35009129f96cce90b56204b01696d58f1/bosdyn_core-4.0.1-py3-none-any.whl
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io]: Downloading https://files.pythonhosted.org/packages/79/d6/0704dc342a418f6d00e279a200eb51b95b9db1aca6bc3bdae0bd78184305/itkwasm_image_io-1.2.1.tar.gz
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-api]: Downloading https://files.pythonhosted.org/packages/18/ce/ac234b89860eecbf7addf21183606927a0f2f05d42aa47bdecbcff680d4c/bosdyn_api-4.0.2-py3-none-any.whl
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-mission]: Downloading https://files.pythonhosted.org/packages/4e/81/6b19501e32a081604b427678442e823fdd65346d46c2cb17753a628d92e8/bosdyn_mission-4.0.1-py3-none-any.whl
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io-emscripten]: executing diffoscope
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_image_io_emscripten-1.2.0.tar.gz tmp/itkwasm_image_io_emscripten-1.2.1.tar.gz --markdown 20240603/i/itkwasm-image-io-emscripten/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io]: executing diffoscope
+[2024-06-03 05:22:14] INFO root fetch - processPackages [itkwasm-image-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_image_io-1.2.0.tar.gz tmp/itkwasm_image_io-1.2.1.tar.gz --markdown 20240603/i/itkwasm-image-io/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-06-03 05:22:14] INFO root fetch - processPackages [bosdyn-client]: Downloading https://files.pythonhosted.org/packages/68/3f/fac228b67608bd773be070c4cedeb9c4334763bc8e31161adeb661c9fa09/bosdyn_client-4.0.2-py3-none-any.whl
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-api]: executing diffoscope
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_api-4.0.1-py3-none-any.whl.zip tmp/bosdyn_api-4.0.2-py3-none-any.whl.zip --markdown 20240603/b/bosdyn-api/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-06-03 05:22:15] INFO root fetch - processPackages [tokengeex]: Downloading https://files.pythonhosted.org/packages/c6/0f/2e4643cfe6daa616306a8880e517c280c3b2da6224a583673a83ae69da9a/tokengeex-1.1.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-client]: executing diffoscope
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_client-4.0.1-py3-none-any.whl.zip tmp/bosdyn_client-4.0.2-py3-none-any.whl.zip --markdown 20240603/b/bosdyn-client/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-core]: Downloading https://files.pythonhosted.org/packages/94/85/8f2e22c7cce3bf98b09887b4cdb60456285fa2c230aaf52660dd9bd6b847/bosdyn_core-4.0.2-py3-none-any.whl
+[2024-06-03 05:22:15] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.6.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.7.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - processPackages [deshi-hello-world]: Start processing: bosdyn-orbit
+[2024-06-03 05:22:15] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-mission]: Downloading https://files.pythonhosted.org/packages/02/8a/fa9e3a58f1c09f6cfc93f8fa598475b78d55e683e21aadf3216f34ab9790/bosdyn_mission-4.0.2-py3-none-any.whl
+[2024-06-03 05:22:15] INFO root fetch - processPackages [meghana-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/meghana_hello_world-0.3.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - processPackages [meghana-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/meghana_hello_world-0.4.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - main [MainThread]: End processing [meghana-hello-world]: success
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-core]: executing diffoscope
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_core-4.0.1-py3-none-any.whl.zip tmp/bosdyn_core-4.0.2-py3-none-any.whl.zip --markdown 20240603/b/bosdyn-core/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-orbit]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-06-03 05:22:15] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.1.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.2.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - main [MainThread]: End processing [pydatastreams]: success
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-mission]: executing diffoscope
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-mission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_mission-4.0.1-py3-none-any.whl.zip tmp/bosdyn_mission-4.0.2-py3-none-any.whl.zip --markdown 20240603/b/bosdyn-mission/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-orbit]: Downloading https://files.pythonhosted.org/packages/be/b0/05fdf2f4568106afabfb63e024c92942f531dd768169a1fe6abd90277dee/bosdyn_orbit-4.0.1-py3-none-any.whl
+[2024-06-03 05:22:15] INFO root fetch - processPackages [itkwasm-image-io-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_image_io_emscripten-1.2.0.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - processPackages [itkwasm-image-io-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_image_io_emscripten-1.2.1.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - main [MainThread]: End processing [itkwasm-image-io-emscripten]: success
+[2024-06-03 05:22:15] INFO root fetch - processPackages [bosdyn-orbit]: Downloading https://files.pythonhosted.org/packages/c8/0f/6abf907960a640e5354470bf7ff7398731f3c431c191275b6d2fbbcbf68e/bosdyn_orbit-4.0.2-py3-none-any.whl
+[2024-06-03 05:22:15] INFO root fetch - processPackages [itkwasm-image-io]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_image_io-1.2.0.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - processPackages [itkwasm-image-io]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_image_io-1.2.1.tar.gz]
+[2024-06-03 05:22:15] INFO root fetch - main [MainThread]: End processing [itkwasm-image-io]: success
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-core]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_core-4.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-core]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_core-4.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - main [MainThread]: End processing [bosdyn-core]: success
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-orbit]: executing diffoscope
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-orbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_orbit-4.0.1-py3-none-any.whl.zip tmp/bosdyn_orbit-4.0.2-py3-none-any.whl.zip --markdown 20240603/b/bosdyn-orbit/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-mission]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_mission-4.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-mission]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_mission-4.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - main [MainThread]: End processing [bosdyn-mission]: success
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-client]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_client-4.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-client]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_client-4.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - main [MainThread]: End processing [bosdyn-client]: success
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-orbit]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_orbit-4.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-orbit]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_orbit-4.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - main [MainThread]: End processing [bosdyn-orbit]: success
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-api]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_api-4.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - processPackages [bosdyn-api]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_api-4.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:22:16] INFO root fetch - main [MainThread]: End processing [bosdyn-api]: success
+[2024-06-03 05:22:16] INFO root fetch - processPackages [tokengeex]: executing diffoscope
+[2024-06-03 05:22:16] INFO root fetch - processPackages [tokengeex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokengeex-1.0.1-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl.zip tmp/tokengeex-1.1.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240603/t/tokengeex/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-06-03 05:22:30] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-1.0.1-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl.zip]
+[2024-06-03 05:22:30] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-1.1.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-06-03 05:22:30] INFO root fetch - main [MainThread]: End processing [tokengeex]: success
+[2024-06-03 05:22:30] INFO root fetch - main [MainThread]: Store serial: [23496113]
