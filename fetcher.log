@@ -19846,3 +19846,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:53:35] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-06-03 14:53:35] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2024-06-03 14:53:35] INFO root fetch - main [MainThread]: Store serial: [23502661]
+[2024-06-03 14:55:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502661]
+[2024-06-03 14:55:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: probabilistic-word-embeddings
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rfmix-reader
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stigg-api-client
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-env-robots
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hx-odmetrics
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hx-odmetrics
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hx-odmetrics
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client-v2
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorflow-recommenders-addons
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ngo
+[2024-06-03 14:55:50] WARNING root fetch - processPackages [hx-odmetrics]: Skipping, unable to determine old version
+[2024-06-03 14:55:50] INFO root fetch - processPackages [hx-odmetrics]: Start processing: sysrev
+[2024-06-03 14:55:50] INFO root fetch - main [MainThread]: End processing [hx-odmetrics] error
+[2024-06-03 14:55:50] INFO root fetch - processPackages [django-env-robots]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 14:55:50] INFO root fetch - processPackages [rfmix-reader]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 14:55:50] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 14:55:50] WARNING root fetch - processPackages [hx-odmetrics]: Skipping, unable to determine old version
+[2024-06-03 14:55:50] INFO root fetch - processPackages [hx-odmetrics]: Start processing: tensorflow-recommenders-addons-gpu
+[2024-06-03 14:55:50] INFO root fetch - main [MainThread]: End processing [hx-odmetrics] error
+[2024-06-03 14:55:50] WARNING root fetch - processPackages [hx-odmetrics]: Skipping, unable to determine old version
+[2024-06-03 14:55:50] INFO root fetch - processPackages [hx-odmetrics]: Start processing: BigFlowPrototypes
+[2024-06-03 14:55:50] INFO root fetch - main [MainThread]: End processing [hx-odmetrics] error
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ngo]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 14:55:50] INFO root fetch - processPackages [tensorflow-recommenders-addons]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-06-03 14:55:50] INFO root fetch - processPackages [django-env-robots]: Downloading https://files.pythonhosted.org/packages/06/c5/39971881d7077f84fa0675ec81bfa7c660b8025c88c2537fdfd063620546/django_env_robots-0.0.2.tar.gz
+[2024-06-03 14:55:50] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-06-03 14:55:50] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-06-03 14:55:50] INFO root fetch - processPackages [sysrev]: New version: [1.3.9] Old Version: [1.3.7]
+[2024-06-03 14:55:50] WARNING root fetch - processPackages [BigFlowPrototypes]: Skipping, unable to determine old version
+[2024-06-03 14:55:50] INFO root fetch - processPackages [BigFlowPrototypes]: Start processing: wiederverwendbar
+[2024-06-03 14:55:50] INFO root fetch - main [MainThread]: End processing [BigFlowPrototypes] error
+[2024-06-03 14:55:50] INFO root fetch - processPackages [tensorflow-recommenders-addons-gpu]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-06-03 14:55:50] INFO root fetch - processPackages [rfmix-reader]: Downloading https://files.pythonhosted.org/packages/dc/0d/96b6c298795a139f296684725dfd5c45bba26e56f7653d9703bf9662fb1c/rfmix_reader-0.1.2.tar.gz
+[2024-06-03 14:55:50] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/9f/97/5ffede71893e5edd3cd031d6961fa8f2cf18b3acd709215409abcd7df044/probabilistic_word_embeddings-1.9.0.tar.gz
+[2024-06-03 14:55:50] INFO root fetch - processPackages [wiederverwendbar]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 14:55:50] INFO root fetch - processPackages [tensorflow-recommenders-addons]: Downloading https://files.pythonhosted.org/packages/94/d7/491908a8247160b6e2a6bcc29996b68a08c4c84724aca5c421aa197c42f8/tensorflow_recommenders_addons-0.6.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2024-06-03 14:55:50] INFO root fetch - processPackages [django-env-robots]: Downloading https://files.pythonhosted.org/packages/fe/ed/d311468a41fdf3b2046870e2250103f4a1218f18d6ef48b220903d0e10ed/django_env_robots-0.0.3.tar.gz
+[2024-06-03 14:55:50] INFO root fetch - processPackages [ngo]: Downloading https://files.pythonhosted.org/packages/5c/0b/e281d85ee671bb7f5a3cde8b93c0e7cfaba593ee0d077292adb51c0616b7/ngo-1.0.1.tar.gz
+[2024-06-03 14:55:50] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-06-03 14:55:50] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/9e/ba/5f96824e6fea4a21fe001b538e97eb3553406a7a90ae37f46464b2b07d81/sysrev-1.3.7.tar.gz
+[2024-06-03 14:55:50] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-06-03 14:55:50] INFO root fetch - processPackages [tensorflow-recommenders-addons-gpu]: Downloading https://files.pythonhosted.org/packages/2a/ae/56c65140a5685ab98a85467cbe8a19f47e1dd697777dd9652be100910c45/tensorflow_recommenders_addons_gpu-0.6.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2024-06-03 14:55:51] INFO root fetch - processPackages [django-env-robots]: executing diffoscope
+[2024-06-03 14:55:51] INFO root fetch - processPackages [django-env-robots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_env_robots-0.0.2.tar.gz tmp/django_env_robots-0.0.3.tar.gz --markdown 20240603/d/django-env-robots/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 14:55:51] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/ec/12/9abd5ea23bd41e776ccdd8c893a592797bf22e36c303a72373821f7cf77a/wiederverwendbar-0.2.8.tar.gz
+[2024-06-03 14:55:51] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/1f/c7/0a532bd75b3783c78c5d102ebf652cb598c2216d266a44cf9af3fb287448/probabilistic_word_embeddings-1.9.1.tar.gz
+[2024-06-03 14:55:51] INFO root fetch - processPackages [rfmix-reader]: Downloading https://files.pythonhosted.org/packages/99/5c/3f8090e793035dd987fd5a01d117f3603902a749fb4737d5321b4c9b3dc5/rfmix_reader-0.1.3.tar.gz
+[2024-06-03 14:55:51] INFO root fetch - processPackages [ngo]: Downloading https://files.pythonhosted.org/packages/3a/19/b883663ec5653506e0fc6f1c9c5c3dc0cf8839bd522aaf958bf9ee5e33df/ngo-1.0.2.tar.gz
+[2024-06-03 14:55:51] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2024-06-03 14:55:51] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.9.0.tar.gz tmp/probabilistic_word_embeddings-1.9.1.tar.gz --markdown 20240603/p/probabilistic-word-embeddings/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 14:55:51] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/53/a5/edcc4def79e3f548e86632a94ac191681bebf7f776d35d1f354442a1f79d/sysrev-1.3.9.tar.gz
+[2024-06-03 14:55:51] INFO root fetch - processPackages [rfmix-reader]: executing diffoscope
+[2024-06-03 14:55:51] INFO root fetch - processPackages [rfmix-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfmix_reader-0.1.2.tar.gz tmp/rfmix_reader-0.1.3.tar.gz --markdown 20240603/r/rfmix-reader/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 14:55:51] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-06-03 14:55:51] WARNING root fetch - processPackages [tensorflow-recommenders-addons-gpu]: Skipping package: exceeds size limit 149788884>=10485760
+[2024-06-03 14:55:51] INFO root fetch - processPackages [tensorflow-recommenders-addons-gpu]: Start processing: commonX
+[2024-06-03 14:55:51] INFO root fetch - main [MainThread]: End processing [tensorflow-recommenders-addons-gpu] error
+[2024-06-03 14:55:51] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-06-03 14:55:51] INFO root fetch - processPackages [ngo]: executing diffoscope
+[2024-06-03 14:55:51] INFO root fetch - processPackages [ngo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngo-1.0.1.tar.gz tmp/ngo-1.0.2.tar.gz --markdown 20240603/n/ngo/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 14:55:51] INFO root fetch - processPackages [sysrev]: executing diffoscope
+[2024-06-03 14:55:51] INFO root fetch - processPackages [sysrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrev-1.3.7.tar.gz tmp/sysrev-1.3.9.tar.gz --markdown 20240603/s/sysrev/1.3.7-1.3.9/README.md --exclude *.pyd
+[2024-06-03 14:55:51] INFO root fetch - processPackages [commonX]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-06-03 14:55:51] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/88/d5/426d244d068ecdd35fbfee19792e2493d58cfa92548231b1a496e6d6fa78/wiederverwendbar-0.2.9.tar.gz
+[2024-06-03 14:55:51] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-06-03 14:55:51] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240603/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-06-03 14:55:51] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/93/06/b016f34f2917fd0f6f455ca31a9a51d500bed0d9f9a3ef5b0347a1e20987/commonX-0.6.8.tar.gz
+[2024-06-03 14:55:51] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-06-03 14:55:51] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240603/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-06-03 14:55:51] INFO root fetch - processPackages [wiederverwendbar]: executing diffoscope
+[2024-06-03 14:55:51] INFO root fetch - processPackages [wiederverwendbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiederverwendbar-0.2.8.tar.gz tmp/wiederverwendbar-0.2.9.tar.gz --markdown 20240603/w/wiederverwendbar/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 14:55:51] INFO root fetch - processPackages [django-env-robots]: Remove: archive file [/home/abi/fetcher/tmp/django_env_robots-0.0.2.tar.gz]
+[2024-06-03 14:55:51] INFO root fetch - processPackages [django-env-robots]: Remove: archive file [/home/abi/fetcher/tmp/django_env_robots-0.0.3.tar.gz]
+[2024-06-03 14:55:51] INFO root fetch - main [MainThread]: End processing [django-env-robots]: success
+[2024-06-03 14:55:51] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/22/5b/23b2f1d395988d177c31fc017d1e8270f793cd05333223e1cc122cdd9025/commonX-0.6.9.tar.gz
+[2024-06-03 14:55:52] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2024-06-03 14:55:52] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.6.8.tar.gz tmp/commonX-0.6.9.tar.gz --markdown 20240603/c/commonX/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-06-03 14:55:52] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.0.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.1.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2024-06-03 14:55:52] INFO root fetch - processPackages [tensorflow-recommenders-addons]: Downloading https://files.pythonhosted.org/packages/10/ec/610341695c95621e2cdcdd60c7fe183bb9fe57da8fe03a2bafb277f980b9/tensorflow_recommenders_addons-0.7.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 14:55:52] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.7.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.9.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - main [MainThread]: End processing [sysrev]: success
+[2024-06-03 14:55:52] INFO root fetch - processPackages [rfmix-reader]: Remove: archive file [/home/abi/fetcher/tmp/rfmix_reader-0.1.2.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - processPackages [rfmix-reader]: Remove: archive file [/home/abi/fetcher/tmp/rfmix_reader-0.1.3.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - main [MainThread]: End processing [rfmix-reader]: success
+[2024-06-03 14:55:52] INFO root fetch - processPackages [ngo]: Remove: archive file [/home/abi/fetcher/tmp/ngo-1.0.1.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - processPackages [ngo]: Remove: archive file [/home/abi/fetcher/tmp/ngo-1.0.2.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - main [MainThread]: End processing [ngo]: success
+[2024-06-03 14:55:52] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-06-03 14:55:52] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.8.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.9.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - main [MainThread]: End processing [wiederverwendbar]: success
+[2024-06-03 14:55:52] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.6.8.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.6.9.tar.gz]
+[2024-06-03 14:55:52] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2024-06-03 14:55:53] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-06-03 14:55:53] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-06-03 14:55:53] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-06-03 14:55:53] INFO root fetch - processPackages [tensorflow-recommenders-addons]: executing diffoscope
+[2024-06-03 14:55:53] INFO root fetch - processPackages [tensorflow-recommenders-addons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_recommenders_addons-0.6.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/tensorflow_recommenders_addons-0.7.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240603/t/tensorflow-recommenders-addons/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-06-03 14:58:53] ERROR root fetch - processPackages [tensorflow-recommenders-addons]: Timeout during execution of pkgdiff
+[2024-06-03 14:58:53] INFO root fetch - main [MainThread]: End processing [tensorflow-recommenders-addons] error
+[2024-06-03 14:58:53] INFO root fetch - main [MainThread]: Store serial: [23502728]
