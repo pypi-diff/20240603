@@ -2056,3 +2056,9 @@
 [2024-06-03 02:40:19] WARNING root fetch - processPackages [vistenum]: Skipping, unable to determine old version
 [2024-06-03 02:40:19] INFO root fetch - main [MainThread]: End processing [vistenum] error
 [2024-06-03 02:40:19] INFO root fetch - main [MainThread]: Store serial: [23495021]
+[2024-06-03 02:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495021]
+[2024-06-03 02:42:27] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 02:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jazzy-fish
+[2024-06-03 02:42:27] WARNING root fetch - processPackages [jazzy-fish]: Skipping, unable to determine old version
+[2024-06-03 02:42:27] INFO root fetch - main [MainThread]: End processing [jazzy-fish] error
+[2024-06-03 02:42:27] INFO root fetch - main [MainThread]: Store serial: [23495026]
