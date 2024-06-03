@@ -11167,3 +11167,42 @@ EOFError: EOF read where object expected
 [2024-06-03 11:10:16] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
 [2024-06-03 11:10:16] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
 [2024-06-03 11:10:16] INFO root fetch - main [MainThread]: Store serial: [23499274]
+[2024-06-03 11:12:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499274]
+[2024-06-03 11:12:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: junifer
+[2024-06-03 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: witchcraft
+[2024-06-03 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbb-agents
+[2024-06-03 11:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: validate-pyproject-schema-store
+[2024-06-03 11:12:24] INFO root fetch - processPackages [witchcraft]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-06-03 11:12:24] INFO root fetch - processPackages [openbb-agents]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 11:12:24] INFO root fetch - processPackages [validate-pyproject-schema-store]: New version: [2024.6.3] Old Version: [2024.5.24]
+[2024-06-03 11:12:24] INFO root fetch - processPackages [junifer]: New version: [0.0.5.dev98] Old Version: [0.0.5.dev93]
+[2024-06-03 11:12:25] INFO root fetch - processPackages [witchcraft]: Downloading https://files.pythonhosted.org/packages/f7/4f/7d659248e9c6b212a81885228a3ef72b693414a6a21c6e37e3a98ae87477/witchcraft-0.3.0.tar.gz
+[2024-06-03 11:12:25] INFO root fetch - processPackages [openbb-agents]: Downloading https://files.pythonhosted.org/packages/87/07/90731879327208b648e20ed4f7539a3c5f08661de01e80036a654f4ed7e6/openbb_agents-0.0.3.tar.gz
+[2024-06-03 11:12:25] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/ac/b0/e2e65ba8216e4d7225b19fbacfcc78b8dcd940e7fd4fa93f371dfabcf86d/junifer-0.0.5.dev93.tar.gz
+[2024-06-03 11:12:25] INFO root fetch - processPackages [validate-pyproject-schema-store]: Downloading https://files.pythonhosted.org/packages/69/bd/6b0c944b2447519113814f883117beb8f647ecd8e66502ab8068f1a294c5/validate_pyproject_schema_store-2024.5.24.tar.gz
+[2024-06-03 11:12:25] INFO root fetch - processPackages [openbb-agents]: Downloading https://files.pythonhosted.org/packages/45/ff/4df3078196602874f24d4a85104c087736f6e990516dbcc9b9464ae85595/openbb_agents-0.0.4.tar.gz
+[2024-06-03 11:12:25] INFO root fetch - processPackages [witchcraft]: Downloading https://files.pythonhosted.org/packages/d1/dc/37413255f5418c96f23443f363c3adf0a90bc83d154e3f143679ec743227/witchcraft-0.3.1.tar.gz
+[2024-06-03 11:12:25] INFO root fetch - processPackages [validate-pyproject-schema-store]: Downloading https://files.pythonhosted.org/packages/65/d3/610575d1c974927fd2bc4677861e90852b2b711f729439df203fd8c60a97/validate_pyproject_schema_store-2024.6.3.tar.gz
+[2024-06-03 11:12:25] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/7c/c8/efec76e061b145219f8d35f1eab1604135e4b284d36171eb4e530ab7541c/junifer-0.0.5.dev98.tar.gz
+[2024-06-03 11:12:25] INFO root fetch - processPackages [openbb-agents]: executing diffoscope
+[2024-06-03 11:12:25] INFO root fetch - processPackages [openbb-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_agents-0.0.3.tar.gz tmp/openbb_agents-0.0.4.tar.gz --markdown 20240603/o/openbb-agents/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 11:12:25] INFO root fetch - processPackages [witchcraft]: executing diffoscope
+[2024-06-03 11:12:25] INFO root fetch - processPackages [witchcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/witchcraft-0.3.0.tar.gz tmp/witchcraft-0.3.1.tar.gz --markdown 20240603/w/witchcraft/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-06-03 11:12:25] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-06-03 11:12:25] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.5.dev93.tar.gz tmp/junifer-0.0.5.dev98.tar.gz --markdown 20240603/j/junifer/0.0.5.dev93-0.0.5.dev98/README.md --exclude *.pyd
+[2024-06-03 11:12:25] INFO root fetch - processPackages [validate-pyproject-schema-store]: executing diffoscope
+[2024-06-03 11:12:25] INFO root fetch - processPackages [validate-pyproject-schema-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validate_pyproject_schema_store-2024.5.24.tar.gz tmp/validate_pyproject_schema_store-2024.6.3.tar.gz --markdown 20240603/v/validate-pyproject-schema-store/2024.5.24-2024.6.3/README.md --exclude *.pyd
+[2024-06-03 11:12:26] INFO root fetch - processPackages [openbb-agents]: Remove: archive file [/home/abi/fetcher/tmp/openbb_agents-0.0.3.tar.gz]
+[2024-06-03 11:12:26] INFO root fetch - processPackages [openbb-agents]: Remove: archive file [/home/abi/fetcher/tmp/openbb_agents-0.0.4.tar.gz]
+[2024-06-03 11:12:26] INFO root fetch - main [MainThread]: End processing [openbb-agents]: success
+[2024-06-03 11:12:26] INFO root fetch - processPackages [witchcraft]: Remove: archive file [/home/abi/fetcher/tmp/witchcraft-0.3.0.tar.gz]
+[2024-06-03 11:12:26] INFO root fetch - processPackages [witchcraft]: Remove: archive file [/home/abi/fetcher/tmp/witchcraft-0.3.1.tar.gz]
+[2024-06-03 11:12:26] INFO root fetch - main [MainThread]: End processing [witchcraft]: success
+[2024-06-03 11:12:26] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.5.24.tar.gz]
+[2024-06-03 11:12:26] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.6.3.tar.gz]
+[2024-06-03 11:12:26] INFO root fetch - main [MainThread]: End processing [validate-pyproject-schema-store]: success
+[2024-06-03 11:12:27] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev93.tar.gz]
+[2024-06-03 11:12:27] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev98.tar.gz]
+[2024-06-03 11:12:27] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-06-03 11:12:27] INFO root fetch - main [MainThread]: Store serial: [23499293]
