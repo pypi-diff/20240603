@@ -10427,3 +10427,42 @@ EOFError: EOF read where object expected
 [2024-06-03 10:46:07] INFO root fetch - processPackages [dynamicdl-headless]: Remove: archive file [/home/abi/fetcher/tmp/dynamicdl_headless-0.1.1a0.tar.gz]
 [2024-06-03 10:46:07] INFO root fetch - main [MainThread]: End processing [dynamicdl-headless]: success
 [2024-06-03 10:46:07] INFO root fetch - main [MainThread]: Store serial: [23498763]
+[2024-06-03 10:48:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498763]
+[2024-06-03 10:48:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 10:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matplobblib
+[2024-06-03 10:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: venv-modulefile
+[2024-06-03 10:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2024-06-03 10:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: triton-copilot
+[2024-06-03 10:48:15] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 10:48:15] INFO root fetch - processPackages [matplobblib]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-06-03 10:48:15] INFO root fetch - processPackages [venv-modulefile]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 10:48:15] INFO root fetch - processPackages [bagbag]: New version: [0.68.9] Old Version: [0.68.8]
+[2024-06-03 10:48:16] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/2f/4d/4b6cbac17c14294588732b0ed4fad00d296960756be754bf9cced0a46a30/triton_copilot-0.1.2.tar.gz
+[2024-06-03 10:48:16] INFO root fetch - processPackages [matplobblib]: Downloading https://files.pythonhosted.org/packages/56/0a/1a30c676004f575c00c24fc8d698efb422aedb364aaa678e3675b9ec370a/matplobblib-0.1.3.tar.gz
+[2024-06-03 10:48:16] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/44/a4/eeb3b81f8f02d248ef2e817ab9b146994d247eaecf959165bd35533e2a27/venv-modulefile-0.1.5.tar.gz
+[2024-06-03 10:48:16] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/96/cec1b60756a800353138acafbcdaf59362f72a46b4a91cae324ae5b6118b/bagbag-0.68.8.tar.gz
+[2024-06-03 10:48:16] INFO root fetch - processPackages [matplobblib]: Downloading https://files.pythonhosted.org/packages/67/0b/3a2928bf16a8cca65bf42a9734129e690f56bfad6051f3bb5427ceed4399/matplobblib-0.1.4.tar.gz
+[2024-06-03 10:48:16] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/59/ae/070ac9e8eba61e25e57255b9109f115bed5c2e1f828e9b41e5093947312f/triton_copilot-0.1.3.tar.gz
+[2024-06-03 10:48:16] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 10:48:16] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.2.tar.gz tmp/triton_copilot-0.1.3.tar.gz --markdown 20240603/t/triton-copilot/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 10:48:16] INFO root fetch - processPackages [matplobblib]: executing diffoscope
+[2024-06-03 10:48:16] INFO root fetch - processPackages [matplobblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplobblib-0.1.3.tar.gz tmp/matplobblib-0.1.4.tar.gz --markdown 20240603/m/matplobblib/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-06-03 10:48:16] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/a7/ce/36d9c874c6e340bb1da40a8b9b41a914e0760f19171ede585a00fb45323d/bagbag-0.68.9.tar.gz
+[2024-06-03 10:48:16] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/dc/44/b5bcb7221cae5cad9499faecc45da629be042dab647dfc2e86ab4c8cb817/venv-modulefile-0.1.6.tar.gz
+[2024-06-03 10:48:16] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-06-03 10:48:16] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.8.tar.gz tmp/bagbag-0.68.9.tar.gz --markdown 20240603/b/bagbag/0.68.8-0.68.9/README.md --exclude *.pyd
+[2024-06-03 10:48:17] INFO root fetch - processPackages [matplobblib]: Remove: archive file [/home/abi/fetcher/tmp/matplobblib-0.1.3.tar.gz]
+[2024-06-03 10:48:17] INFO root fetch - processPackages [matplobblib]: Remove: archive file [/home/abi/fetcher/tmp/matplobblib-0.1.4.tar.gz]
+[2024-06-03 10:48:17] INFO root fetch - main [MainThread]: End processing [matplobblib]: success
+[2024-06-03 10:48:17] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.2.tar.gz]
+[2024-06-03 10:48:17] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3.tar.gz]
+[2024-06-03 10:48:17] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 10:48:17] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2024-06-03 10:48:17] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.1.5.tar.gz tmp/venv-modulefile-0.1.6.tar.gz --markdown 20240603/v/venv-modulefile/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 10:48:18] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.8.tar.gz]
+[2024-06-03 10:48:18] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.9.tar.gz]
+[2024-06-03 10:48:18] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-06-03 10:48:18] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.5.tar.gz]
+[2024-06-03 10:48:18] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.6.tar.gz]
+[2024-06-03 10:48:18] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2024-06-03 10:48:18] INFO root fetch - main [MainThread]: Store serial: [23498792]
