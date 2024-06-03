@@ -2774,3 +2774,49 @@ EOFError: EOF read where object expected
 [2024-06-03 03:27:12] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.6.2.tar.gz]
 [2024-06-03 03:27:12] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-06-03 03:27:12] INFO root fetch - main [MainThread]: Store serial: [23495322]
+[2024-06-03 03:29:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495322]
+[2024-06-03 03:29:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 03:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctrl-workflow-client
+[2024-06-03 03:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mutt-html-reply
+[2024-06-03 03:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-municipalities
+[2024-06-03 03:29:21] INFO root fetch - processPackages [mutt-html-reply]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-06-03 03:29:21] INFO root fetch - processPackages [abstract-municipalities]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 03:29:21] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/9f/a9/36a37667c869399d8488851d27b6eca8b953648a45c4a90caf5069cb9ab8/mutt_html_reply-0.4.2.tar.gz
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/27/ed/8df62f302a8047748be8400127b53001c116715b573d562a797eeed0f425/cs_ob_mini_scikit_learn-0.1.4.tar.gz
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/27/ed/8df62f302a8047748be8400127b53001c116715b573d562a797eeed0f425/cs_ob_mini_scikit_learn-0.1.4.tar.gz
+[2024-06-03 03:29:21] INFO root fetch - processPackages [qctrl-workflow-client]: New version: [4.0.0] Old Version: [3.1.1]
+[2024-06-03 03:29:21] INFO root fetch - processPackages [abstract-municipalities]: Downloading https://files.pythonhosted.org/packages/bb/f8/275db9a4da5ce81bed0051bff5d1dd99b7bf5e3430a915d16c3926f22059/abstract_municipalities-0.0.0.1.tar.gz
+[2024-06-03 03:29:21] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/e3/e1/76a8ac88755ee06966a3ffae793bd6b4cbce21bfc064d56a199930596656/mutt_html_reply-0.4.3.tar.gz
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/0f/f6/44bfac920622e1708624c4c47ef092bdc6fc0c00d6167630dca412d1393e/cs_ob_mini_scikit_learn-0.1.5.tar.gz
+[2024-06-03 03:29:21] INFO root fetch - processPackages [qctrl-workflow-client]: Downloading https://files.pythonhosted.org/packages/0d/c4/77fbe93965ecf62dffa776fe0cb226131a1f5668eb5ac89afef2d033dbff/qctrl_workflow_client-3.1.1.tar.gz
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/0f/f6/44bfac920622e1708624c4c47ef092bdc6fc0c00d6167630dca412d1393e/cs_ob_mini_scikit_learn-0.1.5.tar.gz
+[2024-06-03 03:29:21] INFO root fetch - processPackages [mutt-html-reply]: executing diffoscope
+[2024-06-03 03:29:21] INFO root fetch - processPackages [mutt-html-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutt_html_reply-0.4.2.tar.gz tmp/mutt_html_reply-0.4.3.tar.gz --markdown 20240603/m/mutt-html-reply/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_ob_mini_scikit_learn-0.1.4.tar.gz tmp/cs_ob_mini_scikit_learn-0.1.5.tar.gz --markdown 20240603/c/cs-ob-mini-scikit-learn/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:29:21] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_ob_mini_scikit_learn-0.1.4.tar.gz tmp/cs_ob_mini_scikit_learn-0.1.5.tar.gz --markdown 20240603/c/cs-ob-mini-scikit-learn/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 03:29:22] INFO root fetch - processPackages [abstract-municipalities]: Downloading https://files.pythonhosted.org/packages/21/0a/d234d7258de38c1e7d85de6f5b562291f8d17be3f85b145b35d3a15feb6e/abstract_municipalities-0.0.0.2.tar.gz
+[2024-06-03 03:29:22] INFO root fetch - processPackages [qctrl-workflow-client]: Downloading https://files.pythonhosted.org/packages/ca/1b/6f4155d8f8df7330f9ed4b9017ae3c051d10b7c9cf3dded1a545a4e49f5b/qctrl_workflow_client-4.0.0.tar.gz
+[2024-06-03 03:29:22] INFO root fetch - processPackages [abstract-municipalities]: executing diffoscope
+[2024-06-03 03:29:22] INFO root fetch - processPackages [abstract-municipalities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_municipalities-0.0.0.1.tar.gz tmp/abstract_municipalities-0.0.0.2.tar.gz --markdown 20240603/a/abstract-municipalities/0.0.0.1-0.0.0.2/README.md --exclude *.pyd
+[2024-06-03 03:29:22] INFO root fetch - processPackages [qctrl-workflow-client]: executing diffoscope
+[2024-06-03 03:29:22] INFO root fetch - processPackages [qctrl-workflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_workflow_client-3.1.1.tar.gz tmp/qctrl_workflow_client-4.0.0.tar.gz --markdown 20240603/q/qctrl-workflow-client/3.1.1-4.0.0/README.md --exclude *.pyd
+[2024-06-03 03:29:22] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.4.2.tar.gz]
+[2024-06-03 03:29:22] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.4.3.tar.gz]
+[2024-06-03 03:29:22] INFO root fetch - main [MainThread]: End processing [mutt-html-reply]: success
+[2024-06-03 03:29:22] INFO root fetch - processPackages [qctrl-workflow-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_workflow_client-3.1.1.tar.gz]
+[2024-06-03 03:29:22] INFO root fetch - processPackages [qctrl-workflow-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_workflow_client-4.0.0.tar.gz]
+[2024-06-03 03:29:22] INFO root fetch - main [MainThread]: End processing [qctrl-workflow-client]: success
+[2024-06-03 03:29:22] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.4.tar.gz]
+[2024-06-03 03:29:22] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.5.tar.gz]
+[2024-06-03 03:29:22] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
+[2024-06-03 03:29:22] INFO root fetch - processPackages [abstract-municipalities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_municipalities-0.0.0.1.tar.gz]
+[2024-06-03 03:29:22] INFO root fetch - processPackages [abstract-municipalities]: Remove: archive file [/home/abi/fetcher/tmp/abstract_municipalities-0.0.0.2.tar.gz]
+[2024-06-03 03:29:22] INFO root fetch - main [MainThread]: End processing [abstract-municipalities]: success
+[2024-06-03 03:29:22] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
+[2024-06-03 03:29:22] INFO root fetch - main [MainThread]: Store serial: [23495338]
