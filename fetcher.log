@@ -16663,3 +16663,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:37:41] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
 [2024-06-03 13:37:41] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-06-03 13:37:41] INFO root fetch - main [MainThread]: Store serial: [23501470]
+[2024-06-03 13:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501470]
+[2024-06-03 13:39:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-automation
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-directmail
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymyenergi
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-graphdatabase
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fab-react-toolkit
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roastery
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-nas
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-partner-statement
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack-core
+[2024-06-03 13:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydirac-papertools
+[2024-06-03 13:39:51] INFO root fetch - processPackages [python-automation]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [roastery]: New version: [0.20240603.dev0] Old Version: [0.20240531.dev1]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [ros-cdk-directmail]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240603074939] Old Version: [3.4.1.dev20240603022645]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/31/6f/17bb7a482834f1d001dc9e05fe57d92d519f913fc360171b6115fd35a0b3/python-automation-0.0.7.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [ros-cdk-graphdatabase]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [odoo13-addon-partner-statement]: New version: [13.0.1.4.0] Old Version: [13.0.1.3.1.dev9]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [ros-cdk-nas]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [pymyenergi]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-06-03 13:39:51] WARNING root fetch - processPackages [pydirac-papertools]: Skipping, unable to determine old version
+[2024-06-03 13:39:51] INFO root fetch - processPackages [pydirac-papertools]: Start processing: supamodel
+[2024-06-03 13:39:51] INFO root fetch - main [MainThread]: End processing [pydirac-papertools] error
+[2024-06-03 13:39:51] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/31/0b/604a3f559b6bb6057ea5c488e4d60d874655478186e371f04d7f3813bf41/roastery-0.20240531.dev1.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/21/69/33a1bf4a0343893028f9e3743d8faa80e328c5ac5f1fcbef97f4ff9d326a/localstack_core-3.4.1.dev20240603022645.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [ros-cdk-directmail]: Downloading https://files.pythonhosted.org/packages/e1/de/d39624f064f6dbf4f656349546b6754bb1f10b76d0189e8aa4602f1ab838/ros-cdk-directmail-1.0.24.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Downloading https://files.pythonhosted.org/packages/ef/8b/24cab3fd71a0d40834d744f86f8ffe4703e08813fae94a840f7dd8742baf/ros-cdk-graphdatabase-1.0.24.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [odoo13-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/18/95/31ff76b18763449c497f44fcc9e717f42f66274675234ac3d8ba4c679fb7/odoo13_addon_partner_statement-13.0.1.3.1.dev9-py3-none-any.whl
+[2024-06-03 13:39:51] INFO root fetch - processPackages [supamodel]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-06-03 13:39:51] INFO root fetch - processPackages [pymyenergi]: Downloading https://files.pythonhosted.org/packages/c7/7c/4319040b1eee47b9199a0671bba5427ac28a5f9a085dfc81b71373b17ca4/pymyenergi-0.1.1.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [ros-cdk-nas]: Downloading https://files.pythonhosted.org/packages/82/0f/51e12fdd559235a6d01da0cf5466cb8c2c894633b792f408fd6c107b5b7b/ros-cdk-nas-1.0.8.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/7f/06/7310e1048443276b159139981db143095c5509c7c819279d03d34523f171/fab_react_toolkit-0.4.8.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/c1/bb/8f2e415b8e7df6efa6b74f25560ccae27e556b070aa17ff3a44ae13a79b3/python-automation-0.0.8.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/21/de/66a69e0c30327b292cb08098b431d9e4d103b79d4f5dc947a29f6a838d9b/roastery-0.20240603.dev0.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [python-automation]: executing diffoscope
+[2024-06-03 13:39:51] INFO root fetch - processPackages [python-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-0.0.7.tar.gz tmp/python-automation-0.0.8.tar.gz --markdown 20240603/p/python-automation/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 13:39:51] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/ea/4d/9c107ccc6ab65c6dd3e2578efa668e7a6ed30d5107eaccf3a6e10f7b247e/supamodel-0.5.8.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [ros-cdk-directmail]: Downloading https://files.pythonhosted.org/packages/60/cf/fbc890f4ee67e8c31ad986c1f23b65fc73c220d1c6e5b599047cfb234ee0/ros-cdk-directmail-1.0.25.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [roastery]: executing diffoscope
+[2024-06-03 13:39:51] INFO root fetch - processPackages [roastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roastery-0.20240531.dev1.tar.gz tmp/roastery-0.20240603.dev0.tar.gz --markdown 20240603/r/roastery/0.20240531.dev1-0.20240603.dev0/README.md --exclude *.pyd
+[2024-06-03 13:39:51] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Downloading https://files.pythonhosted.org/packages/da/a8/75c60942645a0295da0d8b041940d56ea683cd300e328a05471d8f54d608/ros-cdk-graphdatabase-1.0.25.tar.gz
+[2024-06-03 13:39:51] INFO root fetch - processPackages [pymyenergi]: Downloading https://files.pythonhosted.org/packages/dc/1c/5524921ebb03a9b48fd618dd4c7d3b6d4f28ea355165d35f0a827cfe10a9/pymyenergi-0.2.0.tar.gz
+[2024-06-03 13:39:52] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/bf/b5/6afe085c039a3c9753ae526c75241b24a6f5694dd0dc5c38b83815e16777/fab_react_toolkit-0.4.9.tar.gz
+[2024-06-03 13:39:52] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ac/d3/4e8bc3b61bbe4ec3ac78b3165d8b5eee667c00d81385ea7cfd28794bc74b/localstack_core-3.4.1.dev20240603074939.tar.gz
+[2024-06-03 13:39:52] INFO root fetch - processPackages [ros-cdk-directmail]: executing diffoscope
+[2024-06-03 13:39:52] INFO root fetch - processPackages [ros-cdk-directmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-directmail-1.0.24.tar.gz tmp/ros-cdk-directmail-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-directmail/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:39:52] INFO root fetch - processPackages [odoo13-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/49/de/e2817d2ca00f3691906ed5ff1c7e33d00f030f0fcf922906516996b27634/odoo13_addon_partner_statement-13.0.1.4.0-py3-none-any.whl
+[2024-06-03 13:39:52] INFO root fetch - processPackages [ros-cdk-nas]: Downloading https://files.pythonhosted.org/packages/df/65/0baa91d3551d59c6ac463425f293aaad4c7f1067a94d70014c2056f5b5a8/ros-cdk-nas-1.0.9.tar.gz
+[2024-06-03 13:39:52] INFO root fetch - processPackages [pymyenergi]: executing diffoscope
+[2024-06-03 13:39:52] INFO root fetch - processPackages [pymyenergi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymyenergi-0.1.1.tar.gz tmp/pymyenergi-0.2.0.tar.gz --markdown 20240603/p/pymyenergi/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-06-03 13:39:52] INFO root fetch - processPackages [ros-cdk-graphdatabase]: executing diffoscope
+[2024-06-03 13:39:52] INFO root fetch - processPackages [ros-cdk-graphdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-graphdatabase-1.0.24.tar.gz tmp/ros-cdk-graphdatabase-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-graphdatabase/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:39:52] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-06-03 13:39:52] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab_react_toolkit-0.4.8.tar.gz tmp/fab_react_toolkit-0.4.9.tar.gz --markdown 20240603/f/fab-react-toolkit/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 13:39:52] INFO root fetch - processPackages [supamodel]: Downloading https://files.pythonhosted.org/packages/f5/46/462d130cd061a9e720aa914bcae2c0bd5fe31d154f4d4a03efdc08e30171/supamodel-0.5.9.tar.gz
+[2024-06-03 13:39:52] INFO root fetch - processPackages [odoo13-addon-partner-statement]: executing diffoscope
+[2024-06-03 13:39:52] INFO root fetch - processPackages [odoo13-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_partner_statement-13.0.1.3.1.dev9-py3-none-any.whl.zip tmp/odoo13_addon_partner_statement-13.0.1.4.0-py3-none-any.whl.zip --markdown 20240603/o/odoo13-addon-partner-statement/13.0.1.3.1.dev9-13.0.1.4.0/README.md --exclude *.pyd
+[2024-06-03 13:39:52] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-06-03 13:39:52] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240603022645.tar.gz tmp/localstack_core-3.4.1.dev20240603074939.tar.gz --markdown 20240603/l/localstack-core/3.4.1.dev20240603022645-3.4.1.dev20240603074939/README.md --exclude *.pyd
+[2024-06-03 13:39:52] INFO root fetch - processPackages [supamodel]: executing diffoscope
+[2024-06-03 13:39:52] INFO root fetch - processPackages [supamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supamodel-0.5.8.tar.gz tmp/supamodel-0.5.9.tar.gz --markdown 20240603/s/supamodel/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-06-03 13:39:52] INFO root fetch - processPackages [ros-cdk-nas]: executing diffoscope
+[2024-06-03 13:39:52] INFO root fetch - processPackages [ros-cdk-nas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nas-1.0.8.tar.gz tmp/ros-cdk-nas-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-nas/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:39:53] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.7.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.8.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [python-automation]: Start processing: git-cliff
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [python-automation]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240531.dev1.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240603.dev0.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [roastery]: Start processing: py-optional
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [roastery]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [git-cliff]: New version: [2.3.0] Old Version: [2.2.2]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [py-optional]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [py-optional]: Downloading https://files.pythonhosted.org/packages/c6/c5/41502a9a6c31c32c0c37f0e58dce5a3cafcfc22ae49542491b014f496196/py_optional-1.3.0.tar.gz
+[2024-06-03 13:39:53] INFO root fetch - processPackages [ros-cdk-directmail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-directmail-1.0.24.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [ros-cdk-directmail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-directmail-1.0.25.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [ros-cdk-directmail]: Start processing: pvsite-datamodel
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [ros-cdk-directmail]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-graphdatabase-1.0.24.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-graphdatabase-1.0.25.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [ros-cdk-graphdatabase]: Start processing: bbot
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [ros-cdk-graphdatabase]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [git-cliff]: Downloading https://files.pythonhosted.org/packages/2d/3f/d008fee51d674c6461671d21e04cc619065a46a5c11e0704f15f54525eaf/git_cliff-2.2.2.tar.gz
+[2024-06-03 13:39:53] INFO root fetch - processPackages [bbot]: New version: [1.1.9.3372rc0] Old Version: [1.1.9.3370rc0]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [pvsite-datamodel]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [pymyenergi]: Remove: archive file [/home/abi/fetcher/tmp/pymyenergi-0.1.1.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [pymyenergi]: Remove: archive file [/home/abi/fetcher/tmp/pymyenergi-0.2.0.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [pymyenergi]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/ae/71/aa20c1ba717e3b37f4e015e9f0c9143e59280ead6286e97779c8c883becf/bbot-1.1.9.3370rc0.tar.gz
+[2024-06-03 13:39:53] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.8.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.9.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.5.8.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [supamodel]: Remove: archive file [/home/abi/fetcher/tmp/supamodel-0.5.9.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [supamodel]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [py-optional]: Downloading https://files.pythonhosted.org/packages/30/ac/af83d0f68f540bbe442a1b66f799471f185a7edb18c0b173e837a9b0ec31/py_optional-1.3.1.tar.gz
+[2024-06-03 13:39:53] INFO root fetch - processPackages [ros-cdk-nas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nas-1.0.8.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [ros-cdk-nas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nas-1.0.9.tar.gz]
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [ros-cdk-nas]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/4f/94/17d9ce3de61a220e5960639e6088e95f0a697c74ba8a19f612cfe429b4a9/pvsite_datamodel-1.0.8.tar.gz
+[2024-06-03 13:39:53] INFO root fetch - processPackages [odoo13-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_partner_statement-13.0.1.3.1.dev9-py3-none-any.whl.zip]
+[2024-06-03 13:39:53] INFO root fetch - processPackages [odoo13-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_partner_statement-13.0.1.4.0-py3-none-any.whl.zip]
+[2024-06-03 13:39:53] INFO root fetch - main [MainThread]: End processing [odoo13-addon-partner-statement]: success
+[2024-06-03 13:39:53] INFO root fetch - processPackages [git-cliff]: Downloading https://files.pythonhosted.org/packages/e4/30/ca7341b87651c4552e05318f1b7eec5a401922680925b9263134cc1ecf64/git_cliff-2.3.0.tar.gz
+[2024-06-03 13:39:53] INFO root fetch - processPackages [py-optional]: executing diffoscope
+[2024-06-03 13:39:53] INFO root fetch - processPackages [py-optional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_optional-1.3.0.tar.gz tmp/py_optional-1.3.1.tar.gz --markdown 20240603/p/py-optional/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-06-03 13:39:53] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/52/4a/88c493099e07cda5818393c4ddd6590e05115925567a7e94ed4840aaf75d/bbot-1.1.9.3372rc0.tar.gz
+[2024-06-03 13:39:54] INFO root fetch - processPackages [git-cliff]: executing diffoscope
+[2024-06-03 13:39:54] INFO root fetch - processPackages [git-cliff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_cliff-2.2.2.tar.gz tmp/git_cliff-2.3.0.tar.gz --markdown 20240603/g/git-cliff/2.2.2-2.3.0/README.md --exclude *.pyd
+[2024-06-03 13:39:54] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-06-03 13:39:54] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.9.3370rc0.tar.gz tmp/bbot-1.1.9.3372rc0.tar.gz --markdown 20240603/b/bbot/1.1.9.3370rc0-1.1.9.3372rc0/README.md --exclude *.pyd
+[2024-06-03 13:39:54] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/09/05/b1d02e4bce0bada9effc1c581a0762ec56c98c169d8463fc2bedefa2893d/pvsite_datamodel-1.0.9.tar.gz
+[2024-06-03 13:39:54] INFO root fetch - processPackages [py-optional]: Remove: archive file [/home/abi/fetcher/tmp/py_optional-1.3.0.tar.gz]
+[2024-06-03 13:39:54] INFO root fetch - processPackages [py-optional]: Remove: archive file [/home/abi/fetcher/tmp/py_optional-1.3.1.tar.gz]
+[2024-06-03 13:39:54] INFO root fetch - main [MainThread]: End processing [py-optional]: success
+[2024-06-03 13:39:54] INFO root fetch - processPackages [pvsite-datamodel]: executing diffoscope
+[2024-06-03 13:39:54] INFO root fetch - processPackages [pvsite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvsite_datamodel-1.0.8.tar.gz tmp/pvsite_datamodel-1.0.9.tar.gz --markdown 20240603/p/pvsite-datamodel/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:39:55] INFO root fetch - processPackages [git-cliff]: Remove: archive file [/home/abi/fetcher/tmp/git_cliff-2.2.2.tar.gz]
+[2024-06-03 13:39:55] INFO root fetch - processPackages [git-cliff]: Remove: archive file [/home/abi/fetcher/tmp/git_cliff-2.3.0.tar.gz]
+[2024-06-03 13:39:55] INFO root fetch - main [MainThread]: End processing [git-cliff]: success
+[2024-06-03 13:39:55] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.8.tar.gz]
+[2024-06-03 13:39:55] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
+[2024-06-03 13:39:55] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
+[2024-06-03 13:39:56] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.9.3370rc0.tar.gz]
+[2024-06-03 13:39:56] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.9.3372rc0.tar.gz]
+[2024-06-03 13:39:56] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-06-03 13:39:57] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240603022645.tar.gz]
+[2024-06-03 13:39:57] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240603074939.tar.gz]
+[2024-06-03 13:39:57] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-06-03 13:39:57] INFO root fetch - main [MainThread]: Store serial: [23501535]
