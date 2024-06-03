@@ -8941,3 +8941,24 @@ EOFError: EOF read where object expected
 [2024-06-03 09:40:45] INFO root fetch - processPackages [ollama-haystack]: Remove: archive file [/home/abi/fetcher/tmp/ollama_haystack-0.0.7.tar.gz]
 [2024-06-03 09:40:45] INFO root fetch - main [MainThread]: End processing [ollama-haystack]: success
 [2024-06-03 09:40:45] INFO root fetch - main [MainThread]: Store serial: [23497966]
+[2024-06-03 09:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497966]
+[2024-06-03 09:42:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 09:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cace
+[2024-06-03 09:42:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bowtie-json-schema
+[2024-06-03 09:42:54] INFO root fetch - processPackages [cace]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-06-03 09:42:54] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2024.6.5] Old Version: [2024.6.4]
+[2024-06-03 09:42:54] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/df/b6/a06496518724141e00b8ece1c0bbe016648fd8aeaf414b64ec6a3764b648/cace-2.2.6.tar.gz
+[2024-06-03 09:42:54] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/37/53/e22714903985e5605d0a48e501b3f66c27502bbf3ded0606bd4ac4ff960c/bowtie_json_schema-2024.6.4.tar.gz
+[2024-06-03 09:42:54] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/51/df/71c12512f9cdb1f06d980c52f5a90f2aef418b257fbf4b3609ca46f92a83/cace-2.2.7.tar.gz
+[2024-06-03 09:42:54] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/0c/f3/66f576e3144f3e118ed3692f4aeb19249ea82a0a8c9260f41a3f68e46373/bowtie_json_schema-2024.6.5.tar.gz
+[2024-06-03 09:42:55] INFO root fetch - processPackages [cace]: executing diffoscope
+[2024-06-03 09:42:55] INFO root fetch - processPackages [cace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cace-2.2.6.tar.gz tmp/cace-2.2.7.tar.gz --markdown 20240603/c/cace/2.2.6-2.2.7/README.md --exclude *.pyd
+[2024-06-03 09:42:55] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2024-06-03 09:42:55] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2024.6.4.tar.gz tmp/bowtie_json_schema-2024.6.5.tar.gz --markdown 20240603/b/bowtie-json-schema/2024.6.4-2024.6.5/README.md --exclude *.pyd
+[2024-06-03 09:42:56] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.6.tar.gz]
+[2024-06-03 09:42:56] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.7.tar.gz]
+[2024-06-03 09:42:56] INFO root fetch - main [MainThread]: End processing [cace]: success
+[2024-06-03 09:42:56] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.6.4.tar.gz]
+[2024-06-03 09:42:56] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.6.5.tar.gz]
+[2024-06-03 09:42:56] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2024-06-03 09:42:56] INFO root fetch - main [MainThread]: Store serial: [23497972]
