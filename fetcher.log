@@ -7179,3 +7179,57 @@ EOFError: EOF read where object expected
 [2024-06-03 07:59:54] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.6.0.tar.gz]
 [2024-06-03 07:59:54] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
 [2024-06-03 07:59:54] INFO root fetch - main [MainThread]: Store serial: [23497180]
+[2024-06-03 08:01:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497180]
+[2024-06-03 08:02:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multi-med-image-ml
+[2024-06-03 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plivo
+[2024-06-03 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morphdb-utils
+[2024-06-03 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-avatar
+[2024-06-03 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvs-printf
+[2024-06-03 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nlpx
+[2024-06-03 08:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vstutils
+[2024-06-03 08:02:03] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 08:02:03] INFO root fetch - processPackages [morphdb-utils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 08:02:03] INFO root fetch - processPackages [nlpx]: New version: [1.3.0] Old Version: [1.2.9]
+[2024-06-03 08:02:03] WARNING root fetch - processPackages [dvs-printf]: Skipping, unable to determine old version
+[2024-06-03 08:02:03] INFO root fetch - main [MainThread]: End processing [dvs-printf] error
+[2024-06-03 08:02:03] WARNING root fetch - processPackages [streamlit-avatar]: Skipping, unable to determine old version
+[2024-06-03 08:02:03] INFO root fetch - main [MainThread]: End processing [streamlit-avatar] error
+[2024-06-03 08:02:03] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/85/7a/40b2a31727d866d00462a3c5c0336dcd67a130b33da41471747d6ae79d0b/multi_med_image_ml-0.0.8.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [plivo]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-06-03 08:02:03] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/4e/38/2b91d51108810f680a092322d14a32d28944253de1df75c11c6491403ed8/morphdb_utils-0.2.2.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/a6/b2/c371babdf3320af41d34f169eed3d959fe9f3f52eb33bbea700ce5ea2785/nlpx-1.2.9.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/0a/98/99826a7c72ddaccf707946547e62379085f668142ac0d12ee8ce5976e8db/plivo-4.8.1.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/b9/ce/7d76addfcd9bd540544ec16ca3f459576ce333738a2b793b0f0978d61fbb/morphdb_utils-0.2.3.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [vstutils]: New version: [5.9.5] Old Version: [5.9.4]
+[2024-06-03 08:02:03] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-06-03 08:02:03] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.2.2.tar.gz tmp/morphdb_utils-0.2.3.tar.gz --markdown 20240603/m/morphdb-utils/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 08:02:03] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/af/bb/6cd3104b2205a0a01bd5686681b87f4f4253ff30f5fc219ba7c3cc390397/multi_med_image_ml-0.0.9.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/8a/e9/fe9323ce8acb199caa8595517b668e598a92c8d4b847d2a6f2f5a6d73f05/nlpx-1.3.0.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/18/eb/fb4a18b0b44bac84f9863e5cbfab84a911efed665400098a6221dbc507e4/vstutils-5.9.4.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/44/fb/2b8994c1e34a8038dd5d9053ab3ae690961311ff4ff8296765c93f34d440/plivo-4.9.0.tar.gz
+[2024-06-03 08:02:03] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-06-03 08:02:03] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.2.9.tar.gz tmp/nlpx-1.3.0.tar.gz --markdown 20240603/n/nlpx/1.2.9-1.3.0/README.md --exclude *.pyd
+[2024-06-03 08:02:04] INFO root fetch - processPackages [plivo]: executing diffoscope
+[2024-06-03 08:02:04] INFO root fetch - processPackages [plivo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plivo-4.8.1.tar.gz tmp/plivo-4.9.0.tar.gz --markdown 20240603/p/plivo/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-06-03 08:02:04] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-06-03 08:02:04] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.8.tar.gz tmp/multi_med_image_ml-0.0.9.tar.gz --markdown 20240603/m/multi-med-image-ml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 08:02:04] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/ff/51/2e80a9f296ab9a73736c243704ec8d1d697f87cb431c6f5841c731bd501b/vstutils-5.9.5.tar.gz
+[2024-06-03 08:02:04] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2024-06-03 08:02:04] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.9.4.tar.gz tmp/vstutils-5.9.5.tar.gz --markdown 20240603/v/vstutils/5.9.4-5.9.5/README.md --exclude *.pyd
+[2024-06-03 08:02:04] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.2.tar.gz]
+[2024-06-03 08:02:04] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.3.tar.gz]
+[2024-06-03 08:02:04] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-06-03 08:02:04] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.9.tar.gz]
+[2024-06-03 08:02:04] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.3.0.tar.gz]
+[2024-06-03 08:02:04] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-06-03 08:02:05] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.8.1.tar.gz]
+[2024-06-03 08:02:05] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.9.0.tar.gz]
+[2024-06-03 08:02:05] INFO root fetch - main [MainThread]: End processing [plivo]: success
+[2024-06-03 08:02:05] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.8.tar.gz]
+[2024-06-03 08:02:05] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.9.tar.gz]
+[2024-06-03 08:02:05] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-06-03 08:02:06] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.9.4.tar.gz]
+[2024-06-03 08:02:06] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.9.5.tar.gz]
+[2024-06-03 08:02:06] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2024-06-03 08:02:06] INFO root fetch - main [MainThread]: Store serial: [23497205]
