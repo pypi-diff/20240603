@@ -7353,3 +7353,56 @@ EOFError: EOF read where object expected
 [2024-06-03 08:10:56] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.9.tar.gz]
 [2024-06-03 08:10:56] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
 [2024-06-03 08:10:56] INFO root fetch - main [MainThread]: Store serial: [23497254]
+[2024-06-03 08:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497254]
+[2024-06-03 08:13:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 08:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2024-06-03 08:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: articraft
+[2024-06-03 08:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2024-06-03 08:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audalign
+[2024-06-03 08:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cardpay
+[2024-06-03 08:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantumdiceware
+[2024-06-03 08:13:10] INFO root fetch - processPackages [quantumdiceware]: New version: [3] Old Version: [0.3.0]
+[2024-06-03 08:13:10] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240602] Old Version: [2.6.0.dev20240601]
+[2024-06-03 08:13:10] INFO root fetch - processPackages [quantumdiceware]: Downloading https://files.pythonhosted.org/packages/7d/cd/48cdf4bdc57c76a1617d1cd23363f45737568b3edd331f7114557a20828a/quantumdiceware-0.3.0.tar.gz
+[2024-06-03 08:13:10] INFO root fetch - processPackages [audalign]: New version: [1.3.0] Old Version: [1.2.4]
+[2024-06-03 08:13:10] INFO root fetch - processPackages [articraft]: New version: [2.8.1] Old Version: [2.7.1]
+[2024-06-03 08:13:10] INFO root fetch - processPackages [cardpay]: New version: [3.73.6] Old Version: [3.68.8]
+[2024-06-03 08:13:10] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/5e/4d/6e2e742f83b18cdc5dd4bb10ac84e43a6a46d3ad7dba34d4af216a8edd26/pyg_nightly-2.6.0.dev20240601.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-06-03 08:13:11] INFO root fetch - processPackages [audalign]: Downloading https://files.pythonhosted.org/packages/ee/9f/e5b213467a83ba9924ff4934f92f5cf76941fb0ce2f02468dc8b16b57b1b/audalign-1.2.4.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/6a/3b/cbab94b8835457bd1786297e78e64fc690fbaeb4a418d88fba9a51ed9290/articraft-2.7.1.tar.gz
+[2024-06-03 08:13:11] ERROR root fetch - processPackages [quantumdiceware]: Unable to fetch info: No such project/version 'quantumdiceware' 3
+[2024-06-03 08:13:11] INFO root fetch - main [MainThread]: End processing [quantumdiceware] error
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cardpay]: Downloading https://files.pythonhosted.org/packages/c3/4c/303b0bc402ef93364de6f2c1c7705573741a9b109144e467b59aef123cec/cardpay-3.68.8.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/60/d8/f2a1c7d30908158db57c0ece5ee0a3c996b0b17ea7caea25165124b01e6b/pyg_nightly-2.6.0.dev20240602.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [audalign]: Downloading https://files.pythonhosted.org/packages/0d/3b/51bdadb640ee8ca249816de80bec5aee3b3d3ca72a1be9101de868711c95/audalign-1.3.0.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cardpay]: Downloading https://files.pythonhosted.org/packages/b4/8c/573bd309c7f69b0c20f03e1bcac8adce41503d238738f171349871181b28/cardpay-3.73.6.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-06-03 08:13:11] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240601.tar.gz tmp/pyg_nightly-2.6.0.dev20240602.tar.gz --markdown 20240603/p/pyg-nightly/2.6.0.dev20240601-2.6.0.dev20240602/README.md --exclude *.pyd
+[2024-06-03 08:13:11] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/4a/46/9314517d0294029f4bace17ae91b3647f7d6378c6995452eebcd6b7d01c6/articraft-2.8.1.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [audalign]: executing diffoscope
+[2024-06-03 08:13:11] INFO root fetch - processPackages [audalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audalign-1.2.4.tar.gz tmp/audalign-1.3.0.tar.gz --markdown 20240603/a/audalign/1.2.4-1.3.0/README.md --exclude *.pyd
+[2024-06-03 08:13:11] INFO root fetch - processPackages [articraft]: executing diffoscope
+[2024-06-03 08:13:11] INFO root fetch - processPackages [articraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/articraft-2.7.1.tar.gz tmp/articraft-2.8.1.tar.gz --markdown 20240603/a/articraft/2.7.1-2.8.1/README.md --exclude *.pyd
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cardpay]: executing diffoscope
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cardpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardpay-3.68.8.tar.gz tmp/cardpay-3.73.6.tar.gz --markdown 20240603/c/cardpay/3.68.8-3.73.6/README.md --exclude *.pyd
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-06-03 08:13:11] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240603/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-06-03 08:13:12] INFO root fetch - processPackages [audalign]: Remove: archive file [/home/abi/fetcher/tmp/audalign-1.2.4.tar.gz]
+[2024-06-03 08:13:12] INFO root fetch - processPackages [audalign]: Remove: archive file [/home/abi/fetcher/tmp/audalign-1.3.0.tar.gz]
+[2024-06-03 08:13:12] INFO root fetch - main [MainThread]: End processing [audalign]: success
+[2024-06-03 08:13:12] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.7.1.tar.gz]
+[2024-06-03 08:13:12] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.8.1.tar.gz]
+[2024-06-03 08:13:12] INFO root fetch - main [MainThread]: End processing [articraft]: success
+[2024-06-03 08:13:12] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-06-03 08:13:12] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-06-03 08:13:12] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-06-03 08:13:13] INFO root fetch - processPackages [cardpay]: Remove: archive file [/home/abi/fetcher/tmp/cardpay-3.68.8.tar.gz]
+[2024-06-03 08:13:13] INFO root fetch - processPackages [cardpay]: Remove: archive file [/home/abi/fetcher/tmp/cardpay-3.73.6.tar.gz]
+[2024-06-03 08:13:13] INFO root fetch - main [MainThread]: End processing [cardpay]: success
+[2024-06-03 08:13:14] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240601.tar.gz]
+[2024-06-03 08:13:14] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240602.tar.gz]
+[2024-06-03 08:13:14] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-06-03 08:13:14] INFO root fetch - main [MainThread]: Store serial: [23497272]
