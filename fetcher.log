@@ -7929,3 +7929,42 @@ EOFError: EOF read where object expected
 [2024-06-03 08:51:02] INFO root fetch - processPackages [dargs]: Remove: archive file [/home/abi/fetcher/tmp/dargs-0.4.6.tar.gz]
 [2024-06-03 08:51:02] INFO root fetch - main [MainThread]: End processing [dargs]: success
 [2024-06-03 08:51:02] INFO root fetch - main [MainThread]: Store serial: [23497478]
+[2024-06-03 08:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497478]
+[2024-06-03 08:53:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-command-center
+[2024-06-03 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-sale
+[2024-06-03 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bipsea
+[2024-06-03 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subdivision-hole-filler
+[2024-06-03 08:53:11] INFO root fetch - processPackages [bipsea]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-06-03 08:53:11] INFO root fetch - processPackages [bipsea]: Downloading https://files.pythonhosted.org/packages/c1/74/4eda0b06a54576e68ba86c05fcd1ded503c17a094a3375990a257fcb3c59/bipsea-0.3.0.tar.gz
+[2024-06-03 08:53:11] INFO root fetch - processPackages [dbt-command-center]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 08:53:11] INFO root fetch - processPackages [odoo14-addon-ssi-sale]: New version: [14.0.1.6.3] Old Version: [14.0.1.6.2]
+[2024-06-03 08:53:11] INFO root fetch - processPackages [subdivision-hole-filler]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 08:53:11] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/be/f2/bd7bb6ed02db3abf4be3dbd9bec4ac6ec28c78772395c4c048c5d2e7ab67/dbt_command_center-0.1.8.tar.gz
+[2024-06-03 08:53:11] INFO root fetch - processPackages [odoo14-addon-ssi-sale]: Downloading https://files.pythonhosted.org/packages/e9/69/b898ee504086b182511fa4d99047749fc2d52d258d5aa676436bddd22c7b/odoo14_addon_ssi_sale-14.0.1.6.2-py3-none-any.whl
+[2024-06-03 08:53:11] INFO root fetch - processPackages [subdivision-hole-filler]: Downloading https://files.pythonhosted.org/packages/05/9a/9439de9d9448ffa6f56dc3e15027c2fa78e9ae2f3c9d1d1f186a039c4cdc/subdivision_hole_filler-1.0.2.tar.gz
+[2024-06-03 08:53:11] INFO root fetch - processPackages [bipsea]: Downloading https://files.pythonhosted.org/packages/f3/bb/2067e5da9d96927ce0e428977efb90eda48c46358bcafb628f4ee6beed4c/bipsea-0.3.1.tar.gz
+[2024-06-03 08:53:11] INFO root fetch - processPackages [bipsea]: executing diffoscope
+[2024-06-03 08:53:11] INFO root fetch - processPackages [bipsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipsea-0.3.0.tar.gz tmp/bipsea-0.3.1.tar.gz --markdown 20240603/b/bipsea/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-06-03 08:53:11] INFO root fetch - processPackages [subdivision-hole-filler]: Downloading https://files.pythonhosted.org/packages/6f/35/756a8de5e1cb68d041d08975856bf49f243f6b1a5ff9e209b7633f5f9b74/subdivision_hole_filler-1.0.3.tar.gz
+[2024-06-03 08:53:11] INFO root fetch - processPackages [odoo14-addon-ssi-sale]: Downloading https://files.pythonhosted.org/packages/96/0d/5eced13a208f3e510a412adbe20064ce0e18fd25e4b2b165191eea055529/odoo14_addon_ssi_sale-14.0.1.6.3-py3-none-any.whl
+[2024-06-03 08:53:11] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/66/5f/5fedd28b2272fdf006ed8bb414d5fad18369ccd87f8092e9f90a626017b7/dbt_command_center-0.1.9.tar.gz
+[2024-06-03 08:53:11] INFO root fetch - processPackages [odoo14-addon-ssi-sale]: executing diffoscope
+[2024-06-03 08:53:11] INFO root fetch - processPackages [odoo14-addon-ssi-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_sale-14.0.1.6.2-py3-none-any.whl.zip tmp/odoo14_addon_ssi_sale-14.0.1.6.3-py3-none-any.whl.zip --markdown 20240603/o/odoo14-addon-ssi-sale/14.0.1.6.2-14.0.1.6.3/README.md --exclude *.pyd
+[2024-06-03 08:53:11] INFO root fetch - processPackages [subdivision-hole-filler]: executing diffoscope
+[2024-06-03 08:53:11] INFO root fetch - processPackages [subdivision-hole-filler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subdivision_hole_filler-1.0.2.tar.gz tmp/subdivision_hole_filler-1.0.3.tar.gz --markdown 20240603/s/subdivision-hole-filler/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 08:53:12] INFO root fetch - processPackages [dbt-command-center]: executing diffoscope
+[2024-06-03 08:53:12] INFO root fetch - processPackages [dbt-command-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_command_center-0.1.8.tar.gz tmp/dbt_command_center-0.1.9.tar.gz --markdown 20240603/d/dbt-command-center/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 08:53:12] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.3.0.tar.gz]
+[2024-06-03 08:53:12] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.3.1.tar.gz]
+[2024-06-03 08:53:12] INFO root fetch - main [MainThread]: End processing [bipsea]: success
+[2024-06-03 08:53:12] INFO root fetch - processPackages [odoo14-addon-ssi-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_sale-14.0.1.6.2-py3-none-any.whl.zip]
+[2024-06-03 08:53:12] INFO root fetch - processPackages [odoo14-addon-ssi-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_sale-14.0.1.6.3-py3-none-any.whl.zip]
+[2024-06-03 08:53:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-sale]: success
+[2024-06-03 08:53:12] INFO root fetch - processPackages [subdivision-hole-filler]: Remove: archive file [/home/abi/fetcher/tmp/subdivision_hole_filler-1.0.2.tar.gz]
+[2024-06-03 08:53:12] INFO root fetch - processPackages [subdivision-hole-filler]: Remove: archive file [/home/abi/fetcher/tmp/subdivision_hole_filler-1.0.3.tar.gz]
+[2024-06-03 08:53:12] INFO root fetch - main [MainThread]: End processing [subdivision-hole-filler]: success
+[2024-06-03 08:53:15] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.8.tar.gz]
+[2024-06-03 08:53:15] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.9.tar.gz]
+[2024-06-03 08:53:15] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
+[2024-06-03 08:53:15] INFO root fetch - main [MainThread]: Store serial: [23497489]
