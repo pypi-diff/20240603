@@ -7703,3 +7703,18 @@ EOFError: EOF read where object expected
 [2024-06-03 08:37:08] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.9.tar.gz]
 [2024-06-03 08:37:08] INFO root fetch - main [MainThread]: End processing [python-115]: success
 [2024-06-03 08:37:08] INFO root fetch - main [MainThread]: Store serial: [23497387]
+[2024-06-03 08:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497387]
+[2024-06-03 08:39:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: memvectordb-python
+[2024-06-03 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-avatar
+[2024-06-03 08:39:17] WARNING root fetch - processPackages [streamlit-avatar]: Skipping, unable to determine old version
+[2024-06-03 08:39:17] INFO root fetch - main [MainThread]: End processing [streamlit-avatar] error
+[2024-06-03 08:39:17] INFO root fetch - processPackages [memvectordb-python]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 08:39:17] INFO root fetch - processPackages [memvectordb-python]: Downloading https://files.pythonhosted.org/packages/c8/ca/e44449175562971be08b78fb68264d5407bcdbfc43928807cae768f58cda/memvectordb_python-0.0.4.tar.gz
+[2024-06-03 08:39:17] INFO root fetch - processPackages [memvectordb-python]: Downloading https://files.pythonhosted.org/packages/36/0a/5e39b710f5a7a1bfc5d9ded30bfe4f8aa9493e3f2ebfd6efe013bb0669d7/memvectordb_python-0.0.5.tar.gz
+[2024-06-03 08:39:18] INFO root fetch - processPackages [memvectordb-python]: executing diffoscope
+[2024-06-03 08:39:18] INFO root fetch - processPackages [memvectordb-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memvectordb_python-0.0.4.tar.gz tmp/memvectordb_python-0.0.5.tar.gz --markdown 20240603/m/memvectordb-python/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 08:39:18] INFO root fetch - processPackages [memvectordb-python]: Remove: archive file [/home/abi/fetcher/tmp/memvectordb_python-0.0.4.tar.gz]
+[2024-06-03 08:39:18] INFO root fetch - processPackages [memvectordb-python]: Remove: archive file [/home/abi/fetcher/tmp/memvectordb_python-0.0.5.tar.gz]
+[2024-06-03 08:39:18] INFO root fetch - main [MainThread]: End processing [memvectordb-python]: success
+[2024-06-03 08:39:18] INFO root fetch - main [MainThread]: Store serial: [23497394]
