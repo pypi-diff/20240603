@@ -2062,3 +2062,51 @@
 [2024-06-03 02:42:27] WARNING root fetch - processPackages [jazzy-fish]: Skipping, unable to determine old version
 [2024-06-03 02:42:27] INFO root fetch - main [MainThread]: End processing [jazzy-fish] error
 [2024-06-03 02:42:27] INFO root fetch - main [MainThread]: Store serial: [23495026]
+[2024-06-03 02:44:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495026]
+[2024-06-03 02:44:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 02:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homebase-calendar-sync
+[2024-06-03 02:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezside
+[2024-06-03 02:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MedicalImageConverter
+[2024-06-03 02:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdextension-cli
+[2024-06-03 02:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfds-nightly
+[2024-06-03 02:44:36] INFO root fetch - processPackages [homebase-calendar-sync]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 02:44:36] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.5.dev202406020044] Old Version: [4.9.5.dev202406010044]
+[2024-06-03 02:44:36] INFO root fetch - processPackages [homebase-calendar-sync]: Downloading https://files.pythonhosted.org/packages/9c/06/ee3591e8768d4a90dfa7ec693d9f028a664c83c8f7dfa84182dd94bc3c04/homebase_calendar_sync-0.1.6.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 02:44:36] INFO root fetch - processPackages [MedicalImageConverter]: New version: [1.5] Old Version: [1.4]
+[2024-06-03 02:44:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ad/49/d09fa19c20bf4f3d3307a772c0fdca7f5a01e60158a17f78e40c9288254b/tfds-nightly-4.9.5.dev202406010044.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [gdextension-cli]: New version: [0.0.3] Old Version: [0.0.2b3]
+[2024-06-03 02:44:36] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/b3/33/9982a3fa7ea54acabc5a393bde7d1ca92a59e5f073eb55f3f4bdcc562804/MedicalImageConverter-1.4.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [gdextension-cli]: Downloading https://files.pythonhosted.org/packages/a9/01/a990e9d0dee15ef4d5317b0922cb1bbb664a9e821e4e47bcb75c96188642/gdextension_cli-0.0.2b3.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [homebase-calendar-sync]: Downloading https://files.pythonhosted.org/packages/ff/98/a5cf18e9f84f5d03a1b69c1301ca1e40458cb6c574c80a036a9591017161/homebase_calendar_sync-0.1.7.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [homebase-calendar-sync]: executing diffoscope
+[2024-06-03 02:44:36] INFO root fetch - processPackages [homebase-calendar-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homebase_calendar_sync-0.1.6.tar.gz tmp/homebase_calendar_sync-0.1.7.tar.gz --markdown 20240603/h/homebase-calendar-sync/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 02:44:36] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [MedicalImageConverter]: Downloading https://files.pythonhosted.org/packages/91/b3/d64fd848fcbf181386f6c65bbe4634c6b836008039ae4022cf67d0410e57/medicalimageconverter-1.5.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [gdextension-cli]: Downloading https://files.pythonhosted.org/packages/d4/c6/e3c3e711bfee3640acd5eb50a65c538cc12ade7f649113fca63baa384ec4/gdextension_cli-0.0.3.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/19/5b/610c0775296f2acba9222490a16df061a7a4ce15fdf5ddd688a68b6ce18f/tfds-nightly-4.9.5.dev202406020044.tar.gz
+[2024-06-03 02:44:36] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-06-03 02:44:36] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240603/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 02:44:37] INFO root fetch - processPackages [MedicalImageConverter]: executing diffoscope
+[2024-06-03 02:44:37] INFO root fetch - processPackages [MedicalImageConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedicalImageConverter-1.4.tar.gz tmp/medicalimageconverter-1.5.tar.gz --markdown 20240603/M/MedicalImageConverter/1.4-1.5/README.md --exclude *.pyd
+[2024-06-03 02:44:37] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-06-03 02:44:37] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.5.dev202406010044.tar.gz tmp/tfds-nightly-4.9.5.dev202406020044.tar.gz --markdown 20240603/t/tfds-nightly/4.9.5.dev202406010044-4.9.5.dev202406020044/README.md --exclude *.pyd
+[2024-06-03 02:44:37] INFO root fetch - processPackages [homebase-calendar-sync]: Remove: archive file [/home/abi/fetcher/tmp/homebase_calendar_sync-0.1.6.tar.gz]
+[2024-06-03 02:44:37] INFO root fetch - processPackages [homebase-calendar-sync]: Remove: archive file [/home/abi/fetcher/tmp/homebase_calendar_sync-0.1.7.tar.gz]
+[2024-06-03 02:44:37] INFO root fetch - main [MainThread]: End processing [homebase-calendar-sync]: success
+[2024-06-03 02:44:37] INFO root fetch - processPackages [gdextension-cli]: executing diffoscope
+[2024-06-03 02:44:37] INFO root fetch - processPackages [gdextension-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdextension_cli-0.0.2b3.tar.gz tmp/gdextension_cli-0.0.3.tar.gz --markdown 20240603/g/gdextension-cli/0.0.2b3-0.0.3/README.md --exclude *.pyd
+[2024-06-03 02:44:37] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-06-03 02:44:37] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-06-03 02:44:37] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-06-03 02:44:37] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/MedicalImageConverter-1.4.tar.gz]
+[2024-06-03 02:44:37] INFO root fetch - processPackages [MedicalImageConverter]: Remove: archive file [/home/abi/fetcher/tmp/medicalimageconverter-1.5.tar.gz]
+[2024-06-03 02:44:37] INFO root fetch - main [MainThread]: End processing [MedicalImageConverter]: success
+[2024-06-03 02:44:37] INFO root fetch - processPackages [gdextension-cli]: Remove: archive file [/home/abi/fetcher/tmp/gdextension_cli-0.0.2b3.tar.gz]
+[2024-06-03 02:44:37] INFO root fetch - processPackages [gdextension-cli]: Remove: archive file [/home/abi/fetcher/tmp/gdextension_cli-0.0.3.tar.gz]
+[2024-06-03 02:44:37] INFO root fetch - main [MainThread]: End processing [gdextension-cli]: success
+[2024-06-03 02:44:46] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.5.dev202406010044.tar.gz]
+[2024-06-03 02:44:46] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.5.dev202406020044.tar.gz]
+[2024-06-03 02:44:46] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-06-03 02:44:46] INFO root fetch - main [MainThread]: Store serial: [23495039]
