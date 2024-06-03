@@ -2457,3 +2457,87 @@ EOFError: EOF read where object expected
 [2024-06-03 03:07:42] ERROR root fetch - processPackages [cloudcheck]: Timeout during execution of pkgdiff
 [2024-06-03 03:07:42] INFO root fetch - main [MainThread]: End processing [cloudcheck] error
 [2024-06-03 03:07:42] INFO root fetch - main [MainThread]: Store serial: [23495145]
+[2024-06-03 03:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495145]
+[2024-06-03 03:09:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bwalign
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: difai
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcraapi
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-municipalities
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hue-sunrise
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awpy
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dismo
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-index-llms-openai
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modelbase2
+[2024-06-03 03:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bwalign
+[2024-06-03 03:09:50] INFO root fetch - processPackages [bwalign]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 03:09:50] INFO root fetch - processPackages [bwalign]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 03:09:50] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 03:09:50] INFO root fetch - processPackages [bcraapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 03:09:50] WARNING root fetch - processPackages [abstract-municipalities]: Skipping, unable to determine old version
+[2024-06-03 03:09:50] INFO root fetch - processPackages [abstract-municipalities]: Start processing: AI-plug-in-1
+[2024-06-03 03:09:50] INFO root fetch - main [MainThread]: End processing [abstract-municipalities] error
+[2024-06-03 03:09:50] INFO root fetch - processPackages [awpy]: New version: [2.0.0a1] Old Version: [1.3.1]
+[2024-06-03 03:09:50] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/77/4b/dcab7a4fdfce34efb5ab20637c9782c0d5488e626aa1c01f1b8a818562ca/bwalign-1.0.0.tar.gz
+[2024-06-03 03:09:50] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/77/4b/dcab7a4fdfce34efb5ab20637c9782c0d5488e626aa1c01f1b8a818562ca/bwalign-1.0.0.tar.gz
+[2024-06-03 03:09:50] INFO root fetch - processPackages [dismo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 03:09:50] INFO root fetch - processPackages [llama-index-llms-openai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 03:09:50] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-06-03 03:09:50] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.76]
+[2024-06-03 03:09:50] WARNING root fetch - processPackages [AI-plug-in-1]: Skipping, unable to determine old version
+[2024-06-03 03:09:50] INFO root fetch - main [MainThread]: End processing [AI-plug-in-1] error
+[2024-06-03 03:09:50] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bcraapi]: Downloading https://files.pythonhosted.org/packages/c2/8f/d6033ac98f8e4cdfc46467f63b62e8abe0ff1c41dbc33caaa4cb48eb8045/bcraapi-0.0.1.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [llama-index-llms-openai]: Downloading https://files.pythonhosted.org/packages/55/d5/4603efbf4831552c5a060806f0cd53ae107fdba24191bc9fcc81a1adbaf1/llama_index_llms_openai-0.1.8.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/e9/d8/33ec1926582882ec91e543cb167d590ea8473e0c8fdc328d9b16cf94dc2e/dismo-1.0.8.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/1c/86/9162d930838068b051131d3cb0511e2a2cdcebf7ffdaa20e581204c02ebd/modelbase2-0.1.76.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [awpy]: Downloading https://files.pythonhosted.org/packages/d5/da/16edfa78ecb7f535abaf85950c13c2198eeca475d1285909ca38ae13799a/awpy-1.3.1.tar.gz
+[2024-06-03 03:09:51] WARNING root fetch - processPackages [awpy]: Skipping package: exceeds size limit 55808135>=10485760
+[2024-06-03 03:09:51] INFO root fetch - main [MainThread]: End processing [awpy] error
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/4f/62/7586daaa9acce5a75a7c067f4756dd712c92208c2025fc910e067922e96f/bwalign-1.0.1.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/4f/62/7586daaa9acce5a75a7c067f4756dd712c92208c2025fc910e067922e96f/bwalign-1.0.1.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bcraapi]: Downloading https://files.pythonhosted.org/packages/7e/31/0b28727f200443e281b7106bff166856c04dedcba4e9739c39de4f5f585c/bcraapi-0.0.2.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.0.0.tar.gz tmp/bwalign-1.0.1.tar.gz --markdown 20240603/b/bwalign/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.0.0.tar.gz tmp/bwalign-1.0.1.tar.gz --markdown 20240603/b/bwalign/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 03:09:51] INFO root fetch - processPackages [llama-index-llms-openai]: Downloading https://files.pythonhosted.org/packages/5c/1f/e03684b8c44295a4f4743e133fc8ca0cc679ccc5a899829bf461887188af/llama_index_llms_openai-0.1.9.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [difai]: executing diffoscope
+[2024-06-03 03:09:51] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20240603/d/difai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 03:09:51] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/46/ea/aca21eb7dddb69cc86666a35b07fe59fd6139a8b65bae53f8052ace4d4ec/dismo-1.0.9.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bcraapi]: executing diffoscope
+[2024-06-03 03:09:51] INFO root fetch - processPackages [bcraapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcraapi-0.0.1.tar.gz tmp/bcraapi-0.0.2.tar.gz --markdown 20240603/b/bcraapi/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 03:09:51] INFO root fetch - processPackages [llama-index-llms-openai]: executing diffoscope
+[2024-06-03 03:09:51] INFO root fetch - processPackages [llama-index-llms-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_openai-0.1.8.tar.gz tmp/llama_index_llms_openai-0.1.9.tar.gz --markdown 20240603/l/llama-index-llms-openai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:09:51] INFO root fetch - processPackages [dismo]: executing diffoscope
+[2024-06-03 03:09:51] INFO root fetch - processPackages [dismo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismo-1.0.8.tar.gz tmp/dismo-1.0.9.tar.gz --markdown 20240603/d/dismo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 03:09:51] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2024-06-03 03:09:51] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20240603/h/hue-sunrise/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-06-03 03:09:51] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2024-06-03 03:09:51] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.76.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20240603/m/modelbase2/0.1.76-0.1.8/README.md --exclude *.pyd
+[2024-06-03 03:09:52] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.0.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.1.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 03:09:52] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.8.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.9.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [dismo]: success
+[2024-06-03 03:09:52] INFO root fetch - processPackages [bcraapi]: Remove: archive file [/home/abi/fetcher/tmp/bcraapi-0.0.1.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - processPackages [bcraapi]: Remove: archive file [/home/abi/fetcher/tmp/bcraapi-0.0.2.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [bcraapi]: success
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 03:09:52] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.8.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.9.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2024-06-03 03:09:52] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2024-06-03 03:09:52] INFO root fetch - processPackages [llama-index-llms-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_openai-0.1.8.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - processPackages [llama-index-llms-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_openai-0.1.9.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [llama-index-llms-openai]: success
+[2024-06-03 03:09:52] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.76.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2024-06-03 03:09:52] INFO root fetch - main [MainThread]: Store serial: [23495182]
