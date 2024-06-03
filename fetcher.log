@@ -16335,3 +16335,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:29:54] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.3.tar.gz]
 [2024-06-03 13:29:54] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2024-06-03 13:29:54] INFO root fetch - main [MainThread]: Store serial: [23501331]
+[2024-06-03 13:31:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501331]
+[2024-06-03 13:32:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appspec-yaml-leaks
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-vs
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-rds
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-gpdb
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openav
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roboto-ingestion-utils
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bwalign
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lumipy
+[2024-06-03 13:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotsos
+[2024-06-03 13:32:04] INFO root fetch - processPackages [bwalign]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-06-03 13:32:04] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-06-03 13:32:04] INFO root fetch - processPackages [hotsos]: New version: [1.18.post9] Old Version: [1.18.post8]
+[2024-06-03 13:32:04] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/97/d8/27072294bbc477ea5c2e2cf880122dc6adff415225cb76a813dd88cd04f5/bwalign-1.6.2.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [ros-cdk-gpdb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:32:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-06-03 13:32:04] INFO root fetch - processPackages [roboto-ingestion-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 13:32:04] INFO root fetch - processPackages [lumipy]: New version: [1.0.96] Old Version: [1.0.94]
+[2024-06-03 13:32:04] WARNING root fetch - processPackages [appspec-yaml-leaks]: Skipping, unable to determine old version
+[2024-06-03 13:32:04] INFO root fetch - main [MainThread]: End processing [appspec-yaml-leaks] error
+[2024-06-03 13:32:04] INFO root fetch - processPackages [ros-cdk-vs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:32:04] INFO root fetch - processPackages [openav]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-06-03 13:32:04] INFO root fetch - processPackages [ros-cdk-rds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:32:04] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5b/18/772593272e7642292d93a2964a23218b5a7b0f7cd656b0309d54b05b613d/hotsos-1.18.post8.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/d2/c3/a80300609c6c2f463fde8ba9898b779475564f0466bb683963e1b9bc941e/roboto_ingestion_utils-0.0.8.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [ros-cdk-gpdb]: Downloading https://files.pythonhosted.org/packages/0d/55/52a8a0970bce608e95a31412a886c5a4255f6399d6abbd92076b383c87e6/ros-cdk-gpdb-1.0.8.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/a9/ba/0d436c6ca7abdc6d796f4a2b758b41391e0281ae7650f44fd3dd977291ca/lumipy-1.0.94-py3-none-any.whl
+[2024-06-03 13:32:04] INFO root fetch - processPackages [openav]: Downloading https://files.pythonhosted.org/packages/d8/41/0559530b64c3a95ef7e32bf8d6bb4910065fd02aaaca0adf6ef51febdd5e/openav-1.0.0a8.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [ros-cdk-rds]: Downloading https://files.pythonhosted.org/packages/4d/b9/54939a4be8c7f3fc90857a78705be2ea6ff1efdc2577ae9c348c1fc306fa/ros-cdk-rds-1.0.8.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [ros-cdk-vs]: Downloading https://files.pythonhosted.org/packages/63/47/f3e83c87c7102979fc64bad872c7b2d7df605c677917442044f3f992bad2/ros-cdk-vs-1.0.8.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/b7/2d/6540ac83f257a1a28f590a3f56eca7317e363a4b0e825c95a419d84532c7/hotsos-1.18.post9.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-06-03 13:32:04] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/21/b6/4398e5d741bcb10aacae72745869b8e785b311b5cdb8faea403ecfcbd023/bwalign-1.6.3.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 13:32:04] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.6.2.tar.gz tmp/bwalign-1.6.3.tar.gz --markdown 20240603/b/bwalign/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-06-03 13:32:04] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-06-03 13:32:04] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.18.post8.tar.gz tmp/hotsos-1.18.post9.tar.gz --markdown 20240603/h/hotsos/1.18.post8-1.18.post9/README.md --exclude *.pyd
+[2024-06-03 13:32:04] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-06-03 13:32:04] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240603/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-06-03 13:32:04] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/ee/df/fa04c2857761d93336c6d780c80867d0973c82e584c7eede506d3de23f10/roboto_ingestion_utils-0.0.9.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [ros-cdk-vs]: Downloading https://files.pythonhosted.org/packages/43/76/f18d031c57455622c197aad71e5c0e372bfbbc2f0ff57f3c4dfb6ff20e73/ros-cdk-vs-1.0.9.tar.gz
+[2024-06-03 13:32:04] INFO root fetch - processPackages [roboto-ingestion-utils]: executing diffoscope
+[2024-06-03 13:32:04] INFO root fetch - processPackages [roboto-ingestion-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_ingestion_utils-0.0.8.tar.gz tmp/roboto_ingestion_utils-0.0.9.tar.gz --markdown 20240603/r/roboto-ingestion-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 13:32:04] INFO root fetch - processPackages [openav]: Downloading https://files.pythonhosted.org/packages/1f/02/ed3885ae9322ea277adeeb5de2ec7b15e9a379cff747b4be10c470ac97cb/openav-1.0.0a9.tar.gz
+[2024-06-03 13:32:05] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/ce/af/9f61dc75371921841d2d9598bc827a3c8f6076c57348a1c565b70e2bb60a/lumipy-1.0.96-py3-none-any.whl
+[2024-06-03 13:32:05] INFO root fetch - processPackages [ros-cdk-rds]: Downloading https://files.pythonhosted.org/packages/a7/73/941d30ecd6a2e656e2bbafa58831a40dd39d1fad6b10b9a3c25f6c6dda65/ros-cdk-rds-1.0.9.tar.gz
+[2024-06-03 13:32:05] INFO root fetch - processPackages [ros-cdk-vs]: executing diffoscope
+[2024-06-03 13:32:05] INFO root fetch - processPackages [ros-cdk-vs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vs-1.0.8.tar.gz tmp/ros-cdk-vs-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-vs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:32:05] INFO root fetch - processPackages [openav]: executing diffoscope
+[2024-06-03 13:32:05] INFO root fetch - processPackages [openav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openav-1.0.0a8.tar.gz tmp/openav-1.0.0a9.tar.gz --markdown 20240603/o/openav/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-06-03 13:32:05] INFO root fetch - processPackages [ros-cdk-rds]: executing diffoscope
+[2024-06-03 13:32:05] INFO root fetch - processPackages [ros-cdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rds-1.0.8.tar.gz tmp/ros-cdk-rds-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-rds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:32:05] INFO root fetch - processPackages [lumipy]: executing diffoscope
+[2024-06-03 13:32:05] INFO root fetch - processPackages [lumipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumipy-1.0.94-py3-none-any.whl.zip tmp/lumipy-1.0.96-py3-none-any.whl.zip --markdown 20240603/l/lumipy/1.0.94-1.0.96/README.md --exclude *.pyd
+[2024-06-03 13:32:05] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.6.2.tar.gz]
+[2024-06-03 13:32:05] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.6.3.tar.gz]
+[2024-06-03 13:32:05] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 13:32:05] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.8.tar.gz]
+[2024-06-03 13:32:05] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.9.tar.gz]
+[2024-06-03 13:32:05] INFO root fetch - main [MainThread]: End processing [roboto-ingestion-utils]: success
+[2024-06-03 13:32:05] INFO root fetch - processPackages [ros-cdk-gpdb]: Downloading https://files.pythonhosted.org/packages/e0/8f/37ee614c35ae949ef462e9673f2af4b97c34e35457de9b877a6dbccabd58/ros-cdk-gpdb-1.0.9.tar.gz
+[2024-06-03 13:32:05] INFO root fetch - processPackages [ros-cdk-vs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vs-1.0.8.tar.gz]
+[2024-06-03 13:32:05] INFO root fetch - processPackages [ros-cdk-vs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vs-1.0.9.tar.gz]
+[2024-06-03 13:32:05] INFO root fetch - main [MainThread]: End processing [ros-cdk-vs]: success
+[2024-06-03 13:32:06] INFO root fetch - processPackages [openav]: Remove: archive file [/home/abi/fetcher/tmp/openav-1.0.0a8.tar.gz]
+[2024-06-03 13:32:06] INFO root fetch - processPackages [openav]: Remove: archive file [/home/abi/fetcher/tmp/openav-1.0.0a9.tar.gz]
+[2024-06-03 13:32:06] INFO root fetch - main [MainThread]: End processing [openav]: success
+[2024-06-03 13:32:06] INFO root fetch - processPackages [ros-cdk-gpdb]: executing diffoscope
+[2024-06-03 13:32:06] INFO root fetch - processPackages [ros-cdk-gpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-gpdb-1.0.8.tar.gz tmp/ros-cdk-gpdb-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-gpdb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:32:06] INFO root fetch - processPackages [ros-cdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rds-1.0.8.tar.gz]
+[2024-06-03 13:32:06] INFO root fetch - processPackages [ros-cdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rds-1.0.9.tar.gz]
+[2024-06-03 13:32:06] INFO root fetch - main [MainThread]: End processing [ros-cdk-rds]: success
+[2024-06-03 13:32:06] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post8.tar.gz]
+[2024-06-03 13:32:06] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post9.tar.gz]
+[2024-06-03 13:32:06] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-06-03 13:32:06] INFO root fetch - processPackages [ros-cdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-gpdb-1.0.8.tar.gz]
+[2024-06-03 13:32:06] INFO root fetch - processPackages [ros-cdk-gpdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-gpdb-1.0.9.tar.gz]
+[2024-06-03 13:32:06] INFO root fetch - main [MainThread]: End processing [ros-cdk-gpdb]: success
+[2024-06-03 13:32:07] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.94-py3-none-any.whl.zip]
+[2024-06-03 13:32:07] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.96-py3-none-any.whl.zip]
+[2024-06-03 13:32:07] INFO root fetch - main [MainThread]: End processing [lumipy]: success
+[2024-06-03 13:32:07] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-06-03 13:32:07] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-06-03 13:32:07] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-06-03 13:32:07] INFO root fetch - main [MainThread]: Store serial: [23501365]
