@@ -9370,3 +9370,48 @@ EOFError: EOF read where object expected
 [2024-06-03 09:59:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-06-03 09:59:03] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-06-03 09:59:03] INFO root fetch - main [MainThread]: Store serial: [23498124]
+[2024-06-03 10:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498124]
+[2024-06-03 10:01:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 10:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protarrow
+[2024-06-03 10:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toyai
+[2024-06-03 10:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-lookup-property
+[2024-06-03 10:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-06-03 10:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xgrove
+[2024-06-03 10:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyxmenu
+[2024-06-03 10:01:13] INFO root fetch - processPackages [protarrow]: New version: [0.5.2] Old Version: [0.4.0]
+[2024-06-03 10:01:13] INFO root fetch - processPackages [toyai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 10:01:13] WARNING root fetch - processPackages [xgrove]: Skipping, unable to determine old version
+[2024-06-03 10:01:13] INFO root fetch - main [MainThread]: End processing [xgrove] error
+[2024-06-03 10:01:13] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/f4/1d/749bfe28402e1ed1347e09c1a13747b0fbfa728775747c264f3c5ffd650a/protarrow-0.4.0.tar.gz
+[2024-06-03 10:01:13] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/fd/4c/821633199a44bf39d8ff3afa6002dbead461d9d66884ceb45606f2bb8c51/toyai-0.1.8-py3-none-any.whl
+[2024-06-03 10:01:13] INFO root fetch - processPackages [django-lookup-property]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 10:01:13] WARNING root fetch - processPackages [pyxmenu]: Skipping, unable to determine old version
+[2024-06-03 10:01:13] INFO root fetch - main [MainThread]: End processing [pyxmenu] error
+[2024-06-03 10:01:13] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240603] Old Version: [2.17.0.dev20240602]
+[2024-06-03 10:01:13] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/18/d9/7e8965ab53001776b1f7370302d93bd68116fb00deb686b2b9821b9914e6/toyai-0.1.9-py3-none-any.whl
+[2024-06-03 10:01:13] INFO root fetch - processPackages [django-lookup-property]: Downloading https://files.pythonhosted.org/packages/13/3c/f9dc0cbfedaf7560cd3b5f1e6d80a9a0d9559804866a5f8e284b47c34b6a/django_lookup_property-0.1.5.tar.gz
+[2024-06-03 10:01:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/d4/90/96567c47de8d2ff8c68fcd9711198bfc5f502e09270ea43ea5b5014a74b2/tf_nightly-2.17.0.dev20240602-cp39-cp39-win_amd64.whl
+[2024-06-03 10:01:13] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/df/f2/1a6d3bfb48cd363df9ef777ad41b039e020fef2761c4cb794aaa8649f056/protarrow-0.5.2.tar.gz
+[2024-06-03 10:01:13] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 10:01:13] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.8-py3-none-any.whl.zip tmp/toyai-0.1.9-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 10:01:13] INFO root fetch - processPackages [protarrow]: executing diffoscope
+[2024-06-03 10:01:13] INFO root fetch - processPackages [protarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protarrow-0.4.0.tar.gz tmp/protarrow-0.5.2.tar.gz --markdown 20240603/p/protarrow/0.4.0-0.5.2/README.md --exclude *.pyd
+[2024-06-03 10:01:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f6/ee/9e4a3f33d33f73a2b1c837801cdd4bb2594aaec7c9e86d08e5348555f2e2/tf_nightly-2.17.0.dev20240603-cp39-cp39-win_amd64.whl
+[2024-06-03 10:01:13] INFO root fetch - processPackages [django-lookup-property]: Downloading https://files.pythonhosted.org/packages/23/70/f364d3e77fcd9e15656a8c33e3e871a1d753d183df8705fa5b99bd84310f/django_lookup_property-0.1.6.tar.gz
+[2024-06-03 10:01:14] INFO root fetch - processPackages [django-lookup-property]: executing diffoscope
+[2024-06-03 10:01:14] INFO root fetch - processPackages [django-lookup-property]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_lookup_property-0.1.5.tar.gz tmp/django_lookup_property-0.1.6.tar.gz --markdown 20240603/d/django-lookup-property/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 10:01:14] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-06-03 10:01:14] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240602-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240603-cp39-cp39-win_amd64.whl.zip --markdown 20240603/t/tf-nightly/2.17.0.dev20240602-2.17.0.dev20240603/README.md --exclude *.pyd
+[2024-06-03 10:01:14] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.8-py3-none-any.whl.zip]
+[2024-06-03 10:01:14] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.9-py3-none-any.whl.zip]
+[2024-06-03 10:01:14] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 10:01:14] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.4.0.tar.gz]
+[2024-06-03 10:01:14] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.5.2.tar.gz]
+[2024-06-03 10:01:14] INFO root fetch - main [MainThread]: End processing [protarrow]: success
+[2024-06-03 10:01:14] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240602-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 10:01:14] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240603-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 10:01:14] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-06-03 10:01:14] INFO root fetch - processPackages [django-lookup-property]: Remove: archive file [/home/abi/fetcher/tmp/django_lookup_property-0.1.5.tar.gz]
+[2024-06-03 10:01:14] INFO root fetch - processPackages [django-lookup-property]: Remove: archive file [/home/abi/fetcher/tmp/django_lookup_property-0.1.6.tar.gz]
+[2024-06-03 10:01:14] INFO root fetch - main [MainThread]: End processing [django-lookup-property]: success
+[2024-06-03 10:01:14] INFO root fetch - main [MainThread]: Store serial: [23498153]
