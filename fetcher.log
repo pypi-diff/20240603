@@ -5408,3 +5408,24 @@ EOFError: EOF read where object expected
 [2024-06-03 06:09:01] INFO root fetch - processPackages [mplpanel]: Remove: archive file [/home/abi/fetcher/tmp/mplpanel-0.1.3.tar.gz]
 [2024-06-03 06:09:01] INFO root fetch - main [MainThread]: End processing [mplpanel]: success
 [2024-06-03 06:09:01] INFO root fetch - main [MainThread]: Store serial: [23496536]
+[2024-06-03 06:11:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496536]
+[2024-06-03 06:11:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 06:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bsmutility
+[2024-06-03 06:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abcli
+[2024-06-03 06:11:09] INFO root fetch - processPackages [abcli]: New version: [9.58.1] Old Version: [9.55.1]
+[2024-06-03 06:11:09] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/bb/e5/4e47c5fbe3430e66d626ab99f85f15a64b826b5114b602aac20fea63b284/abcli-9.55.1.tar.gz
+[2024-06-03 06:11:09] INFO root fetch - processPackages [bsmutility]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-06-03 06:11:10] INFO root fetch - processPackages [bsmutility]: Downloading https://files.pythonhosted.org/packages/a6/57/e1a2e01df0e2d03d806f563932b50afe0f9f274b86bffd2ec672b86c9a11/bsmutility-0.1.3.tar.gz
+[2024-06-03 06:11:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/1e/88/7fe555c2d3ce7e39d824bbfec703b36c8780928c1cd3965f5c9812c4a958/abcli-9.58.1.tar.gz
+[2024-06-03 06:11:10] INFO root fetch - processPackages [bsmutility]: Downloading https://files.pythonhosted.org/packages/f0/09/cbfe5ade0e832d3db3b8b0b742b40867ea8d8cc0da9e9145158cb6ba9687/bsmutility-0.1.4.tar.gz
+[2024-06-03 06:11:10] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 06:11:10] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.55.1.tar.gz tmp/abcli-9.58.1.tar.gz --markdown 20240603/a/abcli/9.55.1-9.58.1/README.md --exclude *.pyd
+[2024-06-03 06:11:10] INFO root fetch - processPackages [bsmutility]: executing diffoscope
+[2024-06-03 06:11:10] INFO root fetch - processPackages [bsmutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsmutility-0.1.3.tar.gz tmp/bsmutility-0.1.4.tar.gz --markdown 20240603/b/bsmutility/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-06-03 06:11:11] INFO root fetch - processPackages [bsmutility]: Remove: archive file [/home/abi/fetcher/tmp/bsmutility-0.1.3.tar.gz]
+[2024-06-03 06:11:11] INFO root fetch - processPackages [bsmutility]: Remove: archive file [/home/abi/fetcher/tmp/bsmutility-0.1.4.tar.gz]
+[2024-06-03 06:11:11] INFO root fetch - main [MainThread]: End processing [bsmutility]: success
+[2024-06-03 06:11:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.55.1.tar.gz]
+[2024-06-03 06:11:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.58.1.tar.gz]
+[2024-06-03 06:11:11] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 06:11:11] INFO root fetch - main [MainThread]: Store serial: [23496542]
