@@ -16193,3 +16193,145 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:27:34] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-06-03 13:27:34] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-06-03 13:27:34] INFO root fetch - main [MainThread]: Store serial: [23501274]
+[2024-06-03 13:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501274]
+[2024-06-03 13:29:44] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-adb
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agilerl
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchx-nightly
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-waf
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bus-user
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapegraphai
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MatplotLibAPI
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlog
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchtnt-nightly
+[2024-06-03 13:29:44] INFO root fetch - processPackages [MatplotLibAPI]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [bus-user]: New version: [0.3.7] Old Version: [0.3.5]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2024.6.2] Old Version: [2024.6.1]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.6.2] Old Version: [2024.6.1]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ros-cdk-adb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [ros-cdk-waf]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/11/41/b2fb6d8a45db0ac5d088253089c6c700e87188fbd7d5d8ceb37762069c5d/matplotlibapi-3.1.1.tar.gz
+[2024-06-03 13:29:44] WARNING root fetch - processPackages [sqlog]: Skipping, unable to determine old version
+[2024-06-03 13:29:44] INFO root fetch - processPackages [sqlog]: Start processing: ros-cdk-tsdb
+[2024-06-03 13:29:44] INFO root fetch - main [MainThread]: End processing [sqlog] error
+[2024-06-03 13:29:44] INFO root fetch - processPackages [agilerl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.6.3] Old Version: [2024.6.2]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/c1/b2/64c854cc75d5ceff16061ee7b99fafc6fa8be5f4f0df2be552483f999172/bus_user-0.3.5.tar.gz
+[2024-06-03 13:29:44] INFO root fetch - processPackages [scrapegraphai]: New version: [1.6.0b2] Old Version: [1.6.0b1]
+[2024-06-03 13:29:44] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/e2/82/2e61fb55400936e7447735d7dde6d9c6a4e40f19c98fb9a7005654600234/torchtnt_nightly-2024.6.1.tar.gz
+[2024-06-03 13:29:44] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/e9/3d/8e8fd2590bbd66b4715ed56f12a21f0b73bbf1a9fb80efed09259e9d072d/torchx_nightly-2024.6.1-py3-none-any.whl
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-waf]: Downloading https://files.pythonhosted.org/packages/a9/70/b12853a89bbcbb70d17ad4e181706e68e07950df8d46ede35d4033b38e82/ros-cdk-waf-1.0.8.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-adb]: Downloading https://files.pythonhosted.org/packages/1a/64/b4ed9ad2c0a4e2060a3e0c0670b8ebc56e100aa98f34049cf06fd69c83eb/ros-cdk-adb-1.0.8.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-tsdb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:29:45] INFO root fetch - processPackages [agilerl]: Downloading https://files.pythonhosted.org/packages/cd/04/c0b2d5132a58a541c9585b788e4b6802e918fcc135af86ccfeeae5a42666/agilerl-0.1.8.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/c8/c3/85c145a0e1f5bf15eab439d6e0deccd96a188ee6654cdac436ac1a9e8be2/bus_user-0.3.7.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/d2/b1/fa4d44e271f59a4a439947dcfeac0715635269b7882138bd24b29544e0e8/scrapegraphai-1.6.0b1.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/6e/c4/7c186daf17ded7091e6f16bea3a333efa374ae59f9688cbac9bc915477d0/torchrl_nightly-2024.6.2-cp39-cp39-win_amd64.whl
+[2024-06-03 13:29:45] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/20/23/a23768439aa477213448cb7df23d7cc63874af18631647813e65575af918/matplotlibapi-3.1.2.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-tsdb]: Downloading https://files.pythonhosted.org/packages/eb/c2/34f6dfd8efae18144240c9dac84855f301b5e0608d47c9e22a28dbae9952/ros-cdk-tsdb-1.0.8.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-06-03 13:29:45] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.3.5.tar.gz tmp/bus_user-0.3.7.tar.gz --markdown 20240603/b/bus-user/0.3.5-0.3.7/README.md --exclude *.pyd
+[2024-06-03 13:29:45] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/2a/48/47ea7b81da7c8b15d666586a4a0f6d092149ee14af003c13eeed77673198/torchtnt_nightly-2024.6.2.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/79/7c/ed7404b5af6c21493ae1a2766e1b7766f78df9ec9d7e97eb1e4cdfa3a4b8/torchx_nightly-2024.6.2-py3-none-any.whl
+[2024-06-03 13:29:45] INFO root fetch - processPackages [MatplotLibAPI]: executing diffoscope
+[2024-06-03 13:29:45] INFO root fetch - processPackages [MatplotLibAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlibapi-3.1.1.tar.gz tmp/matplotlibapi-3.1.2.tar.gz --markdown 20240603/M/MatplotLibAPI/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-adb]: Downloading https://files.pythonhosted.org/packages/24/43/de2b821538577a04d2e77bd24da29873d8eabd80115b69bf8df04d7a0429/ros-cdk-adb-1.0.9.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2024-06-03 13:29:45] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt_nightly-2024.6.1.tar.gz tmp/torchtnt_nightly-2024.6.2.tar.gz --markdown 20240603/t/torchtnt-nightly/2024.6.1-2024.6.2/README.md --exclude *.pyd
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-waf]: Downloading https://files.pythonhosted.org/packages/50/4b/86db9ca259d7bfef95fb333226033ce4d276df87301e9784639da81572aa/ros-cdk-waf-1.0.9.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-06-03 13:29:45] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.6.1-py3-none-any.whl.zip tmp/torchx_nightly-2024.6.2-py3-none-any.whl.zip --markdown 20240603/t/torchx-nightly/2024.6.1-2024.6.2/README.md --exclude *.pyd
+[2024-06-03 13:29:45] INFO root fetch - processPackages [agilerl]: Downloading https://files.pythonhosted.org/packages/69/c5/89d0c8d25ee1f1aa49019e466a6408ab3b700afb790bf35c965d9f6a4ee3/agilerl-0.1.9.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-adb]: executing diffoscope
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-adb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-adb-1.0.8.tar.gz tmp/ros-cdk-adb-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-adb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-waf]: executing diffoscope
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-waf-1.0.8.tar.gz tmp/ros-cdk-waf-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-waf/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:29:45] INFO root fetch - processPackages [agilerl]: executing diffoscope
+[2024-06-03 13:29:45] INFO root fetch - processPackages [agilerl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilerl-0.1.8.tar.gz tmp/agilerl-0.1.9.tar.gz --markdown 20240603/a/agilerl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 13:29:45] INFO root fetch - processPackages [ros-cdk-tsdb]: Downloading https://files.pythonhosted.org/packages/43/c9/d7659fe9753705a1bf3500dcd487bfed127a8f2eac71ce04b2e70a503a66/ros-cdk-tsdb-1.0.9.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/5f/b5/5c0cedb16dc8bf9296b62f795523debc0962eaf1c452fb65a93e0df44938/scrapegraphai-1.6.0b2.tar.gz
+[2024-06-03 13:29:45] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/c2/dc/659cb0383508ffc52f619c3234b1613b8d285ac02226aaa97334456e3c27/torchrl_nightly-2024.6.3-cp39-cp39-win_amd64.whl
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-tsdb]: executing diffoscope
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-tsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-tsdb-1.0.8.tar.gz tmp/ros-cdk-tsdb-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-tsdb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:29:46] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-06-03 13:29:46] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.6.2-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.6.3-cp39-cp39-win_amd64.whl.zip --markdown 20240603/t/torchrl-nightly/2024.6.2-2024.6.3/README.md --exclude *.pyd
+[2024-06-03 13:29:46] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.5.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.7.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [bus-user]: Start processing: aim-ui
+[2024-06-03 13:29:46] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-06-03 13:29:46] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/matplotlibapi-3.1.1.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/matplotlibapi-3.1.2.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [MatplotLibAPI]: Start processing: wrabbit
+[2024-06-03 13:29:46] INFO root fetch - main [MainThread]: End processing [MatplotLibAPI]: success
+[2024-06-03 13:29:46] INFO root fetch - processPackages [aim-ui]: New version: [4.1.0.dev20230930] Old Version: [4.1.0.dev20230929]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [wrabbit]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.8.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-adb-1.0.9.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-adb]: Start processing: xarray-behave
+[2024-06-03 13:29:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-adb]: success
+[2024-06-03 13:29:46] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-06-03 13:29:46] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-1.6.0b1.tar.gz tmp/scrapegraphai-1.6.0b2.tar.gz --markdown 20240603/s/scrapegraphai/1.6.0b1-1.6.0b2/README.md --exclude *.pyd
+[2024-06-03 13:29:46] INFO root fetch - processPackages [wrabbit]: Downloading https://files.pythonhosted.org/packages/74/8a/2629d3a8cb8b9b3610fad64f1d6e6df50e538126f1a19c7012b908253c74/wrabbit-0.1.2-py3-none-any.whl
+[2024-06-03 13:29:46] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/2a/05/f8c2e155a815903b692d80c9a1647ba25d4a1f119791eaeb671026bcfa33/aim-ui-4.1.0.dev20230929.tar.gz
+[2024-06-03 13:29:46] INFO root fetch - processPackages [xarray-behave]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-waf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf-1.0.8.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-waf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf-1.0.9.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-waf]: Start processing: ros-cdk-hbr
+[2024-06-03 13:29:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-waf]: success
+[2024-06-03 13:29:46] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19246573>=10485760
+[2024-06-03 13:29:46] INFO root fetch - processPackages [aim-ui]: Start processing: funky-modifiers
+[2024-06-03 13:29:46] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2024-06-03 13:29:46] INFO root fetch - processPackages [funky-modifiers]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.6.1.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.6.2.tar.gz]
+[2024-06-03 13:29:46] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: aim
+[2024-06-03 13:29:46] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2024-06-03 13:29:46] INFO root fetch - processPackages [ros-cdk-hbr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:29:47] INFO root fetch - processPackages [funky-modifiers]: Downloading https://files.pythonhosted.org/packages/4b/eb/415a2c297fb9c5230da009fb8367448ef4f1f314368c5fec3fa31bb06419/funky_modifiers-0.3.6.tar.gz
+[2024-06-03 13:29:47] INFO root fetch - processPackages [ros-cdk-tsdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-tsdb-1.0.8.tar.gz]
+[2024-06-03 13:29:47] INFO root fetch - processPackages [ros-cdk-tsdb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-tsdb-1.0.9.tar.gz]
+[2024-06-03 13:29:47] INFO root fetch - main [MainThread]: End processing [ros-cdk-tsdb]: success
+[2024-06-03 13:29:47] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.6.1-py3-none-any.whl.zip]
+[2024-06-03 13:29:47] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.6.2-py3-none-any.whl.zip]
+[2024-06-03 13:29:47] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-06-03 13:29:47] INFO root fetch - processPackages [xarray-behave]: Downloading https://files.pythonhosted.org/packages/88/50/b1f2bd9bb5e637818a4307ad4643d34df4c77d802df50d7c32c05c1fe789/xarray-behave-0.9.3.tar.gz
+[2024-06-03 13:29:47] INFO root fetch - processPackages [aim]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-06-03 13:29:47] INFO root fetch - processPackages [wrabbit]: Downloading https://files.pythonhosted.org/packages/91/9f/e261439ed789ae6940e9a108e4e27bddf1c01360a1a4795d098b6bcb332c/wrabbit-0.1.3-py3-none-any.whl
+[2024-06-03 13:29:47] INFO root fetch - processPackages [ros-cdk-hbr]: Downloading https://files.pythonhosted.org/packages/49/64/279148fbb55572b78b414f302d6ce074d8ea2e0e1a80d5f9647274368573/ros-cdk-hbr-1.0.8.tar.gz
+[2024-06-03 13:29:47] INFO root fetch - processPackages [wrabbit]: executing diffoscope
+[2024-06-03 13:29:47] INFO root fetch - processPackages [wrabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrabbit-0.1.2-py3-none-any.whl.zip tmp/wrabbit-0.1.3-py3-none-any.whl.zip --markdown 20240603/w/wrabbit/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 13:29:47] INFO root fetch - processPackages [agilerl]: Remove: archive file [/home/abi/fetcher/tmp/agilerl-0.1.8.tar.gz]
+[2024-06-03 13:29:47] INFO root fetch - processPackages [agilerl]: Remove: archive file [/home/abi/fetcher/tmp/agilerl-0.1.9.tar.gz]
+[2024-06-03 13:29:47] INFO root fetch - main [MainThread]: End processing [agilerl]: success
+[2024-06-03 13:29:47] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/4a/00/f7e303a3bd0a6d75c08ccd60562a0c5f00fa9f4c16c945fbffa86d96ab7d/aim-4.0.2.tar.gz
+[2024-06-03 13:29:47] INFO root fetch - processPackages [funky-modifiers]: Downloading https://files.pythonhosted.org/packages/bd/b9/9238c3bfbac60c7e6ddc3129bf3332cc09bca3300dd2adf542dbd3878040/funky_modifiers-0.3.7.tar.gz
+[2024-06-03 13:29:47] WARNING root fetch - processPackages [xarray-behave]: Skipping package: exceeds size limit 10504384>=10485760
+[2024-06-03 13:29:47] INFO root fetch - main [MainThread]: End processing [xarray-behave] error
+[2024-06-03 13:29:47] INFO root fetch - processPackages [ros-cdk-hbr]: Downloading https://files.pythonhosted.org/packages/28/9e/4b34515ec580b138f51e6d9794b98f7420254b277417f61d68a933c4abd2/ros-cdk-hbr-1.0.9.tar.gz
+[2024-06-03 13:29:47] INFO root fetch - processPackages [funky-modifiers]: executing diffoscope
+[2024-06-03 13:29:47] INFO root fetch - processPackages [funky-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funky_modifiers-0.3.6.tar.gz tmp/funky_modifiers-0.3.7.tar.gz --markdown 20240603/f/funky-modifiers/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-06-03 13:29:47] INFO root fetch - processPackages [ros-cdk-hbr]: executing diffoscope
+[2024-06-03 13:29:47] INFO root fetch - processPackages [ros-cdk-hbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-hbr-1.0.8.tar.gz tmp/ros-cdk-hbr-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-hbr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:29:47] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.6.2-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 13:29:47] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.6.3-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 13:29:47] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-06-03 13:29:48] INFO root fetch - processPackages [wrabbit]: Remove: archive file [/home/abi/fetcher/tmp/wrabbit-0.1.2-py3-none-any.whl.zip]
+[2024-06-03 13:29:48] INFO root fetch - processPackages [wrabbit]: Remove: archive file [/home/abi/fetcher/tmp/wrabbit-0.1.3-py3-none-any.whl.zip]
+[2024-06-03 13:29:48] INFO root fetch - main [MainThread]: End processing [wrabbit]: success
+[2024-06-03 13:29:48] INFO root fetch - processPackages [ros-cdk-hbr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hbr-1.0.8.tar.gz]
+[2024-06-03 13:29:48] INFO root fetch - processPackages [ros-cdk-hbr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-hbr-1.0.9.tar.gz]
+[2024-06-03 13:29:48] INFO root fetch - main [MainThread]: End processing [ros-cdk-hbr]: success
+[2024-06-03 13:29:48] INFO root fetch - processPackages [funky-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/funky_modifiers-0.3.6.tar.gz]
+[2024-06-03 13:29:48] INFO root fetch - processPackages [funky-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/funky_modifiers-0.3.7.tar.gz]
+[2024-06-03 13:29:48] INFO root fetch - main [MainThread]: End processing [funky-modifiers]: success
+[2024-06-03 13:29:48] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/50/12/a5a7bf25fd6105558d11afbd3f7500aa63283494e429296746c821354590/aim-4.0.3.tar.gz
+[2024-06-03 13:29:48] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.6.0b1.tar.gz]
+[2024-06-03 13:29:48] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.6.0b2.tar.gz]
+[2024-06-03 13:29:48] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-06-03 13:29:50] INFO root fetch - processPackages [aim]: executing diffoscope
+[2024-06-03 13:29:50] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.2.tar.gz tmp/aim-4.0.3.tar.gz --markdown 20240603/a/aim/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-06-03 13:29:54] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.2.tar.gz]
+[2024-06-03 13:29:54] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.3.tar.gz]
+[2024-06-03 13:29:54] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2024-06-03 13:29:54] INFO root fetch - main [MainThread]: Store serial: [23501331]
