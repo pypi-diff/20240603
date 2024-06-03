@@ -22237,3 +22237,87 @@ EOFError: EOF read where object expected
 [2024-06-03 15:52:14] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.3.post1388.tar.gz]
 [2024-06-03 15:52:14] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-06-03 15:52:14] INFO root fetch - main [MainThread]: Store serial: [23503656]
+[2024-06-03 15:54:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503656]
+[2024-06-03 15:54:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vonage
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Solverz
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otpme
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jour
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-energy-communities-crm
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atomicshop
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: take-note-cli
+[2024-06-03 15:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensordict-nightly
+[2024-06-03 15:54:23] INFO root fetch - processPackages [Solverz]: New version: [0.0.3rc2] Old Version: [0.0.1rc4]
+[2024-06-03 15:54:23] INFO root fetch - processPackages [vonage]: New version: [3.99.1a10] Old Version: [3.99.0a9]
+[2024-06-03 15:54:23] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 15:54:23] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-06-03 15:54:23] INFO root fetch - processPackages [jour]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-06-03 15:54:23] INFO root fetch - processPackages [otpme]: New version: [0.3.0a79] Old Version: [0.3.0a78]
+[2024-06-03 15:54:23] INFO root fetch - processPackages [take-note-cli]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-06-03 15:54:23] INFO root fetch - processPackages [odoo14-addon-energy-communities-crm]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1]
+[2024-06-03 15:54:23] INFO root fetch - processPackages [Solverz]: Downloading https://files.pythonhosted.org/packages/42/d5/26e2d8f3064df3628fab8858a3a537a362b78f63ac2d52e7927f3ced616a/solverz-0.0.1rc4.tar.gz
+[2024-06-03 15:54:23] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-06-03 15:54:23] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/4c/a5/8767d0465caed193c65f9b88dc57fa32a9d7d3fcee331aa071b3040fc21a/vonage-3.99.0a9.tar.gz
+[2024-06-03 15:54:23] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 15:54:23] INFO root fetch - processPackages [jour]: Downloading https://files.pythonhosted.org/packages/7b/47/25a82f8b56ded21210e413917f1765cd0606533a04f91cfa42c6d5c0d0ae/jour-2.0.1.tar.gz
+[2024-06-03 15:54:23] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/92/01/a52f3202c41d7ecd79ae2c73c318805f7446927b945e7ceae82635c0fa92/vonage-3.99.1a10.tar.gz
+[2024-06-03 15:54:23] INFO root fetch - processPackages [odoo14-addon-energy-communities-crm]: Downloading https://files.pythonhosted.org/packages/cf/57/884d04cfa380d7d70c0a2ccce34b336cc0fc62c54815c1d7dc3f6c951a09/odoo14-addon-energy_communities_crm-14.0.1.1.1.tar.gz
+[2024-06-03 15:54:23] INFO root fetch - processPackages [take-note-cli]: Downloading https://files.pythonhosted.org/packages/70/c3/cba3655a8ea81166fb948e43653483c8cc4d3af0ff8c0c360db6d308ee4f/take_note_cli-1.2.0.tar.gz
+[2024-06-03 15:54:24] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 15:54:24] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/25/b1/e917d9941da1e38981c54c35fe4afd84a88135c3d5963119b88ed9b4b38d/otpme-0.3.0a78.tar.gz
+[2024-06-03 15:54:24] INFO root fetch - processPackages [vonage]: executing diffoscope
+[2024-06-03 15:54:24] INFO root fetch - processPackages [vonage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage-3.99.0a9.tar.gz tmp/vonage-3.99.1a10.tar.gz --markdown 20240603/v/vonage/3.99.0a9-3.99.1a10/README.md --exclude *.pyd
+[2024-06-03 15:54:24] INFO root fetch - processPackages [Solverz]: Downloading https://files.pythonhosted.org/packages/10/e9/fc076d92c0a2868e2fff7f13c6b9958589320bfc1d463add05becfe01949/solverz-0.0.3rc2.tar.gz
+[2024-06-03 15:54:24] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-06-03 15:54:24] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 15:54:24] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 15:54:24] INFO root fetch - processPackages [jour]: Downloading https://files.pythonhosted.org/packages/b5/e9/8cadbb9571129c85bd4a52c4bd65aa1f4f21a5810697725eced65c86f2f8/jour-2.0.2.tar.gz
+[2024-06-03 15:54:24] INFO root fetch - processPackages [take-note-cli]: Downloading https://files.pythonhosted.org/packages/f2/02/f17d26e503f44a01265056adcf216bf9cfc87d70b400b85dddb0b9bf1e0e/take_note_cli-1.2.1.tar.gz
+[2024-06-03 15:54:24] INFO root fetch - processPackages [odoo14-addon-energy-communities-crm]: Downloading https://files.pythonhosted.org/packages/75/1b/6bbf3a3314bb92fd36ee9b516ca1b16e0dcd589fe8b9b329c6f6377ef402/odoo14-addon-energy_communities_crm-14.0.1.1.2.tar.gz
+[2024-06-03 15:54:24] INFO root fetch - processPackages [Solverz]: executing diffoscope
+[2024-06-03 15:54:24] INFO root fetch - processPackages [Solverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solverz-0.0.1rc4.tar.gz tmp/solverz-0.0.3rc2.tar.gz --markdown 20240603/S/Solverz/0.0.1rc4-0.0.3rc2/README.md --exclude *.pyd
+[2024-06-03 15:54:24] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.6.3] Old Version: [2024.6.2]
+[2024-06-03 15:54:24] INFO root fetch - processPackages [jour]: executing diffoscope
+[2024-06-03 15:54:24] INFO root fetch - processPackages [jour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jour-2.0.1.tar.gz tmp/jour-2.0.2.tar.gz --markdown 20240603/j/jour/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-06-03 15:54:24] INFO root fetch - processPackages [odoo14-addon-energy-communities-crm]: executing diffoscope
+[2024-06-03 15:54:24] INFO root fetch - processPackages [odoo14-addon-energy-communities-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_communities_crm-14.0.1.1.1.tar.gz tmp/odoo14-addon-energy_communities_crm-14.0.1.1.2.tar.gz --markdown 20240603/o/odoo14-addon-energy-communities-crm/14.0.1.1.1-14.0.1.1.2/README.md --exclude *.pyd
+[2024-06-03 15:54:24] INFO root fetch - processPackages [take-note-cli]: executing diffoscope
+[2024-06-03 15:54:24] INFO root fetch - processPackages [take-note-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/take_note_cli-1.2.0.tar.gz tmp/take_note_cli-1.2.1.tar.gz --markdown 20240603/t/take-note-cli/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-06-03 15:54:24] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-06-03 15:54:24] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240603/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-06-03 15:54:24] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/a7/1f/1c43d59a37ba8191674e970e169e0c2e9848fa560ae4ec266a729a3635d0/tensordict_nightly-2024.6.2-cp39-cp39-win_amd64.whl
+[2024-06-03 15:54:24] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/a3/85/491509bb37f20f6ac1020d33f3b1e9ac91f169c89851b92335c6ddd2f34a/otpme-0.3.0a79.tar.gz
+[2024-06-03 15:54:24] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.0a9.tar.gz]
+[2024-06-03 15:54:24] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.1a10.tar.gz]
+[2024-06-03 15:54:24] INFO root fetch - main [MainThread]: End processing [vonage]: success
+[2024-06-03 15:54:25] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/5f/e4/0c3f100e13c3f9ea9fe525f865706d5b8893bd0a208ede987fa5632beda5/tensordict_nightly-2024.6.3-cp39-cp39-manylinux1_x86_64.whl
+[2024-06-03 15:54:25] INFO root fetch - processPackages [take-note-cli]: Remove: archive file [/home/abi/fetcher/tmp/take_note_cli-1.2.0.tar.gz]
+[2024-06-03 15:54:25] INFO root fetch - processPackages [take-note-cli]: Remove: archive file [/home/abi/fetcher/tmp/take_note_cli-1.2.1.tar.gz]
+[2024-06-03 15:54:25] INFO root fetch - main [MainThread]: End processing [take-note-cli]: success
+[2024-06-03 15:54:25] INFO root fetch - processPackages [jour]: Remove: archive file [/home/abi/fetcher/tmp/jour-2.0.1.tar.gz]
+[2024-06-03 15:54:25] INFO root fetch - processPackages [jour]: Remove: archive file [/home/abi/fetcher/tmp/jour-2.0.2.tar.gz]
+[2024-06-03 15:54:25] INFO root fetch - main [MainThread]: End processing [jour]: success
+[2024-06-03 15:54:25] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.1rc4.tar.gz]
+[2024-06-03 15:54:25] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.3rc2.tar.gz]
+[2024-06-03 15:54:25] INFO root fetch - main [MainThread]: End processing [Solverz]: success
+[2024-06-03 15:54:25] INFO root fetch - processPackages [odoo14-addon-energy-communities-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities_crm-14.0.1.1.1.tar.gz]
+[2024-06-03 15:54:25] INFO root fetch - processPackages [odoo14-addon-energy-communities-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities_crm-14.0.1.1.2.tar.gz]
+[2024-06-03 15:54:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities-crm]: success
+[2024-06-03 15:54:25] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-06-03 15:54:25] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-06-03 15:54:25] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-06-03 15:54:25] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-06-03 15:54:25] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.6.2-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.6.3-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240603/t/tensordict-nightly/2024.6.2-2024.6.3/README.md --exclude *.pyd
+[2024-06-03 15:54:25] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 15:54:25] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 15:54:25] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 15:54:26] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-06-03 15:54:26] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a78.tar.gz tmp/otpme-0.3.0a79.tar.gz --markdown 20240603/o/otpme/0.3.0a78-0.3.0a79/README.md --exclude *.pyd
+[2024-06-03 15:54:26] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.6.2-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 15:54:26] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.6.3-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-06-03 15:54:26] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-06-03 15:54:29] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a78.tar.gz]
+[2024-06-03 15:54:29] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a79.tar.gz]
+[2024-06-03 15:54:29] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-06-03 15:54:29] INFO root fetch - main [MainThread]: Store serial: [23503704]
