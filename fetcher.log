@@ -9109,3 +9109,51 @@ EOFError: EOF read where object expected
 [2024-06-03 09:49:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-06-03 09:49:30] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-06-03 09:49:30] INFO root fetch - main [MainThread]: Store serial: [23498021]
+[2024-06-03 09:51:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498021]
+[2024-06-03 09:51:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 09:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jageocoder
+[2024-06-03 09:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-06-03 09:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SCRIP
+[2024-06-03 09:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simulab
+[2024-06-03 09:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pms-encoder
+[2024-06-03 09:51:39] INFO root fetch - processPackages [simulab]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 09:51:39] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 09:51:39] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240603022645] Old Version: [3.4.1.dev20240602171230]
+[2024-06-03 09:51:39] INFO root fetch - processPackages [SCRIP]: New version: [0.1.240603] Old Version: [0.1.240527]
+[2024-06-03 09:51:39] INFO root fetch - processPackages [jageocoder]: New version: [2.1.7rc1] Old Version: [2.1.7.dev3]
+[2024-06-03 09:51:39] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-06-03 09:51:39] INFO root fetch - processPackages [simulab]: Downloading https://files.pythonhosted.org/packages/10/2c/924f144e316a14431c50a342ddcb0e5a392690714db2a76b3c478c0417c0/simulab-0.0.4.tar.gz
+[2024-06-03 09:51:39] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/96/69/d9c44eb1d272c46e45acca921c88b82c5aa315d7bdb3efe357ddfd40a451/localstack_core-3.4.1.dev20240602171230.tar.gz
+[2024-06-03 09:51:39] INFO root fetch - processPackages [SCRIP]: Downloading https://files.pythonhosted.org/packages/04/be/3258ec64a7233843b3eae6bf6dbe728de920dbe2c9579c5a099e0ab99304/SCRIP-0.1.240527-py3-none-any.whl
+[2024-06-03 09:51:39] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/18/c8/78a23066473e4f35ee15f8212be5c08a0f75b2427378b414e06745ee771b/jageocoder-2.1.7.dev3.tar.gz
+[2024-06-03 09:51:39] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-06-03 09:51:40] INFO root fetch - processPackages [simulab]: Downloading https://files.pythonhosted.org/packages/13/b3/01727f93d8419018dcf050b6d9b968c0d5ba2c988675c338e2c14ad9c3c7/simulab-0.0.5.tar.gz
+[2024-06-03 09:51:40] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-06-03 09:51:40] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240603/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 09:51:40] INFO root fetch - processPackages [simulab]: executing diffoscope
+[2024-06-03 09:51:40] INFO root fetch - processPackages [simulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulab-0.0.4.tar.gz tmp/simulab-0.0.5.tar.gz --markdown 20240603/s/simulab/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 09:51:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/21/69/33a1bf4a0343893028f9e3743d8faa80e328c5ac5f1fcbef97f4ff9d326a/localstack_core-3.4.1.dev20240603022645.tar.gz
+[2024-06-03 09:51:40] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/34/9a/833a0e554ccacf84b81b5eacde09a91dc4aa5b8e752f1e2df6f634b7fc83/jageocoder-2.1.7rc1.tar.gz
+[2024-06-03 09:51:40] INFO root fetch - processPackages [jageocoder]: executing diffoscope
+[2024-06-03 09:51:40] INFO root fetch - processPackages [jageocoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jageocoder-2.1.7.dev3.tar.gz tmp/jageocoder-2.1.7rc1.tar.gz --markdown 20240603/j/jageocoder/2.1.7.dev3-2.1.7rc1/README.md --exclude *.pyd
+[2024-06-03 09:51:40] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-06-03 09:51:40] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240602171230.tar.gz tmp/localstack_core-3.4.1.dev20240603022645.tar.gz --markdown 20240603/l/localstack-core/3.4.1.dev20240602171230-3.4.1.dev20240603022645/README.md --exclude *.pyd
+[2024-06-03 09:51:40] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-06-03 09:51:40] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-06-03 09:51:40] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-06-03 09:51:41] INFO root fetch - processPackages [simulab]: Remove: archive file [/home/abi/fetcher/tmp/simulab-0.0.4.tar.gz]
+[2024-06-03 09:51:41] INFO root fetch - processPackages [simulab]: Remove: archive file [/home/abi/fetcher/tmp/simulab-0.0.5.tar.gz]
+[2024-06-03 09:51:41] INFO root fetch - main [MainThread]: End processing [simulab]: success
+[2024-06-03 09:51:41] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.7.dev3.tar.gz]
+[2024-06-03 09:51:41] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.7rc1.tar.gz]
+[2024-06-03 09:51:41] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
+[2024-06-03 09:51:42] INFO root fetch - processPackages [SCRIP]: Downloading https://files.pythonhosted.org/packages/e6/07/06732f2bd11f886beb87482280bd3d719d278b7015b7be608b697acfb77c/SCRIP-0.1.240603-py3-none-any.whl
+[2024-06-03 09:51:43] INFO root fetch - processPackages [SCRIP]: executing diffoscope
+[2024-06-03 09:51:43] INFO root fetch - processPackages [SCRIP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCRIP-0.1.240527-py3-none-any.whl.zip tmp/SCRIP-0.1.240603-py3-none-any.whl.zip --markdown 20240603/S/SCRIP/0.1.240527-0.1.240603/README.md --exclude *.pyd
+[2024-06-03 09:51:44] INFO root fetch - processPackages [SCRIP]: Remove: archive file [/home/abi/fetcher/tmp/SCRIP-0.1.240527-py3-none-any.whl.zip]
+[2024-06-03 09:51:44] INFO root fetch - processPackages [SCRIP]: Remove: archive file [/home/abi/fetcher/tmp/SCRIP-0.1.240603-py3-none-any.whl.zip]
+[2024-06-03 09:51:44] INFO root fetch - main [MainThread]: End processing [SCRIP]: success
+[2024-06-03 09:51:44] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240602171230.tar.gz]
+[2024-06-03 09:51:44] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240603022645.tar.gz]
+[2024-06-03 09:51:44] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-06-03 09:51:44] INFO root fetch - main [MainThread]: Store serial: [23498036]
