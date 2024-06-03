@@ -23031,3 +23031,69 @@ EOFError: EOF read where object expected
 [2024-06-03 16:14:58] INFO root fetch - processPackages [offtracker]: Remove: archive file [/home/abi/fetcher/tmp/offtracker-2.7.8.zip]
 [2024-06-03 16:14:58] INFO root fetch - main [MainThread]: End processing [offtracker]: success
 [2024-06-03 16:14:58] INFO root fetch - main [MainThread]: Store serial: [23504016]
+[2024-06-03 16:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504016]
+[2024-06-03 16:17:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 16:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-06-03 16:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hubspot-api
+[2024-06-03 16:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2024-06-03 16:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cwsgiutils
+[2024-06-03 16:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danila-lib
+[2024-06-03 16:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maji-passport
+[2024-06-03 16:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: few-shot-priming
+[2024-06-03 16:17:07] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-06-03 16:17:07] INFO root fetch - processPackages [hubspot-api]: New version: [0.6.0] Old Version: [0.4.0]
+[2024-06-03 16:17:07] INFO root fetch - processPackages [danila-lib]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 16:17:07] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-06-03 16:17:07] INFO root fetch - processPackages [kcli]: New version: [99.0.202406021843] Old Version: [99.0.202406021753]
+[2024-06-03 16:17:07] INFO root fetch - processPackages [maji-passport]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 16:17:07] INFO root fetch - processPackages [hubspot-api]: Downloading https://files.pythonhosted.org/packages/9e/80/547b42a37838ecf907710eebd2d6d04cc4d66dc348be989da405d8a6fe6f/hubspot-api-0.4.0.tar.gz
+[2024-06-03 16:17:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-06-03 16:17:07] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-06-03 16:17:07] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/1f/13/6c217f691c08efe07c4a2c5a5d38945530536f38d4ced02ec9a52e118764/kcli-99.0.202406021753.tar.gz
+[2024-06-03 16:17:07] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/1e/2a/e0a97ee8c001651d9edd0e631c7c46c7520ebecb51b3449a8e001dc86c88/danila-lib-1.9.0.tar.gz
+[2024-06-03 16:17:07] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-06-03 16:17:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-06-03 16:17:07] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/26/8b/fcb0b50cab8b75c6a55bba48c2819783215e15f161eb9efe3dc3995db7b9/maji_passport-1.0.8.tar.gz
+[2024-06-03 16:17:08] INFO root fetch - processPackages [hubspot-api]: Downloading https://files.pythonhosted.org/packages/56/f7/1f2d9b6ea8522bd1aabda2b1ef7618d9a782b281de4ff08a3d3ed1144d82/hubspot-api-0.6.0.tar.gz
+[2024-06-03 16:17:08] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/71/82/e3b9e73364ce9c7e61e843f52680dc5dad70ed26e4787e05e9495ad5d074/danila-lib-1.9.1.tar.gz
+[2024-06-03 16:17:08] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-06-03 16:17:08] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/50/d6/56526f3adfa4eaaefce75f0120d5567e031f0040802ca30377cc223bcca4/maji_passport-1.0.9.tar.gz
+[2024-06-03 16:17:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-06-03 16:17:08] INFO root fetch - processPackages [hubspot-api]: executing diffoscope
+[2024-06-03 16:17:08] INFO root fetch - processPackages [hubspot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-0.4.0.tar.gz tmp/hubspot-api-0.6.0.tar.gz --markdown 20240603/h/hubspot-api/0.4.0-0.6.0/README.md --exclude *.pyd
+[2024-06-03 16:17:08] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/dd/36/c58252f6d97d9639af224c7e32326f82c08b74f31d5df94ec48e017b0ec7/kcli-99.0.202406021843.tar.gz
+[2024-06-03 16:17:08] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-06-03 16:17:08] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240603/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-06-03 16:17:08] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-06-03 16:17:08] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.9.0.tar.gz tmp/danila-lib-1.9.1.tar.gz --markdown 20240603/d/danila-lib/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 16:17:08] INFO root fetch - processPackages [maji-passport]: executing diffoscope
+[2024-06-03 16:17:08] INFO root fetch - processPackages [maji-passport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maji_passport-1.0.8.tar.gz tmp/maji_passport-1.0.9.tar.gz --markdown 20240603/m/maji-passport/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 16:17:08] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-06-03 16:17:08] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202406021753.tar.gz tmp/kcli-99.0.202406021843.tar.gz --markdown 20240603/k/kcli/99.0.202406021753-99.0.202406021843/README.md --exclude *.pyd
+[2024-06-03 16:17:08] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-06-03 16:17:08] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240603/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-06-03 16:17:08] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-06-03 16:17:08] INFO root fetch - processPackages [hubspot-api]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-0.4.0.tar.gz]
+[2024-06-03 16:17:08] INFO root fetch - processPackages [hubspot-api]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-0.6.0.tar.gz]
+[2024-06-03 16:17:08] INFO root fetch - main [MainThread]: End processing [hubspot-api]: success
+[2024-06-03 16:17:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-06-03 16:17:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-06-03 16:17:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-06-03 16:17:09] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-1.0.8.tar.gz]
+[2024-06-03 16:17:09] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-1.0.9.tar.gz]
+[2024-06-03 16:17:09] INFO root fetch - main [MainThread]: End processing [maji-passport]: success
+[2024-06-03 16:17:09] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.0.tar.gz]
+[2024-06-03 16:17:09] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.1.tar.gz]
+[2024-06-03 16:17:09] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-06-03 16:17:09] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-06-03 16:17:09] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-06-03 16:17:09] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-06-03 16:17:09] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-06-03 16:17:09] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240603/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-06-03 16:17:10] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-06-03 16:17:10] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-06-03 16:17:10] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-06-03 16:17:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202406021753.tar.gz]
+[2024-06-03 16:17:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202406021843.tar.gz]
+[2024-06-03 16:17:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-06-03 16:17:11] INFO root fetch - main [MainThread]: Store serial: [23504050]
