@@ -20789,3 +20789,272 @@ AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
 [2024-06-03 15:21:09] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-06-03 15:21:09] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-06-03 15:21:09] INFO root fetch - main [MainThread]: Store serial: [23503092]
+[2024-06-03 15:23:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503092]
+[2024-06-03 15:23:18] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-sdk
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vantage6
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-telemetry
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eodc
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-utils
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vantage6-node
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-ipython-client
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MainShortcuts
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-lib
+[2024-06-03 15:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vantage6-backend-common
+[2024-06-03 15:23:18] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.3.post564] Old Version: [4.0.3.post563]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [vantage6-backend-common]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [bec-lib]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [MainShortcuts]: New version: [1.6.96] Old Version: [1.6.95]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [vantage6]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [vantage6-node]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.3.post564] Old Version: [4.0.3.post563]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.3.post564] Old Version: [4.0.3.post563]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [eodc]: New version: [2024.5.4] Old Version: [2024.5.3]
+[2024-06-03 15:23:18] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/1c/28/ac66835e54a2a219bb2fcab250ebe5175556448adfd9731171c446d39b8a/bec_lib-2.9.5.tar.gz
+[2024-06-03 15:23:18] INFO root fetch - processPackages [vantage6-backend-common]: Downloading https://files.pythonhosted.org/packages/00/3d/f4e81c4a9c0f897beb1112047c9975051a8d2d905d3a53844bfdc7079935/vantage6-backend-common-4.5.0rc3.tar.gz
+[2024-06-03 15:23:18] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/0f/9d/cc996df4671bc7ec733b7fdd18a8e4d90b28c110c979519279d14d81e106/nucliadb_utils-4.0.3.post563-py3-none-any.whl
+[2024-06-03 15:23:18] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/f5/73/40fa8b648259db0c916890ae064b985bb96839048e7a69434bb0a5df4aeb/vantage6-node-4.5.0rc3.tar.gz
+[2024-06-03 15:23:18] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-06-03 15:23:18] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/13/57/2e9e555afdd705a826b7e8be85577df3b01637556a1045a8b2cb75f9d491/nucliadb_telemetry-4.0.3.post563-py3-none-any.whl
+[2024-06-03 15:23:18] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/0f/c8/f13db83937e4abf962eda55b44c5a283eddf4b307700afa802ca5e6b1c33/vantage6-4.5.0rc3.tar.gz
+[2024-06-03 15:23:18] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/8b/61/3ca1517e66c8864a9e34d50fb0ee7217f1789e9c0cc36db27382d4497d80/nucliadb_sdk-4.0.3.post563-py3-none-any.whl
+[2024-06-03 15:23:18] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/47/f2/8838214991f3fef021df3f26486080789140406b959d00c7b2215cd1986d/mainshortcuts-1.6.95.tar.gz
+[2024-06-03 15:23:18] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/70/a4/cb2e55ba200d7b15c67dd98a65db93f29fb49ad20743873d46643aa2276f/eodc-2024.5.3.tar.gz
+[2024-06-03 15:23:18] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4d/a2/f0700429367390986fd99050f855b29188048689afabf13076cd77bb4598/bec_lib-2.9.6.tar.gz
+[2024-06-03 15:23:18] INFO root fetch - processPackages [vantage6-backend-common]: Downloading https://files.pythonhosted.org/packages/05/f5/4c0e8333f3b195f4a148c251dc3f1e329f6993bbcd32ad15b68f33ab18e3/vantage6-backend-common-4.5.1.tar.gz
+[2024-06-03 15:23:19] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/1b/14/035768467c178ee516740ddeb32cc27eebb4598ca17ce53aa72370be0f4f/vantage6-node-4.5.1.tar.gz
+[2024-06-03 15:23:19] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-06-03 15:23:19] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/4b/d1/4a13e5da804a27c0e5f3635da1ead59d3c8ff514144aaca1ec821751fcbe/vantage6-4.5.1.tar.gz
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/0d/b2/c62c6eec9aa7ba8bf831b09620f30feb623b5ad43630453f9ef988d47d0f/nucliadb_utils-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:23:19] INFO root fetch - processPackages [vantage6-backend-common]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [vantage6-backend-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-backend-common-4.5.0rc3.tar.gz tmp/vantage6-backend-common-4.5.1.tar.gz --markdown 20240603/v/vantage6-backend-common/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.9.5.tar.gz tmp/bec_lib-2.9.6.tar.gz --markdown 20240603/b/bec-lib/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/0b/12/2321a6adae7b685140073baf21386bacb4525ab0b9400d6cc31b18699ffa/nucliadb_telemetry-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:23:19] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/53/e7/f67c5f45110f5ded861a24db20fb8677a6b2ce401773286f85611b2692bd/mainshortcuts-1.6.96.tar.gz
+[2024-06-03 15:23:19] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-4.5.0rc3.tar.gz tmp/vantage6-node-4.5.1.tar.gz --markdown 20240603/v/vantage6-node/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240603/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/20/a1/0b6da4c146e9f74479201c72d3a933e1ab96c7d34da4af877891e3a099b6/nucliadb_sdk-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:23:19] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/d3/72/62708c2e0992747c8659fdd0fcaef6fcfca95ddb6d132af3d3bed8fbf37b/eodc-2024.5.4.tar.gz
+[2024-06-03 15:23:19] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-4.5.0rc3.tar.gz tmp/vantage6-4.5.1.tar.gz --markdown 20240603/v/vantage6/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.3.post563-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.3.post564-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-utils/4.0.3.post563-4.0.3.post564/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [MainShortcuts]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [MainShortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.95.tar.gz tmp/mainshortcuts-1.6.96.tar.gz --markdown 20240603/M/MainShortcuts/1.6.95-1.6.96/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.3.post563-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.3.post564-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-telemetry/4.0.3.post563-4.0.3.post564/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2024.5.3.tar.gz tmp/eodc-2024.5.4.tar.gz --markdown 20240603/e/eodc/2024.5.3-2024.5.4/README.md --exclude *.pyd
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-06-03 15:23:19] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.3.post563-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.3.post564-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-sdk/4.0.3.post563-4.0.3.post564/README.md --exclude *.pyd
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-backend-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-backend-common-4.5.0rc3.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-backend-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-backend-common-4.5.1.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-backend-common]: Start processing: bec-server
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [vantage6-backend-common]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-server]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.5.0rc3.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.5.1.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-node]: Start processing: pytest-bec-e2e
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-ipython-client]: Start processing: vantage6-server
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5c/a6/47395050d9ef43b8ac69afbd19752c840a326d130902d672b143eb1b2011/bec_server-2.9.5.tar.gz
+[2024-06-03 15:23:20] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.5.3.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-server]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.5.4.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [eodc]: Start processing: vantage6-algorithm-store
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/32/25/26221a302c5d813470abbed9e469573445b2d6223cb10d5e831a1c2edcbc/pytest_bec_e2e-2.9.5.tar.gz
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.3.post563-py3-none-any.whl.zip]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-algorithm-store]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: traxix.rsq
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.5.0rc3.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.5.1.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6]: Start processing: data-snack
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.3.post563-py3-none-any.whl.zip]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-utils]: Start processing: plover-uinput
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.5.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.6.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-lib]: Start processing: aiida-workgraph
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.95.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.96.tar.gz]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [MainShortcuts]: Start processing: CI-CloudConnector
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [MainShortcuts]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.3.post563-py3-none-any.whl.zip]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: cognite-neat
+[2024-06-03 15:23:20] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/28/8f/90ffb1baf8a8f47c440ba4b121d770215015c223ebf5a90740625a93c06d/vantage6-server-4.5.0rc3.tar.gz
+[2024-06-03 15:23:20] INFO root fetch - processPackages [data-snack]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [CI-CloudConnector]: New version: [2.7] Old Version: [2.6]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [traxix.rsq]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [vantage6-algorithm-store]: Downloading https://files.pythonhosted.org/packages/71/83/1b60ad8614c6bf36b18897f2e34c26fbf7d828e5ece4c13ed6687c9c21f0/vantage6-algorithm-store-4.5.0rc3.tar.gz
+[2024-06-03 15:23:20] INFO root fetch - processPackages [aiida-workgraph]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-06-03 15:23:20] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/33/b7/3b469dec2efe5a33d7abfab6b9c31025e32485e7a9d400424e12cd0fd084/bec_server-2.9.6.tar.gz
+[2024-06-03 15:23:20] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/52/58/6a01c0215232031def0ac36fe0432d3a9980bab8829664847cd95bfcd44e/pytest_bec_e2e-2.9.6.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/74/97/b7246d7b8add29f8deb1ef4cd9b7da7f5b3ba92a4bbb7f890a7143e1eaf4/ci_cloudconnector-2.6.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [plover-uinput]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 15:23:21] INFO root fetch - processPackages [cognite-neat]: New version: [0.78.3] Old Version: [0.78.2]
+[2024-06-03 15:23:21] INFO root fetch - processPackages [traxix.rsq]: Downloading https://files.pythonhosted.org/packages/12/e0/aa580c9645f844c515f972b4cad93e143ce508389419f447e9d5fafc315d/traxix.rsq-0.2.3.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-06-03 15:23:21] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.9.5.tar.gz tmp/pytest_bec_e2e-2.9.6.tar.gz --markdown 20240603/p/pytest-bec-e2e/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 15:23:21] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-06-03 15:23:21] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.9.5.tar.gz tmp/bec_server-2.9.6.tar.gz --markdown 20240603/b/bec-server/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 15:23:21] INFO root fetch - processPackages [data-snack]: Downloading https://files.pythonhosted.org/packages/da/bf/6c92f09828dc4cce71f2aa139d0f637ec58f761b6f5c7708d09715b7b250/data_snack-1.0.4.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [vantage6-algorithm-store]: Downloading https://files.pythonhosted.org/packages/3c/eb/71d35225dc942714b92a2de5fec3c00fde68bc7007348e54bd812af4679e/vantage6-algorithm-store-4.5.1.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/44/69/451469635062e4a8d8cc11d0c164bc41361ef7ca89d0350e2662a2c27608/vantage6-server-4.5.1.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [aiida-workgraph]: Downloading https://files.pythonhosted.org/packages/84/65/4c3688ad6514aa7938c3e9c565dfebad858e2d9de8a5cc70d87a2147ec15/aiida_workgraph-0.2.6.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/02/ee/44197c82f74a2d6e51ec8c028c676784dd9d5d35f6756ecf7b15eae9ff2b/cognite_neat-0.78.2.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [plover-uinput]: Downloading https://files.pythonhosted.org/packages/ea/d3/59b40efe0b31b83869ab40ce325dccef3e111a9b998171fd67c01b7f1d41/plover_uinput-0.0.8.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/b7/7b/cc30d5fc7ad5640b0c977c3652c6cbace19580ae4a6cd5bcdd7f7446f1d4/ci_cloudconnector-2.7.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [vantage6-algorithm-store]: executing diffoscope
+[2024-06-03 15:23:21] INFO root fetch - processPackages [vantage6-algorithm-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-store-4.5.0rc3.tar.gz tmp/vantage6-algorithm-store-4.5.1.tar.gz --markdown 20240603/v/vantage6-algorithm-store/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 15:23:21] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2024-06-03 15:23:21] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-4.5.0rc3.tar.gz tmp/vantage6-server-4.5.1.tar.gz --markdown 20240603/v/vantage6-server/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 15:23:21] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-06-03 15:23:21] INFO root fetch - processPackages [traxix.rsq]: Downloading https://files.pythonhosted.org/packages/fd/d1/f5ef7f1ba552d9650f54d37200fb114857ecbd6166b6e7ad335fb8c771e0/traxix.rsq-0.2.4.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-2.6.tar.gz tmp/ci_cloudconnector-2.7.tar.gz --markdown 20240603/C/CI-CloudConnector/2.6-2.7/README.md --exclude *.pyd
+[2024-06-03 15:23:21] INFO root fetch - processPackages [data-snack]: Downloading https://files.pythonhosted.org/packages/f1/2d/a734483433c05b35554deb4da4a9d017b3cfd9bac3a84a720de28edb6da1/data_snack-1.0.5.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [traxix.rsq]: executing diffoscope
+[2024-06-03 15:23:21] INFO root fetch - processPackages [traxix.rsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traxix.rsq-0.2.3.tar.gz tmp/traxix.rsq-0.2.4.tar.gz --markdown 20240603/t/traxix.rsq/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 15:23:21] INFO root fetch - processPackages [data-snack]: executing diffoscope
+[2024-06-03 15:23:21] INFO root fetch - processPackages [data-snack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_snack-1.0.4.tar.gz tmp/data_snack-1.0.5.tar.gz --markdown 20240603/d/data-snack/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 15:23:21] INFO root fetch - processPackages [plover-uinput]: Downloading https://files.pythonhosted.org/packages/b9/37/8ea25acfb8ac228a3874a362a6b8363c5da403257fed95de56568590e625/plover_uinput-0.0.9.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [plover-uinput]: executing diffoscope
+[2024-06-03 15:23:21] INFO root fetch - processPackages [plover-uinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover_uinput-0.0.8.tar.gz tmp/plover_uinput-0.0.9.tar.gz --markdown 20240603/p/plover-uinput/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 15:23:21] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/1c/17/8d57dd1d06f8c428713caf8ef694b190a62895a1e6485435ec36895709cc/cognite_neat-0.78.3.tar.gz
+[2024-06-03 15:23:21] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.5.tar.gz]
+[2024-06-03 15:23:21] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.6.tar.gz]
+[2024-06-03 15:23:21] INFO root fetch - processPackages [pytest-bec-e2e]: Start processing: mocpy
+[2024-06-03 15:23:21] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-06-03 15:23:22] INFO root fetch - processPackages [mocpy]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-06-03 15:23:22] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.78.2.tar.gz tmp/cognite_neat-0.78.3.tar.gz --markdown 20240603/c/cognite-neat/0.78.2-0.78.3/README.md --exclude *.pyd
+[2024-06-03 15:23:22] INFO root fetch - processPackages [aiida-workgraph]: Downloading https://files.pythonhosted.org/packages/d2/48/1ca432c1c0996471474151b89d8f296cd31298b01ec9b0e6955de8c37dfb/aiida_workgraph-0.2.7.tar.gz
+[2024-06-03 15:23:22] INFO root fetch - processPackages [mocpy]: Downloading https://files.pythonhosted.org/packages/d9/45/d7fe492baee46f4fe61950a39adc8571476ace828288b74282bf026040ce/MOCPy-0.8.5.tar.gz
+[2024-06-03 15:23:22] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.5.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.6.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [bec-server]: Start processing: decode-config
+[2024-06-03 15:23:22] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-06-03 15:23:22] INFO root fetch - processPackages [vantage6-algorithm-store]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-store-4.5.0rc3.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [vantage6-algorithm-store]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-store-4.5.1.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [vantage6-algorithm-store]: Start processing: fink-client
+[2024-06-03 15:23:22] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-store]: success
+[2024-06-03 15:23:22] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-2.6.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-2.7.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [CI-CloudConnector]: Start processing: roastery
+[2024-06-03 15:23:22] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-06-03 15:23:22] INFO root fetch - processPackages [traxix.rsq]: Remove: archive file [/home/abi/fetcher/tmp/traxix.rsq-0.2.3.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [traxix.rsq]: Remove: archive file [/home/abi/fetcher/tmp/traxix.rsq-0.2.4.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [traxix.rsq]: Start processing: acetone-nnet
+[2024-06-03 15:23:22] INFO root fetch - main [MainThread]: End processing [traxix.rsq]: success
+[2024-06-03 15:23:22] INFO root fetch - processPackages [decode-config]: New version: [2022.1] Old Version: [14.1.0.0]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.2.dev5] Old Version: [0.3.2.dev4]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [fink-client]: New version: [8.0] Old Version: [7.2]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [roastery]: New version: [0.20240603.dev3] Old Version: [0.20240603.dev2]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [aiida-workgraph]: executing diffoscope
+[2024-06-03 15:23:22] INFO root fetch - processPackages [aiida-workgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_workgraph-0.2.6.tar.gz tmp/aiida_workgraph-0.2.7.tar.gz --markdown 20240603/a/aiida-workgraph/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-06-03 15:23:22] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.5.0rc3.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.5.1.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [vantage6-server]: Start processing: pythonSCHED
+[2024-06-03 15:23:22] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2024-06-03 15:23:22] INFO root fetch - processPackages [data-snack]: Remove: archive file [/home/abi/fetcher/tmp/data_snack-1.0.4.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [data-snack]: Remove: archive file [/home/abi/fetcher/tmp/data_snack-1.0.5.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [data-snack]: Start processing: jbtsdk
+[2024-06-03 15:23:22] INFO root fetch - main [MainThread]: End processing [data-snack]: success
+[2024-06-03 15:23:22] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/22/83/f9d55bcfa0f383d8b5175ff71e70ad0ef9dd4615b82d251fac28aa90f9d0/acetone_nnet-0.3.2.dev4.tar.gz
+[2024-06-03 15:23:22] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/fd/69/7cb4da8636161456920a2f47749414e0523f4610987433c099ea559cc9f9/roastery-0.20240603.dev2.tar.gz
+[2024-06-03 15:23:22] INFO root fetch - processPackages [pythonSCHED]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [decode-config]: Downloading https://files.pythonhosted.org/packages/6a/7b/9f94543bc82a1fb1a2f88564da0d3fdef76e034b404be4b1ece2c5329761/decode-config-14.1.0.0.tar.gz
+[2024-06-03 15:23:22] INFO root fetch - processPackages [plover-uinput]: Remove: archive file [/home/abi/fetcher/tmp/plover_uinput-0.0.8.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [plover-uinput]: Remove: archive file [/home/abi/fetcher/tmp/plover_uinput-0.0.9.tar.gz]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [plover-uinput]: Start processing: lumipy
+[2024-06-03 15:23:22] INFO root fetch - main [MainThread]: End processing [plover-uinput]: success
+[2024-06-03 15:23:22] INFO root fetch - processPackages [lumipy]: New version: [1.0.96] Old Version: [1.0.94]
+[2024-06-03 15:23:22] INFO root fetch - processPackages [fink-client]: Downloading https://files.pythonhosted.org/packages/11/77/ee7700502c492e666414aa2c1a115b96025ec9e5b9adb3b6dbcb55d85949/fink-client-7.2.tar.gz
+[2024-06-03 15:23:22] INFO root fetch - processPackages [jbtsdk]: New version: [0.0.30] Old Version: [0.0.29]
+[2024-06-03 15:23:23] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/a9/ba/0d436c6ca7abdc6d796f4a2b758b41391e0281ae7650f44fd3dd977291ca/lumipy-1.0.94-py3-none-any.whl
+[2024-06-03 15:23:23] INFO root fetch - processPackages [pythonSCHED]: Downloading https://files.pythonhosted.org/packages/25/b6/6a87eda00b67735d0c12cf1b2e794b4c6e6771e790f960a0c510101c0f34/pythonSCHED-1.8.2.tar.gz
+[2024-06-03 15:23:23] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/59/0f/811fd604bdc73c0157e234c40ca346ad934656dadf643f7723c3a972aa1b/roastery-0.20240603.dev3.tar.gz
+[2024-06-03 15:23:23] INFO root fetch - processPackages [jbtsdk]: Downloading https://files.pythonhosted.org/packages/f9/47/b6cdf91298e7042a65e4c50469336f8328d83d66947ddf53a0ceeb48e3c2/jbtsdk-0.0.29.tar.gz
+[2024-06-03 15:23:23] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/cb/0b/b2c47716ce7172782e4ec2be9eac17db84754026bb845e1281c49dd60310/acetone_nnet-0.3.2.dev5.tar.gz
+[2024-06-03 15:23:23] INFO root fetch - processPackages [fink-client]: Downloading https://files.pythonhosted.org/packages/87/81/6f53e46ac5086ace580d661acfe42da31d0d3e8860fa994cb92c2e9413de/fink-client-8.0.tar.gz
+[2024-06-03 15:23:23] INFO root fetch - processPackages [decode-config]: Downloading https://files.pythonhosted.org/packages/50/00/90e430e62acb1110271b96192b0ede62de13c0d396b0a2167d4a58ec7645/decode-config-2022.1.tar.gz
+[2024-06-03 15:23:23] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/ce/af/9f61dc75371921841d2d9598bc827a3c8f6076c57348a1c565b70e2bb60a/lumipy-1.0.96-py3-none-any.whl
+[2024-06-03 15:23:23] INFO root fetch - processPackages [roastery]: executing diffoscope
+[2024-06-03 15:23:23] INFO root fetch - processPackages [roastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roastery-0.20240603.dev2.tar.gz tmp/roastery-0.20240603.dev3.tar.gz --markdown 20240603/r/roastery/0.20240603.dev2-0.20240603.dev3/README.md --exclude *.pyd
+[2024-06-03 15:23:23] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-06-03 15:23:23] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.2.dev4.tar.gz tmp/acetone_nnet-0.3.2.dev5.tar.gz --markdown 20240603/a/acetone-nnet/0.3.2.dev4-0.3.2.dev5/README.md --exclude *.pyd
+[2024-06-03 15:23:23] INFO root fetch - processPackages [decode-config]: executing diffoscope
+[2024-06-03 15:23:23] INFO root fetch - processPackages [decode-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decode-config-14.1.0.0.tar.gz tmp/decode-config-2022.1.tar.gz --markdown 20240603/d/decode-config/14.1.0.0-2022.1/README.md --exclude *.pyd
+[2024-06-03 15:23:23] INFO root fetch - processPackages [fink-client]: executing diffoscope
+[2024-06-03 15:23:23] INFO root fetch - processPackages [fink-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fink-client-7.2.tar.gz tmp/fink-client-8.0.tar.gz --markdown 20240603/f/fink-client/7.2-8.0/README.md --exclude *.pyd
+[2024-06-03 15:23:23] INFO root fetch - processPackages [jbtsdk]: Downloading https://files.pythonhosted.org/packages/fb/2a/dbbf80c6d025cd28164bd9f704279e16b3b38938a0d3851a60c58c16e17e/jbtsdk-0.0.30.tar.gz
+[2024-06-03 15:23:23] INFO root fetch - processPackages [lumipy]: executing diffoscope
+[2024-06-03 15:23:23] INFO root fetch - processPackages [lumipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumipy-1.0.94-py3-none-any.whl.zip tmp/lumipy-1.0.96-py3-none-any.whl.zip --markdown 20240603/l/lumipy/1.0.94-1.0.96/README.md --exclude *.pyd
+[2024-06-03 15:23:23] INFO root fetch - processPackages [pythonSCHED]: Downloading https://files.pythonhosted.org/packages/00/05/0b00038420bf1e143dff877685143274d4c6702818a3077b6c706e5878b0/pythonSCHED-1.9.0.tar.gz
+[2024-06-03 15:23:23] INFO root fetch - processPackages [jbtsdk]: executing diffoscope
+[2024-06-03 15:23:23] INFO root fetch - processPackages [jbtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jbtsdk-0.0.29.tar.gz tmp/jbtsdk-0.0.30.tar.gz --markdown 20240603/j/jbtsdk/0.0.29-0.0.30/README.md --exclude *.pyd
+[2024-06-03 15:23:23] INFO root fetch - processPackages [pythonSCHED]: executing diffoscope
+[2024-06-03 15:23:23] INFO root fetch - processPackages [pythonSCHED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonSCHED-1.8.2.tar.gz tmp/pythonSCHED-1.9.0.tar.gz --markdown 20240603/p/pythonSCHED/1.8.2-1.9.0/README.md --exclude *.pyd
+[2024-06-03 15:23:24] WARNING root fetch - processPackages [mocpy]: Skipping package: exceeds size limit 74705231>=10485760
+[2024-06-03 15:23:24] INFO root fetch - processPackages [mocpy]: Start processing: consensusGen
+[2024-06-03 15:23:24] INFO root fetch - main [MainThread]: End processing [mocpy] error
+[2024-06-03 15:23:24] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240603.dev2.tar.gz]
+[2024-06-03 15:23:24] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240603.dev3.tar.gz]
+[2024-06-03 15:23:24] INFO root fetch - processPackages [roastery]: Start processing: ansible-runner-beats
+[2024-06-03 15:23:24] INFO root fetch - main [MainThread]: End processing [roastery]: success
+[2024-06-03 15:23:24] INFO root fetch - processPackages [consensusGen]: New version: [2.1] Old Version: [2.0]
+[2024-06-03 15:23:24] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/0a/b4/9290c5b689b6450bb41dd21c765aab31d1fadabec5b2281ff96c84f5ac57/consensusgen-2.0.tar.gz
+[2024-06-03 15:23:24] INFO root fetch - processPackages [decode-config]: Remove: archive file [/home/abi/fetcher/tmp/decode-config-14.1.0.0.tar.gz]
+[2024-06-03 15:23:24] INFO root fetch - processPackages [decode-config]: Remove: archive file [/home/abi/fetcher/tmp/decode-config-2022.1.tar.gz]
+[2024-06-03 15:23:24] INFO root fetch - main [MainThread]: End processing [decode-config]: success
+[2024-06-03 15:23:24] INFO root fetch - processPackages [ansible-runner-beats]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-06-03 15:23:24] INFO root fetch - processPackages [fink-client]: Remove: archive file [/home/abi/fetcher/tmp/fink-client-7.2.tar.gz]
+[2024-06-03 15:23:24] INFO root fetch - processPackages [fink-client]: Remove: archive file [/home/abi/fetcher/tmp/fink-client-8.0.tar.gz]
+[2024-06-03 15:23:24] INFO root fetch - main [MainThread]: End processing [fink-client]: success
+[2024-06-03 15:23:24] INFO root fetch - processPackages [ansible-runner-beats]: Downloading https://files.pythonhosted.org/packages/0a/5e/6f9f671c3326d96d3321f9472d498a676559cbbda4c1da1f16dfca0a3b02/ansible-runner-beats-1.0.3.tar.gz
+[2024-06-03 15:23:24] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/42/ba/04b2dc0bf0c344cfca370519b478c3d8ce84b2e209b838c022c1872596fc/consensusgen-2.1.tar.gz
+[2024-06-03 15:23:25] INFO root fetch - processPackages [jbtsdk]: Remove: archive file [/home/abi/fetcher/tmp/jbtsdk-0.0.29.tar.gz]
+[2024-06-03 15:23:25] INFO root fetch - processPackages [jbtsdk]: Remove: archive file [/home/abi/fetcher/tmp/jbtsdk-0.0.30.tar.gz]
+[2024-06-03 15:23:25] INFO root fetch - main [MainThread]: End processing [jbtsdk]: success
+[2024-06-03 15:23:25] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev4.tar.gz]
+[2024-06-03 15:23:25] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev5.tar.gz]
+[2024-06-03 15:23:25] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-06-03 15:23:25] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-06-03 15:23:25] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-2.0.tar.gz tmp/consensusgen-2.1.tar.gz --markdown 20240603/c/consensusGen/2.0-2.1/README.md --exclude *.pyd
+[2024-06-03 15:23:25] INFO root fetch - processPackages [ansible-runner-beats]: Downloading https://files.pythonhosted.org/packages/eb/a1/caab641d8c0b010fecc32171df2b129a3ab23595e36114e0fcb0c1985142/ansible_runner_beats-1.0.4.tar.gz
+[2024-06-03 15:23:25] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.6.tar.gz]
+[2024-06-03 15:23:25] INFO root fetch - processPackages [aiida-workgraph]: Remove: archive file [/home/abi/fetcher/tmp/aiida_workgraph-0.2.7.tar.gz]
+[2024-06-03 15:23:25] INFO root fetch - main [MainThread]: End processing [aiida-workgraph]: success
+[2024-06-03 15:23:25] INFO root fetch - processPackages [ansible-runner-beats]: executing diffoscope
+[2024-06-03 15:23:25] INFO root fetch - processPackages [ansible-runner-beats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-runner-beats-1.0.3.tar.gz tmp/ansible_runner_beats-1.0.4.tar.gz --markdown 20240603/a/ansible-runner-beats/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-06-03 15:23:25] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.94-py3-none-any.whl.zip]
+[2024-06-03 15:23:25] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.96-py3-none-any.whl.zip]
+[2024-06-03 15:23:25] INFO root fetch - main [MainThread]: End processing [lumipy]: success
+[2024-06-03 15:23:25] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.0.tar.gz]
+[2024-06-03 15:23:25] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.1.tar.gz]
+[2024-06-03 15:23:25] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-06-03 15:23:26] INFO root fetch - processPackages [ansible-runner-beats]: Remove: archive file [/home/abi/fetcher/tmp/ansible-runner-beats-1.0.3.tar.gz]
+[2024-06-03 15:23:26] INFO root fetch - processPackages [ansible-runner-beats]: Remove: archive file [/home/abi/fetcher/tmp/ansible_runner_beats-1.0.4.tar.gz]
+[2024-06-03 15:23:26] INFO root fetch - main [MainThread]: End processing [ansible-runner-beats]: success
+[2024-06-03 15:23:27] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.78.2.tar.gz]
+[2024-06-03 15:23:27] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.78.3.tar.gz]
+[2024-06-03 15:23:27] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-06-03 15:23:29] INFO root fetch - processPackages [pythonSCHED]: Remove: archive file [/home/abi/fetcher/tmp/pythonSCHED-1.8.2.tar.gz]
+[2024-06-03 15:23:29] INFO root fetch - processPackages [pythonSCHED]: Remove: archive file [/home/abi/fetcher/tmp/pythonSCHED-1.9.0.tar.gz]
+[2024-06-03 15:23:29] INFO root fetch - main [MainThread]: End processing [pythonSCHED]: success
+[2024-06-03 15:23:29] INFO root fetch - main [MainThread]: Store serial: [23503179]
