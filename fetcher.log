@@ -10299,3 +10299,45 @@ EOFError: EOF read where object expected
 [2024-06-03 10:39:32] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
 [2024-06-03 10:39:32] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-06-03 10:39:32] INFO root fetch - main [MainThread]: Store serial: [23498659]
+[2024-06-03 10:41:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498659]
+[2024-06-03 10:41:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 10:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ehyd-tools
+[2024-06-03 10:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libvirt-python
+[2024-06-03 10:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamicdl
+[2024-06-03 10:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ZAIScikit
+[2024-06-03 10:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m-abac-test
+[2024-06-03 10:41:41] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 10:41:41] INFO root fetch - processPackages [libvirt-python]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-06-03 10:41:41] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2024-06-03 10:41:41] WARNING root fetch - processPackages [ZAIScikit]: Skipping, unable to determine old version
+[2024-06-03 10:41:41] INFO root fetch - main [MainThread]: End processing [ZAIScikit] error
+[2024-06-03 10:41:41] INFO root fetch - processPackages [dynamicdl]: New version: [0.1.1a0] Old Version: [0.1.0a0]
+[2024-06-03 10:41:41] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/90/63/722b08934531bf0842295b0532d2b2120d30774ed6b04ec44dff85a26db6/libvirt-python-9.8.0.tar.gz
+[2024-06-03 10:41:41] INFO root fetch - processPackages [dynamicdl]: Downloading https://files.pythonhosted.org/packages/72/f3/97037b18ceea451a4a39adbd153d4ca6db1eef0624599ba19b4b993d66e3/dynamicdl-0.1.0a0.tar.gz
+[2024-06-03 10:41:41] INFO root fetch - processPackages [ehyd-tools]: New version: [0.1.dev9] Old Version: [0.1.dev8]
+[2024-06-03 10:41:41] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2024-06-03 10:41:41] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2024-06-03 10:41:41] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20240603/m/m-abac-test/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 10:41:41] INFO root fetch - processPackages [ehyd-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/580d1412fd21c2c68b5f2b81676f545b885a111295d8c0659364eae393ff/ehyd_tools-0.1.dev8-py3-none-any.whl
+[2024-06-03 10:41:41] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/92/92/315e66f442147369a592d2afe07df1321602c5c5ef93ed15cf4eecf90ffb/libvirt-python-9.9.0.tar.gz
+[2024-06-03 10:41:41] INFO root fetch - processPackages [dynamicdl]: Downloading https://files.pythonhosted.org/packages/ca/5e/a85ad81a99319ecd813761b6294f8ebcb176d56245c5ef5460c527d40248/dynamicdl-0.1.1a0.tar.gz
+[2024-06-03 10:41:41] INFO root fetch - processPackages [libvirt-python]: executing diffoscope
+[2024-06-03 10:41:41] INFO root fetch - processPackages [libvirt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvirt-python-9.8.0.tar.gz tmp/libvirt-python-9.9.0.tar.gz --markdown 20240603/l/libvirt-python/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-06-03 10:41:41] INFO root fetch - processPackages [dynamicdl]: executing diffoscope
+[2024-06-03 10:41:41] INFO root fetch - processPackages [dynamicdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicdl-0.1.0a0.tar.gz tmp/dynamicdl-0.1.1a0.tar.gz --markdown 20240603/d/dynamicdl/0.1.0a0-0.1.1a0/README.md --exclude *.pyd
+[2024-06-03 10:41:42] INFO root fetch - processPackages [ehyd-tools]: Downloading https://files.pythonhosted.org/packages/fa/71/890662a4c7175c02291d438aaae2a96065aa0ae111835cbc5f33db1c3e23/ehyd_tools-0.1.dev9-py3-none-any.whl
+[2024-06-03 10:41:42] INFO root fetch - processPackages [ehyd-tools]: executing diffoscope
+[2024-06-03 10:41:42] INFO root fetch - processPackages [ehyd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehyd_tools-0.1.dev8-py3-none-any.whl.zip tmp/ehyd_tools-0.1.dev9-py3-none-any.whl.zip --markdown 20240603/e/ehyd-tools/0.1.dev8-0.1.dev9/README.md --exclude *.pyd
+[2024-06-03 10:41:42] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2024-06-03 10:41:42] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2024-06-03 10:41:42] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2024-06-03 10:41:42] INFO root fetch - processPackages [dynamicdl]: Remove: archive file [/home/abi/fetcher/tmp/dynamicdl-0.1.0a0.tar.gz]
+[2024-06-03 10:41:42] INFO root fetch - processPackages [dynamicdl]: Remove: archive file [/home/abi/fetcher/tmp/dynamicdl-0.1.1a0.tar.gz]
+[2024-06-03 10:41:42] INFO root fetch - main [MainThread]: End processing [dynamicdl]: success
+[2024-06-03 10:41:42] INFO root fetch - processPackages [ehyd-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehyd_tools-0.1.dev8-py3-none-any.whl.zip]
+[2024-06-03 10:41:42] INFO root fetch - processPackages [ehyd-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehyd_tools-0.1.dev9-py3-none-any.whl.zip]
+[2024-06-03 10:41:42] INFO root fetch - main [MainThread]: End processing [ehyd-tools]: success
+[2024-06-03 10:41:43] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.8.0.tar.gz]
+[2024-06-03 10:41:43] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.9.0.tar.gz]
+[2024-06-03 10:41:43] INFO root fetch - main [MainThread]: End processing [libvirt-python]: success
+[2024-06-03 10:41:43] INFO root fetch - main [MainThread]: Store serial: [23498694]
