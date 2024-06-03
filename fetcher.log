@@ -22674,3 +22674,60 @@ EOFError: EOF read where object expected
 [2024-06-03 16:03:20] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_plugin_radboudbox-4.1.1.tar.gz]
 [2024-06-03 16:03:20] INFO root fetch - main [MainThread]: End processing [opensesame-plugin-radboudbox]: success
 [2024-06-03 16:03:20] INFO root fetch - main [MainThread]: Store serial: [23503877]
+[2024-06-03 16:05:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503877]
+[2024-06-03 16:05:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 16:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rabbit-library
+[2024-06-03 16:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prlearn
+[2024-06-03 16:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wandb-workspaces
+[2024-06-03 16:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylake
+[2024-06-03 16:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recon-lw
+[2024-06-03 16:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamstats-access
+[2024-06-03 16:05:30] INFO root fetch - processPackages [streamstats-access]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 16:05:30] INFO root fetch - processPackages [recon-lw]: New version: [3.1.0.dev9351264696] Old Version: [3.1.0.dev9348340929]
+[2024-06-03 16:05:30] INFO root fetch - processPackages [wandb-workspaces]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 16:05:30] INFO root fetch - processPackages [rabbit-library]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-06-03 16:05:30] INFO root fetch - processPackages [streamstats-access]: Downloading https://files.pythonhosted.org/packages/0f/03/bdecec400e5a05745f2c614f1d872915884f8caaf15845230cfc1db65506/streamstats_access-0.1.6.tar.gz
+[2024-06-03 16:05:30] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/40/70/9ad7f5723b55e7a83129a574fa1fcbbbadae226ecc11bf297b95a89a13c5/recon_lw-3.1.0.dev9348340929.tar.gz
+[2024-06-03 16:05:30] INFO root fetch - processPackages [prlearn]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 16:05:30] INFO root fetch - processPackages [pylake]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 16:05:30] INFO root fetch - processPackages [wandb-workspaces]: Downloading https://files.pythonhosted.org/packages/2b/ec/3bdbf1cf8febf1805fef595e40b57f79b0521016b4a8cd274c5da4ef1811/wandb_workspaces-0.1.2.tar.gz
+[2024-06-03 16:05:30] INFO root fetch - processPackages [pylake]: Downloading https://files.pythonhosted.org/packages/50/31/b275c4db62c77e5aac94e9d14142a7d1df180d44923b8aa481a2427ab0f6/pylake-0.1.6.tar.gz
+[2024-06-03 16:05:30] INFO root fetch - processPackages [rabbit-library]: Downloading https://files.pythonhosted.org/packages/67/61/9f2e12c622311a1015d28995258202be6169d7d83a2b10f82e51283db9e6/rabbit_library-1.0.6.tar.gz
+[2024-06-03 16:05:30] INFO root fetch - processPackages [prlearn]: Downloading https://files.pythonhosted.org/packages/0f/5c/d5c3d3d0d99312c9356f0976678050bf299f2812fb67882a30c2739e5bb5/prlearn-0.1.0.tar.gz
+[2024-06-03 16:05:30] INFO root fetch - processPackages [streamstats-access]: Downloading https://files.pythonhosted.org/packages/e1/3f/1f453bd39c2fdba2a7da957bac5566638007cf42225775d4653ad04a7df8/streamstats_access-0.1.7.tar.gz
+[2024-06-03 16:05:30] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/c4/05/cb1a46ea2a79d5ef5efa8a22489e1abc477df660f05d204e0a27afc681b2/recon_lw-3.1.0.dev9351264696.tar.gz
+[2024-06-03 16:05:31] INFO root fetch - processPackages [wandb-workspaces]: Downloading https://files.pythonhosted.org/packages/b1/8a/a22c6bce0cad486990c0bbce08b05587c7ea7f7de8718492f1480c7003d6/wandb_workspaces-0.1.3.tar.gz
+[2024-06-03 16:05:31] INFO root fetch - processPackages [streamstats-access]: executing diffoscope
+[2024-06-03 16:05:31] INFO root fetch - processPackages [streamstats-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamstats_access-0.1.6.tar.gz tmp/streamstats_access-0.1.7.tar.gz --markdown 20240603/s/streamstats-access/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 16:05:31] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-06-03 16:05:31] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.1.0.dev9348340929.tar.gz tmp/recon_lw-3.1.0.dev9351264696.tar.gz --markdown 20240603/r/recon-lw/3.1.0.dev9348340929-3.1.0.dev9351264696/README.md --exclude *.pyd
+[2024-06-03 16:05:31] INFO root fetch - processPackages [rabbit-library]: Downloading https://files.pythonhosted.org/packages/ad/b1/2b34a61259ee791911c7c610782fca4dc73b854666c45709eeba19236551/rabbit_library-1.0.7.tar.gz
+[2024-06-03 16:05:31] INFO root fetch - processPackages [pylake]: Downloading https://files.pythonhosted.org/packages/06/f3/8285b86865e8f38d52fe1d09586f09be6622a61cd0fec5890ae304b244c4/pylake-0.1.7.tar.gz
+[2024-06-03 16:05:31] INFO root fetch - processPackages [wandb-workspaces]: executing diffoscope
+[2024-06-03 16:05:31] INFO root fetch - processPackages [wandb-workspaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wandb_workspaces-0.1.2.tar.gz tmp/wandb_workspaces-0.1.3.tar.gz --markdown 20240603/w/wandb-workspaces/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 16:05:31] INFO root fetch - processPackages [prlearn]: Downloading https://files.pythonhosted.org/packages/08/7d/3d938e0f681cee9acc43d4e1363885e1786702c712b98ab84cfd5cad6faf/prlearn-0.1.1.tar.gz
+[2024-06-03 16:05:31] INFO root fetch - processPackages [rabbit-library]: executing diffoscope
+[2024-06-03 16:05:31] INFO root fetch - processPackages [rabbit-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbit_library-1.0.6.tar.gz tmp/rabbit_library-1.0.7.tar.gz --markdown 20240603/r/rabbit-library/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-06-03 16:05:31] INFO root fetch - processPackages [pylake]: executing diffoscope
+[2024-06-03 16:05:31] INFO root fetch - processPackages [pylake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylake-0.1.6.tar.gz tmp/pylake-0.1.7.tar.gz --markdown 20240603/p/pylake/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 16:05:31] INFO root fetch - processPackages [prlearn]: executing diffoscope
+[2024-06-03 16:05:31] INFO root fetch - processPackages [prlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prlearn-0.1.0.tar.gz tmp/prlearn-0.1.1.tar.gz --markdown 20240603/p/prlearn/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 16:05:31] INFO root fetch - processPackages [streamstats-access]: Remove: archive file [/home/abi/fetcher/tmp/streamstats_access-0.1.6.tar.gz]
+[2024-06-03 16:05:31] INFO root fetch - processPackages [streamstats-access]: Remove: archive file [/home/abi/fetcher/tmp/streamstats_access-0.1.7.tar.gz]
+[2024-06-03 16:05:31] INFO root fetch - main [MainThread]: End processing [streamstats-access]: success
+[2024-06-03 16:05:31] INFO root fetch - processPackages [wandb-workspaces]: Remove: archive file [/home/abi/fetcher/tmp/wandb_workspaces-0.1.2.tar.gz]
+[2024-06-03 16:05:31] INFO root fetch - processPackages [wandb-workspaces]: Remove: archive file [/home/abi/fetcher/tmp/wandb_workspaces-0.1.3.tar.gz]
+[2024-06-03 16:05:31] INFO root fetch - main [MainThread]: End processing [wandb-workspaces]: success
+[2024-06-03 16:05:32] INFO root fetch - processPackages [prlearn]: Remove: archive file [/home/abi/fetcher/tmp/prlearn-0.1.0.tar.gz]
+[2024-06-03 16:05:32] INFO root fetch - processPackages [prlearn]: Remove: archive file [/home/abi/fetcher/tmp/prlearn-0.1.1.tar.gz]
+[2024-06-03 16:05:32] INFO root fetch - main [MainThread]: End processing [prlearn]: success
+[2024-06-03 16:05:32] INFO root fetch - processPackages [rabbit-library]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_library-1.0.6.tar.gz]
+[2024-06-03 16:05:32] INFO root fetch - processPackages [rabbit-library]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_library-1.0.7.tar.gz]
+[2024-06-03 16:05:32] INFO root fetch - main [MainThread]: End processing [rabbit-library]: success
+[2024-06-03 16:05:32] INFO root fetch - processPackages [pylake]: Remove: archive file [/home/abi/fetcher/tmp/pylake-0.1.6.tar.gz]
+[2024-06-03 16:05:32] INFO root fetch - processPackages [pylake]: Remove: archive file [/home/abi/fetcher/tmp/pylake-0.1.7.tar.gz]
+[2024-06-03 16:05:32] INFO root fetch - main [MainThread]: End processing [pylake]: success
+[2024-06-03 16:05:32] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev9348340929.tar.gz]
+[2024-06-03 16:05:32] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev9351264696.tar.gz]
+[2024-06-03 16:05:32] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-06-03 16:05:32] INFO root fetch - main [MainThread]: Store serial: [23503896]
