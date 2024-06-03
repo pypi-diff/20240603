@@ -7968,3 +7968,33 @@ EOFError: EOF read where object expected
 [2024-06-03 08:53:15] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.9.tar.gz]
 [2024-06-03 08:53:15] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
 [2024-06-03 08:53:15] INFO root fetch - main [MainThread]: Store serial: [23497489]
+[2024-06-03 08:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497489]
+[2024-06-03 08:55:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timevery
+[2024-06-03 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zenodo-backpack
+[2024-06-03 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiegcmpy
+[2024-06-03 08:55:24] INFO root fetch - processPackages [tiegcmpy]: New version: [1.3.0] Old Version: [1.2.7]
+[2024-06-03 08:55:24] INFO root fetch - processPackages [timevery]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 08:55:24] INFO root fetch - processPackages [zenodo-backpack]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-06-03 08:55:24] INFO root fetch - processPackages [timevery]: Downloading https://files.pythonhosted.org/packages/6d/86/fb6a463ddeb7b1f5f1aa8e7b145a446c4081eed79168bf7f02b0ac808157/timevery-0.0.2.tar.gz
+[2024-06-03 08:55:24] INFO root fetch - processPackages [zenodo-backpack]: Downloading https://files.pythonhosted.org/packages/42/1c/b1452ded9a1dd37aa92ddaee9419ded3afcd9f0989c0fc860ceb5a6f88eb/zenodo_backpack-0.3.0.tar.gz
+[2024-06-03 08:55:24] INFO root fetch - processPackages [tiegcmpy]: Downloading https://files.pythonhosted.org/packages/4b/f1/b11a53d9b120dba031f7dbfdee6f63da6c7d36a0308e138ac69f3869f60b/tiegcmpy-1.2.7.tar.gz
+[2024-06-03 08:55:24] INFO root fetch - processPackages [zenodo-backpack]: Downloading https://files.pythonhosted.org/packages/68/db/18442f73f4321459b3507ad723b90e7500e80608a194e2f2ab7d132033e6/zenodo_backpack-0.3.1.tar.gz
+[2024-06-03 08:55:24] INFO root fetch - processPackages [timevery]: Downloading https://files.pythonhosted.org/packages/c4/35/eb39bd1599c119800feff903839ef60c69dc9b5dd8d98c2448819993cf3d/timevery-0.0.3.tar.gz
+[2024-06-03 08:55:24] INFO root fetch - processPackages [tiegcmpy]: Downloading https://files.pythonhosted.org/packages/ef/14/c44f4ba5ab0e72ada75a6ca32f16c1f979c98ac74e13832bc35bb3a819a5/tiegcmpy-1.3.0.tar.gz
+[2024-06-03 08:55:24] INFO root fetch - processPackages [timevery]: executing diffoscope
+[2024-06-03 08:55:24] INFO root fetch - processPackages [timevery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timevery-0.0.2.tar.gz tmp/timevery-0.0.3.tar.gz --markdown 20240603/t/timevery/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 08:55:24] INFO root fetch - processPackages [zenodo-backpack]: executing diffoscope
+[2024-06-03 08:55:24] INFO root fetch - processPackages [zenodo-backpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenodo_backpack-0.3.0.tar.gz tmp/zenodo_backpack-0.3.1.tar.gz --markdown 20240603/z/zenodo-backpack/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-06-03 08:55:24] INFO root fetch - processPackages [tiegcmpy]: executing diffoscope
+[2024-06-03 08:55:24] INFO root fetch - processPackages [tiegcmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiegcmpy-1.2.7.tar.gz tmp/tiegcmpy-1.3.0.tar.gz --markdown 20240603/t/tiegcmpy/1.2.7-1.3.0/README.md --exclude *.pyd
+[2024-06-03 08:55:25] INFO root fetch - processPackages [timevery]: Remove: archive file [/home/abi/fetcher/tmp/timevery-0.0.2.tar.gz]
+[2024-06-03 08:55:25] INFO root fetch - processPackages [timevery]: Remove: archive file [/home/abi/fetcher/tmp/timevery-0.0.3.tar.gz]
+[2024-06-03 08:55:25] INFO root fetch - main [MainThread]: End processing [timevery]: success
+[2024-06-03 08:55:25] INFO root fetch - processPackages [zenodo-backpack]: Remove: archive file [/home/abi/fetcher/tmp/zenodo_backpack-0.3.0.tar.gz]
+[2024-06-03 08:55:25] INFO root fetch - processPackages [zenodo-backpack]: Remove: archive file [/home/abi/fetcher/tmp/zenodo_backpack-0.3.1.tar.gz]
+[2024-06-03 08:55:25] INFO root fetch - main [MainThread]: End processing [zenodo-backpack]: success
+[2024-06-03 08:55:25] INFO root fetch - processPackages [tiegcmpy]: Remove: archive file [/home/abi/fetcher/tmp/tiegcmpy-1.2.7.tar.gz]
+[2024-06-03 08:55:25] INFO root fetch - processPackages [tiegcmpy]: Remove: archive file [/home/abi/fetcher/tmp/tiegcmpy-1.3.0.tar.gz]
+[2024-06-03 08:55:25] INFO root fetch - main [MainThread]: End processing [tiegcmpy]: success
+[2024-06-03 08:55:25] INFO root fetch - main [MainThread]: Store serial: [23497498]
