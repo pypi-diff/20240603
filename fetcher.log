@@ -5755,3 +5755,33 @@ EOFError: EOF read where object expected
 [2024-06-03 06:28:32] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.3.0.tar.gz]
 [2024-06-03 06:28:32] INFO root fetch - main [MainThread]: End processing [bipsea]: success
 [2024-06-03 06:28:32] INFO root fetch - main [MainThread]: Store serial: [23496657]
+[2024-06-03 06:30:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496657]
+[2024-06-03 06:30:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-115
+[2024-06-03 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blueness
+[2024-06-03 06:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toyai
+[2024-06-03 06:30:40] INFO root fetch - processPackages [python-115]: New version: [0.0.8.7.9] Old Version: [0.0.8.7.8]
+[2024-06-03 06:30:40] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-06-03 06:30:40] INFO root fetch - processPackages [toyai]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-06-03 06:30:40] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-06-03 06:30:40] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/c3/b4/a3e553ae98c9902f23fe6e5a44eb39e97a3e0703e10e55ffd540a644f30e/python_115-0.0.8.7.8.tar.gz
+[2024-06-03 06:30:40] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/3b/b8/2f77756916107cf9ee7e96d8a4d94427454840a78a8171e3babda3bb5aaa/toyai-0.1.7-py3-none-any.whl
+[2024-06-03 06:30:40] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-06-03 06:30:40] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/4b/e8/676d27c9c1f5b0f58be2fe32d1d14ee98cd47352b8cb2b14543e96d68238/python_115-0.0.8.7.9.tar.gz
+[2024-06-03 06:30:40] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-06-03 06:30:40] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240603/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-06-03 06:30:41] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/fd/4c/821633199a44bf39d8ff3afa6002dbead461d9d66884ceb45606f2bb8c51/toyai-0.1.8-py3-none-any.whl
+[2024-06-03 06:30:41] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-06-03 06:30:41] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.7.8.tar.gz tmp/python_115-0.0.8.7.9.tar.gz --markdown 20240603/p/python-115/0.0.8.7.8-0.0.8.7.9/README.md --exclude *.pyd
+[2024-06-03 06:30:41] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 06:30:41] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.7-py3-none-any.whl.zip tmp/toyai-0.1.8-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-06-03 06:30:41] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-06-03 06:30:41] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-06-03 06:30:41] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-06-03 06:30:41] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.8.tar.gz]
+[2024-06-03 06:30:41] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.9.tar.gz]
+[2024-06-03 06:30:41] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-06-03 06:30:41] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.7-py3-none-any.whl.zip]
+[2024-06-03 06:30:41] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.8-py3-none-any.whl.zip]
+[2024-06-03 06:30:41] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 06:30:41] INFO root fetch - main [MainThread]: Store serial: [23496665]
