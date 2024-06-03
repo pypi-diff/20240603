@@ -10392,3 +10392,38 @@ EOFError: EOF read where object expected
 [2024-06-03 10:43:56] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202406030834.tar.gz]
 [2024-06-03 10:43:56] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
 [2024-06-03 10:43:56] INFO root fetch - main [MainThread]: Store serial: [23498723]
+[2024-06-03 10:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498723]
+[2024-06-03 10:46:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asktable
+[2024-06-03 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cgal
+[2024-06-03 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2024-06-03 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynamicdl-headless
+[2024-06-03 10:46:05] INFO root fetch - processPackages [asktable]: New version: [0.17.6] Old Version: [0.17.5]
+[2024-06-03 10:46:05] INFO root fetch - processPackages [dynamicdl-headless]: New version: [0.1.1a0] Old Version: [0.1.0a0]
+[2024-06-03 10:46:05] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240603] Old Version: [2.17.0.dev20240602]
+[2024-06-03 10:46:05] INFO root fetch - processPackages [cgal]: New version: [5.6.post202402191743] Old Version: [5.6.post202402071826]
+[2024-06-03 10:46:05] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/65/4f/d73df8301e54266e7982d6951135c311b4a8433cb9964238b361818bac00/asktable-0.17.5-py3-none-any.whl
+[2024-06-03 10:46:05] INFO root fetch - processPackages [dynamicdl-headless]: Downloading https://files.pythonhosted.org/packages/e2/a7/1b0a3f70d9739d9ff2024bde0a3d47b7393a1770d0cd6e79bedc54c32f9d/dynamicdl_headless-0.1.0a0.tar.gz
+[2024-06-03 10:46:05] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/13/3a/e47dd67570fa105947d48a2380f973b6d2b57c21e539c6b277a967eb2742/tf_nightly_cpu-2.17.0.dev20240602-cp39-cp39-win_amd64.whl
+[2024-06-03 10:46:06] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/1c/47/11f5dbe061b84040f5a04d69607dda774612ff27c495f15aded0a87f49a4/asktable-0.17.6-py3-none-any.whl
+[2024-06-03 10:46:06] INFO root fetch - processPackages [cgal]: Downloading https://files.pythonhosted.org/packages/d8/54/df8b33d38436604a3975b51cd63c56d9a4a7ca75f8615cb6c5308a87cc28/cgal-5.6.post202402191743-cp39-cp39-win_amd64.whl
+[2024-06-03 10:46:06] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ae/8f/ad9584cf2aacf3b0dc8135f65a2ca99e9dca5cbacd48f8c788048b45085c/tf_nightly_cpu-2.17.0.dev20240603-cp39-cp39-win_amd64.whl
+[2024-06-03 10:46:06] INFO root fetch - processPackages [dynamicdl-headless]: Downloading https://files.pythonhosted.org/packages/c8/45/43560091bb462f9c3c5de4a48f37ff62b64dec6b7dd4ede24a09a831c3f7/dynamicdl_headless-0.1.1a0.tar.gz
+[2024-06-03 10:46:06] WARNING root fetch - processPackages [cgal]: Skipping package: exceeds size limit 29338622>=10485760
+[2024-06-03 10:46:06] INFO root fetch - main [MainThread]: End processing [cgal] error
+[2024-06-03 10:46:06] INFO root fetch - processPackages [asktable]: executing diffoscope
+[2024-06-03 10:46:06] INFO root fetch - processPackages [asktable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asktable-0.17.5-py3-none-any.whl.zip tmp/asktable-0.17.6-py3-none-any.whl.zip --markdown 20240603/a/asktable/0.17.5-0.17.6/README.md --exclude *.pyd
+[2024-06-03 10:46:06] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-06-03 10:46:06] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240602-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240603-cp39-cp39-win_amd64.whl.zip --markdown 20240603/t/tf-nightly-cpu/2.17.0.dev20240602-2.17.0.dev20240603/README.md --exclude *.pyd
+[2024-06-03 10:46:06] INFO root fetch - processPackages [dynamicdl-headless]: executing diffoscope
+[2024-06-03 10:46:06] INFO root fetch - processPackages [dynamicdl-headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicdl_headless-0.1.0a0.tar.gz tmp/dynamicdl_headless-0.1.1a0.tar.gz --markdown 20240603/d/dynamicdl-headless/0.1.0a0-0.1.1a0/README.md --exclude *.pyd
+[2024-06-03 10:46:06] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240602-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 10:46:06] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240603-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 10:46:06] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-06-03 10:46:07] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.17.5-py3-none-any.whl.zip]
+[2024-06-03 10:46:07] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.17.6-py3-none-any.whl.zip]
+[2024-06-03 10:46:07] INFO root fetch - main [MainThread]: End processing [asktable]: success
+[2024-06-03 10:46:07] INFO root fetch - processPackages [dynamicdl-headless]: Remove: archive file [/home/abi/fetcher/tmp/dynamicdl_headless-0.1.0a0.tar.gz]
+[2024-06-03 10:46:07] INFO root fetch - processPackages [dynamicdl-headless]: Remove: archive file [/home/abi/fetcher/tmp/dynamicdl_headless-0.1.1a0.tar.gz]
+[2024-06-03 10:46:07] INFO root fetch - main [MainThread]: End processing [dynamicdl-headless]: success
+[2024-06-03 10:46:07] INFO root fetch - main [MainThread]: Store serial: [23498763]
