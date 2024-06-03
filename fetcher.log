@@ -7149,3 +7149,33 @@ EOFError: EOF read where object expected
 [2024-06-03 07:57:43] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.78.1.tar.gz]
 [2024-06-03 07:57:43] INFO root fetch - main [MainThread]: End processing [kamangir]: success
 [2024-06-03 07:57:43] INFO root fetch - main [MainThread]: Store serial: [23497170]
+[2024-06-03 07:59:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497170]
+[2024-06-03 07:59:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 07:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhousf-lib
+[2024-06-03 07:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athina
+[2024-06-03 07:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hubblescope
+[2024-06-03 07:59:51] INFO root fetch - processPackages [athina]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-06-03 07:59:51] INFO root fetch - processPackages [zhousf-lib]: New version: [1.6.0] Old Version: [1.5.8]
+[2024-06-03 07:59:51] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/57/3b/10f971237e661143090b199a57c9b2eb71f11c5472d0122281f9667b26a1/athina-1.4.3.tar.gz
+[2024-06-03 07:59:51] INFO root fetch - processPackages [hubblescope]: New version: [4.8.1] Old Version: [4.6.1]
+[2024-06-03 07:59:51] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/cd/19/60862a6d657ead8f4d24b92dc3defef3c9ccc25cb64566ba571152fbc2be/zhousf-lib-1.5.8.tar.gz
+[2024-06-03 07:59:52] INFO root fetch - processPackages [hubblescope]: Downloading https://files.pythonhosted.org/packages/b5/6f/4f0a41f0d92645c658e6ac840df2f52567ed4a8a759e20090563ebe58108/hubblescope-4.6.1.tar.gz
+[2024-06-03 07:59:52] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/ec/ab/3a0049a4475590dd9d5328d0c712ca15b957f7a7c300275c4efca03220a3/athina-1.4.4.tar.gz
+[2024-06-03 07:59:52] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-06-03 07:59:52] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.4.3.tar.gz tmp/athina-1.4.4.tar.gz --markdown 20240603/a/athina/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-06-03 07:59:52] INFO root fetch - processPackages [hubblescope]: Downloading https://files.pythonhosted.org/packages/78/9a/5ed5f10da658c0d47a86d64ecd6655197cc75c0317ba317b9c6f82be243d/hubblescope-4.8.1.tar.gz
+[2024-06-03 07:59:52] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/74/e7/700bc2d324db2f9b8d7da47c481166892d97dc08d8430973631b12739ecb/zhousf-lib-1.6.0.tar.gz
+[2024-06-03 07:59:52] INFO root fetch - processPackages [hubblescope]: executing diffoscope
+[2024-06-03 07:59:52] INFO root fetch - processPackages [hubblescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubblescope-4.6.1.tar.gz tmp/hubblescope-4.8.1.tar.gz --markdown 20240603/h/hubblescope/4.6.1-4.8.1/README.md --exclude *.pyd
+[2024-06-03 07:59:52] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2024-06-03 07:59:52] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-1.5.8.tar.gz tmp/zhousf-lib-1.6.0.tar.gz --markdown 20240603/z/zhousf-lib/1.5.8-1.6.0/README.md --exclude *.pyd
+[2024-06-03 07:59:53] INFO root fetch - processPackages [hubblescope]: Remove: archive file [/home/abi/fetcher/tmp/hubblescope-4.6.1.tar.gz]
+[2024-06-03 07:59:53] INFO root fetch - processPackages [hubblescope]: Remove: archive file [/home/abi/fetcher/tmp/hubblescope-4.8.1.tar.gz]
+[2024-06-03 07:59:53] INFO root fetch - main [MainThread]: End processing [hubblescope]: success
+[2024-06-03 07:59:53] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.4.3.tar.gz]
+[2024-06-03 07:59:53] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.4.4.tar.gz]
+[2024-06-03 07:59:53] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-06-03 07:59:54] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.8.tar.gz]
+[2024-06-03 07:59:54] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.6.0.tar.gz]
+[2024-06-03 07:59:54] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2024-06-03 07:59:54] INFO root fetch - main [MainThread]: Store serial: [23497180]
