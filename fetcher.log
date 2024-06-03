@@ -13090,3 +13090,102 @@ EOFError: EOF read where object expected
 [2024-06-03 12:03:20] INFO root fetch - processPackages [ros-cdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecs-1.0.9.tar.gz]
 [2024-06-03 12:03:20] INFO root fetch - main [MainThread]: End processing [ros-cdk-ecs]: success
 [2024-06-03 12:03:20] INFO root fetch - main [MainThread]: Store serial: [23500094]
+[2024-06-03 12:05:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500094]
+[2024-06-03 12:05:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Docs2KG
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdog
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roastery
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: richie
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GridCalEngine
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dj-all-auth
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GridCal
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudquery-plugin-sdk
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GridCalServer
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-kafka
+[2024-06-03 12:05:31] INFO root fetch - processPackages [dj-all-auth]: New version: [0.1b1] Old Version: [0.1b0]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [cloudquery-plugin-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [GridCalEngine]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-06-03 12:05:31] WARNING root fetch - processPackages [Docs2KG]: Skipping, unable to determine old version
+[2024-06-03 12:05:31] INFO root fetch - processPackages [Docs2KG]: Start processing: ros-cdk-flink
+[2024-06-03 12:05:31] INFO root fetch - main [MainThread]: End processing [Docs2KG] error
+[2024-06-03 12:05:31] INFO root fetch - processPackages [GridCalServer]: New version: [5.1.9] Old Version: [5.1.11]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [roastery]: New version: [0.20240603.dev0] Old Version: [0.20240531.dev1]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ros-cdk-kafka]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [fdog]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [GridCal]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [dj-all-auth]: Downloading https://files.pythonhosted.org/packages/5d/da/05934e4521e6192c1388ca47b58a90ea9184c7b7721e4d52bb145494441a/dj_all_auth-0.1b0.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ros-cdk-flink]: New version: [1.0.9] Old Version: [1.0.25]
+[2024-06-03 12:05:31] INFO root fetch - processPackages [GridCalServer]: Downloading https://files.pythonhosted.org/packages/52/95/f1bd31918b4d5e9abe3d8a269b0783d6f69459bd9be37661fdf4f6b2766c/GridCalServer-5.1.11.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/8d/fb/733720cbd77f5285dbf2d5e27b1c0aaaa06ff7792bcb8073c0ee5339ca57/cloudquery-plugin-sdk-0.1.8.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [GridCalEngine]: Downloading https://files.pythonhosted.org/packages/24/b6/63a8050482a9c2f535d84b8333f29ad9be80ed1d836dc8e77f4eb2d2c103/GridCalEngine-5.1.8.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [GridCal]: Downloading https://files.pythonhosted.org/packages/1c/72/446dd743e7e9453a02cf7952b69f15042af65f71c80168d3ad6fd44d3820/GridCal-5.1.8.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/31/0b/604a3f559b6bb6057ea5c488e4d60d874655478186e371f04d7f3813bf41/roastery-0.20240531.dev1.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [fdog]: Downloading https://files.pythonhosted.org/packages/a3/96/e80531f9b64a2bfdde4aafa10e4dae4c4b1288107b471338f546d298cca7/fdog-0.1.8.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ros-cdk-kafka]: Downloading https://files.pythonhosted.org/packages/a3/99/c40da094f8be49c3470e220bbe6f6af2a035df2d0cf91637a4591129356b/ros-cdk-kafka-1.0.8.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [ros-cdk-flink]: Downloading https://files.pythonhosted.org/packages/d9/60/9290ad481dc987f0db4a5d100b879d02a828f7b213f1aec849947f7edcb3/ros-cdk-flink-1.0.25.tar.gz
+[2024-06-03 12:05:31] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [dj-all-auth]: Downloading https://files.pythonhosted.org/packages/ed/42/de1d4d6aaedb234c10eecb5a12a8f2adf4b78a5d8f3c6fb093004df7000e/dj_all_auth-0.1b1.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/05/dd/0462f062ce579c3d91af881cc72873b51b63a963fc6e8cfc436135ef582a/cloudquery-plugin-sdk-0.1.9.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/21/de/66a69e0c30327b292cb08098b431d9e4d103b79d4f5dc947a29f6a838d9b/roastery-0.20240603.dev0.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [fdog]: Downloading https://files.pythonhosted.org/packages/a4/13/402b01e3227678921c619da9ab8eb4399d3a11dba161163518f064df54d3/fdog-0.1.9.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCalEngine]: Downloading https://files.pythonhosted.org/packages/4f/d5/c5f576744f36f8b9db4aa02d3164d9a082be910b26d2c7c710bd6c52f530/GridCalEngine-5.1.9.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCalServer]: Downloading https://files.pythonhosted.org/packages/1b/c1/436dd261f63d7cd9a7a2740dfb77eef621e5dc315b5029ccbcc329e63d6a/GridCalServer-5.1.9.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [dj-all-auth]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [dj-all-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_all_auth-0.1b0.tar.gz tmp/dj_all_auth-0.1b1.tar.gz --markdown 20240603/d/dj-all-auth/0.1b0-0.1b1/README.md --exclude *.pyd
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCal]: Downloading https://files.pythonhosted.org/packages/79/ac/f3a34a2010feeceb9dd19ae5f26659bcd5b65a0c14532dc6f24ea1ead0bd/GridCal-5.1.9.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240603/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-06-03 12:05:32] INFO root fetch - processPackages [cloudquery-plugin-sdk]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [cloudquery-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-sdk-0.1.8.tar.gz tmp/cloudquery-plugin-sdk-0.1.9.tar.gz --markdown 20240603/c/cloudquery-plugin-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 12:05:32] INFO root fetch - processPackages [roastery]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [roastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roastery-0.20240531.dev1.tar.gz tmp/roastery-0.20240603.dev0.tar.gz --markdown 20240603/r/roastery/0.20240531.dev1-0.20240603.dev0/README.md --exclude *.pyd
+[2024-06-03 12:05:32] INFO root fetch - processPackages [fdog]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [fdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdog-0.1.8.tar.gz tmp/fdog-0.1.9.tar.gz --markdown 20240603/f/fdog/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 12:05:32] INFO root fetch - processPackages [ros-cdk-kafka]: Downloading https://files.pythonhosted.org/packages/c5/51/5727735ae9a6c3a2ec45a2f27a7668e524d6066953bd376dbfadea5eebd6/ros-cdk-kafka-1.0.9.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCalServer]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCalServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GridCalServer-5.1.11.tar.gz tmp/GridCalServer-5.1.9.tar.gz --markdown 20240603/G/GridCalServer/5.1.11-5.1.9/README.md --exclude *.pyd
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCalEngine]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCalEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GridCalEngine-5.1.8.tar.gz tmp/GridCalEngine-5.1.9.tar.gz --markdown 20240603/G/GridCalEngine/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-06-03 12:05:32] INFO root fetch - processPackages [ros-cdk-flink]: Downloading https://files.pythonhosted.org/packages/f2/00/f5879934bb70a838d477bc00430b57a3ea9532957136a859951f55675817/ros-cdk-flink-1.0.9.tar.gz
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCal]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [GridCal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GridCal-5.1.8.tar.gz tmp/GridCal-5.1.9.tar.gz --markdown 20240603/G/GridCal/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-06-03 12:05:32] INFO root fetch - processPackages [ros-cdk-kafka]: executing diffoscope
+[2024-06-03 12:05:32] INFO root fetch - processPackages [ros-cdk-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-kafka-1.0.8.tar.gz tmp/ros-cdk-kafka-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-kafka/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:05:33] INFO root fetch - processPackages [dj-all-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj_all_auth-0.1b0.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - processPackages [dj-all-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj_all_auth-0.1b1.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - processPackages [dj-all-auth]: Start processing: AITrafficLab
+[2024-06-03 12:05:33] INFO root fetch - main [MainThread]: End processing [dj-all-auth]: success
+[2024-06-03 12:05:33] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240531.dev1.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240603.dev0.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - main [MainThread]: End processing [roastery]: success
+[2024-06-03 12:05:33] INFO root fetch - processPackages [GridCalServer]: Remove: archive file [/home/abi/fetcher/tmp/GridCalServer-5.1.11.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - processPackages [GridCalServer]: Remove: archive file [/home/abi/fetcher/tmp/GridCalServer-5.1.9.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - main [MainThread]: End processing [GridCalServer]: success
+[2024-06-03 12:05:33] WARNING root fetch - processPackages [AITrafficLab]: Skipping, unable to determine old version
+[2024-06-03 12:05:33] INFO root fetch - main [MainThread]: End processing [AITrafficLab] error
+[2024-06-03 12:05:33] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.8.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
+[2024-06-03 12:05:33] INFO root fetch - processPackages [fdog]: Remove: archive file [/home/abi/fetcher/tmp/fdog-0.1.8.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - processPackages [fdog]: Remove: archive file [/home/abi/fetcher/tmp/fdog-0.1.9.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - main [MainThread]: End processing [fdog]: success
+[2024-06-03 12:05:33] INFO root fetch - processPackages [ros-cdk-kafka]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kafka-1.0.8.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - processPackages [ros-cdk-kafka]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kafka-1.0.9.tar.gz]
+[2024-06-03 12:05:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-kafka]: success
+[2024-06-03 12:05:34] INFO root fetch - processPackages [ros-cdk-flink]: executing diffoscope
+[2024-06-03 12:05:34] INFO root fetch - processPackages [ros-cdk-flink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-flink-1.0.25.tar.gz tmp/ros-cdk-flink-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-flink/1.0.25-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:05:34] INFO root fetch - processPackages [ros-cdk-flink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-flink-1.0.25.tar.gz]
+[2024-06-03 12:05:34] INFO root fetch - processPackages [ros-cdk-flink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-flink-1.0.9.tar.gz]
+[2024-06-03 12:05:34] INFO root fetch - main [MainThread]: End processing [ros-cdk-flink]: success
+[2024-06-03 12:05:35] INFO root fetch - processPackages [GridCal]: Remove: archive file [/home/abi/fetcher/tmp/GridCal-5.1.8.tar.gz]
+[2024-06-03 12:05:35] INFO root fetch - processPackages [GridCal]: Remove: archive file [/home/abi/fetcher/tmp/GridCal-5.1.9.tar.gz]
+[2024-06-03 12:05:35] INFO root fetch - main [MainThread]: End processing [GridCal]: success
+[2024-06-03 12:05:38] INFO root fetch - processPackages [GridCalEngine]: Remove: archive file [/home/abi/fetcher/tmp/GridCalEngine-5.1.8.tar.gz]
+[2024-06-03 12:05:38] INFO root fetch - processPackages [GridCalEngine]: Remove: archive file [/home/abi/fetcher/tmp/GridCalEngine-5.1.9.tar.gz]
+[2024-06-03 12:05:38] INFO root fetch - main [MainThread]: End processing [GridCalEngine]: success
+[2024-06-03 12:07:27] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-06-03 12:07:27] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-06-03 12:07:27] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-06-03 12:07:27] INFO root fetch - main [MainThread]: Store serial: [23500130]
