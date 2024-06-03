@@ -3464,3 +3464,9 @@ EOFError: EOF read where object expected
 [2024-06-03 04:13:59] INFO root fetch - processPackages [spiritlong]: Remove: archive file [/home/abi/fetcher/tmp/spiritlong-0.0.9.tar.gz]
 [2024-06-03 04:13:59] INFO root fetch - main [MainThread]: End processing [spiritlong]: success
 [2024-06-03 04:13:59] INFO root fetch - main [MainThread]: Store serial: [23495596]
+[2024-06-03 04:16:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495596]
+[2024-06-03 04:16:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 04:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: validation-framework
+[2024-06-03 04:16:08] WARNING root fetch - processPackages [validation-framework]: Skipping, unable to determine old version
+[2024-06-03 04:16:08] INFO root fetch - main [MainThread]: End processing [validation-framework] error
+[2024-06-03 04:16:08] INFO root fetch - main [MainThread]: Store serial: [23495599]
