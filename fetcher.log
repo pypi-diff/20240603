@@ -7577,3 +7577,33 @@ EOFError: EOF read where object expected
 [2024-06-03 08:28:27] INFO root fetch - processPackages [odoo14-addon-sale-order-report-without-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_report_without_price-14.0.1.0.2.dev3-py3-none-any.whl.zip]
 [2024-06-03 08:28:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-report-without-price]: success
 [2024-06-03 08:28:27] INFO root fetch - main [MainThread]: Store serial: [23497337]
+[2024-06-03 08:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497337]
+[2024-06-03 08:30:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 08:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-tmmis
+[2024-06-03 08:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-core
+[2024-06-03 08:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docmesh-server
+[2024-06-03 08:30:36] INFO root fetch - processPackages [django-tmmis]: New version: [0.3.8] Old Version: [0.3.7.dev5]
+[2024-06-03 08:30:36] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/5e/c3/1d7c25b51826dddee246e43dbe65dd68063b87b85874c4c575f172b4c2ac/django_tmmis-0.3.7.dev5.tar.gz
+[2024-06-03 08:30:36] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 08:30:36] INFO root fetch - processPackages [docmesh-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 08:30:36] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/fc/76/ee492e00e25ab8e40842eb0c6def2ceb5aa04bf4a8c103d0105039703eee/docmesh_server-0.0.8.tar.gz
+[2024-06-03 08:30:36] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/a3/79/d9bc004bfc279a44ed20456d2291276a0531edffff8ccdb16e8541ea48ca/docmesh_core-0.0.8.tar.gz
+[2024-06-03 08:30:36] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/55/5c/9ee6d64b98f474a483d9e7fd744829513ade9aac2bb8cb0890dfd5789e5a/django_tmmis-0.3.8.tar.gz
+[2024-06-03 08:30:36] INFO root fetch - processPackages [django-tmmis]: executing diffoscope
+[2024-06-03 08:30:36] INFO root fetch - processPackages [django-tmmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tmmis-0.3.7.dev5.tar.gz tmp/django_tmmis-0.3.8.tar.gz --markdown 20240603/d/django-tmmis/0.3.7.dev5-0.3.8/README.md --exclude *.pyd
+[2024-06-03 08:30:36] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/d6/89/4e5e06acbd9fd64c128954c7f0f43c0b5423e73d15cb7075e3e4d27c55f4/docmesh_core-0.0.9.tar.gz
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/11/18/42e4c8bb081f5bfe70332fd6c6252caa8b4d797064b3ede40fd1156ff7c1/docmesh_server-0.0.9.tar.gz
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.8.tar.gz tmp/docmesh_core-0.0.9.tar.gz --markdown 20240603/d/docmesh-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-server]: executing diffoscope
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_server-0.0.8.tar.gz tmp/docmesh_server-0.0.9.tar.gz --markdown 20240603/d/docmesh-server/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 08:30:37] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.7.dev5.tar.gz]
+[2024-06-03 08:30:37] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.8.tar.gz]
+[2024-06-03 08:30:37] INFO root fetch - main [MainThread]: End processing [django-tmmis]: success
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.8.tar.gz]
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.9.tar.gz]
+[2024-06-03 08:30:37] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.8.tar.gz]
+[2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.9.tar.gz]
+[2024-06-03 08:30:37] INFO root fetch - main [MainThread]: End processing [docmesh-server]: success
+[2024-06-03 08:30:37] INFO root fetch - main [MainThread]: Store serial: [23497346]
