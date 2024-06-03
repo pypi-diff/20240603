@@ -3085,3 +3085,49 @@ EOFError: EOF read where object expected
 [2024-06-03 03:45:02] INFO root fetch - processPackages [django-image-crop]: Remove: archive file [/home/abi/fetcher/tmp/django-image-crop-0.0.3.tar.gz]
 [2024-06-03 03:45:02] INFO root fetch - main [MainThread]: End processing [django-image-crop]: success
 [2024-06-03 03:45:02] INFO root fetch - main [MainThread]: Store serial: [23495466]
+[2024-06-03 03:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495466]
+[2024-06-03 03:47:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 03:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-06-03 03:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paper-qa
+[2024-06-03 03:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abcli
+[2024-06-03 03:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbc-distance-calculator
+[2024-06-03 03:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: misleep
+[2024-06-03 03:47:10] INFO root fetch - processPackages [abcli]: New version: [9.50.1] Old Version: [9.48.1]
+[2024-06-03 03:47:10] INFO root fetch - processPackages [abcli]: New version: [9.50.1] Old Version: [9.48.1]
+[2024-06-03 03:47:10] INFO root fetch - processPackages [pbc-distance-calculator]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-06-03 03:47:10] INFO root fetch - processPackages [paper-qa]: New version: [4.6.1] Old Version: [4.6.0]
+[2024-06-03 03:47:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/b7/bd/7e4afbbc6106226b8b212b3b87bf6d67fbebb6aabe6a4f6afc3f9155abde/abcli-9.48.1.tar.gz
+[2024-06-03 03:47:10] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/b7/bd/7e4afbbc6106226b8b212b3b87bf6d67fbebb6aabe6a4f6afc3f9155abde/abcli-9.48.1.tar.gz
+[2024-06-03 03:47:10] INFO root fetch - processPackages [misleep]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2024-06-03 03:47:11] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/9e/0e/2955b3831630526b4ac7849e4ecfa437b1a035927042d60b8491ad200866/paper_qa-4.6.0.tar.gz
+[2024-06-03 03:47:11] INFO root fetch - processPackages [pbc-distance-calculator]: Downloading https://files.pythonhosted.org/packages/69/84/4e95a04723802b242d6733402c6b195d6aafbeb8c43728ef44bc5a161f9b/pbc_distance_calculator-1.3.2.tar.gz
+[2024-06-03 03:47:11] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7f/3a/89948badfdd3195fcb1270a44a35f68d363aad791d8ec32a80130806c843/abcli-9.50.1.tar.gz
+[2024-06-03 03:47:11] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/f3/47/f653d75352f8c2ee8dfc5526703d449c533fbf7f783118be11f1f61f9309/misleep-0.2.5b0.tar.gz
+[2024-06-03 03:47:11] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/7f/3a/89948badfdd3195fcb1270a44a35f68d363aad791d8ec32a80130806c843/abcli-9.50.1.tar.gz
+[2024-06-03 03:47:11] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 03:47:11] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.48.1.tar.gz tmp/abcli-9.50.1.tar.gz --markdown 20240603/a/abcli/9.48.1-9.50.1/README.md --exclude *.pyd
+[2024-06-03 03:47:11] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 03:47:11] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.48.1.tar.gz tmp/abcli-9.50.1.tar.gz --markdown 20240603/a/abcli/9.48.1-9.50.1/README.md --exclude *.pyd
+[2024-06-03 03:47:11] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/3b/84/48cb32d38e68887d593e1bcc75415282a557d048c3eedaf7ada4bec56978/paper_qa-4.6.1.tar.gz
+[2024-06-03 03:47:11] INFO root fetch - processPackages [pbc-distance-calculator]: Downloading https://files.pythonhosted.org/packages/17/2b/49a5b8213bcf17a79522dee097d09c7fb2e34ca23b4ec6f40a77d6fd332f/pbc_distance_calculator-1.3.3.tar.gz
+[2024-06-03 03:47:11] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2024-06-03 03:47:11] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper_qa-4.6.0.tar.gz tmp/paper_qa-4.6.1.tar.gz --markdown 20240603/p/paper-qa/4.6.0-4.6.1/README.md --exclude *.pyd
+[2024-06-03 03:47:11] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/15/74/908df3421875552e1a579da2fe610ab716dd725c3f58da4a4001fe0c4282/misleep-0.2.6b0.tar.gz
+[2024-06-03 03:47:11] INFO root fetch - processPackages [pbc-distance-calculator]: executing diffoscope
+[2024-06-03 03:47:11] INFO root fetch - processPackages [pbc-distance-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbc_distance_calculator-1.3.2.tar.gz tmp/pbc_distance_calculator-1.3.3.tar.gz --markdown 20240603/p/pbc-distance-calculator/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-06-03 03:47:11] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-06-03 03:47:11] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.5b0.tar.gz tmp/misleep-0.2.6b0.tar.gz --markdown 20240603/m/misleep/0.2.5b0-0.2.6b0/README.md --exclude *.pyd
+[2024-06-03 03:47:12] INFO root fetch - processPackages [pbc-distance-calculator]: Remove: archive file [/home/abi/fetcher/tmp/pbc_distance_calculator-1.3.2.tar.gz]
+[2024-06-03 03:47:12] INFO root fetch - processPackages [pbc-distance-calculator]: Remove: archive file [/home/abi/fetcher/tmp/pbc_distance_calculator-1.3.3.tar.gz]
+[2024-06-03 03:47:12] INFO root fetch - main [MainThread]: End processing [pbc-distance-calculator]: success
+[2024-06-03 03:47:12] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.48.1.tar.gz]
+[2024-06-03 03:47:12] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.50.1.tar.gz]
+[2024-06-03 03:47:12] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 03:47:12] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 03:47:12] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper_qa-4.6.0.tar.gz]
+[2024-06-03 03:47:12] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper_qa-4.6.1.tar.gz]
+[2024-06-03 03:47:12] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2024-06-03 03:47:12] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.5b0.tar.gz]
+[2024-06-03 03:47:12] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
+[2024-06-03 03:47:12] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-06-03 03:47:12] INFO root fetch - main [MainThread]: Store serial: [23495480]
