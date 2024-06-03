@@ -20585,3 +20585,207 @@ AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
 [2024-06-03 15:18:42] INFO root fetch - processPackages [darwin-py]: Remove: archive file [/home/abi/fetcher/tmp/darwin_py-0.9.0.tar.gz]
 [2024-06-03 15:18:42] INFO root fetch - main [MainThread]: End processing [darwin-py]: success
 [2024-06-03 15:18:42] INFO root fetch - main [MainThread]: Store serial: [23503035]
+[2024-06-03 15:20:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503035]
+[2024-06-03 15:20:51] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk-preview
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-service-client
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-auth0-component-pw1
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyPLNmodels
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-ui
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vantage6-common
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: msgpack-cxx
+[2024-06-03 15:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-v4-service
+[2024-06-03 15:20:51] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-06-03 15:20:51] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 15:20:51] INFO root fetch - processPackages [vantage6-common]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 15:20:51] WARNING root fetch - processPackages [streamlit-auth0-component-pw1]: Skipping, unable to determine old version
+[2024-06-03 15:20:51] INFO root fetch - processPackages [streamlit-auth0-component-pw1]: Start processing: nucliadb
+[2024-06-03 15:20:51] INFO root fetch - main [MainThread]: End processing [streamlit-auth0-component-pw1] error
+[2024-06-03 15:20:51] INFO root fetch - processPackages [msgpack-cxx]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-06-03 15:20:51] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-06-03 15:20:51] INFO root fetch - processPackages [nucliadb]: New version: [4.0.3.post564] Old Version: [4.0.3.post563]
+[2024-06-03 15:20:51] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-06-03 15:20:51] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-06-03 15:20:51] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/51/b0/7d9557b8945170adab935eafed81fb717ab0a6849909f142dfcf9ab78264/pyPLNmodels-0.0.8.tar.gz
+[2024-06-03 15:20:51] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-06-03 15:20:51] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-06-03 15:20:51] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/67/14/98919512a18c187621f4e47a828c4d0bb05d1c14518e27f5578b8e5ef414/vantage6-common-4.5.0rc3.tar.gz
+[2024-06-03 15:20:51] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-06-03 15:20:52] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b3/d2/a601905b83bd68d213d36facaeea56eecb72f3e956409aa8f4121636cb59/nucliadb-4.0.3.post563-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [msgpack-cxx]: Downloading https://files.pythonhosted.org/packages/c1/30/48b3abee3325dff721f54131953fc194cd3b0cc2d74ff190757fce9a2c2b/msgpack_cxx-6.1.0-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/09/f6/461581aa3df5df687f3412c4e34ee4b73d2e6bffec292b864c2b7703ce20/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/b5/68/4bf2882ecdfd3493ba5557cff1c06d2e527fe7e8ba2963a37bcad30bf714/assemblyline_ui-4.5.1.dev98-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/f2/74/b8237d72f5bff6c82a740d48ec21ed2b8942846129c189028d0c66238da1/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/e9/5c/01c9c0751191f7c8a1219ba8ca8d35521ba24c6f4e0b3b30f123968022a4/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-06-03 15:20:52] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/e9/11/91ed947b5f33290281af6db11df646bc7dcb8902f0295a47a578860a6eb9/vantage6-common-4.5.1.tar.gz
+[2024-06-03 15:20:52] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/d9/ee/b1ce119365c9ee2f1e8f012450c38c4ebaa0ba7795d2a008d8fcde4dfd07/pyPLNmodels-0.0.9.tar.gz
+[2024-06-03 15:20:52] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-06-03 15:20:52] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-4.5.0rc3.tar.gz tmp/vantage6-common-4.5.1.tar.gz --markdown 20240603/v/vantage6-common/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/71/b9/931accceaab4b85f0403f7e1e99c5e67613d62945cec643f8cbe392edb99/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20240603/p/pyPLNmodels/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 15:20:52] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/0a/74/e7773b7f92a0a419e22a45bd2724a3c50673845fc1b324ffa6c8e0ed3269/nucliadb-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240603/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/fb/ac/688fc1bf55eadae3eb16a0bc260554cc144adfd2057b87015cb6e58ed6d9/assemblyline_ui-4.5.1.dev99-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [msgpack-cxx]: Downloading https://files.pythonhosted.org/packages/d2/c7/856dd15984fe6bed8d0618d6c7bcc78454d4be4a13b46b94c26e9f5c80d7/msgpack_cxx-6.1.1-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/56/40/7aa376ad2c2a5e676da4626e03b7f92a1e4368e86ecfac6183027c093511/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/6c/18/d6496f3a9ea60866c419e3c1e5cf618fc2709d7fb2b7dc4bd270f6fcbbc1/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240603/a/assemblyline-service-client/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240603/a/assemblyline-ui/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-06-03 15:20:52] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240603/a/assemblyline-service-server/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-06-03 15:20:52] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.3.post563-py3-none-any.whl.zip tmp/nucliadb-4.0.3.post564-py3-none-any.whl.zip --markdown 20240603/n/nucliadb/4.0.3.post563-4.0.3.post564/README.md --exclude *.pyd
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240603/a/assemblyline-v4-service/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-06-03 15:20:52] INFO root fetch - processPackages [msgpack-cxx]: executing diffoscope
+[2024-06-03 15:20:52] INFO root fetch - processPackages [msgpack-cxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgpack_cxx-6.1.0-py3-none-any.whl.zip tmp/msgpack_cxx-6.1.1-py3-none-any.whl.zip --markdown 20240603/m/msgpack-cxx/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-06-03 15:20:53] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-06-03 15:20:53] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240603/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-06-03 15:20:53] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.8.tar.gz]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.9.tar.gz]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [pyPLNmodels]: Start processing: bus-user
+[2024-06-03 15:20:53] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2024-06-03 15:20:53] INFO root fetch - processPackages [bus-user]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.5.0rc3.tar.gz]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.5.1.tar.gz]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [vantage6-common]: Start processing: substra
+[2024-06-03 15:20:53] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2024-06-03 15:20:53] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: troubadix
+[2024-06-03 15:20:53] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-06-03 15:20:53] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/c8/c3/85c145a0e1f5bf15eab439d6e0deccd96a188ee6654cdac436ac1a9e8be2/bus_user-0.3.7.tar.gz
+[2024-06-03 15:20:53] INFO root fetch - processPackages [troubadix]: New version: [24.6.0] Old Version: [24.5.1]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [substra]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-06-03 15:20:53] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline
+[2024-06-03 15:20:53] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-06-03 15:20:53] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/02/2d/ae2c2292afe623c3bec2e8f9904b64128ccbc6e88e5a6ba41cf58124ea64/troubadix-24.5.1.tar.gz
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline-ui]: Start processing: vantage6-client
+[2024-06-03 15:20:54] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-06-03 15:20:54] INFO root fetch - processPackages [substra]: Downloading https://files.pythonhosted.org/packages/c1/2d/62d507b5e63bb0e3cd624dc4bb5883f9df9428cae7cd0cba68722367b89e/substra-0.8.0.tar.gz
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: nucliadb-dataset
+[2024-06-03 15:20:54] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-06-03 15:20:54] INFO root fetch - processPackages [vantage6-client]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-06-03 15:20:54] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.3.post564] Old Version: [4.0.3.post563]
+[2024-06-03 15:20:54] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/9b/1d/d3cbe537c0a4fe6e1aaeabc2ee76df2541f7b9e06b83b8cf009d7571a4d9/bus_user-0.3.8.tar.gz
+[2024-06-03 15:20:54] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/a3/fd/8d68d7db21f1716e1944ffda301059d51998e7d8c9a6a49994af87d0daf7/troubadix-24.6.0.tar.gz
+[2024-06-03 15:20:54] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/6b/66/b200702127e803ffc07fabe9b01016defd5893c9e2be16b0d726793d52ce/vantage6-client-4.5.0rc3.tar.gz
+[2024-06-03 15:20:54] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/b8/12/522218867eb39bef34544482f75d35936e120af2f11ff6f5ffb603df2c9b/nucliadb_dataset-4.0.3.post563-py3-none-any.whl
+[2024-06-03 15:20:54] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-06-03 15:20:54] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.3.7.tar.gz tmp/bus_user-0.3.8.tar.gz --markdown 20240603/b/bus-user/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/34/47/278f54d1db7121cbbd6fd52ae6b5d912d23bba5564c2358c8df0e487b385/assemblyline-4.5.1.dev98.tar.gz
+[2024-06-03 15:20:54] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2024-06-03 15:20:54] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-24.5.1.tar.gz tmp/troubadix-24.6.0.tar.gz --markdown 20240603/t/troubadix/24.5.1-24.6.0/README.md --exclude *.pyd
+[2024-06-03 15:20:54] INFO root fetch - processPackages [substra]: Downloading https://files.pythonhosted.org/packages/77/94/7ac07b92e6d0a9e079501fd00e84ccda59ae39ff73ac88360496f72aef29/substra-0.9.0.tar.gz
+[2024-06-03 15:20:54] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/43/9d/d775727ac2513c49182033fcd87d7bc8db999ca0761f4e8ca0ff61c3f660/vantage6-client-4.5.1.tar.gz
+[2024-06-03 15:20:54] INFO root fetch - processPackages [substra]: executing diffoscope
+[2024-06-03 15:20:54] INFO root fetch - processPackages [substra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substra-0.8.0.tar.gz tmp/substra-0.9.0.tar.gz --markdown 20240603/s/substra/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-06-03 15:20:54] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2024-06-03 15:20:54] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-4.5.0rc3.tar.gz tmp/vantage6-client-4.5.1.tar.gz --markdown 20240603/v/vantage6-client/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 15:20:54] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d0/13/b3b3d63a342d3e0bc9b155124f577348c92f6d493514171719221e6a6997/nucliadb_dataset-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:20:54] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-06-03 15:20:54] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.3.post563-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.3.post564-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-dataset/4.0.3.post563-4.0.3.post564/README.md --exclude *.pyd
+[2024-06-03 15:20:54] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/93/52/0f9ddbd8f661c94e049b4e11f65e866e0391882dd79699fea9a81ad39665/assemblyline-4.5.1.dev99.tar.gz
+[2024-06-03 15:20:55] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2024-06-03 15:20:55] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.5.1.dev98.tar.gz tmp/assemblyline-4.5.1.dev99.tar.gz --markdown 20240603/a/assemblyline/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-06-03 15:20:55] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.7.tar.gz]
+[2024-06-03 15:20:55] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.8.tar.gz]
+[2024-06-03 15:20:55] INFO root fetch - processPackages [bus-user]: Start processing: airbyte-source-smartsheets
+[2024-06-03 15:20:55] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-06-03 15:20:55] INFO root fetch - processPackages [airbyte-source-smartsheets]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-06-03 15:20:55] INFO root fetch - processPackages [airbyte-source-smartsheets]: Downloading https://files.pythonhosted.org/packages/34/87/a65cd35fa0776463bc2df821b9b222e7d86dec2349fb3eee0e80c9576a3a/airbyte-source-smartsheets-1.1.2.tar.gz
+[2024-06-03 15:20:55] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.3.post563-py3-none-any.whl.zip]
+[2024-06-03 15:20:55] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:20:55] INFO root fetch - processPackages [nucliadb]: Start processing: substrafl
+[2024-06-03 15:20:55] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-06-03 15:20:55] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.5.0rc3.tar.gz]
+[2024-06-03 15:20:55] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.5.1.tar.gz]
+[2024-06-03 15:20:55] INFO root fetch - processPackages [vantage6-client]: Start processing: assemblyline-core
+[2024-06-03 15:20:55] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.3.post563-py3-none-any.whl.zip]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-models
+[2024-06-03 15:20:56] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-06-03 15:20:56] INFO root fetch - processPackages [substrafl]: New version: [0.46.0rc1] Old Version: [0.45.1rc1]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.3.post564] Old Version: [4.0.3.post563]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [substra]: Remove: archive file [/home/abi/fetcher/tmp/substra-0.8.0.tar.gz]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [substra]: Remove: archive file [/home/abi/fetcher/tmp/substra-0.9.0.tar.gz]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [substra]: Start processing: vantage6-algorithm-tools
+[2024-06-03 15:20:56] INFO root fetch - main [MainThread]: End processing [substra]: success
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/a8/ae/9f48876ceb8bba664cbf31827050e5e049dc4c4177b288a280b03b6b3cc5/nucliadb_models-4.0.3.post563-py3-none-any.whl
+[2024-06-03 15:20:56] INFO root fetch - processPackages [airbyte-source-smartsheets]: Downloading https://files.pythonhosted.org/packages/56/5f/000b9b5a66326e2218b80e28dce3543f4ebe1ed37384f68ccbece99812a1/airbyte_source_smartsheets-1.1.3-py3-none-any.whl
+[2024-06-03 15:20:56] INFO root fetch - processPackages [vantage6-algorithm-tools]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/b1/26/66df09fa4dcceefa5ee9639682b29b04f7352b35050e85c382f1ae8e01b0/substrafl-0.45.1rc1.tar.gz
+[2024-06-03 15:20:56] INFO root fetch - processPackages [assemblyline-core]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.5.1.tar.gz]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.6.0.tar.gz]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [troubadix]: Start processing: nucliadb-protos
+[2024-06-03 15:20:56] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2024-06-03 15:20:56] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/3c/bf/a0befeb3b3945b321d24293b3489653414cc102857bc9cb599f39f9ef6b1/vantage6-algorithm-tools-4.5.0rc3.tar.gz
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.3.post564] Old Version: [4.0.3.post563]
+[2024-06-03 15:20:56] INFO root fetch - processPackages [airbyte-source-smartsheets]: executing diffoscope
+[2024-06-03 15:20:56] INFO root fetch - processPackages [airbyte-source-smartsheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-smartsheets-1.1.2.tar.gz tmp/airbyte_source_smartsheets-1.1.3-py3-none-any.whl.zip --markdown 20240603/a/airbyte-source-smartsheets/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/5a/c4/0a3126905df1acce166cbe990b32184ed3bd57eff0070f916118171347d1/nucliadb_protos-4.0.3.post563-py3-none-any.whl
+[2024-06-03 15:20:56] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/12/39/7c12a7e1a83b7fa7f13d7afc4173ec9dc6b78ca4552bf0b9a435ba01ae68/assemblyline-core-4.5.1.dev98.tar.gz
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/22/12/fdc627e98c34c3985d40b324ee28785454ce483fb4b26c6737cdbfddb95d/nucliadb_models-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:20:56] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/69/c9/8e83dcb375bb380ebbf7aa2d9b1e03a66e0d42c56cca444691d037f0cf7f/vantage6-algorithm-tools-4.5.1.tar.gz
+[2024-06-03 15:20:56] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/cd/68/a58620a282227924e1dd0490f81585248dd5d7b2a76eb6899a6d7eff96cc/substrafl-0.46.0rc1-py3-none-any.whl
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-06-03 15:20:56] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.3.post563-py3-none-any.whl.zip tmp/nucliadb_models-4.0.3.post564-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-models/4.0.3.post563-4.0.3.post564/README.md --exclude *.pyd
+[2024-06-03 15:20:56] INFO root fetch - processPackages [vantage6-algorithm-tools]: executing diffoscope
+[2024-06-03 15:20:56] INFO root fetch - processPackages [vantage6-algorithm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-tools-4.5.0rc3.tar.gz tmp/vantage6-algorithm-tools-4.5.1.tar.gz --markdown 20240603/v/vantage6-algorithm-tools/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 15:20:56] INFO root fetch - processPackages [substrafl]: executing diffoscope
+[2024-06-03 15:20:56] INFO root fetch - processPackages [substrafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrafl-0.45.1rc1.tar.gz tmp/substrafl-0.46.0rc1-py3-none-any.whl.zip --markdown 20240603/s/substrafl/0.45.1rc1-0.46.0rc1/README.md --exclude *.pyd
+[2024-06-03 15:20:57] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/77/40/476587bf36c039cab255296cc6382eb737791412d3afabf034eca3165be0/nucliadb_protos-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:20:57] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/e8/d3/c564610dd6dce1127f1151c7f3563431d86d9d02164cb93935506731edf0/assemblyline-core-4.5.1.dev99.tar.gz
+[2024-06-03 15:20:57] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev98.tar.gz]
+[2024-06-03 15:20:57] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev99.tar.gz]
+[2024-06-03 15:20:57] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2024-06-03 15:20:57] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-06-03 15:20:57] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.3.post563-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.3.post564-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-protos/4.0.3.post563-4.0.3.post564/README.md --exclude *.pyd
+[2024-06-03 15:20:57] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2024-06-03 15:20:57] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.5.1.dev98.tar.gz tmp/assemblyline-core-4.5.1.dev99.tar.gz --markdown 20240603/a/assemblyline-core/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-06-03 15:20:57] INFO root fetch - processPackages [airbyte-source-smartsheets]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-smartsheets-1.1.2.tar.gz]
+[2024-06-03 15:20:57] INFO root fetch - processPackages [airbyte-source-smartsheets]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_smartsheets-1.1.3-py3-none-any.whl.zip]
+[2024-06-03 15:20:57] INFO root fetch - main [MainThread]: End processing [airbyte-source-smartsheets]: success
+[2024-06-03 15:20:57] INFO root fetch - processPackages [msgpack-cxx]: Remove: archive file [/home/abi/fetcher/tmp/msgpack_cxx-6.1.0-py3-none-any.whl.zip]
+[2024-06-03 15:20:57] INFO root fetch - processPackages [msgpack-cxx]: Remove: archive file [/home/abi/fetcher/tmp/msgpack_cxx-6.1.1-py3-none-any.whl.zip]
+[2024-06-03 15:20:57] INFO root fetch - main [MainThread]: End processing [msgpack-cxx]: success
+[2024-06-03 15:20:57] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.3.post563-py3-none-any.whl.zip]
+[2024-06-03 15:20:57] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:20:57] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-06-03 15:20:57] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.5.0rc3.tar.gz]
+[2024-06-03 15:20:57] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.5.1.tar.gz]
+[2024-06-03 15:20:57] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-tools]: success
+[2024-06-03 15:20:57] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.45.1rc1.tar.gz]
+[2024-06-03 15:20:57] INFO root fetch - processPackages [substrafl]: Remove: archive file [/home/abi/fetcher/tmp/substrafl-0.46.0rc1-py3-none-any.whl.zip]
+[2024-06-03 15:20:57] INFO root fetch - main [MainThread]: End processing [substrafl]: success
+[2024-06-03 15:20:58] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.3.post563-py3-none-any.whl.zip]
+[2024-06-03 15:20:58] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:20:58] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-06-03 15:20:58] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev98.tar.gz]
+[2024-06-03 15:20:58] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev99.tar.gz]
+[2024-06-03 15:20:58] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2024-06-03 15:20:59] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-06-03 15:20:59] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-06-03 15:20:59] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-06-03 15:21:09] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-06-03 15:21:09] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-06-03 15:21:09] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-06-03 15:21:09] INFO root fetch - main [MainThread]: Store serial: [23503092]
