@@ -19955,3 +19955,203 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:58:53] ERROR root fetch - processPackages [tensorflow-recommenders-addons]: Timeout during execution of pkgdiff
 [2024-06-03 14:58:53] INFO root fetch - main [MainThread]: End processing [tensorflow-recommenders-addons] error
 [2024-06-03 14:58:53] INFO root fetch - main [MainThread]: Store serial: [23502728]
+[2024-06-03 15:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502728]
+[2024-06-03 15:01:02] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavague-core
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Peliqan
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: probabilistic-word-embeddings
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-inventory
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-project-task-description-template
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lavague-drivers-selenium
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qwak-core
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ocrd-kraken
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: renault-api
+[2024-06-03 15:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sysrev
+[2024-06-03 15:01:03] INFO root fetch - processPackages [Peliqan]: New version: [2.0.0] Old Version: [1.7.0]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [sysrev]: New version: [1.3.9] Old Version: [1.3.7]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [renault-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-core]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [ocrd-kraken]: New version: [0.4.1] Old Version: [0.3.0]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [odoo-addon-project-task-description-template]: New version: [17.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-drivers-selenium]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/72/10/921bda5a7af2e2d5021a2d57bf18bf36c031ae051d73ac81c24419ccae4f/Peliqan-1.7.0.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/9f/97/5ffede71893e5edd3cd031d6961fa8f2cf18b3acd709215409abcd7df044/probabilistic_word_embeddings-1.9.0.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/9e/ba/5f96824e6fea4a21fe001b538e97eb3553406a7a90ae37f46464b2b07d81/sysrev-1.3.7.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-06-03 15:01:03] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [renault-api]: Downloading https://files.pythonhosted.org/packages/1f/48/1b2e29d0a6978ca3fddf2ec79b3f349fec6db04149fc545f128b480db869/renault_api-0.2.1.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/f6/39/db449b51719bf85895ccbf1d3e541e5a688e97214b14adac6d695a67c575/lavague_core-0.2.2.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-drivers-selenium]: Downloading https://files.pythonhosted.org/packages/a3/63/4d1b666564d37f2f9ed1b401be1a515772e7a67525115f85ab7e83cea1de/lavague_drivers_selenium-0.2.0.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/1f/c7/0a532bd75b3783c78c5d102ebf652cb598c2216d266a44cf9af3fb287448/probabilistic_word_embeddings-1.9.1.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [ocrd-kraken]: Downloading https://files.pythonhosted.org/packages/e0/2f/e17e90d0834920b21dc80875493375fdfc780d4f14347598a25aa4b9c73c/ocrd_kraken-0.3.0.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/53/a5/edcc4def79e3f548e86632a94ac191681bebf7f776d35d1f354442a1f79d/sysrev-1.3.9.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [odoo-addon-project-task-description-template]: Downloading https://files.pythonhosted.org/packages/7c/70/c409e94493d18c5d2504ff5dd5ead9e22aeaa21019ec2616799163acf262/odoo_addon_project_task_description_template-15.0.1.0.0.4-py3-none-any.whl
+[2024-06-03 15:01:03] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/6b/d0/78357102edd3a18ab57e72e4f614e1043dfa310a3cce3972282369c21487/Peliqan-2.0.0.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2024-06-03 15:01:03] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.9.0.tar.gz tmp/probabilistic_word_embeddings-1.9.1.tar.gz --markdown 20240603/p/probabilistic-word-embeddings/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 15:01:03] INFO root fetch - processPackages [sysrev]: executing diffoscope
+[2024-06-03 15:01:03] INFO root fetch - processPackages [sysrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrev-1.3.7.tar.gz tmp/sysrev-1.3.9.tar.gz --markdown 20240603/s/sysrev/1.3.7-1.3.9/README.md --exclude *.pyd
+[2024-06-03 15:01:03] INFO root fetch - processPackages [Peliqan]: executing diffoscope
+[2024-06-03 15:01:03] INFO root fetch - processPackages [Peliqan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Peliqan-1.7.0.tar.gz tmp/Peliqan-2.0.0.tar.gz --markdown 20240603/P/Peliqan/1.7.0-2.0.0/README.md --exclude *.pyd
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/a7/24/d4b2e81d009f373c1ccc9ceaa7ec9e13d485bffe4de1452f166180a8ef9d/lavague_core-0.2.3.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-drivers-selenium]: Downloading https://files.pythonhosted.org/packages/ac/a9/eaf62b54b5630ef396ce7f60ea8c68681c0db6ad9b248d42739bf7185f2c/lavague_drivers_selenium-0.2.1.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [renault-api]: Downloading https://files.pythonhosted.org/packages/37/31/12ebf672664967fb2ecc1e05e8090a3a0bc4f436737be84fc67bfe883b72/renault_api-0.2.2.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-06-03 15:01:03] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240603/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 15:01:03] INFO root fetch - processPackages [ocrd-kraken]: Downloading https://files.pythonhosted.org/packages/6b/d6/10533dd4bf359fb21687a7f3476f9c50dccea5dde700fc61011a2619eb60/ocrd_kraken-0.4.1.tar.gz
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-core]: executing diffoscope
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_core-0.2.2.tar.gz tmp/lavague_core-0.2.3.tar.gz --markdown 20240603/l/lavague-core/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 15:01:03] INFO root fetch - processPackages [odoo-addon-project-task-description-template]: Downloading https://files.pythonhosted.org/packages/e4/89/f93bed5dd5c829fd5e1fa5af359f35bbf1b6819420c9ef326c035567ad35/odoo_addon_project_task_description_template-17.0.1.0.0.2-py3-none-any.whl
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-drivers-selenium]: executing diffoscope
+[2024-06-03 15:01:03] INFO root fetch - processPackages [lavague-drivers-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_drivers_selenium-0.2.0.tar.gz tmp/lavague_drivers_selenium-0.2.1.tar.gz --markdown 20240603/l/lavague-drivers-selenium/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-06-03 15:01:04] INFO root fetch - processPackages [renault-api]: executing diffoscope
+[2024-06-03 15:01:04] INFO root fetch - processPackages [renault-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renault_api-0.2.1.tar.gz tmp/renault_api-0.2.2.tar.gz --markdown 20240603/r/renault-api/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 15:01:04] INFO root fetch - processPackages [ocrd-kraken]: executing diffoscope
+[2024-06-03 15:01:04] INFO root fetch - processPackages [ocrd-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_kraken-0.3.0.tar.gz tmp/ocrd_kraken-0.4.1.tar.gz --markdown 20240603/o/ocrd-kraken/0.3.0-0.4.1/README.md --exclude *.pyd
+[2024-06-03 15:01:04] INFO root fetch - processPackages [odoo-addon-project-task-description-template]: executing diffoscope
+[2024-06-03 15:01:04] INFO root fetch - processPackages [odoo-addon-project-task-description-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_description_template-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_project_task_description_template-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-project-task-description-template/15.0.1.0.0.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-06-03 15:01:04] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.7.tar.gz]
+[2024-06-03 15:01:04] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.9.tar.gz]
+[2024-06-03 15:01:04] INFO root fetch - processPackages [sysrev]: Start processing: probabilistic-word-embeddings
+[2024-06-03 15:01:04] INFO root fetch - main [MainThread]: End processing [sysrev]: success
+[2024-06-03 15:01:04] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 15:01:04] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.0.tar.gz]
+[2024-06-03 15:01:04] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.1.tar.gz]
+[2024-06-03 15:01:04] INFO root fetch - processPackages [probabilistic-word-embeddings]: Start processing: langflow
+[2024-06-03 15:01:04] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2024-06-03 15:01:04] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/9f/97/5ffede71893e5edd3cd031d6961fa8f2cf18b3acd709215409abcd7df044/probabilistic_word_embeddings-1.9.0.tar.gz
+[2024-06-03 15:01:04] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.7.0.tar.gz]
+[2024-06-03 15:01:04] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-2.0.0.tar.gz]
+[2024-06-03 15:01:04] INFO root fetch - processPackages [Peliqan]: Start processing: sickness-screening
+[2024-06-03 15:01:04] INFO root fetch - main [MainThread]: End processing [Peliqan]: success
+[2024-06-03 15:01:04] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [sickness-screening]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/1f/c7/0a532bd75b3783c78c5d102ebf652cb598c2216d266a44cf9af3fb287448/probabilistic_word_embeddings-1.9.1.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [lavague-drivers-selenium]: Remove: archive file [/home/abi/fetcher/tmp/lavague_drivers_selenium-0.2.0.tar.gz]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [lavague-drivers-selenium]: Remove: archive file [/home/abi/fetcher/tmp/lavague_drivers_selenium-0.2.1.tar.gz]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [lavague-drivers-selenium]: Start processing: frequenz-client-dispatch
+[2024-06-03 15:01:05] INFO root fetch - main [MainThread]: End processing [lavague-drivers-selenium]: success
+[2024-06-03 15:01:05] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.2.2.tar.gz]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.2.3.tar.gz]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [lavague-core]: Start processing: swarmauri
+[2024-06-03 15:01:05] INFO root fetch - main [MainThread]: End processing [lavague-core]: success
+[2024-06-03 15:01:05] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2024-06-03 15:01:05] INFO root fetch - processPackages [odoo-addon-project-task-description-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_description_template-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.9.0.tar.gz tmp/probabilistic_word_embeddings-1.9.1.tar.gz --markdown 20240603/p/probabilistic-word-embeddings/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 15:01:05] INFO root fetch - processPackages [odoo-addon-project-task-description-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_description_template-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [odoo-addon-project-task-description-template]: Start processing: probabilistic-word-embeddings
+[2024-06-03 15:01:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-description-template]: success
+[2024-06-03 15:01:05] INFO root fetch - processPackages [ocrd-kraken]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_kraken-0.3.0.tar.gz]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [ocrd-kraken]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_kraken-0.4.1.tar.gz]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [ocrd-kraken]: Start processing: TREEplusrepository
+[2024-06-03 15:01:05] INFO root fetch - main [MainThread]: End processing [ocrd-kraken]: success
+[2024-06-03 15:01:05] INFO root fetch - processPackages [swarmauri]: New version: [0.3.0.dev14] Old Version: [0.3.0.dev13]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [frequenz-client-dispatch]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [sickness-screening]: Downloading https://files.pythonhosted.org/packages/a8/63/bba536bd8f8ce349b2ef78ced38b35e6a07bd24434d2f582cf88a58f75bc/sickness_screening-1.0.0.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [TREEplusrepository]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/0f/64/28e85588098244f1945bed8af7d8f5669192b5b97dd9794ef08bfdd6bd5e/swarmauri-0.3.0.dev13.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [renault-api]: Remove: archive file [/home/abi/fetcher/tmp/renault_api-0.2.1.tar.gz]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [renault-api]: Remove: archive file [/home/abi/fetcher/tmp/renault_api-0.2.2.tar.gz]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [renault-api]: Start processing: copilothistoryexporter
+[2024-06-03 15:01:05] INFO root fetch - main [MainThread]: End processing [renault-api]: success
+[2024-06-03 15:01:05] INFO root fetch - processPackages [TREEplusrepository]: Downloading https://files.pythonhosted.org/packages/a5/df/9c1e078681818f73bbc181162ddab28db90f86fa549cf535fb84a8d08f2f/treeplusrepository-0.1.4.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [copilothistoryexporter]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-06-03 15:01:05] INFO root fetch - processPackages [frequenz-client-dispatch]: Downloading https://files.pythonhosted.org/packages/c7/0e/0dce75bdb9ca794ca1a96cd85c7a685bf7a80f23e726c50162cfbb8da9d7/frequenz-client-dispatch-0.2.0.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2024-06-03 15:01:05] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.9.0.tar.gz tmp/probabilistic_word_embeddings-1.9.1.tar.gz --markdown 20240603/p/probabilistic-word-embeddings/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 15:01:05] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/27/6c/d13d43dbee0abf06172b0e51b4a832c9e504e8eabbdac6ef817c09fa5755/copilothistoryexporter-1.2.1.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [sickness-screening]: Downloading https://files.pythonhosted.org/packages/19/d0/37da99f311da8c4af7b5c7bd39e73837437c46ac189d6dc7074aa52edb37/sickness_screening-1.0.1.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/28/2f/53da4a7652073336a4331248b1f777c8ad91df9a6fba1b0f5fdc8b00e9e4/swarmauri-0.3.0.dev14.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-06-03 15:01:05] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240603/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-06-03 15:01:05] INFO root fetch - processPackages [TREEplusrepository]: Downloading https://files.pythonhosted.org/packages/30/ff/e8694cabf62d22f0d89f4de82a3faaccf82f1f42fd3558a1e83c61a7cc60/treeplusrepository-0.1.5.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [sickness-screening]: executing diffoscope
+[2024-06-03 15:01:05] INFO root fetch - processPackages [sickness-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sickness_screening-1.0.0.tar.gz tmp/sickness_screening-1.0.1.tar.gz --markdown 20240603/s/sickness-screening/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 15:01:05] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [frequenz-client-dispatch]: Downloading https://files.pythonhosted.org/packages/1e/55/7642c63beaf3014e8039038f8beec572b15a9e4cd9f5f1dc9a0b20ae40bd/frequenz-client-dispatch-0.3.0.tar.gz
+[2024-06-03 15:01:05] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-06-03 15:01:05] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.3.0.dev13.tar.gz tmp/swarmauri-0.3.0.dev14.tar.gz --markdown 20240603/s/swarmauri/0.3.0.dev13-0.3.0.dev14/README.md --exclude *.pyd
+[2024-06-03 15:01:05] INFO root fetch - processPackages [TREEplusrepository]: executing diffoscope
+[2024-06-03 15:01:05] INFO root fetch - processPackages [TREEplusrepository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treeplusrepository-0.1.4.tar.gz tmp/treeplusrepository-0.1.5.tar.gz --markdown 20240603/T/TREEplusrepository/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 15:01:06] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/96/8c/26227c3fdc5203c57caacdff7bc83c6c9a1d7840b3debff6d986b04ac709/copilothistoryexporter-1.2.2.tar.gz
+[2024-06-03 15:01:06] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.0.tar.gz]
+[2024-06-03 15:01:06] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.1.tar.gz]
+[2024-06-03 15:01:06] INFO root fetch - processPackages [probabilistic-word-embeddings]: Start processing: togglCli
+[2024-06-03 15:01:06] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2024-06-03 15:01:06] INFO root fetch - processPackages [frequenz-client-dispatch]: executing diffoscope
+[2024-06-03 15:01:06] INFO root fetch - processPackages [frequenz-client-dispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-client-dispatch-0.2.0.tar.gz tmp/frequenz-client-dispatch-0.3.0.tar.gz --markdown 20240603/f/frequenz-client-dispatch/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-06-03 15:01:06] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-06-03 15:01:06] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240603/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-06-03 15:01:06] INFO root fetch - processPackages [copilothistoryexporter]: executing diffoscope
+[2024-06-03 15:01:06] INFO root fetch - processPackages [copilothistoryexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copilothistoryexporter-1.2.1.tar.gz tmp/copilothistoryexporter-1.2.2.tar.gz --markdown 20240603/c/copilothistoryexporter/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-06-03 15:01:06] INFO root fetch - processPackages [togglCli]: New version: [3.0.0] Old Version: [2.4.4]
+[2024-06-03 15:01:06] ERROR root fetch - processPackages [probabilistic-word-embeddings]: Diffoscope failed: time="2024-06-03T15:01:05+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
+
+[2024-06-03 15:01:06] INFO root fetch - processPackages [probabilistic-word-embeddings]: Start processing: sssekai
+[2024-06-03 15:01:06] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings] error
+[2024-06-03 15:01:06] INFO root fetch - processPackages [togglCli]: Downloading https://files.pythonhosted.org/packages/9d/91/53254a966deb81f92479c3f60f41fb84b50bf2b73532d5f4c26fc809fec0/togglCli-2.4.4.tar.gz
+[2024-06-03 15:01:06] INFO root fetch - processPackages [sssekai]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 15:01:06] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-06-03 15:01:06] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-06-03 15:01:06] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-06-03 15:01:06] INFO root fetch - processPackages [togglCli]: Downloading https://files.pythonhosted.org/packages/c0/90/a8b0cae68d6e976722889a6afe09b9792980994ab3efd06e3a6542d7a039/togglCli-3.0.0.tar.gz
+[2024-06-03 15:01:06] INFO root fetch - processPackages [sssekai]: Downloading https://files.pythonhosted.org/packages/fc/68/bdc252cdb466f7a92da87d044fa966020f2fc7f8a595ccdd6d74b5155a06/sssekai-0.1.1.tar.gz
+[2024-06-03 15:01:06] INFO root fetch - processPackages [sickness-screening]: Remove: archive file [/home/abi/fetcher/tmp/sickness_screening-1.0.0.tar.gz]
+[2024-06-03 15:01:06] INFO root fetch - processPackages [sickness-screening]: Remove: archive file [/home/abi/fetcher/tmp/sickness_screening-1.0.1.tar.gz]
+[2024-06-03 15:01:06] INFO root fetch - main [MainThread]: End processing [sickness-screening]: success
+[2024-06-03 15:01:07] INFO root fetch - processPackages [togglCli]: executing diffoscope
+[2024-06-03 15:01:07] INFO root fetch - processPackages [togglCli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/togglCli-2.4.4.tar.gz tmp/togglCli-3.0.0.tar.gz --markdown 20240603/t/togglCli/2.4.4-3.0.0/README.md --exclude *.pyd
+[2024-06-03 15:01:07] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.2.1.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.2.2.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter]: success
+[2024-06-03 15:01:07] INFO root fetch - processPackages [TREEplusrepository]: Remove: archive file [/home/abi/fetcher/tmp/treeplusrepository-0.1.4.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - processPackages [TREEplusrepository]: Remove: archive file [/home/abi/fetcher/tmp/treeplusrepository-0.1.5.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - main [MainThread]: End processing [TREEplusrepository]: success
+[2024-06-03 15:01:07] INFO root fetch - processPackages [frequenz-client-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-client-dispatch-0.2.0.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - processPackages [frequenz-client-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-client-dispatch-0.3.0.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - main [MainThread]: End processing [frequenz-client-dispatch]: success
+[2024-06-03 15:01:07] INFO root fetch - processPackages [sssekai]: Downloading https://files.pythonhosted.org/packages/70/3e/25f20752642ced8e853599684b72f2ff6fe537ac720a2099c19e455233a5/sssekai-0.1.2.tar.gz
+[2024-06-03 15:01:07] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-06-03 15:01:07] INFO root fetch - processPackages [sssekai]: executing diffoscope
+[2024-06-03 15:01:07] INFO root fetch - processPackages [sssekai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssekai-0.1.1.tar.gz tmp/sssekai-0.1.2.tar.gz --markdown 20240603/s/sssekai/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 15:01:07] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.3.0.dev13.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.3.0.dev14.tar.gz]
+[2024-06-03 15:01:07] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-06-03 15:01:08] INFO root fetch - processPackages [sssekai]: Remove: archive file [/home/abi/fetcher/tmp/sssekai-0.1.1.tar.gz]
+[2024-06-03 15:01:08] INFO root fetch - processPackages [sssekai]: Remove: archive file [/home/abi/fetcher/tmp/sssekai-0.1.2.tar.gz]
+[2024-06-03 15:01:08] INFO root fetch - main [MainThread]: End processing [sssekai]: success
+[2024-06-03 15:01:08] INFO root fetch - processPackages [togglCli]: Remove: archive file [/home/abi/fetcher/tmp/togglCli-2.4.4.tar.gz]
+[2024-06-03 15:01:08] INFO root fetch - processPackages [togglCli]: Remove: archive file [/home/abi/fetcher/tmp/togglCli-3.0.0.tar.gz]
+[2024-06-03 15:01:08] INFO root fetch - main [MainThread]: End processing [togglCli]: success
+[2024-06-03 15:01:08] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-06-03 15:01:08] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-06-03 15:01:08] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-06-03 15:01:08] INFO root fetch - main [MainThread]: Store serial: [23502806]
