@@ -2541,3 +2541,15 @@ EOFError: EOF read where object expected
 [2024-06-03 03:09:52] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
 [2024-06-03 03:09:52] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
 [2024-06-03 03:09:52] INFO root fetch - main [MainThread]: Store serial: [23495182]
+[2024-06-03 03:11:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495182]
+[2024-06-03 03:12:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 03:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bwalign
+[2024-06-03 03:12:00] INFO root fetch - processPackages [bwalign]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 03:12:01] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/07/0b/3596a1bf62082ace1ae3479269be7549d17475a692de1015f14310030f5d/bwalign-1.0.2.tar.gz
+[2024-06-03 03:12:01] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/01/1b/9e40f5f4d4c09ee252f6b08a2f12ecf5eb777463d91bc87fac25d80e6c11/bwalign-1.0.3.tar.gz
+[2024-06-03 03:12:01] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 03:12:01] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.0.2.tar.gz tmp/bwalign-1.0.3.tar.gz --markdown 20240603/b/bwalign/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 03:12:01] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.2.tar.gz]
+[2024-06-03 03:12:01] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.3.tar.gz]
+[2024-06-03 03:12:01] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 03:12:01] INFO root fetch - main [MainThread]: Store serial: [23495186]
