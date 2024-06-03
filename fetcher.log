@@ -12826,3 +12826,81 @@ EOFError: EOF read where object expected
 [2024-06-03 11:56:41] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
 [2024-06-03 11:56:41] INFO root fetch - main [MainThread]: End processing [bentoml]: success
 [2024-06-03 11:56:41] INFO root fetch - main [MainThread]: Store serial: [23499976]
+[2024-06-03 11:58:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499976]
+[2024-06-03 11:58:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alipai
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revampdeployer
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-env-robots
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongodb-orm
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CVE-2019-12616
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linerate
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onshape-to-robot
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: guadania
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotify-confidence-sdk
+[2024-06-03 11:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cam-manager
+[2024-06-03 11:58:50] INFO root fetch - processPackages [alipai]: New version: [0.4.7.post0] Old Version: [0.4.7]
+[2024-06-03 11:58:50] INFO root fetch - processPackages [revampdeployer]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-06-03 11:58:50] INFO root fetch - processPackages [guadania]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-06-03 11:58:50] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-06-03 11:58:50] WARNING root fetch - processPackages [CVE-2019-12616]: Skipping, unable to determine old version
+[2024-06-03 11:58:50] INFO root fetch - main [MainThread]: End processing [CVE-2019-12616] error
+[2024-06-03 11:58:50] INFO root fetch - processPackages [spotify-confidence-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 11:58:51] INFO root fetch - processPackages [django-env-robots]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 11:58:51] INFO root fetch - processPackages [alipai]: Downloading https://files.pythonhosted.org/packages/56/2b/8656902b18de160a03e2edcc26ee5953006be893831777bc6f029137e53c/alipai-0.4.7.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [linerate]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 11:58:51] INFO root fetch - processPackages [cam-manager]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 11:58:51] INFO root fetch - processPackages [onshape-to-robot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 11:58:51] INFO root fetch - processPackages [spotify-confidence-sdk]: Downloading https://files.pythonhosted.org/packages/54/18/b90be50fb76ee24b33f4fe4b3e1041af14bfb0316cde9c57f7a4d38beffc/spotify_confidence_sdk-0.2.1.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [guadania]: Downloading https://files.pythonhosted.org/packages/58/cb/5eca17f61d50f711676d8baa82ae9adff05cfb31fd32f9c69ad1ab8ec67a/guadania-1.9.2.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/2c/6e/9f93733c8154a340dccb9f6479bd707f5037c44b27eeb2743ef08e74c5fe/mongodb_orm-0.1.0a4.tar.gz
+[2024-06-03 11:58:51] ERROR root fetch - processPackages [revampdeployer]: Unable to fetch info: No such project/version 'revampdeployer' 0.1.6
+[2024-06-03 11:58:51] INFO root fetch - main [MainThread]: End processing [revampdeployer] error
+[2024-06-03 11:58:51] WARNING root fetch - processPackages [alipai]: Skipping package: exceeds size limit 11329290>=10485760
+[2024-06-03 11:58:51] INFO root fetch - main [MainThread]: End processing [alipai] error
+[2024-06-03 11:58:51] INFO root fetch - processPackages [django-env-robots]: Downloading https://files.pythonhosted.org/packages/06/c5/39971881d7077f84fa0675ec81bfa7c660b8025c88c2537fdfd063620546/django_env_robots-0.0.2.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [linerate]: Downloading https://files.pythonhosted.org/packages/54/b1/52852481ff682e092fe100eacf4e29e4cf75f21e28dc248580acda2cc9f7/linerate-1.0.0.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [cam-manager]: Downloading https://files.pythonhosted.org/packages/55/cb/64cea7c68f8d8dde6401892ebcf5eec7f23e86276c5dadce800282dd1e4d/cam_manager-0.2.2.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [onshape-to-robot]: Downloading https://files.pythonhosted.org/packages/ee/c0/6c40ec005121554288e0767f95d9d5a8aff70cf9744248a2672cdf7ddb9f/onshape-to-robot-0.3.8.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [spotify-confidence-sdk]: Downloading https://files.pythonhosted.org/packages/06/86/34f67a91fee99c39a288c49cee659896d6800851bcb8c5042e7f95f4a682/spotify_confidence_sdk-0.2.2.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [guadania]: Downloading https://files.pythonhosted.org/packages/f4/0e/bd15889b2a255d2886174a865d13c866a0175704174e6f5df2d6dbbff3c0/guadania-1.9.3.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/c0/c4/f433647c044d03a531371defd3ac92147b11293ad1b91f3200477c2e2241/mongodb_orm-0.1.0a5.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [django-env-robots]: Downloading https://files.pythonhosted.org/packages/fe/ed/d311468a41fdf3b2046870e2250103f4a1218f18d6ef48b220903d0e10ed/django_env_robots-0.0.3.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [spotify-confidence-sdk]: executing diffoscope
+[2024-06-03 11:58:51] INFO root fetch - processPackages [spotify-confidence-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_confidence_sdk-0.2.1.tar.gz tmp/spotify_confidence_sdk-0.2.2.tar.gz --markdown 20240603/s/spotify-confidence-sdk/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 11:58:51] INFO root fetch - processPackages [guadania]: executing diffoscope
+[2024-06-03 11:58:51] INFO root fetch - processPackages [guadania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guadania-1.9.2.tar.gz tmp/guadania-1.9.3.tar.gz --markdown 20240603/g/guadania/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-06-03 11:58:51] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 11:58:51] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0a4.tar.gz tmp/mongodb_orm-0.1.0a5.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-06-03 11:58:51] INFO root fetch - processPackages [django-env-robots]: executing diffoscope
+[2024-06-03 11:58:51] INFO root fetch - processPackages [django-env-robots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_env_robots-0.0.2.tar.gz tmp/django_env_robots-0.0.3.tar.gz --markdown 20240603/d/django-env-robots/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 11:58:51] INFO root fetch - processPackages [linerate]: Downloading https://files.pythonhosted.org/packages/f8/f3/a53d333bd299e352b7e8682d58b9e2e4cb688e155d1e4ddf933aa55d639d/linerate-1.0.1.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [cam-manager]: Downloading https://files.pythonhosted.org/packages/0f/05/adf72ede5a22c68d1f31cc2fce7df413f7be2fdee358b73b75298605a6e6/cam_manager-0.2.3.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [onshape-to-robot]: Downloading https://files.pythonhosted.org/packages/7a/0e/5d0a1d222e785b573b33eba90b990cf108275987b1d84557f052dd894ef9/onshape-to-robot-0.3.9.tar.gz
+[2024-06-03 11:58:51] INFO root fetch - processPackages [linerate]: executing diffoscope
+[2024-06-03 11:58:51] INFO root fetch - processPackages [linerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linerate-1.0.0.tar.gz tmp/linerate-1.0.1.tar.gz --markdown 20240603/l/linerate/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 11:58:51] INFO root fetch - processPackages [onshape-to-robot]: executing diffoscope
+[2024-06-03 11:58:51] INFO root fetch - processPackages [onshape-to-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onshape-to-robot-0.3.8.tar.gz tmp/onshape-to-robot-0.3.9.tar.gz --markdown 20240603/o/onshape-to-robot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 11:58:52] INFO root fetch - processPackages [cam-manager]: executing diffoscope
+[2024-06-03 11:58:52] INFO root fetch - processPackages [cam-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cam_manager-0.2.2.tar.gz tmp/cam_manager-0.2.3.tar.gz --markdown 20240603/c/cam-manager/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 11:58:52] INFO root fetch - processPackages [django-env-robots]: Remove: archive file [/home/abi/fetcher/tmp/django_env_robots-0.0.2.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - processPackages [django-env-robots]: Remove: archive file [/home/abi/fetcher/tmp/django_env_robots-0.0.3.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - main [MainThread]: End processing [django-env-robots]: success
+[2024-06-03 11:58:52] INFO root fetch - processPackages [guadania]: Remove: archive file [/home/abi/fetcher/tmp/guadania-1.9.2.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - processPackages [guadania]: Remove: archive file [/home/abi/fetcher/tmp/guadania-1.9.3.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - main [MainThread]: End processing [guadania]: success
+[2024-06-03 11:58:52] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a4.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a5.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 11:58:52] INFO root fetch - processPackages [spotify-confidence-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotify_confidence_sdk-0.2.1.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - processPackages [spotify-confidence-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotify_confidence_sdk-0.2.2.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - main [MainThread]: End processing [spotify-confidence-sdk]: success
+[2024-06-03 11:58:52] INFO root fetch - processPackages [linerate]: Remove: archive file [/home/abi/fetcher/tmp/linerate-1.0.0.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - processPackages [linerate]: Remove: archive file [/home/abi/fetcher/tmp/linerate-1.0.1.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - main [MainThread]: End processing [linerate]: success
+[2024-06-03 11:58:52] INFO root fetch - processPackages [cam-manager]: Remove: archive file [/home/abi/fetcher/tmp/cam_manager-0.2.2.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - processPackages [cam-manager]: Remove: archive file [/home/abi/fetcher/tmp/cam_manager-0.2.3.tar.gz]
+[2024-06-03 11:58:52] INFO root fetch - main [MainThread]: End processing [cam-manager]: success
+[2024-06-03 11:58:53] INFO root fetch - processPackages [onshape-to-robot]: Remove: archive file [/home/abi/fetcher/tmp/onshape-to-robot-0.3.8.tar.gz]
+[2024-06-03 11:58:53] INFO root fetch - processPackages [onshape-to-robot]: Remove: archive file [/home/abi/fetcher/tmp/onshape-to-robot-0.3.9.tar.gz]
+[2024-06-03 11:58:53] INFO root fetch - main [MainThread]: End processing [onshape-to-robot]: success
+[2024-06-03 11:58:53] INFO root fetch - main [MainThread]: Store serial: [23500006]
