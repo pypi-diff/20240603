@@ -15703,3 +15703,88 @@ EOFError: EOF read where object expected
 [2024-06-03 13:14:10] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-06-03 13:14:10] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-06-03 13:14:10] INFO root fetch - main [MainThread]: Store serial: [23501096]
+[2024-06-03 13:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501096]
+[2024-06-03 13:16:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-cpp
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-asm
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-dfs
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstats
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orcaz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ixontray
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-core-xe-21
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: madblog
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: curlipie
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-kms
+[2024-06-03 13:16:20] INFO root fetch - processPackages [quickstats]: New version: [0.7.0.5.1] Old Version: [0.7.0.5]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ros-cdk-dfs]: New version: [1.0.9] Old Version: [1.0.25]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240603] Old Version: [2.5.0b20240602]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [curlipie]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ros-cdk-asm]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ros-cdk-kms]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [madblog]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [orcaz]: New version: [0.1.4] Old Version: [0.1.3.7]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ixontray]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240603] Old Version: [2.5.0b20240602]
+[2024-06-03 13:16:20] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/45/d5/5aa096988ce7be1747683702ca3eef0476dea4689f140114e113e9cfc635/quickstats-0.7.0.5.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/51/0e/dc30d3e5b61b01008c6a6770c16444d7e2bb8d469505f850df58b6f69218/ros-cdk-dfs-1.0.25.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/63/ae/a08da51aaef028368c5ea8e3876d52a5b1c66f63743d4038116b11c70c19/bigdl_core_cpp-2.5.0b20240602-py3-none-win_amd64.whl
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/14/e7/5878fa168e4b5e5076d02feb289d0cc0c7abe835224fac5756c88c7c455e/ros-cdk-asm-1.0.8.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ros-cdk-kms]: Downloading https://files.pythonhosted.org/packages/f9/78/de3d2ca9c71d76cda04df469c7175f92f3c6809ca6966d2d788303799313/ros-cdk-kms-1.0.8.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/ed/b3/2c5a42942bc6ea230ecddff4c9ebdb21887926eab799eac2ae2f7a4a9a6b/madblog-0.2.8.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [curlipie]: Downloading https://files.pythonhosted.org/packages/95/6b/b18813a7ddcf3fc408fb5b84420e32621b6c145cf63c7f60ce4b3851b055/curlipie-0.8.3.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/30/22/f82c10525098775ae6323d380aaf46835406c4847bbc7e28e7dd5a7cb2bd/bigdl_core_xe_21-2.5.0b20240602-cp39-cp39-win_amd64.whl
+[2024-06-03 13:16:20] INFO root fetch - processPackages [orcaz]: Downloading https://files.pythonhosted.org/packages/f9/e9/504c3ac60f23b71b56f203cb341034f99a09a1b3344f6d8d8a09358f7c3c/orcaz-0.1.3.7.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ixontray]: Downloading https://files.pythonhosted.org/packages/46/53/dc98716f9e4d220b2baee3c1e0438089bd14cd9c8a996f75a740f8f35c4e/ixontray-0.3.0.tar.gz
+[2024-06-03 13:16:20] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 33964897>=10485760
+[2024-06-03 13:16:20] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-06-03 13:16:20] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/d0/77/8bd82acdaef4e08e7a3acfaa38f6ab4292acb762545aad50cd5b5cd7a427/quickstats-0.7.0.5.1.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ros-cdk-asm]: Downloading https://files.pythonhosted.org/packages/77/2e/0382bd98bdddc0b3148f6a38a5267e292d026a858707240b6bf76e705961/ros-cdk-asm-1.0.9.tar.gz
+[2024-06-03 13:16:20] INFO root fetch - processPackages [ros-cdk-dfs]: Downloading https://files.pythonhosted.org/packages/46/3d/9ce7da7ffa65d1a4e891fb205d146db05f2c729bae5edbbd338def78d151/ros-cdk-dfs-1.0.9.tar.gz
+[2024-06-03 13:16:21] INFO root fetch - processPackages [curlipie]: Downloading https://files.pythonhosted.org/packages/a3/09/9c8e4f82a155ec3f903e0f7a208919f89fb2135225b52d8a78def46470e7/curlipie-0.9.0.tar.gz
+[2024-06-03 13:16:21] INFO root fetch - processPackages [orcaz]: Downloading https://files.pythonhosted.org/packages/62/3f/4dbbb1d6c2f2d880b4af7640164081f2dd2c8279b18fb7c2cce83753d3e7/orcaz-0.1.4.tar.gz
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ixontray]: Downloading https://files.pythonhosted.org/packages/94/dd/5f52730317ad0a7b7a9d090d93c96a878f30662ff093ca0084d7f653c909/ixontray-0.3.1.tar.gz
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ros-cdk-kms]: Downloading https://files.pythonhosted.org/packages/55/e0/a1eae5bf20ed18e5f126aff92593f81ef210cca34a71e1a986ab2f04ce0b/ros-cdk-kms-1.0.9.tar.gz
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ros-cdk-asm]: executing diffoscope
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ros-cdk-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-asm-1.0.8.tar.gz tmp/ros-cdk-asm-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-asm/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:16:21] INFO root fetch - processPackages [madblog]: Downloading https://files.pythonhosted.org/packages/04/1d/afedf727ff86588e120b14288d3e4d4b69c63b58c662ea13511f25738baa/madblog-0.2.9.tar.gz
+[2024-06-03 13:16:21] INFO root fetch - processPackages [quickstats]: executing diffoscope
+[2024-06-03 13:16:21] INFO root fetch - processPackages [quickstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstats-0.7.0.5.tar.gz tmp/quickstats-0.7.0.5.1.tar.gz --markdown 20240603/q/quickstats/0.7.0.5-0.7.0.5.1/README.md --exclude *.pyd
+[2024-06-03 13:16:21] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 22942490>=10485760
+[2024-06-03 13:16:21] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ros-cdk-dfs]: executing diffoscope
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ros-cdk-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dfs-1.0.25.tar.gz tmp/ros-cdk-dfs-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-dfs/1.0.25-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:16:21] INFO root fetch - processPackages [curlipie]: executing diffoscope
+[2024-06-03 13:16:21] INFO root fetch - processPackages [curlipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curlipie-0.8.3.tar.gz tmp/curlipie-0.9.0.tar.gz --markdown 20240603/c/curlipie/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-06-03 13:16:21] INFO root fetch - processPackages [orcaz]: executing diffoscope
+[2024-06-03 13:16:21] INFO root fetch - processPackages [orcaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orcaz-0.1.3.7.tar.gz tmp/orcaz-0.1.4.tar.gz --markdown 20240603/o/orcaz/0.1.3.7-0.1.4/README.md --exclude *.pyd
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ixontray]: executing diffoscope
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ixontray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixontray-0.3.0.tar.gz tmp/ixontray-0.3.1.tar.gz --markdown 20240603/i/ixontray/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ros-cdk-kms]: executing diffoscope
+[2024-06-03 13:16:21] INFO root fetch - processPackages [ros-cdk-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-kms-1.0.8.tar.gz tmp/ros-cdk-kms-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-kms/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:16:21] INFO root fetch - processPackages [madblog]: executing diffoscope
+[2024-06-03 13:16:21] INFO root fetch - processPackages [madblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madblog-0.2.8.tar.gz tmp/madblog-0.2.9.tar.gz --markdown 20240603/m/madblog/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 13:16:22] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.25.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - processPackages [ros-cdk-dfs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dfs-1.0.9.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - main [MainThread]: End processing [ros-cdk-dfs]: success
+[2024-06-03 13:16:22] INFO root fetch - processPackages [ros-cdk-kms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kms-1.0.8.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - processPackages [ros-cdk-kms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-kms-1.0.9.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - main [MainThread]: End processing [ros-cdk-kms]: success
+[2024-06-03 13:16:22] INFO root fetch - processPackages [curlipie]: Remove: archive file [/home/abi/fetcher/tmp/curlipie-0.8.3.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - processPackages [curlipie]: Remove: archive file [/home/abi/fetcher/tmp/curlipie-0.9.0.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - main [MainThread]: End processing [curlipie]: success
+[2024-06-03 13:16:22] INFO root fetch - processPackages [orcaz]: Remove: archive file [/home/abi/fetcher/tmp/orcaz-0.1.3.7.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - processPackages [orcaz]: Remove: archive file [/home/abi/fetcher/tmp/orcaz-0.1.4.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - main [MainThread]: End processing [orcaz]: success
+[2024-06-03 13:16:22] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.8.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - processPackages [ros-cdk-asm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-asm-1.0.9.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - main [MainThread]: End processing [ros-cdk-asm]: success
+[2024-06-03 13:16:22] INFO root fetch - processPackages [ixontray]: Remove: archive file [/home/abi/fetcher/tmp/ixontray-0.3.0.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - processPackages [ixontray]: Remove: archive file [/home/abi/fetcher/tmp/ixontray-0.3.1.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - main [MainThread]: End processing [ixontray]: success
+[2024-06-03 13:16:22] INFO root fetch - processPackages [madblog]: Remove: archive file [/home/abi/fetcher/tmp/madblog-0.2.8.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - processPackages [madblog]: Remove: archive file [/home/abi/fetcher/tmp/madblog-0.2.9.tar.gz]
+[2024-06-03 13:16:22] INFO root fetch - main [MainThread]: End processing [madblog]: success
+[2024-06-03 13:16:23] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.5.tar.gz]
+[2024-06-03 13:16:23] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.5.1.tar.gz]
+[2024-06-03 13:16:23] INFO root fetch - main [MainThread]: End processing [quickstats]: success
+[2024-06-03 13:16:23] INFO root fetch - main [MainThread]: Store serial: [23501132]
