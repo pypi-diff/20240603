@@ -6578,3 +6578,42 @@ EOFError: EOF read where object expected
 [2024-06-03 07:25:03] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.9.0.tar.gz]
 [2024-06-03 07:25:03] INFO root fetch - main [MainThread]: End processing [openlit]: success
 [2024-06-03 07:25:03] INFO root fetch - main [MainThread]: Store serial: [23496970]
+[2024-06-03 07:27:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496970]
+[2024-06-03 07:27:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 07:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fogLedgerIota
+[2024-06-03 07:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redbacktechpy
+[2024-06-03 07:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-includecontents
+[2024-06-03 07:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-highlighter
+[2024-06-03 07:27:11] INFO root fetch - processPackages [text-highlighter]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 07:27:11] INFO root fetch - processPackages [redbacktechpy]: New version: [2024.5.1b9] Old Version: [2024.5.1b8]
+[2024-06-03 07:27:11] INFO root fetch - processPackages [fogLedgerIota]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 07:27:11] INFO root fetch - processPackages [text-highlighter]: Downloading https://files.pythonhosted.org/packages/f2/7c/bdb2383ecb22e9e870312b7f1b35201d57bd4519f978d5cc0ac6b0c3f4ed/text-highlighter-0.0.8.tar.gz
+[2024-06-03 07:27:11] INFO root fetch - processPackages [django-includecontents]: New version: [1.1] Old Version: [1.0]
+[2024-06-03 07:27:11] INFO root fetch - processPackages [fogLedgerIota]: Downloading https://files.pythonhosted.org/packages/61/7c/bb9853e4b7a5ba1078b04a721ef7caf26656b8ce7d9a65240b7bc657d3aa/fogLedgerIota-1.0.1.tar.gz
+[2024-06-03 07:27:11] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/03/0c/e4b7e2b7b0d9cc8ef636698f3935ebd62a2564638c10054a380a0bd4ad56/redbacktechpy-2024.5.1b8.tar.gz
+[2024-06-03 07:27:11] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/af/ae/8b724506ccb2c6f91319746f4e663eb9a51bf1fdadb512aada3b041d2c7d/django_includecontents-1.0.tar.gz
+[2024-06-03 07:27:12] INFO root fetch - processPackages [fogLedgerIota]: Downloading https://files.pythonhosted.org/packages/08/98/0900a7fef6ce86556bd2a7c134d600c630baa47f534945c35e951d0c8e15/fogledgeriota-1.0.2.tar.gz
+[2024-06-03 07:27:12] INFO root fetch - processPackages [text-highlighter]: Downloading https://files.pythonhosted.org/packages/b2/11/78d578a8e90c0333120fc009edff59821e1406accf5186c794d1924fc5b9/text-highlighter-0.0.9.tar.gz
+[2024-06-03 07:27:12] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/c0/d3/56844702ec79427f604fb2544cae6b995cc0aca67559be3d2993273c5ef2/redbacktechpy-2024.5.1b9.tar.gz
+[2024-06-03 07:27:12] INFO root fetch - processPackages [fogLedgerIota]: executing diffoscope
+[2024-06-03 07:27:12] INFO root fetch - processPackages [fogLedgerIota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fogLedgerIota-1.0.1.tar.gz tmp/fogledgeriota-1.0.2.tar.gz --markdown 20240603/f/fogLedgerIota/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 07:27:12] INFO root fetch - processPackages [text-highlighter]: executing diffoscope
+[2024-06-03 07:27:12] INFO root fetch - processPackages [text-highlighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-highlighter-0.0.8.tar.gz tmp/text-highlighter-0.0.9.tar.gz --markdown 20240603/t/text-highlighter/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 07:27:12] INFO root fetch - processPackages [redbacktechpy]: executing diffoscope
+[2024-06-03 07:27:12] INFO root fetch - processPackages [redbacktechpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbacktechpy-2024.5.1b8.tar.gz tmp/redbacktechpy-2024.5.1b9.tar.gz --markdown 20240603/r/redbacktechpy/2024.5.1b8-2024.5.1b9/README.md --exclude *.pyd
+[2024-06-03 07:27:12] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/d3/db/914c488e95d768b30e146880810bfb8c4908f76a47c0e3b0b210a9139b41/django_includecontents-1.1.tar.gz
+[2024-06-03 07:27:12] INFO root fetch - processPackages [django-includecontents]: executing diffoscope
+[2024-06-03 07:27:12] INFO root fetch - processPackages [django-includecontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_includecontents-1.0.tar.gz tmp/django_includecontents-1.1.tar.gz --markdown 20240603/d/django-includecontents/1.0-1.1/README.md --exclude *.pyd
+[2024-06-03 07:27:12] INFO root fetch - processPackages [fogLedgerIota]: Remove: archive file [/home/abi/fetcher/tmp/fogLedgerIota-1.0.1.tar.gz]
+[2024-06-03 07:27:12] INFO root fetch - processPackages [fogLedgerIota]: Remove: archive file [/home/abi/fetcher/tmp/fogledgeriota-1.0.2.tar.gz]
+[2024-06-03 07:27:12] INFO root fetch - main [MainThread]: End processing [fogLedgerIota]: success
+[2024-06-03 07:27:13] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-1.0.tar.gz]
+[2024-06-03 07:27:13] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-1.1.tar.gz]
+[2024-06-03 07:27:13] INFO root fetch - main [MainThread]: End processing [django-includecontents]: success
+[2024-06-03 07:27:13] INFO root fetch - processPackages [text-highlighter]: Remove: archive file [/home/abi/fetcher/tmp/text-highlighter-0.0.8.tar.gz]
+[2024-06-03 07:27:13] INFO root fetch - processPackages [text-highlighter]: Remove: archive file [/home/abi/fetcher/tmp/text-highlighter-0.0.9.tar.gz]
+[2024-06-03 07:27:13] INFO root fetch - main [MainThread]: End processing [text-highlighter]: success
+[2024-06-03 07:27:13] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b8.tar.gz]
+[2024-06-03 07:27:13] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b9.tar.gz]
+[2024-06-03 07:27:13] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
+[2024-06-03 07:27:13] INFO root fetch - main [MainThread]: Store serial: [23496982]
