@@ -17723,3 +17723,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:03:02] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
 [2024-06-03 14:03:02] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
 [2024-06-03 14:03:02] INFO root fetch - main [MainThread]: Store serial: [23501850]
+[2024-06-03 14:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501850]
+[2024-06-03 14:05:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 14:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-workflow-sdk
+[2024-06-03 14:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avrotize
+[2024-06-03 14:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-auth0
+[2024-06-03 14:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TREEplusrepository
+[2024-06-03 14:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdps
+[2024-06-03 14:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-ab6459
+[2024-06-03 14:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robusta-api
+[2024-06-03 14:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rssfeed
+[2024-06-03 14:05:11] INFO root fetch - processPackages [avrotize]: New version: [2.0.0] Old Version: [1.9.3]
+[2024-06-03 14:05:11] INFO root fetch - processPackages [TREEplusrepository]: New version: [0.1.1] Old Version: [0.1]
+[2024-06-03 14:05:11] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-06-03 14:05:11] INFO root fetch - processPackages [cdps]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 14:05:11] INFO root fetch - processPackages [mkdocs-ab6459]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-06-03 14:05:11] WARNING root fetch - processPackages [robusta-api]: Skipping, unable to determine old version
+[2024-06-03 14:05:11] INFO root fetch - main [MainThread]: End processing [robusta-api] error
+[2024-06-03 14:05:11] WARNING root fetch - processPackages [rssfeed]: Skipping, unable to determine old version
+[2024-06-03 14:05:11] INFO root fetch - main [MainThread]: End processing [rssfeed] error
+[2024-06-03 14:05:11] INFO root fetch - processPackages [mkdocs-ab6459]: Downloading https://files.pythonhosted.org/packages/b8/5d/ebf6405b84f328164bd0aab5bba6e36bd9f1cd9d57e87ce459181d3d9fed/mkdocs_ab6459-0.1.3.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [cdps]: Downloading https://files.pythonhosted.org/packages/22/73/8fd2176ba089f5ae55a93146109d271db9f9a6bdbd4b2fdf1eb3dccb5764/cdps-1.0.8.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1717132288] Old Version: [3.4.0a1716959542]
+[2024-06-03 14:05:11] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/64/81/bd2720a154b2577c1b0919db04aff1592d8e78ef52bc3e3aa708cde71c3d/avrotize-1.9.3.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [TREEplusrepository]: Downloading https://files.pythonhosted.org/packages/3a/ca/ad11ec45699baad3cdd4c92ceab4ea36154028ceaef8f9553227394de041/treeplusrepository-0.1.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/fa/89/6782ad0b7f8fcc9906c94a5152639632d8a3cc56e015b3b0c7f3c6546a49/pulumi_auth0-3.4.0a1716959542.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [cdps]: Downloading https://files.pythonhosted.org/packages/ca/0b/37cc4575f3f5f399fed1223fd57adb24c1f4d98d7b88c48aed9f872abc0c/cdps-1.0.9.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/58/d7/756235e2599b5d6782f33fa14c9380d46d6bda5fbef4786f3f9681660ded/avrotize-2.0.0.tar.gz
+[2024-06-03 14:05:11] INFO root fetch - processPackages [cdps]: executing diffoscope
+[2024-06-03 14:05:11] INFO root fetch - processPackages [cdps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdps-1.0.8.tar.gz tmp/cdps-1.0.9.tar.gz --markdown 20240603/c/cdps/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 14:05:11] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-06-03 14:05:11] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240603/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-06-03 14:05:11] INFO root fetch - processPackages [TREEplusrepository]: Downloading https://files.pythonhosted.org/packages/ba/f3/6dc5f479d1fcbf94f700570db3c61df2f3ae75277c7ff28c7112b04fe656/treeplusrepository-0.1.1.tar.gz
+[2024-06-03 14:05:12] INFO root fetch - processPackages [mkdocs-ab6459]: Downloading https://files.pythonhosted.org/packages/00/b8/ae39bf8ed7d0aaa3769652da04b100b533792eda7e51b0c76c31ed298255/mkdocs_ab6459-0.1.4.tar.gz
+[2024-06-03 14:05:12] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-06-03 14:05:12] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.9.3.tar.gz tmp/avrotize-2.0.0.tar.gz --markdown 20240603/a/avrotize/1.9.3-2.0.0/README.md --exclude *.pyd
+[2024-06-03 14:05:12] INFO root fetch - processPackages [TREEplusrepository]: executing diffoscope
+[2024-06-03 14:05:12] INFO root fetch - processPackages [TREEplusrepository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treeplusrepository-0.1.tar.gz tmp/treeplusrepository-0.1.1.tar.gz --markdown 20240603/T/TREEplusrepository/0.1-0.1.1/README.md --exclude *.pyd
+[2024-06-03 14:05:12] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/82/d8/b8d5f63803ee79204157785e2c91aaf79ee1d7429221b59307c2f5469ecc/pulumi_auth0-3.4.0a1717132288.tar.gz
+[2024-06-03 14:05:12] INFO root fetch - processPackages [mkdocs-ab6459]: executing diffoscope
+[2024-06-03 14:05:12] INFO root fetch - processPackages [mkdocs-ab6459]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_ab6459-0.1.3.tar.gz tmp/mkdocs_ab6459-0.1.4.tar.gz --markdown 20240603/m/mkdocs-ab6459/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-06-03 14:05:12] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-06-03 14:05:12] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1716959542.tar.gz tmp/pulumi_auth0-3.4.0a1717132288.tar.gz --markdown 20240603/p/pulumi-auth0/3.4.0a1716959542-3.4.0a1717132288/README.md --exclude *.pyd
+[2024-06-03 14:05:12] INFO root fetch - processPackages [TREEplusrepository]: Remove: archive file [/home/abi/fetcher/tmp/treeplusrepository-0.1.tar.gz]
+[2024-06-03 14:05:12] INFO root fetch - processPackages [TREEplusrepository]: Remove: archive file [/home/abi/fetcher/tmp/treeplusrepository-0.1.1.tar.gz]
+[2024-06-03 14:05:12] INFO root fetch - main [MainThread]: End processing [TREEplusrepository]: success
+[2024-06-03 14:05:12] INFO root fetch - processPackages [cdps]: Remove: archive file [/home/abi/fetcher/tmp/cdps-1.0.8.tar.gz]
+[2024-06-03 14:05:12] INFO root fetch - processPackages [cdps]: Remove: archive file [/home/abi/fetcher/tmp/cdps-1.0.9.tar.gz]
+[2024-06-03 14:05:12] INFO root fetch - main [MainThread]: End processing [cdps]: success
+[2024-06-03 14:05:13] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-06-03 14:05:13] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-06-03 14:05:13] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-06-03 14:05:13] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.3.tar.gz]
+[2024-06-03 14:05:13] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.4.tar.gz]
+[2024-06-03 14:05:13] INFO root fetch - main [MainThread]: End processing [mkdocs-ab6459]: success
+[2024-06-03 14:05:13] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716959542.tar.gz]
+[2024-06-03 14:05:13] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1717132288.tar.gz]
+[2024-06-03 14:05:13] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-06-03 14:05:13] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.9.3.tar.gz]
+[2024-06-03 14:05:13] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
+[2024-06-03 14:05:13] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-06-03 14:05:13] INFO root fetch - main [MainThread]: Store serial: [23501876]
