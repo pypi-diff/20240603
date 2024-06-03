@@ -23097,3 +23097,47 @@ EOFError: EOF read where object expected
 [2024-06-03 16:17:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202406021843.tar.gz]
 [2024-06-03 16:17:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-06-03 16:17:11] INFO root fetch - main [MainThread]: Store serial: [23504050]
+[2024-06-03 16:19:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504050]
+[2024-06-03 16:19:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 16:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarcfire
+[2024-06-03 16:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-apscheduler4
+[2024-06-03 16:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: configure-vm-image
+[2024-06-03 16:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sg-otio
+[2024-06-03 16:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hddm-s
+[2024-06-03 16:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2024-06-03 16:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metal-gpu
+[2024-06-03 16:19:20] INFO root fetch - processPackages [fastapi-apscheduler4]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 16:19:20] WARNING root fetch - processPackages [configure-vm-image]: Skipping, unable to determine old version
+[2024-06-03 16:19:20] INFO root fetch - main [MainThread]: End processing [configure-vm-image] error
+[2024-06-03 16:19:20] INFO root fetch - processPackages [hddm-s]: New version: [2.0.0] Old Version: [1.1.7]
+[2024-06-03 16:19:20] WARNING root fetch - processPackages [metal-gpu]: Skipping, unable to determine old version
+[2024-06-03 16:19:20] INFO root fetch - main [MainThread]: End processing [metal-gpu] error
+[2024-06-03 16:19:20] INFO root fetch - processPackages [kfish]: New version: [99.0.202406021846] Old Version: [99.0.202406021756]
+[2024-06-03 16:19:20] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/1b/3e/15ebe33d6268e8d83a58065c30b25bd329fc91e303d644d2bd4984e69692/hddm_s-1.1.7.tar.gz
+[2024-06-03 16:19:20] WARNING root fetch - processPackages [pyarcfire]: Skipping, unable to determine old version
+[2024-06-03 16:19:20] INFO root fetch - main [MainThread]: End processing [pyarcfire] error
+[2024-06-03 16:19:20] INFO root fetch - processPackages [sg-otio]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-06-03 16:19:20] INFO root fetch - processPackages [fastapi-apscheduler4]: Downloading https://files.pythonhosted.org/packages/e0/d4/14f3dff15753408044837c8ade7da59adf474a10dc80e7a767e254c7c0a5/fastapi_apscheduler4-0.0.1.tar.gz
+[2024-06-03 16:19:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/16/db/bbd504376313af51c85436e578ba9744010fa85b43b80b24ec5b8841a350/kfish-99.0.202406021756.tar.gz
+[2024-06-03 16:19:20] INFO root fetch - processPackages [sg-otio]: Downloading https://files.pythonhosted.org/packages/c9/d1/4fc6971db3bed3956220beb9e3fd7e6dabf401cce2e0c630785d1daf9103/sg_otio-1.1.0-py3-none-any.whl
+[2024-06-03 16:19:20] WARNING root fetch - processPackages [kfish]: Skipping package: exceeds size limit 17006991>=10485760
+[2024-06-03 16:19:20] INFO root fetch - main [MainThread]: End processing [kfish] error
+[2024-06-03 16:19:20] INFO root fetch - processPackages [fastapi-apscheduler4]: Downloading https://files.pythonhosted.org/packages/b0/46/2e56352f5026d2e61639d5ee55cd80792d2935bf7eed2173dc2aadaf11ce/fastapi_apscheduler4-0.0.2-py3-none-any.whl
+[2024-06-03 16:19:21] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/f3/ea/69a0f66e7c23d9cac8c8c0077b1cf136d0bb0bb77a87c16975b924c62f5d/hddm_s-2.0.0.tar.gz
+[2024-06-03 16:19:21] INFO root fetch - processPackages [fastapi-apscheduler4]: executing diffoscope
+[2024-06-03 16:19:21] INFO root fetch - processPackages [fastapi-apscheduler4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_apscheduler4-0.0.1.tar.gz tmp/fastapi_apscheduler4-0.0.2-py3-none-any.whl.zip --markdown 20240603/f/fastapi-apscheduler4/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 16:19:21] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-06-03 16:19:21] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.1.7.tar.gz tmp/hddm_s-2.0.0.tar.gz --markdown 20240603/h/hddm-s/1.1.7-2.0.0/README.md --exclude *.pyd
+[2024-06-03 16:19:21] INFO root fetch - processPackages [sg-otio]: Downloading https://files.pythonhosted.org/packages/dc/c3/d4af7ab017036a49101da63a9cea0734191fbf75bb9503b0a3ae2a0b5c52/sg_otio-1.1.1-py3-none-any.whl
+[2024-06-03 16:19:21] INFO root fetch - processPackages [sg-otio]: executing diffoscope
+[2024-06-03 16:19:21] INFO root fetch - processPackages [sg-otio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sg_otio-1.1.0-py3-none-any.whl.zip tmp/sg_otio-1.1.1-py3-none-any.whl.zip --markdown 20240603/s/sg-otio/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-06-03 16:19:21] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.7.tar.gz]
+[2024-06-03 16:19:21] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-2.0.0.tar.gz]
+[2024-06-03 16:19:21] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-06-03 16:19:21] INFO root fetch - processPackages [fastapi-apscheduler4]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_apscheduler4-0.0.1.tar.gz]
+[2024-06-03 16:19:21] INFO root fetch - processPackages [fastapi-apscheduler4]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_apscheduler4-0.0.2-py3-none-any.whl.zip]
+[2024-06-03 16:19:21] INFO root fetch - main [MainThread]: End processing [fastapi-apscheduler4]: success
+[2024-06-03 16:19:22] INFO root fetch - processPackages [sg-otio]: Remove: archive file [/home/abi/fetcher/tmp/sg_otio-1.1.0-py3-none-any.whl.zip]
+[2024-06-03 16:19:22] INFO root fetch - processPackages [sg-otio]: Remove: archive file [/home/abi/fetcher/tmp/sg_otio-1.1.1-py3-none-any.whl.zip]
+[2024-06-03 16:19:22] INFO root fetch - main [MainThread]: End processing [sg-otio]: success
+[2024-06-03 16:19:22] INFO root fetch - main [MainThread]: Store serial: [23504072]
