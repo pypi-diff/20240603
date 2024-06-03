@@ -5010,3 +5010,18 @@ EOFError: EOF read where object expected
 [2024-06-03 05:44:15] INFO root fetch - processPackages [fastapi-resources]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_resources-0.5.1.tar.gz]
 [2024-06-03 05:44:15] INFO root fetch - main [MainThread]: End processing [fastapi-resources]: success
 [2024-06-03 05:44:15] INFO root fetch - main [MainThread]: Store serial: [23496377]
+[2024-06-03 05:46:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496377]
+[2024-06-03 05:46:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 05:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json-x-table
+[2024-06-03 05:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datas-helper
+[2024-06-03 05:46:24] INFO root fetch - processPackages [json-x-table]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 05:46:24] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/69/61/658470e052c4b654d168bf0e9375a43440b7f3c82d06a342f3c6e4c31437/json_x_table-0.0.2.tar.gz
+[2024-06-03 05:46:24] WARNING root fetch - processPackages [datas-helper]: Skipping, unable to determine old version
+[2024-06-03 05:46:24] INFO root fetch - main [MainThread]: End processing [datas-helper] error
+[2024-06-03 05:46:24] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/c7/fe/97b9f7017823f6de31f091fda62b292ceecdcc98a994e168045c6820ad6f/json_x_table-0.0.3.tar.gz
+[2024-06-03 05:46:24] INFO root fetch - processPackages [json-x-table]: executing diffoscope
+[2024-06-03 05:46:24] INFO root fetch - processPackages [json-x-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_x_table-0.0.2.tar.gz tmp/json_x_table-0.0.3.tar.gz --markdown 20240603/j/json-x-table/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 05:46:25] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.2.tar.gz]
+[2024-06-03 05:46:25] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.3.tar.gz]
+[2024-06-03 05:46:25] INFO root fetch - main [MainThread]: End processing [json-x-table]: success
+[2024-06-03 05:46:25] INFO root fetch - main [MainThread]: Store serial: [23496385]
