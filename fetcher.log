@@ -17127,3 +17127,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:48:56] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-06-03 13:48:56] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-06-03 13:48:56] INFO root fetch - main [MainThread]: Store serial: [23501644]
+[2024-06-03 13:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501644]
+[2024-06-03 13:51:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pvsite-datamodel
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-sae
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: behat-config-leaks
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bwalign
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edri
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-redis
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stocknotebridge
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mljar-supervised
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modrinth-downloader
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dj-all-auth
+[2024-06-03 13:51:05] INFO root fetch - processPackages [bwalign]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-06-03 13:51:05] INFO root fetch - processPackages [pvsite-datamodel]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:51:05] INFO root fetch - processPackages [dj-all-auth]: New version: [0.1b4] Old Version: [0.1b3]
+[2024-06-03 13:51:05] INFO root fetch - processPackages [ros-cdk-sae]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:51:05] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/4d/83/1bd1141d416678eb36189179f877ee1aafc22650bc7469f7d62efae23826/bwalign-1.6.4.tar.gz
+[2024-06-03 13:51:05] WARNING root fetch - processPackages [behat-config-leaks]: Skipping, unable to determine old version
+[2024-06-03 13:51:05] INFO root fetch - main [MainThread]: End processing [behat-config-leaks] error
+[2024-06-03 13:51:06] INFO root fetch - processPackages [edri]: New version: [2024.6.1] Old Version: [2024.4.1]
+[2024-06-03 13:51:06] WARNING root fetch - processPackages [modrinth-downloader]: Skipping, unable to determine old version
+[2024-06-03 13:51:06] INFO root fetch - processPackages [dj-all-auth]: Downloading https://files.pythonhosted.org/packages/fa/27/98369074166867181350db57fe2b718bdbdcb9f685f4c680a5beafe85b94/dj_all_auth-0.1b3.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - main [MainThread]: End processing [modrinth-downloader] error
+[2024-06-03 13:51:06] INFO root fetch - processPackages [stocknotebridge]: New version: [3.0.0] Old Version: [1.0.1]
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-redis]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:51:06] INFO root fetch - processPackages [mljar-supervised]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-06-03 13:51:06] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/4f/94/17d9ce3de61a220e5960639e6088e95f0a697c74ba8a19f612cfe429b4a9/pvsite_datamodel-1.0.8.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-sae]: Downloading https://files.pythonhosted.org/packages/95/5e/26a5585a5fe36ef898857f1c85d833bf8557f57253b91175c353fd8db132/ros-cdk-sae-1.0.8.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [edri]: Downloading https://files.pythonhosted.org/packages/06/08/289f9ff1fdab68e92726bf1353915d64441652b6ab0f243456f27a2a8887/edri-2024.4.1.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-redis]: Downloading https://files.pythonhosted.org/packages/f9/37/c2f9452820ea9aab67f2a26c2746578c4eaaf5843fe0960caa257ea0861d/ros-cdk-redis-1.0.8.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [stocknotebridge]: Downloading https://files.pythonhosted.org/packages/4d/98/99000dd2f015afde1f78853c5ddde731513fb6ecf760116cbc241b4843aa/stocknotebridge-1.0.1.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [mljar-supervised]: Downloading https://files.pythonhosted.org/packages/8d/cc/f6316c3de31eb00565cb68a47d70bc95e2d2f2b32d65db9a1add78c2e7e5/mljar-supervised-1.1.8.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/93/04/462db71f7dc94494c1fb7c8da84f9928023da46e77106e0893275d8f3f56/bwalign-1.6.5.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [dj-all-auth]: Downloading https://files.pythonhosted.org/packages/da/46/5d1dcec38f2e5a02ec816ac92e358e22d2c34427f4b4bd32ccc61b93dbb6/dj_all_auth-0.1b4.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 13:51:06] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.6.4.tar.gz tmp/bwalign-1.6.5.tar.gz --markdown 20240603/b/bwalign/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-sae]: Downloading https://files.pythonhosted.org/packages/48/72/cff8a4b003968402d7e15cd02a1e7cd2c3942986f32ecbb5f5f318c01237/ros-cdk-sae-1.0.9.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/09/05/b1d02e4bce0bada9effc1c581a0762ec56c98c169d8463fc2bedefa2893d/pvsite_datamodel-1.0.9.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [edri]: Downloading https://files.pythonhosted.org/packages/b3/4a/aec4841b19a42da4fd7cea76992c6ddcbf2d9e5912d41750806a924d711c/edri-2024.6.1.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [stocknotebridge]: Downloading https://files.pythonhosted.org/packages/46/50/dce9b6b4b6fb66d399cb93946c61559faa67c5d8d5ae7b4b5fecb18a858f/stocknotebridge-3.0.0.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [mljar-supervised]: Downloading https://files.pythonhosted.org/packages/c7/cd/d490b2536d3bcf5d4ae6262567cd667690a76d551046baf03c5a43343915/mljar-supervised-1.1.9.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-sae]: executing diffoscope
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-sae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sae-1.0.8.tar.gz tmp/ros-cdk-sae-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-sae/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:51:06] INFO root fetch - processPackages [dj-all-auth]: executing diffoscope
+[2024-06-03 13:51:06] INFO root fetch - processPackages [dj-all-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_all_auth-0.1b3.tar.gz tmp/dj_all_auth-0.1b4.tar.gz --markdown 20240603/d/dj-all-auth/0.1b3-0.1b4/README.md --exclude *.pyd
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-redis]: Downloading https://files.pythonhosted.org/packages/07/d9/77b4deeeee6a1c77a1424293bb0d34996cb37198c52ac49b073910e25642/ros-cdk-redis-1.0.9.tar.gz
+[2024-06-03 13:51:06] INFO root fetch - processPackages [edri]: executing diffoscope
+[2024-06-03 13:51:06] INFO root fetch - processPackages [edri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edri-2024.4.1.tar.gz tmp/edri-2024.6.1.tar.gz --markdown 20240603/e/edri/2024.4.1-2024.6.1/README.md --exclude *.pyd
+[2024-06-03 13:51:06] INFO root fetch - processPackages [stocknotebridge]: executing diffoscope
+[2024-06-03 13:51:06] INFO root fetch - processPackages [stocknotebridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stocknotebridge-1.0.1.tar.gz tmp/stocknotebridge-3.0.0.tar.gz --markdown 20240603/s/stocknotebridge/1.0.1-3.0.0/README.md --exclude *.pyd
+[2024-06-03 13:51:06] INFO root fetch - processPackages [mljar-supervised]: executing diffoscope
+[2024-06-03 13:51:06] INFO root fetch - processPackages [mljar-supervised]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mljar-supervised-1.1.8.tar.gz tmp/mljar-supervised-1.1.9.tar.gz --markdown 20240603/m/mljar-supervised/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-06-03 13:51:06] INFO root fetch - processPackages [pvsite-datamodel]: executing diffoscope
+[2024-06-03 13:51:06] INFO root fetch - processPackages [pvsite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvsite_datamodel-1.0.8.tar.gz tmp/pvsite_datamodel-1.0.9.tar.gz --markdown 20240603/p/pvsite-datamodel/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-redis]: executing diffoscope
+[2024-06-03 13:51:06] INFO root fetch - processPackages [ros-cdk-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-redis-1.0.8.tar.gz tmp/ros-cdk-redis-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-redis/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:51:07] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.6.4.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.6.5.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 13:51:07] INFO root fetch - processPackages [ros-cdk-sae]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sae-1.0.8.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - processPackages [ros-cdk-sae]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sae-1.0.9.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - main [MainThread]: End processing [ros-cdk-sae]: success
+[2024-06-03 13:51:07] INFO root fetch - processPackages [dj-all-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj_all_auth-0.1b3.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - processPackages [dj-all-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj_all_auth-0.1b4.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - main [MainThread]: End processing [dj-all-auth]: success
+[2024-06-03 13:51:07] INFO root fetch - processPackages [stocknotebridge]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridge-1.0.1.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - processPackages [stocknotebridge]: Remove: archive file [/home/abi/fetcher/tmp/stocknotebridge-3.0.0.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - main [MainThread]: End processing [stocknotebridge]: success
+[2024-06-03 13:51:07] INFO root fetch - processPackages [edri]: Remove: archive file [/home/abi/fetcher/tmp/edri-2024.4.1.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - processPackages [edri]: Remove: archive file [/home/abi/fetcher/tmp/edri-2024.6.1.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - main [MainThread]: End processing [edri]: success
+[2024-06-03 13:51:07] INFO root fetch - processPackages [ros-cdk-redis]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-redis-1.0.8.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - processPackages [ros-cdk-redis]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-redis-1.0.9.tar.gz]
+[2024-06-03 13:51:07] INFO root fetch - main [MainThread]: End processing [ros-cdk-redis]: success
+[2024-06-03 13:51:08] INFO root fetch - processPackages [mljar-supervised]: Remove: archive file [/home/abi/fetcher/tmp/mljar-supervised-1.1.8.tar.gz]
+[2024-06-03 13:51:08] INFO root fetch - processPackages [mljar-supervised]: Remove: archive file [/home/abi/fetcher/tmp/mljar-supervised-1.1.9.tar.gz]
+[2024-06-03 13:51:08] INFO root fetch - main [MainThread]: End processing [mljar-supervised]: success
+[2024-06-03 13:51:08] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.8.tar.gz]
+[2024-06-03 13:51:08] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
+[2024-06-03 13:51:08] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
+[2024-06-03 13:51:08] INFO root fetch - main [MainThread]: Store serial: [23501679]
