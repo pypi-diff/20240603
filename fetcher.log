@@ -24088,3 +24088,69 @@ EOFError: EOF read where object expected
 [2024-06-03 16:48:59] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
 [2024-06-03 16:48:59] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-06-03 16:48:59] INFO root fetch - main [MainThread]: Store serial: [23504633]
+[2024-06-03 16:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504633]
+[2024-06-03 16:51:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 16:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danila-lib
+[2024-06-03 16:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomicshop
+[2024-06-03 16:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testjaehyun
+[2024-06-03 16:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testcore
+[2024-06-03 16:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jinaai-api-schemas
+[2024-06-03 16:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textual
+[2024-06-03 16:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybalmorel
+[2024-06-03 16:51:09] INFO root fetch - processPackages [danila-lib]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testcore]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testjaehyun]: New version: [0.0.3b0] Old Version: [0.0.3]
+[2024-06-03 16:51:09] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 16:51:09] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/72/10/9845291f4110d1c0d7b9daaf33f5af588b9d511e845c4488e530cd3e1e4a/danila-lib-1.9.3.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testjaehyun]: Downloading https://files.pythonhosted.org/packages/7b/63/db432f7da3beac5533c3ff603c1ae4b34ee3a6c6e2113027758229dcfcaf/testjaehyun-0.0.3.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [pybalmorel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:51:09] INFO root fetch - processPackages [jinaai-api-schemas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:51:09] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testcore]: Downloading https://files.pythonhosted.org/packages/9c/dc/309e7c12caa430239fb829856bcabc93bd4525c14923fbc79d33b02ccce0/testcore-0.0.1.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/25/39/f863141710107516bb3ddba4fc7996934fb79d7c7b3f929453a812fa8eab/jinaai_api_schemas-0.0.8.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [pybalmorel]: Downloading https://files.pythonhosted.org/packages/e9/97/cf8dcc20882b73150e71300530619afb21d07f2cfa932e125d7cc1bfb748/pybalmorel-0.0.8.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testjaehyun]: Downloading https://files.pythonhosted.org/packages/79/e9/541bb0e50c20e131a7fcac4c890c935ac0c6d15a2250fb3773f5474187df/testjaehyun-0.0.3b0.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/72/5f/fe38aa23c9aa903c1796e23a228895ca65e7c7d9162283671b0019a30bfc/danila-lib-1.9.4.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testcore]: Downloading https://files.pythonhosted.org/packages/97/99/334148258a09268cdb31d5796db2227cd5d711a0044cb5afeb219db99a05/testcore-0.0.2.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 16:51:09] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testcore]: executing diffoscope
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testcore-0.0.1.tar.gz tmp/testcore-0.0.2.tar.gz --markdown 20240603/t/testcore/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 16:51:09] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/61/d2/6821514a6cc42b5b55a3eb2ee495174540c809889a9e0ba57657f8d637c4/jinaai_api_schemas-0.0.9.tar.gz
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testjaehyun]: executing diffoscope
+[2024-06-03 16:51:09] INFO root fetch - processPackages [testjaehyun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testjaehyun-0.0.3.tar.gz tmp/testjaehyun-0.0.3b0.tar.gz --markdown 20240603/t/testjaehyun/0.0.3-0.0.3b0/README.md --exclude *.pyd
+[2024-06-03 16:51:09] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-06-03 16:51:09] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.9.3.tar.gz tmp/danila-lib-1.9.4.tar.gz --markdown 20240603/d/danila-lib/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-06-03 16:51:09] INFO root fetch - processPackages [pybalmorel]: Downloading https://files.pythonhosted.org/packages/b3/10/3b666c80d1fc0b4dcfc60a9b78c8288849dc98cbd629bb5d8a522466ebff/pybalmorel-0.0.9.tar.gz
+[2024-06-03 16:51:10] INFO root fetch - processPackages [jinaai-api-schemas]: executing diffoscope
+[2024-06-03 16:51:10] INFO root fetch - processPackages [jinaai-api-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai_api_schemas-0.0.8.tar.gz tmp/jinaai_api_schemas-0.0.9.tar.gz --markdown 20240603/j/jinaai-api-schemas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:51:10] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2024-06-03 16:51:10] INFO root fetch - processPackages [pybalmorel]: executing diffoscope
+[2024-06-03 16:51:10] INFO root fetch - processPackages [pybalmorel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybalmorel-0.0.8.tar.gz tmp/pybalmorel-0.0.9.tar.gz --markdown 20240603/p/pybalmorel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:51:10] INFO root fetch - processPackages [textual]: executing diffoscope
+[2024-06-03 16:51:10] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20240603/t/textual/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 16:51:10] INFO root fetch - processPackages [testcore]: Remove: archive file [/home/abi/fetcher/tmp/testcore-0.0.1.tar.gz]
+[2024-06-03 16:51:10] INFO root fetch - processPackages [testcore]: Remove: archive file [/home/abi/fetcher/tmp/testcore-0.0.2.tar.gz]
+[2024-06-03 16:51:10] INFO root fetch - main [MainThread]: End processing [testcore]: success
+[2024-06-03 16:51:10] INFO root fetch - processPackages [pybalmorel]: Remove: archive file [/home/abi/fetcher/tmp/pybalmorel-0.0.8.tar.gz]
+[2024-06-03 16:51:10] INFO root fetch - processPackages [pybalmorel]: Remove: archive file [/home/abi/fetcher/tmp/pybalmorel-0.0.9.tar.gz]
+[2024-06-03 16:51:10] INFO root fetch - main [MainThread]: End processing [pybalmorel]: success
+[2024-06-03 16:51:10] INFO root fetch - processPackages [testjaehyun]: Remove: archive file [/home/abi/fetcher/tmp/testjaehyun-0.0.3.tar.gz]
+[2024-06-03 16:51:10] INFO root fetch - processPackages [testjaehyun]: Remove: archive file [/home/abi/fetcher/tmp/testjaehyun-0.0.3b0.tar.gz]
+[2024-06-03 16:51:10] INFO root fetch - main [MainThread]: End processing [testjaehyun]: success
+[2024-06-03 16:51:10] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.8.tar.gz]
+[2024-06-03 16:51:10] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.9.tar.gz]
+[2024-06-03 16:51:10] INFO root fetch - main [MainThread]: End processing [jinaai-api-schemas]: success
+[2024-06-03 16:51:11] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.3.tar.gz]
+[2024-06-03 16:51:11] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.4.tar.gz]
+[2024-06-03 16:51:11] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-06-03 16:51:11] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 16:51:11] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 16:51:11] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 16:51:11] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2024-06-03 16:51:11] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2024-06-03 16:51:11] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2024-06-03 16:51:11] INFO root fetch - main [MainThread]: Store serial: [23504656]
