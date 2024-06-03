@@ -9295,3 +9295,78 @@ EOFError: EOF read where object expected
 [2024-06-03 09:56:47] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
 [2024-06-03 09:56:47] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
 [2024-06-03 09:56:47] INFO root fetch - main [MainThread]: Store serial: [23498093]
+[2024-06-03 09:58:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498093]
+[2024-06-03 09:58:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 09:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awkexercises
+[2024-06-03 09:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audiconnectpy
+[2024-06-03 09:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-06-03 09:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomicshop
+[2024-06-03 09:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awktutorial
+[2024-06-03 09:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akshare
+[2024-06-03 09:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: protarrow
+[2024-06-03 09:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toyai
+[2024-06-03 09:58:59] INFO root fetch - processPackages [audiconnectpy]: New version: [2.3.0] Old Version: [2.2.9]
+[2024-06-03 09:58:59] INFO root fetch - processPackages [protarrow]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-06-03 09:58:59] INFO root fetch - processPackages [toyai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 09:58:59] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 09:58:59] INFO root fetch - processPackages [awkexercises]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-06-03 09:58:59] INFO root fetch - processPackages [awktutorial]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-06-03 09:58:59] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/15/3e/5210d8c1449bade32e318b38779e49fb08c717e1613c445940937735749f/audiconnectpy-2.2.9.tar.gz
+[2024-06-03 09:58:59] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 09:58:59] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/58/a2/14633f162c8ce76a27d40fe9c28cdfa5776163a3b3cbbd45a0a5906f8c38/protarrow-0.3.0.tar.gz
+[2024-06-03 09:58:59] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/fd/4c/821633199a44bf39d8ff3afa6002dbead461d9d66884ceb45606f2bb8c51/toyai-0.1.8-py3-none-any.whl
+[2024-06-03 09:58:59] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-06-03 09:58:59] INFO root fetch - processPackages [awkexercises]: Downloading https://files.pythonhosted.org/packages/ee/7d/ebc2c547f488cd394965e7336b4fa7fb501d737e356c9150aedacbf19430/awkexercises-1.0.1.tar.gz
+[2024-06-03 09:58:59] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 09:58:59] INFO root fetch - processPackages [awktutorial]: Downloading https://files.pythonhosted.org/packages/de/52/98e442648f0d333251461038c6507b8d9b099fa91a7f7814d1c2bc32eb9c/awktutorial-1.0.0.tar.gz
+[2024-06-03 09:58:59] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/4b/bd/3cbd97306a8a5d273dd72b7fb954ae9d01e484fc1171647fc4c76fa9313b/audiconnectpy-2.3.0.tar.gz
+[2024-06-03 09:58:59] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-06-03 09:58:59] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/18/d9/7e8965ab53001776b1f7370302d93bd68116fb00deb686b2b9821b9914e6/toyai-0.1.9-py3-none-any.whl
+[2024-06-03 09:58:59] INFO root fetch - processPackages [protarrow]: Downloading https://files.pythonhosted.org/packages/f4/1d/749bfe28402e1ed1347e09c1a13747b0fbfa728775747c264f3c5ffd650a/protarrow-0.4.0.tar.gz
+[2024-06-03 09:58:59] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-06-03 09:58:59] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240603/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 09:58:59] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 09:58:59] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.8-py3-none-any.whl.zip tmp/toyai-0.1.9-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 09:58:59] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2024-06-03 09:58:59] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-2.2.9.tar.gz tmp/audiconnectpy-2.3.0.tar.gz --markdown 20240603/a/audiconnectpy/2.2.9-2.3.0/README.md --exclude *.pyd
+[2024-06-03 09:59:00] INFO root fetch - processPackages [awkexercises]: Downloading https://files.pythonhosted.org/packages/50/d3/6f4e63d5d3a95eadeb5940591c3a44bf7020751517ff340a75fb5c4b47a0/awkexercises-1.1.0.tar.gz
+[2024-06-03 09:59:00] INFO root fetch - processPackages [protarrow]: executing diffoscope
+[2024-06-03 09:59:00] INFO root fetch - processPackages [protarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protarrow-0.3.0.tar.gz tmp/protarrow-0.4.0.tar.gz --markdown 20240603/p/protarrow/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-06-03 09:59:00] INFO root fetch - processPackages [awktutorial]: Downloading https://files.pythonhosted.org/packages/20/f2/ceb4721f27e227b1ef79c21db84efe654e22b150fb39ab4cda3fabafb767/awktutorial-1.1.0.tar.gz
+[2024-06-03 09:59:00] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 09:59:00] INFO root fetch - processPackages [awkexercises]: executing diffoscope
+[2024-06-03 09:59:00] INFO root fetch - processPackages [awkexercises]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkexercises-1.0.1.tar.gz tmp/awkexercises-1.1.0.tar.gz --markdown 20240603/a/awkexercises/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-06-03 09:59:00] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-06-03 09:59:00] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 09:59:00] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 09:59:00] INFO root fetch - processPackages [awktutorial]: executing diffoscope
+[2024-06-03 09:59:00] INFO root fetch - processPackages [awktutorial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awktutorial-1.0.0.tar.gz tmp/awktutorial-1.1.0.tar.gz --markdown 20240603/a/awktutorial/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-06-03 09:59:00] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-06-03 09:59:00] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.9.tar.gz]
+[2024-06-03 09:59:00] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.3.0.tar.gz]
+[2024-06-03 09:59:00] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2024-06-03 09:59:00] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.8-py3-none-any.whl.zip]
+[2024-06-03 09:59:00] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.9-py3-none-any.whl.zip]
+[2024-06-03 09:59:00] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 09:59:00] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.3.0.tar.gz]
+[2024-06-03 09:59:00] INFO root fetch - processPackages [protarrow]: Remove: archive file [/home/abi/fetcher/tmp/protarrow-0.4.0.tar.gz]
+[2024-06-03 09:59:00] INFO root fetch - main [MainThread]: End processing [protarrow]: success
+[2024-06-03 09:59:00] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-06-03 09:59:01] INFO root fetch - processPackages [awkexercises]: Remove: archive file [/home/abi/fetcher/tmp/awkexercises-1.0.1.tar.gz]
+[2024-06-03 09:59:01] INFO root fetch - processPackages [awkexercises]: Remove: archive file [/home/abi/fetcher/tmp/awkexercises-1.1.0.tar.gz]
+[2024-06-03 09:59:01] INFO root fetch - main [MainThread]: End processing [awkexercises]: success
+[2024-06-03 09:59:01] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-06-03 09:59:01] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-06-03 09:59:01] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-06-03 09:59:01] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-06-03 09:59:01] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240603/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-06-03 09:59:01] INFO root fetch - processPackages [awktutorial]: Remove: archive file [/home/abi/fetcher/tmp/awktutorial-1.0.0.tar.gz]
+[2024-06-03 09:59:01] INFO root fetch - processPackages [awktutorial]: Remove: archive file [/home/abi/fetcher/tmp/awktutorial-1.1.0.tar.gz]
+[2024-06-03 09:59:01] INFO root fetch - main [MainThread]: End processing [awktutorial]: success
+[2024-06-03 09:59:01] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 09:59:01] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 09:59:01] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 09:59:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-06-03 09:59:03] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-06-03 09:59:03] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-06-03 09:59:03] INFO root fetch - main [MainThread]: Store serial: [23498124]
