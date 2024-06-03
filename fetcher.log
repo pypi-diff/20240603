@@ -21700,3 +21700,108 @@ EOFError: EOF read where object expected
 [2024-06-03 15:36:48] INFO root fetch - processPackages [brayns]: Remove: archive file [/home/abi/fetcher/tmp/brayns-3.8.0.tar.gz]
 [2024-06-03 15:36:48] INFO root fetch - main [MainThread]: End processing [brayns]: success
 [2024-06-03 15:36:48] INFO root fetch - main [MainThread]: Store serial: [23503440]
+[2024-06-03 15:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503440]
+[2024-06-03 15:38:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hddm-r
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avrotize
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cosmic-crisp
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arion-library
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-dataset
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-models
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: saq
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2024-06-03 15:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AAIT
+[2024-06-03 15:38:57] INFO root fetch - processPackages [avrotize]: New version: [2.0.0] Old Version: [1.9.5]
+[2024-06-03 15:38:57] INFO root fetch - processPackages [cosmic-crisp]: New version: [0.1.0.dev20240603133038] Old Version: [0.1.0.dev20240603124937]
+[2024-06-03 15:38:57] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-06-03 15:38:57] INFO root fetch - processPackages [nucliadb]: New version: [4.0.3.post565] Old Version: [4.0.3.post564]
+[2024-06-03 15:38:57] INFO root fetch - processPackages [arion-library]: New version: [1.1rc99.dev99] Old Version: [1.1rc97.dev97]
+[2024-06-03 15:38:57] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.3.post565] Old Version: [4.0.3.post564]
+[2024-06-03 15:38:57] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.3.post565] Old Version: [4.0.3.post564]
+[2024-06-03 15:38:57] WARNING root fetch - processPackages [hddm-r]: Skipping, unable to determine old version
+[2024-06-03 15:38:57] INFO root fetch - processPackages [hddm-r]: Start processing: nucliadb-sdk
+[2024-06-03 15:38:57] INFO root fetch - main [MainThread]: End processing [hddm-r] error
+[2024-06-03 15:38:57] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.3.post565] Old Version: [4.0.3.post564]
+[2024-06-03 15:38:57] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/47/60/d33df50ba036783c4851d0f8aa9a8c968be4c6fbbef348edf250975eb306/cosmic_crisp-0.1.0.dev20240603124937.tar.gz
+[2024-06-03 15:38:57] INFO root fetch - processPackages [saq]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-06-03 15:38:57] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/4b/ec/a3e05f449cce0171eccc1aaf2042c86118c169df00af32df839b4226b8b2/AAIT-0.0.2.8.tar.gz
+[2024-06-03 15:38:57] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/0a/74/e7773b7f92a0a419e22a45bd2724a3c50673845fc1b324ffa6c8e0ed3269/nucliadb-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:38:57] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.3.post565] Old Version: [4.0.3.post564]
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d0/13/b3b3d63a342d3e0bc9b155124f577348c92f6d493514171719221e6a6997/nucliadb_dataset-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/22/12/fdc627e98c34c3985d40b324ee28785454ce483fb4b26c6737cdbfddb95d/nucliadb_models-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/77/40/476587bf36c039cab255296cc6382eb737791412d3afabf034eca3165be0/nucliadb_protos-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/75/fe/c941a7a35d998af393d831f56a917ae59d786135aa440e0e7416601d8a03/avrotize-1.9.5.tar.gz
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/20/a1/0b6da4c146e9f74479201c72d3a933e1ab96c7d34da4af877891e3a099b6/nucliadb_sdk-4.0.3.post564-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [saq]: Downloading https://files.pythonhosted.org/packages/46/5e/300657f7894f65e54efd047adb7004eb23dd6f2f678d014016a00350c504/saq-0.9.3.tar.gz
+[2024-06-03 15:38:58] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/a0/ed/929afa211bad78b2612459dbcacb9dca8231b0e919d21a6da65137005c11/AAIT-0.0.2.9.tar.gz
+[2024-06-03 15:38:58] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/eb/6a/2a118dcc80b4b2d77ee26a645a3495fb1302d856a327caeeb4d26e4d2f59/arion_library-1.1rc99.dev99.tar.gz
+[2024-06-03 15:38:58] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/7b/30/1eab06b63e78167400aafb082325c4840cf26341e63c75211c84b8046f02/cosmic_crisp-0.1.0.dev20240603133038.tar.gz
+[2024-06-03 15:38:58] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/58/d7/756235e2599b5d6782f33fa14c9380d46d6bda5fbef4786f3f9681660ded/avrotize-2.0.0.tar.gz
+[2024-06-03 15:38:58] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.8.tar.gz tmp/AAIT-0.0.2.9.tar.gz --markdown 20240603/A/AAIT/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/69/ce/2d0f3547ca890f007296dcaf1a6add454f13963054a8361eb1051f288723/nucliadb_dataset-4.0.3.post565-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc97.dev97.tar.gz tmp/arion_library-1.1rc99.dev99.tar.gz --markdown 20240603/a/arion-library/1.1rc97.dev97-1.1rc99.dev99/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/5a/f3/e7f1637f12cfcc56179f7dbcd4146c2635f2f2a9b9de9d1fd438d9e33baf/nucliadb_models-4.0.3.post565-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/66/e5/d4d5f7a615cc6909ad27d3b8e7aa651715a871fe8a7bc1eb8a25fef13d16/nucliadb-4.0.3.post565-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/61/51/d7fb43fc22de4756f633b9690b4321a79ef5cf00c5e90027438e48a9de87/nucliadb_protos-4.0.3.post565-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [cosmic-crisp]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [cosmic-crisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmic_crisp-0.1.0.dev20240603124937.tar.gz tmp/cosmic_crisp-0.1.0.dev20240603133038.tar.gz --markdown 20240603/c/cosmic-crisp/0.1.0.dev20240603124937-0.1.0.dev20240603133038/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.9.5.tar.gz tmp/avrotize-2.0.0.tar.gz --markdown 20240603/a/avrotize/1.9.5-2.0.0/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/5b/ae/3275e5741292e96e74265fc5abf07012d7d471785d2347c6e6a35a9a5caf/nucliadb_sdk-4.0.3.post565-py3-none-any.whl
+[2024-06-03 15:38:58] INFO root fetch - processPackages [saq]: Downloading https://files.pythonhosted.org/packages/d7/68/6c0b0d0e519b86110e23d6a304520d05591afe5ccbdc05833a6ca2ba6b21/saq-0.9.4.tar.gz
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.3.post564-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.3.post565-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-dataset/4.0.3.post564-4.0.3.post565/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.3.post564-py3-none-any.whl.zip tmp/nucliadb_models-4.0.3.post565-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-models/4.0.3.post564-4.0.3.post565/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.3.post564-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.3.post565-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-protos/4.0.3.post564-4.0.3.post565/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.3.post564-py3-none-any.whl.zip tmp/nucliadb-4.0.3.post565-py3-none-any.whl.zip --markdown 20240603/n/nucliadb/4.0.3.post564-4.0.3.post565/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.3.post564-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.3.post565-py3-none-any.whl.zip --markdown 20240603/n/nucliadb-sdk/4.0.3.post564-4.0.3.post565/README.md --exclude *.pyd
+[2024-06-03 15:38:58] INFO root fetch - processPackages [saq]: executing diffoscope
+[2024-06-03 15:38:58] INFO root fetch - processPackages [saq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saq-0.9.3.tar.gz tmp/saq-0.9.4.tar.gz --markdown 20240603/s/saq/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-06-03 15:38:59] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-06-03 15:38:59] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc99.dev99.tar.gz]
+[2024-06-03 15:38:59] INFO root fetch - processPackages [arion-library]: Start processing: consensusGen
+[2024-06-03 15:38:59] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-06-03 15:38:59] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.8.tar.gz]
+[2024-06-03 15:38:59] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.9.tar.gz]
+[2024-06-03 15:38:59] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-06-03 15:38:59] INFO root fetch - processPackages [consensusGen]: New version: [2.4] Old Version: [2.3]
+[2024-06-03 15:38:59] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:38:59] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.3.post565-py3-none-any.whl.zip]
+[2024-06-03 15:38:59] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-06-03 15:38:59] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/39/a7/fd4a070b02b6d7d729fad4df28c83b153963f71167ed43085d004befa1c9/consensusgen-2.3.tar.gz
+[2024-06-03 15:38:59] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240603124937.tar.gz]
+[2024-06-03 15:38:59] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240603133038.tar.gz]
+[2024-06-03 15:38:59] INFO root fetch - main [MainThread]: End processing [cosmic-crisp]: success
+[2024-06-03 15:38:59] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:38:59] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.3.post565-py3-none-any.whl.zip]
+[2024-06-03 15:38:59] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-06-03 15:39:00] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:39:00] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.3.post565-py3-none-any.whl.zip]
+[2024-06-03 15:39:00] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-06-03 15:39:00] INFO root fetch - processPackages [saq]: Remove: archive file [/home/abi/fetcher/tmp/saq-0.9.3.tar.gz]
+[2024-06-03 15:39:00] INFO root fetch - processPackages [saq]: Remove: archive file [/home/abi/fetcher/tmp/saq-0.9.4.tar.gz]
+[2024-06-03 15:39:00] INFO root fetch - main [MainThread]: End processing [saq]: success
+[2024-06-03 15:39:00] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:39:00] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.3.post565-py3-none-any.whl.zip]
+[2024-06-03 15:39:00] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-06-03 15:39:00] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/54/e4/2ec8fb0ee35aef2f4946df1277b615da19aa681067e640b9c152e81735a2/consensusgen-2.4.tar.gz
+[2024-06-03 15:39:00] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-06-03 15:39:00] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-2.3.tar.gz tmp/consensusgen-2.4.tar.gz --markdown 20240603/c/consensusGen/2.3-2.4/README.md --exclude *.pyd
+[2024-06-03 15:39:00] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.9.5.tar.gz]
+[2024-06-03 15:39:00] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
+[2024-06-03 15:39:00] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-06-03 15:39:00] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.3.tar.gz]
+[2024-06-03 15:39:00] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.4.tar.gz]
+[2024-06-03 15:39:00] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-06-03 15:39:01] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.3.post564-py3-none-any.whl.zip]
+[2024-06-03 15:39:01] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.3.post565-py3-none-any.whl.zip]
+[2024-06-03 15:39:01] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-06-03 15:39:01] INFO root fetch - main [MainThread]: Store serial: [23503478]
