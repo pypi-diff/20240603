@@ -3895,3 +3895,33 @@ EOFError: EOF read where object expected
 [2024-06-03 04:42:26] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.9.tar.gz]
 [2024-06-03 04:42:26] INFO root fetch - main [MainThread]: End processing [ldeep]: success
 [2024-06-03 04:42:26] INFO root fetch - main [MainThread]: Store serial: [23495785]
+[2024-06-03 04:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495785]
+[2024-06-03 04:44:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 04:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-classroom-converter
+[2024-06-03 04:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sccore
+[2024-06-03 04:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexidata
+[2024-06-03 04:44:34] INFO root fetch - processPackages [qiskit-classroom-converter]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-06-03 04:44:34] INFO root fetch - processPackages [sccore]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-06-03 04:44:34] INFO root fetch - processPackages [flexidata]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 04:44:34] INFO root fetch - processPackages [qiskit-classroom-converter]: Downloading https://files.pythonhosted.org/packages/ac/a6/972053bbded9f87b2ef68fcd38df115ef06b7a5c8a0f0d1b5650346418fa/qiskit-classroom-converter-0.4.3.tar.gz
+[2024-06-03 04:44:35] INFO root fetch - processPackages [sccore]: Downloading https://files.pythonhosted.org/packages/9a/a6/896537ca6f71e96535bc75b7e9dbfe1f043c9a8c9ffad158e96f7d12858e/sccore-0.0.0.tar.gz
+[2024-06-03 04:44:35] INFO root fetch - processPackages [flexidata]: Downloading https://files.pythonhosted.org/packages/0e/fe/5e3f62ab601c5007e69653d22014fe199c1708f34e4caabff8748e43672c/flexidata-0.0.8.tar.gz
+[2024-06-03 04:44:35] INFO root fetch - processPackages [qiskit-classroom-converter]: Downloading https://files.pythonhosted.org/packages/22/55/6902bc2da5f8e7e971bf51f19ebaa00065a35c06244fdd7e398eedd795eb/qiskit-classroom-converter-0.5.0.tar.gz
+[2024-06-03 04:44:35] INFO root fetch - processPackages [qiskit-classroom-converter]: executing diffoscope
+[2024-06-03 04:44:35] INFO root fetch - processPackages [qiskit-classroom-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-classroom-converter-0.4.3.tar.gz tmp/qiskit-classroom-converter-0.5.0.tar.gz --markdown 20240603/q/qiskit-classroom-converter/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-06-03 04:44:35] INFO root fetch - processPackages [sccore]: Downloading https://files.pythonhosted.org/packages/34/5e/6477753190c185d1295e59b7b12c8a28c88962eb59b6ca22d120dcb382f5/sccore-1.0.0.tar.gz
+[2024-06-03 04:44:35] INFO root fetch - processPackages [flexidata]: Downloading https://files.pythonhosted.org/packages/e6/bd/87b88b048d3223cb67b942ac9462f4a1a7c80f30da8750ca57b72baa0a2b/flexidata-0.0.9.tar.gz
+[2024-06-03 04:44:35] INFO root fetch - processPackages [sccore]: executing diffoscope
+[2024-06-03 04:44:35] INFO root fetch - processPackages [sccore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccore-0.0.0.tar.gz tmp/sccore-1.0.0.tar.gz --markdown 20240603/s/sccore/0.0.0-1.0.0/README.md --exclude *.pyd
+[2024-06-03 04:44:35] INFO root fetch - processPackages [flexidata]: executing diffoscope
+[2024-06-03 04:44:35] INFO root fetch - processPackages [flexidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexidata-0.0.8.tar.gz tmp/flexidata-0.0.9.tar.gz --markdown 20240603/f/flexidata/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 04:44:35] INFO root fetch - processPackages [qiskit-classroom-converter]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-classroom-converter-0.4.3.tar.gz]
+[2024-06-03 04:44:35] INFO root fetch - processPackages [qiskit-classroom-converter]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-classroom-converter-0.5.0.tar.gz]
+[2024-06-03 04:44:35] INFO root fetch - main [MainThread]: End processing [qiskit-classroom-converter]: success
+[2024-06-03 04:44:36] INFO root fetch - processPackages [sccore]: Remove: archive file [/home/abi/fetcher/tmp/sccore-0.0.0.tar.gz]
+[2024-06-03 04:44:36] INFO root fetch - processPackages [sccore]: Remove: archive file [/home/abi/fetcher/tmp/sccore-1.0.0.tar.gz]
+[2024-06-03 04:44:36] INFO root fetch - main [MainThread]: End processing [sccore]: success
+[2024-06-03 04:44:36] INFO root fetch - processPackages [flexidata]: Remove: archive file [/home/abi/fetcher/tmp/flexidata-0.0.8.tar.gz]
+[2024-06-03 04:44:36] INFO root fetch - processPackages [flexidata]: Remove: archive file [/home/abi/fetcher/tmp/flexidata-0.0.9.tar.gz]
+[2024-06-03 04:44:36] INFO root fetch - main [MainThread]: End processing [flexidata]: success
+[2024-06-03 04:44:36] INFO root fetch - main [MainThread]: Store serial: [23495795]
