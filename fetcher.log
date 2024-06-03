@@ -2299,3 +2299,42 @@
 [2024-06-03 02:56:03] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2024-06-03 02:56:03] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2024-06-03 02:56:03] INFO root fetch - main [MainThread]: Store serial: [23495111]
+[2024-06-03 02:58:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495111]
+[2024-06-03 02:58:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 02:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitaleye-msgs
+[2024-06-03 02:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vectara-skunk-client
+[2024-06-03 02:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-06-03 02:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bot-bin
+[2024-06-03 02:58:11] INFO root fetch - processPackages [vectara-skunk-client]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-06-03 02:58:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-06-03 02:58:11] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/f9/8a/91b825ef5e539027c1de5c7d6195494283a00f48ce7db6cebf84b7174c7a/vectara_skunk_client-0.5.1.tar.gz
+[2024-06-03 02:58:11] INFO root fetch - processPackages [digitaleye-msgs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 02:58:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-06-03 02:58:11] INFO root fetch - processPackages [bot-bin]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-06-03 02:58:11] INFO root fetch - processPackages [digitaleye-msgs]: Downloading https://files.pythonhosted.org/packages/ab/04/923d577583292c3886676e96cd7fb9541c6afa473cb0be482042f9ab4454/digitaleye_msgs-1.0.8.tar.gz
+[2024-06-03 02:58:11] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/f2/3e/adccfd445aaca82357f43c9837c1f31542487b3920e89e89a00dbdda4ee7/vectara_skunk_client-0.5.2.tar.gz
+[2024-06-03 02:58:11] INFO root fetch - processPackages [bot-bin]: Downloading https://files.pythonhosted.org/packages/de/91/14373d04a4487a1efff95e8ed0150adf17a492feab1b71f3b1d494c527ae/bot-bin-1.6.0.tar.gz
+[2024-06-03 02:58:11] INFO root fetch - processPackages [vectara-skunk-client]: executing diffoscope
+[2024-06-03 02:58:11] INFO root fetch - processPackages [vectara-skunk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara_skunk_client-0.5.1.tar.gz tmp/vectara_skunk_client-0.5.2.tar.gz --markdown 20240603/v/vectara-skunk-client/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-06-03 02:58:11] INFO root fetch - processPackages [digitaleye-msgs]: Downloading https://files.pythonhosted.org/packages/fd/bd/f9fa5a2ff25dac6d57de48b2f128ad07b29d408ba592ffa68080770271d6/digitaleye_msgs-1.0.9.tar.gz
+[2024-06-03 02:58:12] INFO root fetch - processPackages [digitaleye-msgs]: executing diffoscope
+[2024-06-03 02:58:12] INFO root fetch - processPackages [digitaleye-msgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitaleye_msgs-1.0.8.tar.gz tmp/digitaleye_msgs-1.0.9.tar.gz --markdown 20240603/d/digitaleye-msgs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 02:58:12] INFO root fetch - processPackages [bot-bin]: Downloading https://files.pythonhosted.org/packages/fe/6a/1d9864a595f47bad1f6ec1cfb5a6b58110879c1fea6a7aa859c01a114dd0/bot-bin-2.0.0.tar.gz
+[2024-06-03 02:58:12] INFO root fetch - processPackages [bot-bin]: executing diffoscope
+[2024-06-03 02:58:12] INFO root fetch - processPackages [bot-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bot-bin-1.6.0.tar.gz tmp/bot-bin-2.0.0.tar.gz --markdown 20240603/b/bot-bin/1.6.0-2.0.0/README.md --exclude *.pyd
+[2024-06-03 02:58:12] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara_skunk_client-0.5.1.tar.gz]
+[2024-06-03 02:58:12] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara_skunk_client-0.5.2.tar.gz]
+[2024-06-03 02:58:12] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
+[2024-06-03 02:58:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-06-03 02:58:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-06-03 02:58:12] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240603/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-06-03 02:58:12] INFO root fetch - processPackages [digitaleye-msgs]: Remove: archive file [/home/abi/fetcher/tmp/digitaleye_msgs-1.0.8.tar.gz]
+[2024-06-03 02:58:12] INFO root fetch - processPackages [digitaleye-msgs]: Remove: archive file [/home/abi/fetcher/tmp/digitaleye_msgs-1.0.9.tar.gz]
+[2024-06-03 02:58:12] INFO root fetch - main [MainThread]: End processing [digitaleye-msgs]: success
+[2024-06-03 02:58:12] INFO root fetch - processPackages [bot-bin]: Remove: archive file [/home/abi/fetcher/tmp/bot-bin-1.6.0.tar.gz]
+[2024-06-03 02:58:12] INFO root fetch - processPackages [bot-bin]: Remove: archive file [/home/abi/fetcher/tmp/bot-bin-2.0.0.tar.gz]
+[2024-06-03 02:58:12] INFO root fetch - main [MainThread]: End processing [bot-bin]: success
+[2024-06-03 02:58:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-06-03 02:58:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-06-03 02:58:13] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-06-03 02:58:13] INFO root fetch - main [MainThread]: Store serial: [23495123]
