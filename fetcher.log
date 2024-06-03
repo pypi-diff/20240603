@@ -20402,3 +20402,58 @@ AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
 [2024-06-03 15:12:04] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
 [2024-06-03 15:12:04] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2024-06-03 15:12:04] INFO root fetch - main [MainThread]: Store serial: [23502958]
+[2024-06-03 15:14:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502958]
+[2024-06-03 15:14:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modrinth-downloader
+[2024-06-03 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swh.storage
+[2024-06-03 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: probabilistic-word-embeddings
+[2024-06-03 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: librus-apix
+[2024-06-03 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ownlib
+[2024-06-03 15:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modrinth-downloader
+[2024-06-03 15:14:13] INFO root fetch - processPackages [modrinth-downloader]: New version: [0.8] Old Version: [0.7]
+[2024-06-03 15:14:13] INFO root fetch - processPackages [modrinth-downloader]: New version: [0.8] Old Version: [0.7]
+[2024-06-03 15:14:13] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 15:14:13] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/1d/a5/dd327bc6d2001371f513143c7dafa347881b67d0567265120e45109da784/modrinth_downloader-0.7.tar.gz
+[2024-06-03 15:14:13] INFO root fetch - processPackages [librus-apix]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-06-03 15:14:13] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/1d/a5/dd327bc6d2001371f513143c7dafa347881b67d0567265120e45109da784/modrinth_downloader-0.7.tar.gz
+[2024-06-03 15:14:13] INFO root fetch - processPackages [ownlib]: New version: [0.0.1b7] Old Version: [0.0.1b6]
+[2024-06-03 15:14:13] INFO root fetch - processPackages [swh.storage]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-06-03 15:14:13] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/9f/97/5ffede71893e5edd3cd031d6961fa8f2cf18b3acd709215409abcd7df044/probabilistic_word_embeddings-1.9.0.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/2d/b0/3e40d4878401bf252f4b2c6d18e205aee7fb739035b965c11941a85fcac7/librus_apix-1.0.5.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/ad/3b/4bd55ac34e6a97862b106c7207e66f0c2b472388aee2732b8d4c224a119f/swh_storage-2.4.0.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [ownlib]: Downloading https://files.pythonhosted.org/packages/ca/10/c1595add92a486cb6c980d2ebc1ee8916c491e13fbf12d51dac93b844e12/ownlib-0.0.1b6.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/1f/c7/0a532bd75b3783c78c5d102ebf652cb598c2216d266a44cf9af3fb287448/probabilistic_word_embeddings-1.9.1.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/a9/60/246fc5135b81e6e39d1ff9f2239fd04a3ad59c750e3d404cb70e6ad25ca1/modrinth_downloader-0.8.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/a9/60/246fc5135b81e6e39d1ff9f2239fd04a3ad59c750e3d404cb70e6ad25ca1/modrinth_downloader-0.8.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2024-06-03 15:14:14] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.9.0.tar.gz tmp/probabilistic_word_embeddings-1.9.1.tar.gz --markdown 20240603/p/probabilistic-word-embeddings/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 15:14:14] INFO root fetch - processPackages [modrinth-downloader]: executing diffoscope
+[2024-06-03 15:14:14] INFO root fetch - processPackages [modrinth-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth_downloader-0.7.tar.gz tmp/modrinth_downloader-0.8.tar.gz --markdown 20240603/m/modrinth-downloader/0.7-0.8/README.md --exclude *.pyd
+[2024-06-03 15:14:14] INFO root fetch - processPackages [modrinth-downloader]: executing diffoscope
+[2024-06-03 15:14:14] INFO root fetch - processPackages [modrinth-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth_downloader-0.7.tar.gz tmp/modrinth_downloader-0.8.tar.gz --markdown 20240603/m/modrinth-downloader/0.7-0.8/README.md --exclude *.pyd
+[2024-06-03 15:14:14] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/92/99/7b2c4e790b003148a4e5047bd450b8705d2a557baeaac0284147ee32bc1c/librus_apix-1.0.6.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [ownlib]: Downloading https://files.pythonhosted.org/packages/5f/89/0e90c9bbc6739a54c13a3d0caeb6da997e3304ae9ab5c67204988fa55742/ownlib-0.0.1b7.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/b9/b8/fee129b83ba1c5c514f797e2a0964c7930e7bcf11ceb73a965c9e5ff05d4/swh_storage-2.4.1.tar.gz
+[2024-06-03 15:14:14] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2024-06-03 15:14:14] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-1.0.5.tar.gz tmp/librus_apix-1.0.6.tar.gz --markdown 20240603/l/librus-apix/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-06-03 15:14:14] INFO root fetch - processPackages [ownlib]: executing diffoscope
+[2024-06-03 15:14:14] INFO root fetch - processPackages [ownlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ownlib-0.0.1b6.tar.gz tmp/ownlib-0.0.1b7.tar.gz --markdown 20240603/o/ownlib/0.0.1b6-0.0.1b7/README.md --exclude *.pyd
+[2024-06-03 15:14:14] INFO root fetch - processPackages [swh.storage]: executing diffoscope
+[2024-06-03 15:14:14] INFO root fetch - processPackages [swh.storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh_storage-2.4.0.tar.gz tmp/swh_storage-2.4.1.tar.gz --markdown 20240603/s/swh.storage/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-06-03 15:14:15] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.7.tar.gz]
+[2024-06-03 15:14:15] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.8.tar.gz]
+[2024-06-03 15:14:15] INFO root fetch - main [MainThread]: End processing [modrinth-downloader]: success
+[2024-06-03 15:14:15] INFO root fetch - main [MainThread]: End processing [modrinth-downloader]: success
+[2024-06-03 15:14:15] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.0.tar.gz]
+[2024-06-03 15:14:15] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.1.tar.gz]
+[2024-06-03 15:14:15] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2024-06-03 15:14:15] INFO root fetch - processPackages [ownlib]: Remove: archive file [/home/abi/fetcher/tmp/ownlib-0.0.1b6.tar.gz]
+[2024-06-03 15:14:15] INFO root fetch - processPackages [ownlib]: Remove: archive file [/home/abi/fetcher/tmp/ownlib-0.0.1b7.tar.gz]
+[2024-06-03 15:14:15] INFO root fetch - main [MainThread]: End processing [ownlib]: success
+[2024-06-03 15:14:15] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-1.0.5.tar.gz]
+[2024-06-03 15:14:15] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-1.0.6.tar.gz]
+[2024-06-03 15:14:15] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2024-06-03 15:14:16] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh_storage-2.4.0.tar.gz]
+[2024-06-03 15:14:16] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh_storage-2.4.1.tar.gz]
+[2024-06-03 15:14:16] INFO root fetch - main [MainThread]: End processing [swh.storage]: success
+[2024-06-03 15:14:16] INFO root fetch - main [MainThread]: Store serial: [23502981]
