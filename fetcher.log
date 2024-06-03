@@ -4210,3 +4210,23 @@ EOFError: EOF read where object expected
 [2024-06-03 05:06:15] INFO root fetch - processPackages [PyDNARepeatFinder]: Remove: archive file [/home/abi/fetcher/tmp/pydnarepeatfinder-0.2.6.tar.gz]
 [2024-06-03 05:06:15] INFO root fetch - main [MainThread]: End processing [PyDNARepeatFinder]: success
 [2024-06-03 05:06:15] INFO root fetch - main [MainThread]: Store serial: [23495905]
+[2024-06-03 05:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495905]
+[2024-06-03 05:08:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runtime-dependency-manager
+[2024-06-03 05:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclicpeptide
+[2024-06-03 05:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcery-nightly
+[2024-06-03 05:08:23] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 05:08:23] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/99/de/7687786d22b1de9896f07405345ed34e1d784fc42de6d0d202388c0f002f/cyclicpeptide-1.0.8.tar.gz
+[2024-06-03 05:08:23] WARNING root fetch - processPackages [runtime-dependency-manager]: Skipping, unable to determine old version
+[2024-06-03 05:08:23] INFO root fetch - main [MainThread]: End processing [runtime-dependency-manager] error
+[2024-06-03 05:08:23] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.18.1b23] Old Version: [1.18.1b20]
+[2024-06-03 05:08:23] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/c1/1a/08f93963f7c92adb2b671a9f8e7f56037c6a2900e6c4647581c422f14877/sourcery_nightly-1.18.1b20-py2.py3-none-win_amd64.whl
+[2024-06-03 05:08:23] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/3a/38/1585212738966a5e64a42d5af887ca097608b1c38b7d4b5eb89e2f642b95/cyclicpeptide-1.0.9.tar.gz
+[2024-06-03 05:08:23] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 86528185>=10485760
+[2024-06-03 05:08:23] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-06-03 05:08:23] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-06-03 05:08:23] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.8.tar.gz tmp/cyclicpeptide-1.0.9.tar.gz --markdown 20240603/c/cyclicpeptide/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 05:08:24] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.8.tar.gz]
+[2024-06-03 05:08:24] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.9.tar.gz]
+[2024-06-03 05:08:24] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-06-03 05:08:24] INFO root fetch - main [MainThread]: Store serial: [23495915]
