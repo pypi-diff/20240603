@@ -1521,3 +1521,33 @@
 [2024-06-03 02:10:56] WARNING root fetch - processPackages [update-or-erase-your-esp32-for-linux-and-windows]: Skipping, unable to determine old version
 [2024-06-03 02:10:56] INFO root fetch - main [MainThread]: End processing [update-or-erase-your-esp32-for-linux-and-windows] error
 [2024-06-03 02:10:56] INFO root fetch - main [MainThread]: Store serial: [23494718]
+[2024-06-03 02:13:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494718]
+[2024-06-03 02:13:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 02:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-06-03 02:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firstrade
+[2024-06-03 02:13:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2024-06-03 02:13:05] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240602.post1209] Old Version: [1.5.0.20240601.post1138]
+[2024-06-03 02:13:05] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-06-03 02:13:05] INFO root fetch - processPackages [firstrade]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 02:13:05] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/95/89/0bef41be56d2340a6817d77441d2a9a070ca80cbeeb2764c4ceb2a9bf181/mct-quantizers-nightly-1.5.0.20240601.post1138.tar.gz
+[2024-06-03 02:13:05] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-06-03 02:13:05] INFO root fetch - processPackages [firstrade]: Downloading https://files.pythonhosted.org/packages/71/3e/538756e5388b7f5c209b60aebd96a105c242924aa72be027ff082fe236aa/firstrade-0.0.8.tar.gz
+[2024-06-03 02:13:05] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-06-03 02:13:05] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/3e/9f/18962b1a41f136a02a11e4aec6a9ca5e5ce38ffb6be890b8a76f04c0e74a/mct-quantizers-nightly-1.5.0.20240602.post1209.tar.gz
+[2024-06-03 02:13:05] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-06-03 02:13:05] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240603/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-06-03 02:13:05] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-06-03 02:13:05] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240601.post1138.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240602.post1209.tar.gz --markdown 20240603/m/mct-quantizers-nightly/1.5.0.20240601.post1138-1.5.0.20240602.post1209/README.md --exclude *.pyd
+[2024-06-03 02:13:05] INFO root fetch - processPackages [firstrade]: Downloading https://files.pythonhosted.org/packages/26/46/8fbfa77e65e290a06b29caaa151d5d19eaf2060f9023a57d093852cedc29/firstrade-0.0.9.tar.gz
+[2024-06-03 02:13:05] INFO root fetch - processPackages [firstrade]: executing diffoscope
+[2024-06-03 02:13:05] INFO root fetch - processPackages [firstrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firstrade-0.0.8.tar.gz tmp/firstrade-0.0.9.tar.gz --markdown 20240603/f/firstrade/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 02:13:06] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-06-03 02:13:06] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-06-03 02:13:06] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-06-03 02:13:06] INFO root fetch - processPackages [firstrade]: Remove: archive file [/home/abi/fetcher/tmp/firstrade-0.0.8.tar.gz]
+[2024-06-03 02:13:06] INFO root fetch - processPackages [firstrade]: Remove: archive file [/home/abi/fetcher/tmp/firstrade-0.0.9.tar.gz]
+[2024-06-03 02:13:06] INFO root fetch - main [MainThread]: End processing [firstrade]: success
+[2024-06-03 02:13:06] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240601.post1138.tar.gz]
+[2024-06-03 02:13:06] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240602.post1209.tar.gz]
+[2024-06-03 02:13:06] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-06-03 02:13:06] INFO root fetch - main [MainThread]: Store serial: [23494728]
