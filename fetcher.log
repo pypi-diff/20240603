@@ -14861,3 +14861,66 @@ EOFError: EOF read where object expected
 [2024-06-03 12:51:36] INFO root fetch - processPackages [dynamic-py-loader]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_py_loader-1.0.0b3.tar.gz]
 [2024-06-03 12:51:36] INFO root fetch - main [MainThread]: End processing [dynamic-py-loader]: success
 [2024-06-03 12:51:36] INFO root fetch - main [MainThread]: Store serial: [23500712]
+[2024-06-03 12:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500712]
+[2024-06-03 12:53:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-dms
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postcode-to-timezone
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FastKmedoids
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apkpatcher
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-mongodb
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typeinc
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-ticketbai
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-dashvector
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ros-cdk-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:53:45] INFO root fetch - processPackages [FastKmedoids]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ros-cdk-dashvector]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:53:45] WARNING root fetch - processPackages [typeinc]: Skipping, unable to determine old version
+[2024-06-03 12:53:45] INFO root fetch - main [MainThread]: End processing [typeinc] error
+[2024-06-03 12:53:45] INFO root fetch - processPackages [ros-cdk-mongodb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:53:45] INFO root fetch - processPackages [django-ticketbai]: New version: [1.9] Old Version: [1.8]
+[2024-06-03 12:53:45] WARNING root fetch - processPackages [postcode-to-timezone]: Skipping, unable to determine old version
+[2024-06-03 12:53:45] INFO root fetch - main [MainThread]: End processing [postcode-to-timezone] error
+[2024-06-03 12:53:45] INFO root fetch - processPackages [apkpatcher]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 12:53:46] INFO root fetch - processPackages [FastKmedoids]: Downloading https://files.pythonhosted.org/packages/64/fb/bea816a125dac01731efe648a30e2bb057efe18e609a349907e6cc03c774/fastkmedoids-0.0.8.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-dms]: Downloading https://files.pythonhosted.org/packages/7a/3d/852a8234db65359b0e5f35ffd4e43ade57233422782fda96c0155143fb36/ros-cdk-dms-1.0.8.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [django-ticketbai]: Downloading https://files.pythonhosted.org/packages/7e/d8/30801320e99414d569568f30e17f1d31f7d78410a4da511a8fd74ca733f6/django_ticketbai-1.8.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-mongodb]: Downloading https://files.pythonhosted.org/packages/fd/0c/390276073f83b41522083ca8f78cc0d26e4b7d2df8bed6e4133dbf968807/ros-cdk-mongodb-1.0.8.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-dashvector]: Downloading https://files.pythonhosted.org/packages/1b/78/abdce28f2ded75c902db03bb91197ee7873f8a90cd35b986024b75f6651f/ros-cdk-dashvector-1.0.24.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [apkpatcher]: Downloading https://files.pythonhosted.org/packages/c4/50/b5715d9bd6433a031f7b4eed5d6f6269c37ab4b543b3c0a6d59ce582b0d6/apkpatcher-0.1.4.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [django-ticketbai]: Downloading https://files.pythonhosted.org/packages/c0/79/904d5f99850ebcb7916f26391dbf8cd49b3c1b146f033c4ea08a8cf4510a/django_ticketbai-1.9.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [FastKmedoids]: Downloading https://files.pythonhosted.org/packages/ff/19/90889f1c981da4ad7b98336a53821429d228ad6cb59b1d53c3bc4ff898f7/fastkmedoids-0.0.9.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [apkpatcher]: Downloading https://files.pythonhosted.org/packages/b9/71/2305f66e1d8b420654dafc333e347777b0a4e26b5db220c405ab340f4464/apkpatcher-0.1.5.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-dashvector]: Downloading https://files.pythonhosted.org/packages/e2/0b/e402eaf2941dd48668f96f1755831dc64413a3bc537a9b1b05b705d35e4a/ros-cdk-dashvector-1.0.25.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-dms]: Downloading https://files.pythonhosted.org/packages/0a/0e/4ee8221b06cd2de7d6302e3cefa5552039041378dcdc1e124f48ed5f1972/ros-cdk-dms-1.0.9.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [FastKmedoids]: executing diffoscope
+[2024-06-03 12:53:46] INFO root fetch - processPackages [FastKmedoids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkmedoids-0.0.8.tar.gz tmp/fastkmedoids-0.0.9.tar.gz --markdown 20240603/F/FastKmedoids/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-mongodb]: Downloading https://files.pythonhosted.org/packages/19/3d/6b5027e615ef2defc678bd8213bf4fcbead4f7c6e4c281e4e2eae4cfb27c/ros-cdk-mongodb-1.0.9.tar.gz
+[2024-06-03 12:53:46] INFO root fetch - processPackages [django-ticketbai]: executing diffoscope
+[2024-06-03 12:53:46] INFO root fetch - processPackages [django-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ticketbai-1.8.tar.gz tmp/django_ticketbai-1.9.tar.gz --markdown 20240603/d/django-ticketbai/1.8-1.9/README.md --exclude *.pyd
+[2024-06-03 12:53:46] INFO root fetch - processPackages [apkpatcher]: executing diffoscope
+[2024-06-03 12:53:46] INFO root fetch - processPackages [apkpatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkpatcher-0.1.4.tar.gz tmp/apkpatcher-0.1.5.tar.gz --markdown 20240603/a/apkpatcher/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-mongodb]: executing diffoscope
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-mongodb-1.0.8.tar.gz tmp/ros-cdk-mongodb-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-mongodb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-dashvector]: executing diffoscope
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-dashvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dashvector-1.0.24.tar.gz tmp/ros-cdk-dashvector-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-dashvector/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-dms]: executing diffoscope
+[2024-06-03 12:53:46] INFO root fetch - processPackages [ros-cdk-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dms-1.0.8.tar.gz tmp/ros-cdk-dms-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-dms/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:53:47] INFO root fetch - processPackages [FastKmedoids]: Remove: archive file [/home/abi/fetcher/tmp/fastkmedoids-0.0.8.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - processPackages [FastKmedoids]: Remove: archive file [/home/abi/fetcher/tmp/fastkmedoids-0.0.9.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - main [MainThread]: End processing [FastKmedoids]: success
+[2024-06-03 12:53:47] INFO root fetch - processPackages [apkpatcher]: Remove: archive file [/home/abi/fetcher/tmp/apkpatcher-0.1.4.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - processPackages [apkpatcher]: Remove: archive file [/home/abi/fetcher/tmp/apkpatcher-0.1.5.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - main [MainThread]: End processing [apkpatcher]: success
+[2024-06-03 12:53:47] INFO root fetch - processPackages [ros-cdk-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mongodb-1.0.8.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - processPackages [ros-cdk-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-mongodb-1.0.9.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - main [MainThread]: End processing [ros-cdk-mongodb]: success
+[2024-06-03 12:53:47] INFO root fetch - processPackages [django-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/django_ticketbai-1.8.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - processPackages [django-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/django_ticketbai-1.9.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - main [MainThread]: End processing [django-ticketbai]: success
+[2024-06-03 12:53:47] INFO root fetch - processPackages [ros-cdk-dms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dms-1.0.8.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - processPackages [ros-cdk-dms]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dms-1.0.9.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - main [MainThread]: End processing [ros-cdk-dms]: success
+[2024-06-03 12:53:47] INFO root fetch - processPackages [ros-cdk-dashvector]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dashvector-1.0.24.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - processPackages [ros-cdk-dashvector]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dashvector-1.0.25.tar.gz]
+[2024-06-03 12:53:47] INFO root fetch - main [MainThread]: End processing [ros-cdk-dashvector]: success
+[2024-06-03 12:53:47] INFO root fetch - main [MainThread]: Store serial: [23500742]
