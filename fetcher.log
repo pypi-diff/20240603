@@ -22015,3 +22015,74 @@ EOFError: EOF read where object expected
 [2024-06-03 15:45:38] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.7.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-06-03 15:45:38] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
 [2024-06-03 15:45:38] INFO root fetch - main [MainThread]: Store serial: [23503550]
+[2024-06-03 15:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503550]
+[2024-06-03 15:47:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osbot-aws
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-upstage
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lit-ecology-classifier
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: greedyFAS
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fplab
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-retrieval
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Mzhtools
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openquake.engine
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keyring-proxy-env
+[2024-06-03 15:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clicksearch
+[2024-06-03 15:47:47] INFO root fetch - processPackages [clicksearch]: New version: [0.2] Old Version: [0.1]
+[2024-06-03 15:47:47] WARNING root fetch - processPackages [open-retrieval]: Skipping, unable to determine old version
+[2024-06-03 15:47:47] INFO root fetch - main [MainThread]: End processing [open-retrieval] error
+[2024-06-03 15:47:47] WARNING root fetch - processPackages [Mzhtools]: Skipping, unable to determine old version
+[2024-06-03 15:47:47] INFO root fetch - processPackages [langchain-upstage]: New version: [0.1.6rc0] Old Version: [0.1.5]
+[2024-06-03 15:47:47] INFO root fetch - main [MainThread]: End processing [Mzhtools] error
+[2024-06-03 15:47:47] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [1.0.1] Old Version: [1.0]
+[2024-06-03 15:47:47] INFO root fetch - processPackages [clicksearch]: Downloading https://files.pythonhosted.org/packages/a4/07/588701b83e70c80c9c72b4947bf797617bc080755405c07bc7aa5968f7f5/clicksearch-0.1.tar.gz
+[2024-06-03 15:47:47] INFO root fetch - processPackages [openquake.engine]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-06-03 15:47:47] WARNING root fetch - processPackages [keyring-proxy-env]: Skipping, unable to determine old version
+[2024-06-03 15:47:47] INFO root fetch - main [MainThread]: End processing [keyring-proxy-env] error
+[2024-06-03 15:47:47] INFO root fetch - processPackages [fplab]: New version: [0.0.3] Old Version: [0.0.2.9]
+[2024-06-03 15:47:47] INFO root fetch - processPackages [greedyFAS]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 15:47:47] INFO root fetch - processPackages [osbot-aws]: New version: [2.9.0] Old Version: [2.7.0]
+[2024-06-03 15:47:47] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/da/30/7a3c7fc7054427f93e0cc8a1334d457047c46a9e164a3f7f9dcb7a3e69f6/lit_ecology_classifier-1.0-py3-none-any.whl
+[2024-06-03 15:47:47] INFO root fetch - processPackages [fplab]: Downloading https://files.pythonhosted.org/packages/1f/67/6a5bd2225c54c0d82655be352f59fb4b15b9e81d08293de704238318a8e0/fplab-0.0.2.9.tar.gz
+[2024-06-03 15:47:47] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/0f/91/62876d0f19a6287a5c5759dd46b9f7bfa6b1c7d9b993e325051f52d12e1e/langchain_upstage-0.1.5.tar.gz
+[2024-06-03 15:47:47] INFO root fetch - processPackages [clicksearch]: Downloading https://files.pythonhosted.org/packages/68/b2/63df4d99e703c77ac066050c1ae1aea109f20284c18d17475c9e2c8f3eb9/clicksearch-0.2.tar.gz
+[2024-06-03 15:47:47] INFO root fetch - processPackages [openquake.engine]: Downloading https://files.pythonhosted.org/packages/cc/2f/fcd3bb66a4a074327bceeec194fd7a75fdcad2dc3a1d1a12a789421ea5f3/openquake.engine-3.8.1.tar.gz
+[2024-06-03 15:47:47] INFO root fetch - processPackages [osbot-aws]: Downloading https://files.pythonhosted.org/packages/f5/90/bed402efb9c72b55130caa05d60dc74a01cfbab086fa867f7fca9893a7fb/osbot_aws-2.7.0.tar.gz
+[2024-06-03 15:47:47] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/17/a1/5db526d0aff1735e04ea3cb4cafd2fb9dfac4d36e8e148dba07b29811754/greedyFAS-1.9.0.tar.gz
+[2024-06-03 15:47:47] WARNING root fetch - processPackages [openquake.engine]: Skipping package: exceeds size limit 29973276>=10485760
+[2024-06-03 15:47:47] INFO root fetch - main [MainThread]: End processing [openquake.engine] error
+[2024-06-03 15:47:48] INFO root fetch - processPackages [clicksearch]: executing diffoscope
+[2024-06-03 15:47:48] INFO root fetch - processPackages [clicksearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clicksearch-0.1.tar.gz tmp/clicksearch-0.2.tar.gz --markdown 20240603/c/clicksearch/0.1-0.2/README.md --exclude *.pyd
+[2024-06-03 15:47:48] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/45/2a/225c3c076128c27496b9392a150d69dc5296548dc5d19b06eef646108b95/lit_ecology_classifier-1.0.1-py3-none-any.whl
+[2024-06-03 15:47:48] INFO root fetch - processPackages [fplab]: Downloading https://files.pythonhosted.org/packages/1e/c6/2de1ebddf1dc461cc27b4cc1f9203d8806b203550512b70a7ff0d627332a/fplab-0.0.3.tar.gz
+[2024-06-03 15:47:48] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/7c/cd/92ccf44c45a851842f74137af03f97898e01a22bd441b049bff7407c5a52/langchain_upstage-0.1.6rc0.tar.gz
+[2024-06-03 15:47:48] INFO root fetch - processPackages [osbot-aws]: Downloading https://files.pythonhosted.org/packages/99/18/c39f3526c6a885f4bc1ec0798d1daa03e77c57fc2bbb3123c3cfb80a7148/osbot_aws-2.9.0.tar.gz
+[2024-06-03 15:47:48] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-06-03 15:47:48] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-1.0-py3-none-any.whl.zip tmp/lit_ecology_classifier-1.0.1-py3-none-any.whl.zip --markdown 20240603/l/lit-ecology-classifier/1.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 15:47:48] INFO root fetch - processPackages [langchain-upstage]: executing diffoscope
+[2024-06-03 15:47:48] INFO root fetch - processPackages [fplab]: executing diffoscope
+[2024-06-03 15:47:48] INFO root fetch - processPackages [langchain-upstage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_upstage-0.1.5.tar.gz tmp/langchain_upstage-0.1.6rc0.tar.gz --markdown 20240603/l/langchain-upstage/0.1.5-0.1.6rc0/README.md --exclude *.pyd
+[2024-06-03 15:47:48] INFO root fetch - processPackages [fplab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fplab-0.0.2.9.tar.gz tmp/fplab-0.0.3.tar.gz --markdown 20240603/f/fplab/0.0.2.9-0.0.3/README.md --exclude *.pyd
+[2024-06-03 15:47:48] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/5e/ef/a255efe3fba413830c37f81917a8f31daf07ba429901b9c69b8ab1d8061c/greedyFAS-1.9.1.tar.gz
+[2024-06-03 15:47:48] INFO root fetch - processPackages [osbot-aws]: executing diffoscope
+[2024-06-03 15:47:48] INFO root fetch - processPackages [osbot-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_aws-2.7.0.tar.gz tmp/osbot_aws-2.9.0.tar.gz --markdown 20240603/o/osbot-aws/2.7.0-2.9.0/README.md --exclude *.pyd
+[2024-06-03 15:47:48] INFO root fetch - processPackages [greedyFAS]: executing diffoscope
+[2024-06-03 15:47:48] INFO root fetch - processPackages [greedyFAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greedyFAS-1.9.0.tar.gz tmp/greedyFAS-1.9.1.tar.gz --markdown 20240603/g/greedyFAS/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 15:47:48] INFO root fetch - processPackages [clicksearch]: Remove: archive file [/home/abi/fetcher/tmp/clicksearch-0.1.tar.gz]
+[2024-06-03 15:47:48] INFO root fetch - processPackages [clicksearch]: Remove: archive file [/home/abi/fetcher/tmp/clicksearch-0.2.tar.gz]
+[2024-06-03 15:47:48] INFO root fetch - main [MainThread]: End processing [clicksearch]: success
+[2024-06-03 15:47:49] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.5.tar.gz]
+[2024-06-03 15:47:49] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.6rc0.tar.gz]
+[2024-06-03 15:47:49] INFO root fetch - main [MainThread]: End processing [langchain-upstage]: success
+[2024-06-03 15:47:49] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-1.0-py3-none-any.whl.zip]
+[2024-06-03 15:47:49] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-1.0.1-py3-none-any.whl.zip]
+[2024-06-03 15:47:49] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-06-03 15:47:49] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.2.9.tar.gz]
+[2024-06-03 15:47:49] INFO root fetch - processPackages [fplab]: Remove: archive file [/home/abi/fetcher/tmp/fplab-0.0.3.tar.gz]
+[2024-06-03 15:47:49] INFO root fetch - main [MainThread]: End processing [fplab]: success
+[2024-06-03 15:47:49] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.0.tar.gz]
+[2024-06-03 15:47:49] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.1.tar.gz]
+[2024-06-03 15:47:49] INFO root fetch - main [MainThread]: End processing [greedyFAS]: success
+[2024-06-03 15:47:49] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.7.0.tar.gz]
+[2024-06-03 15:47:49] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.9.0.tar.gz]
+[2024-06-03 15:47:49] INFO root fetch - main [MainThread]: End processing [osbot-aws]: success
+[2024-06-03 15:47:49] INFO root fetch - main [MainThread]: Store serial: [23503585]
