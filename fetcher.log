@@ -19096,3 +19096,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:28:16] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.50.6.tar.gz]
 [2024-06-03 14:28:16] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-06-03 14:28:16] INFO root fetch - main [MainThread]: Store serial: [23502363]
+[2024-06-03 14:30:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502363]
+[2024-06-03 14:30:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 14:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hr-tool-logic
+[2024-06-03 14:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2024-06-03 14:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fairbench
+[2024-06-03 14:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MobileInventoryCLI
+[2024-06-03 14:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slurmtui
+[2024-06-03 14:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avrotize
+[2024-06-03 14:30:26] WARNING root fetch - processPackages [hr-tool-logic]: Skipping, unable to determine old version
+[2024-06-03 14:30:26] INFO root fetch - processPackages [fairbench]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-06-03 14:30:26] INFO root fetch - main [MainThread]: End processing [hr-tool-logic] error
+[2024-06-03 14:30:26] INFO root fetch - processPackages [avrotize]: New version: [2.0.0] Old Version: [1.9.4]
+[2024-06-03 14:30:26] INFO root fetch - processPackages [slurmtui]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 14:30:26] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/b6/d9/5786eb3708a413a041a906538bd7d8f7cfb3031f2b8b7bc532ba32237f74/fairbench-0.3.1-py3-none-any.whl
+[2024-06-03 14:30:26] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-06-03 14:30:26] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-06-03 14:30:26] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/c5/8b/1ee4132a57bbd53be46666b91c46993babb8f905f991de0eefd4f1a9ba6e/avrotize-1.9.4.tar.gz
+[2024-06-03 14:30:26] INFO root fetch - processPackages [slurmtui]: Downloading https://files.pythonhosted.org/packages/f9/72/3eae1cd444308d59f8683d703f1c0efb345cbecf82b4fca9d67e3096e1f1/slurmtui-0.1.6.tar.gz
+[2024-06-03 14:30:26] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-06-03 14:30:26] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/f8/cd/6f25fe604aace753a074681d07e5296754fc5de438b60b9bb1c9a46d82a3/fairbench-0.3.2-py3-none-any.whl
+[2024-06-03 14:30:26] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-06-03 14:30:26] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/58/d7/756235e2599b5d6782f33fa14c9380d46d6bda5fbef4786f3f9681660ded/avrotize-2.0.0.tar.gz
+[2024-06-03 14:30:26] INFO root fetch - processPackages [fairbench]: executing diffoscope
+[2024-06-03 14:30:26] INFO root fetch - processPackages [fairbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbench-0.3.1-py3-none-any.whl.zip tmp/fairbench-0.3.2-py3-none-any.whl.zip --markdown 20240603/f/fairbench/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-06-03 14:30:26] INFO root fetch - processPackages [slurmtui]: Downloading https://files.pythonhosted.org/packages/45/72/e8eee609e42e65c94fcf15dd817ae9b9b03590925c8eabe79b0343bdc71f/slurmtui-0.1.7.tar.gz
+[2024-06-03 14:30:26] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-06-03 14:30:26] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.9.4.tar.gz tmp/avrotize-2.0.0.tar.gz --markdown 20240603/a/avrotize/1.9.4-2.0.0/README.md --exclude *.pyd
+[2024-06-03 14:30:26] INFO root fetch - processPackages [slurmtui]: executing diffoscope
+[2024-06-03 14:30:26] INFO root fetch - processPackages [slurmtui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmtui-0.1.6.tar.gz tmp/slurmtui-0.1.7.tar.gz --markdown 20240603/s/slurmtui/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 14:30:26] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-06-03 14:30:27] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-06-03 14:30:27] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-06-03 14:30:27] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240603/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-06-03 14:30:27] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-06-03 14:30:27] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240603/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-06-03 14:30:27] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.3.1-py3-none-any.whl.zip]
+[2024-06-03 14:30:27] INFO root fetch - processPackages [fairbench]: Remove: archive file [/home/abi/fetcher/tmp/fairbench-0.3.2-py3-none-any.whl.zip]
+[2024-06-03 14:30:27] INFO root fetch - main [MainThread]: End processing [fairbench]: success
+[2024-06-03 14:30:27] INFO root fetch - processPackages [slurmtui]: Remove: archive file [/home/abi/fetcher/tmp/slurmtui-0.1.6.tar.gz]
+[2024-06-03 14:30:27] INFO root fetch - processPackages [slurmtui]: Remove: archive file [/home/abi/fetcher/tmp/slurmtui-0.1.7.tar.gz]
+[2024-06-03 14:30:27] INFO root fetch - main [MainThread]: End processing [slurmtui]: success
+[2024-06-03 14:30:27] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-06-03 14:30:27] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-06-03 14:30:27] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-06-03 14:30:28] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.9.4.tar.gz]
+[2024-06-03 14:30:28] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
+[2024-06-03 14:30:28] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-06-03 14:30:31] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-06-03 14:30:31] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-06-03 14:30:31] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-06-03 14:30:31] INFO root fetch - main [MainThread]: Store serial: [23502379]
