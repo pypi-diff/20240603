@@ -4077,3 +4077,36 @@ EOFError: EOF read where object expected
 [2024-06-03 04:57:35] INFO root fetch - processPackages [kgraphservice]: Remove: archive file [/home/abi/fetcher/tmp/kgraphservice-0.0.4.tar.gz]
 [2024-06-03 04:57:35] INFO root fetch - main [MainThread]: End processing [kgraphservice]: success
 [2024-06-03 04:57:35] INFO root fetch - main [MainThread]: Store serial: [23495851]
+[2024-06-03 04:59:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495851]
+[2024-06-03 04:59:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 04:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mns-common
+[2024-06-03 04:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ladybug-grasshopper
+[2024-06-03 04:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funzin-vc-utils
+[2024-06-03 04:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: igniter
+[2024-06-03 04:59:43] ERROR root fetch - processPackages [funzin-vc-utils]: Unable to get metadata: No such project 'funzin-vc-utils'
+[2024-06-03 04:59:43] INFO root fetch - main [MainThread]: End processing [funzin-vc-utils] error
+[2024-06-03 04:59:43] INFO root fetch - processPackages [igniter]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 04:59:43] INFO root fetch - processPackages [mns-common]: New version: [1.1.4.0] Old Version: [1.1.3.9]
+[2024-06-03 04:59:43] INFO root fetch - processPackages [ladybug-grasshopper]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-06-03 04:59:43] INFO root fetch - processPackages [igniter]: Downloading https://files.pythonhosted.org/packages/cc/6c/43b71fe0cc4884171a87a20139b1709fac59f7b2bdb19143f50132901aad/igniter-1.0.2.tar.gz
+[2024-06-03 04:59:43] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/28/61/ce50482b7c217b7da1248b6c6320b44f2fc40a8e1efb7f11b0b57d962e98/mns_common-1.1.3.9.tar.gz
+[2024-06-03 04:59:44] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/ec/49/777f995c954f015074487d7ab75a2c03b29bfd7c9fba5b15f7370a04139a/ladybug-grasshopper-1.9.3.tar.gz
+[2024-06-03 04:59:44] INFO root fetch - processPackages [igniter]: Downloading https://files.pythonhosted.org/packages/74/03/ada4fa4a1d42e01b0d8d647d6ba8b4d8ccdb341b2607704f02241ce3261d/igniter-1.0.3.tar.gz
+[2024-06-03 04:59:44] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/52/e9/85293955046e5bf5227ac30ee5842edc77ff569d01ab8c142f218c511a32/mns_common-1.1.4.0.tar.gz
+[2024-06-03 04:59:44] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/36/c7/da7e7e51114ff7f4fdf8e1f110936d73131c1f23c71385e5ab4666ad04c4/ladybug-grasshopper-1.9.4.tar.gz
+[2024-06-03 04:59:44] INFO root fetch - processPackages [igniter]: executing diffoscope
+[2024-06-03 04:59:44] INFO root fetch - processPackages [igniter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igniter-1.0.2.tar.gz tmp/igniter-1.0.3.tar.gz --markdown 20240603/i/igniter/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 04:59:44] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-06-03 04:59:44] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.3.9.tar.gz tmp/mns_common-1.1.4.0.tar.gz --markdown 20240603/m/mns-common/1.1.3.9-1.1.4.0/README.md --exclude *.pyd
+[2024-06-03 04:59:44] INFO root fetch - processPackages [ladybug-grasshopper]: executing diffoscope
+[2024-06-03 04:59:44] INFO root fetch - processPackages [ladybug-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-grasshopper-1.9.3.tar.gz tmp/ladybug-grasshopper-1.9.4.tar.gz --markdown 20240603/l/ladybug-grasshopper/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-06-03 04:59:45] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.3.9.tar.gz]
+[2024-06-03 04:59:45] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.4.0.tar.gz]
+[2024-06-03 04:59:45] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-06-03 04:59:45] INFO root fetch - processPackages [igniter]: Remove: archive file [/home/abi/fetcher/tmp/igniter-1.0.2.tar.gz]
+[2024-06-03 04:59:45] INFO root fetch - processPackages [igniter]: Remove: archive file [/home/abi/fetcher/tmp/igniter-1.0.3.tar.gz]
+[2024-06-03 04:59:45] INFO root fetch - main [MainThread]: End processing [igniter]: success
+[2024-06-03 04:59:45] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.3.tar.gz]
+[2024-06-03 04:59:45] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.4.tar.gz]
+[2024-06-03 04:59:45] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
+[2024-06-03 04:59:45] INFO root fetch - main [MainThread]: Store serial: [23495867]
