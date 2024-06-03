@@ -19443,3 +19443,166 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:43:56] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-06-03 14:43:56] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-06-03 14:43:56] INFO root fetch - main [MainThread]: Store serial: [23502486]
+[2024-06-03 14:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502486]
+[2024-06-03 14:46:11] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-declaration-of-intent
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test_integro_types
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: websockify
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MobileInventoryCLI
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gingerjs
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-llm
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: khoj-assistant
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test_integro_types
+[2024-06-03 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TREEplusrepository
+[2024-06-03 14:46:12] INFO root fetch - processPackages [odoo-addon-l10n-it-declaration-of-intent]: New version: [16.0.1.0.7] Old Version: [16.0.1.0.6.5]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [TREEplusrepository]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [websockify]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [test_integro_types]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [test_integro_types]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [odoo-addon-l10n-it-declaration-of-intent]: Downloading https://files.pythonhosted.org/packages/5e/5a/38704628dc62fc74ff5f9f47a1344c43358259ee87625d6a07f783873f73/odoo_addon_l10n_it_declaration_of_intent-16.0.1.0.6.5-py3-none-any.whl
+[2024-06-03 14:46:12] WARNING root fetch - processPackages [gingerjs]: Skipping, unable to determine old version
+[2024-06-03 14:46:12] INFO root fetch - processPackages [gingerjs]: Start processing: cosmic-crisp
+[2024-06-03 14:46:12] INFO root fetch - main [MainThread]: End processing [gingerjs] error
+[2024-06-03 14:46:12] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240603] Old Version: [2.5.0b20240602]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [TREEplusrepository]: Downloading https://files.pythonhosted.org/packages/f8/93/3d591e4d3d03a1ba96e47def518e397147d016a3dbf9911a1500c40516b3/treeplusrepository-0.1.3.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [cosmic-crisp]: New version: [0.1.0.dev20240602213601] Old Version: [0.1.0.dev20240529172149]
+[2024-06-03 14:46:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [test_integro_types]: Downloading https://files.pythonhosted.org/packages/7d/ac/687ff40d5e3c9b2cf0fb8048ef161dd8ae7e6df3eb29ec8d24c8a72aa71a/test_integro_types-0.1.0.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [test_integro_types]: Downloading https://files.pythonhosted.org/packages/7d/ac/687ff40d5e3c9b2cf0fb8048ef161dd8ae7e6df3eb29ec8d24c8a72aa71a/test_integro_types-0.1.0.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [websockify]: Downloading https://files.pythonhosted.org/packages/66/48/2e35166c957639ddb4cb11ce9783ad3ee9bf96f220354ce2684ee95feeb7/websockify-0.8.0.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/c0/53/8c861ec7cf430b26e7c91519b4d1ddf5649d055957d17369db40e2cede03/cosmic_crisp-0.1.0.dev20240529172149.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/4f/0d/e4da08a81e13def270da219dceaa8b094c3092c405850797c8e61d967221/bigdl_llm-2.5.0b20240602-py3-none-win_amd64.whl
+[2024-06-03 14:46:12] INFO root fetch - processPackages [odoo-addon-l10n-it-declaration-of-intent]: Downloading https://files.pythonhosted.org/packages/23/1e/5e41406a590c43f8698b9f3dc476f119f5a46579818b5740eca19143ba1b/odoo_addon_l10n_it_declaration_of_intent-16.0.1.0.7-py3-none-any.whl
+[2024-06-03 14:46:12] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [TREEplusrepository]: Downloading https://files.pythonhosted.org/packages/a5/df/9c1e078681818f73bbc181162ddab28db90f86fa549cf535fb84a8d08f2f/treeplusrepository-0.1.4.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [odoo-addon-l10n-it-declaration-of-intent]: executing diffoscope
+[2024-06-03 14:46:12] INFO root fetch - processPackages [odoo-addon-l10n-it-declaration-of-intent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_declaration_of_intent-16.0.1.0.6.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_declaration_of_intent-16.0.1.0.7-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-l10n-it-declaration-of-intent/16.0.1.0.6.5-16.0.1.0.7/README.md --exclude *.pyd
+[2024-06-03 14:46:12] INFO root fetch - processPackages [cosmic-crisp]: Downloading https://files.pythonhosted.org/packages/d4/71/478b92cb292c7a1297f45ae3ae2c42b7da9fa29438c4b1cee09426b9dd0d/cosmic_crisp-0.1.0.dev20240602213601.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [test_integro_types]: Downloading https://files.pythonhosted.org/packages/39/23/32115f2504124feeb1e523d0f01a639e2df00be20097f4c6cea23078cdb2/test_integro_types-0.1.1.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [test_integro_types]: Downloading https://files.pythonhosted.org/packages/39/23/32115f2504124feeb1e523d0f01a639e2df00be20097f4c6cea23078cdb2/test_integro_types-0.1.1.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-06-03 14:46:12] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240603/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-06-03 14:46:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [TREEplusrepository]: executing diffoscope
+[2024-06-03 14:46:12] INFO root fetch - processPackages [TREEplusrepository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treeplusrepository-0.1.3.tar.gz tmp/treeplusrepository-0.1.4.tar.gz --markdown 20240603/T/TREEplusrepository/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-06-03 14:46:12] INFO root fetch - processPackages [cosmic-crisp]: executing diffoscope
+[2024-06-03 14:46:12] INFO root fetch - processPackages [cosmic-crisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmic_crisp-0.1.0.dev20240529172149.tar.gz tmp/cosmic_crisp-0.1.0.dev20240602213601.tar.gz --markdown 20240603/c/cosmic-crisp/0.1.0.dev20240529172149-0.1.0.dev20240602213601/README.md --exclude *.pyd
+[2024-06-03 14:46:12] INFO root fetch - processPackages [websockify]: Downloading https://files.pythonhosted.org/packages/c4/5b/16ec1e9f4fc536846d95a01a77d97da12f8042ca5cf83cdf3dd0442e881c/websockify-0.9.0.tar.gz
+[2024-06-03 14:46:12] INFO root fetch - processPackages [test_integro_types]: executing diffoscope
+[2024-06-03 14:46:12] INFO root fetch - processPackages [test_integro_types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_integro_types-0.1.0.tar.gz tmp/test_integro_types-0.1.1.tar.gz --markdown 20240603/t/test_integro_types/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 14:46:13] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-06-03 14:46:13] INFO root fetch - processPackages [test_integro_types]: executing diffoscope
+[2024-06-03 14:46:13] INFO root fetch - processPackages [test_integro_types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_integro_types-0.1.0.tar.gz tmp/test_integro_types-0.1.1.tar.gz --markdown 20240603/t/test_integro_types/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 14:46:13] INFO root fetch - processPackages [websockify]: executing diffoscope
+[2024-06-03 14:46:13] INFO root fetch - processPackages [websockify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/websockify-0.8.0.tar.gz tmp/websockify-0.9.0.tar.gz --markdown 20240603/w/websockify/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-06-03 14:46:13] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-06-03 14:46:13] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240603/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-06-03 14:46:13] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/35/20/535c9869d96454d162f7ce13ed6fcf2f13b8efddf45b1c9de9047ce97d1e/bigdl_llm-2.5.0b20240603-py3-none-win_amd64.whl
+[2024-06-03 14:46:13] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-06-03 14:46:13] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240603/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 14:46:13] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-06-03 14:46:13] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240602-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240603-py3-none-win_amd64.whl.zip --markdown 20240603/b/bigdl-llm/2.5.0b20240602-2.5.0b20240603/README.md --exclude *.pyd
+[2024-06-03 14:46:13] INFO root fetch - processPackages [TREEplusrepository]: Remove: archive file [/home/abi/fetcher/tmp/treeplusrepository-0.1.3.tar.gz]
+[2024-06-03 14:46:13] INFO root fetch - processPackages [TREEplusrepository]: Remove: archive file [/home/abi/fetcher/tmp/treeplusrepository-0.1.4.tar.gz]
+[2024-06-03 14:46:13] INFO root fetch - processPackages [TREEplusrepository]: Start processing: streamstats-access
+[2024-06-03 14:46:13] INFO root fetch - main [MainThread]: End processing [TREEplusrepository]: success
+[2024-06-03 14:46:14] WARNING root fetch - processPackages [streamstats-access]: Skipping, unable to determine old version
+[2024-06-03 14:46:14] INFO root fetch - processPackages [streamstats-access]: Start processing: pygradflow
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [streamstats-access] error
+[2024-06-03 14:46:14] INFO root fetch - processPackages [test_integro_types]: Remove: archive file [/home/abi/fetcher/tmp/test_integro_types-0.1.0.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [test_integro_types]: Remove: archive file [/home/abi/fetcher/tmp/test_integro_types-0.1.1.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [test_integro_types]: Start processing: itkwasm-dicom-wasi
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [test_integro_types]: success
+[2024-06-03 14:46:14] INFO root fetch - processPackages [odoo-addon-l10n-it-declaration-of-intent]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_declaration_of_intent-16.0.1.0.6.5-py3-none-any.whl.zip]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [odoo-addon-l10n-it-declaration-of-intent]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_declaration_of_intent-16.0.1.0.7-py3-none-any.whl.zip]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [odoo-addon-l10n-it-declaration-of-intent]: Start processing: itkwasm-dicom-emscripten
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-declaration-of-intent]: success
+[2024-06-03 14:46:14] INFO root fetch - processPackages [test_integro_types]: Start processing: itkwasm-dicom
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [test_integro_types]: success
+[2024-06-03 14:46:14] INFO root fetch - processPackages [pygradflow]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [itkwasm-dicom-wasi]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [websockify]: Remove: archive file [/home/abi/fetcher/tmp/websockify-0.8.0.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [websockify]: Remove: archive file [/home/abi/fetcher/tmp/websockify-0.9.0.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [websockify]: Start processing: ecodonut
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [websockify]: success
+[2024-06-03 14:46:14] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [MobileInventoryCLI]: Start processing: gwas-sumstats-tools
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-06-03 14:46:14] INFO root fetch - processPackages [itkwasm-dicom]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240529172149.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [cosmic-crisp]: Remove: archive file [/home/abi/fetcher/tmp/cosmic_crisp-0.1.0.dev20240602213601.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [cosmic-crisp]: Start processing: nortech
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [cosmic-crisp]: success
+[2024-06-03 14:46:14] WARNING root fetch - processPackages [ecodonut]: Skipping, unable to determine old version
+[2024-06-03 14:46:14] INFO root fetch - processPackages [ecodonut]: Start processing: aiven-client
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [ecodonut] error
+[2024-06-03 14:46:14] INFO root fetch - processPackages [gwas-sumstats-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/4c/1c/912dcbeff432d8eb264d588ce0756d0df3468a1abcba0f9e41a3b26c5ed6/pygradflow-0.5.3.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Downloading https://files.pythonhosted.org/packages/51/e1/e64cc0be9b541578fbc84c34026d5d0af03450d965238c359543d379d703/itkwasm_dicom_wasi-7.0.0.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Downloading https://files.pythonhosted.org/packages/2e/4c/da7ad37dd5286e0dc34ff1b03f7cb8629936707df06662c0e93c33981ae8/itkwasm_dicom_emscripten-7.0.0.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [nortech]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [itkwasm-dicom]: Downloading https://files.pythonhosted.org/packages/58/8d/76deef6356f025e69a22b839b276c2dea42502c3da4bf6daec3949cd9a7f/itkwasm_dicom-7.0.0.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [aiven-client]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [gwas-sumstats-tools]: Downloading https://files.pythonhosted.org/packages/ac/07/cf67e76f00ff658651e942c89ae9221ef0f117cebc3616b41cb0875f717d/gwas_sumstats_tools-1.0.8.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-06-03 14:46:14] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-06-03 14:46:14] INFO root fetch - processPackages [nortech]: Downloading https://files.pythonhosted.org/packages/ec/d6/3847ea856f2757552c62b3e83149902eeeb363f2ca9c8ac2bb2430370579/nortech-0.2.4.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/bb/a6/32daad722182db216a5cb72120ae45d96924f3372c58a10d5b91df2eca9a/pygradflow-0.5.4.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [aiven-client]: Downloading https://files.pythonhosted.org/packages/21/c2/3b05dce5bfce7fa1081ee460002ecf65e66349c49767c17cc423f0ab9e68/aiven_client-4.1.1.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Downloading https://files.pythonhosted.org/packages/4e/7d/24e295de7b8727bb2039079f8363ff5a415fc9590b2a59369678ef269ff9/itkwasm_dicom_emscripten-7.0.1.tar.gz
+[2024-06-03 14:46:14] INFO root fetch - processPackages [itkwasm-dicom]: Downloading https://files.pythonhosted.org/packages/b2/2a/2ddc4050532dd1639fcef80029560e4355c0297667085fc5755cb6729cb0/itkwasm_dicom-7.0.1.tar.gz
+[2024-06-03 14:46:15] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-06-03 14:46:15] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.5.3.tar.gz tmp/pygradflow-0.5.4.tar.gz --markdown 20240603/p/pygradflow/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-06-03 14:46:15] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: executing diffoscope
+[2024-06-03 14:46:15] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom_emscripten-7.0.0.tar.gz tmp/itkwasm_dicom_emscripten-7.0.1.tar.gz --markdown 20240603/i/itkwasm-dicom-emscripten/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-06-03 14:46:15] INFO root fetch - processPackages [nortech]: Downloading https://files.pythonhosted.org/packages/0d/5c/5e1096cc92722a3dcd86700a074a36c239d8fbc57d230ba04147d2c9b0b0/nortech-0.2.5.tar.gz
+[2024-06-03 14:46:15] INFO root fetch - processPackages [itkwasm-dicom]: executing diffoscope
+[2024-06-03 14:46:15] INFO root fetch - processPackages [itkwasm-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom-7.0.0.tar.gz tmp/itkwasm_dicom-7.0.1.tar.gz --markdown 20240603/i/itkwasm-dicom/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-06-03 14:46:15] INFO root fetch - processPackages [gwas-sumstats-tools]: Downloading https://files.pythonhosted.org/packages/42/24/65e034e69c3e5327c8721686ea9aca74ec873809469e41169838c44a31ef/gwas_sumstats_tools-1.0.9.tar.gz
+[2024-06-03 14:46:15] INFO root fetch - processPackages [aiven-client]: Downloading https://files.pythonhosted.org/packages/be/e2/34e73478db37847c94c51fd5b6b4f7e6618f5070a4f2f1fd24f17ab05466/aiven_client-4.2.0.tar.gz
+[2024-06-03 14:46:15] INFO root fetch - processPackages [gwas-sumstats-tools]: executing diffoscope
+[2024-06-03 14:46:15] INFO root fetch - processPackages [gwas-sumstats-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwas_sumstats_tools-1.0.8.tar.gz tmp/gwas_sumstats_tools-1.0.9.tar.gz --markdown 20240603/g/gwas-sumstats-tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 14:46:15] INFO root fetch - processPackages [nortech]: executing diffoscope
+[2024-06-03 14:46:15] INFO root fetch - processPackages [nortech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nortech-0.2.4.tar.gz tmp/nortech-0.2.5.tar.gz --markdown 20240603/n/nortech/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-06-03 14:46:15] INFO root fetch - processPackages [aiven-client]: executing diffoscope
+[2024-06-03 14:46:15] INFO root fetch - processPackages [aiven-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiven_client-4.1.1.tar.gz tmp/aiven_client-4.2.0.tar.gz --markdown 20240603/a/aiven-client/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-06-03 14:46:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-06-03 14:46:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-06-03 14:46:15] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-06-03 14:46:15] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240602-py3-none-win_amd64.whl.zip]
+[2024-06-03 14:46:15] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240603-py3-none-win_amd64.whl.zip]
+[2024-06-03 14:46:15] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-06-03 14:46:15] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Downloading https://files.pythonhosted.org/packages/c8/f1/84082fd6f62acb7d8d10fad264fc6791f82f1d7603d01aabe4cfd4db4889/itkwasm_dicom_wasi-7.0.1.tar.gz
+[2024-06-03 14:46:15] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_emscripten-7.0.0.tar.gz]
+[2024-06-03 14:46:15] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_emscripten-7.0.1.tar.gz]
+[2024-06-03 14:46:15] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-emscripten]: success
+[2024-06-03 14:46:16] INFO root fetch - processPackages [itkwasm-dicom]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom-7.0.0.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - processPackages [itkwasm-dicom]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom-7.0.1.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom]: success
+[2024-06-03 14:46:16] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.5.3.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.5.4.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-06-03 14:46:16] INFO root fetch - processPackages [nortech]: Remove: archive file [/home/abi/fetcher/tmp/nortech-0.2.4.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - processPackages [nortech]: Remove: archive file [/home/abi/fetcher/tmp/nortech-0.2.5.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - main [MainThread]: End processing [nortech]: success
+[2024-06-03 14:46:16] INFO root fetch - processPackages [gwas-sumstats-tools]: Remove: archive file [/home/abi/fetcher/tmp/gwas_sumstats_tools-1.0.8.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - processPackages [gwas-sumstats-tools]: Remove: archive file [/home/abi/fetcher/tmp/gwas_sumstats_tools-1.0.9.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - main [MainThread]: End processing [gwas-sumstats-tools]: success
+[2024-06-03 14:46:16] INFO root fetch - processPackages [aiven-client]: Remove: archive file [/home/abi/fetcher/tmp/aiven_client-4.1.1.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - processPackages [aiven-client]: Remove: archive file [/home/abi/fetcher/tmp/aiven_client-4.2.0.tar.gz]
+[2024-06-03 14:46:16] INFO root fetch - main [MainThread]: End processing [aiven-client]: success
+[2024-06-03 14:46:17] INFO root fetch - processPackages [itkwasm-dicom-wasi]: executing diffoscope
+[2024-06-03 14:46:17] INFO root fetch - processPackages [itkwasm-dicom-wasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom_wasi-7.0.0.tar.gz tmp/itkwasm_dicom_wasi-7.0.1.tar.gz --markdown 20240603/i/itkwasm-dicom-wasi/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-06-03 14:46:20] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_wasi-7.0.0.tar.gz]
+[2024-06-03 14:46:20] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_wasi-7.0.1.tar.gz]
+[2024-06-03 14:46:20] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-wasi]: success
+[2024-06-03 14:46:20] INFO root fetch - main [MainThread]: Store serial: [23502555]
