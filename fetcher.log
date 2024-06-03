@@ -12904,3 +12904,90 @@ EOFError: EOF read where object expected
 [2024-06-03 11:58:53] INFO root fetch - processPackages [onshape-to-robot]: Remove: archive file [/home/abi/fetcher/tmp/onshape-to-robot-0.3.9.tar.gz]
 [2024-06-03 11:58:53] INFO root fetch - main [MainThread]: End processing [onshape-to-robot]: success
 [2024-06-03 11:58:53] INFO root fetch - main [MainThread]: Store serial: [23500006]
+[2024-06-03 12:00:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500006]
+[2024-06-03 12:01:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-keras-nightly
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-automation
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hddm-s
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moonss
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-ossassets
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kensu
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kensu-pyspark
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dao-scripts
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sigevents-US
+[2024-06-03 12:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mucsi96.publish-tools
+[2024-06-03 12:01:03] INFO root fetch - processPackages [hddm-s]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-06-03 12:01:03] INFO root fetch - processPackages [moonss]: New version: [0.99] Old Version: [0.98]
+[2024-06-03 12:01:03] INFO root fetch - processPackages [dao-scripts]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-06-03 12:01:03] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024060209] Old Version: [2.17.0.dev2024060109]
+[2024-06-03 12:01:03] INFO root fetch - processPackages [kensu-pyspark]: New version: [2.9.0rc1] Old Version: [2.8.1]
+[2024-06-03 12:01:03] WARNING root fetch - processPackages [sigevents-US]: Skipping, unable to determine old version
+[2024-06-03 12:01:03] INFO root fetch - processPackages [sigevents-US]: Start processing: MedatechUK.Landlord
+[2024-06-03 12:01:03] INFO root fetch - main [MainThread]: End processing [sigevents-US] error
+[2024-06-03 12:01:03] WARNING root fetch - processPackages [python-automation]: Skipping, unable to determine old version
+[2024-06-03 12:01:03] INFO root fetch - processPackages [python-automation]: Start processing: dj-all-auth
+[2024-06-03 12:01:03] INFO root fetch - main [MainThread]: End processing [python-automation] error
+[2024-06-03 12:01:03] WARNING root fetch - processPackages [ros-cdk-ossassets]: Skipping, unable to determine old version
+[2024-06-03 12:01:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-ossassets] error
+[2024-06-03 12:01:03] INFO root fetch - processPackages [mucsi96.publish-tools]: New version: [22.0.0] Old Version: [21.0.0]
+[2024-06-03 12:01:03] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/dc/47/13fead7a72753e9b248cc522f7821971ff9963d46427aada8e71e700423e/hddm_s-1.1.2.tar.gz
+[2024-06-03 12:01:03] INFO root fetch - processPackages [kensu]: New version: [2.9.0rc1] Old Version: [2.8.1]
+[2024-06-03 12:01:03] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/df/9c/efa77e88d08939cec835de0cc183c1e3218af6175697e55b7bbffa3d0270/moonss-0.98.tar.gz
+[2024-06-03 12:01:03] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/09/24/842d48f87461e968a27317e38743c0be2f531b9486287a2ca02b0465e4ef/dao_scripts-1.4.1.tar.gz
+[2024-06-03 12:01:03] INFO root fetch - processPackages [MedatechUK.Landlord]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 12:01:03] WARNING root fetch - processPackages [dj-all-auth]: Skipping, unable to determine old version
+[2024-06-03 12:01:03] INFO root fetch - main [MainThread]: End processing [dj-all-auth] error
+[2024-06-03 12:01:03] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/75/c8/f116873af2f9a31b3df5e6a7ff3db6a7407fbe6df140c12dac6e66b4171b/tf_keras_nightly-2.17.0.dev2024060109.tar.gz
+[2024-06-03 12:01:03] INFO root fetch - processPackages [MedatechUK.Landlord]: Downloading https://files.pythonhosted.org/packages/dc/5c/36e6ca4793ea572014180040b971a51ad452029374fd8e6ef166a48bbf19/medatechuk_landlord-0.0.8.tar.gz
+[2024-06-03 12:01:03] INFO root fetch - processPackages [kensu-pyspark]: Downloading https://files.pythonhosted.org/packages/99/28/3ecb4a69e38d65dac13418d40ce00aea75066cc8af22dafb1aad9eae1c5c/kensu-pyspark-2.8.1.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [kensu]: Downloading https://files.pythonhosted.org/packages/0b/e2/9ae415e79a60232423d9ce70d788ba29a721fa905c66861811eeb37a69cf/kensu-2.8.1.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [mucsi96.publish-tools]: Downloading https://files.pythonhosted.org/packages/a3/f3/0ca20f20a89ece6dae79841ffb8bc3be0f6c185c8a9edfe9753c2831d907/mucsi96_publish_tools-21.0.0-py2.py3-none-any.whl
+[2024-06-03 12:01:04] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/35/3c/cb62485dde83e7c097a307c0189c884a946fec5e6c16c9fca526b4d99511/moonss-0.99.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/cc/0d/8f0b4e5b34d4c7b662327ebd986dace04fe309b2655fc58b2a5fdbd8d3fc/hddm_s-1.1.3.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-06-03 12:01:04] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.98.tar.gz tmp/moonss-0.99.tar.gz --markdown 20240603/m/moonss/0.98-0.99/README.md --exclude *.pyd
+[2024-06-03 12:01:04] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/af/77/4dd466cb15bea41c511f699b8df5dc178b2f7d36e70af778432b96b70653/dao_scripts-1.4.2.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [MedatechUK.Landlord]: Downloading https://files.pythonhosted.org/packages/29/0e/be877fac307a67c9adc24e24a2a86c0e7f3cf85f7f972bd92d87099e22a2/medatechuk_landlord-0.0.9.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-06-03 12:01:04] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.1.2.tar.gz tmp/hddm_s-1.1.3.tar.gz --markdown 20240603/h/hddm-s/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-06-03 12:01:04] INFO root fetch - processPackages [kensu-pyspark]: Downloading https://files.pythonhosted.org/packages/41/2a/8f4496ceb70e5ee92f49ff17ab72d455359e93fac9ddd8e2fb663073e0b9/kensu_pyspark-2.9.0rc1.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2024-06-03 12:01:04] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_scripts-1.4.1.tar.gz tmp/dao_scripts-1.4.2.tar.gz --markdown 20240603/d/dao-scripts/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-06-03 12:01:04] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/e4/26/2c4863695ecc287b98ff01fe8d807072f23dd39bb50b185327e915bce8ac/tf_keras_nightly-2.17.0.dev2024060209.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [mucsi96.publish-tools]: Downloading https://files.pythonhosted.org/packages/8c/d5/09e694929244d061b08de913a5d64260eac06ad8a751a446843cfbdbefe8/mucsi96_publish_tools-22.0.0-py2.py3-none-any.whl
+[2024-06-03 12:01:04] INFO root fetch - processPackages [kensu]: Downloading https://files.pythonhosted.org/packages/63/3e/8951e77adb19a1af2d5e473bf43622d986ab1547100ef6f662ddb9f080fa/kensu-2.9.0rc1.tar.gz
+[2024-06-03 12:01:04] INFO root fetch - processPackages [MedatechUK.Landlord]: executing diffoscope
+[2024-06-03 12:01:04] INFO root fetch - processPackages [MedatechUK.Landlord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medatechuk_landlord-0.0.8.tar.gz tmp/medatechuk_landlord-0.0.9.tar.gz --markdown 20240603/M/MedatechUK.Landlord/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 12:01:04] INFO root fetch - processPackages [kensu-pyspark]: executing diffoscope
+[2024-06-03 12:01:04] INFO root fetch - processPackages [kensu-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kensu-pyspark-2.8.1.tar.gz tmp/kensu_pyspark-2.9.0rc1.tar.gz --markdown 20240603/k/kensu-pyspark/2.8.1-2.9.0rc1/README.md --exclude *.pyd
+[2024-06-03 12:01:04] INFO root fetch - processPackages [kensu]: executing diffoscope
+[2024-06-03 12:01:04] INFO root fetch - processPackages [kensu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kensu-2.8.1.tar.gz tmp/kensu-2.9.0rc1.tar.gz --markdown 20240603/k/kensu/2.8.1-2.9.0rc1/README.md --exclude *.pyd
+[2024-06-03 12:01:04] INFO root fetch - processPackages [mucsi96.publish-tools]: executing diffoscope
+[2024-06-03 12:01:04] INFO root fetch - processPackages [mucsi96.publish-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mucsi96_publish_tools-21.0.0-py2.py3-none-any.whl.zip tmp/mucsi96_publish_tools-22.0.0-py2.py3-none-any.whl.zip --markdown 20240603/m/mucsi96.publish-tools/21.0.0-22.0.0/README.md --exclude *.pyd
+[2024-06-03 12:01:04] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-06-03 12:01:04] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024060109.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024060209.tar.gz --markdown 20240603/t/tf-keras-nightly/2.17.0.dev2024060109-2.17.0.dev2024060209/README.md --exclude *.pyd
+[2024-06-03 12:01:05] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.98.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.99.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-06-03 12:01:05] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.2.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.3.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-06-03 12:01:05] INFO root fetch - processPackages [MedatechUK.Landlord]: Remove: archive file [/home/abi/fetcher/tmp/medatechuk_landlord-0.0.8.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - processPackages [MedatechUK.Landlord]: Remove: archive file [/home/abi/fetcher/tmp/medatechuk_landlord-0.0.9.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - main [MainThread]: End processing [MedatechUK.Landlord]: success
+[2024-06-03 12:01:05] INFO root fetch - processPackages [kensu-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/kensu-pyspark-2.8.1.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - processPackages [kensu-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/kensu_pyspark-2.9.0rc1.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - main [MainThread]: End processing [kensu-pyspark]: success
+[2024-06-03 12:01:05] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.1.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.2.tar.gz]
+[2024-06-03 12:01:05] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2024-06-03 12:01:05] INFO root fetch - processPackages [mucsi96.publish-tools]: Remove: archive file [/home/abi/fetcher/tmp/mucsi96_publish_tools-21.0.0-py2.py3-none-any.whl.zip]
+[2024-06-03 12:01:05] INFO root fetch - processPackages [mucsi96.publish-tools]: Remove: archive file [/home/abi/fetcher/tmp/mucsi96_publish_tools-22.0.0-py2.py3-none-any.whl.zip]
+[2024-06-03 12:01:05] INFO root fetch - main [MainThread]: End processing [mucsi96.publish-tools]: success
+[2024-06-03 12:01:06] INFO root fetch - processPackages [kensu]: Remove: archive file [/home/abi/fetcher/tmp/kensu-2.8.1.tar.gz]
+[2024-06-03 12:01:06] INFO root fetch - processPackages [kensu]: Remove: archive file [/home/abi/fetcher/tmp/kensu-2.9.0rc1.tar.gz]
+[2024-06-03 12:01:06] INFO root fetch - main [MainThread]: End processing [kensu]: success
+[2024-06-03 12:01:07] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024060109.tar.gz]
+[2024-06-03 12:01:07] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024060209.tar.gz]
+[2024-06-03 12:01:07] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-06-03 12:01:07] INFO root fetch - main [MainThread]: Store serial: [23500047]
