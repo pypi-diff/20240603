@@ -6856,3 +6856,57 @@ EOFError: EOF read where object expected
 [2024-06-03 07:40:19] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.6.tar.gz]
 [2024-06-03 07:40:19] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-06-03 07:40:19] INFO root fetch - main [MainThread]: Store serial: [23497065]
+[2024-06-03 07:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497065]
+[2024-06-03 07:42:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timmytimesheet
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm2sh
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylect
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-airflow-providers-cncf-kubernetes
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-airflow-providers-teradata
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typedspark
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ferfereh
+[2024-06-03 07:42:27] WARNING root fetch - processPackages [llm2sh]: Skipping, unable to determine old version
+[2024-06-03 07:42:27] INFO root fetch - main [MainThread]: End processing [llm2sh] error
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ferfereh]: New version: [1.139.1] Old Version: [1.138.1]
+[2024-06-03 07:42:27] INFO root fetch - processPackages [timmytimesheet]: New version: [0.1.1] Old Version: [0.1]
+[2024-06-03 07:42:27] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: New version: [8.3.0rc2] Old Version: [8.3.0rc1]
+[2024-06-03 07:42:27] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/32/95/6b33dc5201568e25cbb8550cc11783f743d222c665d56fc249fe9a8ef904/ferfereh-1.138.1.tar.gz
+[2024-06-03 07:42:27] WARNING root fetch - processPackages [pylect]: Skipping, unable to determine old version
+[2024-06-03 07:42:27] INFO root fetch - main [MainThread]: End processing [pylect] error
+[2024-06-03 07:42:27] INFO root fetch - processPackages [typedspark]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-06-03 07:42:27] INFO root fetch - processPackages [apache-airflow-providers-teradata]: New version: [2.2.0rc1] Old Version: [2.2.0]
+[2024-06-03 07:42:27] INFO root fetch - processPackages [timmytimesheet]: Downloading https://files.pythonhosted.org/packages/50/61/6279419f9580c2f89ee44ed017b893a5c8d3f8d4cea0de0329a7f2b321d1/timmytimesheet-0.1.tar.gz
+[2024-06-03 07:42:27] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/a6/4a/e2e67030f3f0f3268b0c21022f75f2bb7bd67ab386771cda283228341d97/apache_airflow_providers_cncf_kubernetes-8.3.0rc1.tar.gz
+[2024-06-03 07:42:28] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/a3/7f/34a9d769519b94de793e835e807f8eea76e48d0900ef18aa2acb821a4c60/ferfereh-1.139.1.tar.gz
+[2024-06-03 07:42:28] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/46/a6/157a6d8e160b7a4981d8510fb9c8ce8059a6bc4703a6cc7ae65c6c3bdaa6/typedspark-1.4.2.tar.gz
+[2024-06-03 07:42:28] INFO root fetch - processPackages [apache-airflow-providers-teradata]: Downloading https://files.pythonhosted.org/packages/a6/1b/00e97d4ecdcb71d0c4d4b85e7706ae159d2810ac2dd8264c8c0ae98ccf58/apache_airflow_providers_teradata-2.2.0.tar.gz
+[2024-06-03 07:42:28] INFO root fetch - processPackages [ferfereh]: executing diffoscope
+[2024-06-03 07:42:28] INFO root fetch - processPackages [ferfereh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferfereh-1.138.1.tar.gz tmp/ferfereh-1.139.1.tar.gz --markdown 20240603/f/ferfereh/1.138.1-1.139.1/README.md --exclude *.pyd
+[2024-06-03 07:42:28] INFO root fetch - processPackages [timmytimesheet]: Downloading https://files.pythonhosted.org/packages/4b/28/0165ed735a9b8df66911c59beee309bd77288e468a5a235bc91912b05363/timmytimesheet-0.1.1.tar.gz
+[2024-06-03 07:42:28] INFO root fetch - processPackages [timmytimesheet]: executing diffoscope
+[2024-06-03 07:42:28] INFO root fetch - processPackages [timmytimesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timmytimesheet-0.1.tar.gz tmp/timmytimesheet-0.1.1.tar.gz --markdown 20240603/t/timmytimesheet/0.1-0.1.1/README.md --exclude *.pyd
+[2024-06-03 07:42:28] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/b7/c5/e29902bd3387da7cd2b6b12c5332c8e1b91d20cccc095071602de5331900/typedspark-1.4.3.tar.gz
+[2024-06-03 07:42:28] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/af/c1/0b9c5a4c2752ed115710fc46056be5f1d481bcf06e444c7335b6dd3a41e1/apache_airflow_providers_cncf_kubernetes-8.3.0rc2.tar.gz
+[2024-06-03 07:42:28] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: executing diffoscope
+[2024-06-03 07:42:28] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_cncf_kubernetes-8.3.0rc1.tar.gz tmp/apache_airflow_providers_cncf_kubernetes-8.3.0rc2.tar.gz --markdown 20240603/a/apache-airflow-providers-cncf-kubernetes/8.3.0rc1-8.3.0rc2/README.md --exclude *.pyd
+[2024-06-03 07:42:28] INFO root fetch - processPackages [apache-airflow-providers-teradata]: Downloading https://files.pythonhosted.org/packages/26/a8/8efa79b4fd009cedff1094934acbd68b3dae79e5bae1e74aefe4cffb2441/apache_airflow_providers_teradata-2.2.0rc1.tar.gz
+[2024-06-03 07:42:28] INFO root fetch - processPackages [typedspark]: executing diffoscope
+[2024-06-03 07:42:28] INFO root fetch - processPackages [typedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedspark-1.4.2.tar.gz tmp/typedspark-1.4.3.tar.gz --markdown 20240603/t/typedspark/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-06-03 07:42:28] INFO root fetch - processPackages [apache-airflow-providers-teradata]: executing diffoscope
+[2024-06-03 07:42:28] INFO root fetch - processPackages [apache-airflow-providers-teradata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_teradata-2.2.0.tar.gz tmp/apache_airflow_providers_teradata-2.2.0rc1.tar.gz --markdown 20240603/a/apache-airflow-providers-teradata/2.2.0-2.2.0rc1/README.md --exclude *.pyd
+[2024-06-03 07:42:28] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.138.1.tar.gz]
+[2024-06-03 07:42:28] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.139.1.tar.gz]
+[2024-06-03 07:42:28] INFO root fetch - main [MainThread]: End processing [ferfereh]: success
+[2024-06-03 07:42:28] INFO root fetch - processPackages [timmytimesheet]: Remove: archive file [/home/abi/fetcher/tmp/timmytimesheet-0.1.tar.gz]
+[2024-06-03 07:42:28] INFO root fetch - processPackages [timmytimesheet]: Remove: archive file [/home/abi/fetcher/tmp/timmytimesheet-0.1.1.tar.gz]
+[2024-06-03 07:42:28] INFO root fetch - main [MainThread]: End processing [timmytimesheet]: success
+[2024-06-03 07:42:29] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.4.2.tar.gz]
+[2024-06-03 07:42:29] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.4.3.tar.gz]
+[2024-06-03 07:42:29] INFO root fetch - main [MainThread]: End processing [typedspark]: success
+[2024-06-03 07:42:29] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_cncf_kubernetes-8.3.0rc1.tar.gz]
+[2024-06-03 07:42:29] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_cncf_kubernetes-8.3.0rc2.tar.gz]
+[2024-06-03 07:42:29] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-cncf-kubernetes]: success
+[2024-06-03 07:42:29] INFO root fetch - processPackages [apache-airflow-providers-teradata]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_teradata-2.2.0.tar.gz]
+[2024-06-03 07:42:29] INFO root fetch - processPackages [apache-airflow-providers-teradata]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_teradata-2.2.0rc1.tar.gz]
+[2024-06-03 07:42:29] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-teradata]: success
+[2024-06-03 07:42:29] INFO root fetch - main [MainThread]: Store serial: [23497086]
