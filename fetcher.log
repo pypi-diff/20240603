@@ -19195,3 +19195,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:33:03] INFO root fetch - processPackages [libximc]: Remove: archive file [/home/abi/fetcher/tmp/libximc-2.14.23.tar.gz]
 [2024-06-03 14:33:03] INFO root fetch - main [MainThread]: End processing [libximc]: success
 [2024-06-03 14:33:03] INFO root fetch - main [MainThread]: Store serial: [23502392]
+[2024-06-03 14:35:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502392]
+[2024-06-03 14:35:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roastery
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everai
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onchainpay-api
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apollopayment-api
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ANNarchy
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-leaflet
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: integro_api
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oking
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: consensusGen
+[2024-06-03 14:35:12] INFO root fetch - processPackages [everai]: New version: [0.1.63] Old Version: [0.1.62]
+[2024-06-03 14:35:12] INFO root fetch - processPackages [roastery]: New version: [0.20240603.dev2] Old Version: [0.20240603.dev1]
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ANNarchy]: New version: [4.8.0.3] Old Version: [4.8.0.2]
+[2024-06-03 14:35:12] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/a7/93/5a81dd54d4475902f7482619f41cb1f86849bdc285e6053c61edca6c8e4c/everai-0.1.62-py3-none-any.whl
+[2024-06-03 14:35:12] INFO root fetch - processPackages [consensusGen]: New version: [2.0] Old Version: [1.9]
+[2024-06-03 14:35:12] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/58/f0/15ca8d9fcd89dd065178cf19a5e80d8a6643fec32e931b27ab7ba0ae69fc/roastery-0.20240603.dev1.tar.gz
+[2024-06-03 14:35:12] INFO root fetch - processPackages [apollopayment-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 14:35:12] WARNING root fetch - processPackages [integro_api]: Skipping, unable to determine old version
+[2024-06-03 14:35:12] INFO root fetch - main [MainThread]: End processing [integro_api] error
+[2024-06-03 14:35:12] INFO root fetch - processPackages [onchainpay-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 14:35:12] INFO root fetch - processPackages [django-leaflet]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-06-03 14:35:12] INFO root fetch - processPackages [oking]: New version: [4.2.93] Old Version: [4.2.92]
+[2024-06-03 14:35:12] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/c3/93/51ee0c77d820072595607b6c3c4ee50c909d2cd3fb44beff6dbca9e1698a/annarchy-4.8.0.2.tar.gz
+[2024-06-03 14:35:12] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/39/55/f91e2ae956b765b6d2c353dd985e4956cb0fb38e2b45bf9d71b686e89ca2/consensusGen-1.9-py3-none-any.whl
+[2024-06-03 14:35:13] INFO root fetch - processPackages [apollopayment-api]: Downloading https://files.pythonhosted.org/packages/56/fc/fa120c6e4921b565c799e16e43fb0c9dadc8ecde79cfb43e4c68e09256b9/apollopayment_api-0.0.7-py3-none-any.whl
+[2024-06-03 14:35:13] INFO root fetch - processPackages [django-leaflet]: Downloading https://files.pythonhosted.org/packages/ff/f7/a630e43c385a0bfed521636e88d45e3e9f15277efecadc084b7eb5d4f939/django-leaflet-0.8.5.zip
+[2024-06-03 14:35:13] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/a3/35/c7832d1d050345e0a93fc588217050e3501c3e52cd9ef74030a7195838cb/everai-0.1.63-py3-none-any.whl
+[2024-06-03 14:35:13] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/5f/78/b72ce03a73e40f3e610e92a6a7499c877575641f313b05b1af60f0f3ee44/onchainpay_api-0.0.7-py3-none-any.whl
+[2024-06-03 14:35:13] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/f9/0a/be0b8473da82781a62e556bf736f55a012963b8d6b94852202ab3707e52c/oking-4.2.92.tar.gz
+[2024-06-03 14:35:13] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/fd/69/7cb4da8636161456920a2f47749414e0523f4610987433c099ea559cc9f9/roastery-0.20240603.dev2.tar.gz
+[2024-06-03 14:35:13] INFO root fetch - processPackages [roastery]: executing diffoscope
+[2024-06-03 14:35:13] INFO root fetch - processPackages [roastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roastery-0.20240603.dev1.tar.gz tmp/roastery-0.20240603.dev2.tar.gz --markdown 20240603/r/roastery/0.20240603.dev1-0.20240603.dev2/README.md --exclude *.pyd
+[2024-06-03 14:35:13] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82505549>=10485760
+[2024-06-03 14:35:13] INFO root fetch - main [MainThread]: End processing [oking] error
+[2024-06-03 14:35:13] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-06-03 14:35:13] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.62-py3-none-any.whl.zip tmp/everai-0.1.63-py3-none-any.whl.zip --markdown 20240603/e/everai/0.1.62-0.1.63/README.md --exclude *.pyd
+[2024-06-03 14:35:13] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/0a/b4/9290c5b689b6450bb41dd21c765aab31d1fadabec5b2281ff96c84f5ac57/consensusgen-2.0.tar.gz
+[2024-06-03 14:35:13] INFO root fetch - processPackages [ANNarchy]: Downloading https://files.pythonhosted.org/packages/0d/93/48f90c35639575829937585e3ea579a255c581ab49db73a50ab928d76884/annarchy-4.8.0.3.tar.gz
+[2024-06-03 14:35:13] INFO root fetch - processPackages [apollopayment-api]: Downloading https://files.pythonhosted.org/packages/87/ad/64d6744d343d222d9685252e23bd0e5ae29d2703eb9c591c23692ceefab4/apollopayment_api-0.0.8-py3-none-any.whl
+[2024-06-03 14:35:13] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/19/0a/2864dca4f03654f7a71f47f749da889db22256aaf4abdaab18dc3397f7a9/onchainpay_api-0.0.8-py3-none-any.whl
+[2024-06-03 14:35:13] INFO root fetch - processPackages [apollopayment-api]: executing diffoscope
+[2024-06-03 14:35:13] INFO root fetch - processPackages [apollopayment-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollopayment_api-0.0.7-py3-none-any.whl.zip tmp/apollopayment_api-0.0.8-py3-none-any.whl.zip --markdown 20240603/a/apollopayment-api/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 14:35:13] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-06-03 14:35:13] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusGen-1.9-py3-none-any.whl.zip tmp/consensusgen-2.0.tar.gz --markdown 20240603/c/consensusGen/1.9-2.0/README.md --exclude *.pyd
+[2024-06-03 14:35:13] INFO root fetch - processPackages [django-leaflet]: Downloading https://files.pythonhosted.org/packages/9e/1e/48315daf56cb943436fd8502ec7c34a6f3d0dd785cfe01393d8da4cf4070/django-leaflet-0.9.0.zip
+[2024-06-03 14:35:13] INFO root fetch - processPackages [onchainpay-api]: executing diffoscope
+[2024-06-03 14:35:13] INFO root fetch - processPackages [onchainpay-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onchainpay_api-0.0.7-py3-none-any.whl.zip tmp/onchainpay_api-0.0.8-py3-none-any.whl.zip --markdown 20240603/o/onchainpay-api/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 14:35:13] INFO root fetch - processPackages [ANNarchy]: executing diffoscope
+[2024-06-03 14:35:13] INFO root fetch - processPackages [ANNarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annarchy-4.8.0.2.tar.gz tmp/annarchy-4.8.0.3.tar.gz --markdown 20240603/A/ANNarchy/4.8.0.2-4.8.0.3/README.md --exclude *.pyd
+[2024-06-03 14:35:13] INFO root fetch - processPackages [django-leaflet]: executing diffoscope
+[2024-06-03 14:35:13] INFO root fetch - processPackages [django-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-leaflet-0.8.5.zip tmp/django-leaflet-0.9.0.zip --markdown 20240603/d/django-leaflet/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-06-03 14:35:14] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240603.dev1.tar.gz]
+[2024-06-03 14:35:14] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240603.dev2.tar.gz]
+[2024-06-03 14:35:14] INFO root fetch - main [MainThread]: End processing [roastery]: success
+[2024-06-03 14:35:14] INFO root fetch - processPackages [apollopayment-api]: Remove: archive file [/home/abi/fetcher/tmp/apollopayment_api-0.0.7-py3-none-any.whl.zip]
+[2024-06-03 14:35:14] INFO root fetch - processPackages [apollopayment-api]: Remove: archive file [/home/abi/fetcher/tmp/apollopayment_api-0.0.8-py3-none-any.whl.zip]
+[2024-06-03 14:35:14] INFO root fetch - main [MainThread]: End processing [apollopayment-api]: success
+[2024-06-03 14:35:14] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusGen-1.9-py3-none-any.whl.zip]
+[2024-06-03 14:35:14] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.0.tar.gz]
+[2024-06-03 14:35:14] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-06-03 14:35:14] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.7-py3-none-any.whl.zip]
+[2024-06-03 14:35:14] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.8-py3-none-any.whl.zip]
+[2024-06-03 14:35:14] INFO root fetch - main [MainThread]: End processing [onchainpay-api]: success
+[2024-06-03 14:35:15] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/annarchy-4.8.0.2.tar.gz]
+[2024-06-03 14:35:15] INFO root fetch - processPackages [ANNarchy]: Remove: archive file [/home/abi/fetcher/tmp/annarchy-4.8.0.3.tar.gz]
+[2024-06-03 14:35:15] INFO root fetch - main [MainThread]: End processing [ANNarchy]: success
+[2024-06-03 14:35:15] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.62-py3-none-any.whl.zip]
+[2024-06-03 14:35:15] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.63-py3-none-any.whl.zip]
+[2024-06-03 14:35:15] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-06-03 14:35:18] INFO root fetch - processPackages [django-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/django-leaflet-0.8.5.zip]
+[2024-06-03 14:35:18] INFO root fetch - processPackages [django-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/django-leaflet-0.9.0.zip]
+[2024-06-03 14:35:18] INFO root fetch - main [MainThread]: End processing [django-leaflet]: success
+[2024-06-03 14:35:18] INFO root fetch - main [MainThread]: Store serial: [23502419]
