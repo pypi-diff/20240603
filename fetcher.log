@@ -7718,3 +7718,60 @@ EOFError: EOF read where object expected
 [2024-06-03 08:39:18] INFO root fetch - processPackages [memvectordb-python]: Remove: archive file [/home/abi/fetcher/tmp/memvectordb_python-0.0.5.tar.gz]
 [2024-06-03 08:39:18] INFO root fetch - main [MainThread]: End processing [memvectordb-python]: success
 [2024-06-03 08:39:18] INFO root fetch - main [MainThread]: Store serial: [23497394]
+[2024-06-03 08:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497394]
+[2024-06-03 08:41:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PKDevTools
+[2024-06-03 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myelectricaldatapy
+[2024-06-03 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: event-outbox
+[2024-06-03 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VeriScore
+[2024-06-03 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aily-code-sdk-core
+[2024-06-03 08:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citrixnetscalermemoryleak
+[2024-06-03 08:41:28] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240602.132] Old Version: [0.13.20240602.131]
+[2024-06-03 08:41:28] INFO root fetch - processPackages [event-outbox]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-06-03 08:41:28] INFO root fetch - processPackages [VeriScore]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 08:41:28] INFO root fetch - processPackages [citrixnetscalermemoryleak]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 08:41:28] INFO root fetch - processPackages [aily-code-sdk-core]: New version: [0.1.0b6] Old Version: [0.1.0b5]
+[2024-06-03 08:41:28] INFO root fetch - processPackages [myelectricaldatapy]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-06-03 08:41:28] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/90/83/9312a68f65903b6f51a1f9118c9810eefa589989c1a2036ebca79beed333/PKDevTools-0.13.20240602.131.tar.gz
+[2024-06-03 08:41:28] INFO root fetch - processPackages [event-outbox]: Downloading https://files.pythonhosted.org/packages/ff/67/823c2efde1ba292f0a04ffa499253b9aafe40139351c4f286db3e8ba22a5/event_outbox-0.1.3.tar.gz
+[2024-06-03 08:41:28] INFO root fetch - processPackages [VeriScore]: Downloading https://files.pythonhosted.org/packages/f2/e8/15d400d093a8ef8e7f3500abf9a68c0c48de5c8720710acf38605c36dbf9/veriscore-0.0.2.tar.gz
+[2024-06-03 08:41:28] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/d0/82/c1d4147536869940aef980f9feb406e40f240c57321d54da82f659d490d3/myelectricaldatapy-2.2.2.tar.gz
+[2024-06-03 08:41:28] INFO root fetch - processPackages [citrixnetscalermemoryleak]: Downloading https://files.pythonhosted.org/packages/b9/7a/f8cbd76c56e568b265743e0ee0e537a1c639bc5563262c353d141fa65fb9/citrixnetscalermemoryleak-0.0.1.tar.gz
+[2024-06-03 08:41:28] INFO root fetch - processPackages [aily-code-sdk-core]: Downloading https://files.pythonhosted.org/packages/d7/8f/0bf998789849a48e4d0ad89505abebed3312fd0a1af363b15433e7c3e13f/aily_code_sdk_core-0.1.0b5.tar.gz
+[2024-06-03 08:41:29] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/ef/42/e41b67e5a7af7ed57cb4552ea13f2df3b1eb963c3f62733fbbfcc6c966bf/PKDevTools-0.13.20240602.132.tar.gz
+[2024-06-03 08:41:29] INFO root fetch - processPackages [event-outbox]: Downloading https://files.pythonhosted.org/packages/2f/fe/261b2bb1c58c25ad3fe21c1196c7710b69e414bf07251ff04a87b741843a/event_outbox-0.1.5.tar.gz
+[2024-06-03 08:41:29] INFO root fetch - processPackages [VeriScore]: Downloading https://files.pythonhosted.org/packages/28/14/8cea2a4b25d86530dfee8336d3af661da775755601ae7ce657272ab6485c/veriscore-0.0.3.tar.gz
+[2024-06-03 08:41:29] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-06-03 08:41:29] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240602.131.tar.gz tmp/PKDevTools-0.13.20240602.132.tar.gz --markdown 20240603/P/PKDevTools/0.13.20240602.131-0.13.20240602.132/README.md --exclude *.pyd
+[2024-06-03 08:41:29] INFO root fetch - processPackages [event-outbox]: executing diffoscope
+[2024-06-03 08:41:29] INFO root fetch - processPackages [event-outbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_outbox-0.1.3.tar.gz tmp/event_outbox-0.1.5.tar.gz --markdown 20240603/e/event-outbox/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-06-03 08:41:29] INFO root fetch - processPackages [aily-code-sdk-core]: Downloading https://files.pythonhosted.org/packages/25/3d/5948367e38c1320c415dc78dcade6638fec99fda58abaa306282722df07d/aily_code_sdk_core-0.1.0b6.tar.gz
+[2024-06-03 08:41:29] INFO root fetch - processPackages [citrixnetscalermemoryleak]: Downloading https://files.pythonhosted.org/packages/fa/e3/9f1beae965bf82fc5b0bce4e18c8c24985dd3f7141f1c207ae781dac15f1/citrixnetscalermemoryleak-0.0.2.tar.gz
+[2024-06-03 08:41:29] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/20/39/7a5025f7e4670dbf2766672ab0ec23e790e28eec48be83cfa09b037fcaa5/myelectricaldatapy-2.2.3.tar.gz
+[2024-06-03 08:41:29] INFO root fetch - processPackages [VeriScore]: executing diffoscope
+[2024-06-03 08:41:29] INFO root fetch - processPackages [VeriScore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veriscore-0.0.2.tar.gz tmp/veriscore-0.0.3.tar.gz --markdown 20240603/V/VeriScore/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 08:41:29] INFO root fetch - processPackages [myelectricaldatapy]: executing diffoscope
+[2024-06-03 08:41:29] INFO root fetch - processPackages [myelectricaldatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myelectricaldatapy-2.2.2.tar.gz tmp/myelectricaldatapy-2.2.3.tar.gz --markdown 20240603/m/myelectricaldatapy/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-06-03 08:41:29] INFO root fetch - processPackages [aily-code-sdk-core]: executing diffoscope
+[2024-06-03 08:41:29] INFO root fetch - processPackages [aily-code-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk_core-0.1.0b5.tar.gz tmp/aily_code_sdk_core-0.1.0b6.tar.gz --markdown 20240603/a/aily-code-sdk-core/0.1.0b5-0.1.0b6/README.md --exclude *.pyd
+[2024-06-03 08:41:29] INFO root fetch - processPackages [citrixnetscalermemoryleak]: executing diffoscope
+[2024-06-03 08:41:29] INFO root fetch - processPackages [citrixnetscalermemoryleak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrixnetscalermemoryleak-0.0.1.tar.gz tmp/citrixnetscalermemoryleak-0.0.2.tar.gz --markdown 20240603/c/citrixnetscalermemoryleak/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 08:41:30] INFO root fetch - processPackages [event-outbox]: Remove: archive file [/home/abi/fetcher/tmp/event_outbox-0.1.3.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - processPackages [event-outbox]: Remove: archive file [/home/abi/fetcher/tmp/event_outbox-0.1.5.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - main [MainThread]: End processing [event-outbox]: success
+[2024-06-03 08:41:30] INFO root fetch - processPackages [VeriScore]: Remove: archive file [/home/abi/fetcher/tmp/veriscore-0.0.2.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - processPackages [VeriScore]: Remove: archive file [/home/abi/fetcher/tmp/veriscore-0.0.3.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - main [MainThread]: End processing [VeriScore]: success
+[2024-06-03 08:41:30] INFO root fetch - processPackages [citrixnetscalermemoryleak]: Remove: archive file [/home/abi/fetcher/tmp/citrixnetscalermemoryleak-0.0.1.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - processPackages [citrixnetscalermemoryleak]: Remove: archive file [/home/abi/fetcher/tmp/citrixnetscalermemoryleak-0.0.2.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240602.131.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - main [MainThread]: End processing [citrixnetscalermemoryleak]: success
+[2024-06-03 08:41:30] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240602.132.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-06-03 08:41:30] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.2.2.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.2.3.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - main [MainThread]: End processing [myelectricaldatapy]: success
+[2024-06-03 08:41:30] INFO root fetch - processPackages [aily-code-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk_core-0.1.0b5.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - processPackages [aily-code-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk_core-0.1.0b6.tar.gz]
+[2024-06-03 08:41:30] INFO root fetch - main [MainThread]: End processing [aily-code-sdk-core]: success
+[2024-06-03 08:41:30] INFO root fetch - main [MainThread]: Store serial: [23497414]
