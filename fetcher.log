@@ -7508,3 +7508,15 @@ EOFError: EOF read where object expected
 [2024-06-03 08:21:54] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.3.1b1.tar.gz]
 [2024-06-03 08:21:54] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
 [2024-06-03 08:21:54] INFO root fetch - main [MainThread]: Store serial: [23497305]
+[2024-06-03 08:23:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497305]
+[2024-06-03 08:24:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 08:24:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-unfold
+[2024-06-03 08:24:02] INFO root fetch - processPackages [django-unfold]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-06-03 08:24:02] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/61/80/2c35d6702f5e60071c38b480305123625928d28659b62a0a1156af55a522/django_unfold-0.8.0.tar.gz
+[2024-06-03 08:24:03] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/f2/29/90d5f5dd638e2e9b76365e6de014c0de45323bad92c9fe3e333b616c03fb/django_unfold-0.9.0.tar.gz
+[2024-06-03 08:24:03] INFO root fetch - processPackages [django-unfold]: executing diffoscope
+[2024-06-03 08:24:03] INFO root fetch - processPackages [django-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_unfold-0.8.0.tar.gz tmp/django_unfold-0.9.0.tar.gz --markdown 20240603/d/django-unfold/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-06-03 08:24:04] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.8.0.tar.gz]
+[2024-06-03 08:24:04] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.9.0.tar.gz]
+[2024-06-03 08:24:04] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
+[2024-06-03 08:24:04] INFO root fetch - main [MainThread]: Store serial: [23497311]
