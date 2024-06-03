@@ -24242,3 +24242,117 @@ EOFError: EOF read where object expected
 [2024-06-03 16:56:08] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-06-03 16:56:08] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2024-06-03 16:56:08] INFO root fetch - main [MainThread]: Store serial: [23504702]
+[2024-06-03 16:58:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504702]
+[2024-06-03 16:58:23] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imsciences
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: copilothistoryexporter
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deknp
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cscript
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feeluown
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: encoded-core
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sneat
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qiclib
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: square-logger
+[2024-06-03 16:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: locomotivecms
+[2024-06-03 16:58:23] INFO root fetch - processPackages [deknp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [qiclib]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [copilothistoryexporter]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [sneat]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [square-logger]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [deknp]: Downloading https://files.pythonhosted.org/packages/a2/f8/9474dd68e73e4b37117396fd62a452b444f4d0c923e3eb1d3ecdbfde6c63/deknp-0.1.8.tar.gz
+[2024-06-03 16:58:23] WARNING root fetch - processPackages [cscript]: Skipping, unable to determine old version
+[2024-06-03 16:58:23] INFO root fetch - processPackages [cscript]: Start processing: cemirutils
+[2024-06-03 16:58:23] INFO root fetch - main [MainThread]: End processing [cscript] error
+[2024-06-03 16:58:23] INFO root fetch - processPackages [imsciences]: New version: [0.5.8.5] Old Version: [0.5.8.4]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [locomotivecms]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/b2/95/e19574d254af509a61c4fddf69ec5800910c8c651cce4dd2c85aca038675/copilothistoryexporter-1.2.3.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [feeluown]: New version: [4.1.5] Old Version: [4.1.4]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [encoded-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [sneat]: Downloading https://files.pythonhosted.org/packages/cc/95/eb205e6552e55b4c11159258417ad5344f6d419cf1cc8a75491a9c7e61b4/sneat-0.0.3.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [cemirutils]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-06-03 16:58:23] INFO root fetch - processPackages [qiclib]: Downloading https://files.pythonhosted.org/packages/f7/a5/6ba7275b4d74646b48c331b9f762e19c1842c040afdea181dee6f599d54d/qiclib-1.0.0.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [cemirutils]: Downloading https://files.pythonhosted.org/packages/f5/42/50e9756b84cceaaa46f8836af5ab7a8be1f3d823098c69a8f9ac28af92e3/cemirutils-0.4.1.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [square-logger]: Downloading https://files.pythonhosted.org/packages/f7/62/b85acb797fc72875ab6cfc7e68cfb54d65b595902d29945b9a411246bff5/square_logger-1.0.5.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/24/88/d3bcbf56b58dc9dfc289c658ee96123053be472676f1f6f646b6c428f45b/imsciences-0.5.8.4.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [feeluown]: Downloading https://files.pythonhosted.org/packages/bb/91/214734d1fff13ce59b7bb1c124ed934ea40304d85cb1aceb31be71bac608/feeluown-4.1.4.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [deknp]: Downloading https://files.pythonhosted.org/packages/90/3c/ef8894b05c6e3a5145b0b0434c3743c1d3196369d4c0009f02fa74a4a1aa/deknp-0.1.9.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [locomotivecms]: Downloading https://files.pythonhosted.org/packages/88/c8/17aa773b1b9afda50207df0718331d88dd04351efa1f77e64175574bcdb3/locomotivecms-0.0.2.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [encoded-core]: Downloading https://files.pythonhosted.org/packages/89/7e/a55900a8a5dcf35787f39f89183192d6b7d9b7a8a6bfa46e540fbea26d57/encoded_core-0.9.2.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [sneat]: Downloading https://files.pythonhosted.org/packages/bf/13/5b67021c3df392387972550e6662464bec9b5c17c4950693f77c7ca3a1aa/sneat-0.0.5.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/c6/6d/0d4dcb726b6d0e2c654baa115d310f8cbbef9e97be44698ad222f51229f4/copilothistoryexporter-1.2.4.tar.gz
+[2024-06-03 16:58:23] INFO root fetch - processPackages [deknp]: executing diffoscope
+[2024-06-03 16:58:23] INFO root fetch - processPackages [deknp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deknp-0.1.8.tar.gz tmp/deknp-0.1.9.tar.gz --markdown 20240603/d/deknp/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 16:58:23] INFO root fetch - processPackages [sneat]: executing diffoscope
+[2024-06-03 16:58:23] INFO root fetch - processPackages [sneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneat-0.0.3.tar.gz tmp/sneat-0.0.5.tar.gz --markdown 20240603/s/sneat/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [copilothistoryexporter]: executing diffoscope
+[2024-06-03 16:58:24] INFO root fetch - processPackages [copilothistoryexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copilothistoryexporter-1.2.3.tar.gz tmp/copilothistoryexporter-1.2.4.tar.gz --markdown 20240603/c/copilothistoryexporter/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [square-logger]: Downloading https://files.pythonhosted.org/packages/e4/7c/becb429de474fcafbb2dcc82527753b082880773e92d1a477d697f2bf946/square_logger-1.0.6.tar.gz
+[2024-06-03 16:58:24] INFO root fetch - processPackages [qiclib]: Downloading https://files.pythonhosted.org/packages/aa/6d/d3e1ae9a913f8ad4ad506b7599d859a741ed86d03033eb5e85bab901d4ba/qiclib-1.1.0.tar.gz
+[2024-06-03 16:58:24] INFO root fetch - processPackages [cemirutils]: Downloading https://files.pythonhosted.org/packages/45/75/8e4af549b699283e1a209e054cd8b2969de6180d34e0e6d379c3e50a3142/cemirutils-0.4.2.tar.gz
+[2024-06-03 16:58:24] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/07/0a/ee9853642111e78da9b41f03ce4021186f05bc2bf7f83420f1c9f3bef7cc/imsciences-0.5.8.5.tar.gz
+[2024-06-03 16:58:24] INFO root fetch - processPackages [locomotivecms]: Downloading https://files.pythonhosted.org/packages/03/d5/f32b89a3395b08e374b7a6d70e9d026379de32e1dec8fae539d2ca6b7410/locomotivecms-0.0.3.tar.gz
+[2024-06-03 16:58:24] INFO root fetch - processPackages [encoded-core]: Downloading https://files.pythonhosted.org/packages/89/27/2898a83709418624dd6761952efad57f0123788f3f80774247e8267a2516/encoded_core-0.9.3.tar.gz
+[2024-06-03 16:58:24] INFO root fetch - processPackages [feeluown]: Downloading https://files.pythonhosted.org/packages/27/c7/4b990a4ad1a467366faab706a406f83de548470e81cc572e71d2e659a3fd/feeluown-4.1.5.tar.gz
+[2024-06-03 16:58:24] INFO root fetch - processPackages [cemirutils]: executing diffoscope
+[2024-06-03 16:58:24] INFO root fetch - processPackages [cemirutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cemirutils-0.4.1.tar.gz tmp/cemirutils-0.4.2.tar.gz --markdown 20240603/c/cemirutils/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [qiclib]: executing diffoscope
+[2024-06-03 16:58:24] INFO root fetch - processPackages [qiclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiclib-1.0.0.tar.gz tmp/qiclib-1.1.0.tar.gz --markdown 20240603/q/qiclib/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-06-03 16:58:24] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.8.4.tar.gz tmp/imsciences-0.5.8.5.tar.gz --markdown 20240603/i/imsciences/0.5.8.4-0.5.8.5/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [square-logger]: executing diffoscope
+[2024-06-03 16:58:24] INFO root fetch - processPackages [square-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/square_logger-1.0.5.tar.gz tmp/square_logger-1.0.6.tar.gz --markdown 20240603/s/square-logger/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [locomotivecms]: executing diffoscope
+[2024-06-03 16:58:24] INFO root fetch - processPackages [locomotivecms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locomotivecms-0.0.2.tar.gz tmp/locomotivecms-0.0.3.tar.gz --markdown 20240603/l/locomotivecms/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [encoded-core]: executing diffoscope
+[2024-06-03 16:58:24] INFO root fetch - processPackages [encoded-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encoded_core-0.9.2.tar.gz tmp/encoded_core-0.9.3.tar.gz --markdown 20240603/e/encoded-core/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [feeluown]: executing diffoscope
+[2024-06-03 16:58:24] INFO root fetch - processPackages [feeluown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feeluown-4.1.4.tar.gz tmp/feeluown-4.1.5.tar.gz --markdown 20240603/f/feeluown/4.1.4-4.1.5/README.md --exclude *.pyd
+[2024-06-03 16:58:24] INFO root fetch - processPackages [deknp]: Remove: archive file [/home/abi/fetcher/tmp/deknp-0.1.8.tar.gz]
+[2024-06-03 16:58:24] INFO root fetch - processPackages [deknp]: Remove: archive file [/home/abi/fetcher/tmp/deknp-0.1.9.tar.gz]
+[2024-06-03 16:58:24] INFO root fetch - processPackages [deknp]: Start processing: nista-library
+[2024-06-03 16:58:24] INFO root fetch - main [MainThread]: End processing [deknp]: success
+[2024-06-03 16:58:24] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.2.3.tar.gz]
+[2024-06-03 16:58:24] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.2.4.tar.gz]
+[2024-06-03 16:58:24] INFO root fetch - processPackages [copilothistoryexporter]: Start processing: modrinth-downloader
+[2024-06-03 16:58:25] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter]: success
+[2024-06-03 16:58:25] INFO root fetch - processPackages [modrinth-downloader]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 16:58:25] INFO root fetch - processPackages [sneat]: Remove: archive file [/home/abi/fetcher/tmp/sneat-0.0.3.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - processPackages [sneat]: Remove: archive file [/home/abi/fetcher/tmp/sneat-0.0.5.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - main [MainThread]: End processing [sneat]: success
+[2024-06-03 16:58:25] INFO root fetch - processPackages [nista-library]: New version: [5.0.0] Old Version: [4.5.0]
+[2024-06-03 16:58:25] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/11/8f/4dce21a38ef4f89c6b92b6aa2d739451f26f82668dcfee65e7d686af7602/modrinth_downloader-0.9.2.tar.gz
+[2024-06-03 16:58:25] INFO root fetch - processPackages [nista-library]: Downloading https://files.pythonhosted.org/packages/d3/88/ebca5b601430ddfacd5ad92c34752892a86ed83d65f1ea6d28d4e53e2e30/nista_library-4.5.0.tar.gz
+[2024-06-03 16:58:25] INFO root fetch - processPackages [square-logger]: Remove: archive file [/home/abi/fetcher/tmp/square_logger-1.0.5.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - processPackages [square-logger]: Remove: archive file [/home/abi/fetcher/tmp/square_logger-1.0.6.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - main [MainThread]: End processing [square-logger]: success
+[2024-06-03 16:58:25] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.4.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.5.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-06-03 16:58:25] INFO root fetch - processPackages [locomotivecms]: Remove: archive file [/home/abi/fetcher/tmp/locomotivecms-0.0.2.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - processPackages [locomotivecms]: Remove: archive file [/home/abi/fetcher/tmp/locomotivecms-0.0.3.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - main [MainThread]: End processing [locomotivecms]: success
+[2024-06-03 16:58:25] INFO root fetch - processPackages [encoded-core]: Remove: archive file [/home/abi/fetcher/tmp/encoded_core-0.9.2.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - processPackages [encoded-core]: Remove: archive file [/home/abi/fetcher/tmp/encoded_core-0.9.3.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - main [MainThread]: End processing [encoded-core]: success
+[2024-06-03 16:58:25] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/49/58/894041e92722e6782e043896de36b3d9f8ff542e4b55cc3951c628c64686/modrinth_downloader-0.9.3.tar.gz
+[2024-06-03 16:58:25] INFO root fetch - processPackages [cemirutils]: Remove: archive file [/home/abi/fetcher/tmp/cemirutils-0.4.1.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - processPackages [cemirutils]: Remove: archive file [/home/abi/fetcher/tmp/cemirutils-0.4.2.tar.gz]
+[2024-06-03 16:58:25] INFO root fetch - main [MainThread]: End processing [cemirutils]: success
+[2024-06-03 16:58:25] INFO root fetch - processPackages [nista-library]: Downloading https://files.pythonhosted.org/packages/22/9c/3fed3ea85a01b7fcffc3d0cb1e1a32e4437c0c3cab8473aa43f16a33e8ca/nista_library-5.0.0.tar.gz
+[2024-06-03 16:58:25] INFO root fetch - processPackages [modrinth-downloader]: executing diffoscope
+[2024-06-03 16:58:25] INFO root fetch - processPackages [modrinth-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth_downloader-0.9.2.tar.gz tmp/modrinth_downloader-0.9.3.tar.gz --markdown 20240603/m/modrinth-downloader/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 16:58:25] INFO root fetch - processPackages [nista-library]: executing diffoscope
+[2024-06-03 16:58:25] INFO root fetch - processPackages [nista-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nista_library-4.5.0.tar.gz tmp/nista_library-5.0.0.tar.gz --markdown 20240603/n/nista-library/4.5.0-5.0.0/README.md --exclude *.pyd
+[2024-06-03 16:58:26] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.9.2.tar.gz]
+[2024-06-03 16:58:26] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.9.3.tar.gz]
+[2024-06-03 16:58:26] INFO root fetch - main [MainThread]: End processing [modrinth-downloader]: success
+[2024-06-03 16:58:26] INFO root fetch - processPackages [feeluown]: Remove: archive file [/home/abi/fetcher/tmp/feeluown-4.1.4.tar.gz]
+[2024-06-03 16:58:26] INFO root fetch - processPackages [feeluown]: Remove: archive file [/home/abi/fetcher/tmp/feeluown-4.1.5.tar.gz]
+[2024-06-03 16:58:26] INFO root fetch - main [MainThread]: End processing [feeluown]: success
+[2024-06-03 16:58:26] INFO root fetch - processPackages [qiclib]: Remove: archive file [/home/abi/fetcher/tmp/qiclib-1.0.0.tar.gz]
+[2024-06-03 16:58:26] INFO root fetch - processPackages [qiclib]: Remove: archive file [/home/abi/fetcher/tmp/qiclib-1.1.0.tar.gz]
+[2024-06-03 16:58:26] INFO root fetch - main [MainThread]: End processing [qiclib]: success
+[2024-06-03 16:58:26] INFO root fetch - processPackages [nista-library]: Remove: archive file [/home/abi/fetcher/tmp/nista_library-4.5.0.tar.gz]
+[2024-06-03 16:58:26] INFO root fetch - processPackages [nista-library]: Remove: archive file [/home/abi/fetcher/tmp/nista_library-5.0.0.tar.gz]
+[2024-06-03 16:58:26] INFO root fetch - main [MainThread]: End processing [nista-library]: success
+[2024-06-03 16:58:26] INFO root fetch - main [MainThread]: Store serial: [23504749]
