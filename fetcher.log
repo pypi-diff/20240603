@@ -4612,3 +4612,69 @@ EOFError: EOF read where object expected
 [2024-06-03 05:22:30] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-1.1.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-06-03 05:22:30] INFO root fetch - main [MainThread]: End processing [tokengeex]: success
 [2024-06-03 05:22:30] INFO root fetch - main [MainThread]: Store serial: [23496113]
+[2024-06-03 05:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496113]
+[2024-06-03 05:24:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bosdyn-scout
+[2024-06-03 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bosdyn-choreography-client
+[2024-06-03 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bosdyn-choreography-protos
+[2024-06-03 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2024-06-03 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pr-pilot-cli
+[2024-06-03 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rag-assistant
+[2024-06-03 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meghana-hello-world
+[2024-06-03 05:24:43] INFO root fetch - processPackages [meghana-hello-world]: New version: [0.4] Old Version: [0.3]
+[2024-06-03 05:24:43] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024060203] Old Version: [3.3.3.dev2024060103]
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-choreography-client]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-scout]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-06-03 05:24:43] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-choreography-protos]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-06-03 05:24:43] INFO root fetch - processPackages [pr-pilot-cli]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-06-03 05:24:43] INFO root fetch - processPackages [meghana-hello-world]: Downloading https://files.pythonhosted.org/packages/3b/aa/f81fb5ecee6a761ec3dfbaed071820c4a89cc2f8b5040e8f474f42c69740/meghana_hello_world-0.3.tar.gz
+[2024-06-03 05:24:43] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/8f/0b/a81a2de3a4cdc0ca2dc72cd45fd983c169f110841ce3bb03b53b8e4b436a/keras_nightly-3.3.3.dev2024060103.tar.gz
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-choreography-client]: Downloading https://files.pythonhosted.org/packages/a4/f2/c05f2d45b9cf00488d0cc52caff28bad82d0677b93fafdc9fcde9cd35db6/bosdyn_choreography_client-4.0.1-py3-none-any.whl
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-scout]: Downloading https://files.pythonhosted.org/packages/06/13/5e4888e372582cf7785eea3745616d8a1407d0819fc3a891d4bc8cd0423a/bosdyn_scout-4.0.1-py3-none-any.whl
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-choreography-protos]: Downloading https://files.pythonhosted.org/packages/3b/85/e64f899697204cc05b57191ed9952198ee9d7eacd3756ce6fb23b686d205/bosdyn_choreography_protos-4.0.1-py3-none-any.whl
+[2024-06-03 05:24:43] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/e3/de/ffc676228270270f0b22d83ed2437d44edcb60fee3b7a3b1174ab1df34da/pr_pilot_cli-1.4.2.tar.gz
+[2024-06-03 05:24:43] INFO root fetch - processPackages [meghana-hello-world]: Downloading https://files.pythonhosted.org/packages/57/4f/ee6ad78a7bc3bff0846a8528918e7c2cda22b49150735fe643c016fc5e2c/meghana_hello_world-0.4.tar.gz
+[2024-06-03 05:24:43] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/a4/19/7416b6eb15f6056bdbd4d0d826d8d9028b76f3e60cabea03af0792692d69/rag_assistant-0.1.8.tar.gz
+[2024-06-03 05:24:43] INFO root fetch - processPackages [meghana-hello-world]: executing diffoscope
+[2024-06-03 05:24:43] INFO root fetch - processPackages [meghana-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meghana_hello_world-0.3.tar.gz tmp/meghana_hello_world-0.4.tar.gz --markdown 20240603/m/meghana-hello-world/0.3-0.4/README.md --exclude *.pyd
+[2024-06-03 05:24:43] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/66/8f/120a9326076d271aa382c89fc7dad9a2defe99631064809c402107b9e9ad/keras_nightly-3.3.3.dev2024060203.tar.gz
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-choreography-client]: Downloading https://files.pythonhosted.org/packages/d6/a1/fe0bcbe8dbef21e9a2b4f853281fe6239718645f5daf1330b963cb6a6244/bosdyn_choreography_client-4.0.2-py3-none-any.whl
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-scout]: Downloading https://files.pythonhosted.org/packages/53/ef/29e28623da865c45cb07855367edad4027d0c68369aa4aade84504dbda74/bosdyn_scout-4.0.2-py3-none-any.whl
+[2024-06-03 05:24:43] INFO root fetch - processPackages [bosdyn-choreography-protos]: Downloading https://files.pythonhosted.org/packages/7d/8a/00e59b9581124b794c88a9b51e4b56cf786992fdc8df824fc740cfb20ca0/bosdyn_choreography_protos-4.0.2-py3-none-any.whl
+[2024-06-03 05:24:43] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/f2/a7/ad4f48cecbe1f4684f6d10ffcae143e31087a85492fcedc6d1b9d55846ae/pr_pilot_cli-1.5.0.tar.gz
+[2024-06-03 05:24:43] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-06-03 05:24:43] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024060103.tar.gz tmp/keras_nightly-3.3.3.dev2024060203.tar.gz --markdown 20240603/k/keras-nightly/3.3.3.dev2024060103-3.3.3.dev2024060203/README.md --exclude *.pyd
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-scout]: executing diffoscope
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-scout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_scout-4.0.1-py3-none-any.whl.zip tmp/bosdyn_scout-4.0.2-py3-none-any.whl.zip --markdown 20240603/b/bosdyn-scout/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-choreography-client]: executing diffoscope
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-choreography-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_choreography_client-4.0.1-py3-none-any.whl.zip tmp/bosdyn_choreography_client-4.0.2-py3-none-any.whl.zip --markdown 20240603/b/bosdyn-choreography-client/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-choreography-protos]: executing diffoscope
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-choreography-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosdyn_choreography_protos-4.0.1-py3-none-any.whl.zip tmp/bosdyn_choreography_protos-4.0.2-py3-none-any.whl.zip --markdown 20240603/b/bosdyn-choreography-protos/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-06-03 05:24:44] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/ab/f1/620c7fb54b4a7ccc6bfb8b3fef465d28ab6f59106745edd2d05206cead9f/rag_assistant-0.1.9.tar.gz
+[2024-06-03 05:24:44] INFO root fetch - processPackages [pr-pilot-cli]: executing diffoscope
+[2024-06-03 05:24:44] INFO root fetch - processPackages [pr-pilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot_cli-1.4.2.tar.gz tmp/pr_pilot_cli-1.5.0.tar.gz --markdown 20240603/p/pr-pilot-cli/1.4.2-1.5.0/README.md --exclude *.pyd
+[2024-06-03 05:24:44] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-06-03 05:24:44] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.1.8.tar.gz tmp/rag_assistant-0.1.9.tar.gz --markdown 20240603/r/rag-assistant/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 05:24:44] INFO root fetch - processPackages [meghana-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/meghana_hello_world-0.3.tar.gz]
+[2024-06-03 05:24:44] INFO root fetch - processPackages [meghana-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/meghana_hello_world-0.4.tar.gz]
+[2024-06-03 05:24:44] INFO root fetch - main [MainThread]: End processing [meghana-hello-world]: success
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-choreography-protos]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_choreography_protos-4.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-choreography-protos]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_choreography_protos-4.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:24:44] INFO root fetch - main [MainThread]: End processing [bosdyn-choreography-protos]: success
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-choreography-client]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_choreography_client-4.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-choreography-client]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_choreography_client-4.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:24:44] INFO root fetch - main [MainThread]: End processing [bosdyn-choreography-client]: success
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-scout]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_scout-4.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:24:44] INFO root fetch - processPackages [bosdyn-scout]: Remove: archive file [/home/abi/fetcher/tmp/bosdyn_scout-4.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:24:44] INFO root fetch - main [MainThread]: End processing [bosdyn-scout]: success
+[2024-06-03 05:24:44] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.8.tar.gz]
+[2024-06-03 05:24:44] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.9.tar.gz]
+[2024-06-03 05:24:44] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-06-03 05:24:44] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.4.2.tar.gz]
+[2024-06-03 05:24:44] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.5.0.tar.gz]
+[2024-06-03 05:24:44] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli]: success
+[2024-06-03 05:24:46] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024060103.tar.gz]
+[2024-06-03 05:24:46] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024060203.tar.gz]
+[2024-06-03 05:24:46] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-06-03 05:24:46] INFO root fetch - main [MainThread]: Store serial: [23496221]
