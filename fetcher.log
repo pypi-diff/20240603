@@ -7661,3 +7661,45 @@ EOFError: EOF read where object expected
 [2024-06-03 08:34:58] INFO root fetch - processPackages [jupyter_bokeh]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bokeh-4.0.5.tar.gz]
 [2024-06-03 08:34:58] INFO root fetch - main [MainThread]: End processing [jupyter_bokeh]: success
 [2024-06-03 08:34:58] INFO root fetch - main [MainThread]: Store serial: [23497370]
+[2024-06-03 08:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497370]
+[2024-06-03 08:37:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 08:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-manager-library
+[2024-06-03 08:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-avatar
+[2024-06-03 08:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-115
+[2024-06-03 08:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlqhandler
+[2024-06-03 08:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EasyFileOps
+[2024-06-03 08:37:06] INFO root fetch - processPackages [data-manager-library]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 08:37:06] INFO root fetch - processPackages [python-115]: New version: [0.0.8.7.9] Old Version: [0.0.8.7.8]
+[2024-06-03 08:37:06] INFO root fetch - processPackages [data-manager-library]: Downloading https://files.pythonhosted.org/packages/6b/9c/d01ca4aa672498eb2355f980ae925c9899915d7a76a3f3bcf7d449991cbe/data_manager_library-0.0.2.tar.gz
+[2024-06-03 08:37:06] WARNING root fetch - processPackages [streamlit-avatar]: Skipping, unable to determine old version
+[2024-06-03 08:37:06] INFO root fetch - main [MainThread]: End processing [streamlit-avatar] error
+[2024-06-03 08:37:06] INFO root fetch - processPackages [EasyFileOps]: New version: [0.1.70] Old Version: [0.1.60]
+[2024-06-03 08:37:06] INFO root fetch - processPackages [dlqhandler]: New version: [0.3.1] Old Version: [0.2.9]
+[2024-06-03 08:37:06] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/c3/b4/a3e553ae98c9902f23fe6e5a44eb39e97a3e0703e10e55ffd540a644f30e/python_115-0.0.8.7.8.tar.gz
+[2024-06-03 08:37:07] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/a6/d1/9139718afbeefdd144c5ed2855dde14103e585684df5a7491b0f38a64022/dlqhandler-0.2.9.tar.gz
+[2024-06-03 08:37:07] INFO root fetch - processPackages [EasyFileOps]: Downloading https://files.pythonhosted.org/packages/4a/db/bd67f8af5b236948ceb4a77e87ca35b3e40625bc830afe286ee5a869114e/easyfileops-0.1.60.tar.gz
+[2024-06-03 08:37:07] INFO root fetch - processPackages [data-manager-library]: Downloading https://files.pythonhosted.org/packages/3b/6f/3140bc998221fc7449bdfa37e0a7d1732d1e4468a18ff870724347d22daa/data_manager_library-0.0.3-py3-none-any.whl
+[2024-06-03 08:37:07] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/4b/e8/676d27c9c1f5b0f58be2fe32d1d14ee98cd47352b8cb2b14543e96d68238/python_115-0.0.8.7.9.tar.gz
+[2024-06-03 08:37:07] INFO root fetch - processPackages [data-manager-library]: executing diffoscope
+[2024-06-03 08:37:07] INFO root fetch - processPackages [data-manager-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_manager_library-0.0.2.tar.gz tmp/data_manager_library-0.0.3-py3-none-any.whl.zip --markdown 20240603/d/data-manager-library/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 08:37:07] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-06-03 08:37:07] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.7.8.tar.gz tmp/python_115-0.0.8.7.9.tar.gz --markdown 20240603/p/python-115/0.0.8.7.8-0.0.8.7.9/README.md --exclude *.pyd
+[2024-06-03 08:37:07] INFO root fetch - processPackages [EasyFileOps]: Downloading https://files.pythonhosted.org/packages/50/95/b86624f20a863e387d0efa22f80c9da82aa366d871a8a863be9b0c370ad9/easyfileops-0.1.70.tar.gz
+[2024-06-03 08:37:07] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/73/3c/e7470405a44195f528f0f91e2af3aaca0184cc713e80128c64ac6787b542/dlqhandler-0.3.1.tar.gz
+[2024-06-03 08:37:07] INFO root fetch - processPackages [dlqhandler]: executing diffoscope
+[2024-06-03 08:37:07] INFO root fetch - processPackages [dlqhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlqhandler-0.2.9.tar.gz tmp/dlqhandler-0.3.1.tar.gz --markdown 20240603/d/dlqhandler/0.2.9-0.3.1/README.md --exclude *.pyd
+[2024-06-03 08:37:07] INFO root fetch - processPackages [EasyFileOps]: executing diffoscope
+[2024-06-03 08:37:07] INFO root fetch - processPackages [EasyFileOps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyfileops-0.1.60.tar.gz tmp/easyfileops-0.1.70.tar.gz --markdown 20240603/E/EasyFileOps/0.1.60-0.1.70/README.md --exclude *.pyd
+[2024-06-03 08:37:08] INFO root fetch - processPackages [data-manager-library]: Remove: archive file [/home/abi/fetcher/tmp/data_manager_library-0.0.2.tar.gz]
+[2024-06-03 08:37:08] INFO root fetch - processPackages [data-manager-library]: Remove: archive file [/home/abi/fetcher/tmp/data_manager_library-0.0.3-py3-none-any.whl.zip]
+[2024-06-03 08:37:08] INFO root fetch - main [MainThread]: End processing [data-manager-library]: success
+[2024-06-03 08:37:08] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.9.tar.gz]
+[2024-06-03 08:37:08] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.3.1.tar.gz]
+[2024-06-03 08:37:08] INFO root fetch - main [MainThread]: End processing [dlqhandler]: success
+[2024-06-03 08:37:08] INFO root fetch - processPackages [EasyFileOps]: Remove: archive file [/home/abi/fetcher/tmp/easyfileops-0.1.60.tar.gz]
+[2024-06-03 08:37:08] INFO root fetch - processPackages [EasyFileOps]: Remove: archive file [/home/abi/fetcher/tmp/easyfileops-0.1.70.tar.gz]
+[2024-06-03 08:37:08] INFO root fetch - main [MainThread]: End processing [EasyFileOps]: success
+[2024-06-03 08:37:08] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.8.tar.gz]
+[2024-06-03 08:37:08] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.9.tar.gz]
+[2024-06-03 08:37:08] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-06-03 08:37:08] INFO root fetch - main [MainThread]: Store serial: [23497387]
