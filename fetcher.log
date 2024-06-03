@@ -7562,3 +7562,18 @@ EOFError: EOF read where object expected
 [2024-06-03 08:26:17] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.6.1.tar.gz]
 [2024-06-03 08:26:17] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
 [2024-06-03 08:26:17] INFO root fetch - main [MainThread]: Store serial: [23497328]
+[2024-06-03 08:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497328]
+[2024-06-03 08:28:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 08:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-order-report-without-price
+[2024-06-03 08:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex-animated-cursor
+[2024-06-03 08:28:26] WARNING root fetch - processPackages [reflex-animated-cursor]: Skipping, unable to determine old version
+[2024-06-03 08:28:26] INFO root fetch - main [MainThread]: End processing [reflex-animated-cursor] error
+[2024-06-03 08:28:26] INFO root fetch - processPackages [odoo14-addon-sale-order-report-without-price]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev2]
+[2024-06-03 08:28:26] INFO root fetch - processPackages [odoo14-addon-sale-order-report-without-price]: Downloading https://files.pythonhosted.org/packages/dd/af/ff4c62678762a0f002c5cfa0cde4aa3b57a9aa5803b7a53b13d488eda456/odoo14_addon_sale_order_report_without_price-14.0.1.0.2.dev2-py3-none-any.whl
+[2024-06-03 08:28:27] INFO root fetch - processPackages [odoo14-addon-sale-order-report-without-price]: Downloading https://files.pythonhosted.org/packages/23/e5/dc906f8333fff7294f37f0881a3d27f83670c819ff118731697645d6b1ed/odoo14_addon_sale_order_report_without_price-14.0.1.0.2.dev3-py3-none-any.whl
+[2024-06-03 08:28:27] INFO root fetch - processPackages [odoo14-addon-sale-order-report-without-price]: executing diffoscope
+[2024-06-03 08:28:27] INFO root fetch - processPackages [odoo14-addon-sale-order-report-without-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_report_without_price-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_report_without_price-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20240603/o/odoo14-addon-sale-order-report-without-price/14.0.1.0.2.dev2-14.0.1.0.2.dev3/README.md --exclude *.pyd
+[2024-06-03 08:28:27] INFO root fetch - processPackages [odoo14-addon-sale-order-report-without-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_report_without_price-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2024-06-03 08:28:27] INFO root fetch - processPackages [odoo14-addon-sale-order-report-without-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_report_without_price-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2024-06-03 08:28:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-report-without-price]: success
+[2024-06-03 08:28:27] INFO root fetch - main [MainThread]: Store serial: [23497337]
