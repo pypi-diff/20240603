@@ -2917,3 +2917,51 @@ EOFError: EOF read where object expected
 [2024-06-03 03:35:55] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-06-03 03:35:55] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-06-03 03:35:55] INFO root fetch - main [MainThread]: Store serial: [23495386]
+[2024-06-03 03:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495386]
+[2024-06-03 03:38:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 03:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-openapi3-scalar
+[2024-06-03 03:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultralytics-thop
+[2024-06-03 03:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sophus-pyo3
+[2024-06-03 03:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-graph-stores-neo4j
+[2024-06-03 03:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hj-proj-module
+[2024-06-03 03:38:03] INFO root fetch - processPackages [hj-proj-module]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-06-03 03:38:03] INFO root fetch - processPackages [ultralytics-thop]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-06-03 03:38:03] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/db/12/7bb0e640457f3bbbbc0b77439e6b03839642728f5b9676f3a6cdbf41672e/hj_proj_module-0.1.7.tar.gz
+[2024-06-03 03:38:03] INFO root fetch - processPackages [sophus-pyo3]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-06-03 03:38:03] INFO root fetch - processPackages [llama-index-graph-stores-neo4j]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 03:38:03] INFO root fetch - processPackages [flask-openapi3-scalar]: New version: [1.23.5] Old Version: [1.22.53]
+[2024-06-03 03:38:04] INFO root fetch - processPackages [ultralytics-thop]: Downloading https://files.pythonhosted.org/packages/49/6e/02854a31a1e964afa4df27cb7460d00dce89f0afdc2f4c625d785294c3f5/ultralytics_thop-0.2.6.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/05/5c/838f98c93892c12f57a1b51023fafe2b2493aefc8e42bff4b2192ce3e938/flask_openapi3_scalar-1.22.53.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/94/49/69693d7a64f73d84255649b427048581401581af1b2733dd7b132cd4a620/hj_proj_module-0.1.9.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [sophus-pyo3]: Downloading https://files.pythonhosted.org/packages/e8/c2/9b008a9ef14d230d4730550ad991b96486b88929046f71379a98cc23017f/sophus_pyo3-0.6.0.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [llama-index-graph-stores-neo4j]: Downloading https://files.pythonhosted.org/packages/e8/9d/5e494e33c4566149b9da22cb2f5d711a2c21b14a1293459594306c2b9d77/llama_index_graph_stores_neo4j-0.2.1.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [hj-proj-module]: executing diffoscope
+[2024-06-03 03:38:04] INFO root fetch - processPackages [hj-proj-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj_proj_module-0.1.7.tar.gz tmp/hj_proj_module-0.1.9.tar.gz --markdown 20240603/h/hj-proj-module/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:38:04] INFO root fetch - processPackages [ultralytics-thop]: Downloading https://files.pythonhosted.org/packages/5f/6d/542e8ce0034239a65c1244e39c8de1789aa0418c234fe56cb037310f98f4/ultralytics_thop-0.2.7.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [llama-index-graph-stores-neo4j]: Downloading https://files.pythonhosted.org/packages/5c/25/c5ae898c0dda91594fde6b347940c0773293ef144213db73cf52afab7fd0/llama_index_graph_stores_neo4j-0.2.2.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/82/9f/dce863d6157d69ba62169885b36ff976230c5cdb875a041a628b4c62b03b/flask_openapi3_scalar-1.23.5.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [sophus-pyo3]: Downloading https://files.pythonhosted.org/packages/39/d7/0ae2433fa5889429ab283849485e64d191e968dfdaeef466c76a992bd7c4/sophus_pyo3-0.6.1.tar.gz
+[2024-06-03 03:38:04] INFO root fetch - processPackages [ultralytics-thop]: executing diffoscope
+[2024-06-03 03:38:04] INFO root fetch - processPackages [ultralytics-thop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_thop-0.2.6.tar.gz tmp/ultralytics_thop-0.2.7.tar.gz --markdown 20240603/u/ultralytics-thop/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-06-03 03:38:04] INFO root fetch - processPackages [flask-openapi3-scalar]: executing diffoscope
+[2024-06-03 03:38:04] INFO root fetch - processPackages [flask-openapi3-scalar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_scalar-1.22.53.tar.gz tmp/flask_openapi3_scalar-1.23.5.tar.gz --markdown 20240603/f/flask-openapi3-scalar/1.22.53-1.23.5/README.md --exclude *.pyd
+[2024-06-03 03:38:04] INFO root fetch - processPackages [sophus-pyo3]: executing diffoscope
+[2024-06-03 03:38:04] INFO root fetch - processPackages [sophus-pyo3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sophus_pyo3-0.6.0.tar.gz tmp/sophus_pyo3-0.6.1.tar.gz --markdown 20240603/s/sophus-pyo3/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-06-03 03:38:04] INFO root fetch - processPackages [llama-index-graph-stores-neo4j]: executing diffoscope
+[2024-06-03 03:38:04] INFO root fetch - processPackages [llama-index-graph-stores-neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_graph_stores_neo4j-0.2.1.tar.gz tmp/llama_index_graph_stores_neo4j-0.2.2.tar.gz --markdown 20240603/l/llama-index-graph-stores-neo4j/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 03:38:04] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.7.tar.gz]
+[2024-06-03 03:38:04] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.9.tar.gz]
+[2024-06-03 03:38:04] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
+[2024-06-03 03:38:05] INFO root fetch - processPackages [ultralytics-thop]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_thop-0.2.6.tar.gz]
+[2024-06-03 03:38:05] INFO root fetch - processPackages [ultralytics-thop]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_thop-0.2.7.tar.gz]
+[2024-06-03 03:38:05] INFO root fetch - main [MainThread]: End processing [ultralytics-thop]: success
+[2024-06-03 03:38:05] INFO root fetch - processPackages [llama-index-graph-stores-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_graph_stores_neo4j-0.2.1.tar.gz]
+[2024-06-03 03:38:05] INFO root fetch - processPackages [llama-index-graph-stores-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_graph_stores_neo4j-0.2.2.tar.gz]
+[2024-06-03 03:38:05] INFO root fetch - main [MainThread]: End processing [llama-index-graph-stores-neo4j]: success
+[2024-06-03 03:38:05] INFO root fetch - processPackages [sophus-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/sophus_pyo3-0.6.0.tar.gz]
+[2024-06-03 03:38:05] INFO root fetch - processPackages [sophus-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/sophus_pyo3-0.6.1.tar.gz]
+[2024-06-03 03:38:05] INFO root fetch - main [MainThread]: End processing [sophus-pyo3]: success
+[2024-06-03 03:38:19] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.53.tar.gz]
+[2024-06-03 03:38:19] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.23.5.tar.gz]
+[2024-06-03 03:38:19] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
+[2024-06-03 03:38:19] INFO root fetch - main [MainThread]: Store serial: [23495428]
