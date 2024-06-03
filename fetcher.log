@@ -4930,3 +4930,29 @@ EOFError: EOF read where object expected
 [2024-06-03 05:37:46] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.9.tar.gz]
 [2024-06-03 05:37:46] INFO root fetch - main [MainThread]: End processing [hemanth-hello-world]: success
 [2024-06-03 05:37:46] INFO root fetch - main [MainThread]: Store serial: [23496318]
+[2024-06-03 05:39:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496318]
+[2024-06-03 05:39:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quicktex
+[2024-06-03 05:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edne-correios-loader
+[2024-06-03 05:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colorcall
+[2024-06-03 05:39:55] INFO root fetch - processPackages [quicktex]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-06-03 05:39:55] INFO root fetch - processPackages [colorcall]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 05:39:55] INFO root fetch - processPackages [colorcall]: Downloading https://files.pythonhosted.org/packages/ae/b4/4129fb74652659a0b386a65ea40be585eb46d2117c1223e3b63753397086/colorcall-0.2.1.tar.gz
+[2024-06-03 05:39:55] INFO root fetch - processPackages [edne-correios-loader]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 05:39:55] INFO root fetch - processPackages [quicktex]: Downloading https://files.pythonhosted.org/packages/19/9b/d7e683aa3973b0ff67ee354fa63d6c68498fdb1eb5db6b266256bf7a93c9/quicktex-0.2.0.tar.gz
+[2024-06-03 05:39:55] WARNING root fetch - processPackages [quicktex]: Skipping package: exceeds size limit 29173443>=10485760
+[2024-06-03 05:39:55] INFO root fetch - main [MainThread]: End processing [quicktex] error
+[2024-06-03 05:39:55] INFO root fetch - processPackages [edne-correios-loader]: Downloading https://files.pythonhosted.org/packages/71/93/0e516eba450b43d328a1beaf2310b2c9afcc8e7447a3891b5172126aa9a4/edne_correios_loader-0.1.2.tar.gz
+[2024-06-03 05:39:55] INFO root fetch - processPackages [colorcall]: Downloading https://files.pythonhosted.org/packages/84/89/16f27924fb2ca1de40679e97389b6e1575ac4e7fecf523444501cb63f4ed/colorcall-0.2.2.tar.gz
+[2024-06-03 05:39:55] INFO root fetch - processPackages [colorcall]: executing diffoscope
+[2024-06-03 05:39:55] INFO root fetch - processPackages [colorcall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorcall-0.2.1.tar.gz tmp/colorcall-0.2.2.tar.gz --markdown 20240603/c/colorcall/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 05:39:55] INFO root fetch - processPackages [edne-correios-loader]: Downloading https://files.pythonhosted.org/packages/c5/a9/4a4720f9ec19d41e5189c958ef117d7543a1daa58560769eb9fc5d8f9274/edne_correios_loader-0.1.3.tar.gz
+[2024-06-03 05:39:55] INFO root fetch - processPackages [edne-correios-loader]: executing diffoscope
+[2024-06-03 05:39:55] INFO root fetch - processPackages [edne-correios-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edne_correios_loader-0.1.2.tar.gz tmp/edne_correios_loader-0.1.3.tar.gz --markdown 20240603/e/edne-correios-loader/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 05:39:56] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.2.1.tar.gz]
+[2024-06-03 05:39:56] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.2.2.tar.gz]
+[2024-06-03 05:39:56] INFO root fetch - main [MainThread]: End processing [colorcall]: success
+[2024-06-03 05:39:56] INFO root fetch - processPackages [edne-correios-loader]: Remove: archive file [/home/abi/fetcher/tmp/edne_correios_loader-0.1.2.tar.gz]
+[2024-06-03 05:39:56] INFO root fetch - processPackages [edne-correios-loader]: Remove: archive file [/home/abi/fetcher/tmp/edne_correios_loader-0.1.3.tar.gz]
+[2024-06-03 05:39:56] INFO root fetch - main [MainThread]: End processing [edne-correios-loader]: success
+[2024-06-03 05:39:56] INFO root fetch - main [MainThread]: Store serial: [23496358]
