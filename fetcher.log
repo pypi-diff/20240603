@@ -3857,3 +3857,15 @@ EOFError: EOF read where object expected
 [2024-06-03 04:38:07] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.7-py3-none-any.whl.zip]
 [2024-06-03 04:38:07] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
 [2024-06-03 04:38:07] INFO root fetch - main [MainThread]: Store serial: [23495774]
+[2024-06-03 04:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495774]
+[2024-06-03 04:40:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 04:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cycls
+[2024-06-03 04:40:15] INFO root fetch - processPackages [cycls]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2024-06-03 04:40:15] INFO root fetch - processPackages [cycls]: Downloading https://files.pythonhosted.org/packages/14/a1/3b779f241dd44857af41ddac6debfacbfe25469a89e2e271c642d0fc6a06/cycls-0.0.2.3.tar.gz
+[2024-06-03 04:40:16] INFO root fetch - processPackages [cycls]: Downloading https://files.pythonhosted.org/packages/3b/a9/397b51af9fe9da873100d8f2b158cb15f3d6a7b20c099b09d7b1df2cd0db/cycls-0.0.2.4.tar.gz
+[2024-06-03 04:40:16] INFO root fetch - processPackages [cycls]: executing diffoscope
+[2024-06-03 04:40:16] INFO root fetch - processPackages [cycls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycls-0.0.2.3.tar.gz tmp/cycls-0.0.2.4.tar.gz --markdown 20240603/c/cycls/0.0.2.3-0.0.2.4/README.md --exclude *.pyd
+[2024-06-03 04:40:16] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.2.3.tar.gz]
+[2024-06-03 04:40:16] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.2.4.tar.gz]
+[2024-06-03 04:40:16] INFO root fetch - main [MainThread]: End processing [cycls]: success
+[2024-06-03 04:40:16] INFO root fetch - main [MainThread]: Store serial: [23495778]
