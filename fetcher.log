@@ -3596,3 +3596,42 @@ EOFError: EOF read where object expected
 [2024-06-03 04:24:57] INFO root fetch - processPackages [package-tea-three]: Remove: archive file [/home/abi/fetcher/tmp/package-tea-three-1.0.1.tar.gz]
 [2024-06-03 04:24:57] INFO root fetch - main [MainThread]: End processing [package-tea-three]: success
 [2024-06-03 04:24:57] INFO root fetch - main [MainThread]: Store serial: [23495650]
+[2024-06-03 04:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495650]
+[2024-06-03 04:27:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 04:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-exaspim-pipeline-utils
+[2024-06-03 04:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IMDBTraktSyncer
+[2024-06-03 04:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turing-sdk
+[2024-06-03 04:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2024-06-03 04:27:05] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.6.2] Old Version: [2024.6.1]
+[2024-06-03 04:27:05] INFO root fetch - processPackages [turing-sdk]: New version: [0.9.1] Old Version: [0.9.0rc1]
+[2024-06-03 04:27:05] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-06-03 04:27:05] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ae/f1/3614635a902184535409fb992eba6e6a3b16e7a5c3f7544b1f1671c81e7a/naif_eop_high_prec-2024.6.1.tar.gz
+[2024-06-03 04:27:05] INFO root fetch - processPackages [IMDBTraktSyncer]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 04:27:05] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/10/2c/5b3774411a0f43ab224714982aa97b16dab938d7cf6f3cfbed99ab83212f/aind_exaspim_pipeline_utils-0.8.3.tar.gz
+[2024-06-03 04:27:05] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/05/7d/a807c120da7010cd6798c2e94f579da995ab7ee52bf1cd4be1b04e529a0a/imdbtraktsyncer-1.9.0.tar.gz
+[2024-06-03 04:27:06] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/26/36/2ac15f8049170e515149e0b51fbf0316d875cdb2d73ecbc60270ff767a87/turing-sdk-0.9.0rc1.tar.gz
+[2024-06-03 04:27:06] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/16/61/ff1eb266e66d53d2cece73d419594cdf3e5353ff4165989d553b50ca5352/naif_eop_high_prec-2024.6.2.tar.gz
+[2024-06-03 04:27:06] INFO root fetch - processPackages [IMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/3d/b6/6e0054c1b78cc3be744cfd8d6268a7ab670682962b415d1630218ddb0f50/imdbtraktsyncer-1.9.1.tar.gz
+[2024-06-03 04:27:06] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/1b/5e/4bd1e216c0e8cc86257eddce4bd959d9e8c73e3b371d1673bc2fc2b3230b/aind_exaspim_pipeline_utils-0.9.0.tar.gz
+[2024-06-03 04:27:06] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/2d/ff/d3b618586eb0ac11d36e9027ecbd3201b2a991a6f9504008ee0f7cac19c0/turing-sdk-0.9.1.tar.gz
+[2024-06-03 04:27:06] INFO root fetch - processPackages [IMDBTraktSyncer]: executing diffoscope
+[2024-06-03 04:27:06] INFO root fetch - processPackages [IMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imdbtraktsyncer-1.9.0.tar.gz tmp/imdbtraktsyncer-1.9.1.tar.gz --markdown 20240603/I/IMDBTraktSyncer/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 04:27:06] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: executing diffoscope
+[2024-06-03 04:27:06] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz tmp/aind_exaspim_pipeline_utils-0.9.0.tar.gz --markdown 20240603/a/aind-exaspim-pipeline-utils/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-06-03 04:27:06] INFO root fetch - processPackages [turing-sdk]: executing diffoscope
+[2024-06-03 04:27:06] INFO root fetch - processPackages [turing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-sdk-0.9.0rc1.tar.gz tmp/turing-sdk-0.9.1.tar.gz --markdown 20240603/t/turing-sdk/0.9.0rc1-0.9.1/README.md --exclude *.pyd
+[2024-06-03 04:27:06] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-06-03 04:27:06] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.6.1.tar.gz tmp/naif_eop_high_prec-2024.6.2.tar.gz --markdown 20240603/n/naif-eop-high-prec/2024.6.1-2024.6.2/README.md --exclude *.pyd
+[2024-06-03 04:27:07] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/imdbtraktsyncer-1.9.0.tar.gz]
+[2024-06-03 04:27:07] INFO root fetch - processPackages [IMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/imdbtraktsyncer-1.9.1.tar.gz]
+[2024-06-03 04:27:07] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer]: success
+[2024-06-03 04:27:07] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz]
+[2024-06-03 04:27:07] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.9.0.tar.gz]
+[2024-06-03 04:27:07] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
+[2024-06-03 04:27:07] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.0rc1.tar.gz]
+[2024-06-03 04:27:07] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.1.tar.gz]
+[2024-06-03 04:27:07] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
+[2024-06-03 04:27:10] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.6.1.tar.gz]
+[2024-06-03 04:27:10] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.6.2.tar.gz]
+[2024-06-03 04:27:10] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-06-03 04:27:10] INFO root fetch - main [MainThread]: Store serial: [23495666]
