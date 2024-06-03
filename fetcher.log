@@ -4756,3 +4756,23 @@ EOFError: EOF read where object expected
 [2024-06-03 05:26:57] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
 [2024-06-03 05:26:57] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
 [2024-06-03 05:26:57] INFO root fetch - main [MainThread]: Store serial: [23496258]
+[2024-06-03 05:29:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496258]
+[2024-06-03 05:29:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlframe
+[2024-06-03 05:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flashkit
+[2024-06-03 05:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc-mini-scikit-learn
+[2024-06-03 05:29:05] INFO root fetch - processPackages [sqlframe]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-06-03 05:29:05] WARNING root fetch - processPackages [cc-mini-scikit-learn]: Skipping, unable to determine old version
+[2024-06-03 05:29:05] INFO root fetch - main [MainThread]: End processing [cc-mini-scikit-learn] error
+[2024-06-03 05:29:05] INFO root fetch - processPackages [flashkit]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 05:29:05] INFO root fetch - processPackages [sqlframe]: Downloading https://files.pythonhosted.org/packages/94/ff/9fbc99ee5b21900bb2f499b53839d76469ceeec58aaf0c85612d369f8e9a/sqlframe-1.5.2.tar.gz
+[2024-06-03 05:29:05] WARNING root fetch - processPackages [sqlframe]: Skipping package: exceeds size limit 17095700>=10485760
+[2024-06-03 05:29:05] INFO root fetch - main [MainThread]: End processing [sqlframe] error
+[2024-06-03 05:29:05] INFO root fetch - processPackages [flashkit]: Downloading https://files.pythonhosted.org/packages/47/96/89949c87c1b9945f5f205778661b43ddee64781e28422a58bba7a6128105/flashkit-1.0.2.tar.gz
+[2024-06-03 05:29:06] INFO root fetch - processPackages [flashkit]: Downloading https://files.pythonhosted.org/packages/49/25/e83bb17a879a4d15eb72f8eadc6f9905aa4ab165ec71e75dc295193b4239/flashkit-1.0.3.tar.gz
+[2024-06-03 05:29:06] INFO root fetch - processPackages [flashkit]: executing diffoscope
+[2024-06-03 05:29:06] INFO root fetch - processPackages [flashkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashkit-1.0.2.tar.gz tmp/flashkit-1.0.3.tar.gz --markdown 20240603/f/flashkit/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 05:29:06] INFO root fetch - processPackages [flashkit]: Remove: archive file [/home/abi/fetcher/tmp/flashkit-1.0.2.tar.gz]
+[2024-06-03 05:29:06] INFO root fetch - processPackages [flashkit]: Remove: archive file [/home/abi/fetcher/tmp/flashkit-1.0.3.tar.gz]
+[2024-06-03 05:29:06] INFO root fetch - main [MainThread]: End processing [flashkit]: success
+[2024-06-03 05:29:06] INFO root fetch - main [MainThread]: Store serial: [23496266]
