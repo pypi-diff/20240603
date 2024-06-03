@@ -5531,3 +5531,55 @@ EOFError: EOF read where object expected
 [2024-06-03 06:17:40] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.60.1.tar.gz]
 [2024-06-03 06:17:40] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-06-03 06:17:40] INFO root fetch - main [MainThread]: Store serial: [23496582]
+[2024-06-03 06:19:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496582]
+[2024-06-03 06:19:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymodins
+[2024-06-03 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iterlab
+[2024-06-03 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: create-pip
+[2024-06-03 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDolarVenezuela
+[2024-06-03 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: create-pip
+[2024-06-03 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abcli
+[2024-06-03 06:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Agentic-Employment
+[2024-06-03 06:19:49] WARNING root fetch - processPackages [Agentic-Employment]: Skipping, unable to determine old version
+[2024-06-03 06:19:49] INFO root fetch - main [MainThread]: End processing [Agentic-Employment] error
+[2024-06-03 06:19:49] INFO root fetch - processPackages [pymodins]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-06-03 06:19:49] INFO root fetch - processPackages [abcli]: New version: [9.61.1] Old Version: [9.60.1]
+[2024-06-03 06:19:49] WARNING root fetch - processPackages [iterlab]: Skipping, unable to determine old version
+[2024-06-03 06:19:49] INFO root fetch - main [MainThread]: End processing [iterlab] error
+[2024-06-03 06:19:49] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/c2/d7/359df6fe42b57a52ab1628afa22cce921175650996866be80f87a82bab04/pymodins-2.0.8.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [create-pip]: New version: [0.2] Old Version: [0.1]
+[2024-06-03 06:19:49] INFO root fetch - processPackages [create-pip]: New version: [0.2] Old Version: [0.1]
+[2024-06-03 06:19:49] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/37/d9/677e0a8d2c0de701200ebc9a2b48fbcf659ba46825d82d348ee12c0dfd82/abcli-9.60.1.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-06-03 06:19:49] INFO root fetch - processPackages [create-pip]: Downloading https://files.pythonhosted.org/packages/92/0e/0e86d811b9957db145f59c552354f9f90739f9fd1910e807e2250bea5fa5/create_pip-0.1.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [create-pip]: Downloading https://files.pythonhosted.org/packages/92/0e/0e86d811b9957db145f59c552354f9f90739f9fd1910e807e2250bea5fa5/create_pip-0.1.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/36/81/2363cc440907f65ed83a2546500ed9238c0c8b03ea8ca5bee8ce525f78e1/pydolarvenezuela-1.6.3.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/4b/2a/28a97ac4cafbef9a5b88d93e5259582e954805c283c471e64213e2f2468d/pymodins-2.0.9.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [pymodins]: executing diffoscope
+[2024-06-03 06:19:49] INFO root fetch - processPackages [pymodins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodins-2.0.8.tar.gz tmp/pymodins-2.0.9.tar.gz --markdown 20240603/p/pymodins/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-06-03 06:19:49] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/0c/f2/52746a99c57b6428ab6eb9498460266faa4540f5c4dc0c37ee4096ac3715/abcli-9.61.1.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/d4/f3/ae82858e82b32f967987a3d00879636e823050a054f11924f7f3fa07b223/pydolarvenezuela-1.6.4.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [create-pip]: Downloading https://files.pythonhosted.org/packages/68/ab/e5db06c6cebe7d41cf99e6264f0567dab040bf3e8dcac738ffdbc225153b/create_pip-0.2.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [create-pip]: Downloading https://files.pythonhosted.org/packages/68/ab/e5db06c6cebe7d41cf99e6264f0567dab040bf3e8dcac738ffdbc225153b/create_pip-0.2.tar.gz
+[2024-06-03 06:19:49] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 06:19:49] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.60.1.tar.gz tmp/abcli-9.61.1.tar.gz --markdown 20240603/a/abcli/9.60.1-9.61.1/README.md --exclude *.pyd
+[2024-06-03 06:19:50] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2024-06-03 06:19:50] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydolarvenezuela-1.6.3.tar.gz tmp/pydolarvenezuela-1.6.4.tar.gz --markdown 20240603/p/pyDolarVenezuela/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-06-03 06:19:50] INFO root fetch - processPackages [create-pip]: executing diffoscope
+[2024-06-03 06:19:50] INFO root fetch - processPackages [create-pip]: executing diffoscope
+[2024-06-03 06:19:50] INFO root fetch - processPackages [create-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_pip-0.1.tar.gz tmp/create_pip-0.2.tar.gz --markdown 20240603/c/create-pip/0.1-0.2/README.md --exclude *.pyd
+[2024-06-03 06:19:50] INFO root fetch - processPackages [create-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_pip-0.1.tar.gz tmp/create_pip-0.2.tar.gz --markdown 20240603/c/create-pip/0.1-0.2/README.md --exclude *.pyd
+[2024-06-03 06:19:50] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-2.0.8.tar.gz]
+[2024-06-03 06:19:50] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-2.0.9.tar.gz]
+[2024-06-03 06:19:50] INFO root fetch - main [MainThread]: End processing [pymodins]: success
+[2024-06-03 06:19:50] INFO root fetch - processPackages [create-pip]: Remove: archive file [/home/abi/fetcher/tmp/create_pip-0.1.tar.gz]
+[2024-06-03 06:19:50] INFO root fetch - processPackages [create-pip]: Remove: archive file [/home/abi/fetcher/tmp/create_pip-0.2.tar.gz]
+[2024-06-03 06:19:50] INFO root fetch - main [MainThread]: End processing [create-pip]: success
+[2024-06-03 06:19:50] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.6.3.tar.gz]
+[2024-06-03 06:19:50] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.6.4.tar.gz]
+[2024-06-03 06:19:50] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2024-06-03 06:19:50] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.60.1.tar.gz]
+[2024-06-03 06:19:50] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.61.1.tar.gz]
+[2024-06-03 06:19:50] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 06:19:50] INFO root fetch - main [MainThread]: End processing [create-pip]: success
+[2024-06-03 06:19:50] INFO root fetch - main [MainThread]: Store serial: [23496603]
