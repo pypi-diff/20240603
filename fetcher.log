@@ -5115,3 +5115,27 @@ EOFError: EOF read where object expected
 [2024-06-03 05:53:41] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.8-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-06-03 05:53:41] INFO root fetch - main [MainThread]: End processing [simpleai-base]: success
 [2024-06-03 05:53:41] INFO root fetch - main [MainThread]: Store serial: [23496421]
+[2024-06-03 05:55:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496421]
+[2024-06-03 05:55:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deshi-hello-world
+[2024-06-03 05:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plant_genomes_2
+[2024-06-03 05:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toyai
+[2024-06-03 05:55:58] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.9] Old Version: [0.8]
+[2024-06-03 05:55:58] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/ec/13/4df71be3dfc21da4aa9d3749220d650f000086fc744bba893bd63f3d619b/deshi_hello_world-0.8.tar.gz
+[2024-06-03 05:55:58] WARNING root fetch - processPackages [plant_genomes_2]: Skipping, unable to determine old version
+[2024-06-03 05:55:58] INFO root fetch - main [MainThread]: End processing [plant_genomes_2] error
+[2024-06-03 05:55:58] INFO root fetch - processPackages [toyai]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 05:55:58] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/2a/db/219ae05f7ea8997f650e2ba58072913077ebdfed8c412bbd6cc376dbff40/toyai-0.1.6-py3-none-any.whl
+[2024-06-03 05:55:59] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/3c/dc/808ede2e49cb9010873815e5a07cfb0aee1aac2f60438cef994da1555c44/deshi_hello_world-0.9.tar.gz
+[2024-06-03 05:55:59] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 05:55:59] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.8.tar.gz tmp/deshi_hello_world-0.9.tar.gz --markdown 20240603/d/deshi-hello-world/0.8-0.9/README.md --exclude *.pyd
+[2024-06-03 05:55:59] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/3b/b8/2f77756916107cf9ee7e96d8a4d94427454840a78a8171e3babda3bb5aaa/toyai-0.1.7-py3-none-any.whl
+[2024-06-03 05:55:59] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 05:55:59] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.6-py3-none-any.whl.zip tmp/toyai-0.1.7-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 05:55:59] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.8.tar.gz]
+[2024-06-03 05:55:59] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.9.tar.gz]
+[2024-06-03 05:55:59] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 05:55:59] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.6-py3-none-any.whl.zip]
+[2024-06-03 05:55:59] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.7-py3-none-any.whl.zip]
+[2024-06-03 05:55:59] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 05:55:59] INFO root fetch - main [MainThread]: Store serial: [23496430]
