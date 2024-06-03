@@ -15404,3 +15404,81 @@ EOFError: EOF read where object expected
 [2024-06-03 13:04:53] INFO root fetch - processPackages [cpprb]: Remove: archive file [/home/abi/fetcher/tmp/cpprb-9.4.6.tar.gz]
 [2024-06-03 13:04:53] INFO root fetch - main [MainThread]: End processing [cpprb]: success
 [2024-06-03 13:04:53] INFO root fetch - main [MainThread]: Store serial: [23500919]
+[2024-06-03 13:06:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500919]
+[2024-06-03 13:07:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-nls
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Docs2KG
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-customvueadmin
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shell-ai
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygmtsar
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web3research
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meanfi
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lunar-interceptor
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shell-history-leaks
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ipv4v6
+[2024-06-03 13:07:03] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 13:07:03] INFO root fetch - processPackages [shell-ai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 13:07:03] WARNING root fetch - processPackages [ros-cdk-nls]: Skipping, unable to determine old version
+[2024-06-03 13:07:03] INFO root fetch - main [MainThread]: End processing [ros-cdk-nls] error
+[2024-06-03 13:07:03] INFO root fetch - processPackages [meanfi]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-06-03 13:07:03] INFO root fetch - processPackages [Docs2KG]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 13:07:03] INFO root fetch - processPackages [lunar-interceptor]: New version: [0.4.0] Old Version: [0.3.4]
+[2024-06-03 13:07:03] WARNING root fetch - processPackages [shell-history-leaks]: Skipping, unable to determine old version
+[2024-06-03 13:07:03] INFO root fetch - main [MainThread]: End processing [shell-history-leaks] error
+[2024-06-03 13:07:03] INFO root fetch - processPackages [web3research]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 13:07:03] INFO root fetch - processPackages [pygmtsar]: New version: [2024.6.3] Old Version: [2024.4.17.post9]
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ipv4v6]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 13:07:03] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/cd/76/d69f3bcfb225da8b2c3acdf5292ed6ab47bd462797def9763470369a4ccc/django_customvueadmin-0.2.8.tar.gz
+[2024-06-03 13:07:03] INFO root fetch - processPackages [Docs2KG]: Downloading https://files.pythonhosted.org/packages/25/15/a125569076b82f91a9752d1c9803c28d7cee0c3a7c3ffa06888887ffe207/docs2kg-0.1.2.tar.gz
+[2024-06-03 13:07:03] INFO root fetch - processPackages [meanfi]: Downloading https://files.pythonhosted.org/packages/c4/27/6b641f19d6580c5956f56b6b100527314bc74278a9c0c0abef73133ee2d8/meanfi-1.0.0.tar.gz
+[2024-06-03 13:07:03] INFO root fetch - processPackages [lunar-interceptor]: Downloading https://files.pythonhosted.org/packages/e2/18/5063a4e39362c1a8eab8e2f8680ed4e2fac2cd246705b9a5d406bab3ef0c/lunar_interceptor-0.3.4.tar.gz
+[2024-06-03 13:07:03] INFO root fetch - processPackages [web3research]: Downloading https://files.pythonhosted.org/packages/d8/a8/97eb4393208539e09c47dcf5e63ab4210579697ec1404bf699d074b96f5e/web3research-0.0.1.tar.gz
+[2024-06-03 13:07:03] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/d2/26/832fb33df3e1017193265c7df0bdf74b689a8be922aeaffef882cf8f43df/pygmtsar-2024.4.17.post9.tar.gz
+[2024-06-03 13:07:03] INFO root fetch - processPackages [shell-ai]: Downloading https://files.pythonhosted.org/packages/0a/c2/3b0cf7425ba8d634826f6516801da0239384c40e3848cf4cdba0d0c1b8b3/shell-ai-0.3.8.tar.gz
+[2024-06-03 13:07:03] INFO root fetch - processPackages [ipv4v6]: Downloading https://files.pythonhosted.org/packages/e4/0d/4f234138633b017308999a7145934e9e3594f33b1af15c0ffbe2b6aac464/ipv4v6-1.0.0.tar.gz
+[2024-06-03 13:07:03] INFO root fetch - processPackages [Docs2KG]: Downloading https://files.pythonhosted.org/packages/17/3d/7d2ee3c1257b0cdb35377ac68813e800e803302408f7594b75522410dfa4/docs2kg-0.1.3.tar.gz
+[2024-06-03 13:07:04] INFO root fetch - processPackages [meanfi]: Downloading https://files.pythonhosted.org/packages/ca/42/f7d2b79a840b97f9c7a9e99dde0f0ae0f5ac999991a89e907f7d4856c468/meanfi-1.1.0.tar.gz
+[2024-06-03 13:07:04] INFO root fetch - processPackages [lunar-interceptor]: Downloading https://files.pythonhosted.org/packages/10/da/f2718e40de7d83a01d930655e8072be48df9b9fbb24d9b1919556e08ec7b/lunar_interceptor-0.4.0.tar.gz
+[2024-06-03 13:07:04] INFO root fetch - processPackages [web3research]: Downloading https://files.pythonhosted.org/packages/ff/73/7d29433f69f2e5dae3c6330c55b7ea1830ffa85900c5cae30a619b93cd6f/web3research-0.0.2.tar.gz
+[2024-06-03 13:07:04] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/7d/8f/85d29ba6c0c75332fa9a61de880080a0edb47816ae12fd6c181aefdac676/pygmtsar-2024.6.3.tar.gz
+[2024-06-03 13:07:04] INFO root fetch - processPackages [Docs2KG]: executing diffoscope
+[2024-06-03 13:07:04] INFO root fetch - processPackages [Docs2KG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2kg-0.1.2.tar.gz tmp/docs2kg-0.1.3.tar.gz --markdown 20240603/D/Docs2KG/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 13:07:04] INFO root fetch - processPackages [ipv4v6]: Downloading https://files.pythonhosted.org/packages/41/08/6761a7a4d6e6c96a580ee4e10525fb8443fa8a4fc25f04d3483d1e46edb8/ipv4v6-1.0.1.tar.gz
+[2024-06-03 13:07:04] INFO root fetch - processPackages [shell-ai]: Downloading https://files.pythonhosted.org/packages/e8/12/46bfaae41af03dc297446bbc3e38c6d0b55b93cd5234c52151239ee13ca4/shell-ai-0.3.9.tar.gz
+[2024-06-03 13:07:04] INFO root fetch - processPackages [meanfi]: executing diffoscope
+[2024-06-03 13:07:04] INFO root fetch - processPackages [meanfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meanfi-1.0.0.tar.gz tmp/meanfi-1.1.0.tar.gz --markdown 20240603/m/meanfi/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-06-03 13:07:04] WARNING root fetch - processPackages [pygmtsar]: Skipping package: exceeds size limit 10780864>=10485760
+[2024-06-03 13:07:04] INFO root fetch - main [MainThread]: End processing [pygmtsar] error
+[2024-06-03 13:07:04] INFO root fetch - processPackages [shell-ai]: executing diffoscope
+[2024-06-03 13:07:04] INFO root fetch - processPackages [shell-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell-ai-0.3.8.tar.gz tmp/shell-ai-0.3.9.tar.gz --markdown 20240603/s/shell-ai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 13:07:04] INFO root fetch - processPackages [web3research]: executing diffoscope
+[2024-06-03 13:07:04] INFO root fetch - processPackages [web3research]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3research-0.0.1.tar.gz tmp/web3research-0.0.2.tar.gz --markdown 20240603/w/web3research/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 13:07:04] INFO root fetch - processPackages [lunar-interceptor]: executing diffoscope
+[2024-06-03 13:07:04] INFO root fetch - processPackages [lunar-interceptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunar_interceptor-0.3.4.tar.gz tmp/lunar_interceptor-0.4.0.tar.gz --markdown 20240603/l/lunar-interceptor/0.3.4-0.4.0/README.md --exclude *.pyd
+[2024-06-03 13:07:04] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/ee/7b/bc29ddb1585425e8738f7c46f715bf2633c8fc923eff807dcc4289a75f62/django_customvueadmin-0.2.9.tar.gz
+[2024-06-03 13:07:04] INFO root fetch - processPackages [ipv4v6]: executing diffoscope
+[2024-06-03 13:07:04] INFO root fetch - processPackages [ipv4v6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipv4v6-1.0.0.tar.gz tmp/ipv4v6-1.0.1.tar.gz --markdown 20240603/i/ipv4v6/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 13:07:05] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-06-03 13:07:05] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.8.tar.gz tmp/django_customvueadmin-0.2.9.tar.gz --markdown 20240603/d/django-customvueadmin/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 13:07:05] INFO root fetch - processPackages [web3research]: Remove: archive file [/home/abi/fetcher/tmp/web3research-0.0.1.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - processPackages [ipv4v6]: Remove: archive file [/home/abi/fetcher/tmp/ipv4v6-1.0.0.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - processPackages [web3research]: Remove: archive file [/home/abi/fetcher/tmp/web3research-0.0.2.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - processPackages [ipv4v6]: Remove: archive file [/home/abi/fetcher/tmp/ipv4v6-1.0.1.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - main [MainThread]: End processing [web3research]: success
+[2024-06-03 13:07:05] INFO root fetch - main [MainThread]: End processing [ipv4v6]: success
+[2024-06-03 13:07:05] INFO root fetch - processPackages [Docs2KG]: Remove: archive file [/home/abi/fetcher/tmp/docs2kg-0.1.2.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - processPackages [Docs2KG]: Remove: archive file [/home/abi/fetcher/tmp/docs2kg-0.1.3.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - main [MainThread]: End processing [Docs2KG]: success
+[2024-06-03 13:07:05] INFO root fetch - processPackages [shell-ai]: Remove: archive file [/home/abi/fetcher/tmp/shell-ai-0.3.8.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - processPackages [shell-ai]: Remove: archive file [/home/abi/fetcher/tmp/shell-ai-0.3.9.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - main [MainThread]: End processing [shell-ai]: success
+[2024-06-03 13:07:05] INFO root fetch - processPackages [lunar-interceptor]: Remove: archive file [/home/abi/fetcher/tmp/lunar_interceptor-0.3.4.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - processPackages [lunar-interceptor]: Remove: archive file [/home/abi/fetcher/tmp/lunar_interceptor-0.4.0.tar.gz]
+[2024-06-03 13:07:05] INFO root fetch - main [MainThread]: End processing [lunar-interceptor]: success
+[2024-06-03 13:07:06] INFO root fetch - processPackages [meanfi]: Remove: archive file [/home/abi/fetcher/tmp/meanfi-1.0.0.tar.gz]
+[2024-06-03 13:07:06] INFO root fetch - processPackages [meanfi]: Remove: archive file [/home/abi/fetcher/tmp/meanfi-1.1.0.tar.gz]
+[2024-06-03 13:07:06] INFO root fetch - main [MainThread]: End processing [meanfi]: success
+[2024-06-03 13:07:30] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.8.tar.gz]
+[2024-06-03 13:07:30] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
+[2024-06-03 13:07:30] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-06-03 13:07:30] INFO root fetch - main [MainThread]: Store serial: [23500950]
