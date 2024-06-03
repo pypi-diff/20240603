@@ -4776,3 +4776,60 @@ EOFError: EOF read where object expected
 [2024-06-03 05:29:06] INFO root fetch - processPackages [flashkit]: Remove: archive file [/home/abi/fetcher/tmp/flashkit-1.0.3.tar.gz]
 [2024-06-03 05:29:06] INFO root fetch - main [MainThread]: End processing [flashkit]: success
 [2024-06-03 05:29:06] INFO root fetch - main [MainThread]: Store serial: [23496266]
+[2024-06-03 05:31:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496266]
+[2024-06-03 05:31:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 05:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cc-mini-scikit-learn
+[2024-06-03 05:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SCDB-ML-app
+[2024-06-03 05:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-115
+[2024-06-03 05:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deshi-hello-world
+[2024-06-03 05:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flashkit
+[2024-06-03 05:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codejudge-common-utils
+[2024-06-03 05:31:15] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.8] Old Version: [0.7]
+[2024-06-03 05:31:15] INFO root fetch - processPackages [cc-mini-scikit-learn]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 05:31:15] INFO root fetch - processPackages [flashkit]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 05:31:15] INFO root fetch - processPackages [SCDB-ML-app]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-06-03 05:31:15] INFO root fetch - processPackages [python-115]: New version: [0.0.8.7.8] Old Version: [0.0.8.7.7]
+[2024-06-03 05:31:15] INFO root fetch - processPackages [codejudge-common-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 05:31:15] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/9f/bd/5ba0a3af42b06aaa524e23308fea127b9b8d0080c3f3607a85b50be8990e/deshi_hello_world-0.7.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [flashkit]: Downloading https://files.pythonhosted.org/packages/47/96/89949c87c1b9945f5f205778661b43ddee64781e28422a58bba7a6128105/flashkit-1.0.2.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/46/e9/b39e222676b1274a5af90aecec3bde08c2aa201d400f302d87d311180346/python_115-0.0.8.7.7.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/c7/1b/ed1effc3cacf5af11323ef69227617de61558af46b2e1b05be88713feeb9/SCDB_ML_app-1.0.6-py3-none-any.whl
+[2024-06-03 05:31:15] INFO root fetch - processPackages [cc-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/e5/ce/b36c9dbb4fcf2320f7913eb81668d2f7108e8d9f720a144827584c1bfabf/cc-mini-scikit-learn-1.0.0.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [codejudge-common-utils]: Downloading https://files.pythonhosted.org/packages/2e/3b/cb06ff5a3864a4cfee84288a643be491447f507eecb8e00ee4a7adca08d4/codejudge-common-utils-0.0.4.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [flashkit]: Downloading https://files.pythonhosted.org/packages/49/25/e83bb17a879a4d15eb72f8eadc6f9905aa4ab165ec71e75dc295193b4239/flashkit-1.0.3.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/ec/13/4df71be3dfc21da4aa9d3749220d650f000086fc744bba893bd63f3d619b/deshi_hello_world-0.8.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [flashkit]: executing diffoscope
+[2024-06-03 05:31:15] INFO root fetch - processPackages [flashkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashkit-1.0.2.tar.gz tmp/flashkit-1.0.3.tar.gz --markdown 20240603/f/flashkit/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 05:31:15] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/c3/b4/a3e553ae98c9902f23fe6e5a44eb39e97a3e0703e10e55ffd540a644f30e/python_115-0.0.8.7.8.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [cc-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/b8/41/889dd35a404c44c7cc5691cff408addc630e2cf173f33cf8485c029bea6e/cc-mini-scikit-learn-1.0.1.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 05:31:15] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.7.tar.gz tmp/deshi_hello_world-0.8.tar.gz --markdown 20240603/d/deshi-hello-world/0.7-0.8/README.md --exclude *.pyd
+[2024-06-03 05:31:15] INFO root fetch - processPackages [SCDB-ML-app]: Downloading https://files.pythonhosted.org/packages/d1/75/b95e97a46b73a3825973fd886a80e6a97cc6618a2c608cff97648a817f0e/SCDB_ML_app-1.0.7-py3-none-any.whl
+[2024-06-03 05:31:15] INFO root fetch - processPackages [codejudge-common-utils]: Downloading https://files.pythonhosted.org/packages/43/d9/f1a95171c95de3d91adf42c10c21c2b97b61594707127bb717ec9393cb80/codejudge-common-utils-0.0.5.tar.gz
+[2024-06-03 05:31:15] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-06-03 05:31:15] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.7.7.tar.gz tmp/python_115-0.0.8.7.8.tar.gz --markdown 20240603/p/python-115/0.0.8.7.7-0.0.8.7.8/README.md --exclude *.pyd
+[2024-06-03 05:31:15] INFO root fetch - processPackages [cc-mini-scikit-learn]: executing diffoscope
+[2024-06-03 05:31:15] INFO root fetch - processPackages [cc-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc-mini-scikit-learn-1.0.0.tar.gz tmp/cc-mini-scikit-learn-1.0.1.tar.gz --markdown 20240603/c/cc-mini-scikit-learn/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 05:31:15] INFO root fetch - processPackages [codejudge-common-utils]: executing diffoscope
+[2024-06-03 05:31:15] INFO root fetch - processPackages [codejudge-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codejudge-common-utils-0.0.4.tar.gz tmp/codejudge-common-utils-0.0.5.tar.gz --markdown 20240603/c/codejudge-common-utils/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 05:31:15] INFO root fetch - processPackages [SCDB-ML-app]: executing diffoscope
+[2024-06-03 05:31:15] INFO root fetch - processPackages [SCDB-ML-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCDB_ML_app-1.0.6-py3-none-any.whl.zip tmp/SCDB_ML_app-1.0.7-py3-none-any.whl.zip --markdown 20240603/S/SCDB-ML-app/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-06-03 05:31:16] INFO root fetch - processPackages [flashkit]: Remove: archive file [/home/abi/fetcher/tmp/flashkit-1.0.2.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - processPackages [flashkit]: Remove: archive file [/home/abi/fetcher/tmp/flashkit-1.0.3.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - main [MainThread]: End processing [flashkit]: success
+[2024-06-03 05:31:16] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.7.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.8.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 05:31:16] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.7.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.8.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-06-03 05:31:16] INFO root fetch - processPackages [codejudge-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/codejudge-common-utils-0.0.4.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - processPackages [codejudge-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/codejudge-common-utils-0.0.5.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - main [MainThread]: End processing [codejudge-common-utils]: success
+[2024-06-03 05:31:16] INFO root fetch - processPackages [cc-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cc-mini-scikit-learn-1.0.0.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - processPackages [cc-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cc-mini-scikit-learn-1.0.1.tar.gz]
+[2024-06-03 05:31:16] INFO root fetch - main [MainThread]: End processing [cc-mini-scikit-learn]: success
+[2024-06-03 05:31:16] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.6-py3-none-any.whl.zip]
+[2024-06-03 05:31:16] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.7-py3-none-any.whl.zip]
+[2024-06-03 05:31:16] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
+[2024-06-03 05:31:16] INFO root fetch - main [MainThread]: Store serial: [23496286]
