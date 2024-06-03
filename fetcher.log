@@ -14522,3 +14522,69 @@ EOFError: EOF read where object expected
 [2024-06-03 12:42:44] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.9.tar.gz]
 [2024-06-03 12:42:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-cr]: success
 [2024-06-03 12:42:44] INFO root fetch - main [MainThread]: Store serial: [23500601]
+[2024-06-03 12:44:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500601]
+[2024-06-03 12:44:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 12:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-actiontrail
+[2024-06-03 12:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-drds
+[2024-06-03 12:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipeline-ai
+[2024-06-03 12:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automation-fw-helper
+[2024-06-03 12:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-grpc-lw-data-provider
+[2024-06-03 12:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: catasta
+[2024-06-03 12:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-bastionhost
+[2024-06-03 12:44:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.4.0.dev9065635110] Old Version: [2.4.0.dev9065606558]
+[2024-06-03 12:44:55] INFO root fetch - processPackages [automation-fw-helper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 12:44:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/f1/c2/d3ba4618a30eb59a2fa2f9c8b4cf326629a78d7977089534cfec16e3e28c/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [automation-fw-helper]: Downloading https://files.pythonhosted.org/packages/ca/07/c6211954d274e8d96964e31cdfc82b35c57dfe3ae0ead779e3f0dcde7274/automation-fw-helper-0.0.2.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [catasta]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-06-03 12:44:55] INFO root fetch - processPackages [ros-cdk-drds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:44:55] INFO root fetch - processPackages [ros-cdk-actiontrail]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:44:55] INFO root fetch - processPackages [ros-cdk-bastionhost]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:44:55] INFO root fetch - processPackages [pipeline-ai]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-06-03 12:44:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/fc/15/9b14a1912af313d73a31f027276a0ea57a15628f9bee7890ec5675e361e0/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [catasta]: Downloading https://files.pythonhosted.org/packages/24/93/d46d3634883855ed63cd78dedb11aa07f52da9e54132439d4585244028bb/catasta-0.2.2.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [ros-cdk-drds]: Downloading https://files.pythonhosted.org/packages/23/6e/ed67b64df4ca7a6891fede37e0f5100d59803fcc7d698418c57383af3d91/ros-cdk-drds-1.0.8.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [ros-cdk-actiontrail]: Downloading https://files.pythonhosted.org/packages/30/82/7724d3535d7d25e8b39331ab68b4e484209347d6ac664637a045b1391b1e/ros-cdk-actiontrail-1.0.8.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/44/97/ed6fea922c7436f09eff846a2469d158940e30fefe4968be6473b7f28fb4/pipeline_ai-2.1.8.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/7f/34/fc2c895b114aeb97948e784027db77e34ff5b4f362053bf91f0d36a4f381/ros-cdk-bastionhost-1.0.24.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [automation-fw-helper]: Downloading https://files.pythonhosted.org/packages/cd/cf/9a05f8d1bef13740841db801f242afc10819beab90d2124ee5e7bc24ee96/automation-fw-helper-0.0.3.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2024-06-03 12:44:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz tmp/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz --markdown 20240603/t/th2-grpc-lw-data-provider/2.4.0.dev9065606558-2.4.0.dev9065635110/README.md --exclude *.pyd
+[2024-06-03 12:44:55] INFO root fetch - processPackages [automation-fw-helper]: executing diffoscope
+[2024-06-03 12:44:55] INFO root fetch - processPackages [automation-fw-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-fw-helper-0.0.2.tar.gz tmp/automation-fw-helper-0.0.3.tar.gz --markdown 20240603/a/automation-fw-helper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 12:44:55] INFO root fetch - processPackages [ros-cdk-bastionhost]: Downloading https://files.pythonhosted.org/packages/94/22/5441f4c8d54530022206253fcf86bb5c76ef89e2294dadb43baad502caa1/ros-cdk-bastionhost-1.0.25.tar.gz
+[2024-06-03 12:44:55] INFO root fetch - processPackages [ros-cdk-drds]: Downloading https://files.pythonhosted.org/packages/28/e2/343c88e4f6b060ae47d8ac931da86831bfc4a3c25775bb84212a962ab2fe/ros-cdk-drds-1.0.9.tar.gz
+[2024-06-03 12:44:56] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/3f/c6/7485300316d071b7ae8c53f5867a4327f2c9c0a6aff1d517f46179ac5125/pipeline_ai-2.1.9.tar.gz
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-actiontrail]: Downloading https://files.pythonhosted.org/packages/7e/65/286642c9eca0d5b22011c7c250c23dbc6a507221717c0f7d80bc4081ce37/ros-cdk-actiontrail-1.0.9.tar.gz
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-bastionhost]: executing diffoscope
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-bastionhost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-bastionhost-1.0.24.tar.gz tmp/ros-cdk-bastionhost-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-bastionhost/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-actiontrail]: executing diffoscope
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-actiontrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-actiontrail-1.0.8.tar.gz tmp/ros-cdk-actiontrail-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-actiontrail/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:44:56] INFO root fetch - processPackages [catasta]: Downloading https://files.pythonhosted.org/packages/4f/8a/27bc5c5e71335c4f3c67aa47318569f284b86c7db2cc08b451b970ae4bc7/catasta-0.3.0.tar.gz
+[2024-06-03 12:44:56] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2024-06-03 12:44:56] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-2.1.8.tar.gz tmp/pipeline_ai-2.1.9.tar.gz --markdown 20240603/p/pipeline-ai/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-06-03 12:44:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz]
+[2024-06-03 12:44:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz]
+[2024-06-03 12:44:56] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-drds]: executing diffoscope
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-drds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-drds-1.0.8.tar.gz tmp/ros-cdk-drds-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-drds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:44:56] INFO root fetch - processPackages [automation-fw-helper]: Remove: archive file [/home/abi/fetcher/tmp/automation-fw-helper-0.0.2.tar.gz]
+[2024-06-03 12:44:56] INFO root fetch - processPackages [automation-fw-helper]: Remove: archive file [/home/abi/fetcher/tmp/automation-fw-helper-0.0.3.tar.gz]
+[2024-06-03 12:44:56] INFO root fetch - main [MainThread]: End processing [automation-fw-helper]: success
+[2024-06-03 12:44:56] INFO root fetch - processPackages [catasta]: executing diffoscope
+[2024-06-03 12:44:56] INFO root fetch - processPackages [catasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catasta-0.2.2.tar.gz tmp/catasta-0.3.0.tar.gz --markdown 20240603/c/catasta/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.24.tar.gz]
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-bastionhost]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-bastionhost-1.0.25.tar.gz]
+[2024-06-03 12:44:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-bastionhost]: success
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-actiontrail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-actiontrail-1.0.8.tar.gz]
+[2024-06-03 12:44:56] INFO root fetch - processPackages [ros-cdk-actiontrail]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-actiontrail-1.0.9.tar.gz]
+[2024-06-03 12:44:56] INFO root fetch - main [MainThread]: End processing [ros-cdk-actiontrail]: success
+[2024-06-03 12:44:57] INFO root fetch - processPackages [ros-cdk-drds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-drds-1.0.8.tar.gz]
+[2024-06-03 12:44:57] INFO root fetch - processPackages [ros-cdk-drds]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-drds-1.0.9.tar.gz]
+[2024-06-03 12:44:57] INFO root fetch - main [MainThread]: End processing [ros-cdk-drds]: success
+[2024-06-03 12:44:57] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.8.tar.gz]
+[2024-06-03 12:44:57] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.9.tar.gz]
+[2024-06-03 12:44:57] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2024-06-03 12:44:58] INFO root fetch - processPackages [catasta]: Remove: archive file [/home/abi/fetcher/tmp/catasta-0.2.2.tar.gz]
+[2024-06-03 12:44:58] INFO root fetch - processPackages [catasta]: Remove: archive file [/home/abi/fetcher/tmp/catasta-0.3.0.tar.gz]
+[2024-06-03 12:44:58] INFO root fetch - main [MainThread]: End processing [catasta]: success
+[2024-06-03 12:44:58] INFO root fetch - main [MainThread]: Store serial: [23500617]
