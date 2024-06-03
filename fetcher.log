@@ -3503,3 +3503,57 @@ EOFError: EOF read where object expected
 [2024-06-03 04:18:24] INFO root fetch - processPackages [daikanban]: Remove: archive file [/home/abi/fetcher/tmp/daikanban-0.1.2.tar.gz]
 [2024-06-03 04:18:24] INFO root fetch - main [MainThread]: End processing [daikanban]: success
 [2024-06-03 04:18:24] INFO root fetch - main [MainThread]: Store serial: [23495605]
+[2024-06-03 04:20:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495605]
+[2024-06-03 04:20:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 04:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyclicpeptide
+[2024-06-03 04:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliasing
+[2024-06-03 04:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RocketSim
+[2024-06-03 04:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Agentic-Reports
+[2024-06-03 04:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validation-framework
+[2024-06-03 04:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: workercontext
+[2024-06-03 04:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Palmto-gen
+[2024-06-03 04:20:33] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 04:20:33] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-06-03 04:20:33] WARNING root fetch - processPackages [aliasing]: Skipping, unable to determine old version
+[2024-06-03 04:20:33] INFO root fetch - processPackages [validation-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 04:20:33] INFO root fetch - main [MainThread]: End processing [aliasing] error
+[2024-06-03 04:20:33] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/05/2e/0f965e23b79374dd92a681e2666887bd106139bc59bd9fab4fe2083830cc/cyclicpeptide-1.0.5.tar.gz
+[2024-06-03 04:20:33] WARNING root fetch - processPackages [Palmto-gen]: Skipping, unable to determine old version
+[2024-06-03 04:20:33] INFO root fetch - main [MainThread]: End processing [Palmto-gen] error
+[2024-06-03 04:20:33] INFO root fetch - processPackages [workercontext]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 04:20:33] INFO root fetch - processPackages [RocketSim]: New version: [2.1.1] Old Version: [2.1.0a6]
+[2024-06-03 04:20:33] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/09/89/a91ed8b030f5384279d7f0a738444663bc33e50e6b714dcd8ee69c2f3a93/Agentic_Reports-0.0.1-py3-none-any.whl
+[2024-06-03 04:20:33] INFO root fetch - processPackages [validation-framework]: Downloading https://files.pythonhosted.org/packages/5f/e7/9612f12e954911993b7b3139acefea742d916deb84a89fd46cea61a22f48/validation_framework-0.1.0.tar.gz
+[2024-06-03 04:20:33] INFO root fetch - processPackages [workercontext]: Downloading https://files.pythonhosted.org/packages/69/32/6f4bd3e80c763dca50c6e31fafb0d49fd5d4444c3f8f1b83b578ac494090/workercontext-0.1.0.tar.gz
+[2024-06-03 04:20:33] INFO root fetch - processPackages [RocketSim]: Downloading https://files.pythonhosted.org/packages/f7/5d/59ee5358928e8873373f1f3c0234c6ecf08e0fc59496b495aa12096b00aa/RocketSim-2.1.0a6.tar.gz
+[2024-06-03 04:20:33] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/71/74/14f4fbaa9e283266b0629ab0ac0fbfcc89ed7061317297aad2536a012945/cyclicpeptide-1.0.6-py3-none-any.whl
+[2024-06-03 04:20:33] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/eb/1d/e4775137c2eebbc99c4712dc8abc318945d8a080e09c9b535d0ce3026dbb/Agentic-Reports-0.0.2.tar.gz
+[2024-06-03 04:20:33] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-06-03 04:20:33] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.5.tar.gz tmp/cyclicpeptide-1.0.6-py3-none-any.whl.zip --markdown 20240603/c/cyclicpeptide/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-06-03 04:20:33] INFO root fetch - processPackages [validation-framework]: Downloading https://files.pythonhosted.org/packages/e4/ee/02084813b6cb3d3dfcc76ae6ed3e35727e8300e5650f4046bed9b3b62536/validation_framework-0.1.1.tar.gz
+[2024-06-03 04:20:33] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 04:20:33] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic_Reports-0.0.1-py3-none-any.whl.zip tmp/Agentic-Reports-0.0.2.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 04:20:33] INFO root fetch - processPackages [workercontext]: Downloading https://files.pythonhosted.org/packages/dd/d8/0a30874deffd18b8240ebe1e0702ee00f4dd2f79d6adb3e1c04c48bc629d/workercontext-0.1.1.tar.gz
+[2024-06-03 04:20:33] INFO root fetch - processPackages [validation-framework]: executing diffoscope
+[2024-06-03 04:20:33] INFO root fetch - processPackages [validation-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validation_framework-0.1.0.tar.gz tmp/validation_framework-0.1.1.tar.gz --markdown 20240603/v/validation-framework/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 04:20:33] INFO root fetch - processPackages [RocketSim]: Downloading https://files.pythonhosted.org/packages/62/c2/2952df52556a9707c0cfb4f42e6019f88e3467501c11c9f2a6f65f5c0bf6/RocketSim-2.1.1.tar.gz
+[2024-06-03 04:20:33] INFO root fetch - processPackages [workercontext]: executing diffoscope
+[2024-06-03 04:20:33] INFO root fetch - processPackages [workercontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workercontext-0.1.0.tar.gz tmp/workercontext-0.1.1.tar.gz --markdown 20240603/w/workercontext/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 04:20:34] INFO root fetch - processPackages [RocketSim]: executing diffoscope
+[2024-06-03 04:20:34] INFO root fetch - processPackages [RocketSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RocketSim-2.1.0a6.tar.gz tmp/RocketSim-2.1.1.tar.gz --markdown 20240603/R/RocketSim/2.1.0a6-2.1.1/README.md --exclude *.pyd
+[2024-06-03 04:20:34] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.5.tar.gz]
+[2024-06-03 04:20:34] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.6-py3-none-any.whl.zip]
+[2024-06-03 04:20:34] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-06-03 04:20:34] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic_Reports-0.0.1-py3-none-any.whl.zip]
+[2024-06-03 04:20:34] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.2.tar.gz]
+[2024-06-03 04:20:34] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 04:20:34] INFO root fetch - processPackages [workercontext]: Remove: archive file [/home/abi/fetcher/tmp/workercontext-0.1.0.tar.gz]
+[2024-06-03 04:20:34] INFO root fetch - processPackages [workercontext]: Remove: archive file [/home/abi/fetcher/tmp/workercontext-0.1.1.tar.gz]
+[2024-06-03 04:20:34] INFO root fetch - main [MainThread]: End processing [workercontext]: success
+[2024-06-03 04:20:34] INFO root fetch - processPackages [validation-framework]: Remove: archive file [/home/abi/fetcher/tmp/validation_framework-0.1.0.tar.gz]
+[2024-06-03 04:20:34] INFO root fetch - processPackages [validation-framework]: Remove: archive file [/home/abi/fetcher/tmp/validation_framework-0.1.1.tar.gz]
+[2024-06-03 04:20:34] INFO root fetch - main [MainThread]: End processing [validation-framework]: success
+[2024-06-03 04:20:35] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.0a6.tar.gz]
+[2024-06-03 04:20:35] INFO root fetch - processPackages [RocketSim]: Remove: archive file [/home/abi/fetcher/tmp/RocketSim-2.1.1.tar.gz]
+[2024-06-03 04:20:35] INFO root fetch - main [MainThread]: End processing [RocketSim]: success
+[2024-06-03 04:20:35] INFO root fetch - main [MainThread]: Store serial: [23495629]
