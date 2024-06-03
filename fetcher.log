@@ -16494,3 +16494,172 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:35:13] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
 [2024-06-03 13:35:13] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-06-03 13:35:13] INFO root fetch - main [MainThread]: Store serial: [23501400]
+[2024-06-03 13:37:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501400]
+[2024-06-03 13:37:30] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ScandEval
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bowtie-json-schema
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openstef
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-partner-statement
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xarpes
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-automation
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-cdn
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TREEplusrepository
+[2024-06-03 13:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-dlf
+[2024-06-03 13:37:31] INFO root fetch - processPackages [python-automation]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [xarpes]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2024.6.5] Old Version: [2024.6.4]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [checkov]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [openstef]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ros-cdk-cdn]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:37:31] WARNING root fetch - processPackages [TREEplusrepository]: Skipping, unable to determine old version
+[2024-06-03 13:37:31] INFO root fetch - processPackages [TREEplusrepository]: Start processing: ros-cdk-searchengine
+[2024-06-03 13:37:31] INFO root fetch - main [MainThread]: End processing [TREEplusrepository] error
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ros-cdk-dlf]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [odoo12-addon-partner-statement]: New version: [12.0.1.1.0] Old Version: [12.0.1.0.5.99.dev9]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ScandEval]: New version: [9.3.2] Old Version: [9.3.1]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [xarpes]: Downloading https://files.pythonhosted.org/packages/6a/1e/ae061baebc7f85113afd73026d23b88a085347203c2080689dfc549ced0d/xarpes-0.1.0.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/37/53/e22714903985e5605d0a48e501b3f66c27502bbf3ded0606bd4ac4ff960c/bowtie_json_schema-2024.6.4.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/a9/34/826b2df19c26007adefb008f273e87b94019bf5e27747efea796070c2da5/checkov-3.2.98.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ros-cdk-dlf]: Downloading https://files.pythonhosted.org/packages/d3/95/5ddafe91a3157e0e931b28e7dd465f378cb816a63b50e3ee20e741839e87/ros-cdk-dlf-1.0.24.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/c3/14/45cb3154255b1860b38ea52b9a00c4597e2e7aadc2b53d08f48271f2868a/python-automation-0.0.5.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ros-cdk-searchengine]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:37:31] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/a9/ca/0ab178d9f50ee4260fdc377d915b49d57bce978b56773f1c26bfbb1f800f/openstef-3.4.8.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/75/8a/4c0915519cd54a8f6ff7c027146ee58512c68a78509bf3bf3c2d4d996b82/ros-cdk-cdn-1.0.8.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ScandEval]: Downloading https://files.pythonhosted.org/packages/ee/1d/f04ad91701880b6ece18b6dce0caca026be1f6d1bbb49eb2db32c933f987/scandeval-9.3.1.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/ab/77/f281e686890f9ac64a2475f1119ac4323142f172e66f25fa819b57f46944/odoo12_addon_partner_statement-12.0.1.0.5.99.dev9-py3-none-any.whl
+[2024-06-03 13:37:31] INFO root fetch - processPackages [xarpes]: Downloading https://files.pythonhosted.org/packages/67/61/97e55ffb1dffb099de0eb2fbee073fa420bc9bf961ffdaf0eb73308f6fe4/xarpes-0.2.0.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ros-cdk-searchengine]: Downloading https://files.pythonhosted.org/packages/bf/3b/30c5eaff9b36fce6cdba9745b74eee3c770da09e85aab9d379276650b4a3/ros-cdk-searchengine-1.0.8.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/0c/f3/66f576e3144f3e118ed3692f4aeb19249ea82a0a8c9260f41a3f68e46373/bowtie_json_schema-2024.6.5.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/ff/ff/5ccc1f214d2e0bf1a97393d8f14eb1cda0f7675d0fedc54a6e5b09841a02/checkov-3.2.99.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [xarpes]: executing diffoscope
+[2024-06-03 13:37:31] INFO root fetch - processPackages [xarpes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarpes-0.1.0.tar.gz tmp/xarpes-0.2.0.tar.gz --markdown 20240603/x/xarpes/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-06-03 13:37:31] INFO root fetch - processPackages [ros-cdk-dlf]: Downloading https://files.pythonhosted.org/packages/f5/77/bfd450f03547f784eefdc6e584428395cc87e03f54ab755cc0968eef716a/ros-cdk-dlf-1.0.25.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/ef/b2/900edde5daf3f78fe77a04ca2ac0a83ec23b03af8423fbeab1af537d7165/python-automation-0.0.6.tar.gz
+[2024-06-03 13:37:31] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2024-06-03 13:37:31] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2024.6.4.tar.gz tmp/bowtie_json_schema-2024.6.5.tar.gz --markdown 20240603/b/bowtie-json-schema/2024.6.4-2024.6.5/README.md --exclude *.pyd
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ScandEval]: Downloading https://files.pythonhosted.org/packages/18/e1/ce531d2876fb3980872277d0a0139d7a77365dec9e7eee8507928057b89e/scandeval-9.3.2.tar.gz
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ros-cdk-cdn]: Downloading https://files.pythonhosted.org/packages/02/9b/9180dd4f5bb8d70cad58e1954218be77776bce87367bc613d3757833cec6/ros-cdk-cdn-1.0.9.tar.gz
+[2024-06-03 13:37:32] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/21/0a/f6bc5ea520553d15ece4ea3401649c06dc9f5930d99034a5ab1f67afec90/odoo12_addon_partner_statement-12.0.1.1.0-py3-none-any.whl
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ros-cdk-dlf]: executing diffoscope
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ros-cdk-dlf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dlf-1.0.24.tar.gz tmp/ros-cdk-dlf-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-dlf/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:37:32] INFO root fetch - processPackages [python-automation]: executing diffoscope
+[2024-06-03 13:37:32] INFO root fetch - processPackages [python-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-0.0.5.tar.gz tmp/python-automation-0.0.6.tar.gz --markdown 20240603/p/python-automation/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 13:37:32] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-06-03 13:37:32] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.98.tar.gz tmp/checkov-3.2.99.tar.gz --markdown 20240603/c/checkov/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ros-cdk-searchengine]: Downloading https://files.pythonhosted.org/packages/e2/9e/a6cfd33bb3d00e36bf216514e31cd054a8f1530ebfb460860da76c52b98a/ros-cdk-searchengine-1.0.9.tar.gz
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ScandEval]: executing diffoscope
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ScandEval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandeval-9.3.1.tar.gz tmp/scandeval-9.3.2.tar.gz --markdown 20240603/S/ScandEval/9.3.1-9.3.2/README.md --exclude *.pyd
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ros-cdk-cdn]: executing diffoscope
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ros-cdk-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cdn-1.0.8.tar.gz tmp/ros-cdk-cdn-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cdn/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:37:32] INFO root fetch - processPackages [odoo12-addon-partner-statement]: executing diffoscope
+[2024-06-03 13:37:32] INFO root fetch - processPackages [odoo12-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_partner_statement-12.0.1.0.5.99.dev9-py3-none-any.whl.zip tmp/odoo12_addon_partner_statement-12.0.1.1.0-py3-none-any.whl.zip --markdown 20240603/o/odoo12-addon-partner-statement/12.0.1.0.5.99.dev9-12.0.1.1.0/README.md --exclude *.pyd
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ros-cdk-searchengine]: executing diffoscope
+[2024-06-03 13:37:32] INFO root fetch - processPackages [ros-cdk-searchengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-searchengine-1.0.8.tar.gz tmp/ros-cdk-searchengine-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-searchengine/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:37:32] INFO root fetch - processPackages [xarpes]: Remove: archive file [/home/abi/fetcher/tmp/xarpes-0.1.0.tar.gz]
+[2024-06-03 13:37:32] INFO root fetch - processPackages [xarpes]: Remove: archive file [/home/abi/fetcher/tmp/xarpes-0.2.0.tar.gz]
+[2024-06-03 13:37:32] INFO root fetch - processPackages [xarpes]: Start processing: conippets
+[2024-06-03 13:37:32] INFO root fetch - main [MainThread]: End processing [xarpes]: success
+[2024-06-03 13:37:32] WARNING root fetch - processPackages [openstef]: Skipping package: exceeds size limit 62278984>=10485760
+[2024-06-03 13:37:32] INFO root fetch - processPackages [openstef]: Start processing: aixhello
+[2024-06-03 13:37:32] INFO root fetch - main [MainThread]: End processing [openstef] error
+[2024-06-03 13:37:32] INFO root fetch - processPackages [aixhello]: New version: [4.92] Old Version: [4.91]
+[2024-06-03 13:37:32] INFO root fetch - processPackages [conippets]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-06-03 13:37:32] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/2d/c4/0190d9f6162779e65dc911ea7ec4f17bec4fd35e78c9dcbda7fed6ef86d8/aixhello-4.91.tar.gz
+[2024-06-03 13:37:33] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.5.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.6.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [python-automation]: Start processing: balanco-library
+[2024-06-03 13:37:33] INFO root fetch - main [MainThread]: End processing [python-automation]: success
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-dlf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dlf-1.0.24.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-dlf]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dlf-1.0.25.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-dlf]: Start processing: torchserve-nightly
+[2024-06-03 13:37:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-dlf]: success
+[2024-06-03 13:37:33] INFO root fetch - processPackages [balanco-library]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [conippets]: Downloading https://files.pythonhosted.org/packages/c7/d8/5607e338c6abb8f262c68cbfe6c8db11d6ec88e17f73ed23806bd9f8dfac/conippets-0.0.9.tar.gz
+[2024-06-03 13:37:33] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.6.2] Old Version: [2024.6.1]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-searchengine]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-searchengine-1.0.8.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-searchengine]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-searchengine-1.0.9.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-searchengine]: Start processing: torch-model-archiver-nightly
+[2024-06-03 13:37:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-searchengine]: success
+[2024-06-03 13:37:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.6.2] Old Version: [2024.6.1]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.8.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-cdn]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cdn-1.0.9.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ros-cdk-cdn]: Start processing: torch-workflow-archiver-nightly
+[2024-06-03 13:37:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-cdn]: success
+[2024-06-03 13:37:33] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/e7/7e/cea4ffebca36e9d712e20434ebedda1eeae988ff1448c112a52d07fcf299/aixhello-4.92.tar.gz
+[2024-06-03 13:37:33] INFO root fetch - processPackages [balanco-library]: Downloading https://files.pythonhosted.org/packages/99/1e/8d0d17d7b1c1851831afa889a69deb0796a8fc096bc2e46361f2de9fe27f/balanco_library-0.1.2.tar.gz
+[2024-06-03 13:37:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.6.2] Old Version: [2024.6.1]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ScandEval]: Remove: archive file [/home/abi/fetcher/tmp/scandeval-9.3.1.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ScandEval]: Remove: archive file [/home/abi/fetcher/tmp/scandeval-9.3.2.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [ScandEval]: Start processing: pheval-template
+[2024-06-03 13:37:33] INFO root fetch - main [MainThread]: End processing [ScandEval]: success
+[2024-06-03 13:37:33] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/92/d2/b98de7f53c2941fce23d1ea757da05adf29b37df921e0a135e74f813fee2/torchserve_nightly-2024.6.1-py3-none-any.whl
+[2024-06-03 13:37:33] INFO root fetch - processPackages [conippets]: Downloading https://files.pythonhosted.org/packages/f3/9e/f20c7f88ba8aed293df083a99214f8cbcd6a3fa690686772f1034271f652/conippets-0.1.0.tar.gz
+[2024-06-03 13:37:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fb/e1/aea19a8b35300041c93c1b8d9a56076d5bcf0d4396451fbf1d157a9279b1/torch_model_archiver_nightly-2024.6.1-py3-none-any.whl
+[2024-06-03 13:37:33] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24336615>=10485760
+[2024-06-03 13:37:33] INFO root fetch - processPackages [torchserve-nightly]: Start processing: demessaging
+[2024-06-03 13:37:33] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-06-03 13:37:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b4/47/8893b3d0a3f2d6fadf845568260ee095b798b58532216f3b2f751333ae86/torch_workflow_archiver_nightly-2024.6.1-py3-none-any.whl
+[2024-06-03 13:37:33] INFO root fetch - processPackages [aixhello]: executing diffoscope
+[2024-06-03 13:37:33] INFO root fetch - processPackages [aixhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixhello-4.91.tar.gz tmp/aixhello-4.92.tar.gz --markdown 20240603/a/aixhello/4.91-4.92/README.md --exclude *.pyd
+[2024-06-03 13:37:33] INFO root fetch - processPackages [pheval-template]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [conippets]: executing diffoscope
+[2024-06-03 13:37:33] INFO root fetch - processPackages [conippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conippets-0.0.9.tar.gz tmp/conippets-0.1.0.tar.gz --markdown 20240603/c/conippets/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-06-03 13:37:33] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_partner_statement-12.0.1.0.5.99.dev9-py3-none-any.whl.zip]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_partner_statement-12.0.1.1.0-py3-none-any.whl.zip]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Start processing: python-automation
+[2024-06-03 13:37:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-partner-statement]: success
+[2024-06-03 13:37:33] INFO root fetch - processPackages [python-automation]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [demessaging]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [balanco-library]: Downloading https://files.pythonhosted.org/packages/c7/14/2db0022cda81d2565ba2ccf0400f0345729399824f4f39f0e5e103ecaf15/balanco_library-0.2.0.tar.gz
+[2024-06-03 13:37:33] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.6.4.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.6.5.tar.gz]
+[2024-06-03 13:37:33] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2024-06-03 13:37:33] INFO root fetch - processPackages [pheval-template]: Downloading https://files.pythonhosted.org/packages/91/5e/c292fcaa9bae3276b7b19dc670dcdc078744e2e034a2275d5f6b1991d14a/pheval_template-0.1.0.tar.gz
+[2024-06-03 13:37:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b4/f2/79ea0aa44b4791c9e449f0d45e8bdf9f8a006b85e64dcecf320de2bf3b67/torch_model_archiver_nightly-2024.6.2-py3-none-any.whl
+[2024-06-03 13:37:34] INFO root fetch - processPackages [balanco-library]: executing diffoscope
+[2024-06-03 13:37:34] INFO root fetch - processPackages [balanco-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balanco_library-0.1.2.tar.gz tmp/balanco_library-0.2.0.tar.gz --markdown 20240603/b/balanco-library/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/84/b9/64ee9ab6a5a3c025b8eeb802aded8d9d65538dc02936fc6ae4b6690ab3bd/torch_workflow_archiver_nightly-2024.6.2-py3-none-any.whl
+[2024-06-03 13:37:34] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/31/6f/17bb7a482834f1d001dc9e05fe57d92d519f913fc360171b6115fd35a0b3/python-automation-0.0.7.tar.gz
+[2024-06-03 13:37:34] INFO root fetch - processPackages [demessaging]: Downloading https://files.pythonhosted.org/packages/15/2b/44d1cb68373008fe4e8eff692e76006300053bfe0578ec740f01b2857d0b/demessaging-0.5.3.tar.gz
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.6.1-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.6.2-py3-none-any.whl.zip --markdown 20240603/t/torch-model-archiver-nightly/2024.6.1-2024.6.2/README.md --exclude *.pyd
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.6.1-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.6.2-py3-none-any.whl.zip --markdown 20240603/t/torch-workflow-archiver-nightly/2024.6.1-2024.6.2/README.md --exclude *.pyd
+[2024-06-03 13:37:34] INFO root fetch - processPackages [pheval-template]: Downloading https://files.pythonhosted.org/packages/06/a2/5115a0a30202cb3b598294212e65ede4fa6398cdc616324c7b26ae55e4e3/pheval_template-0.1.1.tar.gz
+[2024-06-03 13:37:34] INFO root fetch - processPackages [pheval-template]: executing diffoscope
+[2024-06-03 13:37:34] INFO root fetch - processPackages [pheval-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheval_template-0.1.0.tar.gz tmp/pheval_template-0.1.1.tar.gz --markdown 20240603/p/pheval-template/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 13:37:34] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/c1/bb/8f2e415b8e7df6efa6b74f25560ccae27e556b070aa17ff3a44ae13a79b3/python-automation-0.0.8.tar.gz
+[2024-06-03 13:37:34] INFO root fetch - processPackages [demessaging]: Downloading https://files.pythonhosted.org/packages/ee/70/f7f8ef0881ed5dadb59306eab370bad784924453d155319b87e9e6d37a1c/demessaging-0.5.4.tar.gz
+[2024-06-03 13:37:34] INFO root fetch - processPackages [conippets]: Remove: archive file [/home/abi/fetcher/tmp/conippets-0.0.9.tar.gz]
+[2024-06-03 13:37:34] INFO root fetch - processPackages [conippets]: Remove: archive file [/home/abi/fetcher/tmp/conippets-0.1.0.tar.gz]
+[2024-06-03 13:37:34] INFO root fetch - main [MainThread]: End processing [conippets]: success
+[2024-06-03 13:37:34] INFO root fetch - processPackages [demessaging]: executing diffoscope
+[2024-06-03 13:37:34] INFO root fetch - processPackages [demessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demessaging-0.5.3.tar.gz tmp/demessaging-0.5.4.tar.gz --markdown 20240603/d/demessaging/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-06-03 13:37:34] INFO root fetch - processPackages [python-automation]: executing diffoscope
+[2024-06-03 13:37:34] INFO root fetch - processPackages [python-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-0.0.7.tar.gz tmp/python-automation-0.0.8.tar.gz --markdown 20240603/p/python-automation/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.6.1-py3-none-any.whl.zip]
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.6.2-py3-none-any.whl.zip]
+[2024-06-03 13:37:34] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-06-03 13:37:34] INFO root fetch - processPackages [balanco-library]: Remove: archive file [/home/abi/fetcher/tmp/balanco_library-0.1.2.tar.gz]
+[2024-06-03 13:37:34] INFO root fetch - processPackages [balanco-library]: Remove: archive file [/home/abi/fetcher/tmp/balanco_library-0.2.0.tar.gz]
+[2024-06-03 13:37:34] INFO root fetch - main [MainThread]: End processing [balanco-library]: success
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.6.1-py3-none-any.whl.zip]
+[2024-06-03 13:37:34] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.6.2-py3-none-any.whl.zip]
+[2024-06-03 13:37:34] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-06-03 13:37:35] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.91.tar.gz]
+[2024-06-03 13:37:35] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.92.tar.gz]
+[2024-06-03 13:37:35] INFO root fetch - main [MainThread]: End processing [aixhello]: success
+[2024-06-03 13:37:35] INFO root fetch - processPackages [pheval-template]: Remove: archive file [/home/abi/fetcher/tmp/pheval_template-0.1.0.tar.gz]
+[2024-06-03 13:37:35] INFO root fetch - processPackages [pheval-template]: Remove: archive file [/home/abi/fetcher/tmp/pheval_template-0.1.1.tar.gz]
+[2024-06-03 13:37:35] INFO root fetch - main [MainThread]: End processing [pheval-template]: success
+[2024-06-03 13:37:35] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.7.tar.gz]
+[2024-06-03 13:37:35] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.8.tar.gz]
+[2024-06-03 13:37:35] INFO root fetch - main [MainThread]: End processing [python-automation]: success
+[2024-06-03 13:37:35] INFO root fetch - processPackages [demessaging]: Remove: archive file [/home/abi/fetcher/tmp/demessaging-0.5.3.tar.gz]
+[2024-06-03 13:37:35] INFO root fetch - processPackages [demessaging]: Remove: archive file [/home/abi/fetcher/tmp/demessaging-0.5.4.tar.gz]
+[2024-06-03 13:37:35] INFO root fetch - main [MainThread]: End processing [demessaging]: success
+[2024-06-03 13:37:41] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.98.tar.gz]
+[2024-06-03 13:37:41] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
+[2024-06-03 13:37:41] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-06-03 13:37:41] INFO root fetch - main [MainThread]: Store serial: [23501470]
