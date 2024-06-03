@@ -10871,3 +10871,60 @@ EOFError: EOF read where object expected
 [2024-06-03 11:01:39] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-06-03 11:01:39] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-06-03 11:01:39] INFO root fetch - main [MainThread]: Store serial: [23499048]
+[2024-06-03 11:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499048]
+[2024-06-03 11:03:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywayne
+[2024-06-03 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matchms
+[2024-06-03 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenGeodeWeb-Back
+[2024-06-03 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: venv-modulefile
+[2024-06-03 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-06-03 11:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: triton-copilot
+[2024-06-03 11:03:49] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b1] Old Version: [0.1.3b0]
+[2024-06-03 11:03:49] INFO root fetch - processPackages [venv-modulefile]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 11:03:49] INFO root fetch - processPackages [matchms]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 11:03:49] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [4.2.1rc1] Old Version: [4.2.0rc1]
+[2024-06-03 11:03:49] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-06-03 11:03:50] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.7.6] Old Version: [1.0.0.7.5]
+[2024-06-03 11:03:50] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/94/f9/e417fc6b3d303bae0c45dd2a090977a0eaac69a7676ae6d9adf3125c53e7/matchms-0.9.1.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/01/fb/97978fa00642d68e2d84ebdaadd08fcad39099f5610959606f98698551d6/opengeodeweb_back-4.2.0rc1.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/73/63/7bd85e743667e053e222582bef13ced365b1754efcb9d72f06f14ea2c4d7/triton_copilot-0.1.3b0.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/44/a4/eeb3b81f8f02d248ef2e817ab9b146994d247eaecf959165bd35533e2a27/venv-modulefile-0.1.5.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-06-03 11:03:50] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/ec/7d/066358562a81af884a0dd5e6d185f58ea083b39ff5a0abe29b6ed5931c38/pywayne-1.0.0.7.5.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/a9/2a/fc9ffb766597aaeebfda1006959df86f8c813da3e93cfc42b87f6b5f51c2/opengeodeweb_back-4.2.1rc1.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/a0/1f/afe76be976e1b3c3551112bf8a1ffff8624c26e9e230720c15c9138f7e6a/matchms-0.9.2.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-06-03 11:03:50] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2024-06-03 11:03:50] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeodeweb_back-4.2.0rc1.tar.gz tmp/opengeodeweb_back-4.2.1rc1.tar.gz --markdown 20240603/O/OpenGeodeWeb-Back/4.2.0rc1-4.2.1rc1/README.md --exclude *.pyd
+[2024-06-03 11:03:50] INFO root fetch - processPackages [matchms]: executing diffoscope
+[2024-06-03 11:03:50] INFO root fetch - processPackages [matchms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchms-0.9.1.tar.gz tmp/matchms-0.9.2.tar.gz --markdown 20240603/m/matchms/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-06-03 11:03:50] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/98/6f/701234d168f7f62450e0fae0be5e71533e484d2b6137bb156ff3a4720201/triton_copilot-0.1.3b1.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/dc/44/b5bcb7221cae5cad9499faecc45da629be042dab647dfc2e86ab4c8cb817/venv-modulefile-0.1.6.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-06-03 11:03:50] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240603/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-06-03 11:03:50] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/a7/48/5d6dac7d90f0fba05c174352127bcb16aafb541befd116b638b2da8ea1d3/pywayne-1.0.0.7.6.tar.gz
+[2024-06-03 11:03:50] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 11:03:50] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b0.tar.gz tmp/triton_copilot-0.1.3b1.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b0-0.1.3b1/README.md --exclude *.pyd
+[2024-06-03 11:03:50] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2024-06-03 11:03:50] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.7.5.tar.gz tmp/pywayne-1.0.0.7.6.tar.gz --markdown 20240603/p/pywayne/1.0.0.7.5-1.0.0.7.6/README.md --exclude *.pyd
+[2024-06-03 11:03:51] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2024-06-03 11:03:51] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.1.5.tar.gz tmp/venv-modulefile-0.1.6.tar.gz --markdown 20240603/v/venv-modulefile/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 11:03:51] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.2.0rc1.tar.gz]
+[2024-06-03 11:03:51] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.5.tar.gz]
+[2024-06-03 11:03:51] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.2.1rc1.tar.gz]
+[2024-06-03 11:03:51] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.6.tar.gz]
+[2024-06-03 11:03:51] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2024-06-03 11:03:51] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2024-06-03 11:03:51] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.1.tar.gz]
+[2024-06-03 11:03:51] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.2.tar.gz]
+[2024-06-03 11:03:51] INFO root fetch - main [MainThread]: End processing [matchms]: success
+[2024-06-03 11:03:51] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b0.tar.gz]
+[2024-06-03 11:03:51] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b1.tar.gz]
+[2024-06-03 11:03:51] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 11:03:52] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.5.tar.gz]
+[2024-06-03 11:03:52] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.6.tar.gz]
+[2024-06-03 11:03:52] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2024-06-03 11:03:52] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-06-03 11:03:52] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-06-03 11:03:52] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-06-03 11:03:52] INFO root fetch - main [MainThread]: Store serial: [23499075]
