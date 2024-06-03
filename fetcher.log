@@ -2110,3 +2110,24 @@
 [2024-06-03 02:44:46] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.5.dev202406020044.tar.gz]
 [2024-06-03 02:44:46] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-06-03 02:44:46] INFO root fetch - main [MainThread]: Store serial: [23495039]
+[2024-06-03 02:46:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495039]
+[2024-06-03 02:46:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 02:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2024-06-03 02:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: featuremap-learn
+[2024-06-03 02:46:54] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.5.dev202406020044] Old Version: [4.9.5.dev202406010044]
+[2024-06-03 02:46:54] INFO root fetch - processPackages [featuremap-learn]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 02:46:54] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ad/49/d09fa19c20bf4f3d3307a772c0fdca7f5a01e60158a17f78e40c9288254b/tfds-nightly-4.9.5.dev202406010044.tar.gz
+[2024-06-03 02:46:54] INFO root fetch - processPackages [featuremap-learn]: Downloading https://files.pythonhosted.org/packages/e4/96/0170d7ef5d923ce5af974e6dcba38ecc84977d63807e429cf35ca7e633ca/featuremap-learn-1.0.1.tar.gz
+[2024-06-03 02:46:55] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/19/5b/610c0775296f2acba9222490a16df061a7a4ce15fdf5ddd688a68b6ce18f/tfds-nightly-4.9.5.dev202406020044.tar.gz
+[2024-06-03 02:46:55] INFO root fetch - processPackages [featuremap-learn]: Downloading https://files.pythonhosted.org/packages/45/6f/3bdffebf426d2a6b0fc42678ed831ccd22d0fabd58ead5f87d9d995c1abe/featuremap-learn-1.0.2.tar.gz
+[2024-06-03 02:46:55] INFO root fetch - processPackages [featuremap-learn]: executing diffoscope
+[2024-06-03 02:46:55] INFO root fetch - processPackages [featuremap-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featuremap-learn-1.0.1.tar.gz tmp/featuremap-learn-1.0.2.tar.gz --markdown 20240603/f/featuremap-learn/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 02:46:55] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-06-03 02:46:55] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.5.dev202406010044.tar.gz tmp/tfds-nightly-4.9.5.dev202406020044.tar.gz --markdown 20240603/t/tfds-nightly/4.9.5.dev202406010044-4.9.5.dev202406020044/README.md --exclude *.pyd
+[2024-06-03 02:46:55] INFO root fetch - processPackages [featuremap-learn]: Remove: archive file [/home/abi/fetcher/tmp/featuremap-learn-1.0.1.tar.gz]
+[2024-06-03 02:46:55] INFO root fetch - processPackages [featuremap-learn]: Remove: archive file [/home/abi/fetcher/tmp/featuremap-learn-1.0.2.tar.gz]
+[2024-06-03 02:46:55] INFO root fetch - main [MainThread]: End processing [featuremap-learn]: success
+[2024-06-03 02:47:04] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.5.dev202406010044.tar.gz]
+[2024-06-03 02:47:04] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.5.dev202406020044.tar.gz]
+[2024-06-03 02:47:04] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-06-03 02:47:04] INFO root fetch - main [MainThread]: Store serial: [23495046]
