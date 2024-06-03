@@ -7520,3 +7520,45 @@ EOFError: EOF read where object expected
 [2024-06-03 08:24:04] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.9.0.tar.gz]
 [2024-06-03 08:24:04] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
 [2024-06-03 08:24:04] INFO root fetch - main [MainThread]: Store serial: [23497311]
+[2024-06-03 08:26:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497311]
+[2024-06-03 08:26:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 08:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: event-outbox
+[2024-06-03 08:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhousf-lib
+[2024-06-03 08:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: item-matching
+[2024-06-03 08:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: morphdb-utils
+[2024-06-03 08:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-avatar
+[2024-06-03 08:26:14] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 08:26:14] INFO root fetch - processPackages [event-outbox]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 08:26:14] INFO root fetch - processPackages [morphdb-utils]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 08:26:14] WARNING root fetch - processPackages [streamlit-avatar]: Skipping, unable to determine old version
+[2024-06-03 08:26:14] INFO root fetch - main [MainThread]: End processing [streamlit-avatar] error
+[2024-06-03 08:26:14] INFO root fetch - processPackages [zhousf-lib]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-06-03 08:26:14] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-06-03 08:26:14] INFO root fetch - processPackages [event-outbox]: Downloading https://files.pythonhosted.org/packages/d6/6d/8b83dbfe4a6a234dcc6e5386d895799c0cd429440808a2048b60ab680c7f/event_outbox-0.1.2.tar.gz
+[2024-06-03 08:26:14] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/b9/ce/7d76addfcd9bd540544ec16ca3f459576ce333738a2b793b0f0978d61fbb/morphdb_utils-0.2.3.tar.gz
+[2024-06-03 08:26:14] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/74/e7/700bc2d324db2f9b8d7da47c481166892d97dc08d8430973631b12739ecb/zhousf-lib-1.6.0.tar.gz
+[2024-06-03 08:26:14] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-06-03 08:26:14] INFO root fetch - processPackages [event-outbox]: Downloading https://files.pythonhosted.org/packages/ff/67/823c2efde1ba292f0a04ffa499253b9aafe40139351c4f286db3e8ba22a5/event_outbox-0.1.3.tar.gz
+[2024-06-03 08:26:14] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-06-03 08:26:14] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240603/i/item-matching/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 08:26:14] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/b3/94/7670305fe63a2d75c99bc4707a04301d6cb12beecb7063b1db211df2696e/morphdb_utils-0.2.4.tar.gz
+[2024-06-03 08:26:15] INFO root fetch - processPackages [event-outbox]: executing diffoscope
+[2024-06-03 08:26:15] INFO root fetch - processPackages [event-outbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_outbox-0.1.2.tar.gz tmp/event_outbox-0.1.3.tar.gz --markdown 20240603/e/event-outbox/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 08:26:15] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-06-03 08:26:15] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.2.3.tar.gz tmp/morphdb_utils-0.2.4.tar.gz --markdown 20240603/m/morphdb-utils/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 08:26:15] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/af/d4/ca86f52c393e2de25786ba0278980c7ad73a4094aa91170c9a34a4ab31d9/zhousf-lib-1.6.1.tar.gz
+[2024-06-03 08:26:15] INFO root fetch - processPackages [event-outbox]: Remove: archive file [/home/abi/fetcher/tmp/event_outbox-0.1.2.tar.gz]
+[2024-06-03 08:26:15] INFO root fetch - processPackages [event-outbox]: Remove: archive file [/home/abi/fetcher/tmp/event_outbox-0.1.3.tar.gz]
+[2024-06-03 08:26:15] INFO root fetch - main [MainThread]: End processing [event-outbox]: success
+[2024-06-03 08:26:15] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.3.tar.gz]
+[2024-06-03 08:26:15] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.4.tar.gz]
+[2024-06-03 08:26:15] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-06-03 08:26:15] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-06-03 08:26:15] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-06-03 08:26:15] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-06-03 08:26:15] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2024-06-03 08:26:15] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-1.6.0.tar.gz tmp/zhousf-lib-1.6.1.tar.gz --markdown 20240603/z/zhousf-lib/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-06-03 08:26:17] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.6.0.tar.gz]
+[2024-06-03 08:26:17] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.6.1.tar.gz]
+[2024-06-03 08:26:17] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2024-06-03 08:26:17] INFO root fetch - main [MainThread]: Store serial: [23497328]
