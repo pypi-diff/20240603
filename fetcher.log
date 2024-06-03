@@ -19147,3 +19147,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:30:31] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
 [2024-06-03 14:30:31] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-06-03 14:30:31] INFO root fetch - main [MainThread]: Store serial: [23502379]
+[2024-06-03 14:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502379]
+[2024-06-03 14:32:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nfinance
+[2024-06-03 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libximc
+[2024-06-03 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: everai
+[2024-06-03 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modrinth-downloader
+[2024-06-03 14:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roastery
+[2024-06-03 14:32:40] INFO root fetch - processPackages [roastery]: New version: [0.20240603.dev1] Old Version: [0.20240603.dev0]
+[2024-06-03 14:32:40] INFO root fetch - processPackages [modrinth-downloader]: New version: [0.5] Old Version: [0.4]
+[2024-06-03 14:32:40] INFO root fetch - processPackages [everai]: New version: [0.1.63] Old Version: [0.1.62]
+[2024-06-03 14:32:40] INFO root fetch - processPackages [nfinance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 14:32:40] INFO root fetch - processPackages [libximc]: New version: [2.14.23] Old Version: [2.14.22]
+[2024-06-03 14:32:40] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/5e/b4/bb19e6bf000240175c5cbf35d19f4af848d13b16b666577d710f84e9bbaa/modrinth_downloader-0.4.tar.gz
+[2024-06-03 14:32:40] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/21/de/66a69e0c30327b292cb08098b431d9e4d103b79d4f5dc947a29f6a838d9b/roastery-0.20240603.dev0.tar.gz
+[2024-06-03 14:32:41] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/a7/93/5a81dd54d4475902f7482619f41cb1f86849bdc285e6053c61edca6c8e4c/everai-0.1.62-py3-none-any.whl
+[2024-06-03 14:32:41] INFO root fetch - processPackages [libximc]: Downloading https://files.pythonhosted.org/packages/87/f6/c6317ade5a77a3a9b2ba581af9b2ccbc433e91f0b025fb7fea88c9527ba2/libximc-2.14.22.tar.gz
+[2024-06-03 14:32:41] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/a6/06/adbe0a9d20c0b3550d857d983da73c51099dbefa5add379e638f2b2d83e7/nfinance-0.4.8.tar.gz
+[2024-06-03 14:32:41] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/58/f0/15ca8d9fcd89dd065178cf19a5e80d8a6643fec32e931b27ab7ba0ae69fc/roastery-0.20240603.dev1.tar.gz
+[2024-06-03 14:32:41] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/c5/23/9245521ac63b90de07914d7810964d5f6b1781835adf445fae368b9cf92e/modrinth_downloader-0.5.tar.gz
+[2024-06-03 14:32:41] INFO root fetch - processPackages [roastery]: executing diffoscope
+[2024-06-03 14:32:41] INFO root fetch - processPackages [roastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roastery-0.20240603.dev0.tar.gz tmp/roastery-0.20240603.dev1.tar.gz --markdown 20240603/r/roastery/0.20240603.dev0-0.20240603.dev1/README.md --exclude *.pyd
+[2024-06-03 14:32:41] INFO root fetch - processPackages [modrinth-downloader]: executing diffoscope
+[2024-06-03 14:32:41] INFO root fetch - processPackages [modrinth-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth_downloader-0.4.tar.gz tmp/modrinth_downloader-0.5.tar.gz --markdown 20240603/m/modrinth-downloader/0.4-0.5/README.md --exclude *.pyd
+[2024-06-03 14:32:41] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/a3/35/c7832d1d050345e0a93fc588217050e3501c3e52cd9ef74030a7195838cb/everai-0.1.63-py3-none-any.whl
+[2024-06-03 14:32:41] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/34/6b/46ec181950d083608bf8cca8b3597d33fa9138974ed300ac6413a7cc5a17/nfinance-0.4.9.tar.gz
+[2024-06-03 14:32:41] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-06-03 14:32:41] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.8.tar.gz tmp/nfinance-0.4.9.tar.gz --markdown 20240603/n/nfinance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 14:32:41] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-06-03 14:32:41] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.62-py3-none-any.whl.zip tmp/everai-0.1.63-py3-none-any.whl.zip --markdown 20240603/e/everai/0.1.62-0.1.63/README.md --exclude *.pyd
+[2024-06-03 14:32:41] INFO root fetch - processPackages [libximc]: Downloading https://files.pythonhosted.org/packages/21/4f/173fb2de268bad9565cba84882832b59765ec57d7be51baab31c823faef4/libximc-2.14.23.tar.gz
+[2024-06-03 14:32:42] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.4.tar.gz]
+[2024-06-03 14:32:42] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.5.tar.gz]
+[2024-06-03 14:32:42] INFO root fetch - main [MainThread]: End processing [modrinth-downloader]: success
+[2024-06-03 14:32:42] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240603.dev0.tar.gz]
+[2024-06-03 14:32:42] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240603.dev1.tar.gz]
+[2024-06-03 14:32:42] INFO root fetch - main [MainThread]: End processing [roastery]: success
+[2024-06-03 14:32:42] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.8.tar.gz]
+[2024-06-03 14:32:42] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.9.tar.gz]
+[2024-06-03 14:32:42] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-06-03 14:32:42] INFO root fetch - processPackages [libximc]: executing diffoscope
+[2024-06-03 14:32:42] INFO root fetch - processPackages [libximc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libximc-2.14.22.tar.gz tmp/libximc-2.14.23.tar.gz --markdown 20240603/l/libximc/2.14.22-2.14.23/README.md --exclude *.pyd
+[2024-06-03 14:32:44] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.62-py3-none-any.whl.zip]
+[2024-06-03 14:32:44] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.63-py3-none-any.whl.zip]
+[2024-06-03 14:32:44] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-06-03 14:33:03] INFO root fetch - processPackages [libximc]: Remove: archive file [/home/abi/fetcher/tmp/libximc-2.14.22.tar.gz]
+[2024-06-03 14:33:03] INFO root fetch - processPackages [libximc]: Remove: archive file [/home/abi/fetcher/tmp/libximc-2.14.23.tar.gz]
+[2024-06-03 14:33:03] INFO root fetch - main [MainThread]: End processing [libximc]: success
+[2024-06-03 14:33:03] INFO root fetch - main [MainThread]: Store serial: [23502392]
