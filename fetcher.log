@@ -2980,3 +2980,60 @@ EOFError: EOF read where object expected
 [2024-06-03 03:40:29] INFO root fetch - processPackages [MzhFunc]: Remove: archive file [/home/abi/fetcher/tmp/mzhfunc-0.1.1.tar.gz]
 [2024-06-03 03:40:29] INFO root fetch - main [MainThread]: End processing [MzhFunc]: success
 [2024-06-03 03:40:29] INFO root fetch - main [MainThread]: Store serial: [23495435]
+[2024-06-03 03:42:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495435]
+[2024-06-03 03:42:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 03:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homebase-calendar-sync
+[2024-06-03 03:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pp-weight-estimation
+[2024-06-03 03:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webuiapi
+[2024-06-03 03:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastlmm
+[2024-06-03 03:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeassistant-stubs
+[2024-06-03 03:42:37] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 03:42:37] INFO root fetch - processPackages [pp-weight-estimation]: New version: [1.1.44] Old Version: [1.1.43]
+[2024-06-03 03:42:37] INFO root fetch - processPackages [homebase-calendar-sync]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 03:42:38] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/fe/8c/09589d113c4abceee70315ee5117c0a1110a613a8604e1af9a4c7f8bd054/cs_ob_mini_scikit_learn-0.1.8.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/2a/04/f87e7d35e88a8d44ed80001a0a726741159c2aee471951e03d59ffa41df9/pp_weight_estimation-1.1.43.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homebase-calendar-sync]: Downloading https://files.pythonhosted.org/packages/41/38/42b6be1e6a6f8b8cda1925753b596f8f6de370cf231547f62b6032cb93da/homebase_calendar_sync-0.1.8.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [webuiapi]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 03:42:38] INFO root fetch - processPackages [fastlmm]: New version: [0.6.9b1] Old Version: [0.6.8b1]
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.6.0b5] Old Version: [2024.6.0b4]
+[2024-06-03 03:42:38] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/ca/28/0f404fc309ef3e0c3ec10209ea1575f359354f3e06c7b3c9255c1ee52d98/pp_weight_estimation-1.1.44.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homebase-calendar-sync]: Downloading https://files.pythonhosted.org/packages/c4/b1/a07652c2e7ce2605d5082f022eeabe735a1060e97f48ee9c322c804d1b55/homebase_calendar_sync-0.1.9.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [webuiapi]: Downloading https://files.pythonhosted.org/packages/a5/6b/594ca7bece3cb5b5d3a774778d6e4b4e7a8e64e97a3712644c8fa9d0a7ae/webuiapi-0.9.8-py3-none-any.whl
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/b4/e1/450661530f5306239c3579f564eabd636b92b06941376e57c6f4a3713b1f/homeassistant_stubs-2024.6.0b4.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homebase-calendar-sync]: executing diffoscope
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homebase-calendar-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homebase_calendar_sync-0.1.8.tar.gz tmp/homebase_calendar_sync-0.1.9.tar.gz --markdown 20240603/h/homebase-calendar-sync/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:42:38] INFO root fetch - processPackages [fastlmm]: Downloading https://files.pythonhosted.org/packages/a0/e2/fa77484c7aae2084f465fd61d01e85d27062d3dfcbf2a5fdceba712e5d58/fastlmm-0.6.8b1.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/7b/97/50719acba4af366c4d8405c0be6da10c73817e10e30c78659745ec792291/cs_ob_mini_scikit_learn-0.1.9.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [pp-weight-estimation]: executing diffoscope
+[2024-06-03 03:42:38] INFO root fetch - processPackages [pp-weight-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_weight_estimation-1.1.43.tar.gz tmp/pp_weight_estimation-1.1.44.tar.gz --markdown 20240603/p/pp-weight-estimation/1.1.43-1.1.44/README.md --exclude *.pyd
+[2024-06-03 03:42:38] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:42:38] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_ob_mini_scikit_learn-0.1.8.tar.gz tmp/cs_ob_mini_scikit_learn-0.1.9.tar.gz --markdown 20240603/c/cs-ob-mini-scikit-learn/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 03:42:38] INFO root fetch - processPackages [webuiapi]: Downloading https://files.pythonhosted.org/packages/1a/ec/eb6b9db99b5e7493abea177d3a64c2342bd836196e26479268d757170478/webuiapi-0.9.9-py3-none-any.whl
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/5d/e4/8d8f60ce6232d0173b769442343937ec1ed175b10abf590563e75aa31926/homeassistant_stubs-2024.6.0b5.tar.gz
+[2024-06-03 03:42:38] INFO root fetch - processPackages [webuiapi]: executing diffoscope
+[2024-06-03 03:42:38] INFO root fetch - processPackages [webuiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webuiapi-0.9.8-py3-none-any.whl.zip tmp/webuiapi-0.9.9-py3-none-any.whl.zip --markdown 20240603/w/webuiapi/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-06-03 03:42:38] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.6.0b4.tar.gz tmp/homeassistant_stubs-2024.6.0b5.tar.gz --markdown 20240603/h/homeassistant-stubs/2024.6.0b4-2024.6.0b5/README.md --exclude *.pyd
+[2024-06-03 03:42:39] INFO root fetch - processPackages [homebase-calendar-sync]: Remove: archive file [/home/abi/fetcher/tmp/homebase_calendar_sync-0.1.8.tar.gz]
+[2024-06-03 03:42:39] INFO root fetch - processPackages [homebase-calendar-sync]: Remove: archive file [/home/abi/fetcher/tmp/homebase_calendar_sync-0.1.9.tar.gz]
+[2024-06-03 03:42:39] INFO root fetch - main [MainThread]: End processing [homebase-calendar-sync]: success
+[2024-06-03 03:42:39] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.1.43.tar.gz]
+[2024-06-03 03:42:39] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.1.44.tar.gz]
+[2024-06-03 03:42:39] INFO root fetch - main [MainThread]: End processing [pp-weight-estimation]: success
+[2024-06-03 03:42:39] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.8.tar.gz]
+[2024-06-03 03:42:39] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.9.tar.gz]
+[2024-06-03 03:42:39] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
+[2024-06-03 03:42:39] INFO root fetch - processPackages [fastlmm]: Downloading https://files.pythonhosted.org/packages/87/60/63b761fb761c7638ec310132b5348bfd35dfe2014b2c4a6de38486392bc3/fastlmm-0.6.9b1.tar.gz
+[2024-06-03 03:42:39] INFO root fetch - processPackages [webuiapi]: Remove: archive file [/home/abi/fetcher/tmp/webuiapi-0.9.8-py3-none-any.whl.zip]
+[2024-06-03 03:42:39] INFO root fetch - processPackages [webuiapi]: Remove: archive file [/home/abi/fetcher/tmp/webuiapi-0.9.9-py3-none-any.whl.zip]
+[2024-06-03 03:42:39] INFO root fetch - main [MainThread]: End processing [webuiapi]: success
+[2024-06-03 03:42:39] INFO root fetch - processPackages [fastlmm]: executing diffoscope
+[2024-06-03 03:42:39] INFO root fetch - processPackages [fastlmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlmm-0.6.8b1.tar.gz tmp/fastlmm-0.6.9b1.tar.gz --markdown 20240603/f/fastlmm/0.6.8b1-0.6.9b1/README.md --exclude *.pyd
+[2024-06-03 03:42:42] INFO root fetch - processPackages [fastlmm]: Remove: archive file [/home/abi/fetcher/tmp/fastlmm-0.6.8b1.tar.gz]
+[2024-06-03 03:42:42] INFO root fetch - processPackages [fastlmm]: Remove: archive file [/home/abi/fetcher/tmp/fastlmm-0.6.9b1.tar.gz]
+[2024-06-03 03:42:42] INFO root fetch - main [MainThread]: End processing [fastlmm]: success
+[2024-06-03 03:42:52] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.6.0b4.tar.gz]
+[2024-06-03 03:42:52] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.6.0b5.tar.gz]
+[2024-06-03 03:42:52] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-06-03 03:42:52] INFO root fetch - main [MainThread]: Store serial: [23495452]
