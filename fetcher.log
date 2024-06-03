@@ -6257,3 +6257,51 @@ EOFError: EOF read where object expected
 [2024-06-03 07:05:29] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
 [2024-06-03 07:05:29] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
 [2024-06-03 07:05:29] INFO root fetch - main [MainThread]: Store serial: [23496855]
+[2024-06-03 07:07:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496855]
+[2024-06-03 07:07:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 07:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bootstrap-budget
+[2024-06-03 07:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kwnn
+[2024-06-03 07:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intellipandora
+[2024-06-03 07:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baseball
+[2024-06-03 07:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2024-06-03 07:07:38] INFO root fetch - processPackages [intellipandora]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 07:07:38] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240602] Old Version: [0.1.2.dev20240601]
+[2024-06-03 07:07:38] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-06-03 07:07:38] INFO root fetch - processPackages [kwnn]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 07:07:38] INFO root fetch - processPackages [intellipandora]: Downloading https://files.pythonhosted.org/packages/2d/1d/5757cda09ccea0b473325d9b83b54ce51215f0afe2f637c1953d8198b2db/intellipandora-1.0.8-py3-none-any.whl
+[2024-06-03 07:07:38] INFO root fetch - processPackages [bootstrap-budget]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 07:07:38] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-06-03 07:07:38] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/19/34/b937ae69295eed73f731b0c9617484a372bc2333e430ce2117cf3d2075d5/rapid_pe-0.1.2.dev20240601.tar.gz
+[2024-06-03 07:07:38] INFO root fetch - processPackages [bootstrap-budget]: Downloading https://files.pythonhosted.org/packages/41/dd/26e505a4ed2bea8b556bcbb936158e7dc49b92b93a192f461669aaa22583/bootstrap-budget-0.1.6.tar.gz
+[2024-06-03 07:07:38] INFO root fetch - processPackages [kwnn]: Downloading https://files.pythonhosted.org/packages/1b/1a/1b4695aa3d98b0dd2be0f2b3bc58cd44983eaecf2483ccdb5613e199d7ef/kwnn-1.0.2.tar.gz
+[2024-06-03 07:07:38] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-06-03 07:07:38] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-06-03 07:07:38] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240603/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-06-03 07:07:38] INFO root fetch - processPackages [intellipandora]: Downloading https://files.pythonhosted.org/packages/ac/a0/3e3346c49f25becd17923cab59bf75fd0aa3d3cccc3e0c914774ca0bd7b6/intellipandora-1.0.9-py3-none-any.whl
+[2024-06-03 07:07:38] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/ed/17/4fa239657d75dec826d580dba91ca7ce2206781a66f069521b496ae4918a/rapid_pe-0.1.2.dev20240602.tar.gz
+[2024-06-03 07:07:38] INFO root fetch - processPackages [kwnn]: Downloading https://files.pythonhosted.org/packages/29/f4/5e1d8991d5106a2e9e74175f5fe2f125e907b777d4e74fc4f60c6f3bbb86/kwnn-1.0.3.tar.gz
+[2024-06-03 07:07:38] INFO root fetch - processPackages [intellipandora]: executing diffoscope
+[2024-06-03 07:07:38] INFO root fetch - processPackages [intellipandora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intellipandora-1.0.8-py3-none-any.whl.zip tmp/intellipandora-1.0.9-py3-none-any.whl.zip --markdown 20240603/i/intellipandora/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 07:07:39] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-06-03 07:07:39] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240601.tar.gz tmp/rapid_pe-0.1.2.dev20240602.tar.gz --markdown 20240603/r/rapid-pe/0.1.2.dev20240601-0.1.2.dev20240602/README.md --exclude *.pyd
+[2024-06-03 07:07:39] INFO root fetch - processPackages [bootstrap-budget]: Downloading https://files.pythonhosted.org/packages/54/64/da4951d400ad50d3e07da25ea677ea03fb4dfd41bad8d670d680075cf443/bootstrap_budget-0.1.7.tar.gz
+[2024-06-03 07:07:39] INFO root fetch - processPackages [kwnn]: executing diffoscope
+[2024-06-03 07:07:39] INFO root fetch - processPackages [kwnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwnn-1.0.2.tar.gz tmp/kwnn-1.0.3.tar.gz --markdown 20240603/k/kwnn/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 07:07:39] INFO root fetch - processPackages [bootstrap-budget]: executing diffoscope
+[2024-06-03 07:07:39] INFO root fetch - processPackages [bootstrap-budget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootstrap-budget-0.1.6.tar.gz tmp/bootstrap_budget-0.1.7.tar.gz --markdown 20240603/b/bootstrap-budget/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 07:07:39] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-06-03 07:07:39] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-06-03 07:07:39] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-06-03 07:07:39] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240601.tar.gz]
+[2024-06-03 07:07:39] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240602.tar.gz]
+[2024-06-03 07:07:39] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-06-03 07:07:39] INFO root fetch - processPackages [kwnn]: Remove: archive file [/home/abi/fetcher/tmp/kwnn-1.0.2.tar.gz]
+[2024-06-03 07:07:39] INFO root fetch - processPackages [kwnn]: Remove: archive file [/home/abi/fetcher/tmp/kwnn-1.0.3.tar.gz]
+[2024-06-03 07:07:39] INFO root fetch - main [MainThread]: End processing [kwnn]: success
+[2024-06-03 07:07:39] INFO root fetch - processPackages [intellipandora]: Remove: archive file [/home/abi/fetcher/tmp/intellipandora-1.0.8-py3-none-any.whl.zip]
+[2024-06-03 07:07:39] INFO root fetch - processPackages [intellipandora]: Remove: archive file [/home/abi/fetcher/tmp/intellipandora-1.0.9-py3-none-any.whl.zip]
+[2024-06-03 07:07:39] INFO root fetch - main [MainThread]: End processing [intellipandora]: success
+[2024-06-03 07:07:40] INFO root fetch - processPackages [bootstrap-budget]: Remove: archive file [/home/abi/fetcher/tmp/bootstrap-budget-0.1.6.tar.gz]
+[2024-06-03 07:07:40] INFO root fetch - processPackages [bootstrap-budget]: Remove: archive file [/home/abi/fetcher/tmp/bootstrap_budget-0.1.7.tar.gz]
+[2024-06-03 07:07:40] INFO root fetch - main [MainThread]: End processing [bootstrap-budget]: success
+[2024-06-03 07:07:40] INFO root fetch - main [MainThread]: Store serial: [23496870]
