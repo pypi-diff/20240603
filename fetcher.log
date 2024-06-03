@@ -9561,3 +9561,72 @@ EOFError: EOF read where object expected
 [2024-06-03 10:07:46] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.1.tar.gz]
 [2024-06-03 10:07:47] INFO root fetch - main [MainThread]: End processing [mkdocs-ab6459]: success
 [2024-06-03 10:07:47] INFO root fetch - main [MainThread]: Store serial: [23498219]
+[2024-06-03 10:09:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498219]
+[2024-06-03 10:09:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 10:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-ab6459
+[2024-06-03 10:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.smartweb.core
+[2024-06-03 10:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rlabs-mini-shell
+[2024-06-03 10:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2024-06-03 10:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rqdatac
+[2024-06-03 10:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rxnSMILES4AtomEco
+[2024-06-03 10:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rockai-cli-app
+[2024-06-03 10:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dingodb
+[2024-06-03 10:09:55] INFO root fetch - processPackages [mkdocs-ab6459]: New version: [0.1.1] Old Version: [0.1]
+[2024-06-03 10:09:55] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-06-03 10:09:55] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 10:09:55] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240602] Old Version: [0.4.5.dev20240601]
+[2024-06-03 10:09:56] WARNING root fetch - processPackages [rlabs-mini-shell]: Skipping, unable to determine old version
+[2024-06-03 10:09:56] INFO root fetch - main [MainThread]: End processing [rlabs-mini-shell] error
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rxnSMILES4AtomEco]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 10:09:56] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [mkdocs-ab6459]: Downloading https://files.pythonhosted.org/packages/5c/0a/9e2759674fcc777a8a494f06b25423e4e707bf8a4fcc5a4a3cbfc0c80399/mkdocs_ab6459-0.1.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f3/e8/2eff5f045de6302ba9280966d97c6bd7ba6a71470d9d1d50eca3663a7d59/pyglove-0.4.5.dev20240601.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/50/cf/4f2efdd5a6362b7fd0cc7499d23f0fba4c41b1e069fa580bd514e95cdcc5/imio.smartweb.core-1.2.8.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/a4/96/04ee73ff01b3b25987f5d8e668b4fcbe9a3c9f03958f5f6c4fedb9574e7a/rxnSMILES4AtomEco-1.0.8.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [mkdocs-ab6459]: Downloading https://files.pythonhosted.org/packages/3f/b7/64484aec23435b031d76473f9baad6206ecf9bd7a04685f883449248a0ad/mkdocs_ab6459-0.1.1.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240603/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rqdatac]: New version: [3.0.8] Old Version: [3.0.7.1]
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/9e/92/e9db54b12dc4ca451784b66af1e6427ceaa6cb3b19737a0b7b979d7ff006/rxnSMILES4AtomEco-1.0.9.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/03/d5/636566664ca55ba7076937d8499d8483b9ffea62dcedf4334fe62ba3efeb/pyglove-0.4.5.dev20240602.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-06-03 10:09:56] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240603/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 10:09:56] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/fa/86/df6913561be9d1503fca6dc066040ebfbb358b73c5eaafd6f169cdebe0d2/imio.smartweb.core-1.2.9.tar.gz
+[2024-06-03 10:09:56] INFO root fetch - processPackages [mkdocs-ab6459]: executing diffoscope
+[2024-06-03 10:09:56] INFO root fetch - processPackages [mkdocs-ab6459]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_ab6459-0.1.tar.gz tmp/mkdocs_ab6459-0.1.1.tar.gz --markdown 20240603/m/mkdocs-ab6459/0.1-0.1.1/README.md --exclude *.pyd
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rxnSMILES4AtomEco]: executing diffoscope
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rxnSMILES4AtomEco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxnSMILES4AtomEco-1.0.8.tar.gz tmp/rxnSMILES4AtomEco-1.0.9.tar.gz --markdown 20240603/r/rxnSMILES4AtomEco/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 10:09:56] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/52/f1/1a25d3be20f47de106742b6b48b19e06d7dcabef66af15277729cfb15506/rqdatac-3.0.7.1-cp39-cp39-win_amd64.whl
+[2024-06-03 10:09:56] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-06-03 10:09:56] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240601.tar.gz tmp/pyglove-0.4.5.dev20240602.tar.gz --markdown 20240603/p/pyglove/0.4.5.dev20240601-0.4.5.dev20240602/README.md --exclude *.pyd
+[2024-06-03 10:09:56] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2024-06-03 10:09:56] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.2.8.tar.gz tmp/imio.smartweb.core-1.2.9.tar.gz --markdown 20240603/i/imio.smartweb.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-06-03 10:09:57] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/7e/c4/ddc92ad7cc1e7c0b5cbe36ea70ce4a89ead81d05e5c7635a380021422df1/rqdatac-3.0.8-cp39-cp39-win_amd64.whl
+[2024-06-03 10:09:57] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-06-03 10:09:57] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-06-03 10:09:58] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-06-03 10:09:58] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.8.tar.gz]
+[2024-06-03 10:09:58] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.9.tar.gz]
+[2024-06-03 10:09:58] INFO root fetch - main [MainThread]: End processing [rxnSMILES4AtomEco]: success
+[2024-06-03 10:09:58] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2024-06-03 10:09:58] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-3.0.7.1-cp39-cp39-win_amd64.whl.zip tmp/rqdatac-3.0.8-cp39-cp39-win_amd64.whl.zip --markdown 20240603/r/rqdatac/3.0.7.1-3.0.8/README.md --exclude *.pyd
+[2024-06-03 10:09:58] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-06-03 10:09:58] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-06-03 10:09:58] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-06-03 10:09:58] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.tar.gz]
+[2024-06-03 10:09:58] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.1.tar.gz]
+[2024-06-03 10:09:58] INFO root fetch - main [MainThread]: End processing [mkdocs-ab6459]: success
+[2024-06-03 10:09:59] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240601.tar.gz]
+[2024-06-03 10:09:59] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240602.tar.gz]
+[2024-06-03 10:09:59] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-06-03 10:09:59] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-3.0.7.1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 10:09:59] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-3.0.8-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 10:09:59] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2024-06-03 10:10:00] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.8.tar.gz]
+[2024-06-03 10:10:00] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
+[2024-06-03 10:10:00] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2024-06-03 10:10:00] INFO root fetch - main [MainThread]: Store serial: [23498261]
