@@ -7036,3 +7036,24 @@ EOFError: EOF read where object expected
 [2024-06-03 07:51:12] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.6.0.tar.gz]
 [2024-06-03 07:51:12] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
 [2024-06-03 07:51:12] INFO root fetch - main [MainThread]: Store serial: [23497133]
+[2024-06-03 07:53:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497133]
+[2024-06-03 07:53:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 07:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iac-init
+[2024-06-03 07:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blue-stability
+[2024-06-03 07:53:20] INFO root fetch - processPackages [blue-stability]: New version: [4.42.1] Old Version: [4.41.1]
+[2024-06-03 07:53:20] INFO root fetch - processPackages [iac-init]: New version: [0.9.61] Old Version: [0.9.6]
+[2024-06-03 07:53:20] INFO root fetch - processPackages [blue-stability]: Downloading https://files.pythonhosted.org/packages/6d/34/16a56e96f4d0abc1b511068c426eb5b85754849133e9bd2e05f49dc80c9c/blue_stability-4.41.1.tar.gz
+[2024-06-03 07:53:20] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ce/b1/c05dd8569c2abc9bd3e789f0e96c2a23b790f9e4c0b2b70b5f9b8c3bf5b3/iac_init-0.9.6.tar.gz
+[2024-06-03 07:53:20] INFO root fetch - processPackages [blue-stability]: Downloading https://files.pythonhosted.org/packages/4f/24/26c148e02b6465b4ee7829723337cb033030c3609baa73d163f961559496/blue_stability-4.42.1.tar.gz
+[2024-06-03 07:53:21] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/7d/cd/d8e179799427a970b0ee40f8004dfcc675699c893c1bce2d072106924b96/iac_init-0.9.61.tar.gz
+[2024-06-03 07:53:21] INFO root fetch - processPackages [blue-stability]: executing diffoscope
+[2024-06-03 07:53:21] INFO root fetch - processPackages [blue-stability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_stability-4.41.1.tar.gz tmp/blue_stability-4.42.1.tar.gz --markdown 20240603/b/blue-stability/4.41.1-4.42.1/README.md --exclude *.pyd
+[2024-06-03 07:53:21] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-06-03 07:53:21] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.9.6.tar.gz tmp/iac_init-0.9.61.tar.gz --markdown 20240603/i/iac-init/0.9.6-0.9.61/README.md --exclude *.pyd
+[2024-06-03 07:53:21] INFO root fetch - processPackages [blue-stability]: Remove: archive file [/home/abi/fetcher/tmp/blue_stability-4.41.1.tar.gz]
+[2024-06-03 07:53:21] INFO root fetch - processPackages [blue-stability]: Remove: archive file [/home/abi/fetcher/tmp/blue_stability-4.42.1.tar.gz]
+[2024-06-03 07:53:21] INFO root fetch - main [MainThread]: End processing [blue-stability]: success
+[2024-06-03 07:53:21] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.6.tar.gz]
+[2024-06-03 07:53:21] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.61.tar.gz]
+[2024-06-03 07:53:21] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-06-03 07:53:21] INFO root fetch - main [MainThread]: Store serial: [23497139]
