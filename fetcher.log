@@ -11376,3 +11376,73 @@ EOFError: EOF read where object expected
 [2024-06-03 11:16:53] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
 [2024-06-03 11:16:53] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
 [2024-06-03 11:16:53] INFO root fetch - main [MainThread]: Store serial: [23499349]
+[2024-06-03 11:18:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499349]
+[2024-06-03 11:19:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mfire
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: relative-datetime
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clargs
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-cloudsso20210515
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acetone-nnet
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyciaaw
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-toolkit
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geodeapp-back
+[2024-06-03 11:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Rabbit-in-a-Blender
+[2024-06-03 11:19:03] WARNING root fetch - processPackages [relative-datetime]: Skipping, unable to determine old version
+[2024-06-03 11:19:03] INFO root fetch - main [MainThread]: End processing [relative-datetime] error
+[2024-06-03 11:19:03] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.2.dev4] Old Version: [0.3.2.dev3]
+[2024-06-03 11:19:03] INFO root fetch - processPackages [mfire]: New version: [3.2.post2] Old Version: [3.2.post1]
+[2024-06-03 11:19:03] INFO root fetch - processPackages [geodeapp-back]: New version: [0.0.1rc1] Old Version: [0.0.0]
+[2024-06-03 11:19:03] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/98/47/22feea95889b5b8b813cc2489f8f3c7d1588e4fdefcdbcd251966f764c17/acetone_nnet-0.3.2.dev3.tar.gz
+[2024-06-03 11:19:03] INFO root fetch - processPackages [clargs]: New version: [0.9.0rc1.dev0] Old Version: [0.9.0rc0]
+[2024-06-03 11:19:03] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-06-03 11:19:03] INFO root fetch - processPackages [pyciaaw]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-06-03 11:19:03] INFO root fetch - processPackages [cognite-toolkit]: New version: [0.2.0b2] Old Version: [0.2.0b1]
+[2024-06-03 11:19:03] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.58] Old Version: [0.0.57]
+[2024-06-03 11:19:03] INFO root fetch - processPackages [mfire]: Downloading https://files.pythonhosted.org/packages/3b/38/44c2c5340fca668c62b1c726f2eb6f459f76c980b82cc2107f58b60de829/mfire-3.2.post1.tar.gz
+[2024-06-03 11:19:03] INFO root fetch - processPackages [geodeapp-back]: Downloading https://files.pythonhosted.org/packages/c1/df/d8b181d2a88f2a2b184b7d4bac8acb96c6e5e246bdd26338ed10a88a3403/geodeapp_back-0.0.0.tar.gz
+[2024-06-03 11:19:04] WARNING root fetch - processPackages [mfire]: Skipping package: exceeds size limit 41853917>=10485760
+[2024-06-03 11:19:04] INFO root fetch - main [MainThread]: End processing [mfire] error
+[2024-06-03 11:19:04] INFO root fetch - processPackages [pyciaaw]: Downloading https://files.pythonhosted.org/packages/28/48/b87cb1034d5474a35db0f00772ea5fbf857d0a09e99b50331983d9cf06bf/pyciaaw-0.2.0.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: Downloading https://files.pythonhosted.org/packages/a9/9a/96fbbd1456995a3e7ab4a494f7aa4aea338738ac74975773f00425d66831/alibabacloud_cloudsso20210515-1.5.2.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [cognite-toolkit]: Downloading https://files.pythonhosted.org/packages/e6/5f/d34f8e87475dd31349dabda002e1a1bba0c5f495006e75e8cbb352bdcdf3/cognite_toolkit-0.2.0b1.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/22/83/f9d55bcfa0f383d8b5175ff71e70ad0ef9dd4615b82d251fac28aa90f9d0/acetone_nnet-0.3.2.dev4.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/0c/37/0c36d2bca0cf06079039f0c1f86cb8c57933d8a79cb2735931e9cff459b5/clargs-0.9.0rc0.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/74/eb/a42df98b6114608e6ece5a8af0875da8eb3d63fa9ea1d5e985f4b9bbba38/rabbit_in_a_blender-0.0.57.tar.gz
+[2024-06-03 11:19:04] WARNING root fetch - processPackages [cognite-toolkit]: Skipping package: exceeds size limit 14624666>=10485760
+[2024-06-03 11:19:04] INFO root fetch - main [MainThread]: End processing [cognite-toolkit] error
+[2024-06-03 11:19:04] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-06-03 11:19:04] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.2.dev3.tar.gz tmp/acetone_nnet-0.3.2.dev4.tar.gz --markdown 20240603/a/acetone-nnet/0.3.2.dev3-0.3.2.dev4/README.md --exclude *.pyd
+[2024-06-03 11:19:04] INFO root fetch - processPackages [geodeapp-back]: Downloading https://files.pythonhosted.org/packages/9a/d8/e3452ee33b3e8f1e9bb7600cfdc1a6019ebc198e1236cc5a23e1f6e5f344/geodeapp_back-0.0.1rc1.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: Downloading https://files.pythonhosted.org/packages/e8/85/6828780946212c6faeb86229d600336377070f05a24af861110da3232beb/alibabacloud_cloudsso20210515-1.6.0.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [geodeapp-back]: executing diffoscope
+[2024-06-03 11:19:04] INFO root fetch - processPackages [geodeapp-back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodeapp_back-0.0.0.tar.gz tmp/geodeapp_back-0.0.1rc1.tar.gz --markdown 20240603/g/geodeapp-back/0.0.0-0.0.1rc1/README.md --exclude *.pyd
+[2024-06-03 11:19:04] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/b1/46/a5f7d430f99f27f72be077aa42bdd3f73ed00f986605c6e32df320f8c1b3/clargs-0.9.0rc1.dev0.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [pyciaaw]: Downloading https://files.pythonhosted.org/packages/5f/8d/5f7d65e5fe8bf1c0b7d7f337b180174a703bff7287ea64574b70938016e7/pyciaaw-0.3.0.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: executing diffoscope
+[2024-06-03 11:19:04] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudsso20210515-1.5.2.tar.gz tmp/alibabacloud_cloudsso20210515-1.6.0.tar.gz --markdown 20240603/a/alibabacloud-cloudsso20210515/1.5.2-1.6.0/README.md --exclude *.pyd
+[2024-06-03 11:19:04] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/c1/f9/fcf3794c82092a1f1b5df67f728df8034c6f4da5ffe57a19fdd0d5b2bfa4/rabbit_in_a_blender-0.0.58.tar.gz
+[2024-06-03 11:19:04] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2024-06-03 11:19:04] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.9.0rc0.tar.gz tmp/clargs-0.9.0rc1.dev0.tar.gz --markdown 20240603/c/clargs/0.9.0rc0-0.9.0rc1.dev0/README.md --exclude *.pyd
+[2024-06-03 11:19:04] INFO root fetch - processPackages [pyciaaw]: executing diffoscope
+[2024-06-03 11:19:04] INFO root fetch - processPackages [pyciaaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciaaw-0.2.0.tar.gz tmp/pyciaaw-0.3.0.tar.gz --markdown 20240603/p/pyciaaw/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-06-03 11:19:04] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2024-06-03 11:19:04] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbit_in_a_blender-0.0.57.tar.gz tmp/rabbit_in_a_blender-0.0.58.tar.gz --markdown 20240603/R/Rabbit-in-a-Blender/0.0.57-0.0.58/README.md --exclude *.pyd
+[2024-06-03 11:19:05] INFO root fetch - processPackages [geodeapp-back]: Remove: archive file [/home/abi/fetcher/tmp/geodeapp_back-0.0.0.tar.gz]
+[2024-06-03 11:19:05] INFO root fetch - processPackages [geodeapp-back]: Remove: archive file [/home/abi/fetcher/tmp/geodeapp_back-0.0.1rc1.tar.gz]
+[2024-06-03 11:19:05] INFO root fetch - main [MainThread]: End processing [geodeapp-back]: success
+[2024-06-03 11:19:05] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0rc0.tar.gz]
+[2024-06-03 11:19:05] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0rc1.dev0.tar.gz]
+[2024-06-03 11:19:05] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2024-06-03 11:19:05] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudsso20210515-1.5.2.tar.gz]
+[2024-06-03 11:19:05] INFO root fetch - processPackages [alibabacloud-cloudsso20210515]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudsso20210515-1.6.0.tar.gz]
+[2024-06-03 11:19:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudsso20210515]: success
+[2024-06-03 11:19:05] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev3.tar.gz]
+[2024-06-03 11:19:05] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev4.tar.gz]
+[2024-06-03 11:19:05] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-06-03 11:19:08] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.57.tar.gz]
+[2024-06-03 11:19:08] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.58.tar.gz]
+[2024-06-03 11:19:08] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2024-06-03 11:19:08] INFO root fetch - processPackages [pyciaaw]: Remove: archive file [/home/abi/fetcher/tmp/pyciaaw-0.2.0.tar.gz]
+[2024-06-03 11:19:08] INFO root fetch - processPackages [pyciaaw]: Remove: archive file [/home/abi/fetcher/tmp/pyciaaw-0.3.0.tar.gz]
+[2024-06-03 11:19:08] INFO root fetch - main [MainThread]: End processing [pyciaaw]: success
+[2024-06-03 11:19:08] INFO root fetch - main [MainThread]: Store serial: [23499381]
