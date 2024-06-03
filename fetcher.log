@@ -20525,3 +20525,63 @@ AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
 [2024-06-03 15:16:30] INFO root fetch - processPackages [qt4a]: Remove: archive file [/home/abi/fetcher/tmp/qt4a-3.0.0.tar.gz]
 [2024-06-03 15:16:30] INFO root fetch - main [MainThread]: End processing [qt4a]: success
 [2024-06-03 15:16:30] INFO root fetch - main [MainThread]: Store serial: [23503012]
+[2024-06-03 15:18:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503012]
+[2024-06-03 15:18:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 15:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keyring-proxy
+[2024-06-03 15:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cait
+[2024-06-03 15:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: darwin-py
+[2024-06-03 15:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flagright
+[2024-06-03 15:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ObjectModelFramework
+[2024-06-03 15:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spetlr-tools
+[2024-06-03 15:18:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logos-sdk
+[2024-06-03 15:18:40] INFO root fetch - processPackages [darwin-py]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-06-03 15:18:40] INFO root fetch - processPackages [keyring-proxy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 15:18:40] WARNING root fetch - processPackages [ObjectModelFramework]: Skipping, unable to determine old version
+[2024-06-03 15:18:40] INFO root fetch - main [MainThread]: End processing [ObjectModelFramework] error
+[2024-06-03 15:18:40] INFO root fetch - processPackages [cait]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-06-03 15:18:40] INFO root fetch - processPackages [spetlr-tools]: New version: [0.1.66] Old Version: [0.1.65]
+[2024-06-03 15:18:40] INFO root fetch - processPackages [logos-sdk]: New version: [0.0.25.dev2] Old Version: [0.0.25.dev1]
+[2024-06-03 15:18:40] INFO root fetch - processPackages [flagright]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-06-03 15:18:40] INFO root fetch - processPackages [darwin-py]: Downloading https://files.pythonhosted.org/packages/93/f6/a0986edeb7fdef1e834f8d1de3051e64d7a11b558e66dd6f541d41841c09/darwin_py-0.8.9.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [keyring-proxy]: Downloading https://files.pythonhosted.org/packages/72/07/8d70fa450845d7b10744bc71ac4a725cd9a0da134a4d84c5624b1eaca5b3/keyring_proxy-0.1.8.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [cait]: Downloading https://files.pythonhosted.org/packages/77/0c/9dec3fcb059088474cbfacc24e2c66345b573cbd804cc7258e1f082c1aac/cait-1.2.1-py3-none-any.whl
+[2024-06-03 15:18:40] INFO root fetch - processPackages [flagright]: Downloading https://files.pythonhosted.org/packages/f0/a5/f4efd779a7811e3e85b135cdac782c5d7797d12c1086c664287c4513b917/flagright-1.5.8.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [logos-sdk]: Downloading https://files.pythonhosted.org/packages/62/7c/d8668073cb021581afea24d9096b300ac5be738629120a3232864f2cfa40/logos_sdk-0.0.25.dev1.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [spetlr-tools]: Downloading https://files.pythonhosted.org/packages/a9/7b/66f7c261c6b0dbd345b36c0f31518fe26a8dfbc1e0bac147544fbf68ec33/spetlr-tools-0.1.65.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [keyring-proxy]: Downloading https://files.pythonhosted.org/packages/82/b6/24a5c29560a54fef1167ad51a7ba2954f45141979790f0d6b00754d8b512/keyring_proxy-0.1.9.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [flagright]: Downloading https://files.pythonhosted.org/packages/6c/81/aff14c64f6560d286dee5abbd4eb93542c04f3493c3ebdc94a8c64f1f6e3/flagright-1.5.9.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [cait]: Downloading https://files.pythonhosted.org/packages/71/d4/2d1df72522639adf89b9d68da5cad288d4cb4796f831c4e8ab7a82a9aa6b/cait-1.2.2-py3-none-any.whl
+[2024-06-03 15:18:40] INFO root fetch - processPackages [logos-sdk]: Downloading https://files.pythonhosted.org/packages/58/24/5971fa0db529d12f198471482ebe5fb7ee4938ace2929e08090e60c989c1/logos_sdk-0.0.25.dev2.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [spetlr-tools]: Downloading https://files.pythonhosted.org/packages/7d/c3/637b9a24c0d420225d54bdd4de36d85b4bd39cabab62ff3ef3d7352f50d0/spetlr-tools-0.1.66.tar.gz
+[2024-06-03 15:18:40] INFO root fetch - processPackages [keyring-proxy]: executing diffoscope
+[2024-06-03 15:18:40] INFO root fetch - processPackages [keyring-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_proxy-0.1.8.tar.gz tmp/keyring_proxy-0.1.9.tar.gz --markdown 20240603/k/keyring-proxy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 15:18:40] INFO root fetch - processPackages [flagright]: executing diffoscope
+[2024-06-03 15:18:40] INFO root fetch - processPackages [flagright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagright-1.5.8.tar.gz tmp/flagright-1.5.9.tar.gz --markdown 20240603/f/flagright/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-06-03 15:18:40] INFO root fetch - processPackages [cait]: executing diffoscope
+[2024-06-03 15:18:40] INFO root fetch - processPackages [cait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cait-1.2.1-py3-none-any.whl.zip tmp/cait-1.2.2-py3-none-any.whl.zip --markdown 20240603/c/cait/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-06-03 15:18:40] INFO root fetch - processPackages [spetlr-tools]: executing diffoscope
+[2024-06-03 15:18:40] INFO root fetch - processPackages [spetlr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-tools-0.1.65.tar.gz tmp/spetlr-tools-0.1.66.tar.gz --markdown 20240603/s/spetlr-tools/0.1.65-0.1.66/README.md --exclude *.pyd
+[2024-06-03 15:18:40] INFO root fetch - processPackages [logos-sdk]: executing diffoscope
+[2024-06-03 15:18:40] INFO root fetch - processPackages [logos-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logos_sdk-0.0.25.dev1.tar.gz tmp/logos_sdk-0.0.25.dev2.tar.gz --markdown 20240603/l/logos-sdk/0.0.25.dev1-0.0.25.dev2/README.md --exclude *.pyd
+[2024-06-03 15:18:41] INFO root fetch - processPackages [keyring-proxy]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy-0.1.8.tar.gz]
+[2024-06-03 15:18:41] INFO root fetch - processPackages [keyring-proxy]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy-0.1.9.tar.gz]
+[2024-06-03 15:18:41] INFO root fetch - main [MainThread]: End processing [keyring-proxy]: success
+[2024-06-03 15:18:41] INFO root fetch - processPackages [darwin-py]: Downloading https://files.pythonhosted.org/packages/c5/56/e34f4f67858e6b507fb799ab789e82144a84a51233dfaaea764b8c51ad5d/darwin_py-0.9.0.tar.gz
+[2024-06-03 15:18:41] INFO root fetch - processPackages [darwin-py]: executing diffoscope
+[2024-06-03 15:18:41] INFO root fetch - processPackages [darwin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwin_py-0.8.9.tar.gz tmp/darwin_py-0.9.0.tar.gz --markdown 20240603/d/darwin-py/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-06-03 15:18:41] INFO root fetch - processPackages [logos-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logos_sdk-0.0.25.dev1.tar.gz]
+[2024-06-03 15:18:41] INFO root fetch - processPackages [logos-sdk]: Remove: archive file [/home/abi/fetcher/tmp/logos_sdk-0.0.25.dev2.tar.gz]
+[2024-06-03 15:18:41] INFO root fetch - main [MainThread]: End processing [logos-sdk]: success
+[2024-06-03 15:18:41] INFO root fetch - processPackages [flagright]: Remove: archive file [/home/abi/fetcher/tmp/flagright-1.5.8.tar.gz]
+[2024-06-03 15:18:41] INFO root fetch - processPackages [flagright]: Remove: archive file [/home/abi/fetcher/tmp/flagright-1.5.9.tar.gz]
+[2024-06-03 15:18:41] INFO root fetch - main [MainThread]: End processing [flagright]: success
+[2024-06-03 15:18:41] INFO root fetch - processPackages [spetlr-tools]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-tools-0.1.65.tar.gz]
+[2024-06-03 15:18:41] INFO root fetch - processPackages [spetlr-tools]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-tools-0.1.66.tar.gz]
+[2024-06-03 15:18:41] INFO root fetch - main [MainThread]: End processing [spetlr-tools]: success
+[2024-06-03 15:18:42] INFO root fetch - processPackages [cait]: Remove: archive file [/home/abi/fetcher/tmp/cait-1.2.1-py3-none-any.whl.zip]
+[2024-06-03 15:18:42] INFO root fetch - processPackages [cait]: Remove: archive file [/home/abi/fetcher/tmp/cait-1.2.2-py3-none-any.whl.zip]
+[2024-06-03 15:18:42] INFO root fetch - main [MainThread]: End processing [cait]: success
+[2024-06-03 15:18:42] INFO root fetch - processPackages [darwin-py]: Remove: archive file [/home/abi/fetcher/tmp/darwin_py-0.8.9.tar.gz]
+[2024-06-03 15:18:42] INFO root fetch - processPackages [darwin-py]: Remove: archive file [/home/abi/fetcher/tmp/darwin_py-0.9.0.tar.gz]
+[2024-06-03 15:18:42] INFO root fetch - main [MainThread]: End processing [darwin-py]: success
+[2024-06-03 15:18:42] INFO root fetch - main [MainThread]: Store serial: [23503035]
