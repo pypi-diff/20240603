@@ -2744,3 +2744,33 @@ EOFError: EOF read where object expected
 [2024-06-03 03:25:01] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.5.tar.gz]
 [2024-06-03 03:25:01] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
 [2024-06-03 03:25:01] INFO root fetch - main [MainThread]: Store serial: [23495296]
+[2024-06-03 03:27:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495296]
+[2024-06-03 03:27:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 03:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mini-scikit-learn
+[2024-06-03 03:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erlab
+[2024-06-03 03:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zlgcan-driver-py
+[2024-06-03 03:27:10] INFO root fetch - processPackages [mini-scikit-learn]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 03:27:10] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/72/78/d151332ab3c6de3fd12d5c8dd423e19b67c5a550e265f24b73a2e915f444/mini_scikit_learn-0.1.5.tar.gz
+[2024-06-03 03:27:10] INFO root fetch - processPackages [zlgcan-driver-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 03:27:10] INFO root fetch - processPackages [erlab]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-06-03 03:27:10] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/75/6b/ce2dc633548badb04128cafedcb7214fb42707796553d400824f62a1a89b/erlab-2.6.1.tar.gz
+[2024-06-03 03:27:10] INFO root fetch - processPackages [zlgcan-driver-py]: Downloading https://files.pythonhosted.org/packages/04/ab/5e0247901f2d9f148a11e8322a4379cf613741fcb96bc54624f431880042/zlgcan_driver_py-0.1.1.tar.gz
+[2024-06-03 03:27:10] INFO root fetch - processPackages [mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/d7/32/b7fe25d891ce6668edb406d6727917bcd46e7448366d71961f0af675ca75/mini_scikit_learn-0.1.6.tar.gz
+[2024-06-03 03:27:10] INFO root fetch - processPackages [mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:27:10] INFO root fetch - processPackages [mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_scikit_learn-0.1.5.tar.gz tmp/mini_scikit_learn-0.1.6.tar.gz --markdown 20240603/m/mini-scikit-learn/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 03:27:10] INFO root fetch - processPackages [zlgcan-driver-py]: Downloading https://files.pythonhosted.org/packages/b7/cb/597cdfc892b365b160320b3f41e9183e86fa5b3757f4f9c4bc9cf0b1e95d/zlgcan_driver_py-0.1.2.tar.gz
+[2024-06-03 03:27:10] INFO root fetch - processPackages [zlgcan-driver-py]: executing diffoscope
+[2024-06-03 03:27:10] INFO root fetch - processPackages [zlgcan-driver-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgcan_driver_py-0.1.1.tar.gz tmp/zlgcan_driver_py-0.1.2.tar.gz --markdown 20240603/z/zlgcan-driver-py/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 03:27:11] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/11/1e/38a7bb93445c69cf6aa01f88726f030be4cb7ba40bbcf362f18e8d57831f/erlab-2.6.2.tar.gz
+[2024-06-03 03:27:11] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.5.tar.gz]
+[2024-06-03 03:27:11] INFO root fetch - processPackages [mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mini_scikit_learn-0.1.6.tar.gz]
+[2024-06-03 03:27:11] INFO root fetch - main [MainThread]: End processing [mini-scikit-learn]: success
+[2024-06-03 03:27:11] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-06-03 03:27:11] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.6.1.tar.gz tmp/erlab-2.6.2.tar.gz --markdown 20240603/e/erlab/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-06-03 03:27:11] INFO root fetch - processPackages [zlgcan-driver-py]: Remove: archive file [/home/abi/fetcher/tmp/zlgcan_driver_py-0.1.1.tar.gz]
+[2024-06-03 03:27:11] INFO root fetch - processPackages [zlgcan-driver-py]: Remove: archive file [/home/abi/fetcher/tmp/zlgcan_driver_py-0.1.2.tar.gz]
+[2024-06-03 03:27:11] INFO root fetch - main [MainThread]: End processing [zlgcan-driver-py]: success
+[2024-06-03 03:27:12] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.6.1.tar.gz]
+[2024-06-03 03:27:12] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.6.2.tar.gz]
+[2024-06-03 03:27:12] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-06-03 03:27:12] INFO root fetch - main [MainThread]: Store serial: [23495322]
