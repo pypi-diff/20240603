@@ -6962,3 +6962,47 @@ EOFError: EOF read where object expected
 [2024-06-03 07:46:49] INFO root fetch - main [MainThread]: End processing [gizai]: success
 [2024-06-03 07:46:49] INFO root fetch - main [MainThread]: End processing [gizai]: success
 [2024-06-03 07:46:49] INFO root fetch - main [MainThread]: Store serial: [23497103]
+[2024-06-03 07:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497103]
+[2024-06-03 07:48:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 07:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timmytimesheet
+[2024-06-03 07:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyDNARepeatFinder
+[2024-06-03 07:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toyai
+[2024-06-03 07:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenTTDLab
+[2024-06-03 07:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blue-plugin
+[2024-06-03 07:48:58] INFO root fetch - processPackages [PyDNARepeatFinder]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-06-03 07:48:58] INFO root fetch - processPackages [timmytimesheet]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 07:48:58] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 07:48:58] INFO root fetch - processPackages [blue-plugin]: New version: [3.72.1] Old Version: [3.71.1]
+[2024-06-03 07:48:58] INFO root fetch - processPackages [toyai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 07:48:58] INFO root fetch - processPackages [PyDNARepeatFinder]: Downloading https://files.pythonhosted.org/packages/ea/40/ba90c13f8f87fcc677e37e10e30ce7ab9b473534299bb0989b757c0938e3/pydnarepeatfinder-0.2.6.tar.gz
+[2024-06-03 07:48:58] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-06-03 07:48:58] INFO root fetch - processPackages [timmytimesheet]: Downloading https://files.pythonhosted.org/packages/4b/28/0165ed735a9b8df66911c59beee309bd77288e468a5a235bc91912b05363/timmytimesheet-0.1.1.tar.gz
+[2024-06-03 07:48:58] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/fd/4c/821633199a44bf39d8ff3afa6002dbead461d9d66884ceb45606f2bb8c51/toyai-0.1.8-py3-none-any.whl
+[2024-06-03 07:48:58] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/31/4f/40ea3aef49605994f31e5626384abe7ad7ba6d40fa20452bff5eabb5a0e2/blue_plugin-3.71.1.tar.gz
+[2024-06-03 07:48:58] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/18/d9/7e8965ab53001776b1f7370302d93bd68116fb00deb686b2b9821b9914e6/toyai-0.1.9-py3-none-any.whl
+[2024-06-03 07:48:58] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-06-03 07:48:58] INFO root fetch - processPackages [PyDNARepeatFinder]: Downloading https://files.pythonhosted.org/packages/65/d9/329247246df0d9a095ca8a2e386f1107c941130fde26dafd4c344d2a2cbf/pydnarepeatfinder-0.2.7.tar.gz
+[2024-06-03 07:48:58] ERROR root fetch - processPackages [timmytimesheet]: Unable to fetch info: No such project/version 'timmytimesheet' 0.1.2
+[2024-06-03 07:48:58] INFO root fetch - main [MainThread]: End processing [timmytimesheet] error
+[2024-06-03 07:48:58] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 07:48:58] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.8-py3-none-any.whl.zip tmp/toyai-0.1.9-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 07:48:58] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-06-03 07:48:58] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240603/O/OpenTTDLab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 07:48:58] INFO root fetch - processPackages [PyDNARepeatFinder]: executing diffoscope
+[2024-06-03 07:48:58] INFO root fetch - processPackages [PyDNARepeatFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydnarepeatfinder-0.2.6.tar.gz tmp/pydnarepeatfinder-0.2.7.tar.gz --markdown 20240603/P/PyDNARepeatFinder/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-06-03 07:48:58] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/d0/3c/a64d0ab6818bee790bc9afeb29a6ca7a0c04426ea8ca3a695f8edbe34931/blue_plugin-3.72.1.tar.gz
+[2024-06-03 07:48:58] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-06-03 07:48:58] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.71.1.tar.gz tmp/blue_plugin-3.72.1.tar.gz --markdown 20240603/b/blue-plugin/3.71.1-3.72.1/README.md --exclude *.pyd
+[2024-06-03 07:48:59] INFO root fetch - processPackages [PyDNARepeatFinder]: Remove: archive file [/home/abi/fetcher/tmp/pydnarepeatfinder-0.2.6.tar.gz]
+[2024-06-03 07:48:59] INFO root fetch - processPackages [PyDNARepeatFinder]: Remove: archive file [/home/abi/fetcher/tmp/pydnarepeatfinder-0.2.7.tar.gz]
+[2024-06-03 07:48:59] INFO root fetch - main [MainThread]: End processing [PyDNARepeatFinder]: success
+[2024-06-03 07:48:59] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.8-py3-none-any.whl.zip]
+[2024-06-03 07:48:59] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.9-py3-none-any.whl.zip]
+[2024-06-03 07:48:59] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 07:48:59] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.71.1.tar.gz]
+[2024-06-03 07:48:59] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.72.1.tar.gz]
+[2024-06-03 07:48:59] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-06-03 07:48:59] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-06-03 07:48:59] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-06-03 07:48:59] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-06-03 07:48:59] INFO root fetch - main [MainThread]: Store serial: [23497116]
