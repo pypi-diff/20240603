@@ -4230,3 +4230,51 @@ EOFError: EOF read where object expected
 [2024-06-03 05:08:24] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.9.tar.gz]
 [2024-06-03 05:08:24] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
 [2024-06-03 05:08:24] INFO root fetch - main [MainThread]: Store serial: [23495915]
+[2024-06-03 05:10:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495915]
+[2024-06-03 05:10:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muttfuzz
+[2024-06-03 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wandb_workspaces
+[2024-06-03 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Agentic-Reports
+[2024-06-03 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redbacktechpy
+[2024-06-03 05:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colorcall
+[2024-06-03 05:10:32] INFO root fetch - processPackages [redbacktechpy]: New version: [2024.5.1b7] Old Version: [2024.5.1b6]
+[2024-06-03 05:10:32] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 05:10:32] INFO root fetch - processPackages [wandb_workspaces]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 05:10:32] INFO root fetch - processPackages [colorcall]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 05:10:32] INFO root fetch - processPackages [muttfuzz]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-06-03 05:10:33] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 05:10:33] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/96/8c/49486a0f8b14abec760835cf37b18f68015c77ef563dd69126bbf23cdacb/redbacktechpy-2024.5.1b6.tar.gz
+[2024-06-03 05:10:33] INFO root fetch - processPackages [wandb_workspaces]: Downloading https://files.pythonhosted.org/packages/c8/34/28acb02bf49ab09d5e0312f1cf40228dea74da271d846abebe006dac6b10/wandb_workspaces-0.1.0.tar.gz
+[2024-06-03 05:10:33] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/cf/19/c4da27dc3ef2b5287de6891e587b1ae4696f2214592c8d4abe897dfd0f6a/muttfuzz-0.8.8-py3-none-any.whl
+[2024-06-03 05:10:33] INFO root fetch - processPackages [colorcall]: Downloading https://files.pythonhosted.org/packages/ae/b4/4129fb74652659a0b386a65ea40be585eb46d2117c1223e3b63753397086/colorcall-0.2.1.tar.gz
+[2024-06-03 05:10:33] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/5b/92/44b18eba5d6adf17c07da2776ad015af9ac39d3e55eaf36f736e094a759b/Agentic-Reports-0.0.9.tar.gz
+[2024-06-03 05:10:33] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/d4/8e/3d11ccbc50753992517137006077beeb31b5199210df8886b7218f67764e/redbacktechpy-2024.5.1b7.tar.gz
+[2024-06-03 05:10:33] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 05:10:33] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.8.tar.gz tmp/Agentic-Reports-0.0.9.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 05:10:33] INFO root fetch - processPackages [wandb_workspaces]: Downloading https://files.pythonhosted.org/packages/27/a8/ad399e4f845384997f64723cc7fe7678135af1309d21f4d219e7d733593b/wandb_workspaces-0.1.1.tar.gz
+[2024-06-03 05:10:33] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/3e/70/3ecf10505ff6c2c47a2888ce989a7fcc775103a834ed7d4ad590af752259/muttfuzz-0.8.9-py3-none-any.whl
+[2024-06-03 05:10:33] INFO root fetch - processPackages [redbacktechpy]: executing diffoscope
+[2024-06-03 05:10:33] INFO root fetch - processPackages [redbacktechpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbacktechpy-2024.5.1b6.tar.gz tmp/redbacktechpy-2024.5.1b7.tar.gz --markdown 20240603/r/redbacktechpy/2024.5.1b6-2024.5.1b7/README.md --exclude *.pyd
+[2024-06-03 05:10:33] INFO root fetch - processPackages [colorcall]: Downloading https://files.pythonhosted.org/packages/84/89/16f27924fb2ca1de40679e97389b6e1575ac4e7fecf523444501cb63f4ed/colorcall-0.2.2.tar.gz
+[2024-06-03 05:10:33] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-06-03 05:10:33] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.8-py3-none-any.whl.zip tmp/muttfuzz-0.8.9-py3-none-any.whl.zip --markdown 20240603/m/muttfuzz/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-06-03 05:10:33] INFO root fetch - processPackages [wandb_workspaces]: executing diffoscope
+[2024-06-03 05:10:33] INFO root fetch - processPackages [wandb_workspaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wandb_workspaces-0.1.0.tar.gz tmp/wandb_workspaces-0.1.1.tar.gz --markdown 20240603/w/wandb_workspaces/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 05:10:33] INFO root fetch - processPackages [colorcall]: executing diffoscope
+[2024-06-03 05:10:33] INFO root fetch - processPackages [colorcall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorcall-0.2.1.tar.gz tmp/colorcall-0.2.2.tar.gz --markdown 20240603/c/colorcall/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 05:10:34] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.8.tar.gz]
+[2024-06-03 05:10:34] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.9.tar.gz]
+[2024-06-03 05:10:34] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 05:10:34] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b6.tar.gz]
+[2024-06-03 05:10:34] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.1b7.tar.gz]
+[2024-06-03 05:10:34] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
+[2024-06-03 05:10:34] INFO root fetch - processPackages [wandb_workspaces]: Remove: archive file [/home/abi/fetcher/tmp/wandb_workspaces-0.1.0.tar.gz]
+[2024-06-03 05:10:34] INFO root fetch - processPackages [wandb_workspaces]: Remove: archive file [/home/abi/fetcher/tmp/wandb_workspaces-0.1.1.tar.gz]
+[2024-06-03 05:10:34] INFO root fetch - main [MainThread]: End processing [wandb_workspaces]: success
+[2024-06-03 05:10:34] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.8-py3-none-any.whl.zip]
+[2024-06-03 05:10:34] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.9-py3-none-any.whl.zip]
+[2024-06-03 05:10:34] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-06-03 05:10:34] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.2.1.tar.gz]
+[2024-06-03 05:10:34] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.2.2.tar.gz]
+[2024-06-03 05:10:34] INFO root fetch - main [MainThread]: End processing [colorcall]: success
+[2024-06-03 05:10:34] INFO root fetch - main [MainThread]: Store serial: [23495930]
