@@ -20200,3 +20200,54 @@ AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
 [2024-06-03 15:03:18] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
 [2024-06-03 15:03:18] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
 [2024-06-03 15:03:18] INFO root fetch - main [MainThread]: Store serial: [23502828]
+[2024-06-03 15:05:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502828]
+[2024-06-03 15:05:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 15:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modrinth-downloader
+[2024-06-03 15:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperthought-transfer
+[2024-06-03 15:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ginger-js
+[2024-06-03 15:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zalando-kubectl
+[2024-06-03 15:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tramp
+[2024-06-03 15:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: probabilistic-word-embeddings
+[2024-06-03 15:05:27] INFO root fetch - processPackages [modrinth-downloader]: New version: [0.7] Old Version: [0.6]
+[2024-06-03 15:05:27] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 15:05:27] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2024-06-03 15:05:27] INFO root fetch - processPackages [tramp]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 15:05:27] INFO root fetch - processPackages [hyperthought-transfer]: New version: [1.2.1] Old Version: [1.2]
+[2024-06-03 15:05:27] WARNING root fetch - processPackages [ginger-js]: Skipping, unable to determine old version
+[2024-06-03 15:05:27] INFO root fetch - main [MainThread]: End processing [ginger-js] error
+[2024-06-03 15:05:27] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/d2/7c/1b78759775c0630d99708daef33180b4227fdc2af05e7678327319d5f625/modrinth_downloader-0.6.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/9f/97/5ffede71893e5edd3cd031d6961fa8f2cf18b3acd709215409abcd7df044/probabilistic_word_embeddings-1.9.0.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [tramp]: Downloading https://files.pythonhosted.org/packages/45/59/8e5dacf508a562253e53a44b5eabf20fe099adca3b01542c3509fc806ba4/tramp-0.1.1.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [hyperthought-transfer]: Downloading https://files.pythonhosted.org/packages/75/4f/f7cca1843917e3b87927042eed1311412e55b09533f34b5484873e567d43/hyperthought-transfer-1.2.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/1d/a5/dd327bc6d2001371f513143c7dafa347881b67d0567265120e45109da784/modrinth_downloader-0.7.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [modrinth-downloader]: executing diffoscope
+[2024-06-03 15:05:27] INFO root fetch - processPackages [modrinth-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth_downloader-0.6.tar.gz tmp/modrinth_downloader-0.7.tar.gz --markdown 20240603/m/modrinth-downloader/0.6-0.7/README.md --exclude *.pyd
+[2024-06-03 15:05:27] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2024-06-03 15:05:27] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20240603/z/zalando-kubectl/1.9.3.45-1.9.3.46/README.md --exclude *.pyd
+[2024-06-03 15:05:27] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/1f/c7/0a532bd75b3783c78c5d102ebf652cb598c2216d266a44cf9af3fb287448/probabilistic_word_embeddings-1.9.1.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2024-06-03 15:05:27] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.9.0.tar.gz tmp/probabilistic_word_embeddings-1.9.1.tar.gz --markdown 20240603/p/probabilistic-word-embeddings/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 15:05:27] INFO root fetch - processPackages [tramp]: Downloading https://files.pythonhosted.org/packages/13/1a/aaf7d2bb71796c03e028118a19aacd344a9d3d01a513da76e16e37ab70be/tramp-0.1.2.tar.gz
+[2024-06-03 15:05:27] INFO root fetch - processPackages [hyperthought-transfer]: Downloading https://files.pythonhosted.org/packages/b6/ec/0135a8e5dab6376afb9a488d53598c09db878cd2c50e5ca6adec317fbb20/hyperthought-transfer-1.2.1.tar.gz
+[2024-06-03 15:05:28] INFO root fetch - processPackages [tramp]: executing diffoscope
+[2024-06-03 15:05:28] INFO root fetch - processPackages [tramp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tramp-0.1.1.tar.gz tmp/tramp-0.1.2.tar.gz --markdown 20240603/t/tramp/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 15:05:28] INFO root fetch - processPackages [hyperthought-transfer]: executing diffoscope
+[2024-06-03 15:05:28] INFO root fetch - processPackages [hyperthought-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperthought-transfer-1.2.tar.gz tmp/hyperthought-transfer-1.2.1.tar.gz --markdown 20240603/h/hyperthought-transfer/1.2-1.2.1/README.md --exclude *.pyd
+[2024-06-03 15:05:28] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.6.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.7.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - main [MainThread]: End processing [modrinth-downloader]: success
+[2024-06-03 15:05:28] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2024-06-03 15:05:28] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.0.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - processPackages [probabilistic-word-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/probabilistic_word_embeddings-1.9.1.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2024-06-03 15:05:28] INFO root fetch - processPackages [tramp]: Remove: archive file [/home/abi/fetcher/tmp/tramp-0.1.1.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - processPackages [tramp]: Remove: archive file [/home/abi/fetcher/tmp/tramp-0.1.2.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - main [MainThread]: End processing [tramp]: success
+[2024-06-03 15:05:28] INFO root fetch - processPackages [hyperthought-transfer]: Remove: archive file [/home/abi/fetcher/tmp/hyperthought-transfer-1.2.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - processPackages [hyperthought-transfer]: Remove: archive file [/home/abi/fetcher/tmp/hyperthought-transfer-1.2.1.tar.gz]
+[2024-06-03 15:05:28] INFO root fetch - main [MainThread]: End processing [hyperthought-transfer]: success
+[2024-06-03 15:05:28] INFO root fetch - main [MainThread]: Store serial: [23502851]
