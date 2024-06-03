@@ -13644,3 +13644,99 @@ EOFError: EOF read where object expected
 [2024-06-03 12:20:27] INFO root fetch - processPackages [ros-cdk-cas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cas-1.0.9.tar.gz]
 [2024-06-03 12:20:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-cas]: success
 [2024-06-03 12:20:27] INFO root fetch - main [MainThread]: Store serial: [23500311]
+[2024-06-03 12:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500311]
+[2024-06-03 12:22:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-automation
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neno
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkscreener
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: attackcti
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aixhello
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dve-lumipy-testing
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: marhaba-app
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-paidlc
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hddm-s
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: x10-python-trading
+[2024-06-03 12:22:35] INFO root fetch - processPackages [python-automation]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-06-03 12:22:35] INFO root fetch - processPackages [aixhello]: New version: [4.5] Old Version: [4.4]
+[2024-06-03 12:22:35] INFO root fetch - processPackages [hddm-s]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-06-03 12:22:35] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 12:22:35] INFO root fetch - processPackages [neno]: New version: [0.0.12] Old Version: [0.0.11]
+[2024-06-03 12:22:35] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/d3/b7/71c155f911568cd0978e5e0532ada00980ebfa756501855cb4bcd9482049/aixhello-4.4.tar.gz
+[2024-06-03 12:22:35] INFO root fetch - processPackages [attackcti]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-06-03 12:22:35] WARNING root fetch - processPackages [marhaba-app]: Skipping, unable to determine old version
+[2024-06-03 12:22:35] INFO root fetch - processPackages [marhaba-app]: Start processing: ros-cdk-computenest
+[2024-06-03 12:22:35] INFO root fetch - main [MainThread]: End processing [marhaba-app] error
+[2024-06-03 12:22:35] INFO root fetch - processPackages [ros-cdk-paidlc]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:22:35] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/cc/0d/8f0b4e5b34d4c7b662327ebd986dace04fe309b2655fc58b2a5fdbd8d3fc/hddm_s-1.1.3.tar.gz
+[2024-06-03 12:22:35] INFO root fetch - processPackages [x10-python-trading]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-06-03 12:22:36] INFO root fetch - processPackages [pkscreener]: New version: [0.45.20240603.432] Old Version: [0.45.20240602.430]
+[2024-06-03 12:22:36] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-06-03 12:22:36] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/b7/65/b0efe9e14f47a0550b63ae6b13dc67549684e5409ef4b65558fc0bb84176/python-automation-0.0.0.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [neno]: Downloading https://files.pythonhosted.org/packages/6e/05/62195749273eff53a68a986180e1d23af17cbcac44a26148c0a42fdb27ee/neno-0.0.11.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [ros-cdk-computenest]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:22:36] INFO root fetch - processPackages [attackcti]: Downloading https://files.pythonhosted.org/packages/1c/37/fe560d8bafff7c8860ad9aa279f8dd9924576db9d95a2097afe384a5a285/attackcti-0.4.2.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [ros-cdk-paidlc]: Downloading https://files.pythonhosted.org/packages/fc/5a/d17603e99f8d10168336dbdf10b78932a3ee33c311aa3fb7f928d2a66996/ros-cdk-paidlc-1.0.24.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [x10-python-trading]: Downloading https://files.pythonhosted.org/packages/74/36/01c3fa6f3f9e067d836778b64a4c1610847e53a71e35ad66854a07bfe4e9/x10_python_trading-0.2.0.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/f2/a7/6a7e0a0a514f5c0562f64016009e056ce457b7f2c3ae8c5b91e4f372f0fb/pkscreener-0.45.20240602.430.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/d4/fd/34a775a4fc9704188dfddf2524fb3595218a6642099cb99263e5cd09638d/aixhello-4.5.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-06-03 12:22:36] INFO root fetch - processPackages [ros-cdk-computenest]: Downloading https://files.pythonhosted.org/packages/9b/3a/31508f7c7bccc56c0ce2d41268c910b46e4368bb0bdf89a78ce7fdb35143/ros-cdk-computenest-1.0.24.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/50/38/33d29160c47fdca97b32858e8628276be82155f3288b641ed89c9ab0ba4b/hddm_s-1.1.4.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/cf/f4/97dfe2a80d0d9671f4643c1234d5edc93b66f741bd6af6a760a9be1dce1c/python_automation-0.0.1-py3-none-any.whl
+[2024-06-03 12:22:36] INFO root fetch - processPackages [neno]: Downloading https://files.pythonhosted.org/packages/4d/3b/8de7447bb4cdef1a9aee96332bcd7c27c7fb7f4d5fc963a9cd0a631a24c0/neno-0.0.12.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [attackcti]: Downloading https://files.pythonhosted.org/packages/b3/f1/a01a686e6cac14d7b3352a4d48fe193fdb469c9c7e786185078484e63237/attackcti-0.4.3.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [aixhello]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [aixhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixhello-4.4.tar.gz tmp/aixhello-4.5.tar.gz --markdown 20240603/a/aixhello/4.4-4.5/README.md --exclude *.pyd
+[2024-06-03 12:22:36] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.1.3.tar.gz tmp/hddm_s-1.1.4.tar.gz --markdown 20240603/h/hddm-s/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-06-03 12:22:36] INFO root fetch - processPackages [ros-cdk-paidlc]: Downloading https://files.pythonhosted.org/packages/e3/bf/4f6c8398564f03a84e8038ffbcf62354caa519cba5d232c95f7c45437852/ros-cdk-paidlc-1.0.25.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [x10-python-trading]: Downloading https://files.pythonhosted.org/packages/0b/7e/65789e985b8398accae1bdb5512d7e0ec8195e3c6cb154cfcc0d13ab0f8d/x10_python_trading-0.2.1.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [python-automation]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [python-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-0.0.0.tar.gz tmp/python_automation-0.0.1-py3-none-any.whl.zip --markdown 20240603/p/python-automation/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-06-03 12:22:36] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240603/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 12:22:36] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/4a/b4/611ebf852d545bda71420989e078abd558042d5f1b55d3edb92060866132/pkscreener-0.45.20240603.432.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [neno]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [neno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neno-0.0.11.tar.gz tmp/neno-0.0.12.tar.gz --markdown 20240603/n/neno/0.0.11-0.0.12/README.md --exclude *.pyd
+[2024-06-03 12:22:36] INFO root fetch - processPackages [attackcti]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [attackcti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attackcti-0.4.2.tar.gz tmp/attackcti-0.4.3.tar.gz --markdown 20240603/a/attackcti/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-06-03 12:22:36] INFO root fetch - processPackages [ros-cdk-paidlc]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [ros-cdk-paidlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-paidlc-1.0.24.tar.gz tmp/ros-cdk-paidlc-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-paidlc/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:22:36] INFO root fetch - processPackages [x10-python-trading]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [x10-python-trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x10_python_trading-0.2.0.tar.gz tmp/x10_python_trading-0.2.1.tar.gz --markdown 20240603/x/x10-python-trading/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-06-03 12:22:36] INFO root fetch - processPackages [ros-cdk-computenest]: Downloading https://files.pythonhosted.org/packages/56/cc/faea501b9e039175cba9fcc433093cf1f4430b834da17af3370fba01f38b/ros-cdk-computenest-1.0.25.tar.gz
+[2024-06-03 12:22:36] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-06-03 12:22:36] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.45.20240602.430.tar.gz tmp/pkscreener-0.45.20240603.432.tar.gz --markdown 20240603/p/pkscreener/0.45.20240602.430-0.45.20240603.432/README.md --exclude *.pyd
+[2024-06-03 12:22:37] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.3.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.4.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-06-03 12:22:37] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.4.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.5.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - main [MainThread]: End processing [aixhello]: success
+[2024-06-03 12:22:37] INFO root fetch - processPackages [ros-cdk-computenest]: executing diffoscope
+[2024-06-03 12:22:37] INFO root fetch - processPackages [ros-cdk-computenest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-computenest-1.0.24.tar.gz tmp/ros-cdk-computenest-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-computenest/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:22:37] INFO root fetch - processPackages [attackcti]: Remove: archive file [/home/abi/fetcher/tmp/attackcti-0.4.2.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - processPackages [attackcti]: Remove: archive file [/home/abi/fetcher/tmp/attackcti-0.4.3.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - main [MainThread]: End processing [attackcti]: success
+[2024-06-03 12:22:37] INFO root fetch - processPackages [ros-cdk-paidlc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-paidlc-1.0.24.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - processPackages [ros-cdk-paidlc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-paidlc-1.0.25.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - main [MainThread]: End processing [ros-cdk-paidlc]: success
+[2024-06-03 12:22:37] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.0.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python_automation-0.0.1-py3-none-any.whl.zip]
+[2024-06-03 12:22:37] INFO root fetch - main [MainThread]: End processing [python-automation]: success
+[2024-06-03 12:22:37] INFO root fetch - processPackages [x10-python-trading]: Remove: archive file [/home/abi/fetcher/tmp/x10_python_trading-0.2.0.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - processPackages [x10-python-trading]: Remove: archive file [/home/abi/fetcher/tmp/x10_python_trading-0.2.1.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - main [MainThread]: End processing [x10-python-trading]: success
+[2024-06-03 12:22:37] INFO root fetch - processPackages [neno]: Remove: archive file [/home/abi/fetcher/tmp/neno-0.0.11.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - processPackages [neno]: Remove: archive file [/home/abi/fetcher/tmp/neno-0.0.12.tar.gz]
+[2024-06-03 12:22:37] INFO root fetch - main [MainThread]: End processing [neno]: success
+[2024-06-03 12:22:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240602.430.tar.gz]
+[2024-06-03 12:22:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240603.432.tar.gz]
+[2024-06-03 12:22:38] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-06-03 12:22:38] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-06-03 12:22:38] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-06-03 12:22:38] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-06-03 12:22:38] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.24.tar.gz]
+[2024-06-03 12:22:38] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.25.tar.gz]
+[2024-06-03 12:22:38] INFO root fetch - main [MainThread]: End processing [ros-cdk-computenest]: success
+[2024-06-03 12:22:38] INFO root fetch - main [MainThread]: Store serial: [23500342]
