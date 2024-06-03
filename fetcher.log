@@ -10236,3 +10236,66 @@ EOFError: EOF read where object expected
 [2024-06-03 10:37:05] INFO root fetch - processPackages [squawk-cli]: Remove: archive file [/home/abi/fetcher/tmp/squawk_cli-0.29.0-py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip]
 [2024-06-03 10:37:05] INFO root fetch - main [MainThread]: End processing [squawk-cli]: success
 [2024-06-03 10:37:05] INFO root fetch - main [MainThread]: Store serial: [23498576]
+[2024-06-03 10:39:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498576]
+[2024-06-03 10:39:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 10:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safeguard
+[2024-06-03 10:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NetworkCommander
+[2024-06-03 10:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuzu
+[2024-06-03 10:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rockai-cli-app
+[2024-06-03 10:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rlabs-mini-cli
+[2024-06-03 10:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mongodb-orm
+[2024-06-03 10:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: extmaillogin
+[2024-06-03 10:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: triton-copilot
+[2024-06-03 10:39:21] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-06-03 10:39:21] WARNING root fetch - processPackages [safeguard]: Skipping, unable to determine old version
+[2024-06-03 10:39:21] INFO root fetch - main [MainThread]: End processing [safeguard] error
+[2024-06-03 10:39:21] WARNING root fetch - processPackages [triton-copilot]: Skipping, unable to determine old version
+[2024-06-03 10:39:21] INFO root fetch - main [MainThread]: End processing [triton-copilot] error
+[2024-06-03 10:39:21] INFO root fetch - processPackages [rlabs-mini-cli]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-06-03 10:39:21] INFO root fetch - processPackages [NetworkCommander]: New version: [0.4.7] Old Version: [0.4.2]
+[2024-06-03 10:39:21] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev9] Old Version: [0.4.3.dev8]
+[2024-06-03 10:39:22] INFO root fetch - processPackages [extmaillogin]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-06-03 10:39:22] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a1] Old Version: [0.1.0]
+[2024-06-03 10:39:22] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [NetworkCommander]: Downloading https://files.pythonhosted.org/packages/53/58/25741628ba2d51a10a76962d162a625e468d53266d1f6a273284b153af31/networkcommander-0.4.2.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/8c/65/7162eaa21f2086d35586ac13298c2ee7127cec11827c394a1c4a3a08801e/kuzu-0.4.3.dev8.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [rlabs-mini-cli]: Downloading https://files.pythonhosted.org/packages/65/40/ae52345d90a176f4cb994506b9406c01297327f4c1846943ae2fee07cbc2/rlabs_mini_cli-0.0.3.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/d4/d9/a5c908eb9f8271985429121ebab497f101329c81bba96335237809ec299f/mongodb_orm-0.1.0.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [extmaillogin]: Downloading https://files.pythonhosted.org/packages/49/a9/84d9a42510d0bc6ec27fee5071aa1a52d697c8402d4e3bbd67b96b1e90b3/extmaillogin-0.2.1.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [NetworkCommander]: Downloading https://files.pythonhosted.org/packages/ba/52/771b62002ac8d91b605b8e2ae9e9003880aa366ce5724c935294aa09600f/networkcommander-0.4.7-py3-none-any.whl
+[2024-06-03 10:39:22] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-06-03 10:39:22] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240603/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-06-03 10:39:22] INFO root fetch - processPackages [NetworkCommander]: executing diffoscope
+[2024-06-03 10:39:22] INFO root fetch - processPackages [NetworkCommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networkcommander-0.4.2.tar.gz tmp/networkcommander-0.4.7-py3-none-any.whl.zip --markdown 20240603/N/NetworkCommander/0.4.2-0.4.7/README.md --exclude *.pyd
+[2024-06-03 10:39:22] INFO root fetch - processPackages [rlabs-mini-cli]: Downloading https://files.pythonhosted.org/packages/00/89/c8b060d46c214f57254fd3ce5c3e42242c3297e66836ba56ba7edb12b1f5/rlabs_mini_cli-0.1.0.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/6e/1f/c1241e9569cb096add47dfc527dbcdb72a01ad3442ec4102a53625e994f4/mongodb_orm-0.1.0a1.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [extmaillogin]: Downloading https://files.pythonhosted.org/packages/c5/04/63136e470c176200be884561e3841781079d7a9a5882f7c9b735cdd8909e/extmaillogin-0.3.0.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [rlabs-mini-cli]: executing diffoscope
+[2024-06-03 10:39:22] INFO root fetch - processPackages [rlabs-mini-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlabs_mini_cli-0.0.3.tar.gz tmp/rlabs_mini_cli-0.1.0.tar.gz --markdown 20240603/r/rlabs-mini-cli/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-06-03 10:39:22] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/df/58/55a184ddd23fb47a5a837c33035095e3fcffa62119ae3557cf8e8b4f7f0c/kuzu-0.4.3.dev9.tar.gz
+[2024-06-03 10:39:22] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 10:39:22] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0.tar.gz tmp/mongodb_orm-0.1.0a1.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0-0.1.0a1/README.md --exclude *.pyd
+[2024-06-03 10:39:22] INFO root fetch - processPackages [extmaillogin]: executing diffoscope
+[2024-06-03 10:39:22] INFO root fetch - processPackages [extmaillogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extmaillogin-0.2.1.tar.gz tmp/extmaillogin-0.3.0.tar.gz --markdown 20240603/e/extmaillogin/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-06-03 10:39:22] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-06-03 10:39:22] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev8.tar.gz tmp/kuzu-0.4.3.dev9.tar.gz --markdown 20240603/k/kuzu/0.4.3.dev8-0.4.3.dev9/README.md --exclude *.pyd
+[2024-06-03 10:39:23] INFO root fetch - processPackages [NetworkCommander]: Remove: archive file [/home/abi/fetcher/tmp/networkcommander-0.4.2.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - processPackages [NetworkCommander]: Remove: archive file [/home/abi/fetcher/tmp/networkcommander-0.4.7-py3-none-any.whl.zip]
+[2024-06-03 10:39:23] INFO root fetch - main [MainThread]: End processing [NetworkCommander]: success
+[2024-06-03 10:39:23] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-06-03 10:39:23] INFO root fetch - processPackages [rlabs-mini-cli]: Remove: archive file [/home/abi/fetcher/tmp/rlabs_mini_cli-0.0.3.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - processPackages [rlabs-mini-cli]: Remove: archive file [/home/abi/fetcher/tmp/rlabs_mini_cli-0.1.0.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - main [MainThread]: End processing [rlabs-mini-cli]: success
+[2024-06-03 10:39:23] INFO root fetch - processPackages [extmaillogin]: Remove: archive file [/home/abi/fetcher/tmp/extmaillogin-0.2.1.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - processPackages [extmaillogin]: Remove: archive file [/home/abi/fetcher/tmp/extmaillogin-0.3.0.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - main [MainThread]: End processing [extmaillogin]: success
+[2024-06-03 10:39:23] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a1.tar.gz]
+[2024-06-03 10:39:23] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 10:39:32] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev8.tar.gz]
+[2024-06-03 10:39:32] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
+[2024-06-03 10:39:32] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-06-03 10:39:32] INFO root fetch - main [MainThread]: Store serial: [23498659]
