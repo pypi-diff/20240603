@@ -11799,3 +11799,78 @@ EOFError: EOF read where object expected
 [2024-06-03 11:34:33] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.86.0.tar.gz]
 [2024-06-03 11:34:33] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-06-03 11:34:33] INFO root fetch - main [MainThread]: Store serial: [23499535]
+[2024-06-03 11:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499535]
+[2024-06-03 11:36:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akride
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: balanco-library
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: livepriceofgold-usa-Rx168059
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tileclipper
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphicle
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mteb
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biobb-haddock
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: out-of-domain-library
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-unleash
+[2024-06-03 11:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: draive
+[2024-06-03 11:36:42] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: New version: [2024.0.0.3.2] Old Version: [2024.0.0.3.1]
+[2024-06-03 11:36:42] INFO root fetch - processPackages [akride]: New version: [0.4.23] Old Version: [0.4.16]
+[2024-06-03 11:36:42] WARNING root fetch - processPackages [out-of-domain-library]: Skipping, unable to determine old version
+[2024-06-03 11:36:42] INFO root fetch - main [MainThread]: End processing [out-of-domain-library] error
+[2024-06-03 11:36:42] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-06-03 11:36:42] INFO root fetch - processPackages [draive]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 11:36:42] INFO root fetch - processPackages [tileclipper]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 11:36:42] WARNING root fetch - processPackages [balanco-library]: Skipping, unable to determine old version
+[2024-06-03 11:36:42] INFO root fetch - main [MainThread]: End processing [balanco-library] error
+[2024-06-03 11:36:42] INFO root fetch - processPackages [flask-unleash]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-06-03 11:36:42] WARNING root fetch - processPackages [biobb-haddock]: Skipping, unable to determine old version
+[2024-06-03 11:36:42] INFO root fetch - processPackages [graphicle]: New version: [0.4.0] Old Version: [0.3b1]
+[2024-06-03 11:36:42] INFO root fetch - main [MainThread]: End processing [biobb-haddock] error
+[2024-06-03 11:36:42] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/9f/09/f372ace397d2c07c74b4c81ea186f28ba418de1d903848ad4a9f27aa8541/livepriceofgold_usa_rx168059-2024.0.0.3.1.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [akride]: Downloading https://files.pythonhosted.org/packages/ca/d8/3531117cfec1dd71d5418f607cb536b9c7ec3f3fbd71d15a064eb0f5f5ee/akride-0.4.16-py3-none-any.whl
+[2024-06-03 11:36:43] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [tileclipper]: Downloading https://files.pythonhosted.org/packages/f9/f5/61df2729405554938f11f65e5e69fd2dc47f914e3e6ec8df7ae08e13a775/tileclipper-1.0.1.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [flask-unleash]: Downloading https://files.pythonhosted.org/packages/cc/b0/145e5c81bc1c9ddf0509f51695b1895fbd49ce8f2c1c1372fde991fe0657/flask_unleash-2.0.0.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [graphicle]: Downloading https://files.pythonhosted.org/packages/e4/fd/87282847068bfe0bda68f191b9ddfa635046c0d789c5c98de91cb40be29d/graphicle-0.3b1.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [draive]: Downloading https://files.pythonhosted.org/packages/e8/45/5d05ebc7a4d108588289df8cb46fb9e63092e23bc2eaa8cd7f2a1659bdf6/draive-0.9.2.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [akride]: Downloading https://files.pythonhosted.org/packages/51/ac/92084106eae84c455b6623646141a19239444d21cdfe8e55307084b44a5b/akride-0.4.23-py3-none-any.whl
+[2024-06-03 11:36:43] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/9e/e3/08dd12d646f0ac78c30677789ec1806fd6df8d98ccc58346706bce56e906/livepriceofgold_usa_rx168059-2024.0.0.3.2.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [akride]: executing diffoscope
+[2024-06-03 11:36:43] INFO root fetch - processPackages [akride]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akride-0.4.16-py3-none-any.whl.zip tmp/akride-0.4.23-py3-none-any.whl.zip --markdown 20240603/a/akride/0.4.16-0.4.23/README.md --exclude *.pyd
+[2024-06-03 11:36:43] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: executing diffoscope
+[2024-06-03 11:36:43] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livepriceofgold_usa_rx168059-2024.0.0.3.1.tar.gz tmp/livepriceofgold_usa_rx168059-2024.0.0.3.2.tar.gz --markdown 20240603/l/livepriceofgold-usa-Rx168059/2024.0.0.3.1-2024.0.0.3.2/README.md --exclude *.pyd
+[2024-06-03 11:36:43] INFO root fetch - processPackages [flask-unleash]: Downloading https://files.pythonhosted.org/packages/2d/0f/d7cabff7c4b995449d82deb7c3c20070812d101bd04774c5bdbb39eff3a0/flask_unleash-2.1.0.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [tileclipper]: Downloading https://files.pythonhosted.org/packages/b7/a0/953bab4064a09b06c7b87affd16cfc937fa263b65ac733b56b3e273eaa96/tileclipper-1.0.2.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [draive]: Downloading https://files.pythonhosted.org/packages/12/45/bf12032c508f54274e377278b0c3dd9bd4818418afe99095199daf6ae9cc/draive-0.9.3.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [graphicle]: Downloading https://files.pythonhosted.org/packages/2d/65/2bb9e0b2f61f988440563151414f5e0ef7b43c71b5c853a4eebbfd2ce6f6/graphicle-0.4.0.tar.gz
+[2024-06-03 11:36:43] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-06-03 11:36:43] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240603/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-06-03 11:36:43] INFO root fetch - processPackages [tileclipper]: executing diffoscope
+[2024-06-03 11:36:43] INFO root fetch - processPackages [tileclipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tileclipper-1.0.1.tar.gz tmp/tileclipper-1.0.2.tar.gz --markdown 20240603/t/tileclipper/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 11:36:43] INFO root fetch - processPackages [flask-unleash]: executing diffoscope
+[2024-06-03 11:36:43] INFO root fetch - processPackages [flask-unleash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_unleash-2.0.0.tar.gz tmp/flask_unleash-2.1.0.tar.gz --markdown 20240603/f/flask-unleash/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-06-03 11:36:44] INFO root fetch - processPackages [draive]: executing diffoscope
+[2024-06-03 11:36:44] INFO root fetch - processPackages [draive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draive-0.9.2.tar.gz tmp/draive-0.9.3.tar.gz --markdown 20240603/d/draive/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 11:36:44] INFO root fetch - processPackages [graphicle]: executing diffoscope
+[2024-06-03 11:36:44] INFO root fetch - processPackages [graphicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphicle-0.3b1.tar.gz tmp/graphicle-0.4.0.tar.gz --markdown 20240603/g/graphicle/0.3b1-0.4.0/README.md --exclude *.pyd
+[2024-06-03 11:36:45] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.1.tar.gz]
+[2024-06-03 11:36:45] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.2.tar.gz]
+[2024-06-03 11:36:45] INFO root fetch - main [MainThread]: End processing [livepriceofgold-usa-Rx168059]: success
+[2024-06-03 11:36:45] INFO root fetch - processPackages [flask-unleash]: Remove: archive file [/home/abi/fetcher/tmp/flask_unleash-2.0.0.tar.gz]
+[2024-06-03 11:36:45] INFO root fetch - processPackages [flask-unleash]: Remove: archive file [/home/abi/fetcher/tmp/flask_unleash-2.1.0.tar.gz]
+[2024-06-03 11:36:45] INFO root fetch - main [MainThread]: End processing [flask-unleash]: success
+[2024-06-03 11:36:45] INFO root fetch - processPackages [tileclipper]: Remove: archive file [/home/abi/fetcher/tmp/tileclipper-1.0.1.tar.gz]
+[2024-06-03 11:36:45] INFO root fetch - processPackages [tileclipper]: Remove: archive file [/home/abi/fetcher/tmp/tileclipper-1.0.2.tar.gz]
+[2024-06-03 11:36:45] INFO root fetch - main [MainThread]: End processing [tileclipper]: success
+[2024-06-03 11:36:45] INFO root fetch - processPackages [graphicle]: Remove: archive file [/home/abi/fetcher/tmp/graphicle-0.3b1.tar.gz]
+[2024-06-03 11:36:45] INFO root fetch - processPackages [graphicle]: Remove: archive file [/home/abi/fetcher/tmp/graphicle-0.4.0.tar.gz]
+[2024-06-03 11:36:46] INFO root fetch - main [MainThread]: End processing [graphicle]: success
+[2024-06-03 11:36:46] INFO root fetch - processPackages [draive]: Remove: archive file [/home/abi/fetcher/tmp/draive-0.9.2.tar.gz]
+[2024-06-03 11:36:46] INFO root fetch - processPackages [draive]: Remove: archive file [/home/abi/fetcher/tmp/draive-0.9.3.tar.gz]
+[2024-06-03 11:36:46] INFO root fetch - main [MainThread]: End processing [draive]: success
+[2024-06-03 11:36:46] INFO root fetch - processPackages [akride]: Remove: archive file [/home/abi/fetcher/tmp/akride-0.4.16-py3-none-any.whl.zip]
+[2024-06-03 11:36:46] INFO root fetch - processPackages [akride]: Remove: archive file [/home/abi/fetcher/tmp/akride-0.4.23-py3-none-any.whl.zip]
+[2024-06-03 11:36:46] INFO root fetch - main [MainThread]: End processing [akride]: success
+[2024-06-03 11:36:48] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-06-03 11:36:48] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-06-03 11:36:48] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-06-03 11:36:48] INFO root fetch - main [MainThread]: Store serial: [23499565]
