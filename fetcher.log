@@ -3242,3 +3242,60 @@ EOFError: EOF read where object expected
 [2024-06-03 03:56:25] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.139.1.tar.gz]
 [2024-06-03 03:56:25] INFO root fetch - main [MainThread]: End processing [ferfereh]: success
 [2024-06-03 03:56:25] INFO root fetch - main [MainThread]: Store serial: [23495522]
+[2024-06-03 03:58:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495522]
+[2024-06-03 03:58:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notebooks-and-scripts
+[2024-06-03 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roofAI
+[2024-06-03 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liteium
+[2024-06-03 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lunary
+[2024-06-03 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: verinfast
+[2024-06-03 03:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gumbi
+[2024-06-03 03:58:33] INFO root fetch - processPackages [lunary]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 03:58:33] INFO root fetch - processPackages [gumbi]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 03:58:33] INFO root fetch - processPackages [liteium]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 03:58:33] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/7d/d1/1882edac83d811cc9e0bd90969299cb0c7dbe716b2d7a7d285ab04998b52/lunary-1.0.8.tar.gz
+[2024-06-03 03:58:33] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/da/8b/d8f1d8c7ee601b23862fbceda543119e2a72daeaed19962221db4f787fd7/gumbi-0.2.1.tar.gz
+[2024-06-03 03:58:33] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.497.1] Old Version: [4.496.1]
+[2024-06-03 03:58:33] INFO root fetch - processPackages [roofAI]: New version: [4.35.1] Old Version: [4.34.1]
+[2024-06-03 03:58:33] INFO root fetch - processPackages [verinfast]: New version: [2023.8.15184132] Old Version: [0.6.9]
+[2024-06-03 03:58:33] INFO root fetch - processPackages [liteium]: Downloading https://files.pythonhosted.org/packages/ee/9a/2ad2454524ed166a8fcaf74f07ed530e141e65dbeea14229fe429baddae3/liteium-1.0.4.tar.gz
+[2024-06-03 03:58:33] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/7e/79/563b968f7a8ae5114b4d64918c8f955a6304c2107bb64837179143d34289/lunary-1.0.9.tar.gz
+[2024-06-03 03:58:33] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/eb/f7/90add71bab4ea0bf28bc171c273ba123c491651601148523a63cce83c8ed/roofai-4.34.1.tar.gz
+[2024-06-03 03:58:33] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/97/12/da4f553db1898c137283aeb35d97ac0c2367783240b7a9b736a0744d7545/notebooks_and_scripts-4.496.1.tar.gz
+[2024-06-03 03:58:33] INFO root fetch - processPackages [verinfast]: Downloading https://files.pythonhosted.org/packages/70/a6/1d923a82e74a70a9215ac612d5eee05ed405ce8f5f131fa4f6918fe17584/verinfast-0.6.9.tar.gz
+[2024-06-03 03:58:33] INFO root fetch - processPackages [lunary]: executing diffoscope
+[2024-06-03 03:58:33] INFO root fetch - processPackages [lunary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunary-1.0.8.tar.gz tmp/lunary-1.0.9.tar.gz --markdown 20240603/l/lunary/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 03:58:33] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/e4/dc/4c7fe38b095b6274de45bff19b43134d5e8798ad270a301d09c2f381a3c9/gumbi-0.2.2.tar.gz
+[2024-06-03 03:58:33] INFO root fetch - processPackages [liteium]: Downloading https://files.pythonhosted.org/packages/e0/cc/1324b4890bce6e1951a8ae9f9b3c1f009d3f44628426515c8b82d7df676c/liteium-1.0.5.tar.gz
+[2024-06-03 03:58:34] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/8c/4e/10504b79c970e861683ca313f08e0cfed4ef264fa2563abce751b22de483/roofai-4.35.1.tar.gz
+[2024-06-03 03:58:34] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/5a/8d/ac52059c08c4d6d833186fb8e28369fbee6ad2e2c6bc037c05ee50df43ae/notebooks_and_scripts-4.497.1.tar.gz
+[2024-06-03 03:58:34] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-06-03 03:58:34] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.496.1.tar.gz tmp/notebooks_and_scripts-4.497.1.tar.gz --markdown 20240603/n/notebooks-and-scripts/4.496.1-4.497.1/README.md --exclude *.pyd
+[2024-06-03 03:58:34] INFO root fetch - processPackages [verinfast]: Downloading https://files.pythonhosted.org/packages/34/69/b87d3b13225dd2fef7abbc0046cdc38b250f084d528d462a87f3992b09f8/verinfast-2023.8.15184132.tar.gz
+[2024-06-03 03:58:34] INFO root fetch - processPackages [liteium]: executing diffoscope
+[2024-06-03 03:58:34] INFO root fetch - processPackages [liteium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteium-1.0.4.tar.gz tmp/liteium-1.0.5.tar.gz --markdown 20240603/l/liteium/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 03:58:34] INFO root fetch - processPackages [gumbi]: executing diffoscope
+[2024-06-03 03:58:34] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-06-03 03:58:34] INFO root fetch - processPackages [gumbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gumbi-0.2.1.tar.gz tmp/gumbi-0.2.2.tar.gz --markdown 20240603/g/gumbi/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 03:58:34] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofai-4.34.1.tar.gz tmp/roofai-4.35.1.tar.gz --markdown 20240603/r/roofAI/4.34.1-4.35.1/README.md --exclude *.pyd
+[2024-06-03 03:58:34] INFO root fetch - processPackages [verinfast]: executing diffoscope
+[2024-06-03 03:58:34] INFO root fetch - processPackages [verinfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verinfast-0.6.9.tar.gz tmp/verinfast-2023.8.15184132.tar.gz --markdown 20240603/v/verinfast/0.6.9-2023.8.15184132/README.md --exclude *.pyd
+[2024-06-03 03:58:34] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.8.tar.gz]
+[2024-06-03 03:58:34] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.9.tar.gz]
+[2024-06-03 03:58:34] INFO root fetch - main [MainThread]: End processing [lunary]: success
+[2024-06-03 03:58:34] INFO root fetch - processPackages [liteium]: Remove: archive file [/home/abi/fetcher/tmp/liteium-1.0.4.tar.gz]
+[2024-06-03 03:58:34] INFO root fetch - processPackages [liteium]: Remove: archive file [/home/abi/fetcher/tmp/liteium-1.0.5.tar.gz]
+[2024-06-03 03:58:34] INFO root fetch - main [MainThread]: End processing [liteium]: success
+[2024-06-03 03:58:34] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.496.1.tar.gz]
+[2024-06-03 03:58:34] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.497.1.tar.gz]
+[2024-06-03 03:58:34] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-06-03 03:58:34] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.34.1.tar.gz]
+[2024-06-03 03:58:34] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.35.1.tar.gz]
+[2024-06-03 03:58:34] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-06-03 03:58:35] INFO root fetch - processPackages [verinfast]: Remove: archive file [/home/abi/fetcher/tmp/verinfast-0.6.9.tar.gz]
+[2024-06-03 03:58:35] INFO root fetch - processPackages [verinfast]: Remove: archive file [/home/abi/fetcher/tmp/verinfast-2023.8.15184132.tar.gz]
+[2024-06-03 03:58:35] INFO root fetch - main [MainThread]: End processing [verinfast]: success
+[2024-06-03 03:58:35] INFO root fetch - processPackages [gumbi]: Remove: archive file [/home/abi/fetcher/tmp/gumbi-0.2.1.tar.gz]
+[2024-06-03 03:58:35] INFO root fetch - processPackages [gumbi]: Remove: archive file [/home/abi/fetcher/tmp/gumbi-0.2.2.tar.gz]
+[2024-06-03 03:58:35] INFO root fetch - main [MainThread]: End processing [gumbi]: success
+[2024-06-03 03:58:35] INFO root fetch - main [MainThread]: Store serial: [23495540]
