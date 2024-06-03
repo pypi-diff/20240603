@@ -8169,3 +8169,33 @@ EOFError: EOF read where object expected
 [2024-06-03 09:04:17] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.6.3.1.tar.gz]
 [2024-06-03 09:04:17] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2024-06-03 09:04:17] INFO root fetch - main [MainThread]: Store serial: [23497593]
+[2024-06-03 09:06:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497593]
+[2024-06-03 09:06:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 09:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-06-03 09:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-common-subject
+[2024-06-03 09:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DIRAC
+[2024-06-03 09:06:26] INFO root fetch - processPackages [pytest-common-subject]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-06-03 09:06:26] INFO root fetch - processPackages [morphdb-utils]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-06-03 09:06:26] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/b3/94/7670305fe63a2d75c99bc4707a04301d6cb12beecb7063b1db211df2696e/morphdb_utils-0.2.4.tar.gz
+[2024-06-03 09:06:26] INFO root fetch - processPackages [DIRAC]: New version: [9.0.0a6] Old Version: [9.0.0a5]
+[2024-06-03 09:06:26] INFO root fetch - processPackages [pytest-common-subject]: Downloading https://files.pythonhosted.org/packages/24/96/62666e7b9b3517055bf6d11f6e4ecf2ac50fa63e1b8275677afae00cb349/pytest-common-subject-1.0.5.tar.gz
+[2024-06-03 09:06:26] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/ad/9c/c979f174feac43a73ee5f2c2733bab67e6c1c61d2f6facb95206e5c1e185/DIRAC-9.0.0a5.tar.gz
+[2024-06-03 09:06:26] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/c4/d97e66fee7386a97857c0df72c38f81bfa793375b658e98b6735af04bd66/morphdb_utils-0.2.5.tar.gz
+[2024-06-03 09:06:26] INFO root fetch - processPackages [pytest-common-subject]: Downloading https://files.pythonhosted.org/packages/bd/31/a3b99affc430e3c4be0720a8b18ca136147b7fe6effed90015384d98f14e/pytest-common-subject-1.0.6.tar.gz
+[2024-06-03 09:06:26] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-06-03 09:06:26] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.2.4.tar.gz tmp/morphdb_utils-0.2.5.tar.gz --markdown 20240603/m/morphdb-utils/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-06-03 09:06:26] INFO root fetch - processPackages [pytest-common-subject]: executing diffoscope
+[2024-06-03 09:06:26] INFO root fetch - processPackages [pytest-common-subject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-common-subject-1.0.5.tar.gz tmp/pytest-common-subject-1.0.6.tar.gz --markdown 20240603/p/pytest-common-subject/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-06-03 09:06:27] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.4.tar.gz]
+[2024-06-03 09:06:27] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.5.tar.gz]
+[2024-06-03 09:06:27] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-06-03 09:06:27] INFO root fetch - processPackages [pytest-common-subject]: Remove: archive file [/home/abi/fetcher/tmp/pytest-common-subject-1.0.5.tar.gz]
+[2024-06-03 09:06:27] INFO root fetch - processPackages [pytest-common-subject]: Remove: archive file [/home/abi/fetcher/tmp/pytest-common-subject-1.0.6.tar.gz]
+[2024-06-03 09:06:27] INFO root fetch - main [MainThread]: End processing [pytest-common-subject]: success
+[2024-06-03 09:06:28] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/b8/3e/fa2f2d42ca920c7c6d58ddb4efeb78b34db35d4b6d3339847ac497bfc58f/DIRAC-9.0.0a6.tar.gz
+[2024-06-03 09:06:29] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2024-06-03 09:06:29] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-9.0.0a5.tar.gz tmp/DIRAC-9.0.0a6.tar.gz --markdown 20240603/D/DIRAC/9.0.0a5-9.0.0a6/README.md --exclude *.pyd
+[2024-06-03 09:06:35] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a5.tar.gz]
+[2024-06-03 09:06:35] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
+[2024-06-03 09:06:35] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2024-06-03 09:06:35] INFO root fetch - main [MainThread]: Store serial: [23497610]
