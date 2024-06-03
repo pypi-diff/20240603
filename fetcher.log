@@ -1822,3 +1822,63 @@
 [2024-06-03 02:24:40] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.9.tar.gz]
 [2024-06-03 02:24:40] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-06-03 02:24:40] INFO root fetch - main [MainThread]: Store serial: [23494850]
+[2024-06-03 02:26:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494850]
+[2024-06-03 02:26:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 02:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-06-03 02:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simulab
+[2024-06-03 02:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdk8s
+[2024-06-03 02:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-06-03 02:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gamdl
+[2024-06-03 02:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-ecs-service-extensions
+[2024-06-03 02:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jazzy-fish
+[2024-06-03 02:26:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-06-03 02:26:49] INFO root fetch - processPackages [simulab]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 02:26:49] INFO root fetch - processPackages [mimllearning]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 02:26:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-06-03 02:26:49] INFO root fetch - processPackages [gamdl]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-06-03 02:26:49] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/3e/9d/15275d10b555bec0489b6c36ba95a917c85bd5238a49bf856c4711db5cbc/mimllearning-1.0.8.tar.gz
+[2024-06-03 02:26:49] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 02:26:49] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-06-03 02:26:49] WARNING root fetch - processPackages [jazzy-fish]: Skipping, unable to determine old version
+[2024-06-03 02:26:49] INFO root fetch - main [MainThread]: End processing [jazzy-fish] error
+[2024-06-03 02:26:50] INFO root fetch - processPackages [simulab]: Downloading https://files.pythonhosted.org/packages/b9/2d/d088bd23f8daf5c947d0c030e447e9125631f2ce19dcb23b138ef9d043f7/simulab-0.0.1.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/55/a3/6e7b744f8534806b12f79257134248f890a447dd80ae5b8aeea91e290aff/gamdl-2.2.4.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/99/a9/22344888a8fca72d2966fa4f98932af4bdd98bcac60e5d091a8e0b304cce/cdktf-cdk8s-0.9.8.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240603/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-06-03 02:26:50] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/ec/9b/94dd77e3769fd61cfba03132fcc46b5dac02a00020cdade25488d5ecfb74/mimllearning-1.0.9.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [simulab]: Downloading https://files.pythonhosted.org/packages/0a/f8/dd8962df9cf992dde009c419ca9d8283796f2abef2c613a51e7bd4532ab2/simulab-0.0.2.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [simulab]: executing diffoscope
+[2024-06-03 02:26:50] INFO root fetch - processPackages [simulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulab-0.0.1.tar.gz tmp/simulab-0.0.2.tar.gz --markdown 20240603/s/simulab/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/fb/df/48576d135bae4c3af2df9640612967ce8dcaf494710cdc29754951d2091a/gamdl-2.2.5.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 02:26:50] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.8.tar.gz tmp/mimllearning-1.0.9.tar.gz --markdown 20240603/m/mimllearning/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240603/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/20/45/51fb70e05adcb2ecf1886baf859815ec9ba32caaa0a97ffb3e4c544d7025/cdktf-cdk8s-0.9.9.tar.gz
+[2024-06-03 02:26:50] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2024-06-03 02:26:50] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-2.2.4.tar.gz tmp/gamdl-2.2.5.tar.gz --markdown 20240603/g/gamdl/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.9.8.tar.gz tmp/cdktf-cdk8s-0.9.9.tar.gz --markdown 20240603/c/cdktf-cdk8s/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-06-03 02:26:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-06-03 02:26:50] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-06-03 02:26:51] INFO root fetch - processPackages [simulab]: Remove: archive file [/home/abi/fetcher/tmp/simulab-0.0.1.tar.gz]
+[2024-06-03 02:26:51] INFO root fetch - processPackages [simulab]: Remove: archive file [/home/abi/fetcher/tmp/simulab-0.0.2.tar.gz]
+[2024-06-03 02:26:51] INFO root fetch - main [MainThread]: End processing [simulab]: success
+[2024-06-03 02:26:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-06-03 02:26:51] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-06-03 02:26:51] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-06-03 02:26:51] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.8.tar.gz]
+[2024-06-03 02:26:51] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
+[2024-06-03 02:26:51] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2024-06-03 02:26:51] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.2.4.tar.gz]
+[2024-06-03 02:26:51] INFO root fetch - processPackages [gamdl]: Remove: archive file [/home/abi/fetcher/tmp/gamdl-2.2.5.tar.gz]
+[2024-06-03 02:26:51] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2024-06-03 02:26:52] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.8.tar.gz]
+[2024-06-03 02:26:52] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.9.tar.gz]
+[2024-06-03 02:26:52] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 02:26:52] INFO root fetch - main [MainThread]: Store serial: [23494880]
