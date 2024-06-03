@@ -8588,3 +8588,171 @@ EOFError: EOF read where object expected
 [2024-06-03 09:27:30] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.8.0.tar.gz]
 [2024-06-03 09:27:30] INFO root fetch - main [MainThread]: End processing [kiwi]: success
 [2024-06-03 09:27:30] INFO root fetch - main [MainThread]: Store serial: [23497815]
+[2024-06-03 09:29:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497815]
+[2024-06-03 09:29:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: my-cool-lib-LK
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-available-to-promise-release
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etiket-client
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subdivision-hole-filler
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thermolib
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qdrive
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aixhello
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: digitalhub
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalhub-core
+[2024-06-03 09:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digitalhub-data
+[2024-06-03 09:29:44] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: New version: [16.0.3.2.0] Old Version: [16.0.3.1.1]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [subdivision-hole-filler]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [aixhello]: New version: [4.0] Old Version: [3.9]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [etiket-client]: New version: [0.2.19] Old Version: [0.2.18]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/e3/f2/e71362af74ca4158b21c794bf6ceb27be46a6e49693bedfe57fb274628e8/odoo_addon_stock_available_to_promise_release-16.0.3.1.1-py3-none-any.whl
+[2024-06-03 09:29:44] WARNING root fetch - processPackages [my-cool-lib-LK]: Skipping, unable to determine old version
+[2024-06-03 09:29:44] INFO root fetch - processPackages [my-cool-lib-LK]: Start processing: digitalhub-ml
+[2024-06-03 09:29:44] INFO root fetch - main [MainThread]: End processing [my-cool-lib-LK] error
+[2024-06-03 09:29:44] INFO root fetch - processPackages [digitalhub-core]: New version: [0.5.0b6] Old Version: [0.5.0b5]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [qdrive]: New version: [0.2.19] Old Version: [0.2.17]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [thermolib]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [digitalhub]: New version: [0.5.0b6] Old Version: [0.5.0b5]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [digitalhub-data]: New version: [0.5.0b6] Old Version: [0.5.0b5]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/79/5b/dd5760a0de9ed75f0ce5bf103adde583e9678760b2f11d4b0f3ae73ba292/aixhello-3.9.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [subdivision-hole-filler]: Downloading https://files.pythonhosted.org/packages/6f/35/756a8de5e1cb68d041d08975856bf49f243f6b1a5ff9e209b7633f5f9b74/subdivision_hole_filler-1.0.3.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [etiket-client]: Downloading https://files.pythonhosted.org/packages/c6/f5/924e6867e6d83910518b65746ea8de4ee801271f188ba5c5883991f9df69/etiket_client-0.2.18-py3-none-any.whl
+[2024-06-03 09:29:44] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.5.0b6] Old Version: [0.5.0b5]
+[2024-06-03 09:29:44] INFO root fetch - processPackages [qdrive]: Downloading https://files.pythonhosted.org/packages/48/a3/5ffe5c6cb3ac1b2c9a0fb9b7c6b1c4203dbb349dd831e11e15c7507c4c6d/qdrive-0.2.17-py3-none-any.whl
+[2024-06-03 09:29:44] INFO root fetch - processPackages [thermolib]: Downloading https://files.pythonhosted.org/packages/33/e9/cba8be0b0944c12bb215dcd188e72884298c81d41986c6621a09624a9f2e/thermolib-0.3.1.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/9f/4e/b3a80e05df77e9d3841992d4738abc4bb2d1d332c00f69d33df0f7cc1d1f/digitalhub-0.5.0b5.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/49/4c/2e243bf6c3f205f912df563646a9f8c5abbd8187a75c37e2ec674344329a/digitalhub_data-0.5.0b5.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/4b/4d/c2fc87cac7850d10867db7ca850cac85d63ea5bbd86a0ab62f68baa4cdbe/odoo_addon_stock_available_to_promise_release-16.0.3.2.0-py3-none-any.whl
+[2024-06-03 09:29:44] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/f8/51/cf404a39d4c4cb8ac50a941c0fe7d8090166ecbf7ef8ef0cbb35ad48a06a/digitalhub_core-0.5.0b5.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/5c/aa/66ffa334f31ac58d3f7628df3047ac17c07707532c9cc10034e877b26064/digitalhub_ml-0.5.0b5.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [subdivision-hole-filler]: Downloading https://files.pythonhosted.org/packages/0e/09/f94afe61976e4e44eb74f5d88726419e50f5184440439e6458c445f08340/subdivision_hole_filler-1.0.4.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/52/6a/5470d54a0c8d10e2fdfdbb15cf03263d094fc907135b48f538b3a0d61071/aixhello-4.0.tar.gz
+[2024-06-03 09:29:44] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: executing diffoscope
+[2024-06-03 09:29:44] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_to_promise_release-16.0.3.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_available_to_promise_release-16.0.3.2.0-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-stock-available-to-promise-release/16.0.3.1.1-16.0.3.2.0/README.md --exclude *.pyd
+[2024-06-03 09:29:44] INFO root fetch - processPackages [etiket-client]: Downloading https://files.pythonhosted.org/packages/4e/51/e09069bb3b02ebfae44b75d9865dbea50da8b874757fc137e083eb99829c/etiket_client-0.2.19-py3-none-any.whl
+[2024-06-03 09:29:44] INFO root fetch - processPackages [qdrive]: Downloading https://files.pythonhosted.org/packages/d4/81/598846c372f549670ee22eea85437d9e555b6f553cbd9f3b5ff47f1bd8e5/qdrive-0.2.19-py3-none-any.whl
+[2024-06-03 09:29:44] INFO root fetch - processPackages [subdivision-hole-filler]: executing diffoscope
+[2024-06-03 09:29:44] INFO root fetch - processPackages [subdivision-hole-filler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subdivision_hole_filler-1.0.3.tar.gz tmp/subdivision_hole_filler-1.0.4.tar.gz --markdown 20240603/s/subdivision-hole-filler/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [aixhello]: executing diffoscope
+[2024-06-03 09:29:45] INFO root fetch - processPackages [aixhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixhello-3.9.tar.gz tmp/aixhello-4.0.tar.gz --markdown 20240603/a/aixhello/3.9-4.0/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [thermolib]: Downloading https://files.pythonhosted.org/packages/89/e5/17e27d35b5dcf1511e6a6af6297961a1ccb9058ca50e6788e53f41445768/thermolib-0.3.2.tar.gz
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/1b/6d/8fcd77f1dc03c0fa15b242327ff2bd247b0483bf07d7988988891e900672/digitalhub-0.5.0b6.tar.gz
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/4a/d6/ac75f0bb675d887ad1f1cad941ad5dc5ab91930b201a547adabc3217b331/digitalhub_data-0.5.0b6.tar.gz
+[2024-06-03 09:29:45] INFO root fetch - processPackages [etiket-client]: executing diffoscope
+[2024-06-03 09:29:45] INFO root fetch - processPackages [etiket-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiket_client-0.2.18-py3-none-any.whl.zip tmp/etiket_client-0.2.19-py3-none-any.whl.zip --markdown 20240603/e/etiket-client/0.2.18-0.2.19/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/72/18/4f03a82955ee39965eed512e366f36b994dfc95fb762ec59b8b1f51b5a5b/digitalhub_core-0.5.0b6.tar.gz
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/8f/71/f96f61c9084f363b32f245df6f50504504ed50a7530484326f6bc9f7de86/digitalhub_ml-0.5.0b6.tar.gz
+[2024-06-03 09:29:45] INFO root fetch - processPackages [qdrive]: executing diffoscope
+[2024-06-03 09:29:45] INFO root fetch - processPackages [qdrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrive-0.2.17-py3-none-any.whl.zip tmp/qdrive-0.2.19-py3-none-any.whl.zip --markdown 20240603/q/qdrive/0.2.17-0.2.19/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.5.0b5.tar.gz tmp/digitalhub-0.5.0b6.tar.gz --markdown 20240603/d/digitalhub/0.5.0b5-0.5.0b6/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [thermolib]: executing diffoscope
+[2024-06-03 09:29:45] INFO root fetch - processPackages [thermolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thermolib-0.3.1.tar.gz tmp/thermolib-0.3.2.tar.gz --markdown 20240603/t/thermolib/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_data-0.5.0b5.tar.gz tmp/digitalhub_data-0.5.0b6.tar.gz --markdown 20240603/d/digitalhub-data/0.5.0b5-0.5.0b6/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_core-0.5.0b5.tar.gz tmp/digitalhub_core-0.5.0b6.tar.gz --markdown 20240603/d/digitalhub-core/0.5.0b5-0.5.0b6/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-06-03 09:29:45] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.5.0b5.tar.gz tmp/digitalhub_ml-0.5.0b6.tar.gz --markdown 20240603/d/digitalhub-ml/0.5.0b5-0.5.0b6/README.md --exclude *.pyd
+[2024-06-03 09:29:45] INFO root fetch - processPackages [subdivision-hole-filler]: Remove: archive file [/home/abi/fetcher/tmp/subdivision_hole_filler-1.0.3.tar.gz]
+[2024-06-03 09:29:45] INFO root fetch - processPackages [subdivision-hole-filler]: Remove: archive file [/home/abi/fetcher/tmp/subdivision_hole_filler-1.0.4.tar.gz]
+[2024-06-03 09:29:45] INFO root fetch - processPackages [subdivision-hole-filler]: Start processing: c2cciutils
+[2024-06-03 09:29:45] INFO root fetch - main [MainThread]: End processing [subdivision-hole-filler]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-06-03 09:29:46] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release-16.0.3.1.1-py3-none-any.whl.zip]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release-16.0.3.2.0-py3-none-any.whl.zip]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Start processing: digitalhub-runtime-python
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.5.0b5.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.5.0b6.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-ml]: Start processing: khoj-assistant
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-3.9.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.0.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [aixhello]: Start processing: daktari
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [aixhello]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-runtime-python]: New version: [0.5.0b6] Old Version: [0.5.0b5]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-06-03 09:29:46] INFO root fetch - processPackages [qdrive]: Remove: archive file [/home/abi/fetcher/tmp/qdrive-0.2.17-py3-none-any.whl.zip]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [qdrive]: Remove: archive file [/home/abi/fetcher/tmp/qdrive-0.2.19-py3-none-any.whl.zip]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [qdrive]: Start processing: my-cool-lib-PG
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [qdrive]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.5.0b5.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.5.0b6.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub]: Start processing: hf-download
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.5.0b5.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.5.0b6.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-data]: Start processing: icpReconstructor
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-runtime-python]: Downloading https://files.pythonhosted.org/packages/48/8b/ad6c98a6c920b114cdfb1b9fd5455d335f8d01df8b0fcdf678dd8d9bf128/digitalhub_runtime_python-0.5.0b5.tar.gz
+[2024-06-03 09:29:46] INFO root fetch - processPackages [hf-download]: New version: [0.2] Old Version: [0.1]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-06-03 09:29:46] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240603/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-06-03 09:29:46] WARNING root fetch - processPackages [my-cool-lib-PG]: Skipping, unable to determine old version
+[2024-06-03 09:29:46] INFO root fetch - processPackages [my-cool-lib-PG]: Start processing: joumaico
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [my-cool-lib-PG] error
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.5.0b5.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.5.0b6.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-core]: Start processing: pydirac
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [thermolib]: Remove: archive file [/home/abi/fetcher/tmp/thermolib-0.3.1.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [thermolib]: Remove: archive file [/home/abi/fetcher/tmp/thermolib-0.3.2.tar.gz]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [thermolib]: Start processing: model-bakery
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [thermolib]: success
+[2024-06-03 09:29:46] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2024-06-03 09:29:46] INFO root fetch - processPackages [icpReconstructor]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [hf-download]: Downloading https://files.pythonhosted.org/packages/b2/db/59d0f0944d57075164fac203c9da7fdc081d748af4c9fd7addc9602a1672/hf_download-0.1.tar.gz
+[2024-06-03 09:29:46] INFO root fetch - processPackages [etiket-client]: Remove: archive file [/home/abi/fetcher/tmp/etiket_client-0.2.18-py3-none-any.whl.zip]
+[2024-06-03 09:29:46] INFO root fetch - processPackages [etiket-client]: Remove: archive file [/home/abi/fetcher/tmp/etiket_client-0.2.19-py3-none-any.whl.zip]
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [etiket-client]: success
+[2024-06-03 09:29:46] WARNING root fetch - processPackages [joumaico]: Skipping, unable to determine old version
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [joumaico] error
+[2024-06-03 09:29:46] WARNING root fetch - processPackages [pydirac]: Skipping, unable to determine old version
+[2024-06-03 09:29:46] INFO root fetch - main [MainThread]: End processing [pydirac] error
+[2024-06-03 09:29:46] INFO root fetch - processPackages [digitalhub-runtime-python]: Downloading https://files.pythonhosted.org/packages/e2/72/b125aba2c502279a0e1ca3d37031dc3df68cba5920c277a0aebbe30042d6/digitalhub_runtime_python-0.5.0b6.tar.gz
+[2024-06-03 09:29:47] INFO root fetch - processPackages [icpReconstructor]: Downloading https://files.pythonhosted.org/packages/4a/61/d8c35493c79356022eda30cfa35a19a2f30bdde4d12d0933ce9df5ec6ce1/icpReconstructor-0.1.0.tar.gz
+[2024-06-03 09:29:47] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-06-03 09:29:47] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2024-06-03 09:29:47] INFO root fetch - processPackages [digitalhub-runtime-python]: executing diffoscope
+[2024-06-03 09:29:47] INFO root fetch - processPackages [digitalhub-runtime-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_runtime_python-0.5.0b5.tar.gz tmp/digitalhub_runtime_python-0.5.0b6.tar.gz --markdown 20240603/d/digitalhub-runtime-python/0.5.0b5-0.5.0b6/README.md --exclude *.pyd
+[2024-06-03 09:29:47] INFO root fetch - processPackages [model-bakery]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-06-03 09:29:47] INFO root fetch - processPackages [hf-download]: Downloading https://files.pythonhosted.org/packages/3b/76/cf3dad96d783a2c416445eb99b159081b00a750e140c83b2e8a98b342345/hf_download-0.2.tar.gz
+[2024-06-03 09:29:47] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2024-06-03 09:29:47] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20240603/d/daktari/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 09:29:47] INFO root fetch - processPackages [hf-download]: executing diffoscope
+[2024-06-03 09:29:47] INFO root fetch - processPackages [hf-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hf_download-0.1.tar.gz tmp/hf_download-0.2.tar.gz --markdown 20240603/h/hf-download/0.1-0.2/README.md --exclude *.pyd
+[2024-06-03 09:29:47] INFO root fetch - processPackages [icpReconstructor]: Downloading https://files.pythonhosted.org/packages/07/5f/49b7a9137c5151e1986692f4d85fd45b8e9a1b004edbbcd9efba16a9c4db/icpReconstructor-0.1.1.tar.gz
+[2024-06-03 09:29:47] INFO root fetch - processPackages [model-bakery]: Downloading https://files.pythonhosted.org/packages/2e/b5/8891c65776c51b08d0692fbcb04e061886b840b997fd639dae100e096c44/model_bakery-1.8.0.tar.gz
+[2024-06-03 09:29:47] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-06-03 09:29:47] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240603/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-06-03 09:29:47] INFO root fetch - processPackages [icpReconstructor]: executing diffoscope
+[2024-06-03 09:29:47] INFO root fetch - processPackages [icpReconstructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpReconstructor-0.1.0.tar.gz tmp/icpReconstructor-0.1.1.tar.gz --markdown 20240603/i/icpReconstructor/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 09:29:47] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-06-03 09:29:47] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-06-03 09:29:47] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-06-03 09:29:47] INFO root fetch - processPackages [model-bakery]: Downloading https://files.pythonhosted.org/packages/fe/86/645ddf84911cca043ef6999fe63979e74e94fea053fdbeb645f168eecc17/model_bakery-1.9.0.tar.gz
+[2024-06-03 09:29:47] INFO root fetch - processPackages [model-bakery]: executing diffoscope
+[2024-06-03 09:29:47] INFO root fetch - processPackages [model-bakery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_bakery-1.8.0.tar.gz tmp/model_bakery-1.9.0.tar.gz --markdown 20240603/m/model-bakery/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-06-03 09:29:47] INFO root fetch - processPackages [digitalhub-runtime-python]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_runtime_python-0.5.0b5.tar.gz]
+[2024-06-03 09:29:47] INFO root fetch - processPackages [digitalhub-runtime-python]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_runtime_python-0.5.0b6.tar.gz]
+[2024-06-03 09:29:47] INFO root fetch - main [MainThread]: End processing [digitalhub-runtime-python]: success
+[2024-06-03 09:29:48] INFO root fetch - processPackages [hf-download]: Remove: archive file [/home/abi/fetcher/tmp/hf_download-0.1.tar.gz]
+[2024-06-03 09:29:48] INFO root fetch - processPackages [hf-download]: Remove: archive file [/home/abi/fetcher/tmp/hf_download-0.2.tar.gz]
+[2024-06-03 09:29:48] INFO root fetch - main [MainThread]: End processing [hf-download]: success
+[2024-06-03 09:29:48] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2024-06-03 09:29:48] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2024-06-03 09:29:48] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2024-06-03 09:29:48] INFO root fetch - processPackages [icpReconstructor]: Remove: archive file [/home/abi/fetcher/tmp/icpReconstructor-0.1.0.tar.gz]
+[2024-06-03 09:29:48] INFO root fetch - processPackages [icpReconstructor]: Remove: archive file [/home/abi/fetcher/tmp/icpReconstructor-0.1.1.tar.gz]
+[2024-06-03 09:29:48] INFO root fetch - main [MainThread]: End processing [icpReconstructor]: success
+[2024-06-03 09:29:48] INFO root fetch - processPackages [model-bakery]: Remove: archive file [/home/abi/fetcher/tmp/model_bakery-1.8.0.tar.gz]
+[2024-06-03 09:29:48] INFO root fetch - processPackages [model-bakery]: Remove: archive file [/home/abi/fetcher/tmp/model_bakery-1.9.0.tar.gz]
+[2024-06-03 09:29:48] INFO root fetch - main [MainThread]: End processing [model-bakery]: success
+[2024-06-03 09:29:49] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-06-03 09:29:49] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-06-03 09:29:49] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-06-03 09:29:49] INFO root fetch - main [MainThread]: Store serial: [23497884]
