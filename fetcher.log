@@ -6506,3 +6506,27 @@ EOFError: EOF read where object expected
 [2024-06-03 07:20:40] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-1.0.4.tar.gz]
 [2024-06-03 07:20:40] INFO root fetch - main [MainThread]: End processing [accmt]: success
 [2024-06-03 07:20:40] INFO root fetch - main [MainThread]: Store serial: [23496947]
+[2024-06-03 07:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496947]
+[2024-06-03 07:22:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-highlighter
+[2024-06-03 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sopel-youtube
+[2024-06-03 07:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-api
+[2024-06-03 07:22:49] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-06-03 07:22:50] WARNING root fetch - processPackages [sopel-youtube]: Skipping, unable to determine old version
+[2024-06-03 07:22:50] INFO root fetch - main [MainThread]: End processing [sopel-youtube] error
+[2024-06-03 07:22:50] INFO root fetch - processPackages [text-highlighter]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 07:22:50] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-06-03 07:22:50] INFO root fetch - processPackages [text-highlighter]: Downloading https://files.pythonhosted.org/packages/f2/7c/bdb2383ecb22e9e870312b7f1b35201d57bd4519f978d5cc0ac6b0c3f4ed/text-highlighter-0.0.8.tar.gz
+[2024-06-03 07:22:50] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-06-03 07:22:50] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-06-03 07:22:50] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240603/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-06-03 07:22:50] INFO root fetch - processPackages [text-highlighter]: Downloading https://files.pythonhosted.org/packages/b2/11/78d578a8e90c0333120fc009edff59821e1406accf5186c794d1924fc5b9/text-highlighter-0.0.9.tar.gz
+[2024-06-03 07:22:50] INFO root fetch - processPackages [text-highlighter]: executing diffoscope
+[2024-06-03 07:22:50] INFO root fetch - processPackages [text-highlighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-highlighter-0.0.8.tar.gz tmp/text-highlighter-0.0.9.tar.gz --markdown 20240603/t/text-highlighter/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 07:22:51] INFO root fetch - processPackages [text-highlighter]: Remove: archive file [/home/abi/fetcher/tmp/text-highlighter-0.0.8.tar.gz]
+[2024-06-03 07:22:51] INFO root fetch - processPackages [text-highlighter]: Remove: archive file [/home/abi/fetcher/tmp/text-highlighter-0.0.9.tar.gz]
+[2024-06-03 07:22:51] INFO root fetch - main [MainThread]: End processing [text-highlighter]: success
+[2024-06-03 07:22:51] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-06-03 07:22:51] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-06-03 07:22:51] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-06-03 07:22:51] INFO root fetch - main [MainThread]: Store serial: [23496958]
