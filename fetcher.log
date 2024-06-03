@@ -6146,3 +6146,51 @@ EOFError: EOF read where object expected
 [2024-06-03 06:58:55] INFO root fetch - processPackages [easymp3]: Remove: archive file [/home/abi/fetcher/tmp/easymp3-1.2.1.tar.gz]
 [2024-06-03 06:58:55] INFO root fetch - main [MainThread]: End processing [easymp3]: success
 [2024-06-03 06:58:55] INFO root fetch - main [MainThread]: Store serial: [23496819]
+[2024-06-03 07:00:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496819]
+[2024-06-03 07:01:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 07:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-06-03 07:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-stripe-subscription
+[2024-06-03 07:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opengamedata-api-utils
+[2024-06-03 07:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-sos
+[2024-06-03 07:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proxpi
+[2024-06-03 07:01:04] INFO root fetch - processPackages [morphdb-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-06-03 07:01:04] INFO root fetch - processPackages [jupyterlab-sos]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-06-03 07:01:04] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/45/64/98d9257d80ac89069d20348e40f756c49f07bdceb458bcb6d4c8f84caac5/morphdb_utils-0.2.0.tar.gz
+[2024-06-03 07:01:04] INFO root fetch - processPackages [opengamedata-api-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 07:01:04] INFO root fetch - processPackages [proxpi]: New version: [1.2.0rc0] Old Version: [1.2.0b0]
+[2024-06-03 07:01:04] INFO root fetch - processPackages [drf-stripe-subscription]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-06-03 07:01:04] INFO root fetch - processPackages [jupyterlab-sos]: Downloading https://files.pythonhosted.org/packages/ba/8a/af736f6f4a4923c78829888328e637f104ccd1ea13aa0c9d82edcee14d24/jupyterlab_sos-0.8.9.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/cd/94/ef5117d5e5e32508091f9fd613f42ce07024d6a239bdc16be902eafe4c0d/opengamedata_api_utils-1.0.8.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/02/ff/a753d22feda3ed63998e9a35adec52c325e614359f5ed992ba666cb4aac8/morphdb_utils-0.2.1.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [drf-stripe-subscription]: Downloading https://files.pythonhosted.org/packages/08/ed/4f7b49bdd77919cbc983787be94b4cd6073fd6455c04d6ad9aa91f14e725/drf-stripe-subscription-1.2.0.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [proxpi]: Downloading https://files.pythonhosted.org/packages/f3/8d/d9da2ee81cb8327d0d48ba5ee447740c1e9251b45fcf5bd4057c241466a4/proxpi-1.2.0b0.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-06-03 07:01:05] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.2.0.tar.gz tmp/morphdb_utils-0.2.1.tar.gz --markdown 20240603/m/morphdb-utils/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-06-03 07:01:05] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/17/31/2e37a6e4d9ecfb3ea6dad171814df9734ff7ce462f257c2104465d4aba14/opengamedata_api_utils-1.0.9.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [jupyterlab-sos]: Downloading https://files.pythonhosted.org/packages/18/fe/f79aa945f69cb43411259b7a6e5efc18676e3a459e7b1d34474f32e47750/jupyterlab_sos-0.9.0.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [drf-stripe-subscription]: Downloading https://files.pythonhosted.org/packages/dd/4f/4f68f6f2acb0fd08cd578d81fbb64dc52daab7aaed03627f5e603627be60/drf-stripe-subscription-1.2.1.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [proxpi]: Downloading https://files.pythonhosted.org/packages/e1/14/3752ea06da5ebecec6a74ab2c293e0e0db65528cfd977edf3f91db5fa286/proxpi-1.2.0rc0.tar.gz
+[2024-06-03 07:01:05] INFO root fetch - processPackages [opengamedata-api-utils]: executing diffoscope
+[2024-06-03 07:01:05] INFO root fetch - processPackages [opengamedata-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_api_utils-1.0.8.tar.gz tmp/opengamedata_api_utils-1.0.9.tar.gz --markdown 20240603/o/opengamedata-api-utils/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 07:01:05] INFO root fetch - processPackages [drf-stripe-subscription]: executing diffoscope
+[2024-06-03 07:01:05] INFO root fetch - processPackages [drf-stripe-subscription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-stripe-subscription-1.2.0.tar.gz tmp/drf-stripe-subscription-1.2.1.tar.gz --markdown 20240603/d/drf-stripe-subscription/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-06-03 07:01:05] INFO root fetch - processPackages [jupyterlab-sos]: executing diffoscope
+[2024-06-03 07:01:05] INFO root fetch - processPackages [jupyterlab-sos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_sos-0.8.9.tar.gz tmp/jupyterlab_sos-0.9.0.tar.gz --markdown 20240603/j/jupyterlab-sos/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-06-03 07:01:05] INFO root fetch - processPackages [proxpi]: executing diffoscope
+[2024-06-03 07:01:05] INFO root fetch - processPackages [proxpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxpi-1.2.0b0.tar.gz tmp/proxpi-1.2.0rc0.tar.gz --markdown 20240603/p/proxpi/1.2.0b0-1.2.0rc0/README.md --exclude *.pyd
+[2024-06-03 07:01:05] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.0.tar.gz]
+[2024-06-03 07:01:05] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.1.tar.gz]
+[2024-06-03 07:01:05] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-06-03 07:01:06] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.8.tar.gz]
+[2024-06-03 07:01:06] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.9.tar.gz]
+[2024-06-03 07:01:06] INFO root fetch - main [MainThread]: End processing [opengamedata-api-utils]: success
+[2024-06-03 07:01:06] INFO root fetch - processPackages [drf-stripe-subscription]: Remove: archive file [/home/abi/fetcher/tmp/drf-stripe-subscription-1.2.0.tar.gz]
+[2024-06-03 07:01:06] INFO root fetch - processPackages [drf-stripe-subscription]: Remove: archive file [/home/abi/fetcher/tmp/drf-stripe-subscription-1.2.1.tar.gz]
+[2024-06-03 07:01:06] INFO root fetch - main [MainThread]: End processing [drf-stripe-subscription]: success
+[2024-06-03 07:01:06] INFO root fetch - processPackages [proxpi]: Remove: archive file [/home/abi/fetcher/tmp/proxpi-1.2.0b0.tar.gz]
+[2024-06-03 07:01:06] INFO root fetch - processPackages [proxpi]: Remove: archive file [/home/abi/fetcher/tmp/proxpi-1.2.0rc0.tar.gz]
+[2024-06-03 07:01:06] INFO root fetch - main [MainThread]: End processing [proxpi]: success
+[2024-06-03 07:01:09] INFO root fetch - processPackages [jupyterlab-sos]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sos-0.8.9.tar.gz]
+[2024-06-03 07:01:09] INFO root fetch - processPackages [jupyterlab-sos]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sos-0.9.0.tar.gz]
+[2024-06-03 07:01:09] INFO root fetch - main [MainThread]: End processing [jupyterlab-sos]: success
+[2024-06-03 07:01:09] INFO root fetch - main [MainThread]: Store serial: [23496834]
