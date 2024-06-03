@@ -23735,3 +23735,60 @@ EOFError: EOF read where object expected
 [2024-06-03 16:37:31] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
 [2024-06-03 16:37:31] INFO root fetch - main [MainThread]: End processing [semgrep]: success
 [2024-06-03 16:37:31] INFO root fetch - main [MainThread]: Store serial: [23504440]
+[2024-06-03 16:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504440]
+[2024-06-03 16:39:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pressone-sdk
+[2024-06-03 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OptiCommPy
+[2024-06-03 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pressone-africa-sdk
+[2024-06-03 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncplot
+[2024-06-03 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syngen
+[2024-06-03 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ape-template
+[2024-06-03 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zipnn
+[2024-06-03 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hddm-r
+[2024-06-03 16:39:39] INFO root fetch - processPackages [hddm-r]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-06-03 16:39:39] WARNING root fetch - processPackages [pressone-sdk]: Skipping, unable to determine old version
+[2024-06-03 16:39:39] INFO root fetch - main [MainThread]: End processing [pressone-sdk] error
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ape-template]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-06-03 16:39:40] INFO root fetch - processPackages [hddm-r]: Downloading https://files.pythonhosted.org/packages/df/41/121908e4733257b1e21efe92f5de067af78d4990810e2f295eb855821a06/hddm_r-2.0.1.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [OptiCommPy]: New version: [0.9.0] Old Version: [0.7.0]
+[2024-06-03 16:39:40] WARNING root fetch - processPackages [zipnn]: Skipping, unable to determine old version
+[2024-06-03 16:39:40] INFO root fetch - main [MainThread]: End processing [zipnn] error
+[2024-06-03 16:39:40] WARNING root fetch - processPackages [pressone-africa-sdk]: Skipping, unable to determine old version
+[2024-06-03 16:39:40] INFO root fetch - main [MainThread]: End processing [pressone-africa-sdk] error
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ncplot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 16:39:40] INFO root fetch - processPackages [syngen]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ape-template]: Downloading https://files.pythonhosted.org/packages/51/f0/cb8bb3ae953a66f4766e8480b5ecf7b98e4115bb9143f58dc8306cd5a901/ape-template-0.7.0.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [OptiCommPy]: Downloading https://files.pythonhosted.org/packages/1f/7b/1959780117ac7eced3e2400c395b7d321c9d0f549474dd1ddc65d331ddc4/OptiCommPy-0.7.0.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ncplot]: Downloading https://files.pythonhosted.org/packages/36/c6/e0469c62c4fbc9bff45ac58e4cba2ed30a208ba5447b0dbe0ad179490264/ncplot-0.3.8.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/6e/95/26be7854d8a8402a2096a5d025a0967f4c434718bd8d1c2fb5cbf41b19f0/syngen-0.9.1.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [hddm-r]: Downloading https://files.pythonhosted.org/packages/e0/f9/76b8505673a797da25d1b5ad73d9710b064950989408d63914284cacb4cd/hddm_r-2.0.2.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [hddm-r]: executing diffoscope
+[2024-06-03 16:39:40] INFO root fetch - processPackages [hddm-r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_r-2.0.1.tar.gz tmp/hddm_r-2.0.2.tar.gz --markdown 20240603/h/hddm-r/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ape-template]: Downloading https://files.pythonhosted.org/packages/c6/87/658d9e2f69ce74a0f4b8088f7544cdd1360d73a630b772d4ba330f7cbeb8/ape-template-0.8.0.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [OptiCommPy]: Downloading https://files.pythonhosted.org/packages/b0/c3/8721e5692da034a4fd8bdc8eb5e8e767cd10b2d2b38c247677e0e403bc9c/OptiCommPy-0.9.0.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ape-template]: executing diffoscope
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ape-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-template-0.7.0.tar.gz tmp/ape-template-0.8.0.tar.gz --markdown 20240603/a/ape-template/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ncplot]: Downloading https://files.pythonhosted.org/packages/a7/fa/5791a8c86fcc1004cb8dba90298f371d57d48cf7a21569930c2a2b720441/ncplot-0.3.9.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [OptiCommPy]: executing diffoscope
+[2024-06-03 16:39:40] INFO root fetch - processPackages [OptiCommPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OptiCommPy-0.7.0.tar.gz tmp/OptiCommPy-0.9.0.tar.gz --markdown 20240603/O/OptiCommPy/0.7.0-0.9.0/README.md --exclude *.pyd
+[2024-06-03 16:39:40] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/43/1e/b2eef0b274905a0b1e39e22b4c537f761b55daa66e9cb2743ed4f2d6bcec/syngen-0.9.2.tar.gz
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ncplot]: executing diffoscope
+[2024-06-03 16:39:40] INFO root fetch - processPackages [ncplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncplot-0.3.8.tar.gz tmp/ncplot-0.3.9.tar.gz --markdown 20240603/n/ncplot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 16:39:41] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2024-06-03 16:39:41] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.9.1.tar.gz tmp/syngen-0.9.2.tar.gz --markdown 20240603/s/syngen/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-06-03 16:39:41] INFO root fetch - processPackages [hddm-r]: Remove: archive file [/home/abi/fetcher/tmp/hddm_r-2.0.1.tar.gz]
+[2024-06-03 16:39:41] INFO root fetch - processPackages [hddm-r]: Remove: archive file [/home/abi/fetcher/tmp/hddm_r-2.0.2.tar.gz]
+[2024-06-03 16:39:41] INFO root fetch - main [MainThread]: End processing [hddm-r]: success
+[2024-06-03 16:39:41] INFO root fetch - processPackages [ape-template]: Remove: archive file [/home/abi/fetcher/tmp/ape-template-0.7.0.tar.gz]
+[2024-06-03 16:39:41] INFO root fetch - processPackages [ape-template]: Remove: archive file [/home/abi/fetcher/tmp/ape-template-0.8.0.tar.gz]
+[2024-06-03 16:39:41] INFO root fetch - main [MainThread]: End processing [ape-template]: success
+[2024-06-03 16:39:41] INFO root fetch - processPackages [ncplot]: Remove: archive file [/home/abi/fetcher/tmp/ncplot-0.3.8.tar.gz]
+[2024-06-03 16:39:41] INFO root fetch - processPackages [ncplot]: Remove: archive file [/home/abi/fetcher/tmp/ncplot-0.3.9.tar.gz]
+[2024-06-03 16:39:41] INFO root fetch - main [MainThread]: End processing [ncplot]: success
+[2024-06-03 16:39:41] INFO root fetch - processPackages [OptiCommPy]: Remove: archive file [/home/abi/fetcher/tmp/OptiCommPy-0.7.0.tar.gz]
+[2024-06-03 16:39:41] INFO root fetch - processPackages [OptiCommPy]: Remove: archive file [/home/abi/fetcher/tmp/OptiCommPy-0.9.0.tar.gz]
+[2024-06-03 16:39:41] INFO root fetch - main [MainThread]: End processing [OptiCommPy]: success
+[2024-06-03 16:39:42] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.9.1.tar.gz]
+[2024-06-03 16:39:42] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.9.2.tar.gz]
+[2024-06-03 16:39:42] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2024-06-03 16:39:42] INFO root fetch - main [MainThread]: Store serial: [23504478]
