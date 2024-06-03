@@ -8924,3 +8924,20 @@ EOFError: EOF read where object expected
 [2024-06-03 09:38:34] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.9.4.tar.gz]
 [2024-06-03 09:38:34] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2024-06-03 09:38:34] INFO root fetch - main [MainThread]: Store serial: [23497946]
+[2024-06-03 09:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497946]
+[2024-06-03 09:40:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lalsuite
+[2024-06-03 09:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ollama-haystack
+[2024-06-03 09:40:44] INFO root fetch - processPackages [ollama-haystack]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 09:40:44] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-06-03 09:40:44] INFO root fetch - processPackages [ollama-haystack]: Downloading https://files.pythonhosted.org/packages/22/68/84352a2e0368a1dc148e240211d6fbadf1171edbd1187bfe8f27fb77b82e/ollama_haystack-0.0.6.tar.gz
+[2024-06-03 09:40:44] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 09:40:44] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-06-03 09:40:44] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-06-03 09:40:44] INFO root fetch - processPackages [ollama-haystack]: Downloading https://files.pythonhosted.org/packages/d2/4c/9db11b5f40abe6a792979f93046f004e1a14efe5ad0d611639452aa9bd9d/ollama_haystack-0.0.7.tar.gz
+[2024-06-03 09:40:45] INFO root fetch - processPackages [ollama-haystack]: executing diffoscope
+[2024-06-03 09:40:45] INFO root fetch - processPackages [ollama-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama_haystack-0.0.6.tar.gz tmp/ollama_haystack-0.0.7.tar.gz --markdown 20240603/o/ollama-haystack/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 09:40:45] INFO root fetch - processPackages [ollama-haystack]: Remove: archive file [/home/abi/fetcher/tmp/ollama_haystack-0.0.6.tar.gz]
+[2024-06-03 09:40:45] INFO root fetch - processPackages [ollama-haystack]: Remove: archive file [/home/abi/fetcher/tmp/ollama_haystack-0.0.7.tar.gz]
+[2024-06-03 09:40:45] INFO root fetch - main [MainThread]: End processing [ollama-haystack]: success
+[2024-06-03 09:40:45] INFO root fetch - main [MainThread]: Store serial: [23497966]
