@@ -10704,3 +10704,48 @@ EOFError: EOF read where object expected
 [2024-06-03 10:54:59] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-06-03 10:54:59] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-06-03 10:54:59] INFO root fetch - main [MainThread]: Store serial: [23498907]
+[2024-06-03 10:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498907]
+[2024-06-03 10:57:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 10:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jvav
+[2024-06-03 10:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crc-bonfire
+[2024-06-03 10:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geofstpkg
+[2024-06-03 10:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gufo-http
+[2024-06-03 10:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codegrade
+[2024-06-03 10:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yahoo-finance-symbols
+[2024-06-03 10:57:09] INFO root fetch - processPackages [Jvav]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-06-03 10:57:09] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2024-06-03 10:57:09] WARNING root fetch - processPackages [geofstpkg]: Skipping, unable to determine old version
+[2024-06-03 10:57:09] INFO root fetch - main [MainThread]: End processing [geofstpkg] error
+[2024-06-03 10:57:09] WARNING root fetch - processPackages [yahoo-finance-symbols]: Skipping, unable to determine old version
+[2024-06-03 10:57:09] INFO root fetch - main [MainThread]: End processing [yahoo-finance-symbols] error
+[2024-06-03 10:57:09] INFO root fetch - processPackages [gufo-http]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-06-03 10:57:09] INFO root fetch - processPackages [crc-bonfire]: New version: [5.8.1b0] Old Version: [5.8.1]
+[2024-06-03 10:57:09] INFO root fetch - processPackages [Jvav]: Downloading https://files.pythonhosted.org/packages/9f/d7/79839d0d229b0853e70e9c8a078aaa188910894106f1f33639c70f1dd5f0/Jvav-2.0.0.tar.gz
+[2024-06-03 10:57:09] INFO root fetch - processPackages [crc-bonfire]: Downloading https://files.pythonhosted.org/packages/67/a5/dad47e329d20e0f9a92416eb31c1dd98d52971923f8b874d6b44c62c7576/crc_bonfire-5.8.1.tar.gz
+[2024-06-03 10:57:09] INFO root fetch - processPackages [gufo-http]: Downloading https://files.pythonhosted.org/packages/e7/27/ef4ca783ee0ac169de1f1f3eb5f6030879ed75f8018f9a103eeaf358e89a/gufo_http-0.3.0.tar.gz
+[2024-06-03 10:57:09] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2024-06-03 10:57:09] INFO root fetch - processPackages [Jvav]: Downloading https://files.pythonhosted.org/packages/f4/0d/60a14893161847275b7ef1ab14c63e8e586c9f1e0ef091d3c4daf809a264/Jvav-2.1.0.tar.gz
+[2024-06-03 10:57:09] INFO root fetch - processPackages [gufo-http]: Downloading https://files.pythonhosted.org/packages/f7/fe/05c091ee35e84c0ebe251342bdf80f8d2ba96d0942d858d2bd0f45c42c18/gufo_http-0.3.1.tar.gz
+[2024-06-03 10:57:10] INFO root fetch - processPackages [Jvav]: executing diffoscope
+[2024-06-03 10:57:10] INFO root fetch - processPackages [Jvav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jvav-2.0.0.tar.gz tmp/Jvav-2.1.0.tar.gz --markdown 20240603/J/Jvav/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-06-03 10:57:10] INFO root fetch - processPackages [crc-bonfire]: Downloading https://files.pythonhosted.org/packages/b5/68/9ca6444abee030d771326771f78f82b919760e72264b9f0ffc29e01075f8/crc_bonfire-5.8.1b0.tar.gz
+[2024-06-03 10:57:10] INFO root fetch - processPackages [gufo-http]: executing diffoscope
+[2024-06-03 10:57:10] INFO root fetch - processPackages [gufo-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gufo_http-0.3.0.tar.gz tmp/gufo_http-0.3.1.tar.gz --markdown 20240603/g/gufo-http/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-06-03 10:57:10] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2024-06-03 10:57:10] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2024-06-03 10:57:10] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20240603/c/codegrade/16.1.8-16.1.9/README.md --exclude *.pyd
+[2024-06-03 10:57:10] INFO root fetch - processPackages [crc-bonfire]: executing diffoscope
+[2024-06-03 10:57:10] INFO root fetch - processPackages [crc-bonfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crc_bonfire-5.8.1.tar.gz tmp/crc_bonfire-5.8.1b0.tar.gz --markdown 20240603/c/crc-bonfire/5.8.1-5.8.1b0/README.md --exclude *.pyd
+[2024-06-03 10:57:11] INFO root fetch - processPackages [Jvav]: Remove: archive file [/home/abi/fetcher/tmp/Jvav-2.0.0.tar.gz]
+[2024-06-03 10:57:11] INFO root fetch - processPackages [Jvav]: Remove: archive file [/home/abi/fetcher/tmp/Jvav-2.1.0.tar.gz]
+[2024-06-03 10:57:11] INFO root fetch - main [MainThread]: End processing [Jvav]: success
+[2024-06-03 10:57:11] INFO root fetch - processPackages [gufo-http]: Remove: archive file [/home/abi/fetcher/tmp/gufo_http-0.3.0.tar.gz]
+[2024-06-03 10:57:11] INFO root fetch - processPackages [gufo-http]: Remove: archive file [/home/abi/fetcher/tmp/gufo_http-0.3.1.tar.gz]
+[2024-06-03 10:57:11] INFO root fetch - main [MainThread]: End processing [gufo-http]: success
+[2024-06-03 10:57:12] INFO root fetch - processPackages [crc-bonfire]: Remove: archive file [/home/abi/fetcher/tmp/crc_bonfire-5.8.1.tar.gz]
+[2024-06-03 10:57:12] INFO root fetch - processPackages [crc-bonfire]: Remove: archive file [/home/abi/fetcher/tmp/crc_bonfire-5.8.1b0.tar.gz]
+[2024-06-03 10:57:12] INFO root fetch - main [MainThread]: End processing [crc-bonfire]: success
+[2024-06-03 10:57:13] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2024-06-03 10:57:13] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2024-06-03 10:57:13] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2024-06-03 10:57:13] INFO root fetch - main [MainThread]: Store serial: [23498954]
