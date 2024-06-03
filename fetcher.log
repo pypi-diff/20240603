@@ -6194,3 +6194,15 @@ EOFError: EOF read where object expected
 [2024-06-03 07:01:09] INFO root fetch - processPackages [jupyterlab-sos]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sos-0.9.0.tar.gz]
 [2024-06-03 07:01:09] INFO root fetch - main [MainThread]: End processing [jupyterlab-sos]: success
 [2024-06-03 07:01:09] INFO root fetch - main [MainThread]: Store serial: [23496834]
+[2024-06-03 07:03:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496834]
+[2024-06-03 07:03:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 07:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fyle-integrations-platform-connector
+[2024-06-03 07:03:18] INFO root fetch - processPackages [fyle-integrations-platform-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-06-03 07:03:18] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/52/45/e5e38ed24c1622734daa77b91cc350bf11c44695b7aaaf9671f084870c76/fyle-integrations-platform-connector-1.8.0.tar.gz
+[2024-06-03 07:03:18] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/f3/0e/46ba46fd9bd58f328ec9642711a0147d790cb1af6dc1c7e9f72f99a87249/fyle-integrations-platform-connector-1.9.0.tar.gz
+[2024-06-03 07:03:18] INFO root fetch - processPackages [fyle-integrations-platform-connector]: executing diffoscope
+[2024-06-03 07:03:18] INFO root fetch - processPackages [fyle-integrations-platform-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-integrations-platform-connector-1.8.0.tar.gz tmp/fyle-integrations-platform-connector-1.9.0.tar.gz --markdown 20240603/f/fyle-integrations-platform-connector/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-06-03 07:03:19] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.8.0.tar.gz]
+[2024-06-03 07:03:19] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.9.0.tar.gz]
+[2024-06-03 07:03:19] INFO root fetch - main [MainThread]: End processing [fyle-integrations-platform-connector]: success
+[2024-06-03 07:03:19] INFO root fetch - main [MainThread]: Store serial: [23496839]
