@@ -23888,3 +23888,68 @@ EOFError: EOF read where object expected
 [2024-06-03 16:41:54] INFO root fetch - processPackages [songtradr-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/songtradr_api_client_python-3.0.0.tar.gz]
 [2024-06-03 16:41:54] INFO root fetch - main [MainThread]: End processing [songtradr-api-client-python]: success
 [2024-06-03 16:41:54] INFO root fetch - main [MainThread]: Store serial: [23504533]
+[2024-06-03 16:43:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504533]
+[2024-06-03 16:44:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlite-core
+[2024-06-03 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scalebar
+[2024-06-03 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pressone-africa-sdk
+[2024-06-03 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multi-med-image-ml
+[2024-06-03 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testjaehyun
+[2024-06-03 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Agentic-Reports
+[2024-06-03 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qutebrowser
+[2024-06-03 16:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelmerge
+[2024-06-03 16:44:03] INFO root fetch - processPackages [scalebar]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-06-03 16:44:03] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:44:03] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:44:03] WARNING root fetch - processPackages [pressone-africa-sdk]: Skipping, unable to determine old version
+[2024-06-03 16:44:03] INFO root fetch - main [MainThread]: End processing [pressone-africa-sdk] error
+[2024-06-03 16:44:03] INFO root fetch - processPackages [modelmerge]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-06-03 16:44:03] INFO root fetch - processPackages [jupyterlite-core]: New version: [0.4.0a3] Old Version: [0.4.0a2]
+[2024-06-03 16:44:03] INFO root fetch - processPackages [testjaehyun]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 16:44:03] INFO root fetch - processPackages [qutebrowser]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-06-03 16:44:03] INFO root fetch - processPackages [scalebar]: Downloading https://files.pythonhosted.org/packages/e9/1b/c99901e9809f863daecfe63593c29dc2b849188fbfe988ccf96ff04c1c82/scalebar-0.3.1.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/85/7a/40b2a31727d866d00462a3c5c0336dcd67a130b33da41471747d6ae79d0b/multi_med_image_ml-0.0.8.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/4c/45/54cf664d57f9fb8b9c25ba6855fe07f660af7710f31545ecb438eb92e072/modelmerge-0.6.3.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [testjaehyun]: Downloading https://files.pythonhosted.org/packages/6a/fe/00d8b5e87dd63fa4621f83acd0fe7c772ba441f5999d1e036df1da06fd81/testjaehyun-0.0.2.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [scalebar]: Downloading https://files.pythonhosted.org/packages/b6/bb/fe4273c3826a7b09c9f8ab27050020099d7ad99b68ca571b9d2121006682/scalebar-0.4.0.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [qutebrowser]: Downloading https://files.pythonhosted.org/packages/b8/80/4fc5399dc305b2f8f98006ebbc119a0119353bc7655b2b5ae786511f9388/qutebrowser-3.1.0.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [jupyterlite-core]: Downloading https://files.pythonhosted.org/packages/a1/f7/362f407183d5db71bd899115437a3c0ab54e417833938656c523c761f0d0/jupyterlite_core-0.4.0a2.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/5b/92/44b18eba5d6adf17c07da2776ad015af9ac39d3e55eaf36f736e094a759b/Agentic-Reports-0.0.9.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/23/eb/ec6157c5ce1d120151c5c1cdad1dd310d366ae117798cd8a361c3c1f772e/modelmerge-0.6.4.tar.gz
+[2024-06-03 16:44:03] WARNING root fetch - processPackages [jupyterlite-core]: Skipping package: exceeds size limit 25191852>=10485760
+[2024-06-03 16:44:03] INFO root fetch - main [MainThread]: End processing [jupyterlite-core] error
+[2024-06-03 16:44:03] INFO root fetch - processPackages [scalebar]: executing diffoscope
+[2024-06-03 16:44:03] INFO root fetch - processPackages [scalebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalebar-0.3.1.tar.gz tmp/scalebar-0.4.0.tar.gz --markdown 20240603/s/scalebar/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-06-03 16:44:03] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 16:44:03] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.8.tar.gz tmp/Agentic-Reports-0.0.9.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:44:03] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/af/bb/6cd3104b2205a0a01bd5686681b87f4f4253ff30f5fc219ba7c3cc390397/multi_med_image_ml-0.0.9.tar.gz
+[2024-06-03 16:44:03] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-06-03 16:44:03] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.6.3.tar.gz tmp/modelmerge-0.6.4.tar.gz --markdown 20240603/m/modelmerge/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-06-03 16:44:03] INFO root fetch - processPackages [testjaehyun]: Downloading https://files.pythonhosted.org/packages/7b/63/db432f7da3beac5533c3ff603c1ae4b34ee3a6c6e2113027758229dcfcaf/testjaehyun-0.0.3.tar.gz
+[2024-06-03 16:44:04] INFO root fetch - processPackages [testjaehyun]: executing diffoscope
+[2024-06-03 16:44:04] INFO root fetch - processPackages [testjaehyun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testjaehyun-0.0.2.tar.gz tmp/testjaehyun-0.0.3.tar.gz --markdown 20240603/t/testjaehyun/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 16:44:04] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-06-03 16:44:04] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.8.tar.gz tmp/multi_med_image_ml-0.0.9.tar.gz --markdown 20240603/m/multi-med-image-ml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:44:04] INFO root fetch - processPackages [qutebrowser]: Downloading https://files.pythonhosted.org/packages/5b/e7/6cb74a2571dbc202fa7a07b6f8d0d2229a8fe9e9c921d3f5bb5a0bbecc44/qutebrowser-3.2.0.tar.gz
+[2024-06-03 16:44:04] INFO root fetch - processPackages [scalebar]: Remove: archive file [/home/abi/fetcher/tmp/scalebar-0.3.1.tar.gz]
+[2024-06-03 16:44:04] INFO root fetch - processPackages [scalebar]: Remove: archive file [/home/abi/fetcher/tmp/scalebar-0.4.0.tar.gz]
+[2024-06-03 16:44:04] INFO root fetch - main [MainThread]: End processing [scalebar]: success
+[2024-06-03 16:44:04] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.8.tar.gz]
+[2024-06-03 16:44:04] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.9.tar.gz]
+[2024-06-03 16:44:04] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 16:44:04] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.6.3.tar.gz]
+[2024-06-03 16:44:04] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.6.4.tar.gz]
+[2024-06-03 16:44:04] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-06-03 16:44:04] INFO root fetch - processPackages [testjaehyun]: Remove: archive file [/home/abi/fetcher/tmp/testjaehyun-0.0.2.tar.gz]
+[2024-06-03 16:44:04] INFO root fetch - processPackages [testjaehyun]: Remove: archive file [/home/abi/fetcher/tmp/testjaehyun-0.0.3.tar.gz]
+[2024-06-03 16:44:04] INFO root fetch - main [MainThread]: End processing [testjaehyun]: success
+[2024-06-03 16:44:05] INFO root fetch - processPackages [qutebrowser]: executing diffoscope
+[2024-06-03 16:44:05] INFO root fetch - processPackages [qutebrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qutebrowser-3.1.0.tar.gz tmp/qutebrowser-3.2.0.tar.gz --markdown 20240603/q/qutebrowser/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-06-03 16:44:05] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.8.tar.gz]
+[2024-06-03 16:44:05] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.9.tar.gz]
+[2024-06-03 16:44:05] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-06-03 16:44:10] INFO root fetch - processPackages [qutebrowser]: Remove: archive file [/home/abi/fetcher/tmp/qutebrowser-3.1.0.tar.gz]
+[2024-06-03 16:44:10] INFO root fetch - processPackages [qutebrowser]: Remove: archive file [/home/abi/fetcher/tmp/qutebrowser-3.2.0.tar.gz]
+[2024-06-03 16:44:10] INFO root fetch - main [MainThread]: End processing [qutebrowser]: success
+[2024-06-03 16:44:10] INFO root fetch - main [MainThread]: Store serial: [23504557]
