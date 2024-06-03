@@ -21554,3 +21554,69 @@ EOFError: EOF read where object expected
 [2024-06-03 15:32:24] INFO root fetch - processPackages [dropbox]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-9.5.0.tar.gz]
 [2024-06-03 15:32:24] INFO root fetch - main [MainThread]: End processing [dropbox]: success
 [2024-06-03 15:32:24] INFO root fetch - main [MainThread]: Store serial: [23503370]
+[2024-06-03 15:34:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503370]
+[2024-06-03 15:34:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 15:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-vips
+[2024-06-03 15:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-zarr
+[2024-06-03 15:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deltalake2db
+[2024-06-03 15:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otcdocstheme
+[2024-06-03 15:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sign-oca
+[2024-06-03 15:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onprem
+[2024-06-03 15:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zalando-kubectl
+[2024-06-03 15:34:33] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.2.1.0] Old Version: [16.0.2.0.4.1]
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.28.3.dev8] Old Version: [1.28.3.dev6]
+[2024-06-03 15:34:33] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2024-06-03 15:34:33] INFO root fetch - processPackages [deltalake2db]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-06-03 15:34:33] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/1e/1e/8736470c4d9a835595f32411801316fbd2d7346ecd8546371401674ef8d8/odoo_addon_sign_oca-16.0.2.0.4.1-py3-none-any.whl
+[2024-06-03 15:34:33] INFO root fetch - processPackages [otcdocstheme]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/63/6f/279e4e2d015025c0244d51b0196f09b6165b22d33586bfb159c3bfaa26df/large-image-source-zarr-1.28.3.dev6.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [onprem]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 15:34:33] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.29.0] Old Version: [1.28.3.dev8]
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/3e/47/a2f48ee6dcb14761abc2431cb98efdc951799cf57bb43fd66509b298a9be/large-image-source-vips-1.28.3.dev8.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/c8/30/f28cfb2bd0def2c23dfe0afebde634842d8cff22f8bb7af2189b41cb6b26/otcdocstheme-1.2.5.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [deltalake2db]: Downloading https://files.pythonhosted.org/packages/2e/94/6280983c5bed2f2bacd3ce93e4b213e930cd6783bf7f26976b183597b28c/deltalake2db-0.3.3.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/09/49/64e4c8b781914eb4823182b4a64ef60c9f2955d66c9ee144128b58eaa51b/large-image-source-zarr-1.28.3.dev8.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/fe/b3/a560508ee012f92bb3e695e2e3f3c8a60146f6b93d461f1970e21009857b/odoo_addon_sign_oca-16.0.2.1.0-py3-none-any.whl
+[2024-06-03 15:34:33] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [onprem]: Downloading https://files.pythonhosted.org/packages/63/df/d7884d02ab9eb1b13d711101d5b6bde68a84a8806d4d52fefa41f2a71f7e/onprem-0.1.0.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.28.3.dev6.tar.gz tmp/large-image-source-zarr-1.28.3.dev8.tar.gz --markdown 20240603/l/large-image-source-zarr/1.28.3.dev6-1.28.3.dev8/README.md --exclude *.pyd
+[2024-06-03 15:34:33] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2024-06-03 15:34:33] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20240603/z/zalando-kubectl/1.9.3.45-1.9.3.46/README.md --exclude *.pyd
+[2024-06-03 15:34:33] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-06-03 15:34:33] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.2.0.4.1-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.2.1.0-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-sign-oca/16.0.2.0.4.1-16.0.2.1.0/README.md --exclude *.pyd
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/67/a2/5791dc09d03aa2ceebf3dc8e5acefe08f45c89931492202997a11b76c807/large-image-source-vips-1.29.0.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-06-03 15:34:33] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.28.3.dev8.tar.gz tmp/large-image-source-vips-1.29.0.tar.gz --markdown 20240603/l/large-image-source-vips/1.28.3.dev8-1.29.0/README.md --exclude *.pyd
+[2024-06-03 15:34:33] INFO root fetch - processPackages [deltalake2db]: Downloading https://files.pythonhosted.org/packages/5f/cd/e2776e0782f46ed2ebae5e1a6659dbeb047338bba46394abfda4d6ed788f/deltalake2db-0.3.4.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [onprem]: Downloading https://files.pythonhosted.org/packages/e4/0a/cd7385ab1b4cf50e522f73eea2f0777d608ee74aed137d0eabf3ed395b12/onprem-0.1.1.tar.gz
+[2024-06-03 15:34:33] INFO root fetch - processPackages [onprem]: executing diffoscope
+[2024-06-03 15:34:33] INFO root fetch - processPackages [onprem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onprem-0.1.0.tar.gz tmp/onprem-0.1.1.tar.gz --markdown 20240603/o/onprem/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 15:34:34] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/89/e3/5eb4f98ad20671f4f0e9a30bbc60c978f5e885efc9d42856e0316090369e/otcdocstheme-1.2.6.tar.gz
+[2024-06-03 15:34:34] INFO root fetch - processPackages [deltalake2db]: executing diffoscope
+[2024-06-03 15:34:34] INFO root fetch - processPackages [deltalake2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake2db-0.3.3.tar.gz tmp/deltalake2db-0.3.4.tar.gz --markdown 20240603/d/deltalake2db/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-06-03 15:34:34] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.3.dev6.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.3.dev8.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-06-03 15:34:34] INFO root fetch - processPackages [otcdocstheme]: executing diffoscope
+[2024-06-03 15:34:34] INFO root fetch - processPackages [otcdocstheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otcdocstheme-1.2.5.tar.gz tmp/otcdocstheme-1.2.6.tar.gz --markdown 20240603/o/otcdocstheme/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-06-03 15:34:34] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2024-06-03 15:34:34] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.3.dev8.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.29.0.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-06-03 15:34:34] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.4.1-py3-none-any.whl.zip]
+[2024-06-03 15:34:34] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.1.0-py3-none-any.whl.zip]
+[2024-06-03 15:34:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-06-03 15:34:34] INFO root fetch - processPackages [deltalake2db]: Remove: archive file [/home/abi/fetcher/tmp/deltalake2db-0.3.3.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - processPackages [deltalake2db]: Remove: archive file [/home/abi/fetcher/tmp/deltalake2db-0.3.4.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - main [MainThread]: End processing [deltalake2db]: success
+[2024-06-03 15:34:34] INFO root fetch - processPackages [onprem]: Remove: archive file [/home/abi/fetcher/tmp/onprem-0.1.0.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - processPackages [onprem]: Remove: archive file [/home/abi/fetcher/tmp/onprem-0.1.1.tar.gz]
+[2024-06-03 15:34:34] INFO root fetch - main [MainThread]: End processing [onprem]: success
+[2024-06-03 15:34:37] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-1.2.5.tar.gz]
+[2024-06-03 15:34:37] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-1.2.6.tar.gz]
+[2024-06-03 15:34:37] INFO root fetch - main [MainThread]: End processing [otcdocstheme]: success
+[2024-06-03 15:34:37] INFO root fetch - main [MainThread]: Store serial: [23503390]
