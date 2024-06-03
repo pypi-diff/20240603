@@ -6931,3 +6931,34 @@ EOFError: EOF read where object expected
 [2024-06-03 07:44:39] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.99-py3-none-any.whl.zip]
 [2024-06-03 07:44:39] INFO root fetch - main [MainThread]: End processing [dagknows]: success
 [2024-06-03 07:44:39] INFO root fetch - main [MainThread]: Store serial: [23497091]
+[2024-06-03 07:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497091]
+[2024-06-03 07:46:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 07:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gizai
+[2024-06-03 07:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-pos-product-mergeable-line
+[2024-06-03 07:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-pos
+[2024-06-03 07:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gizai
+[2024-06-03 07:46:48] WARNING root fetch - processPackages [odoo-addon-pos-product-mergeable-line]: Skipping, unable to determine old version
+[2024-06-03 07:46:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-product-mergeable-line] error
+[2024-06-03 07:46:48] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-06-03 07:46:48] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20240602.0] Old Version: [16.0.20240520.0]
+[2024-06-03 07:46:48] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-06-03 07:46:48] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-06-03 07:46:48] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-06-03 07:46:48] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/60/57/13e1da4b6071f43f7fdcef4cfb06659e98ef3b957425e93e5df91dc8d7e4/odoo_addons_oca_pos-16.0.20240520.0-py3-none-any.whl
+[2024-06-03 07:46:49] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/95/df/d064cfaec6dba9310b3f3e8d1334cc992186e38d12742ed7d26808a53004/odoo_addons_oca_pos-16.0.20240602.0-py3-none-any.whl
+[2024-06-03 07:46:49] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-06-03 07:46:49] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-06-03 07:46:49] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2024-06-03 07:46:49] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20240520.0-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20240602.0-py3-none-any.whl.zip --markdown 20240603/o/odoo-addons-oca-pos/16.0.20240520.0-16.0.20240602.0/README.md --exclude *.pyd
+[2024-06-03 07:46:49] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-06-03 07:46:49] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-06-03 07:46:49] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240603/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-06-03 07:46:49] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240603/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-06-03 07:46:49] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20240520.0-py3-none-any.whl.zip]
+[2024-06-03 07:46:49] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20240602.0-py3-none-any.whl.zip]
+[2024-06-03 07:46:49] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2024-06-03 07:46:49] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-06-03 07:46:49] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-06-03 07:46:49] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-06-03 07:46:49] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-06-03 07:46:49] INFO root fetch - main [MainThread]: Store serial: [23497103]
