@@ -6305,3 +6305,9 @@ EOFError: EOF read where object expected
 [2024-06-03 07:07:40] INFO root fetch - processPackages [bootstrap-budget]: Remove: archive file [/home/abi/fetcher/tmp/bootstrap_budget-0.1.7.tar.gz]
 [2024-06-03 07:07:40] INFO root fetch - main [MainThread]: End processing [bootstrap-budget]: success
 [2024-06-03 07:07:40] INFO root fetch - main [MainThread]: Store serial: [23496870]
+[2024-06-03 07:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496870]
+[2024-06-03 07:09:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 07:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interactive-GUI
+[2024-06-03 07:09:49] WARNING root fetch - processPackages [interactive-GUI]: Skipping, unable to determine old version
+[2024-06-03 07:09:49] INFO root fetch - main [MainThread]: End processing [interactive-GUI] error
+[2024-06-03 07:09:49] INFO root fetch - main [MainThread]: Store serial: [23496875]
