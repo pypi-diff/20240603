@@ -5025,3 +5025,24 @@ EOFError: EOF read where object expected
 [2024-06-03 05:46:25] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.3.tar.gz]
 [2024-06-03 05:46:25] INFO root fetch - main [MainThread]: End processing [json-x-table]: success
 [2024-06-03 05:46:25] INFO root fetch - main [MainThread]: Store serial: [23496385]
+[2024-06-03 05:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496385]
+[2024-06-03 05:48:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 05:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Deformation3D
+[2024-06-03 05:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yyxx-game-pkg
+[2024-06-03 05:48:33] INFO root fetch - processPackages [Deformation3D]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-06-03 05:48:33] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2024.6.3.1] Old Version: [2024.5.13.3]
+[2024-06-03 05:48:33] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/0f/f6/b4b7e449c4dc8f922439fd059022cc9056c41de1a5c89503e72979c670b6/Deformation3D-1.7.6-py3-none-any.whl
+[2024-06-03 05:48:33] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/ec/4b/3ea2da370ddcd8f1ade712945c80722cdff7911497dfbd6286d99c443f15/yyxx_game_pkg-2024.5.13.3.tar.gz
+[2024-06-03 05:48:33] INFO root fetch - processPackages [Deformation3D]: Downloading https://files.pythonhosted.org/packages/9e/5e/358a04ce9bf296fb549e8a84a5afcfec7ef85889bde17e413ed6cd11d109/Deformation3D-1.7.7-py3-none-any.whl
+[2024-06-03 05:48:33] INFO root fetch - processPackages [Deformation3D]: executing diffoscope
+[2024-06-03 05:48:33] INFO root fetch - processPackages [Deformation3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deformation3D-1.7.6-py3-none-any.whl.zip tmp/Deformation3D-1.7.7-py3-none-any.whl.zip --markdown 20240603/D/Deformation3D/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-06-03 05:48:33] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/9f/89/cace199c0bbe58fa3ecc337a1dbd366921c8c3fef43715336841e3f0992c/yyxx_game_pkg-2024.6.3.1.tar.gz
+[2024-06-03 05:48:34] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2024-06-03 05:48:34] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2024.5.13.3.tar.gz tmp/yyxx_game_pkg-2024.6.3.1.tar.gz --markdown 20240603/y/yyxx-game-pkg/2024.5.13.3-2024.6.3.1/README.md --exclude *.pyd
+[2024-06-03 05:48:34] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.7.6-py3-none-any.whl.zip]
+[2024-06-03 05:48:34] INFO root fetch - processPackages [Deformation3D]: Remove: archive file [/home/abi/fetcher/tmp/Deformation3D-1.7.7-py3-none-any.whl.zip]
+[2024-06-03 05:48:34] INFO root fetch - main [MainThread]: End processing [Deformation3D]: success
+[2024-06-03 05:48:35] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.5.13.3.tar.gz]
+[2024-06-03 05:48:35] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.6.3.1.tar.gz]
+[2024-06-03 05:48:35] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2024-06-03 05:48:35] INFO root fetch - main [MainThread]: Store serial: [23496390]
