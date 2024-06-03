@@ -4956,3 +4956,33 @@ EOFError: EOF read where object expected
 [2024-06-03 05:39:56] INFO root fetch - processPackages [edne-correios-loader]: Remove: archive file [/home/abi/fetcher/tmp/edne_correios_loader-0.1.3.tar.gz]
 [2024-06-03 05:39:56] INFO root fetch - main [MainThread]: End processing [edne-correios-loader]: success
 [2024-06-03 05:39:56] INFO root fetch - main [MainThread]: Store serial: [23496358]
+[2024-06-03 05:41:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496358]
+[2024-06-03 05:42:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colorcall
+[2024-06-03 05:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datastew
+[2024-06-03 05:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libem
+[2024-06-03 05:42:04] INFO root fetch - processPackages [colorcall]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 05:42:04] INFO root fetch - processPackages [colorcall]: Downloading https://files.pythonhosted.org/packages/84/89/16f27924fb2ca1de40679e97389b6e1575ac4e7fecf523444501cb63f4ed/colorcall-0.2.2.tar.gz
+[2024-06-03 05:42:04] INFO root fetch - processPackages [datastew]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 05:42:04] INFO root fetch - processPackages [libem]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 05:42:04] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/2c/f3/b881ecedbc0c349c7ac403776a7d7127c991e5b7ffeb1aef124572f2a808/datastew-0.1.6.tar.gz
+[2024-06-03 05:42:04] INFO root fetch - processPackages [libem]: Downloading https://files.pythonhosted.org/packages/51/ad/ec6f37f954c0a5873fe9cacd42be1ad4b7f5a054dbd46579cfe39e863045/libem-0.0.8.tar.gz
+[2024-06-03 05:42:05] INFO root fetch - processPackages [colorcall]: Downloading https://files.pythonhosted.org/packages/e0/07/f9dc0663fa4cf98bf1fa3f979575dfc647e7d51e396189383a132ff2686a/colorcall-0.2.3.tar.gz
+[2024-06-03 05:42:05] INFO root fetch - processPackages [colorcall]: executing diffoscope
+[2024-06-03 05:42:05] INFO root fetch - processPackages [colorcall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorcall-0.2.2.tar.gz tmp/colorcall-0.2.3.tar.gz --markdown 20240603/c/colorcall/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 05:42:05] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/88/46/a73bdd3cb8a2d8ddbe94118235cfad8a54362dfd7e296d74a2cdecf14bb3/datastew-0.1.7.tar.gz
+[2024-06-03 05:42:05] INFO root fetch - processPackages [libem]: Downloading https://files.pythonhosted.org/packages/ea/0d/9a40b71a4cd933a85e3bbc92238ba298181ea406e35a134e185e3bdeffa5/libem-0.0.9.tar.gz
+[2024-06-03 05:42:05] INFO root fetch - processPackages [datastew]: executing diffoscope
+[2024-06-03 05:42:05] INFO root fetch - processPackages [datastew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datastew-0.1.6.tar.gz tmp/datastew-0.1.7.tar.gz --markdown 20240603/d/datastew/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 05:42:05] INFO root fetch - processPackages [libem]: executing diffoscope
+[2024-06-03 05:42:05] INFO root fetch - processPackages [libem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libem-0.0.8.tar.gz tmp/libem-0.0.9.tar.gz --markdown 20240603/l/libem/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 05:42:05] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.2.2.tar.gz]
+[2024-06-03 05:42:05] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.2.3.tar.gz]
+[2024-06-03 05:42:05] INFO root fetch - main [MainThread]: End processing [colorcall]: success
+[2024-06-03 05:42:05] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.6.tar.gz]
+[2024-06-03 05:42:05] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.7.tar.gz]
+[2024-06-03 05:42:05] INFO root fetch - main [MainThread]: End processing [datastew]: success
+[2024-06-03 05:42:05] INFO root fetch - processPackages [libem]: Remove: archive file [/home/abi/fetcher/tmp/libem-0.0.8.tar.gz]
+[2024-06-03 05:42:05] INFO root fetch - processPackages [libem]: Remove: archive file [/home/abi/fetcher/tmp/libem-0.0.9.tar.gz]
+[2024-06-03 05:42:05] INFO root fetch - main [MainThread]: End processing [libem]: success
+[2024-06-03 05:42:05] INFO root fetch - main [MainThread]: Store serial: [23496366]
