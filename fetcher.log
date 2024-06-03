@@ -9722,3 +9722,45 @@ EOFError: EOF read where object expected
 [2024-06-03 10:14:24] INFO root fetch - processPackages [MONSDA]: Remove: archive file [/home/abi/fetcher/tmp/monsda-1.2.7.tar.gz]
 [2024-06-03 10:14:24] INFO root fetch - main [MainThread]: End processing [MONSDA]: success
 [2024-06-03 10:14:24] INFO root fetch - main [MainThread]: Store serial: [23498298]
+[2024-06-03 10:16:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498298]
+[2024-06-03 10:16:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 10:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pesummary
+[2024-06-03 10:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2024-06-03 10:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glayout
+[2024-06-03 10:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-cool-lib-EC
+[2024-06-03 10:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toc
+[2024-06-03 10:16:33] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-06-03 10:16:33] WARNING root fetch - processPackages [my-cool-lib-EC]: Skipping, unable to determine old version
+[2024-06-03 10:16:33] INFO root fetch - main [MainThread]: End processing [my-cool-lib-EC] error
+[2024-06-03 10:16:33] INFO root fetch - processPackages [glayout]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 10:16:33] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-06-03 10:16:33] INFO root fetch - processPackages [pesummary]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-06-03 10:16:33] INFO root fetch - processPackages [toc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 10:16:33] INFO root fetch - processPackages [glayout]: Downloading https://files.pythonhosted.org/packages/45/c9/2e6763ffe080981c90600746dfc1913c46fa5d87ccf0d0ccfe6d99c547e2/glayout-0.0.3.tar.gz
+[2024-06-03 10:16:33] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-06-03 10:16:34] INFO root fetch - processPackages [pesummary]: Downloading https://files.pythonhosted.org/packages/5c/98/508dec58df145996bc213cfa54c2f5587488f9d3ed26be0ffa980f9d3dab/pesummary-1.2.0.tar.gz
+[2024-06-03 10:16:34] INFO root fetch - processPackages [toc]: Downloading https://files.pythonhosted.org/packages/37/62/abce370addb00e16bc6b66dcf582bc9c13eb97fa54d48f9eb0b9f2ee1f58/toc-0.0.8.tar.gz
+[2024-06-03 10:16:34] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-06-03 10:16:34] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240603/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-06-03 10:16:34] INFO root fetch - processPackages [glayout]: Downloading https://files.pythonhosted.org/packages/8f/7e/1f5187da2c40fccf2e8c9af04b092eb0af9b15e2d230c1ed4b9c49f37c8a/glayout-0.0.4.tar.gz
+[2024-06-03 10:16:34] INFO root fetch - processPackages [glayout]: executing diffoscope
+[2024-06-03 10:16:34] INFO root fetch - processPackages [glayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glayout-0.0.3.tar.gz tmp/glayout-0.0.4.tar.gz --markdown 20240603/g/glayout/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 10:16:34] INFO root fetch - processPackages [toc]: Downloading https://files.pythonhosted.org/packages/a8/0c/4a6274d82861290889fead54528b29510cebab6a59be3361af409be871db/toc-0.0.9.tar.gz
+[2024-06-03 10:16:34] INFO root fetch - processPackages [pesummary]: Downloading https://files.pythonhosted.org/packages/00/cc/c15d6496d7dd974907d1994ab86898c3b05a2050893975e176083d40c63d/pesummary-1.3.0.tar.gz
+[2024-06-03 10:16:34] INFO root fetch - processPackages [toc]: executing diffoscope
+[2024-06-03 10:16:34] INFO root fetch - processPackages [toc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toc-0.0.8.tar.gz tmp/toc-0.0.9.tar.gz --markdown 20240603/t/toc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 10:16:34] INFO root fetch - processPackages [pesummary]: executing diffoscope
+[2024-06-03 10:16:34] INFO root fetch - processPackages [pesummary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pesummary-1.2.0.tar.gz tmp/pesummary-1.3.0.tar.gz --markdown 20240603/p/pesummary/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-06-03 10:16:35] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-06-03 10:16:35] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-06-03 10:16:35] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-06-03 10:16:35] INFO root fetch - processPackages [toc]: Remove: archive file [/home/abi/fetcher/tmp/toc-0.0.8.tar.gz]
+[2024-06-03 10:16:35] INFO root fetch - processPackages [toc]: Remove: archive file [/home/abi/fetcher/tmp/toc-0.0.9.tar.gz]
+[2024-06-03 10:16:35] INFO root fetch - main [MainThread]: End processing [toc]: success
+[2024-06-03 10:16:35] INFO root fetch - processPackages [glayout]: Remove: archive file [/home/abi/fetcher/tmp/glayout-0.0.3.tar.gz]
+[2024-06-03 10:16:35] INFO root fetch - processPackages [glayout]: Remove: archive file [/home/abi/fetcher/tmp/glayout-0.0.4.tar.gz]
+[2024-06-03 10:16:35] INFO root fetch - main [MainThread]: End processing [glayout]: success
+[2024-06-03 10:16:37] INFO root fetch - processPackages [pesummary]: Remove: archive file [/home/abi/fetcher/tmp/pesummary-1.2.0.tar.gz]
+[2024-06-03 10:16:37] INFO root fetch - processPackages [pesummary]: Remove: archive file [/home/abi/fetcher/tmp/pesummary-1.3.0.tar.gz]
+[2024-06-03 10:16:37] INFO root fetch - main [MainThread]: End processing [pesummary]: success
+[2024-06-03 10:16:37] INFO root fetch - main [MainThread]: Store serial: [23498370]
