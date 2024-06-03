@@ -7874,3 +7874,58 @@ EOFError: EOF read where object expected
 [2024-06-03 08:48:51] INFO root fetch - processPackages [valohai-yaml]: Remove: archive file [/home/abi/fetcher/tmp/valohai-yaml-0.9.1.tar.gz]
 [2024-06-03 08:48:51] INFO root fetch - main [MainThread]: End processing [valohai-yaml]: success
 [2024-06-03 08:48:51] INFO root fetch - main [MainThread]: Store serial: [23497455]
+[2024-06-03 08:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497455]
+[2024-06-03 08:51:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iac-init
+[2024-06-03 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kumparanian
+[2024-06-03 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phonexia-voiceprint-comparison-client
+[2024-06-03 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dargs
+[2024-06-03 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ak-f0f16236ed254bd499e3fe0f9600e0d5
+[2024-06-03 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cube-recognizer-for-agv
+[2024-06-03 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addons-oca-stock-logistics-transport
+[2024-06-03 08:51:00] INFO root fetch - processPackages [cube-recognizer-for-agv]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 08:51:00] INFO root fetch - processPackages [kumparanian]: New version: [1.2.0rc3] Old Version: [1.2.0rc2]
+[2024-06-03 08:51:00] INFO root fetch - processPackages [iac-init]: New version: [0.9.63] Old Version: [0.9.62]
+[2024-06-03 08:51:00] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: New version: [14.0.20240602.0] Old Version: [14.0.20240522.0]
+[2024-06-03 08:51:00] WARNING root fetch - processPackages [antchain-ak-f0f16236ed254bd499e3fe0f9600e0d5]: Skipping, unable to determine old version
+[2024-06-03 08:51:00] INFO root fetch - main [MainThread]: End processing [antchain-ak-f0f16236ed254bd499e3fe0f9600e0d5] error
+[2024-06-03 08:51:00] INFO root fetch - processPackages [phonexia-voiceprint-comparison-client]: New version: [1.1.0] Old Version: [1.0.0rc2]
+[2024-06-03 08:51:00] INFO root fetch - processPackages [dargs]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-06-03 08:51:00] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/3c/7c/6997e574de4cf8fc1cf731e740b74ab55676a7260d5116fd884c33fce660/iac_init-0.9.62.tar.gz
+[2024-06-03 08:51:00] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/c2/f7/90a13e3f4bbc4c4ad2852e4f151dc06f8b0bd9b59c41c24f2c85cbe0d9c5/kumparanian-1.2.0rc2.tar.gz
+[2024-06-03 08:51:00] ERROR root fetch - processPackages [cube-recognizer-for-agv]: Unable to fetch info: No such project/version 'cube-recognizer-for-agv' 1.0.0
+[2024-06-03 08:51:00] INFO root fetch - main [MainThread]: End processing [cube-recognizer-for-agv] error
+[2024-06-03 08:51:01] INFO root fetch - processPackages [dargs]: Downloading https://files.pythonhosted.org/packages/c0/1a/8c2c6281cfb90794c9395634c891e1e8e60835e762081d1b917127b36b82/dargs-0.4.5.tar.gz
+[2024-06-03 08:51:01] INFO root fetch - processPackages [phonexia-voiceprint-comparison-client]: Downloading https://files.pythonhosted.org/packages/8f/95/c7f2772669ed0c6b4eee21a622a66c8bd3c02c4dd88608889924f0a4cb1f/phonexia_voiceprint_comparison_client-1.0.0rc2.tar.gz
+[2024-06-03 08:51:01] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: Downloading https://files.pythonhosted.org/packages/d0/1f/a1136fdced4994a88d6878727418cb86057a88872b163d31be8d40713b28/odoo14_addons_oca_stock_logistics_transport-14.0.20240522.0-py3-none-any.whl
+[2024-06-03 08:51:01] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/0e/3d/bdadfd48ba0ef930e73052081270a8663228287e92bf97ca9a51fc189f34/kumparanian-1.2.0rc3.tar.gz
+[2024-06-03 08:51:01] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/03/12/772ab99528c54711770ccad2bfa5afbfc4dfb2da99e08b174276378f7808/iac_init-0.9.63.tar.gz
+[2024-06-03 08:51:01] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-06-03 08:51:01] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.2.0rc2.tar.gz tmp/kumparanian-1.2.0rc3.tar.gz --markdown 20240603/k/kumparanian/1.2.0rc2-1.2.0rc3/README.md --exclude *.pyd
+[2024-06-03 08:51:01] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-06-03 08:51:01] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.9.62.tar.gz tmp/iac_init-0.9.63.tar.gz --markdown 20240603/i/iac-init/0.9.62-0.9.63/README.md --exclude *.pyd
+[2024-06-03 08:51:01] INFO root fetch - processPackages [phonexia-voiceprint-comparison-client]: Downloading https://files.pythonhosted.org/packages/49/d3/85d60c7ce68a9d5cede94dc8a383f5c59d5a3123bd4b4119d4bc91b7481d/phonexia_voiceprint_comparison_client-1.1.0.tar.gz
+[2024-06-03 08:51:01] INFO root fetch - processPackages [dargs]: Downloading https://files.pythonhosted.org/packages/76/36/d1cfc8f1782d3b060118f11b6d27cfb8fc3dbb55545febc9bcc29978fbb0/dargs-0.4.6.tar.gz
+[2024-06-03 08:51:01] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: Downloading https://files.pythonhosted.org/packages/1d/e3/ffb1d9e3550f9de9c45d25b27f552d29456f2e821095242c0f61f64b26cd/odoo14_addons_oca_stock_logistics_transport-14.0.20240602.0-py3-none-any.whl
+[2024-06-03 08:51:01] INFO root fetch - processPackages [phonexia-voiceprint-comparison-client]: executing diffoscope
+[2024-06-03 08:51:01] INFO root fetch - processPackages [phonexia-voiceprint-comparison-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonexia_voiceprint_comparison_client-1.0.0rc2.tar.gz tmp/phonexia_voiceprint_comparison_client-1.1.0.tar.gz --markdown 20240603/p/phonexia-voiceprint-comparison-client/1.0.0rc2-1.1.0/README.md --exclude *.pyd
+[2024-06-03 08:51:01] INFO root fetch - processPackages [dargs]: executing diffoscope
+[2024-06-03 08:51:01] INFO root fetch - processPackages [dargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dargs-0.4.5.tar.gz tmp/dargs-0.4.6.tar.gz --markdown 20240603/d/dargs/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-06-03 08:51:01] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: executing diffoscope
+[2024-06-03 08:51:01] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_stock_logistics_transport-14.0.20240522.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_stock_logistics_transport-14.0.20240602.0-py3-none-any.whl.zip --markdown 20240603/o/odoo14-addons-oca-stock-logistics-transport/14.0.20240522.0-14.0.20240602.0/README.md --exclude *.pyd
+[2024-06-03 08:51:01] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.2.0rc2.tar.gz]
+[2024-06-03 08:51:01] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.2.0rc3.tar.gz]
+[2024-06-03 08:51:01] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-06-03 08:51:02] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.62.tar.gz]
+[2024-06-03 08:51:02] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.63.tar.gz]
+[2024-06-03 08:51:02] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-06-03 08:51:02] INFO root fetch - processPackages [phonexia-voiceprint-comparison-client]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_voiceprint_comparison_client-1.0.0rc2.tar.gz]
+[2024-06-03 08:51:02] INFO root fetch - processPackages [phonexia-voiceprint-comparison-client]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_voiceprint_comparison_client-1.1.0.tar.gz]
+[2024-06-03 08:51:02] INFO root fetch - main [MainThread]: End processing [phonexia-voiceprint-comparison-client]: success
+[2024-06-03 08:51:02] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_transport-14.0.20240522.0-py3-none-any.whl.zip]
+[2024-06-03 08:51:02] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_transport-14.0.20240602.0-py3-none-any.whl.zip]
+[2024-06-03 08:51:02] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-stock-logistics-transport]: success
+[2024-06-03 08:51:02] INFO root fetch - processPackages [dargs]: Remove: archive file [/home/abi/fetcher/tmp/dargs-0.4.5.tar.gz]
+[2024-06-03 08:51:02] INFO root fetch - processPackages [dargs]: Remove: archive file [/home/abi/fetcher/tmp/dargs-0.4.6.tar.gz]
+[2024-06-03 08:51:02] INFO root fetch - main [MainThread]: End processing [dargs]: success
+[2024-06-03 08:51:02] INFO root fetch - main [MainThread]: Store serial: [23497478]
