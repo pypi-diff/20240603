@@ -12614,3 +12614,135 @@ EOFError: EOF read where object expected
 [2024-06-03 11:52:12] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.7.tar.gz]
 [2024-06-03 11:52:12] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
 [2024-06-03 11:52:12] INFO root fetch - main [MainThread]: Store serial: [23499885]
+[2024-06-03 11:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499885]
+[2024-06-03 11:54:20] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catalystwan
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biobb-haddock
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aily-code-sdk
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TaGra
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChildProject
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GoogleCloudPlatformAPI
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ANTConnect
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: local-lang
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-rattler
+[2024-06-03 11:54:20] WARNING root fetch - processPackages [biobb-haddock]: Skipping, unable to determine old version
+[2024-06-03 11:54:20] INFO root fetch - processPackages [biobb-haddock]: Start processing: ecodev-core
+[2024-06-03 11:54:20] INFO root fetch - main [MainThread]: End processing [biobb-haddock] error
+[2024-06-03 11:54:20] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [catalystwan]: New version: [0.33.8] Old Version: [0.33.7.dev5]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ChildProject]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [GoogleCloudPlatformAPI]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [TaGra]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [aily-code-sdk]: New version: [0.1.0b6] Old Version: [0.1.0b5]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [local-lang]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [py-rattler]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ANTConnect]: New version: [2023.9.9] Old Version: [2023.9.8rc1]
+[2024-06-03 11:54:20] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 11:54:20] INFO root fetch - processPackages [ecodev-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 11:54:21] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/70/f2/9854f61e940eaee2eea4ea18f19da9cd509825711a2e672d7c59e11aac48/aily_code_sdk-0.1.0b5.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [local-lang]: Downloading https://files.pythonhosted.org/packages/0b/bd/a2a0d22a32607a459737b10d42acf78669c09e980c467b0b3525b8bc21e4/local_lang-0.0.8.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/0d/50/be5282ca20da5ef9049d956102b085af5582a9ab3539d66d13b3e624f10a/catalystwan-0.33.7.dev5.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ChildProject]: Downloading https://files.pythonhosted.org/packages/39/8d/90ea165de145aec5cf0e9fca9b6f67d09b427236a5884a5f3054bdfdeb3d/ChildProject-0.1.2.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [GoogleCloudPlatformAPI]: Downloading https://files.pythonhosted.org/packages/cf/c7/e5931417bf9106bfd49b9235ac6eafc94434f04b6fbee2b3389b5af45313/googlecloudplatformapi-2.2.4.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/bf/d2/03a351661f7c2aa8c63415b4c151d81562d81e4f4d4b1d5a612f9575ea8d/ANTConnect-2023.9.8rc1.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [TaGra]: Downloading https://files.pythonhosted.org/packages/68/b0/efa2e4374bd25819df9aadec71eb13d689b21c4d2ab86ddbd98e2dee8913/TaGra-0.1.7.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/b5/a9/766d6853412070aa67063f8b8ba6353109df7a029b4e8c577447655f9dd1/ecodev_core-0.0.8.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/8f/3f/a52f4051e0532739b9e83e431541f2c1d29beb3244815a7ea3b28bec38e6/py_rattler-0.6.1.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 11:54:21] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/5c/85/d2117d7dc4bc1d1920d280efdc92164454a337ec6ea87b4cdb5dbf248119/aily_code_sdk-0.1.0b6.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/8f/74/466e3aca49907d5aed73d1ab88f37af92eb64cf4ce6b3d2b5d33f1b45c9a/catalystwan-0.33.8.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 11:54:21] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ChildProject]: Downloading https://files.pythonhosted.org/packages/58/00/5e022b107561baa89d786d819c2aafc578f212ec46fd3d89db86eeb968a6/ChildProject-0.2.0.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ANTConnect]: Downloading https://files.pythonhosted.org/packages/25/3b/0c2b38c4af90b8da37162d7abc993adfee42ec327696062002bf5532b73d/ANTConnect-2023.9.9.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [GoogleCloudPlatformAPI]: Downloading https://files.pythonhosted.org/packages/8f/4f/fe94ce6982f9d3f53737016dc619afeb303247e99bdbe3866584c611546f/googlecloudplatformapi-2.2.5.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [aily-code-sdk]: executing diffoscope
+[2024-06-03 11:54:21] INFO root fetch - processPackages [aily-code-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk-0.1.0b5.tar.gz tmp/aily_code_sdk-0.1.0b6.tar.gz --markdown 20240603/a/aily-code-sdk/0.1.0b5-0.1.0b6/README.md --exclude *.pyd
+[2024-06-03 11:54:21] INFO root fetch - processPackages [TaGra]: Downloading https://files.pythonhosted.org/packages/cf/c5/e8f37303dea0f88057e22236028442c3679c399d985a4e61cb0cc290df25/TaGra-0.1.8.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ANTConnect]: executing diffoscope
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ANTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANTConnect-2023.9.8rc1.tar.gz tmp/ANTConnect-2023.9.9.tar.gz --markdown 20240603/A/ANTConnect/2023.9.8rc1-2023.9.9/README.md --exclude *.pyd
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ChildProject]: executing diffoscope
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ChildProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChildProject-0.1.2.tar.gz tmp/ChildProject-0.2.0.tar.gz --markdown 20240603/C/ChildProject/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-06-03 11:54:21] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-06-03 11:54:21] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.7.dev5.tar.gz tmp/catalystwan-0.33.8.tar.gz --markdown 20240603/c/catalystwan/0.33.7.dev5-0.33.8/README.md --exclude *.pyd
+[2024-06-03 11:54:21] INFO root fetch - processPackages [TaGra]: executing diffoscope
+[2024-06-03 11:54:21] INFO root fetch - processPackages [TaGra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TaGra-0.1.7.tar.gz tmp/TaGra-0.1.8.tar.gz --markdown 20240603/T/TaGra/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/2b/a0/d654c8a620b75677b176be54783974380dae7715c39ab4ada944771e7e75/ecodev_core-0.0.9.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [GoogleCloudPlatformAPI]: executing diffoscope
+[2024-06-03 11:54:21] INFO root fetch - processPackages [GoogleCloudPlatformAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googlecloudplatformapi-2.2.4.tar.gz tmp/googlecloudplatformapi-2.2.5.tar.gz --markdown 20240603/G/GoogleCloudPlatformAPI/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-06-03 11:54:21] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/b2/2b/bd9fda5a06d0073e315f1cc1d634616761041067277cd6c8cf58a3c5336d/py_rattler-0.6.2.tar.gz
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ecodev-core]: executing diffoscope
+[2024-06-03 11:54:21] INFO root fetch - processPackages [ecodev-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_core-0.0.8.tar.gz tmp/ecodev_core-0.0.9.tar.gz --markdown 20240603/e/ecodev-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 11:54:22] INFO root fetch - processPackages [py-rattler]: executing diffoscope
+[2024-06-03 11:54:22] INFO root fetch - processPackages [py-rattler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_rattler-0.6.1.tar.gz tmp/py_rattler-0.6.2.tar.gz --markdown 20240603/p/py-rattler/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-06-03 11:54:22] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b5.tar.gz]
+[2024-06-03 11:54:22] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b6.tar.gz]
+[2024-06-03 11:54:22] INFO root fetch - processPackages [aily-code-sdk]: Start processing: daas
+[2024-06-03 11:54:22] INFO root fetch - main [MainThread]: End processing [aily-code-sdk]: success
+[2024-06-03 11:54:22] INFO root fetch - processPackages [ANTConnect]: Remove: archive file [/home/abi/fetcher/tmp/ANTConnect-2023.9.8rc1.tar.gz]
+[2024-06-03 11:54:22] INFO root fetch - processPackages [ANTConnect]: Remove: archive file [/home/abi/fetcher/tmp/ANTConnect-2023.9.9.tar.gz]
+[2024-06-03 11:54:22] INFO root fetch - processPackages [ANTConnect]: Start processing: kr8s
+[2024-06-03 11:54:22] INFO root fetch - main [MainThread]: End processing [ANTConnect]: success
+[2024-06-03 11:54:22] INFO root fetch - processPackages [daas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 11:54:22] INFO root fetch - processPackages [GoogleCloudPlatformAPI]: Remove: archive file [/home/abi/fetcher/tmp/googlecloudplatformapi-2.2.4.tar.gz]
+[2024-06-03 11:54:22] INFO root fetch - processPackages [GoogleCloudPlatformAPI]: Remove: archive file [/home/abi/fetcher/tmp/googlecloudplatformapi-2.2.5.tar.gz]
+[2024-06-03 11:54:22] INFO root fetch - processPackages [GoogleCloudPlatformAPI]: Start processing: mongodb-orm
+[2024-06-03 11:54:22] INFO root fetch - main [MainThread]: End processing [GoogleCloudPlatformAPI]: success
+[2024-06-03 11:54:23] INFO root fetch - processPackages [local-lang]: Downloading https://files.pythonhosted.org/packages/d4/0b/fff42c164c415db503bf3e1e6843c683bae157010851ba904d87332136ba/local_lang-0.0.9.tar.gz
+[2024-06-03 11:54:23] INFO root fetch - processPackages [kr8s]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 11:54:23] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-06-03 11:54:23] INFO root fetch - processPackages [TaGra]: Remove: archive file [/home/abi/fetcher/tmp/TaGra-0.1.7.tar.gz]
+[2024-06-03 11:54:23] INFO root fetch - processPackages [TaGra]: Remove: archive file [/home/abi/fetcher/tmp/TaGra-0.1.8.tar.gz]
+[2024-06-03 11:54:23] INFO root fetch - processPackages [TaGra]: Start processing: e2b-code-interpreter
+[2024-06-03 11:54:23] INFO root fetch - main [MainThread]: End processing [TaGra]: success
+[2024-06-03 11:54:23] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.8.tar.gz]
+[2024-06-03 11:54:23] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.9.tar.gz]
+[2024-06-03 11:54:23] INFO root fetch - main [MainThread]: End processing [ecodev-core]: success
+[2024-06-03 11:54:23] INFO root fetch - processPackages [e2b-code-interpreter]: New version: [0.0.8a0] Old Version: [0.0.7]
+[2024-06-03 11:54:23] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/dd/56/e4a192d154ea4e11d68aecc0498be7e8d45f06944f6e81842fe442894ac5/mongodb_orm-0.1.0a3.tar.gz
+[2024-06-03 11:54:23] INFO root fetch - processPackages [local-lang]: executing diffoscope
+[2024-06-03 11:54:23] INFO root fetch - processPackages [local-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_lang-0.0.8.tar.gz tmp/local_lang-0.0.9.tar.gz --markdown 20240603/l/local-lang/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 11:54:23] INFO root fetch - processPackages [ChildProject]: Remove: archive file [/home/abi/fetcher/tmp/ChildProject-0.1.2.tar.gz]
+[2024-06-03 11:54:23] INFO root fetch - processPackages [ChildProject]: Remove: archive file [/home/abi/fetcher/tmp/ChildProject-0.2.0.tar.gz]
+[2024-06-03 11:54:23] INFO root fetch - main [MainThread]: End processing [ChildProject]: success
+[2024-06-03 11:54:23] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/1b/96/21c6147b9d04062aac1c516bddce6a7e1ea5f3577aa5342d7cfd943be30e/e2b_code_interpreter-0.0.7.tar.gz
+[2024-06-03 11:54:23] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6d/c4/da598e484ee1d3f5408bf01f4b5cc03d0843cbc6dfe491b556565b1e1855/kr8s-0.9.1.tar.gz
+[2024-06-03 11:54:23] INFO root fetch - processPackages [daas]: Downloading https://files.pythonhosted.org/packages/7d/cf/5dfad40497177573303295a2a3b1de8110f6fa3ed5f11370714f625ef994/daas-0.0.8.tar.gz
+[2024-06-03 11:54:23] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/c3/fb/9a21ed1d324add88dbb405140614467302f88f40f654aabfde3768f67390/e2b_code_interpreter-0.0.8a0.tar.gz
+[2024-06-03 11:54:23] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/2c/6e/9f93733c8154a340dccb9f6479bd707f5037c44b27eeb2743ef08e74c5fe/mongodb_orm-0.1.0a4.tar.gz
+[2024-06-03 11:54:23] INFO root fetch - processPackages [e2b-code-interpreter]: executing diffoscope
+[2024-06-03 11:54:23] INFO root fetch - processPackages [e2b-code-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b_code_interpreter-0.0.7.tar.gz tmp/e2b_code_interpreter-0.0.8a0.tar.gz --markdown 20240603/e/e2b-code-interpreter/0.0.7-0.0.8a0/README.md --exclude *.pyd
+[2024-06-03 11:54:23] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 11:54:23] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0a3.tar.gz tmp/mongodb_orm-0.1.0a4.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0a3-0.1.0a4/README.md --exclude *.pyd
+[2024-06-03 11:54:23] INFO root fetch - processPackages [daas]: Downloading https://files.pythonhosted.org/packages/9e/3f/6d512f1d40888f4493c5dd968d3cfe38c7459fa5524441b06a25bcf86d16/daas-0.0.9.tar.gz
+[2024-06-03 11:54:23] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 11:54:23] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 11:54:23] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 11:54:23] INFO root fetch - processPackages [daas]: executing diffoscope
+[2024-06-03 11:54:23] INFO root fetch - processPackages [daas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daas-0.0.8.tar.gz tmp/daas-0.0.9.tar.gz --markdown 20240603/d/daas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 11:54:24] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6b/a4/70e83775e1ce789d4dc02753b52ab25f4dfcbea75b9a96cb64b001b88df1/kr8s-0.9.2.tar.gz
+[2024-06-03 11:54:24] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.7.tar.gz]
+[2024-06-03 11:54:24] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.8a0.tar.gz]
+[2024-06-03 11:54:24] INFO root fetch - main [MainThread]: End processing [e2b-code-interpreter]: success
+[2024-06-03 11:54:24] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a3.tar.gz]
+[2024-06-03 11:54:24] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a4.tar.gz]
+[2024-06-03 11:54:24] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 11:54:25] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2024-06-03 11:54:25] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.9.1.tar.gz tmp/kr8s-0.9.2.tar.gz --markdown 20240603/k/kr8s/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-06-03 11:54:25] INFO root fetch - processPackages [local-lang]: Remove: archive file [/home/abi/fetcher/tmp/local_lang-0.0.8.tar.gz]
+[2024-06-03 11:54:25] INFO root fetch - processPackages [local-lang]: Remove: archive file [/home/abi/fetcher/tmp/local_lang-0.0.9.tar.gz]
+[2024-06-03 11:54:25] INFO root fetch - main [MainThread]: End processing [local-lang]: success
+[2024-06-03 11:54:25] INFO root fetch - processPackages [daas]: Remove: archive file [/home/abi/fetcher/tmp/daas-0.0.8.tar.gz]
+[2024-06-03 11:54:25] INFO root fetch - processPackages [daas]: Remove: archive file [/home/abi/fetcher/tmp/daas-0.0.9.tar.gz]
+[2024-06-03 11:54:25] INFO root fetch - main [MainThread]: End processing [daas]: success
+[2024-06-03 11:54:25] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev5.tar.gz]
+[2024-06-03 11:54:25] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.8.tar.gz]
+[2024-06-03 11:54:25] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-06-03 11:54:26] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.9.1.tar.gz]
+[2024-06-03 11:54:26] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.9.2.tar.gz]
+[2024-06-03 11:54:26] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2024-06-03 11:54:26] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.6.1.tar.gz]
+[2024-06-03 11:54:26] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.6.2.tar.gz]
+[2024-06-03 11:54:26] INFO root fetch - main [MainThread]: End processing [py-rattler]: success
+[2024-06-03 11:54:26] INFO root fetch - main [MainThread]: Store serial: [23499945]
