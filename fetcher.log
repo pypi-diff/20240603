@@ -7233,3 +7233,15 @@ EOFError: EOF read where object expected
 [2024-06-03 08:02:06] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.9.5.tar.gz]
 [2024-06-03 08:02:06] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2024-06-03 08:02:06] INFO root fetch - main [MainThread]: Store serial: [23497205]
+[2024-06-03 08:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497205]
+[2024-06-03 08:04:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 08:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toyai
+[2024-06-03 08:04:14] INFO root fetch - processPackages [toyai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 08:04:14] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/fd/4c/821633199a44bf39d8ff3afa6002dbead461d9d66884ceb45606f2bb8c51/toyai-0.1.8-py3-none-any.whl
+[2024-06-03 08:04:15] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/18/d9/7e8965ab53001776b1f7370302d93bd68116fb00deb686b2b9821b9914e6/toyai-0.1.9-py3-none-any.whl
+[2024-06-03 08:04:15] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 08:04:15] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.8-py3-none-any.whl.zip tmp/toyai-0.1.9-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 08:04:15] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.8-py3-none-any.whl.zip]
+[2024-06-03 08:04:15] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.9-py3-none-any.whl.zip]
+[2024-06-03 08:04:15] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 08:04:15] INFO root fetch - main [MainThread]: Store serial: [23497215]
