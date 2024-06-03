@@ -2338,3 +2338,24 @@
 [2024-06-03 02:58:13] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-06-03 02:58:13] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-06-03 02:58:13] INFO root fetch - main [MainThread]: Store serial: [23495123]
+[2024-06-03 03:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495123]
+[2024-06-03 03:00:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 03:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moroccan-prayer-times
+[2024-06-03 03:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nadl
+[2024-06-03 03:00:21] INFO root fetch - processPackages [moroccan-prayer-times]: New version: [0.0.9] Old Version: [0.0.15]
+[2024-06-03 03:00:21] INFO root fetch - processPackages [nadl]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-06-03 03:00:21] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/2c/c3/b235ef1b3fc82fa606f9e00e2e8577c9b2eaf47225d357ba63873ea77a8e/nadl-1.5.8.tar.gz
+[2024-06-03 03:00:22] INFO root fetch - processPackages [moroccan-prayer-times]: Downloading https://files.pythonhosted.org/packages/e0/01/15f4cea8f7f23e359e308fcaed181898def1f885c6af552a2a734e220d5f/moroccan_prayer_times-0.0.15.tar.gz
+[2024-06-03 03:00:22] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/d6/21/ec8714247020baaa2b79de15a7a49d8d82cadffe0cc0d4f79ef3670592e2/nadl-1.5.9.tar.gz
+[2024-06-03 03:00:22] INFO root fetch - processPackages [moroccan-prayer-times]: Downloading https://files.pythonhosted.org/packages/6f/b6/974e7dd7973732bb57010d61ea7a49703337769a92389d6d635aa04aa355/moroccan_prayer_times-0.0.9-py3-none-any.whl
+[2024-06-03 03:00:22] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-06-03 03:00:22] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.5.8.tar.gz tmp/nadl-1.5.9.tar.gz --markdown 20240603/n/nadl/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-06-03 03:00:22] INFO root fetch - processPackages [moroccan-prayer-times]: executing diffoscope
+[2024-06-03 03:00:22] INFO root fetch - processPackages [moroccan-prayer-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moroccan_prayer_times-0.0.15.tar.gz tmp/moroccan_prayer_times-0.0.9-py3-none-any.whl.zip --markdown 20240603/m/moroccan-prayer-times/0.0.15-0.0.9/README.md --exclude *.pyd
+[2024-06-03 03:00:22] INFO root fetch - processPackages [moroccan-prayer-times]: Remove: archive file [/home/abi/fetcher/tmp/moroccan_prayer_times-0.0.15.tar.gz]
+[2024-06-03 03:00:22] INFO root fetch - processPackages [moroccan-prayer-times]: Remove: archive file [/home/abi/fetcher/tmp/moroccan_prayer_times-0.0.9-py3-none-any.whl.zip]
+[2024-06-03 03:00:22] INFO root fetch - main [MainThread]: End processing [moroccan-prayer-times]: success
+[2024-06-03 03:00:22] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.8.tar.gz]
+[2024-06-03 03:00:22] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.9.tar.gz]
+[2024-06-03 03:00:22] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-06-03 03:00:22] INFO root fetch - main [MainThread]: Store serial: [23495129]
