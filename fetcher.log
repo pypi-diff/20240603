@@ -22809,3 +22809,69 @@ EOFError: EOF read where object expected
 [2024-06-03 16:08:03] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9351563704-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-06-03 16:08:03] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
 [2024-06-03 16:08:03] INFO root fetch - main [MainThread]: Store serial: [23503940]
+[2024-06-03 16:10:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503940]
+[2024-06-03 16:10:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbot
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twikit
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ARCtrl
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pgn-clis
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: triton-copilot
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecodev-core
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-snack-dynamic-entity
+[2024-06-03 16:10:16] INFO root fetch - processPackages [twikit]: New version: [1.7.0] Old Version: [1.6.4]
+[2024-06-03 16:10:16] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b9] Old Version: [0.1.3b8]
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ecodev-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:10:16] INFO root fetch - processPackages [bbot]: New version: [1.1.9.3387rc0] Old Version: [1.1.9.3376rc0]
+[2024-06-03 16:10:16] INFO root fetch - processPackages [pgn-clis]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-06-03 16:10:16] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/db/05/678677ba5189f877077d8270f117dfd424ecec16a0afb7ba24d771ebdd38/triton_copilot-0.1.3b8.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ARCtrl]: New version: [2.0.0a5] Old Version: [2.0.0a4]
+[2024-06-03 16:10:16] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/1f/ca/1a35b975e0a03aef2553448efc02a266deee7b882d31ea8a57c8a66fbdce/twikit-1.6.4.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [data-snack-dynamic-entity]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-06-03 16:10:16] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/d1/4a/e131575c4e2d1230d3a8d0c14f3537b88868bcfc48c42cb5789be9892856/bbot-1.1.9.3376rc0.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/b5/a9/766d6853412070aa67063f8b8ba6353109df7a029b4e8c577447655f9dd1/ecodev_core-0.0.8.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [pgn-clis]: Downloading https://files.pythonhosted.org/packages/44/3c/e19eb232037dd98c9146865a34e22ea5333d8ca0b0f7d7f1bd6b13566f18/pgn_clis-0.1.7.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ARCtrl]: Downloading https://files.pythonhosted.org/packages/c1/e3/25cd318145041d5a5ae555536445044febb445110b709489aeb1a59cf00d/arctrl-2.0.0a4.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [data-snack-dynamic-entity]: Downloading https://files.pythonhosted.org/packages/75/29/3539c169feb145614baca9b235a95d0486c93c981babfc16a2aa8b5274e9/data_snack_dynamic_entity-0.2.0.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/06/47/7dd6e2371756d24a0fa2d5655996c9b75e3433c30dc7787f82e994ce82b6/triton_copilot-0.1.3b9.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/14/fc/394df958aad7272e99e6f28a5c89bfd7f7dc58c16513f363f2848c376ec4/twikit-1.7.0.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/2b/a0/d654c8a620b75677b176be54783974380dae7715c39ab4ada944771e7e75/ecodev_core-0.0.9.tar.gz
+[2024-06-03 16:10:16] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 16:10:16] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b8.tar.gz tmp/triton_copilot-0.1.3b9.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b8-0.1.3b9/README.md --exclude *.pyd
+[2024-06-03 16:10:17] INFO root fetch - processPackages [ARCtrl]: Downloading https://files.pythonhosted.org/packages/f1/e9/8d5341a309faf86a7a5c0d1d023568e2321216a141a148fc761dd173ed0f/arctrl-2.0.0a5.tar.gz
+[2024-06-03 16:10:17] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/a6/21/07acf3924b9105d22b0bb05be8429c8691c603b3d598d51e17f98286be7c/bbot-1.1.9.3387rc0.tar.gz
+[2024-06-03 16:10:17] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-06-03 16:10:17] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.6.4.tar.gz tmp/twikit-1.7.0.tar.gz --markdown 20240603/t/twikit/1.6.4-1.7.0/README.md --exclude *.pyd
+[2024-06-03 16:10:17] INFO root fetch - processPackages [ecodev-core]: executing diffoscope
+[2024-06-03 16:10:17] INFO root fetch - processPackages [ecodev-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_core-0.0.8.tar.gz tmp/ecodev_core-0.0.9.tar.gz --markdown 20240603/e/ecodev-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:10:17] INFO root fetch - processPackages [pgn-clis]: Downloading https://files.pythonhosted.org/packages/89/d5/1ab48ea4e65547bf52f440d5509e10c877616541956047cb21790eb9ccd8/pgn_clis-0.1.9.tar.gz
+[2024-06-03 16:10:17] INFO root fetch - processPackages [data-snack-dynamic-entity]: Downloading https://files.pythonhosted.org/packages/1f/a7/7cb991a722505e8e4275a18d40655d591d0a3b78410961fa0cf8c45584b0/data_snack_dynamic_entity-0.3.0.tar.gz
+[2024-06-03 16:10:17] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-06-03 16:10:17] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.9.3376rc0.tar.gz tmp/bbot-1.1.9.3387rc0.tar.gz --markdown 20240603/b/bbot/1.1.9.3376rc0-1.1.9.3387rc0/README.md --exclude *.pyd
+[2024-06-03 16:10:17] INFO root fetch - processPackages [pgn-clis]: executing diffoscope
+[2024-06-03 16:10:17] INFO root fetch - processPackages [pgn-clis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgn_clis-0.1.7.tar.gz tmp/pgn_clis-0.1.9.tar.gz --markdown 20240603/p/pgn-clis/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-06-03 16:10:17] INFO root fetch - processPackages [ARCtrl]: executing diffoscope
+[2024-06-03 16:10:17] INFO root fetch - processPackages [ARCtrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctrl-2.0.0a4.tar.gz tmp/arctrl-2.0.0a5.tar.gz --markdown 20240603/A/ARCtrl/2.0.0a4-2.0.0a5/README.md --exclude *.pyd
+[2024-06-03 16:10:17] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b8.tar.gz]
+[2024-06-03 16:10:17] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b9.tar.gz]
+[2024-06-03 16:10:17] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 16:10:17] INFO root fetch - processPackages [data-snack-dynamic-entity]: executing diffoscope
+[2024-06-03 16:10:17] INFO root fetch - processPackages [data-snack-dynamic-entity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_snack_dynamic_entity-0.2.0.tar.gz tmp/data_snack_dynamic_entity-0.3.0.tar.gz --markdown 20240603/d/data-snack-dynamic-entity/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-06-03 16:10:17] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.8.tar.gz]
+[2024-06-03 16:10:17] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.9.tar.gz]
+[2024-06-03 16:10:17] INFO root fetch - main [MainThread]: End processing [ecodev-core]: success
+[2024-06-03 16:10:18] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.6.4.tar.gz]
+[2024-06-03 16:10:18] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.7.0.tar.gz]
+[2024-06-03 16:10:18] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-06-03 16:10:18] INFO root fetch - processPackages [pgn-clis]: Remove: archive file [/home/abi/fetcher/tmp/pgn_clis-0.1.7.tar.gz]
+[2024-06-03 16:10:18] INFO root fetch - processPackages [pgn-clis]: Remove: archive file [/home/abi/fetcher/tmp/pgn_clis-0.1.9.tar.gz]
+[2024-06-03 16:10:18] INFO root fetch - main [MainThread]: End processing [pgn-clis]: success
+[2024-06-03 16:10:18] INFO root fetch - processPackages [data-snack-dynamic-entity]: Remove: archive file [/home/abi/fetcher/tmp/data_snack_dynamic_entity-0.2.0.tar.gz]
+[2024-06-03 16:10:18] INFO root fetch - processPackages [data-snack-dynamic-entity]: Remove: archive file [/home/abi/fetcher/tmp/data_snack_dynamic_entity-0.3.0.tar.gz]
+[2024-06-03 16:10:18] INFO root fetch - main [MainThread]: End processing [data-snack-dynamic-entity]: success
+[2024-06-03 16:10:19] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.9.3376rc0.tar.gz]
+[2024-06-03 16:10:19] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.9.3387rc0.tar.gz]
+[2024-06-03 16:10:19] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-06-03 16:10:20] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-2.0.0a4.tar.gz]
+[2024-06-03 16:10:20] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-2.0.0a5.tar.gz]
+[2024-06-03 16:10:20] INFO root fetch - main [MainThread]: End processing [ARCtrl]: success
+[2024-06-03 16:10:20] INFO root fetch - main [MainThread]: Store serial: [23503962]
