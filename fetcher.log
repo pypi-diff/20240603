@@ -12746,3 +12746,83 @@ EOFError: EOF read where object expected
 [2024-06-03 11:54:26] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.6.2.tar.gz]
 [2024-06-03 11:54:26] INFO root fetch - main [MainThread]: End processing [py-rattler]: success
 [2024-06-03 11:54:26] INFO root fetch - main [MainThread]: Store serial: [23499945]
+[2024-06-03 11:56:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499945]
+[2024-06-03 11:56:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bentoml
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-score
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proxynt
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ilum
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CVE-2019-12616
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dve-lumipy-testing
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangoloco
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: revampdeployer
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dj-all-auth
+[2024-06-03 11:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xarpes
+[2024-06-03 11:56:35] INFO root fetch - processPackages [revampdeployer]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-06-03 11:56:35] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 11:56:35] INFO root fetch - processPackages [proxynt]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-06-03 11:56:36] WARNING root fetch - processPackages [dbt-score]: Skipping, unable to determine old version
+[2024-06-03 11:56:36] INFO root fetch - processPackages [dbt-score]: Start processing: alipai
+[2024-06-03 11:56:36] INFO root fetch - main [MainThread]: End processing [dbt-score] error
+[2024-06-03 11:56:36] WARNING root fetch - processPackages [dj-all-auth]: Skipping, unable to determine old version
+[2024-06-03 11:56:36] INFO root fetch - main [MainThread]: End processing [dj-all-auth] error
+[2024-06-03 11:56:36] INFO root fetch - processPackages [ilum]: New version: [6.1.2rc2] Old Version: [6.1.2rc1]
+[2024-06-03 11:56:36] INFO root fetch - processPackages [revampdeployer]: Downloading https://files.pythonhosted.org/packages/0e/ca/0b542d18c583c176389893319ed50f1cf64f7ca288a6a3226bbf1cf8fa62/revampdeployer-0.1.5.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [djangoloco]: New version: [1.1.0] Old Version: [1.0]
+[2024-06-03 11:56:36] WARNING root fetch - processPackages [CVE-2019-12616]: Skipping, unable to determine old version
+[2024-06-03 11:56:36] INFO root fetch - main [MainThread]: End processing [CVE-2019-12616] error
+[2024-06-03 11:56:36] INFO root fetch - processPackages [xarpes]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-06-03 11:56:36] INFO root fetch - processPackages [bentoml]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-06-03 11:56:36] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-06-03 11:56:36] INFO root fetch - processPackages [proxynt]: Downloading https://files.pythonhosted.org/packages/85/87/e21a408743bcd813362637731c7b1b6cd96619344176cf3d2c10d4912990/proxynt-1.1.8.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [alipai]: New version: [0.4.7.post0] Old Version: [0.4.7]
+[2024-06-03 11:56:36] INFO root fetch - processPackages [ilum]: Downloading https://files.pythonhosted.org/packages/94/69/80236deeb9f08afe99e45b7eb79d9b4a90c1f04de56e1a3620128b2e0b1c/ilum-6.1.2rc1.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/96/b0/1e4559395d6049e7094e23f8e6718de26946b3e2586ff54c96a542a9e145/bentoml-1.2.8.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [revampdeployer]: Downloading https://files.pythonhosted.org/packages/75/dd/f476e03b2a3b1766716ae992ad6e17bc9de296e9db7ae2b44a768c05284d/revampdeployer-0.2.0.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [djangoloco]: Downloading https://files.pythonhosted.org/packages/5c/ac/0190d65e8045c893dcb62cb543fd2f3ea951d6b75c556ad77ef59be1e227/djangoloco-1.0.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [xarpes]: Downloading https://files.pythonhosted.org/packages/6a/1e/ae061baebc7f85113afd73026d23b88a085347203c2080689dfc549ced0d/xarpes-0.1.0.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-06-03 11:56:36] INFO root fetch - processPackages [revampdeployer]: executing diffoscope
+[2024-06-03 11:56:36] INFO root fetch - processPackages [revampdeployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revampdeployer-0.1.5.tar.gz tmp/revampdeployer-0.2.0.tar.gz --markdown 20240603/r/revampdeployer/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-06-03 11:56:36] INFO root fetch - processPackages [alipai]: Downloading https://files.pythonhosted.org/packages/56/2b/8656902b18de160a03e2edcc26ee5953006be893831777bc6f029137e53c/alipai-0.4.7.tar.gz
+[2024-06-03 11:56:36] WARNING root fetch - processPackages [alipai]: Skipping package: exceeds size limit 11329290>=10485760
+[2024-06-03 11:56:36] INFO root fetch - main [MainThread]: End processing [alipai] error
+[2024-06-03 11:56:36] INFO root fetch - processPackages [proxynt]: Downloading https://files.pythonhosted.org/packages/0d/da/ce1fdd2997452125d925e27b6b90d9ef60ea63095cdb7dfaa274f21ae58f/proxynt-1.1.9.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [ilum]: Downloading https://files.pythonhosted.org/packages/12/de/6fbcc6148a314c39eaf15df54ac0aa5a1026dfc3fd227d30c40aebfefe53/ilum-6.1.2rc2.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-06-03 11:56:36] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240603/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 11:56:36] INFO root fetch - processPackages [djangoloco]: Downloading https://files.pythonhosted.org/packages/af/af/c5645ffcd26a3547c038ad906fb873adf6dd5f4bb15b04278a527f05c63b/djangoloco-1.1.0.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [xarpes]: Downloading https://files.pythonhosted.org/packages/67/61/97e55ffb1dffb099de0eb2fbee073fa420bc9bf961ffdaf0eb73308f6fe4/xarpes-0.2.0.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [ilum]: executing diffoscope
+[2024-06-03 11:56:36] INFO root fetch - processPackages [ilum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilum-6.1.2rc1.tar.gz tmp/ilum-6.1.2rc2.tar.gz --markdown 20240603/i/ilum/6.1.2rc1-6.1.2rc2/README.md --exclude *.pyd
+[2024-06-03 11:56:36] INFO root fetch - processPackages [proxynt]: executing diffoscope
+[2024-06-03 11:56:36] INFO root fetch - processPackages [proxynt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxynt-1.1.8.tar.gz tmp/proxynt-1.1.9.tar.gz --markdown 20240603/p/proxynt/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-06-03 11:56:36] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/64/1c/008b7d7f75caf1e68ca286012a0df9462265b353e11056db4ffdca6b8860/bentoml-1.2.9.tar.gz
+[2024-06-03 11:56:36] INFO root fetch - processPackages [djangoloco]: executing diffoscope
+[2024-06-03 11:56:36] INFO root fetch - processPackages [djangoloco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoloco-1.0.tar.gz tmp/djangoloco-1.1.0.tar.gz --markdown 20240603/d/djangoloco/1.0-1.1.0/README.md --exclude *.pyd
+[2024-06-03 11:56:36] INFO root fetch - processPackages [bentoml]: executing diffoscope
+[2024-06-03 11:56:36] INFO root fetch - processPackages [bentoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bentoml-1.2.8.tar.gz tmp/bentoml-1.2.9.tar.gz --markdown 20240603/b/bentoml/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-06-03 11:56:36] INFO root fetch - processPackages [xarpes]: executing diffoscope
+[2024-06-03 11:56:36] INFO root fetch - processPackages [xarpes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarpes-0.1.0.tar.gz tmp/xarpes-0.2.0.tar.gz --markdown 20240603/x/xarpes/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-06-03 11:56:37] INFO root fetch - processPackages [revampdeployer]: Remove: archive file [/home/abi/fetcher/tmp/revampdeployer-0.1.5.tar.gz]
+[2024-06-03 11:56:37] INFO root fetch - processPackages [revampdeployer]: Remove: archive file [/home/abi/fetcher/tmp/revampdeployer-0.2.0.tar.gz]
+[2024-06-03 11:56:37] INFO root fetch - main [MainThread]: End processing [revampdeployer]: success
+[2024-06-03 11:56:37] INFO root fetch - processPackages [ilum]: Remove: archive file [/home/abi/fetcher/tmp/ilum-6.1.2rc1.tar.gz]
+[2024-06-03 11:56:37] INFO root fetch - processPackages [ilum]: Remove: archive file [/home/abi/fetcher/tmp/ilum-6.1.2rc2.tar.gz]
+[2024-06-03 11:56:37] INFO root fetch - main [MainThread]: End processing [ilum]: success
+[2024-06-03 11:56:37] INFO root fetch - processPackages [djangoloco]: Remove: archive file [/home/abi/fetcher/tmp/djangoloco-1.0.tar.gz]
+[2024-06-03 11:56:37] INFO root fetch - processPackages [djangoloco]: Remove: archive file [/home/abi/fetcher/tmp/djangoloco-1.1.0.tar.gz]
+[2024-06-03 11:56:37] INFO root fetch - main [MainThread]: End processing [djangoloco]: success
+[2024-06-03 11:56:37] INFO root fetch - processPackages [proxynt]: Remove: archive file [/home/abi/fetcher/tmp/proxynt-1.1.8.tar.gz]
+[2024-06-03 11:56:37] INFO root fetch - processPackages [proxynt]: Remove: archive file [/home/abi/fetcher/tmp/proxynt-1.1.9.tar.gz]
+[2024-06-03 11:56:37] INFO root fetch - main [MainThread]: End processing [proxynt]: success
+[2024-06-03 11:56:38] INFO root fetch - processPackages [xarpes]: Remove: archive file [/home/abi/fetcher/tmp/xarpes-0.1.0.tar.gz]
+[2024-06-03 11:56:38] INFO root fetch - processPackages [xarpes]: Remove: archive file [/home/abi/fetcher/tmp/xarpes-0.2.0.tar.gz]
+[2024-06-03 11:56:38] INFO root fetch - main [MainThread]: End processing [xarpes]: success
+[2024-06-03 11:56:38] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-06-03 11:56:38] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-06-03 11:56:38] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-06-03 11:56:41] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.8.tar.gz]
+[2024-06-03 11:56:41] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
+[2024-06-03 11:56:41] INFO root fetch - main [MainThread]: End processing [bentoml]: success
+[2024-06-03 11:56:41] INFO root fetch - main [MainThread]: Store serial: [23499976]
