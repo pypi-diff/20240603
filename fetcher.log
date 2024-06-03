@@ -21620,3 +21620,83 @@ EOFError: EOF read where object expected
 [2024-06-03 15:34:37] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-1.2.6.tar.gz]
 [2024-06-03 15:34:37] INFO root fetch - main [MainThread]: End processing [otcdocstheme]: success
 [2024-06-03 15:34:37] INFO root fetch - main [MainThread]: Store serial: [23503390]
+[2024-06-03 15:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503390]
+[2024-06-03 15:36:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysmelt
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ng-data-pipelines-sdk
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AAIT
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: consensusGen
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-audit-trail
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-retrieval
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moonss
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamstats-access
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: brayns
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fuo-qqmusic
+[2024-06-03 15:36:46] INFO root fetch - processPackages [moonss]: New version: [0.99] Old Version: [0.98]
+[2024-06-03 15:36:46] INFO root fetch - processPackages [consensusGen]: New version: [2.3] Old Version: [2.2]
+[2024-06-03 15:36:46] WARNING root fetch - processPackages [streamstats-access]: Skipping, unable to determine old version
+[2024-06-03 15:36:46] INFO root fetch - processPackages [streamstats-access]: Start processing: open-space-toolkit-astrodynamics
+[2024-06-03 15:36:46] INFO root fetch - main [MainThread]: End processing [streamstats-access] error
+[2024-06-03 15:36:46] WARNING root fetch - processPackages [pysmelt]: Skipping, unable to determine old version
+[2024-06-03 15:36:46] INFO root fetch - main [MainThread]: End processing [pysmelt] error
+[2024-06-03 15:36:46] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-06-03 15:36:46] INFO root fetch - processPackages [brayns]: New version: [3.8.0] Old Version: [3.7.2]
+[2024-06-03 15:36:46] INFO root fetch - processPackages [fuo-qqmusic]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 15:36:46] INFO root fetch - processPackages [drf-audit-trail]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 15:36:46] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/df/9c/efa77e88d08939cec835de0cc183c1e3218af6175697e55b7bbffa3d0270/moonss-0.98.tar.gz
+[2024-06-03 15:36:46] INFO root fetch - processPackages [ng-data-pipelines-sdk]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-06-03 15:36:46] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/07/c5/e98898b9426361489ed658ba80bd011203b781db297fe769a8412db6aebe/consensusgen-2.2.tar.gz
+[2024-06-03 15:36:46] WARNING root fetch - processPackages [open-retrieval]: Skipping, unable to determine old version
+[2024-06-03 15:36:46] INFO root fetch - main [MainThread]: End processing [open-retrieval] error
+[2024-06-03 15:36:46] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: New version: [9.2.0] Old Version: [9.1.8]
+[2024-06-03 15:36:46] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/4b/ec/a3e05f449cce0171eccc1aaf2042c86118c169df00af32df839b4226b8b2/AAIT-0.0.2.8.tar.gz
+[2024-06-03 15:36:46] INFO root fetch - processPackages [brayns]: Downloading https://files.pythonhosted.org/packages/b2/e2/b9eca746b8ff4a491356b42404762e62963aed3677999d4a2f0a1a4a4c00/brayns-3.7.2.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/35/3c/cb62485dde83e7c097a307c0189c884a946fec5e6c16c9fca526b4d99511/moonss-0.99.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [fuo-qqmusic]: Downloading https://files.pythonhosted.org/packages/40/e6/d5b3f88dbb4610833d142bfd21cdec2d66cd9b48b08d2ae9d127235f6c74/fuo_qqmusic-1.0.4.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/c3/1e/65395429434aa63fe9b236b84c8ed53360678004aabeeb2c1b1a870b3198/drf_audit_trail-0.2.2.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/17/3b/6215dc43b459e9f6db2f4df29965fbfe94827cfbc4923830121add71b88f/ng_data_pipelines_sdk-1.7.1.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-06-03 15:36:47] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.98.tar.gz tmp/moonss-0.99.tar.gz --markdown 20240603/m/moonss/0.98-0.99/README.md --exclude *.pyd
+[2024-06-03 15:36:47] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/39/a7/fd4a070b02b6d7d729fad4df28c83b153963f71167ed43085d004befa1c9/consensusgen-2.3.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/48/ee/fc7ff07d0b1adc2e0b8fa255f413304b600d0cbc8f02998e5ce3c2d500cc/open_space_toolkit_astrodynamics-9.1.8-py39-none-manylinux2014_x86_64.whl
+[2024-06-03 15:36:47] WARNING root fetch - processPackages [open-space-toolkit-astrodynamics]: Skipping package: exceeds size limit 27367449>=10485760
+[2024-06-03 15:36:47] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics] error
+[2024-06-03 15:36:47] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-06-03 15:36:47] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-2.2.tar.gz tmp/consensusgen-2.3.tar.gz --markdown 20240603/c/consensusGen/2.2-2.3/README.md --exclude *.pyd
+[2024-06-03 15:36:47] INFO root fetch - processPackages [brayns]: Downloading https://files.pythonhosted.org/packages/99/c7/8ff8098d897e88656760b3a67e293cae5a1bc878d752466e8944d68750a8/brayns-3.8.0.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [fuo-qqmusic]: Downloading https://files.pythonhosted.org/packages/35/8d/70151f3fd836b3f62a3d306744dfd2f232c72e5f7678d096b3845c1b6e53/fuo_qqmusic-1.0.5.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/3d/34/1a901778666e0609e3e1f13c1865014f3535792a2ca15f178ff0eff3fc7d/ng_data_pipelines_sdk-1.8.0.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/a0/ed/929afa211bad78b2612459dbcacb9dca8231b0e919d21a6da65137005c11/AAIT-0.0.2.9.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/7c/0b/b315c6a6a7045c30ed475350e0029e2cad52de5c4ef57a73682969360cb1/drf_audit_trail-0.2.3.tar.gz
+[2024-06-03 15:36:47] INFO root fetch - processPackages [brayns]: executing diffoscope
+[2024-06-03 15:36:47] INFO root fetch - processPackages [brayns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brayns-3.7.2.tar.gz tmp/brayns-3.8.0.tar.gz --markdown 20240603/b/brayns/3.7.2-3.8.0/README.md --exclude *.pyd
+[2024-06-03 15:36:47] INFO root fetch - processPackages [ng-data-pipelines-sdk]: executing diffoscope
+[2024-06-03 15:36:47] INFO root fetch - processPackages [ng-data-pipelines-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ng_data_pipelines_sdk-1.7.1.tar.gz tmp/ng_data_pipelines_sdk-1.8.0.tar.gz --markdown 20240603/n/ng-data-pipelines-sdk/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-06-03 15:36:47] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-06-03 15:36:47] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.8.tar.gz tmp/AAIT-0.0.2.9.tar.gz --markdown 20240603/A/AAIT/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-06-03 15:36:47] INFO root fetch - processPackages [fuo-qqmusic]: executing diffoscope
+[2024-06-03 15:36:47] INFO root fetch - processPackages [fuo-qqmusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuo_qqmusic-1.0.4.tar.gz tmp/fuo_qqmusic-1.0.5.tar.gz --markdown 20240603/f/fuo-qqmusic/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 15:36:47] INFO root fetch - processPackages [drf-audit-trail]: executing diffoscope
+[2024-06-03 15:36:47] INFO root fetch - processPackages [drf-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_audit_trail-0.2.2.tar.gz tmp/drf_audit_trail-0.2.3.tar.gz --markdown 20240603/d/drf-audit-trail/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 15:36:47] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.98.tar.gz]
+[2024-06-03 15:36:47] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.99.tar.gz]
+[2024-06-03 15:36:47] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-06-03 15:36:47] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.2.tar.gz]
+[2024-06-03 15:36:47] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-2.3.tar.gz]
+[2024-06-03 15:36:47] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-06-03 15:36:48] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.8.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.9.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-06-03 15:36:48] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.2.2.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.2.3.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - main [MainThread]: End processing [drf-audit-trail]: success
+[2024-06-03 15:36:48] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-1.7.1.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-1.8.0.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - main [MainThread]: End processing [ng-data-pipelines-sdk]: success
+[2024-06-03 15:36:48] INFO root fetch - processPackages [fuo-qqmusic]: Remove: archive file [/home/abi/fetcher/tmp/fuo_qqmusic-1.0.4.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - processPackages [fuo-qqmusic]: Remove: archive file [/home/abi/fetcher/tmp/fuo_qqmusic-1.0.5.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - main [MainThread]: End processing [fuo-qqmusic]: success
+[2024-06-03 15:36:48] INFO root fetch - processPackages [brayns]: Remove: archive file [/home/abi/fetcher/tmp/brayns-3.7.2.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - processPackages [brayns]: Remove: archive file [/home/abi/fetcher/tmp/brayns-3.8.0.tar.gz]
+[2024-06-03 15:36:48] INFO root fetch - main [MainThread]: End processing [brayns]: success
+[2024-06-03 15:36:48] INFO root fetch - main [MainThread]: Store serial: [23503440]
