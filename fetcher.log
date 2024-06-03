@@ -5214,3 +5214,36 @@ EOFError: EOF read where object expected
 [2024-06-03 05:58:10] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.8.dev20240603035708.tar.gz]
 [2024-06-03 05:58:10] INFO root fetch - main [MainThread]: End processing [wheel-axle]: success
 [2024-06-03 05:58:10] INFO root fetch - main [MainThread]: Store serial: [23496453]
+[2024-06-03 06:00:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496453]
+[2024-06-03 06:00:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 06:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wheel-axle-runtime
+[2024-06-03 06:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voxylstats
+[2024-06-03 06:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datas-helper
+[2024-06-03 06:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-x-table
+[2024-06-03 06:00:18] INFO root fetch - processPackages [voxylstats]: New version: [1.0.0] Old Version: [0.2.8]
+[2024-06-03 06:00:18] INFO root fetch - processPackages [json-x-table]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 06:00:18] INFO root fetch - processPackages [wheel-axle-runtime]: New version: [0.0.6.dev20240603035837] Old Version: [0.0.6.dev20240212035011]
+[2024-06-03 06:00:18] INFO root fetch - processPackages [voxylstats]: Downloading https://files.pythonhosted.org/packages/a7/08/bbc757980be538721712cc7325f46c4f6282acb335ea42d2af9af5a82869/voxylstats-0.2.8.tar.gz
+[2024-06-03 06:00:18] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/4e/fe/e3dd74605ae0392c7fa756b58bf452098f6f621fb2b768789ad057addb6e/json_x_table-0.0.4.tar.gz
+[2024-06-03 06:00:18] WARNING root fetch - processPackages [datas-helper]: Skipping, unable to determine old version
+[2024-06-03 06:00:18] INFO root fetch - main [MainThread]: End processing [datas-helper] error
+[2024-06-03 06:00:19] INFO root fetch - processPackages [wheel-axle-runtime]: Downloading https://files.pythonhosted.org/packages/fd/8c/87ce565180a6efb1d75a4d4a815ecc9d795361d349212d2d03be823f7112/wheel-axle-runtime-0.0.6.dev20240212035011.tar.gz
+[2024-06-03 06:00:19] INFO root fetch - processPackages [voxylstats]: Downloading https://files.pythonhosted.org/packages/47/ec/cdff6b9cce2b385a8aea2c463c8e12c426be9df9449aed1ed584ce70a004/voxylstats-1.0.0.tar.gz
+[2024-06-03 06:00:19] INFO root fetch - processPackages [voxylstats]: executing diffoscope
+[2024-06-03 06:00:19] INFO root fetch - processPackages [voxylstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxylstats-0.2.8.tar.gz tmp/voxylstats-1.0.0.tar.gz --markdown 20240603/v/voxylstats/0.2.8-1.0.0/README.md --exclude *.pyd
+[2024-06-03 06:00:19] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/19/0f/f9d5e7e7465cd42ad47fc7d056142f60822c3fc8642246d7266ef1c44c1d/json_x_table-0.0.5.tar.gz
+[2024-06-03 06:00:19] INFO root fetch - processPackages [json-x-table]: executing diffoscope
+[2024-06-03 06:00:19] INFO root fetch - processPackages [json-x-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_x_table-0.0.4.tar.gz tmp/json_x_table-0.0.5.tar.gz --markdown 20240603/j/json-x-table/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 06:00:19] INFO root fetch - processPackages [wheel-axle-runtime]: Downloading https://files.pythonhosted.org/packages/17/e4/38bcfe34cd17b720cdc9f1879c70a3b43c2eff8f775561e1ad2f054a5d68/wheel_axle_runtime-0.0.6.dev20240603035837.tar.gz
+[2024-06-03 06:00:19] INFO root fetch - processPackages [wheel-axle-runtime]: executing diffoscope
+[2024-06-03 06:00:19] INFO root fetch - processPackages [wheel-axle-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel-axle-runtime-0.0.6.dev20240212035011.tar.gz tmp/wheel_axle_runtime-0.0.6.dev20240603035837.tar.gz --markdown 20240603/w/wheel-axle-runtime/0.0.6.dev20240212035011-0.0.6.dev20240603035837/README.md --exclude *.pyd
+[2024-06-03 06:00:19] INFO root fetch - processPackages [voxylstats]: Remove: archive file [/home/abi/fetcher/tmp/voxylstats-0.2.8.tar.gz]
+[2024-06-03 06:00:19] INFO root fetch - processPackages [voxylstats]: Remove: archive file [/home/abi/fetcher/tmp/voxylstats-1.0.0.tar.gz]
+[2024-06-03 06:00:19] INFO root fetch - main [MainThread]: End processing [voxylstats]: success
+[2024-06-03 06:00:19] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.4.tar.gz]
+[2024-06-03 06:00:19] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.5.tar.gz]
+[2024-06-03 06:00:19] INFO root fetch - main [MainThread]: End processing [json-x-table]: success
+[2024-06-03 06:00:20] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel-axle-runtime-0.0.6.dev20240212035011.tar.gz]
+[2024-06-03 06:00:20] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle_runtime-0.0.6.dev20240603035837.tar.gz]
+[2024-06-03 06:00:20] INFO root fetch - main [MainThread]: End processing [wheel-axle-runtime]: success
+[2024-06-03 06:00:20] INFO root fetch - main [MainThread]: Store serial: [23496465]
