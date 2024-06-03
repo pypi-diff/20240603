@@ -24154,3 +24154,29 @@ EOFError: EOF read where object expected
 [2024-06-03 16:51:11] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
 [2024-06-03 16:51:11] INFO root fetch - main [MainThread]: End processing [textual]: success
 [2024-06-03 16:51:11] INFO root fetch - main [MainThread]: Store serial: [23504656]
+[2024-06-03 16:53:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504656]
+[2024-06-03 16:53:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 16:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydivar
+[2024-06-03 16:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oking
+[2024-06-03 16:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataengine
+[2024-06-03 16:53:20] INFO root fetch - processPackages [dataengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:53:20] INFO root fetch - processPackages [dataengine]: Downloading https://files.pythonhosted.org/packages/7f/81/fc6b67971e8784e7530090dc45b1797d47287c29de48fe1353cec4ae78dd/dataengine-0.0.8.tar.gz
+[2024-06-03 16:53:20] INFO root fetch - processPackages [pydivar]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-06-03 16:53:20] INFO root fetch - processPackages [oking]: New version: [4.2.94] Old Version: [4.2.93]
+[2024-06-03 16:53:20] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/12/ff/ee577540f3434c0eeffed6f8ea5bffc12c78f0db7eeb1f2d71041e82e23f/oking-4.2.93.tar.gz
+[2024-06-03 16:53:20] INFO root fetch - processPackages [pydivar]: Downloading https://files.pythonhosted.org/packages/f8/2b/56dad9cbc464825ec97791073207979f58384ae995916cf0db6ec9df1496/pydivar-1.0.3.tar.gz
+[2024-06-03 16:53:20] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82505600>=10485760
+[2024-06-03 16:53:20] INFO root fetch - main [MainThread]: End processing [oking] error
+[2024-06-03 16:53:21] INFO root fetch - processPackages [dataengine]: Downloading https://files.pythonhosted.org/packages/b4/d2/f8322f7f0b775b98c3631998815ac41d87d55acb0a6661e0037b0c37f1b0/dataengine-0.0.9.tar.gz
+[2024-06-03 16:53:21] INFO root fetch - processPackages [pydivar]: Downloading https://files.pythonhosted.org/packages/ad/44/22aab92c2644afdb158e87673797906798009b2189c0f42cbf2986d033b9/pydivar-1.0.4-py3-none-any.whl
+[2024-06-03 16:53:21] INFO root fetch - processPackages [dataengine]: executing diffoscope
+[2024-06-03 16:53:21] INFO root fetch - processPackages [dataengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataengine-0.0.8.tar.gz tmp/dataengine-0.0.9.tar.gz --markdown 20240603/d/dataengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:53:21] INFO root fetch - processPackages [pydivar]: executing diffoscope
+[2024-06-03 16:53:21] INFO root fetch - processPackages [pydivar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivar-1.0.3.tar.gz tmp/pydivar-1.0.4-py3-none-any.whl.zip --markdown 20240603/p/pydivar/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-06-03 16:53:22] INFO root fetch - processPackages [dataengine]: Remove: archive file [/home/abi/fetcher/tmp/dataengine-0.0.8.tar.gz]
+[2024-06-03 16:53:22] INFO root fetch - processPackages [dataengine]: Remove: archive file [/home/abi/fetcher/tmp/dataengine-0.0.9.tar.gz]
+[2024-06-03 16:53:22] INFO root fetch - main [MainThread]: End processing [dataengine]: success
+[2024-06-03 16:53:22] INFO root fetch - processPackages [pydivar]: Remove: archive file [/home/abi/fetcher/tmp/pydivar-1.0.3.tar.gz]
+[2024-06-03 16:53:22] INFO root fetch - processPackages [pydivar]: Remove: archive file [/home/abi/fetcher/tmp/pydivar-1.0.4-py3-none-any.whl.zip]
+[2024-06-03 16:53:22] INFO root fetch - main [MainThread]: End processing [pydivar]: success
+[2024-06-03 16:53:22] INFO root fetch - main [MainThread]: Store serial: [23504663]
