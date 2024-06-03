@@ -10005,3 +10005,60 @@ EOFError: EOF read where object expected
 [2024-06-03 10:27:37] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-06-03 10:27:37] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-06-03 10:27:37] INFO root fetch - main [MainThread]: Store serial: [23498458]
+[2024-06-03 10:29:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498458]
+[2024-06-03 10:29:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 10:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evalidate
+[2024-06-03 10:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellpy
+[2024-06-03 10:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rockai-cli-app
+[2024-06-03 10:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hardwario-chester
+[2024-06-03 10:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perun.proxygui
+[2024-06-03 10:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-smartbase-admin
+[2024-06-03 10:29:46] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-06-03 10:29:46] INFO root fetch - processPackages [perun.proxygui]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-06-03 10:29:46] INFO root fetch - processPackages [hardwario-chester]: New version: [1.9.0] Old Version: [1.8.6]
+[2024-06-03 10:29:46] INFO root fetch - processPackages [evalidate]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-06-03 10:29:46] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-06-03 10:29:46] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-06-03 10:29:46] INFO root fetch - processPackages [cellpy]: New version: [1.0.2a1] Old Version: [1.0.1b5]
+[2024-06-03 10:29:46] INFO root fetch - processPackages [hardwario-chester]: Downloading https://files.pythonhosted.org/packages/3b/32/3e6adec4bb6a97e414d5bdb6a8b0514301c2f337ec1df2e61ba30642b681/hardwario-chester-1.8.6.tar.gz
+[2024-06-03 10:29:46] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/9a/20/c2492eaa4ef2ad9b315edb3658b7a5173440454f7874bccb8dff5bfe8cbf/perun.proxygui-7.2.0.tar.gz
+[2024-06-03 10:29:46] INFO root fetch - processPackages [evalidate]: Downloading https://files.pythonhosted.org/packages/c6/bb/a9255bac7055a336f9996f19305ecdc24d3dbe7d59b1afa94e7d08e46975/evalidate-2.0.2.tar.gz
+[2024-06-03 10:29:46] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-06-03 10:29:46] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-06-03 10:29:46] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/d4/d5/f2fcbc63e483e06da548d3598e14951a154248feb5cd4d0c03d344a5886a/cellpy-1.0.1b5.tar.gz
+[2024-06-03 10:29:46] INFO root fetch - processPackages [hardwario-chester]: Downloading https://files.pythonhosted.org/packages/dc/c2/0ed7bc8f4504f4233fb274d92573e7dec3153a2cc7ee9d1215b48f153345/hardwario-chester-1.9.0.tar.gz
+[2024-06-03 10:29:47] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-06-03 10:29:47] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240603/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-06-03 10:29:47] INFO root fetch - processPackages [hardwario-chester]: executing diffoscope
+[2024-06-03 10:29:47] INFO root fetch - processPackages [hardwario-chester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardwario-chester-1.8.6.tar.gz tmp/hardwario-chester-1.9.0.tar.gz --markdown 20240603/h/hardwario-chester/1.8.6-1.9.0/README.md --exclude *.pyd
+[2024-06-03 10:29:47] INFO root fetch - processPackages [evalidate]: Downloading https://files.pythonhosted.org/packages/ce/1b/6b9975a35574c3577e1dc1d7fee144e873457b8db284d390c6c64f57b3dc/evalidate-2.0.3.tar.gz
+[2024-06-03 10:29:47] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/8f/a2/64c22fe8771f51280d40897a84d73d77d29248e6de47cffffa37d0b750c8/cellpy-1.0.2a1.tar.gz
+[2024-06-03 10:29:47] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/e7/09/d6bcc08e5f9038e7ddfb7f9cae52a87c496f130b542a79ae66becb682779/perun.proxygui-7.2.1.tar.gz
+[2024-06-03 10:29:47] INFO root fetch - processPackages [evalidate]: executing diffoscope
+[2024-06-03 10:29:47] INFO root fetch - processPackages [evalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalidate-2.0.2.tar.gz tmp/evalidate-2.0.3.tar.gz --markdown 20240603/e/evalidate/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-06-03 10:29:47] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-06-03 10:29:47] INFO root fetch - processPackages [cellpy]: executing diffoscope
+[2024-06-03 10:29:47] INFO root fetch - processPackages [cellpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellpy-1.0.1b5.tar.gz tmp/cellpy-1.0.2a1.tar.gz --markdown 20240603/c/cellpy/1.0.1b5-1.0.2a1/README.md --exclude *.pyd
+[2024-06-03 10:29:47] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-06-03 10:29:47] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-7.2.0.tar.gz tmp/perun.proxygui-7.2.1.tar.gz --markdown 20240603/p/perun.proxygui/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-06-03 10:29:47] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-06-03 10:29:47] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240603/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-06-03 10:29:48] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-06-03 10:29:48] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-06-03 10:29:48] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-06-03 10:29:48] INFO root fetch - processPackages [hardwario-chester]: Remove: archive file [/home/abi/fetcher/tmp/hardwario-chester-1.8.6.tar.gz]
+[2024-06-03 10:29:48] INFO root fetch - processPackages [hardwario-chester]: Remove: archive file [/home/abi/fetcher/tmp/hardwario-chester-1.9.0.tar.gz]
+[2024-06-03 10:29:48] INFO root fetch - main [MainThread]: End processing [hardwario-chester]: success
+[2024-06-03 10:29:48] INFO root fetch - processPackages [evalidate]: Remove: archive file [/home/abi/fetcher/tmp/evalidate-2.0.2.tar.gz]
+[2024-06-03 10:29:48] INFO root fetch - processPackages [evalidate]: Remove: archive file [/home/abi/fetcher/tmp/evalidate-2.0.3.tar.gz]
+[2024-06-03 10:29:48] INFO root fetch - main [MainThread]: End processing [evalidate]: success
+[2024-06-03 10:29:49] INFO root fetch - processPackages [cellpy]: Remove: archive file [/home/abi/fetcher/tmp/cellpy-1.0.1b5.tar.gz]
+[2024-06-03 10:29:49] INFO root fetch - processPackages [cellpy]: Remove: archive file [/home/abi/fetcher/tmp/cellpy-1.0.2a1.tar.gz]
+[2024-06-03 10:29:49] INFO root fetch - main [MainThread]: End processing [cellpy]: success
+[2024-06-03 10:29:51] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.2.0.tar.gz]
+[2024-06-03 10:29:51] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.2.1.tar.gz]
+[2024-06-03 10:29:51] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-06-03 10:29:53] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-06-03 10:29:53] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-06-03 10:29:53] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-06-03 10:29:53] INFO root fetch - main [MainThread]: Store serial: [23498480]
