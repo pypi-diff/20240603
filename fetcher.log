@@ -7631,3 +7631,33 @@ EOFError: EOF read where object expected
 [2024-06-03 08:32:47] INFO root fetch - processPackages [cdk-cloudformation-spot-elastigroup-group]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-spot-elastigroup-group-1.0.4a7.tar.gz]
 [2024-06-03 08:32:47] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-spot-elastigroup-group]: success
 [2024-06-03 08:32:47] INFO root fetch - main [MainThread]: Store serial: [23497357]
+[2024-06-03 08:34:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497357]
+[2024-06-03 08:34:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 08:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter_bokeh
+[2024-06-03 08:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boulder-opal
+[2024-06-03 08:34:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-manager-library
+[2024-06-03 08:34:56] INFO root fetch - processPackages [jupyter_bokeh]: New version: [4.0.5] Old Version: [4.0.4]
+[2024-06-03 08:34:56] INFO root fetch - processPackages [boulder-opal]: New version: [2.0.0] Old Version: [1.4.0]
+[2024-06-03 08:34:56] INFO root fetch - processPackages [data-manager-library]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 08:34:56] INFO root fetch - processPackages [jupyter_bokeh]: Downloading https://files.pythonhosted.org/packages/80/3f/66755bc8a2c0bf0b88dbcb4d95ae64046edd9e41bc73290394706607f23c/jupyter_bokeh-4.0.4.tar.gz
+[2024-06-03 08:34:56] INFO root fetch - processPackages [boulder-opal]: Downloading https://files.pythonhosted.org/packages/45/a5/4b076743f9de70ee7bd85f2a12f23ad52c8a34318c1091ade38e161a8a80/boulder_opal-1.4.0.tar.gz
+[2024-06-03 08:34:56] INFO root fetch - processPackages [data-manager-library]: Downloading https://files.pythonhosted.org/packages/6b/9c/d01ca4aa672498eb2355f980ae925c9899915d7a76a3f3bcf7d449991cbe/data_manager_library-0.0.2.tar.gz
+[2024-06-03 08:34:56] INFO root fetch - processPackages [jupyter_bokeh]: Downloading https://files.pythonhosted.org/packages/b4/fd/8f0213c704bf36b5f523ae5bf7dc367f3687e75dcc2354084b75c05d2b53/jupyter_bokeh-4.0.5.tar.gz
+[2024-06-03 08:34:56] INFO root fetch - processPackages [boulder-opal]: Downloading https://files.pythonhosted.org/packages/99/24/4b4891413e3487e6d270bef645a6a19a629e676fb737b567a2775f62843e/boulder_opal-2.0.0.tar.gz
+[2024-06-03 08:34:56] INFO root fetch - processPackages [jupyter_bokeh]: executing diffoscope
+[2024-06-03 08:34:56] INFO root fetch - processPackages [jupyter_bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_bokeh-4.0.4.tar.gz tmp/jupyter_bokeh-4.0.5.tar.gz --markdown 20240603/j/jupyter_bokeh/4.0.4-4.0.5/README.md --exclude *.pyd
+[2024-06-03 08:34:56] INFO root fetch - processPackages [data-manager-library]: Downloading https://files.pythonhosted.org/packages/3b/6f/3140bc998221fc7449bdfa37e0a7d1732d1e4468a18ff870724347d22daa/data_manager_library-0.0.3-py3-none-any.whl
+[2024-06-03 08:34:56] INFO root fetch - processPackages [boulder-opal]: executing diffoscope
+[2024-06-03 08:34:56] INFO root fetch - processPackages [boulder-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boulder_opal-1.4.0.tar.gz tmp/boulder_opal-2.0.0.tar.gz --markdown 20240603/b/boulder-opal/1.4.0-2.0.0/README.md --exclude *.pyd
+[2024-06-03 08:34:57] INFO root fetch - processPackages [data-manager-library]: executing diffoscope
+[2024-06-03 08:34:57] INFO root fetch - processPackages [data-manager-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_manager_library-0.0.2.tar.gz tmp/data_manager_library-0.0.3-py3-none-any.whl.zip --markdown 20240603/d/data-manager-library/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 08:34:57] INFO root fetch - processPackages [data-manager-library]: Remove: archive file [/home/abi/fetcher/tmp/data_manager_library-0.0.2.tar.gz]
+[2024-06-03 08:34:57] INFO root fetch - processPackages [data-manager-library]: Remove: archive file [/home/abi/fetcher/tmp/data_manager_library-0.0.3-py3-none-any.whl.zip]
+[2024-06-03 08:34:57] INFO root fetch - main [MainThread]: End processing [data-manager-library]: success
+[2024-06-03 08:34:58] INFO root fetch - processPackages [boulder-opal]: Remove: archive file [/home/abi/fetcher/tmp/boulder_opal-1.4.0.tar.gz]
+[2024-06-03 08:34:58] INFO root fetch - processPackages [boulder-opal]: Remove: archive file [/home/abi/fetcher/tmp/boulder_opal-2.0.0.tar.gz]
+[2024-06-03 08:34:58] INFO root fetch - main [MainThread]: End processing [boulder-opal]: success
+[2024-06-03 08:34:58] INFO root fetch - processPackages [jupyter_bokeh]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bokeh-4.0.4.tar.gz]
+[2024-06-03 08:34:58] INFO root fetch - processPackages [jupyter_bokeh]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_bokeh-4.0.5.tar.gz]
+[2024-06-03 08:34:58] INFO root fetch - main [MainThread]: End processing [jupyter_bokeh]: success
+[2024-06-03 08:34:58] INFO root fetch - main [MainThread]: Store serial: [23497370]
