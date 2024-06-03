@@ -7607,3 +7607,27 @@ EOFError: EOF read where object expected
 [2024-06-03 08:30:37] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.9.tar.gz]
 [2024-06-03 08:30:37] INFO root fetch - main [MainThread]: End processing [docmesh-server]: success
 [2024-06-03 08:30:37] INFO root fetch - main [MainThread]: Store serial: [23497346]
+[2024-06-03 08:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497346]
+[2024-06-03 08:32:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-cloudformation-spot-elastigroup-group
+[2024-06-03 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th-influx-sdk
+[2024-06-03 08:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clear-word-ar
+[2024-06-03 08:32:46] INFO root fetch - processPackages [th-influx-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 08:32:46] INFO root fetch - processPackages [cdk-cloudformation-spot-elastigroup-group]: New version: [1.0.4a7] Old Version: [1.0.3a7]
+[2024-06-03 08:32:46] WARNING root fetch - processPackages [clear-word-ar]: Skipping, unable to determine old version
+[2024-06-03 08:32:46] INFO root fetch - main [MainThread]: End processing [clear-word-ar] error
+[2024-06-03 08:32:46] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/1b/b8/c5978f2c9305927aff7f9b913fd202d7ca4d5c2f360ef3af6349d73de024/th-influx-sdk-1.0.8.tar.gz
+[2024-06-03 08:32:46] INFO root fetch - processPackages [cdk-cloudformation-spot-elastigroup-group]: Downloading https://files.pythonhosted.org/packages/5b/f6/07f83ed72753e210c5ec46f88e6b5f7afed593ef965b6aa13bff830a23e9/cdk-cloudformation-spot-elastigroup-group-1.0.3a7.tar.gz
+[2024-06-03 08:32:46] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/c5/8a/55520fab9f30747dd3729c6dd886cfb5c63162c25b8463629ba51a4d73c2/th-influx-sdk-1.0.9.tar.gz
+[2024-06-03 08:32:46] INFO root fetch - processPackages [cdk-cloudformation-spot-elastigroup-group]: Downloading https://files.pythonhosted.org/packages/d1/24/e388a089c9feec358b3b11984ae19b79c865d0afae3707f4b8b71e106276/cdk-cloudformation-spot-elastigroup-group-1.0.4a7.tar.gz
+[2024-06-03 08:32:46] INFO root fetch - processPackages [th-influx-sdk]: executing diffoscope
+[2024-06-03 08:32:46] INFO root fetch - processPackages [th-influx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th-influx-sdk-1.0.8.tar.gz tmp/th-influx-sdk-1.0.9.tar.gz --markdown 20240603/t/th-influx-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 08:32:46] INFO root fetch - processPackages [cdk-cloudformation-spot-elastigroup-group]: executing diffoscope
+[2024-06-03 08:32:46] INFO root fetch - processPackages [cdk-cloudformation-spot-elastigroup-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-spot-elastigroup-group-1.0.3a7.tar.gz tmp/cdk-cloudformation-spot-elastigroup-group-1.0.4a7.tar.gz --markdown 20240603/c/cdk-cloudformation-spot-elastigroup-group/1.0.3a7-1.0.4a7/README.md --exclude *.pyd
+[2024-06-03 08:32:47] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.8.tar.gz]
+[2024-06-03 08:32:47] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.9.tar.gz]
+[2024-06-03 08:32:47] INFO root fetch - main [MainThread]: End processing [th-influx-sdk]: success
+[2024-06-03 08:32:47] INFO root fetch - processPackages [cdk-cloudformation-spot-elastigroup-group]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-spot-elastigroup-group-1.0.3a7.tar.gz]
+[2024-06-03 08:32:47] INFO root fetch - processPackages [cdk-cloudformation-spot-elastigroup-group]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-spot-elastigroup-group-1.0.4a7.tar.gz]
+[2024-06-03 08:32:47] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-spot-elastigroup-group]: success
+[2024-06-03 08:32:47] INFO root fetch - main [MainThread]: Store serial: [23497357]
