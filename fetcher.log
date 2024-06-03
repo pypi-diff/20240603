@@ -4110,3 +4110,45 @@ EOFError: EOF read where object expected
 [2024-06-03 04:59:45] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.4.tar.gz]
 [2024-06-03 04:59:45] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
 [2024-06-03 04:59:45] INFO root fetch - main [MainThread]: Store serial: [23495867]
+[2024-06-03 05:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495867]
+[2024-06-03 05:01:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 05:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-image-pipeline
+[2024-06-03 05:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-grasshopper
+[2024-06-03 05:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deshi-hello-world
+[2024-06-03 05:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runtime-dependency-manager
+[2024-06-03 05:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nanosense
+[2024-06-03 05:01:54] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.6] Old Version: [0.5]
+[2024-06-03 05:01:54] WARNING root fetch - processPackages [runtime-dependency-manager]: Skipping, unable to determine old version
+[2024-06-03 05:01:54] INFO root fetch - processPackages [nanosense]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-06-03 05:01:54] INFO root fetch - main [MainThread]: End processing [runtime-dependency-manager] error
+[2024-06-03 05:01:54] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-06-03 05:01:54] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-06-03 05:01:54] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/7a/19/2b056a98abdf9319d969fafeeae9c5b9b5826c7542e16714caa13d58b1a7/deshi_hello_world-0.5.tar.gz
+[2024-06-03 05:01:54] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/89/e4/13205ca0899fa56500854db926cce250628dd694b8862db8cc74c53ee463/cdk-image-pipeline-0.5.8.tar.gz
+[2024-06-03 05:01:54] INFO root fetch - processPackages [nanosense]: Downloading https://files.pythonhosted.org/packages/05/37/1b0789bdad35654be7b65fee1055638954a5794bbc08d2085ffe6da35a12/nanosense-0.3.1.tar.gz
+[2024-06-03 05:01:54] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/85/4b/b7b2a31765980f121c7dca9cd1353afc8fd947ace9f87b8f902620819061/lbt-grasshopper-1.8.8.tar.gz
+[2024-06-03 05:01:54] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/a7/71/98b42916a03919f7336dfbd63beaef24d43833f9488cab71d21127bafd62/deshi_hello_world-0.6.tar.gz
+[2024-06-03 05:01:54] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 05:01:54] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.5.tar.gz tmp/deshi_hello_world-0.6.tar.gz --markdown 20240603/d/deshi-hello-world/0.5-0.6/README.md --exclude *.pyd
+[2024-06-03 05:01:54] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/17/47/3621b859151bcfb29e25014308c3c0e1c4709e1c448cf3119a735d43098a/cdk-image-pipeline-0.5.9.tar.gz
+[2024-06-03 05:01:54] INFO root fetch - processPackages [nanosense]: Downloading https://files.pythonhosted.org/packages/ca/09/8ed1d4ac963d8c6e660f5decf684bd696a4f6f5da1cbe30778eaa5b2d666/nanosense-0.3.2.tar.gz
+[2024-06-03 05:01:54] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/8f/43/14eede1d5162f900e97c330a2f83ad3cef64b06f36216364f0012886cf75/lbt-grasshopper-1.8.9.tar.gz
+[2024-06-03 05:01:54] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2024-06-03 05:01:54] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.5.8.tar.gz tmp/cdk-image-pipeline-0.5.9.tar.gz --markdown 20240603/c/cdk-image-pipeline/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-06-03 05:01:55] INFO root fetch - processPackages [nanosense]: executing diffoscope
+[2024-06-03 05:01:55] INFO root fetch - processPackages [nanosense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanosense-0.3.1.tar.gz tmp/nanosense-0.3.2.tar.gz --markdown 20240603/n/nanosense/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-06-03 05:01:55] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-06-03 05:01:55] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.8.tar.gz tmp/lbt-grasshopper-1.8.9.tar.gz --markdown 20240603/l/lbt-grasshopper/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-06-03 05:01:55] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.5.tar.gz]
+[2024-06-03 05:01:55] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.6.tar.gz]
+[2024-06-03 05:01:55] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 05:01:55] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.8.tar.gz]
+[2024-06-03 05:01:55] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.9.tar.gz]
+[2024-06-03 05:01:55] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2024-06-03 05:01:55] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.8.tar.gz]
+[2024-06-03 05:01:55] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
+[2024-06-03 05:01:55] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-06-03 05:01:55] INFO root fetch - processPackages [nanosense]: Remove: archive file [/home/abi/fetcher/tmp/nanosense-0.3.1.tar.gz]
+[2024-06-03 05:01:55] INFO root fetch - processPackages [nanosense]: Remove: archive file [/home/abi/fetcher/tmp/nanosense-0.3.2.tar.gz]
+[2024-06-03 05:01:55] INFO root fetch - main [MainThread]: End processing [nanosense]: success
+[2024-06-03 05:01:55] INFO root fetch - main [MainThread]: Store serial: [23495884]
