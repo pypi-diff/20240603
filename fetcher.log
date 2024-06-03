@@ -14457,3 +14457,68 @@ EOFError: EOF read where object expected
 [2024-06-03 12:40:32] INFO root fetch - processPackages [myhdl]: Remove: archive file [/home/abi/fetcher/tmp/myhdl-0.9.0.tar.gz]
 [2024-06-03 12:40:32] INFO root fetch - main [MainThread]: End processing [myhdl]: success
 [2024-06-03 12:40:32] INFO root fetch - main [MainThread]: Store serial: [23500574]
+[2024-06-03 12:42:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500574]
+[2024-06-03 12:42:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HappyLife
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-cr
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-expanded-test-cases
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qsv-duct
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-rocketmq5
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dvh-tools
+[2024-06-03 12:42:42] INFO root fetch - processPackages [HappyLife]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-06-03 12:42:42] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 12:42:42] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240603.9.33.484461] Old Version: [20240602.7.56.542138]
+[2024-06-03 12:42:42] INFO root fetch - processPackages [qsv-duct]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 12:42:42] INFO root fetch - processPackages [django-expanded-test-cases]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-06-03 12:42:42] INFO root fetch - processPackages [HappyLife]: Downloading https://files.pythonhosted.org/packages/30/c8/07684f70c75aa399e0d04f4df36e44ab4cb72f7694227f8aed4d9c597157/happylife-1.1.1.tar.gz
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ros-cdk-cr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:42:42] ERROR root fetch - processPackages [dvh-tools]: Unable to get metadata: No such project 'dvh-tools'
+[2024-06-03 12:42:42] INFO root fetch - main [MainThread]: End processing [dvh-tools] error
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ros-cdk-rocketmq5]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:42:42] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 12:42:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/34/22/fe03e2f75c495135415a1590e29c7be6a7970c624c612fbf5c55275a8564/certora-cli-alpha-master-20240602.7.56.542138.tar.gz
+[2024-06-03 12:42:42] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14612469>=10485760
+[2024-06-03 12:42:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-06-03 12:42:42] INFO root fetch - processPackages [qsv-duct]: Downloading https://files.pythonhosted.org/packages/13/f3/e8f1808491eeafafac0efa276bfe5f01d305bb0ee4228c010b5964cce73e/qsv_duct-0.0.1.tar.gz
+[2024-06-03 12:42:42] INFO root fetch - processPackages [HappyLife]: Downloading https://files.pythonhosted.org/packages/2d/d1/56e806156454acf33197fd8a5ab32b22004ac9ebd633c5318bada1ebe68b/happylife-1.1.2.tar.gz
+[2024-06-03 12:42:42] INFO root fetch - processPackages [django-expanded-test-cases]: Downloading https://files.pythonhosted.org/packages/b7/09/1483a071a8f5ab217e1678073017cdd59436e7c6305dd661c78856875230/django-expanded-test-cases-0.7.0.tar.gz
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ros-cdk-cr]: Downloading https://files.pythonhosted.org/packages/7d/c4/755e652b18955bdee20092f2424fc5ceda0b439c35beb45fac063923e6d8/ros-cdk-cr-1.0.8.tar.gz
+[2024-06-03 12:42:42] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Downloading https://files.pythonhosted.org/packages/50/71/d97c9d17c4304f08f70a1cb3eb8ab981e026557d2150922f54b5cf5b07b8/ros-cdk-rocketmq5-1.0.24.tar.gz
+[2024-06-03 12:42:42] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 12:42:42] INFO root fetch - processPackages [HappyLife]: executing diffoscope
+[2024-06-03 12:42:42] INFO root fetch - processPackages [HappyLife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happylife-1.1.1.tar.gz tmp/happylife-1.1.2.tar.gz --markdown 20240603/H/HappyLife/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-06-03 12:42:43] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 12:42:43] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 12:42:43] INFO root fetch - processPackages [qsv-duct]: Downloading https://files.pythonhosted.org/packages/56/10/8a6d585228045a067245978fee72a6e127602103e40942fba3c4ff3cc3f4/qsv_duct-0.0.2.tar.gz
+[2024-06-03 12:42:43] INFO root fetch - processPackages [django-expanded-test-cases]: Downloading https://files.pythonhosted.org/packages/ea/49/840764c2f5c8c3208ef825d6b4941870ae944fb4d22728cfa62bddedf1bd/django_expanded_test_cases-0.7.1.tar.gz
+[2024-06-03 12:42:43] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Downloading https://files.pythonhosted.org/packages/3a/b6/4f51a52b7e4786aae34d293fde5a1fe0d8a065184bca0779f18a0da5fc93/ros-cdk-rocketmq5-1.0.25.tar.gz
+[2024-06-03 12:42:43] INFO root fetch - processPackages [ros-cdk-cr]: Downloading https://files.pythonhosted.org/packages/fb/d3/b158f6f997c5806b15bec9baef9080f722987971552408b7790d0a1efa8a/ros-cdk-cr-1.0.9.tar.gz
+[2024-06-03 12:42:43] INFO root fetch - processPackages [qsv-duct]: executing diffoscope
+[2024-06-03 12:42:43] INFO root fetch - processPackages [qsv-duct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsv_duct-0.0.1.tar.gz tmp/qsv_duct-0.0.2.tar.gz --markdown 20240603/q/qsv-duct/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 12:42:43] INFO root fetch - processPackages [django-expanded-test-cases]: executing diffoscope
+[2024-06-03 12:42:43] INFO root fetch - processPackages [django-expanded-test-cases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-expanded-test-cases-0.7.0.tar.gz tmp/django_expanded_test_cases-0.7.1.tar.gz --markdown 20240603/d/django-expanded-test-cases/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-06-03 12:42:43] INFO root fetch - processPackages [ros-cdk-rocketmq5]: executing diffoscope
+[2024-06-03 12:42:43] INFO root fetch - processPackages [ros-cdk-rocketmq5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rocketmq5-1.0.24.tar.gz tmp/ros-cdk-rocketmq5-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-rocketmq5/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:42:43] INFO root fetch - processPackages [HappyLife]: Remove: archive file [/home/abi/fetcher/tmp/happylife-1.1.1.tar.gz]
+[2024-06-03 12:42:43] INFO root fetch - processPackages [HappyLife]: Remove: archive file [/home/abi/fetcher/tmp/happylife-1.1.2.tar.gz]
+[2024-06-03 12:42:43] INFO root fetch - main [MainThread]: End processing [HappyLife]: success
+[2024-06-03 12:42:43] INFO root fetch - processPackages [qsv-duct]: Remove: archive file [/home/abi/fetcher/tmp/qsv_duct-0.0.1.tar.gz]
+[2024-06-03 12:42:43] INFO root fetch - processPackages [qsv-duct]: Remove: archive file [/home/abi/fetcher/tmp/qsv_duct-0.0.2.tar.gz]
+[2024-06-03 12:42:43] INFO root fetch - main [MainThread]: End processing [qsv-duct]: success
+[2024-06-03 12:42:44] INFO root fetch - processPackages [ros-cdk-cr]: executing diffoscope
+[2024-06-03 12:42:44] INFO root fetch - processPackages [ros-cdk-cr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cr-1.0.8.tar.gz tmp/ros-cdk-cr-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:42:44] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq5-1.0.24.tar.gz]
+[2024-06-03 12:42:44] INFO root fetch - processPackages [ros-cdk-rocketmq5]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq5-1.0.25.tar.gz]
+[2024-06-03 12:42:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-rocketmq5]: success
+[2024-06-03 12:42:44] INFO root fetch - processPackages [django-expanded-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/django-expanded-test-cases-0.7.0.tar.gz]
+[2024-06-03 12:42:44] INFO root fetch - processPackages [django-expanded-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/django_expanded_test_cases-0.7.1.tar.gz]
+[2024-06-03 12:42:44] INFO root fetch - main [MainThread]: End processing [django-expanded-test-cases]: success
+[2024-06-03 12:42:44] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 12:42:44] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 12:42:44] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 12:42:44] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.8.tar.gz]
+[2024-06-03 12:42:44] INFO root fetch - processPackages [ros-cdk-cr]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cr-1.0.9.tar.gz]
+[2024-06-03 12:42:44] INFO root fetch - main [MainThread]: End processing [ros-cdk-cr]: success
+[2024-06-03 12:42:44] INFO root fetch - main [MainThread]: Store serial: [23500601]
