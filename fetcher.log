@@ -5583,3 +5583,51 @@ EOFError: EOF read where object expected
 [2024-06-03 06:19:50] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-06-03 06:19:50] INFO root fetch - main [MainThread]: End processing [create-pip]: success
 [2024-06-03 06:19:50] INFO root fetch - main [MainThread]: Store serial: [23496603]
+[2024-06-03 06:21:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496603]
+[2024-06-03 06:21:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Agentic-Employment
+[2024-06-03 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bsmplot
+[2024-06-03 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alt-pytest-asyncio
+[2024-06-03 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciocore
+[2024-06-03 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-x-table
+[2024-06-03 06:21:59] INFO root fetch - processPackages [Agentic-Employment]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 06:21:59] INFO root fetch - processPackages [json-x-table]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 06:21:59] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/19/0f/f9d5e7e7465cd42ad47fc7d056142f60822c3fc8642246d7266ef1c44c1d/json_x_table-0.0.5.tar.gz
+[2024-06-03 06:21:59] INFO root fetch - processPackages [bsmplot]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-06-03 06:21:59] INFO root fetch - processPackages [alt-pytest-asyncio]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-06-03 06:21:59] INFO root fetch - processPackages [ciocore]: New version: [8.1.0b3] Old Version: [8.0.1]
+[2024-06-03 06:21:59] INFO root fetch - processPackages [Agentic-Employment]: Downloading https://files.pythonhosted.org/packages/7e/f5/4ee0a2becbf512c3e025edcfe500f9a57319b6bfc6ef5304a5a65a157ff4/Agentic_Employment-0.0.1-py3-none-any.whl
+[2024-06-03 06:21:59] INFO root fetch - processPackages [bsmplot]: Downloading https://files.pythonhosted.org/packages/d3/1b/e28cd5a6166b9e25cde1c33e0dd83e1fe829b167f7981f5232506be3d83b/bsmplot-0.1.4.tar.gz
+[2024-06-03 06:21:59] INFO root fetch - processPackages [alt-pytest-asyncio]: Downloading https://files.pythonhosted.org/packages/44/69/91f6bd39ece97b73692fda53cc8449f306e332d8399cc504abad1100c065/alt_pytest_asyncio-0.8.0.tar.gz
+[2024-06-03 06:21:59] INFO root fetch - processPackages [ciocore]: Downloading https://files.pythonhosted.org/packages/55/30/5a3f9e878eb780c3bba887089efb96899368caf7159a40d9b5a78738fcde/ciocore-8.0.1-py2.py3-none-any.whl
+[2024-06-03 06:21:59] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/5c/5b/60ec7a0db336c1afc0770efaf23cf12aabc53e69e79c2bf3a5ee731bb864/json_x_table-0.0.6.tar.gz
+[2024-06-03 06:21:59] INFO root fetch - processPackages [Agentic-Employment]: Downloading https://files.pythonhosted.org/packages/40/65/3bb50cf4c4c4395eb3773c7af37e69e4c549784b29fc49f162b67e632dbc/Agentic_Employment-0.0.2-py3-none-any.whl
+[2024-06-03 06:22:00] INFO root fetch - processPackages [json-x-table]: executing diffoscope
+[2024-06-03 06:22:00] INFO root fetch - processPackages [json-x-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_x_table-0.0.5.tar.gz tmp/json_x_table-0.0.6.tar.gz --markdown 20240603/j/json-x-table/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 06:22:00] INFO root fetch - processPackages [Agentic-Employment]: executing diffoscope
+[2024-06-03 06:22:00] INFO root fetch - processPackages [Agentic-Employment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic_Employment-0.0.1-py3-none-any.whl.zip tmp/Agentic_Employment-0.0.2-py3-none-any.whl.zip --markdown 20240603/A/Agentic-Employment/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 06:22:00] INFO root fetch - processPackages [bsmplot]: Downloading https://files.pythonhosted.org/packages/32/1c/ecf378f1957b32b8995c2512c8f23accfc2e1c9f2d38b425d4c966a2d3ce/bsmplot-0.1.5.tar.gz
+[2024-06-03 06:22:00] INFO root fetch - processPackages [alt-pytest-asyncio]: Downloading https://files.pythonhosted.org/packages/97/f6/a877d693bc435854043ec37df2a3aa2e9dcf091ca6474699d849f179d679/alt_pytest_asyncio-0.8.1.tar.gz
+[2024-06-03 06:22:00] INFO root fetch - processPackages [ciocore]: Downloading https://files.pythonhosted.org/packages/e3/06/da132a0cf1df0dff914bf0dbdb388e839082e58f04783145ebaf460fe8c7/ciocore-8.1.0b3-py2.py3-none-any.whl
+[2024-06-03 06:22:00] INFO root fetch - processPackages [bsmplot]: executing diffoscope
+[2024-06-03 06:22:00] INFO root fetch - processPackages [alt-pytest-asyncio]: executing diffoscope
+[2024-06-03 06:22:00] INFO root fetch - processPackages [alt-pytest-asyncio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alt_pytest_asyncio-0.8.0.tar.gz tmp/alt_pytest_asyncio-0.8.1.tar.gz --markdown 20240603/a/alt-pytest-asyncio/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-06-03 06:22:00] INFO root fetch - processPackages [bsmplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsmplot-0.1.4.tar.gz tmp/bsmplot-0.1.5.tar.gz --markdown 20240603/b/bsmplot/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-06-03 06:22:00] INFO root fetch - processPackages [ciocore]: executing diffoscope
+[2024-06-03 06:22:00] INFO root fetch - processPackages [ciocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciocore-8.0.1-py2.py3-none-any.whl.zip tmp/ciocore-8.1.0b3-py2.py3-none-any.whl.zip --markdown 20240603/c/ciocore/8.0.1-8.1.0b3/README.md --exclude *.pyd
+[2024-06-03 06:22:00] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.5.tar.gz]
+[2024-06-03 06:22:00] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.6.tar.gz]
+[2024-06-03 06:22:00] INFO root fetch - main [MainThread]: End processing [json-x-table]: success
+[2024-06-03 06:22:00] INFO root fetch - processPackages [Agentic-Employment]: Remove: archive file [/home/abi/fetcher/tmp/Agentic_Employment-0.0.1-py3-none-any.whl.zip]
+[2024-06-03 06:22:00] INFO root fetch - processPackages [Agentic-Employment]: Remove: archive file [/home/abi/fetcher/tmp/Agentic_Employment-0.0.2-py3-none-any.whl.zip]
+[2024-06-03 06:22:00] INFO root fetch - main [MainThread]: End processing [Agentic-Employment]: success
+[2024-06-03 06:22:00] INFO root fetch - processPackages [alt-pytest-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/alt_pytest_asyncio-0.8.0.tar.gz]
+[2024-06-03 06:22:00] INFO root fetch - processPackages [alt-pytest-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/alt_pytest_asyncio-0.8.1.tar.gz]
+[2024-06-03 06:22:00] INFO root fetch - main [MainThread]: End processing [alt-pytest-asyncio]: success
+[2024-06-03 06:22:00] INFO root fetch - processPackages [bsmplot]: Remove: archive file [/home/abi/fetcher/tmp/bsmplot-0.1.4.tar.gz]
+[2024-06-03 06:22:00] INFO root fetch - processPackages [bsmplot]: Remove: archive file [/home/abi/fetcher/tmp/bsmplot-0.1.5.tar.gz]
+[2024-06-03 06:22:00] INFO root fetch - main [MainThread]: End processing [bsmplot]: success
+[2024-06-03 06:22:01] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-8.0.1-py2.py3-none-any.whl.zip]
+[2024-06-03 06:22:01] INFO root fetch - processPackages [ciocore]: Remove: archive file [/home/abi/fetcher/tmp/ciocore-8.1.0b3-py2.py3-none-any.whl.zip]
+[2024-06-03 06:22:01] INFO root fetch - main [MainThread]: End processing [ciocore]: success
+[2024-06-03 06:22:01] INFO root fetch - main [MainThread]: Store serial: [23496617]
