@@ -8199,3 +8199,51 @@ EOFError: EOF read where object expected
 [2024-06-03 09:06:35] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
 [2024-06-03 09:06:35] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
 [2024-06-03 09:06:35] INFO root fetch - main [MainThread]: Store serial: [23497610]
+[2024-06-03 09:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497610]
+[2024-06-03 09:08:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-notification-sdk-preview
+[2024-06-03 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingodb
+[2024-06-03 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-hub-nightly
+[2024-06-03 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scine-autocas
+[2024-06-03 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-notifications-sdk
+[2024-06-03 09:08:44] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 09:08:44] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-06-03 09:08:44] INFO root fetch - processPackages [scine-autocas]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-06-03 09:08:44] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notifications-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.952] Old Version: [0.1.944]
+[2024-06-03 09:08:44] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-06-03 09:08:44] INFO root fetch - processPackages [scine-autocas]: Downloading https://files.pythonhosted.org/packages/04/8b/d948c90ddb7ca6eb99ac25757326f9182aa8ff3158b44089e5b8614d07c9/scine_autocas-2.2.0.tar.gz
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/9c/0a/3b5eaa03211463922d635d938bb45ed777b4cd01d3158e32cb43999f8288/lusid_notifications_sdk-2.1.8.tar.gz
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/11/4c/40d54d53e6c49abeecd04c6aefcbcb778b1d674a76ab067379938c81a503/lusid-notification-sdk-preview-0.1.944.tar.gz
+[2024-06-03 09:08:44] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-06-03 09:08:44] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-06-03 09:08:44] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-06-03 09:08:44] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240603/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 09:08:44] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-06-03 09:08:44] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240603/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-06-03 09:08:44] INFO root fetch - processPackages [scine-autocas]: Downloading https://files.pythonhosted.org/packages/f9/fb/d960d18e54e0b5376dae4a7bb562d78188263b1f411775ab1adc09f74a91/scine_autocas-2.3.0.tar.gz
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/5f/0d/897b2d53ea758f42988c4943d716335e5d01f7e057c34d89618edfdcd880/lusid_notifications_sdk-2.1.9.tar.gz
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/7f/74/6bb97070341713ca327249ebb57457344bdc2997ae95a6354cdfacc13bfb/lusid-notification-sdk-preview-0.1.952.tar.gz
+[2024-06-03 09:08:44] INFO root fetch - processPackages [scine-autocas]: executing diffoscope
+[2024-06-03 09:08:44] INFO root fetch - processPackages [scine-autocas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scine_autocas-2.2.0.tar.gz tmp/scine_autocas-2.3.0.tar.gz --markdown 20240603/s/scine-autocas/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notifications-sdk]: executing diffoscope
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notifications-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_notifications_sdk-2.1.8.tar.gz tmp/lusid_notifications_sdk-2.1.9.tar.gz --markdown 20240603/l/lusid-notifications-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2024-06-03 09:08:44] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.944.tar.gz tmp/lusid-notification-sdk-preview-0.1.952.tar.gz --markdown 20240603/l/lusid-notification-sdk-preview/0.1.944-0.1.952/README.md --exclude *.pyd
+[2024-06-03 09:08:45] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-06-03 09:08:45] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-06-03 09:08:45] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-06-03 09:08:45] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-06-03 09:08:45] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-06-03 09:08:45] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-06-03 09:08:45] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.1.8.tar.gz]
+[2024-06-03 09:08:45] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.1.9.tar.gz]
+[2024-06-03 09:08:45] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk]: success
+[2024-06-03 09:08:46] INFO root fetch - processPackages [scine-autocas]: Remove: archive file [/home/abi/fetcher/tmp/scine_autocas-2.2.0.tar.gz]
+[2024-06-03 09:08:46] INFO root fetch - processPackages [scine-autocas]: Remove: archive file [/home/abi/fetcher/tmp/scine_autocas-2.3.0.tar.gz]
+[2024-06-03 09:08:46] INFO root fetch - main [MainThread]: End processing [scine-autocas]: success
+[2024-06-03 09:08:46] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.944.tar.gz]
+[2024-06-03 09:08:46] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.952.tar.gz]
+[2024-06-03 09:08:46] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2024-06-03 09:08:46] INFO root fetch - main [MainThread]: Store serial: [23497623]
