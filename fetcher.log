@@ -14012,3 +14012,78 @@ EOFError: EOF read where object expected
 [2024-06-03 12:29:16] INFO root fetch - processPackages [gradco]: Remove: archive file [/home/abi/fetcher/tmp/gradco-0.1.4.tar.gz]
 [2024-06-03 12:29:16] INFO root fetch - main [MainThread]: End processing [gradco]: success
 [2024-06-03 12:29:16] INFO root fetch - main [MainThread]: Store serial: [23500426]
+[2024-06-03 12:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500426]
+[2024-06-03 12:31:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-apigateway
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bwalign
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnida
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aixhello
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-ga
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyftms
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: youqu3
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-shopfloor-mobile
+[2024-06-03 12:31:25] INFO root fetch - processPackages [aixhello]: New version: [4.7] Old Version: [4.5]
+[2024-06-03 12:31:25] INFO root fetch - processPackages [pyftms]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-06-03 12:31:25] INFO root fetch - processPackages [youqu3]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 12:31:25] INFO root fetch - processPackages [bwalign]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ros-cdk-apigateway]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:31:25] INFO root fetch - processPackages [gnida]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ros-cdk-ga]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:31:25] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/d4/fd/34a775a4fc9704188dfddf2524fb3595218a6642099cb99263e5cd09638d/aixhello-4.5.tar.gz
+[2024-06-03 12:31:25] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1]
+[2024-06-03 12:31:25] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/d9/af/2882ed58d369cc0fe6f5aa4db027f073fa81dfe179fd58384f1bbfb09076/bwalign-1.5.8.tar.gz
+[2024-06-03 12:31:25] INFO root fetch - processPackages [youqu3]: Downloading https://files.pythonhosted.org/packages/aa/98/4b6218728e54f369cfc71b12511091bc1ef99fe7f643f9807a6c0d0b5484/youqu3-0.1.1.tar.gz
+[2024-06-03 12:31:25] INFO root fetch - processPackages [pyftms]: Downloading https://files.pythonhosted.org/packages/1a/9b/8b55bd178d2881850e2f196d54c3bdc7fb6d93117a4fdb75660e9dc6d045/pyftms-0.2.4.tar.gz
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ros-cdk-apigateway]: Downloading https://files.pythonhosted.org/packages/1d/b0/3cedb3539c7bb1d3dcab0f7f1ac2033e973807f841650e1c0abc65c0c72e/ros-cdk-apigateway-1.0.8.tar.gz
+[2024-06-03 12:31:25] INFO root fetch - processPackages [gnida]: Downloading https://files.pythonhosted.org/packages/1a/6b/b7f4d2f68613762306dac916d39bb0b98c1228651a076676ec3fb32cff7d/gnida-0.0.7.tar.gz
+[2024-06-03 12:31:25] INFO root fetch - processPackages [ros-cdk-ga]: Downloading https://files.pythonhosted.org/packages/63/34/0794037ac3fc2e12c914e10f29527ee05b48c77a1431e8fb8e550044b8bc/ros-cdk-ga-1.0.8.tar.gz
+[2024-06-03 12:31:25] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/af/c7/2dfad19c93c73bc908c931517bb0a44366c1e3dee31a33df4b10efa23db2/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl
+[2024-06-03 12:31:25] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/a1/18/977251bb8d0b6c0115e68e2bc49487d4cc8ee3d21ada69b6c461cdf3c35e/aixhello-4.7.tar.gz
+[2024-06-03 12:31:25] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/c1/03/22d61ebbf8c16811bf48f67bce050e5c0811b4bd6b952a0a4be902faaf76/bwalign-1.5.9.tar.gz
+[2024-06-03 12:31:26] INFO root fetch - processPackages [youqu3]: Downloading https://files.pythonhosted.org/packages/0b/94/a7b3dbb2bb61f3af57c72e3f1fb5000ef1cef30a14a76550bd1823134d19/youqu3-0.1.2.tar.gz
+[2024-06-03 12:31:26] INFO root fetch - processPackages [pyftms]: Downloading https://files.pythonhosted.org/packages/f7/a1/b4e8f48725349af335ee892455af2bbc4313eeedd375d29758ade8831e4b/pyftms-0.2.5.tar.gz
+[2024-06-03 12:31:26] INFO root fetch - processPackages [aixhello]: executing diffoscope
+[2024-06-03 12:31:26] INFO root fetch - processPackages [aixhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixhello-4.5.tar.gz tmp/aixhello-4.7.tar.gz --markdown 20240603/a/aixhello/4.5-4.7/README.md --exclude *.pyd
+[2024-06-03 12:31:26] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 12:31:26] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.5.8.tar.gz tmp/bwalign-1.5.9.tar.gz --markdown 20240603/b/bwalign/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-06-03 12:31:26] INFO root fetch - processPackages [youqu3]: executing diffoscope
+[2024-06-03 12:31:26] INFO root fetch - processPackages [youqu3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu3-0.1.1.tar.gz tmp/youqu3-0.1.2.tar.gz --markdown 20240603/y/youqu3/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 12:31:26] INFO root fetch - processPackages [gnida]: Downloading https://files.pythonhosted.org/packages/aa/5a/a25fe22ea69d2648cf176ceaefbafa07c7a2269f356374053ac34e1e2774/gnida-0.0.9.tar.gz
+[2024-06-03 12:31:26] INFO root fetch - processPackages [pyftms]: executing diffoscope
+[2024-06-03 12:31:26] INFO root fetch - processPackages [pyftms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyftms-0.2.4.tar.gz tmp/pyftms-0.2.5.tar.gz --markdown 20240603/p/pyftms/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-06-03 12:31:26] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Downloading https://files.pythonhosted.org/packages/c3/23/8526362ab9300aa58a210d8569f60632603010270fa72c28f63373aca95c/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl
+[2024-06-03 12:31:26] INFO root fetch - processPackages [gnida]: executing diffoscope
+[2024-06-03 12:31:26] INFO root fetch - processPackages [gnida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnida-0.0.7.tar.gz tmp/gnida-0.0.9.tar.gz --markdown 20240603/g/gnida/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-06-03 12:31:26] INFO root fetch - processPackages [ros-cdk-apigateway]: Downloading https://files.pythonhosted.org/packages/94/48/604f7f2ecb59443deae30113635825597c141a89c4456815b78576861ec2/ros-cdk-apigateway-1.0.9.tar.gz
+[2024-06-03 12:31:26] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: executing diffoscope
+[2024-06-03 12:31:26] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip --markdown 20240603/o/odoo14-addon-shopfloor-mobile/14.0.1.9.1-14.0.1.9.2/README.md --exclude *.pyd
+[2024-06-03 12:31:26] INFO root fetch - processPackages [ros-cdk-apigateway]: executing diffoscope
+[2024-06-03 12:31:26] INFO root fetch - processPackages [ros-cdk-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-apigateway-1.0.8.tar.gz tmp/ros-cdk-apigateway-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-apigateway/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:31:27] INFO root fetch - processPackages [gnida]: Remove: archive file [/home/abi/fetcher/tmp/gnida-0.0.7.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - processPackages [gnida]: Remove: archive file [/home/abi/fetcher/tmp/gnida-0.0.9.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - main [MainThread]: End processing [gnida]: success
+[2024-06-03 12:31:27] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.5.8.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.5.9.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 12:31:27] INFO root fetch - processPackages [youqu3]: Remove: archive file [/home/abi/fetcher/tmp/youqu3-0.1.1.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - processPackages [youqu3]: Remove: archive file [/home/abi/fetcher/tmp/youqu3-0.1.2.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - main [MainThread]: End processing [youqu3]: success
+[2024-06-03 12:31:27] INFO root fetch - processPackages [pyftms]: Remove: archive file [/home/abi/fetcher/tmp/pyftms-0.2.4.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - processPackages [pyftms]: Remove: archive file [/home/abi/fetcher/tmp/pyftms-0.2.5.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - main [MainThread]: End processing [pyftms]: success
+[2024-06-03 12:31:27] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.5.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.7.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - main [MainThread]: End processing [aixhello]: success
+[2024-06-03 12:31:27] INFO root fetch - processPackages [ros-cdk-ga]: Downloading https://files.pythonhosted.org/packages/28/43/2ddcf58171b93a8942c1bccabf97b30dd841ca999dc1494ca45d2b26b90d/ros-cdk-ga-1.0.9.tar.gz
+[2024-06-03 12:31:27] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.1-py3-none-any.whl.zip]
+[2024-06-03 12:31:27] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile-14.0.1.9.2-py3-none-any.whl.zip]
+[2024-06-03 12:31:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile]: success
+[2024-06-03 12:31:27] INFO root fetch - processPackages [ros-cdk-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-apigateway-1.0.8.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - processPackages [ros-cdk-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-apigateway-1.0.9.tar.gz]
+[2024-06-03 12:31:27] INFO root fetch - main [MainThread]: End processing [ros-cdk-apigateway]: success
+[2024-06-03 12:31:28] INFO root fetch - processPackages [ros-cdk-ga]: executing diffoscope
+[2024-06-03 12:31:28] INFO root fetch - processPackages [ros-cdk-ga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ga-1.0.8.tar.gz tmp/ros-cdk-ga-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-ga/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:31:28] INFO root fetch - processPackages [ros-cdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ga-1.0.8.tar.gz]
+[2024-06-03 12:31:28] INFO root fetch - processPackages [ros-cdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ga-1.0.9.tar.gz]
+[2024-06-03 12:31:28] INFO root fetch - main [MainThread]: End processing [ros-cdk-ga]: success
+[2024-06-03 12:31:28] INFO root fetch - main [MainThread]: Store serial: [23500449]
