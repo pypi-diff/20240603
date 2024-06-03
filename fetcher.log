@@ -3925,3 +3925,38 @@ EOFError: EOF read where object expected
 [2024-06-03 04:44:36] INFO root fetch - processPackages [flexidata]: Remove: archive file [/home/abi/fetcher/tmp/flexidata-0.0.9.tar.gz]
 [2024-06-03 04:44:36] INFO root fetch - main [MainThread]: End processing [flexidata]: success
 [2024-06-03 04:44:36] INFO root fetch - main [MainThread]: Store serial: [23495795]
+[2024-06-03 04:46:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495795]
+[2024-06-03 04:46:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 04:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flexidata
+[2024-06-03 04:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclicpeptide
+[2024-06-03 04:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: organization-profile-local
+[2024-06-03 04:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyFlowQ
+[2024-06-03 04:46:44] INFO root fetch - processPackages [EasyFlowQ]: New version: [1.5.4] Old Version: [1.4.9]
+[2024-06-03 04:46:44] INFO root fetch - processPackages [organization-profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 04:46:44] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-06-03 04:46:44] INFO root fetch - processPackages [flexidata]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 04:46:44] INFO root fetch - processPackages [EasyFlowQ]: Downloading https://files.pythonhosted.org/packages/45/01/6958d8ad770b490ab0e2c20ed1d7b9ba416f3ede0b178f041c60ffe8b5b7/easyflowq-1.4.9.tar.gz
+[2024-06-03 04:46:44] INFO root fetch - processPackages [organization-profile-local]: Downloading https://files.pythonhosted.org/packages/81/90/0410ad89775192aef8b8e9746af0f7275b91487d06b057fb04673d948e6f/organization_profile_local-0.0.8.tar.gz
+[2024-06-03 04:46:44] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/65/6e/962a16cbb0a24b6e4d0df9792c352372f7ce1e52433b6baf5f14ab284277/cyclicpeptide-1.0.6.tar.gz
+[2024-06-03 04:46:44] INFO root fetch - processPackages [flexidata]: Downloading https://files.pythonhosted.org/packages/0e/fe/5e3f62ab601c5007e69653d22014fe199c1708f34e4caabff8748e43672c/flexidata-0.0.8.tar.gz
+[2024-06-03 04:46:44] WARNING root fetch - processPackages [EasyFlowQ]: Skipping package: exceeds size limit 81990214>=10485760
+[2024-06-03 04:46:44] INFO root fetch - main [MainThread]: End processing [EasyFlowQ] error
+[2024-06-03 04:46:45] INFO root fetch - processPackages [organization-profile-local]: Downloading https://files.pythonhosted.org/packages/9a/c5/9b0d4d1a63505df30fa98f65e30c09a3b9fa5b269d13d3c221689c2a1e5d/organization_profile_local-0.0.9.tar.gz
+[2024-06-03 04:46:45] INFO root fetch - processPackages [flexidata]: Downloading https://files.pythonhosted.org/packages/e6/bd/87b88b048d3223cb67b942ac9462f4a1a7c80f30da8750ca57b72baa0a2b/flexidata-0.0.9.tar.gz
+[2024-06-03 04:46:45] INFO root fetch - processPackages [organization-profile-local]: executing diffoscope
+[2024-06-03 04:46:45] INFO root fetch - processPackages [organization-profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organization_profile_local-0.0.8.tar.gz tmp/organization_profile_local-0.0.9.tar.gz --markdown 20240603/o/organization-profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 04:46:45] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/d3/85/0e951c635baacb54ec38009ebe5c886a2e1dabe2c5ea6ad4d3dc15e85c5e/cyclicpeptide-1.0.7.tar.gz
+[2024-06-03 04:46:45] INFO root fetch - processPackages [flexidata]: executing diffoscope
+[2024-06-03 04:46:45] INFO root fetch - processPackages [flexidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexidata-0.0.8.tar.gz tmp/flexidata-0.0.9.tar.gz --markdown 20240603/f/flexidata/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 04:46:45] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-06-03 04:46:45] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.6.tar.gz tmp/cyclicpeptide-1.0.7.tar.gz --markdown 20240603/c/cyclicpeptide/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-06-03 04:46:45] INFO root fetch - processPackages [organization-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/organization_profile_local-0.0.8.tar.gz]
+[2024-06-03 04:46:45] INFO root fetch - processPackages [organization-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/organization_profile_local-0.0.9.tar.gz]
+[2024-06-03 04:46:45] INFO root fetch - main [MainThread]: End processing [organization-profile-local]: success
+[2024-06-03 04:46:45] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.6.tar.gz]
+[2024-06-03 04:46:45] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.7.tar.gz]
+[2024-06-03 04:46:45] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-06-03 04:46:45] INFO root fetch - processPackages [flexidata]: Remove: archive file [/home/abi/fetcher/tmp/flexidata-0.0.8.tar.gz]
+[2024-06-03 04:46:45] INFO root fetch - processPackages [flexidata]: Remove: archive file [/home/abi/fetcher/tmp/flexidata-0.0.9.tar.gz]
+[2024-06-03 04:46:45] INFO root fetch - main [MainThread]: End processing [flexidata]: success
+[2024-06-03 04:46:45] INFO root fetch - main [MainThread]: Store serial: [23495808]
