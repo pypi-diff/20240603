@@ -5981,3 +5981,42 @@ EOFError: EOF read where object expected
 [2024-06-03 06:45:52] INFO root fetch - processPackages [cwmaya]: Remove: archive file [/home/abi/fetcher/tmp/cwmaya-0.0.1b4-py2.py3-none-any.whl.zip]
 [2024-06-03 06:45:52] INFO root fetch - main [MainThread]: End processing [cwmaya]: success
 [2024-06-03 06:45:52] INFO root fetch - main [MainThread]: Store serial: [23496738]
+[2024-06-03 06:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496738]
+[2024-06-03 06:48:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 06:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scri
+[2024-06-03 06:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brianmechanisms
+[2024-06-03 06:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pr-pilot-cli
+[2024-06-03 06:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: v8unpack
+[2024-06-03 06:48:00] INFO root fetch - processPackages [pr-pilot-cli]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-06-03 06:48:00] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/f2/a7/ad4f48cecbe1f4684f6d10ffcae143e31087a85492fcedc6d1b9d55846ae/pr_pilot_cli-1.5.0.tar.gz
+[2024-06-03 06:48:00] INFO root fetch - processPackages [brianmechanisms]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-06-03 06:48:00] INFO root fetch - processPackages [scri]: New version: [2022.8.9] Old Version: [2022.8.8]
+[2024-06-03 06:48:00] INFO root fetch - processPackages [v8unpack]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 06:48:00] INFO root fetch - processPackages [brianmechanisms]: Downloading https://files.pythonhosted.org/packages/8d/a7/8345507853c1a58a0b07d22fc35de8414a9aaab055dde995102e9c454df6/brianmechanisms-0.1.7.tar.gz
+[2024-06-03 06:48:00] INFO root fetch - processPackages [scri]: Downloading https://files.pythonhosted.org/packages/06/a1/843f84cf6efd6dcd4bbfc4fd7b92e60d29afe55cf321a2ee6e0d8ba2c3c6/scri-2022.8.8.tar.gz
+[2024-06-03 06:48:00] INFO root fetch - processPackages [v8unpack]: Downloading https://files.pythonhosted.org/packages/08/03/98124648a95bcb037324f1ee104dc94b46478b5cdd544f7a874c137dada5/v8unpack-0.9.2.tar.gz
+[2024-06-03 06:48:01] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/fe/de/48236e800ac41367414406fbe3f3311bde149ebaf778d7b2ccc4eda8d144/pr_pilot_cli-1.6.0.tar.gz
+[2024-06-03 06:48:01] INFO root fetch - processPackages [pr-pilot-cli]: executing diffoscope
+[2024-06-03 06:48:01] INFO root fetch - processPackages [pr-pilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot_cli-1.5.0.tar.gz tmp/pr_pilot_cli-1.6.0.tar.gz --markdown 20240603/p/pr-pilot-cli/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-06-03 06:48:01] INFO root fetch - processPackages [brianmechanisms]: Downloading https://files.pythonhosted.org/packages/9d/d6/070d61689ba007bc0775a0e5c605cc2403d1b961638d420320b95107620b/brianmechanisms-0.1.8.tar.gz
+[2024-06-03 06:48:01] INFO root fetch - processPackages [scri]: Downloading https://files.pythonhosted.org/packages/12/c6/86db24b7a4ef54f3e54907479ac9021373208ddb071cc5a2158090639538/scri-2022.8.9.tar.gz
+[2024-06-03 06:48:01] INFO root fetch - processPackages [v8unpack]: Downloading https://files.pythonhosted.org/packages/d4/64/0da11cb521c6c2964e5528bda0112e9d37623a5d326ab0631d52ca03a487/v8unpack-0.9.3.tar.gz
+[2024-06-03 06:48:01] INFO root fetch - processPackages [brianmechanisms]: executing diffoscope
+[2024-06-03 06:48:01] INFO root fetch - processPackages [brianmechanisms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brianmechanisms-0.1.7.tar.gz tmp/brianmechanisms-0.1.8.tar.gz --markdown 20240603/b/brianmechanisms/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-06-03 06:48:01] INFO root fetch - processPackages [scri]: executing diffoscope
+[2024-06-03 06:48:01] INFO root fetch - processPackages [scri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scri-2022.8.8.tar.gz tmp/scri-2022.8.9.tar.gz --markdown 20240603/s/scri/2022.8.8-2022.8.9/README.md --exclude *.pyd
+[2024-06-03 06:48:01] INFO root fetch - processPackages [v8unpack]: executing diffoscope
+[2024-06-03 06:48:01] INFO root fetch - processPackages [v8unpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v8unpack-0.9.2.tar.gz tmp/v8unpack-0.9.3.tar.gz --markdown 20240603/v/v8unpack/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 06:48:01] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.5.0.tar.gz]
+[2024-06-03 06:48:01] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.6.0.tar.gz]
+[2024-06-03 06:48:01] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli]: success
+[2024-06-03 06:48:01] INFO root fetch - processPackages [brianmechanisms]: Remove: archive file [/home/abi/fetcher/tmp/brianmechanisms-0.1.7.tar.gz]
+[2024-06-03 06:48:01] INFO root fetch - processPackages [brianmechanisms]: Remove: archive file [/home/abi/fetcher/tmp/brianmechanisms-0.1.8.tar.gz]
+[2024-06-03 06:48:01] INFO root fetch - main [MainThread]: End processing [brianmechanisms]: success
+[2024-06-03 06:48:02] INFO root fetch - processPackages [v8unpack]: Remove: archive file [/home/abi/fetcher/tmp/v8unpack-0.9.2.tar.gz]
+[2024-06-03 06:48:02] INFO root fetch - processPackages [v8unpack]: Remove: archive file [/home/abi/fetcher/tmp/v8unpack-0.9.3.tar.gz]
+[2024-06-03 06:48:02] INFO root fetch - main [MainThread]: End processing [v8unpack]: success
+[2024-06-03 06:48:02] INFO root fetch - processPackages [scri]: Remove: archive file [/home/abi/fetcher/tmp/scri-2022.8.8.tar.gz]
+[2024-06-03 06:48:02] INFO root fetch - processPackages [scri]: Remove: archive file [/home/abi/fetcher/tmp/scri-2022.8.9.tar.gz]
+[2024-06-03 06:48:02] INFO root fetch - main [MainThread]: End processing [scri]: success
+[2024-06-03 06:48:02] INFO root fetch - main [MainThread]: Store serial: [23496750]
