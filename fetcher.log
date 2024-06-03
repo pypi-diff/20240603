@@ -6910,3 +6910,24 @@ EOFError: EOF read where object expected
 [2024-06-03 07:42:29] INFO root fetch - processPackages [apache-airflow-providers-teradata]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_teradata-2.2.0rc1.tar.gz]
 [2024-06-03 07:42:29] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-teradata]: success
 [2024-06-03 07:42:29] INFO root fetch - main [MainThread]: Store serial: [23497086]
+[2024-06-03 07:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497086]
+[2024-06-03 07:44:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ferfereh
+[2024-06-03 07:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagknows
+[2024-06-03 07:44:37] INFO root fetch - processPackages [ferfereh]: New version: [1.140.1] Old Version: [1.139.1]
+[2024-06-03 07:44:37] INFO root fetch - processPackages [dagknows]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 07:44:38] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/da/d9/26cacd120bcb1bc7ed7d34413f6092ad7cca3a1ffa660c3f97a30b1ba54a/dagknows-0.0.98-py3-none-any.whl
+[2024-06-03 07:44:38] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/a3/7f/34a9d769519b94de793e835e807f8eea76e48d0900ef18aa2acb821a4c60/ferfereh-1.139.1.tar.gz
+[2024-06-03 07:44:38] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/0a/f9/487230793695e830b97edaf88bed96a0afd0b943f15815533a0a0fcc2f64/dagknows-0.0.99-py3-none-any.whl
+[2024-06-03 07:44:38] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/10/47/85e037a0c0bdb374e340cecdd6f416cf4cae742fc677c6624423fdf86d81/ferfereh-1.140.1.tar.gz
+[2024-06-03 07:44:38] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2024-06-03 07:44:38] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.98-py3-none-any.whl.zip tmp/dagknows-0.0.99-py3-none-any.whl.zip --markdown 20240603/d/dagknows/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 07:44:38] INFO root fetch - processPackages [ferfereh]: executing diffoscope
+[2024-06-03 07:44:38] INFO root fetch - processPackages [ferfereh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferfereh-1.139.1.tar.gz tmp/ferfereh-1.140.1.tar.gz --markdown 20240603/f/ferfereh/1.139.1-1.140.1/README.md --exclude *.pyd
+[2024-06-03 07:44:39] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.139.1.tar.gz]
+[2024-06-03 07:44:39] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.140.1.tar.gz]
+[2024-06-03 07:44:39] INFO root fetch - main [MainThread]: End processing [ferfereh]: success
+[2024-06-03 07:44:39] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.98-py3-none-any.whl.zip]
+[2024-06-03 07:44:39] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.99-py3-none-any.whl.zip]
+[2024-06-03 07:44:39] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2024-06-03 07:44:39] INFO root fetch - main [MainThread]: Store serial: [23497091]
