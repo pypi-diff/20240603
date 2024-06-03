@@ -10466,3 +10466,83 @@ EOFError: EOF read where object expected
 [2024-06-03 10:48:18] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.6.tar.gz]
 [2024-06-03 10:48:18] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
 [2024-06-03 10:48:18] INFO root fetch - main [MainThread]: Store serial: [23498792]
+[2024-06-03 10:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498792]
+[2024-06-03 10:50:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstats
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fluke-fl
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moonss
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WGSE-NG-3rd-party
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dve-lumipy-testing
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mongodb-orm
+[2024-06-03 10:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asposeslidescloud
+[2024-06-03 10:50:27] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [moonss]: New version: [0.99] Old Version: [0.98]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a1] Old Version: [0.1.0]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [bagbag]: New version: [0.68.9] Old Version: [0.68.8]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [quickstats]: New version: [0.7.0.5] Old Version: [0.7.0.4.3]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [WGSE-NG-3rd-party]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/df/9c/efa77e88d08939cec835de0cc183c1e3218af6175697e55b7bbffa3d0270/moonss-0.98.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [fluke-fl]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/d4/d9/a5c908eb9f8271985429121ebab497f101329c81bba96335237809ec299f/mongodb_orm-0.1.0.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/96/cec1b60756a800353138acafbcdaf59362f72a46b4a91cae324ae5b6118b/bagbag-0.68.8.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/19/b5/8349b3526c1c3610da3de1053040ec6b96867f5687da0eac606d51734199/quickstats-0.7.0.4.3-py3-none-any.whl
+[2024-06-03 10:50:27] INFO root fetch - processPackages [asposeslidescloud]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-06-03 10:50:27] INFO root fetch - processPackages [fluke-fl]: Downloading https://files.pythonhosted.org/packages/6c/a8/9ec9281ea70b4a8e6b0e609b36f29fe3bb681b97b6535f68b8d379cf5eee/fluke_fl-0.0.5.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [WGSE-NG-3rd-party]: Downloading https://files.pythonhosted.org/packages/d1/7e/ff6ab538beb19f08a02cb36f16d83ab3c0443ce9c43f7356c7baba4b6c3a/wgse_ng_3rd_party-0.0.1.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/6e/1f/c1241e9569cb096add47dfc527dbcdb72a01ad3442ec4102a53625e994f4/mongodb_orm-0.1.0a1.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/35/3c/cb62485dde83e7c097a307c0189c884a946fec5e6c16c9fca526b4d99511/moonss-0.99.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-06-03 10:50:27] INFO root fetch - processPackages [asposeslidescloud]: Downloading https://files.pythonhosted.org/packages/74/2c/5d6ede845422a76a1db6d673802ecf6dbc8aaeabc71ad1ca4b5d20200511/asposeslidescloud-24.4.0.tar.gz
+[2024-06-03 10:50:27] WARNING root fetch - processPackages [WGSE-NG-3rd-party]: Skipping package: exceeds size limit 30940690>=10485760
+[2024-06-03 10:50:27] INFO root fetch - main [MainThread]: End processing [WGSE-NG-3rd-party] error
+[2024-06-03 10:50:27] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/45/d5/5aa096988ce7be1747683702ca3eef0476dea4689f140114e113e9cfc635/quickstats-0.7.0.5.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 10:50:27] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0.tar.gz tmp/mongodb_orm-0.1.0a1.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0-0.1.0a1/README.md --exclude *.pyd
+[2024-06-03 10:50:27] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-06-03 10:50:27] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240603/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-06-03 10:50:27] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/a7/ce/36d9c874c6e340bb1da40a8b9b41a914e0760f19171ede585a00fb45323d/bagbag-0.68.9.tar.gz
+[2024-06-03 10:50:27] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-06-03 10:50:27] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.98.tar.gz tmp/moonss-0.99.tar.gz --markdown 20240603/m/moonss/0.98-0.99/README.md --exclude *.pyd
+[2024-06-03 10:50:28] INFO root fetch - processPackages [quickstats]: executing diffoscope
+[2024-06-03 10:50:28] INFO root fetch - processPackages [quickstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstats-0.7.0.4.3-py3-none-any.whl.zip tmp/quickstats-0.7.0.5.tar.gz --markdown 20240603/q/quickstats/0.7.0.4.3-0.7.0.5/README.md --exclude *.pyd
+[2024-06-03 10:50:28] INFO root fetch - processPackages [fluke-fl]: Downloading https://files.pythonhosted.org/packages/c1/ad/9f632f5cb709b83355299d2c6e7ad1ef4766d7617cef817d4ae5f32a00ae/fluke_fl-0.1.0.tar.gz
+[2024-06-03 10:50:28] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-06-03 10:50:28] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.8.tar.gz tmp/bagbag-0.68.9.tar.gz --markdown 20240603/b/bagbag/0.68.8-0.68.9/README.md --exclude *.pyd
+[2024-06-03 10:50:28] INFO root fetch - processPackages [asposeslidescloud]: Downloading https://files.pythonhosted.org/packages/90/ab/db3fdda22d2371fc6142d1e7cb474649f90e671975f17dd5fb36644dfd26/asposeslidescloud-24.5.0.tar.gz
+[2024-06-03 10:50:28] INFO root fetch - processPackages [fluke-fl]: executing diffoscope
+[2024-06-03 10:50:28] INFO root fetch - processPackages [fluke-fl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluke_fl-0.0.5.tar.gz tmp/fluke_fl-0.1.0.tar.gz --markdown 20240603/f/fluke-fl/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-06-03 10:50:28] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-06-03 10:50:28] INFO root fetch - processPackages [asposeslidescloud]: executing diffoscope
+[2024-06-03 10:50:28] INFO root fetch - processPackages [asposeslidescloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asposeslidescloud-24.4.0.tar.gz tmp/asposeslidescloud-24.5.0.tar.gz --markdown 20240603/a/asposeslidescloud/24.4.0-24.5.0/README.md --exclude *.pyd
+[2024-06-03 10:50:28] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-06-03 10:50:28] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240603/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 10:50:28] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0.tar.gz]
+[2024-06-03 10:50:28] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a1.tar.gz]
+[2024-06-03 10:50:28] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 10:50:28] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.98.tar.gz]
+[2024-06-03 10:50:28] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.99.tar.gz]
+[2024-06-03 10:50:28] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-06-03 10:50:28] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-06-03 10:50:28] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-06-03 10:50:28] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-06-03 10:50:29] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.4.3-py3-none-any.whl.zip]
+[2024-06-03 10:50:29] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.5.tar.gz]
+[2024-06-03 10:50:29] INFO root fetch - main [MainThread]: End processing [quickstats]: success
+[2024-06-03 10:50:29] INFO root fetch - processPackages [fluke-fl]: Remove: archive file [/home/abi/fetcher/tmp/fluke_fl-0.0.5.tar.gz]
+[2024-06-03 10:50:29] INFO root fetch - processPackages [fluke-fl]: Remove: archive file [/home/abi/fetcher/tmp/fluke_fl-0.1.0.tar.gz]
+[2024-06-03 10:50:29] INFO root fetch - main [MainThread]: End processing [fluke-fl]: success
+[2024-06-03 10:50:29] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.8.tar.gz]
+[2024-06-03 10:50:29] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.9.tar.gz]
+[2024-06-03 10:50:29] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-06-03 10:50:30] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-06-03 10:50:30] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-06-03 10:50:30] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-06-03 10:50:30] INFO root fetch - processPackages [asposeslidescloud]: Remove: archive file [/home/abi/fetcher/tmp/asposeslidescloud-24.4.0.tar.gz]
+[2024-06-03 10:50:30] INFO root fetch - processPackages [asposeslidescloud]: Remove: archive file [/home/abi/fetcher/tmp/asposeslidescloud-24.5.0.tar.gz]
+[2024-06-03 10:50:30] INFO root fetch - main [MainThread]: End processing [asposeslidescloud]: success
+[2024-06-03 10:50:30] INFO root fetch - main [MainThread]: Store serial: [23498827]
