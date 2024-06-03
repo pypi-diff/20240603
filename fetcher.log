@@ -4910,3 +4910,23 @@ EOFError: EOF read where object expected
 [2024-06-03 05:35:37] INFO root fetch - processPackages [SCDB-ML-app]: Remove: archive file [/home/abi/fetcher/tmp/SCDB_ML_app-1.0.8-py3-none-any.whl.zip]
 [2024-06-03 05:35:37] INFO root fetch - main [MainThread]: End processing [SCDB-ML-app]: success
 [2024-06-03 05:35:37] INFO root fetch - main [MainThread]: Store serial: [23496311]
+[2024-06-03 05:37:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496311]
+[2024-06-03 05:37:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hemanth-hello-world
+[2024-06-03 05:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parameters-fooetall
+[2024-06-03 05:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quicktex
+[2024-06-03 05:37:45] INFO root fetch - processPackages [hemanth-hello-world]: New version: [0.9] Old Version: [0.8]
+[2024-06-03 05:37:45] INFO root fetch - processPackages [quicktex]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-06-03 05:37:45] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/1a/f0/60a215d367bc9b187ec6dde303947eab035a65a61c7b728f720a28537262/hemanth_hello_world-0.8.tar.gz
+[2024-06-03 05:37:45] WARNING root fetch - processPackages [parameters-fooetall]: Skipping, unable to determine old version
+[2024-06-03 05:37:45] INFO root fetch - main [MainThread]: End processing [parameters-fooetall] error
+[2024-06-03 05:37:45] INFO root fetch - processPackages [quicktex]: Downloading https://files.pythonhosted.org/packages/45/07/f86c152140b8ab52a3d8f41d9851aa82506fcb8127122f89a0f7116fd1f5/quicktex-0.1.4.tar.gz
+[2024-06-03 05:37:45] WARNING root fetch - processPackages [quicktex]: Skipping package: exceeds size limit 29173404>=10485760
+[2024-06-03 05:37:45] INFO root fetch - main [MainThread]: End processing [quicktex] error
+[2024-06-03 05:37:46] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/2c/cd/2c5ef7f664ac2eeeb1167c20812a402f435f438a9f8205bee0d52e263794/hemanth_hello_world-0.9.tar.gz
+[2024-06-03 05:37:46] INFO root fetch - processPackages [hemanth-hello-world]: executing diffoscope
+[2024-06-03 05:37:46] INFO root fetch - processPackages [hemanth-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hemanth_hello_world-0.8.tar.gz tmp/hemanth_hello_world-0.9.tar.gz --markdown 20240603/h/hemanth-hello-world/0.8-0.9/README.md --exclude *.pyd
+[2024-06-03 05:37:46] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.8.tar.gz]
+[2024-06-03 05:37:46] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.9.tar.gz]
+[2024-06-03 05:37:46] INFO root fetch - main [MainThread]: End processing [hemanth-hello-world]: success
+[2024-06-03 05:37:46] INFO root fetch - main [MainThread]: Store serial: [23496318]
