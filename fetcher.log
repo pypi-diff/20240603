@@ -2131,3 +2131,15 @@
 [2024-06-03 02:47:04] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.5.dev202406020044.tar.gz]
 [2024-06-03 02:47:04] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-06-03 02:47:04] INFO root fetch - main [MainThread]: Store serial: [23495046]
+[2024-06-03 02:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495046]
+[2024-06-03 02:49:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 02:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vistutils
+[2024-06-03 02:49:12] INFO root fetch - processPackages [vistutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 02:49:12] INFO root fetch - processPackages [vistutils]: Downloading https://files.pythonhosted.org/packages/03/ab/4cec8e0c3fdfbe38de2cf19925a3540bca6347e9df74b83c06d7ef70bf56/vistutils-0.1.8.tar.gz
+[2024-06-03 02:49:13] INFO root fetch - processPackages [vistutils]: Downloading https://files.pythonhosted.org/packages/b6/b2/2ba6145790f8f33dc77703df6cfa0dbe27354032a5e534b93d69337ca6c7/vistutils-0.1.9.tar.gz
+[2024-06-03 02:49:13] INFO root fetch - processPackages [vistutils]: executing diffoscope
+[2024-06-03 02:49:13] INFO root fetch - processPackages [vistutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vistutils-0.1.8.tar.gz tmp/vistutils-0.1.9.tar.gz --markdown 20240603/v/vistutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 02:49:14] INFO root fetch - processPackages [vistutils]: Remove: archive file [/home/abi/fetcher/tmp/vistutils-0.1.8.tar.gz]
+[2024-06-03 02:49:14] INFO root fetch - processPackages [vistutils]: Remove: archive file [/home/abi/fetcher/tmp/vistutils-0.1.9.tar.gz]
+[2024-06-03 02:49:14] INFO root fetch - main [MainThread]: End processing [vistutils]: success
+[2024-06-03 02:49:14] INFO root fetch - main [MainThread]: Store serial: [23495050]
