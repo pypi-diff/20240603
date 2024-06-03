@@ -12500,3 +12500,117 @@ EOFError: EOF read where object expected
 [2024-06-03 11:49:56] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-06-03 11:49:56] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-06-03 11:49:56] INFO root fetch - main [MainThread]: Store serial: [23499803]
+[2024-06-03 11:52:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499803]
+[2024-06-03 11:52:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bencode-cpp
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CustomKitLib
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rxnSMILES4AtomEco
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: balanco-library
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MatplotLibAPI
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bwalign
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eirStru
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ANX
+[2024-06-03 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: km-nlp
+[2024-06-03 11:52:05] WARNING root fetch - processPackages [bencode-cpp]: Skipping, unable to determine old version
+[2024-06-03 11:52:05] INFO root fetch - processPackages [bencode-cpp]: Start processing: PermutiveAPI
+[2024-06-03 11:52:05] INFO root fetch - main [MainThread]: End processing [bencode-cpp] error
+[2024-06-03 11:52:06] INFO root fetch - processPackages [rxnSMILES4AtomEco]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 11:52:06] WARNING root fetch - processPackages [km-nlp]: Skipping, unable to determine old version
+[2024-06-03 11:52:06] INFO root fetch - processPackages [km-nlp]: Start processing: typorio
+[2024-06-03 11:52:06] INFO root fetch - main [MainThread]: End processing [km-nlp] error
+[2024-06-03 11:52:06] INFO root fetch - processPackages [bwalign]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-06-03 11:52:06] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 11:52:06] WARNING root fetch - processPackages [balanco-library]: Skipping, unable to determine old version
+[2024-06-03 11:52:06] INFO root fetch - processPackages [balanco-library]: Start processing: mongodb-orm
+[2024-06-03 11:52:06] INFO root fetch - main [MainThread]: End processing [balanco-library] error
+[2024-06-03 11:52:06] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-06-03 11:52:06] WARNING root fetch - processPackages [CustomKitLib]: Skipping, unable to determine old version
+[2024-06-03 11:52:06] INFO root fetch - processPackages [CustomKitLib]: Start processing: scalebar
+[2024-06-03 11:52:06] INFO root fetch - main [MainThread]: End processing [CustomKitLib] error
+[2024-06-03 11:52:06] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/a4/96/04ee73ff01b3b25987f5d8e668b4fcbe9a3c9f03958f5f6c4fedb9574e7a/rxnSMILES4AtomEco-1.0.8.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [ANX]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-06-03 11:52:06] INFO root fetch - processPackages [MatplotLibAPI]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-06-03 11:52:06] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 11:52:06] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 11:52:06] INFO root fetch - processPackages [PermutiveAPI]: New version: [3.5.3] Old Version: [3.5.2]
+[2024-06-03 11:52:06] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/fe/52/82219315afb0c7e81f59fd402d44f74d018ca135584afa5228e8d73d8313/bwalign-1.3.6.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [typorio]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 11:52:06] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/98/0f/63bae573074f8f977a1048fbfedb8a5d06e6a6c876c42a4be024ee4aedb1/mongodb_orm-0.1.0a2.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [scalebar]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-06-03 11:52:06] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/53/eb/4248ef7c13440df8cfdf47a58609749cff058b52bd9233f76202529d4854/ANX-0.8.0.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/a9/4e/d401dfa91391a77d27c437b8726240a6e0dd967a451c6120aa360bfa21e9/matplotlibapi-3.1.0.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [PermutiveAPI]: Downloading https://files.pythonhosted.org/packages/be/35/bb0a2545e67aea05abb2a025e52d19d5bcc77c032028e2c26a082958f7f5/permutiveapi-3.5.2.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/9e/92/e9db54b12dc4ca451784b66af1e6427ceaa6cb3b19737a0b7b979d7ff006/rxnSMILES4AtomEco-1.0.9.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [typorio]: Downloading https://files.pythonhosted.org/packages/d3/7e/433c40d18d4a9ea41110acda63223ab40256299d117050cb00550c50af59/typorio-0.1.0.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/11/04/202e1a55b85c8882f15d15c7c392755687e6b72a0dda7b239388caac716e/bwalign-1.3.7.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [scalebar]: Downloading https://files.pythonhosted.org/packages/e9/1b/c99901e9809f863daecfe63593c29dc2b849188fbfe988ccf96ff04c1c82/scalebar-0.3.1.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 11:52:06] INFO root fetch - processPackages [rxnSMILES4AtomEco]: executing diffoscope
+[2024-06-03 11:52:06] INFO root fetch - processPackages [rxnSMILES4AtomEco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxnSMILES4AtomEco-1.0.8.tar.gz tmp/rxnSMILES4AtomEco-1.0.9.tar.gz --markdown 20240603/r/rxnSMILES4AtomEco/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 11:52:06] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/dd/56/e4a192d154ea4e11d68aecc0498be7e8d45f06944f6e81842fe442894ac5/mongodb_orm-0.1.0a3.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 11:52:06] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.3.6.tar.gz tmp/bwalign-1.3.7.tar.gz --markdown 20240603/b/bwalign/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-06-03 11:52:06] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/af/31/bd67b297fc53bdc89c7399528af2c24b738fd9d5f5f0967ea99e0d482897/ANX-0.8.1.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [MatplotLibAPI]: Downloading https://files.pythonhosted.org/packages/11/41/b2fb6d8a45db0ac5d088253089c6c700e87188fbd7d5d8ceb37762069c5d/matplotlibapi-3.1.1.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 11:52:06] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0a2.tar.gz tmp/mongodb_orm-0.1.0a3.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0a2-0.1.0a3/README.md --exclude *.pyd
+[2024-06-03 11:52:06] INFO root fetch - processPackages [PermutiveAPI]: Downloading https://files.pythonhosted.org/packages/99/d9/741a3272b80bc8d7014e1bb24861dd8c5aa47efca7bfbf927fc0ee321157/permutiveapi-3.5.3.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [typorio]: Downloading https://files.pythonhosted.org/packages/c3/df/109e0bfb822e95a1476f13300006fa5482a44d456d0dd161e9e4755f567d/typorio-0.1.1.tar.gz
+[2024-06-03 11:52:06] INFO root fetch - processPackages [scalebar]: Downloading https://files.pythonhosted.org/packages/b6/bb/fe4273c3826a7b09c9f8ab27050020099d7ad99b68ca571b9d2121006682/scalebar-0.4.0.tar.gz
+[2024-06-03 11:52:07] INFO root fetch - processPackages [MatplotLibAPI]: executing diffoscope
+[2024-06-03 11:52:07] INFO root fetch - processPackages [MatplotLibAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlibapi-3.1.0.tar.gz tmp/matplotlibapi-3.1.1.tar.gz --markdown 20240603/M/MatplotLibAPI/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-06-03 11:52:07] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-06-03 11:52:07] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.8.0.tar.gz tmp/ANX-0.8.1.tar.gz --markdown 20240603/A/ANX/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-06-03 11:52:07] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-06-03 11:52:07] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240603/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 11:52:07] INFO root fetch - processPackages [PermutiveAPI]: executing diffoscope
+[2024-06-03 11:52:07] INFO root fetch - processPackages [PermutiveAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permutiveapi-3.5.2.tar.gz tmp/permutiveapi-3.5.3.tar.gz --markdown 20240603/P/PermutiveAPI/3.5.2-3.5.3/README.md --exclude *.pyd
+[2024-06-03 11:52:07] INFO root fetch - processPackages [scalebar]: executing diffoscope
+[2024-06-03 11:52:07] INFO root fetch - processPackages [scalebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalebar-0.3.1.tar.gz tmp/scalebar-0.4.0.tar.gz --markdown 20240603/s/scalebar/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-06-03 11:52:07] INFO root fetch - processPackages [typorio]: executing diffoscope
+[2024-06-03 11:52:07] INFO root fetch - processPackages [typorio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typorio-0.1.0.tar.gz tmp/typorio-0.1.1.tar.gz --markdown 20240603/t/typorio/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 11:52:07] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 11:52:07] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 11:52:07] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.8.tar.gz]
+[2024-06-03 11:52:07] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.9.tar.gz]
+[2024-06-03 11:52:07] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Start processing: venv-modulefile
+[2024-06-03 11:52:07] INFO root fetch - main [MainThread]: End processing [rxnSMILES4AtomEco]: success
+[2024-06-03 11:52:07] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.3.6.tar.gz]
+[2024-06-03 11:52:07] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.3.7.tar.gz]
+[2024-06-03 11:52:07] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 11:52:07] INFO root fetch - processPackages [venv-modulefile]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 11:52:07] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a2.tar.gz]
+[2024-06-03 11:52:07] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a3.tar.gz]
+[2024-06-03 11:52:07] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 11:52:08] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/dc/44/b5bcb7221cae5cad9499faecc45da629be042dab647dfc2e86ab4c8cb817/venv-modulefile-0.1.6.tar.gz
+[2024-06-03 11:52:08] INFO root fetch - processPackages [typorio]: Remove: archive file [/home/abi/fetcher/tmp/typorio-0.1.0.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - processPackages [typorio]: Remove: archive file [/home/abi/fetcher/tmp/typorio-0.1.1.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - main [MainThread]: End processing [typorio]: success
+[2024-06-03 11:52:08] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/matplotlibapi-3.1.0.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - processPackages [MatplotLibAPI]: Remove: archive file [/home/abi/fetcher/tmp/matplotlibapi-3.1.1.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - processPackages [scalebar]: Remove: archive file [/home/abi/fetcher/tmp/scalebar-0.3.1.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - main [MainThread]: End processing [MatplotLibAPI]: success
+[2024-06-03 11:52:08] INFO root fetch - processPackages [PermutiveAPI]: Remove: archive file [/home/abi/fetcher/tmp/permutiveapi-3.5.2.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - processPackages [scalebar]: Remove: archive file [/home/abi/fetcher/tmp/scalebar-0.4.0.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - processPackages [PermutiveAPI]: Remove: archive file [/home/abi/fetcher/tmp/permutiveapi-3.5.3.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - main [MainThread]: End processing [scalebar]: success
+[2024-06-03 11:52:08] INFO root fetch - main [MainThread]: End processing [PermutiveAPI]: success
+[2024-06-03 11:52:08] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-06-03 11:52:08] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.8.0.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.8.1.tar.gz]
+[2024-06-03 11:52:08] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-06-03 11:52:09] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 11:52:09] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 11:52:09] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 11:52:10] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/06/7f/59e2c416b88e0209a5e59626d20ce03c7ac0982fd7d861eff6ee314c9c81/venv-modulefile-0.1.7.tar.gz
+[2024-06-03 11:52:11] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2024-06-03 11:52:11] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.1.6.tar.gz tmp/venv-modulefile-0.1.7.tar.gz --markdown 20240603/v/venv-modulefile/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 11:52:12] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.6.tar.gz]
+[2024-06-03 11:52:12] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.7.tar.gz]
+[2024-06-03 11:52:12] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2024-06-03 11:52:12] INFO root fetch - main [MainThread]: Store serial: [23499885]
