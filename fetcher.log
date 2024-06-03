@@ -11497,3 +11497,78 @@ EOFError: EOF read where object expected
 [2024-06-03 11:21:23] INFO root fetch - processPackages [ampel-ztf]: Remove: archive file [/home/abi/fetcher/tmp/ampel_ztf-0.9.1a0.tar.gz]
 [2024-06-03 11:21:23] INFO root fetch - main [MainThread]: End processing [ampel-ztf]: success
 [2024-06-03 11:21:23] INFO root fetch - main [MainThread]: Store serial: [23499409]
+[2024-06-03 11:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499409]
+[2024-06-03 11:23:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 11:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: binomialbias
+[2024-06-03 11:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hddm-s
+[2024-06-03 11:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geodeapp-back
+[2024-06-03 11:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encapsia-api
+[2024-06-03 11:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: STAIR-tools
+[2024-06-03 11:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomicshop
+[2024-06-03 11:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: etos-environment-provider
+[2024-06-03 11:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bwalign
+[2024-06-03 11:23:33] INFO root fetch - processPackages [hddm-s]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-06-03 11:23:33] INFO root fetch - processPackages [geodeapp-back]: New version: [0.0.1rc1] Old Version: [0.0.0]
+[2024-06-03 11:23:33] INFO root fetch - processPackages [bwalign]: New version: [1.3.5] Old Version: [1.2.5]
+[2024-06-03 11:23:33] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 11:23:33] INFO root fetch - processPackages [encapsia-api]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-06-03 11:23:33] INFO root fetch - processPackages [etos-environment-provider]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-06-03 11:23:33] INFO root fetch - processPackages [STAIR-tools]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-06-03 11:23:33] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/72/ad/42b9b1d25c52979bf47c978022a9664eda88bb72cb993608d1f1d3224b1c/hddm_s-1.1.1.tar.gz
+[2024-06-03 11:23:33] INFO root fetch - processPackages [geodeapp-back]: Downloading https://files.pythonhosted.org/packages/c1/df/d8b181d2a88f2a2b184b7d4bac8acb96c6e5e246bdd26338ed10a88a3403/geodeapp_back-0.0.0.tar.gz
+[2024-06-03 11:23:33] INFO root fetch - processPackages [binomialbias]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-06-03 11:23:33] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/58/e1/dbcbe18d761a4e383c6389ac62ecd49790c4ca5e88f21f20ee11a3db7516/bwalign-1.2.5.tar.gz
+[2024-06-03 11:23:33] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 11:23:33] INFO root fetch - processPackages [encapsia-api]: Downloading https://files.pythonhosted.org/packages/c3/ec/036a83dcfbf3cac9736e757e6816cb3bd44cf8e6a7666d7d96c2c6c816ec/encapsia_api-0.4.6.tar.gz
+[2024-06-03 11:23:33] INFO root fetch - processPackages [binomialbias]: Downloading https://files.pythonhosted.org/packages/99/fc/29f12c1458031117bb505c062aa9cc5883f015ae372da12c8090ffa5592f/binomialbias-1.3.2.tar.gz
+[2024-06-03 11:23:33] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/c2/b7/c48e86381c0b38f8e9ed72160aa92f1159a85819ba2846457845f6f15877/STAIR-tools-1.2.8.tar.gz
+[2024-06-03 11:23:33] INFO root fetch - processPackages [geodeapp-back]: Downloading https://files.pythonhosted.org/packages/9a/d8/e3452ee33b3e8f1e9bb7600cfdc1a6019ebc198e1236cc5a23e1f6e5f344/geodeapp_back-0.0.1rc1.tar.gz
+[2024-06-03 11:23:33] INFO root fetch - processPackages [etos-environment-provider]: Downloading https://files.pythonhosted.org/packages/6b/5a/b4f001c30844a5f36c1984505e374d6d5650adb43eb11fd771b6540b7cb4/etos_environment_provider-4.2.0.tar.gz
+[2024-06-03 11:23:34] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 11:23:34] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/28/e5/0d7149153e5a788a575f8803c03537e4e7f68131f035335efb5d7a1b861f/bwalign-1.3.5.tar.gz
+[2024-06-03 11:23:34] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/dc/47/13fead7a72753e9b248cc522f7821971ff9963d46427aada8e71e700423e/hddm_s-1.1.2.tar.gz
+[2024-06-03 11:23:34] INFO root fetch - processPackages [geodeapp-back]: executing diffoscope
+[2024-06-03 11:23:34] INFO root fetch - processPackages [geodeapp-back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodeapp_back-0.0.0.tar.gz tmp/geodeapp_back-0.0.1rc1.tar.gz --markdown 20240603/g/geodeapp-back/0.0.0-0.0.1rc1/README.md --exclude *.pyd
+[2024-06-03 11:23:34] INFO root fetch - processPackages [encapsia-api]: Downloading https://files.pythonhosted.org/packages/18/1b/09f771d6e1fcce31c654d968ac2b4d77bf05972d20f553afdb4141451b52/encapsia_api-0.4.7.tar.gz
+[2024-06-03 11:23:34] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 11:23:34] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.2.5.tar.gz tmp/bwalign-1.3.5.tar.gz --markdown 20240603/b/bwalign/1.2.5-1.3.5/README.md --exclude *.pyd
+[2024-06-03 11:23:34] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 11:23:34] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 11:23:34] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-06-03 11:23:34] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.1.1.tar.gz tmp/hddm_s-1.1.2.tar.gz --markdown 20240603/h/hddm-s/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-06-03 11:23:34] INFO root fetch - processPackages [binomialbias]: Downloading https://files.pythonhosted.org/packages/77/3d/ad5c2cdc2a90ab7062d37727521565feca3637e0bfea2896835564246f8f/binomialbias-1.3.3.tar.gz
+[2024-06-03 11:23:34] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/59/ac/9c98046cb43bb5e4d12fac72eb7fd373b5319c7e6e233849de8b56605780/STAIR-tools-1.2.9.tar.gz
+[2024-06-03 11:23:34] INFO root fetch - processPackages [etos-environment-provider]: Downloading https://files.pythonhosted.org/packages/0d/f0/7f3104aef35c297745252ecc79748fc4dc6a7f782f6e45352426f5ee02c1/etos_environment_provider-4.3.0.tar.gz
+[2024-06-03 11:23:34] INFO root fetch - processPackages [binomialbias]: executing diffoscope
+[2024-06-03 11:23:34] INFO root fetch - processPackages [binomialbias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binomialbias-1.3.2.tar.gz tmp/binomialbias-1.3.3.tar.gz --markdown 20240603/b/binomialbias/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-06-03 11:23:34] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-06-03 11:23:34] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.2.8.tar.gz tmp/STAIR-tools-1.2.9.tar.gz --markdown 20240603/S/STAIR-tools/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-06-03 11:23:34] INFO root fetch - processPackages [encapsia-api]: executing diffoscope
+[2024-06-03 11:23:34] INFO root fetch - processPackages [encapsia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encapsia_api-0.4.6.tar.gz tmp/encapsia_api-0.4.7.tar.gz --markdown 20240603/e/encapsia-api/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-06-03 11:23:34] INFO root fetch - processPackages [etos-environment-provider]: executing diffoscope
+[2024-06-03 11:23:34] INFO root fetch - processPackages [etos-environment-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_environment_provider-4.2.0.tar.gz tmp/etos_environment_provider-4.3.0.tar.gz --markdown 20240603/e/etos-environment-provider/4.2.0-4.3.0/README.md --exclude *.pyd
+[2024-06-03 11:23:35] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.1.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.1.2.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-06-03 11:23:35] INFO root fetch - processPackages [geodeapp-back]: Remove: archive file [/home/abi/fetcher/tmp/geodeapp_back-0.0.0.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - processPackages [geodeapp-back]: Remove: archive file [/home/abi/fetcher/tmp/geodeapp_back-0.0.1rc1.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [geodeapp-back]: success
+[2024-06-03 11:23:35] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.2.5.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.3.5.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 11:23:35] INFO root fetch - processPackages [binomialbias]: Remove: archive file [/home/abi/fetcher/tmp/binomialbias-1.3.2.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - processPackages [binomialbias]: Remove: archive file [/home/abi/fetcher/tmp/binomialbias-1.3.3.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [binomialbias]: success
+[2024-06-03 11:23:35] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.2.8.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.2.9.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-06-03 11:23:35] INFO root fetch - processPackages [encapsia-api]: Remove: archive file [/home/abi/fetcher/tmp/encapsia_api-0.4.6.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - processPackages [encapsia-api]: Remove: archive file [/home/abi/fetcher/tmp/encapsia_api-0.4.7.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [encapsia-api]: success
+[2024-06-03 11:23:35] INFO root fetch - processPackages [etos-environment-provider]: Remove: archive file [/home/abi/fetcher/tmp/etos_environment_provider-4.2.0.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - processPackages [etos-environment-provider]: Remove: archive file [/home/abi/fetcher/tmp/etos_environment_provider-4.3.0.tar.gz]
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [etos-environment-provider]: success
+[2024-06-03 11:23:35] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 11:23:35] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 11:23:35] INFO root fetch - main [MainThread]: Store serial: [23499438]
