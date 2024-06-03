@@ -3152,3 +3152,33 @@ EOFError: EOF read where object expected
 [2024-06-03 03:49:22] WARNING root fetch - processPackages [p-template-generator]: Skipping package: exceeds size limit 56543627>=10485760
 [2024-06-03 03:49:22] INFO root fetch - main [MainThread]: End processing [p-template-generator] error
 [2024-06-03 03:49:22] INFO root fetch - main [MainThread]: Store serial: [23495491]
+[2024-06-03 03:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495491]
+[2024-06-03 03:51:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 03:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ooo-dev-tools
+[2024-06-03 03:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datumaro
+[2024-06-03 03:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jieba3
+[2024-06-03 03:51:30] INFO root fetch - processPackages [jieba3]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 03:51:30] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-06-03 03:51:30] INFO root fetch - processPackages [datumaro]: New version: [1.7.0rc1] Old Version: [1.6.1rc3]
+[2024-06-03 03:51:30] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2024-06-03 03:51:30] INFO root fetch - processPackages [jieba3]: Downloading https://files.pythonhosted.org/packages/0e/bd/78f3b214c8695b29e463989441ca085e5173abe69cbef8f6bc8c7195bd0a/jieba3-1.0.0.tar.gz
+[2024-06-03 03:51:30] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/41/26/b0d20bfbcf8a0d433f1734964072e2e5a3b672c5151ca7bfb4a95608796d/datumaro-1.6.1rc3.tar.gz
+[2024-06-03 03:51:31] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/03/16/fd3ae053c9d7585f594551aff0065ab63679314164a3eb77eae93ffaaa2e/datumaro-1.7.0rc1.tar.gz
+[2024-06-03 03:51:31] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2024-06-03 03:51:31] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2024-06-03 03:51:31] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.6.1rc3.tar.gz tmp/datumaro-1.7.0rc1.tar.gz --markdown 20240603/d/datumaro/1.6.1rc3-1.7.0rc1/README.md --exclude *.pyd
+[2024-06-03 03:51:31] INFO root fetch - processPackages [jieba3]: Downloading https://files.pythonhosted.org/packages/09/b5/01cd93ccfb10de7d7541b93f18e28ecfefb082f56021ebdd193475fc3dda/jieba3-1.0.1-py3-none-any.whl
+[2024-06-03 03:51:31] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2024-06-03 03:51:31] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20240603/o/ooo-dev-tools/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-06-03 03:51:34] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc3.tar.gz]
+[2024-06-03 03:51:34] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.7.0rc1.tar.gz]
+[2024-06-03 03:51:34] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2024-06-03 03:51:34] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2024-06-03 03:51:34] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2024-06-03 03:51:34] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2024-06-03 03:51:35] INFO root fetch - processPackages [jieba3]: executing diffoscope
+[2024-06-03 03:51:35] INFO root fetch - processPackages [jieba3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jieba3-1.0.0.tar.gz tmp/jieba3-1.0.1-py3-none-any.whl.zip --markdown 20240603/j/jieba3/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 03:51:51] INFO root fetch - processPackages [jieba3]: Remove: archive file [/home/abi/fetcher/tmp/jieba3-1.0.0.tar.gz]
+[2024-06-03 03:51:51] INFO root fetch - processPackages [jieba3]: Remove: archive file [/home/abi/fetcher/tmp/jieba3-1.0.1-py3-none-any.whl.zip]
+[2024-06-03 03:51:51] INFO root fetch - main [MainThread]: End processing [jieba3]: success
+[2024-06-03 03:51:51] INFO root fetch - main [MainThread]: Store serial: [23495507]
