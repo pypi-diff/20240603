@@ -17277,3 +17277,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:53:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240603113811.tar.gz]
 [2024-06-03 13:53:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-06-03 13:53:21] INFO root fetch - main [MainThread]: Store serial: [23501705]
+[2024-06-03 13:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501705]
+[2024-06-03 13:55:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-content-editor
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Peliqan
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-automation
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-cloudphone
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-cloudfw
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylc-cli
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vss-tools
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyacad
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cam-manager
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ros-cdk-eais
+[2024-06-03 13:55:30] INFO root fetch - processPackages [cam-manager]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [python-automation]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [Peliqan]: New version: [2.0.0] Old Version: [1.7.0]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ros-cdk-cloudfw]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [vss-tools]: New version: [5.0.0.dev0] Old Version: [4.2rc0]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [pyacad]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [pylc-cli]: New version: [0.3] Old Version: [0.2.1]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ros-cdk-cloudphone]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [ros-cdk-eais]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [django-content-editor]: New version: [7.0a4] Old Version: [7.0a3]
+[2024-06-03 13:55:30] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/31/6f/17bb7a482834f1d001dc9e05fe57d92d519f913fc360171b6115fd35a0b3/python-automation-0.0.7.tar.gz
+[2024-06-03 13:55:30] INFO root fetch - processPackages [cam-manager]: Downloading https://files.pythonhosted.org/packages/55/cb/64cea7c68f8d8dde6401892ebcf5eec7f23e86276c5dadce800282dd1e4d/cam_manager-0.2.2.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [pyacad]: Downloading https://files.pythonhosted.org/packages/f1/aa/155451c24b2bc5919d17679b98e31ea4ba8c2d06ff2796fa8314e665a484/pyacad-0.0.1.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/9f/2e/90746b9aac214f468e9137704d8d47af9c91c4cf5eaf11145c42fe705baf/ros-cdk-cloudfw-1.0.8.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/72/10/921bda5a7af2e2d5021a2d57bf18bf36c031ae051d73ac81c24419ccae4f/Peliqan-1.7.0.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [vss-tools]: Downloading https://files.pythonhosted.org/packages/6c/51/6efddcfb89eaf2db6c0e250ca8965bffc066242db0a064f22e7b55bf2c80/vss_tools-4.2rc0.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [pylc-cli]: Downloading https://files.pythonhosted.org/packages/6a/08/3e89d70081b40c765f4a21fa74b41f5c14c979b24737441d2393537eb2a1/pylc_cli-0.2.1.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-eais]: Downloading https://files.pythonhosted.org/packages/48/8b/e2f88c5d338592c02f3f0dba1aecb7ae8115e90a20512be2f92505fb7d42/ros-cdk-eais-1.0.24.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-cloudphone]: Downloading https://files.pythonhosted.org/packages/c3/eb/ab038759d335f534fbc0189536f96ab4fe8467adc14768be58ee1cc27492/ros-cdk-cloudphone-1.0.8.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/20/62/dcd586e99e69039f1632bfdeb6bd16c5247334921421b6e7624a76fd6aa4/django_content_editor-7.0a3.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [cam-manager]: Downloading https://files.pythonhosted.org/packages/0f/05/adf72ede5a22c68d1f31cc2fce7df413f7be2fdee358b73b75298605a6e6/cam_manager-0.2.3.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/c1/bb/8f2e415b8e7df6efa6b74f25560ccae27e556b070aa17ff3a44ae13a79b3/python-automation-0.0.8.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [cam-manager]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [cam-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cam_manager-0.2.2.tar.gz tmp/cam_manager-0.2.3.tar.gz --markdown 20240603/c/cam-manager/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-06-03 13:55:31] INFO root fetch - processPackages [python-automation]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [python-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-0.0.7.tar.gz tmp/python-automation-0.0.8.tar.gz --markdown 20240603/p/python-automation/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 13:55:31] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/6b/d0/78357102edd3a18ab57e72e4f614e1043dfa310a3cce3972282369c21487/Peliqan-2.0.0.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [pyacad]: Downloading https://files.pythonhosted.org/packages/48/51/be52e7cd479b8ce0ad0be8824847ce4fcf794ec378ce56ac5ed764b774c8/pyacad-0.0.2.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [vss-tools]: Downloading https://files.pythonhosted.org/packages/12/b1/f48179bd133c371248d12208562f637f7c7f596376fa4bcc86a9b081d11b/vss_tools-5.0.0.dev0.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [pylc-cli]: Downloading https://files.pythonhosted.org/packages/0c/f5/11f26dd64c7dcf4dd74d3f590ce1dcc0336c0907f7a2e9062b5bbba740a1/pylc_cli-0.3.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-eais]: Downloading https://files.pythonhosted.org/packages/72/d6/04e1dc2af43afe0e19f0fb5bd8b0dad6092884b6c2e87176f16f37e8166b/ros-cdk-eais-1.0.25.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/f7/34/8df63f872fb76512236649b1a62b603954f990dae598300d87bed2bb4b76/django_content_editor-7.0a4.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-cloudphone]: Downloading https://files.pythonhosted.org/packages/2f/fd/4604e0a4e603c76b8419f9e5c9c4a06b2d424551cfdcdcde41b01be2da5c/ros-cdk-cloudphone-1.0.9.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-cloudfw]: Downloading https://files.pythonhosted.org/packages/28/cf/919a32e2a5fab8e5399647618cd1316ddbd5451996c8a30cf2cdd81a2bcd/ros-cdk-cloudfw-1.0.9.tar.gz
+[2024-06-03 13:55:31] INFO root fetch - processPackages [Peliqan]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [Peliqan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Peliqan-1.7.0.tar.gz tmp/Peliqan-2.0.0.tar.gz --markdown 20240603/P/Peliqan/1.7.0-2.0.0/README.md --exclude *.pyd
+[2024-06-03 13:55:31] INFO root fetch - processPackages [vss-tools]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [vss-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vss_tools-4.2rc0.tar.gz tmp/vss_tools-5.0.0.dev0.tar.gz --markdown 20240603/v/vss-tools/4.2rc0-5.0.0.dev0/README.md --exclude *.pyd
+[2024-06-03 13:55:31] INFO root fetch - processPackages [django-content-editor]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [django-content-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_content_editor-7.0a3.tar.gz tmp/django_content_editor-7.0a4.tar.gz --markdown 20240603/d/django-content-editor/7.0a3-7.0a4/README.md --exclude *.pyd
+[2024-06-03 13:55:31] INFO root fetch - processPackages [pyacad]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [pyacad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacad-0.0.1.tar.gz tmp/pyacad-0.0.2.tar.gz --markdown 20240603/p/pyacad/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 13:55:31] INFO root fetch - processPackages [pylc-cli]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [pylc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylc_cli-0.2.1.tar.gz tmp/pylc_cli-0.3.tar.gz --markdown 20240603/p/pylc-cli/0.2.1-0.3/README.md --exclude *.pyd
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-cloudfw]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-cloudfw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudfw-1.0.8.tar.gz tmp/ros-cdk-cloudfw-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cloudfw/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-eais]: executing diffoscope
+[2024-06-03 13:55:31] INFO root fetch - processPackages [ros-cdk-eais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-eais-1.0.24.tar.gz tmp/ros-cdk-eais-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-eais/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:55:32] INFO root fetch - processPackages [ros-cdk-cloudphone]: executing diffoscope
+[2024-06-03 13:55:32] INFO root fetch - processPackages [ros-cdk-cloudphone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cloudphone-1.0.8.tar.gz tmp/ros-cdk-cloudphone-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cloudphone/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:55:32] INFO root fetch - processPackages [cam-manager]: Remove: archive file [/home/abi/fetcher/tmp/cam_manager-0.2.2.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [cam-manager]: Remove: archive file [/home/abi/fetcher/tmp/cam_manager-0.2.3.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [cam-manager]: Start processing: hammy
+[2024-06-03 13:55:32] INFO root fetch - main [MainThread]: End processing [cam-manager]: success
+[2024-06-03 13:55:32] WARNING root fetch - processPackages [hammy]: Skipping, unable to determine old version
+[2024-06-03 13:55:32] INFO root fetch - processPackages [hammy]: Start processing: flashcam
+[2024-06-03 13:55:32] INFO root fetch - main [MainThread]: End processing [hammy] error
+[2024-06-03 13:55:32] INFO root fetch - processPackages [flashcam]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.7.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.8.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [python-automation]: Start processing: pulumi-digitalocean
+[2024-06-03 13:55:32] INFO root fetch - main [MainThread]: End processing [python-automation]: success
+[2024-06-03 13:55:32] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/40/50/fad8ad3850201a3f4dca71fc722390820cc88a2bd5e153c61941e98d0bb1/flashcam-1.9.2.tar.gz
+[2024-06-03 13:55:32] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.7.0.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-2.0.0.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [Peliqan]: Start processing: TiRank
+[2024-06-03 13:55:32] INFO root fetch - main [MainThread]: End processing [Peliqan]: success
+[2024-06-03 13:55:32] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [TiRank]: New version: [0.1.4] Old Version: [0.1]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [TiRank]: Downloading https://files.pythonhosted.org/packages/52/67/380b1b9d7d741bca177e5841f881fbdfb831bc02534b165c9e50a8707b89/TiRank-0.1.tar.gz
+[2024-06-03 13:55:32] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.24.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [ros-cdk-eais]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eais-1.0.25.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [ros-cdk-eais]: Start processing: pyiArduinoI2Cdsl
+[2024-06-03 13:55:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-eais]: success
+[2024-06-03 13:55:32] INFO root fetch - processPackages [vss-tools]: Remove: archive file [/home/abi/fetcher/tmp/vss_tools-4.2rc0.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [vss-tools]: Remove: archive file [/home/abi/fetcher/tmp/vss_tools-5.0.0.dev0.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - main [MainThread]: End processing [vss-tools]: success
+[2024-06-03 13:55:32] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/71/14/b3de84b7038e7f199e8d5ac0b54fef8c88161a91e1685ef3f3b0d367e81c/flashcam-1.9.3.tar.gz
+[2024-06-03 13:55:32] INFO root fetch - processPackages [pylc-cli]: Remove: archive file [/home/abi/fetcher/tmp/pylc_cli-0.2.1.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [pylc-cli]: Remove: archive file [/home/abi/fetcher/tmp/pylc_cli-0.3.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - main [MainThread]: End processing [pylc-cli]: success
+[2024-06-03 13:55:32] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-06-03 13:55:32] INFO root fetch - processPackages [pyacad]: Remove: archive file [/home/abi/fetcher/tmp/pyacad-0.0.1.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - processPackages [pyacad]: Remove: archive file [/home/abi/fetcher/tmp/pyacad-0.0.2.tar.gz]
+[2024-06-03 13:55:32] INFO root fetch - main [MainThread]: End processing [pyacad]: success
+[2024-06-03 13:55:33] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.8.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - processPackages [ros-cdk-cloudfw]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudfw-1.0.9.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudfw]: success
+[2024-06-03 13:55:33] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-06-03 13:55:33] INFO root fetch - processPackages [ros-cdk-cloudphone]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudphone-1.0.8.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - processPackages [ros-cdk-cloudphone]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cloudphone-1.0.9.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-cloudphone]: success
+[2024-06-03 13:55:33] INFO root fetch - processPackages [TiRank]: Downloading https://files.pythonhosted.org/packages/13/ab/11d5fddbfdb8c9fd83463d67b6e4adca0b29a33e0834b73286ff53550009/tirank-0.1.4.tar.gz
+[2024-06-03 13:55:33] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-06-03 13:55:33] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.9.2.tar.gz tmp/flashcam-1.9.3.tar.gz --markdown 20240603/f/flashcam/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-06-03 13:55:33] INFO root fetch - processPackages [TiRank]: executing diffoscope
+[2024-06-03 13:55:33] INFO root fetch - processPackages [TiRank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TiRank-0.1.tar.gz tmp/tirank-0.1.4.tar.gz --markdown 20240603/T/TiRank/0.1-0.1.4/README.md --exclude *.pyd
+[2024-06-03 13:55:33] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Downloading https://files.pythonhosted.org/packages/a2/e8/68c0fd5160a4264f687943b0620fa06353490014a2c0af14861a4b5e603f/pyiArduinoI2Cdsl-1.0.0.tar.gz
+[2024-06-03 13:55:33] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-06-03 13:55:33] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-06-03 13:55:33] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240603/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-06-03 13:55:33] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-7.0a3.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-7.0a4.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - main [MainThread]: End processing [django-content-editor]: success
+[2024-06-03 13:55:33] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Downloading https://files.pythonhosted.org/packages/77/9b/92c23456dc3f360ccd66cb0586f7442b39b959d8c17ef96b9475f062f0e1/pyiArduinoI2Cdsl-1.0.2.tar.gz
+[2024-06-03 13:55:33] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: executing diffoscope
+[2024-06-03 13:55:33] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cdsl-1.0.0.tar.gz tmp/pyiArduinoI2Cdsl-1.0.2.tar.gz --markdown 20240603/p/pyiArduinoI2Cdsl/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-06-03 13:55:33] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.2.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.3.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-06-03 13:55:33] INFO root fetch - processPackages [TiRank]: Remove: archive file [/home/abi/fetcher/tmp/TiRank-0.1.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - processPackages [TiRank]: Remove: archive file [/home/abi/fetcher/tmp/tirank-0.1.4.tar.gz]
+[2024-06-03 13:55:33] INFO root fetch - main [MainThread]: End processing [TiRank]: success
+[2024-06-03 13:55:34] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-06-03 13:55:34] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-06-03 13:55:34] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-06-03 13:55:34] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cdsl-1.0.0.tar.gz]
+[2024-06-03 13:55:34] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cdsl-1.0.2.tar.gz]
+[2024-06-03 13:55:34] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cdsl]: success
+[2024-06-03 13:55:34] INFO root fetch - main [MainThread]: Store serial: [23501747]
