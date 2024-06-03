@@ -6662,3 +6662,79 @@ EOFError: EOF read where object expected
 [2024-06-03 07:31:35] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/indonesia_latestearthquake_rx168059-2024.0.0.2.tar.gz]
 [2024-06-03 07:31:35] INFO root fetch - main [MainThread]: End processing [indonesia-latestearthquake-Rx168059]: success
 [2024-06-03 07:31:35] INFO root fetch - main [MainThread]: Store serial: [23496999]
+[2024-06-03 07:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496999]
+[2024-06-03 07:33:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blue-plugin
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: microformer-mgm
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blue-plugin
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fudstop
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-dashboard
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blue-plugin
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudforet-console-api-v2
+[2024-06-03 07:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: staffspy
+[2024-06-03 07:33:43] INFO root fetch - processPackages [staffspy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 07:33:43] INFO root fetch - processPackages [spaceone-dashboard]: New version: [2.0.dev9] Old Version: [2.0.dev8]
+[2024-06-03 07:33:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-06-03 07:33:44] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.6.3.0] Old Version: [2024.6.2.1]
+[2024-06-03 07:33:44] INFO root fetch - processPackages [fudstop]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: New version: [3.65.1] Old Version: [3.64.1]
+[2024-06-03 07:33:44] INFO root fetch - processPackages [microformer-mgm]: New version: [0.4.1] Old Version: [0.1.3]
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: New version: [3.65.1] Old Version: [3.64.1]
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: New version: [3.65.1] Old Version: [3.64.1]
+[2024-06-03 07:33:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [staffspy]: Downloading https://files.pythonhosted.org/packages/6f/0e/ed5c5c336bc633d1fd08714f1fc8e06190d470419c2e9f8252cec6230953/staffspy-0.1.1.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/a8/0e/73a4c4cbab54397d06788ddb2aa87ee8563aefcd2ff32b5d32fa8c03dd30/spaceone-dashboard-2.0.dev8.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/9f/91/4a78ac59a5b7a96803ed426f9a3ef1cc998d3b3480799210955f7452e805/fudstop-2.9.2.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/d9/34/d775fea4c2e4be1303d0158c30e120f77a71a9f35a973354f568eddb5d25/crazy_thursday-2024.6.2.1.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [microformer-mgm]: Downloading https://files.pythonhosted.org/packages/7f/14/9e1eade2baf20fadc2314988a0fe758879d3818e652f531ca57cac63a8c5/microformer-mgm-0.1.3.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b4/11/f61ced6f70f63e0a0ee580347c15e927b2d391a1a282086d3c63e6575389/blue_plugin-3.64.1.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b4/11/f61ced6f70f63e0a0ee580347c15e927b2d391a1a282086d3c63e6575389/blue_plugin-3.64.1.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b4/11/f61ced6f70f63e0a0ee580347c15e927b2d391a1a282086d3c63e6575389/blue_plugin-3.64.1.tar.gz
+[2024-06-03 07:33:44] WARNING root fetch - processPackages [microformer-mgm]: Skipping package: exceeds size limit 28051976>=10485760
+[2024-06-03 07:33:44] INFO root fetch - main [MainThread]: End processing [microformer-mgm] error
+[2024-06-03 07:33:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/a4/9e/2f82e9b21c9deb3959fb070b54417f52747882e58b48155a6ccd32b1fedf/spaceone-dashboard-2.0.dev9.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [staffspy]: Downloading https://files.pythonhosted.org/packages/c7/bb/fb802199b9b1b25e2ac01be410b1b506d77be528779bebceeacd37e9f14e/staffspy-0.1.2.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [spaceone-dashboard]: executing diffoscope
+[2024-06-03 07:33:44] INFO root fetch - processPackages [spaceone-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-dashboard-2.0.dev8.tar.gz tmp/spaceone-dashboard-2.0.dev9.tar.gz --markdown 20240603/s/spaceone-dashboard/2.0.dev8-2.0.dev9/README.md --exclude *.pyd
+[2024-06-03 07:33:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-06-03 07:33:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240603/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-06-03 07:33:44] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/40/0c/9f5ac6ca6c2ea00a08b8697bdb74a08bd3bf15f8e3a0c236f321572cae92/fudstop-2.9.3.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/59/bc/a41225de54a767917f16d9e54533c0079cea3167510d01227c3b221e50dd/crazy_thursday-2024.6.3.0.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [staffspy]: executing diffoscope
+[2024-06-03 07:33:44] INFO root fetch - processPackages [staffspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staffspy-0.1.1.tar.gz tmp/staffspy-0.1.2.tar.gz --markdown 20240603/s/staffspy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/a9/d1/1aff03f7f41ebe1144c27dabe18fecdcac821258dbfa3b6224f9b1f7ac7f/blue_plugin-3.65.1.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/a9/d1/1aff03f7f41ebe1144c27dabe18fecdcac821258dbfa3b6224f9b1f7ac7f/blue_plugin-3.65.1.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/a9/d1/1aff03f7f41ebe1144c27dabe18fecdcac821258dbfa3b6224f9b1f7ac7f/blue_plugin-3.65.1.tar.gz
+[2024-06-03 07:33:44] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-06-03 07:33:44] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.6.2.1.tar.gz tmp/crazy_thursday-2024.6.3.0.tar.gz --markdown 20240603/c/crazy-thursday/2024.6.2.1-2024.6.3.0/README.md --exclude *.pyd
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.64.1.tar.gz tmp/blue_plugin-3.65.1.tar.gz --markdown 20240603/b/blue-plugin/3.64.1-3.65.1/README.md --exclude *.pyd
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.64.1.tar.gz tmp/blue_plugin-3.65.1.tar.gz --markdown 20240603/b/blue-plugin/3.64.1-3.65.1/README.md --exclude *.pyd
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-06-03 07:33:44] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.64.1.tar.gz tmp/blue_plugin-3.65.1.tar.gz --markdown 20240603/b/blue-plugin/3.64.1-3.65.1/README.md --exclude *.pyd
+[2024-06-03 07:33:44] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-06-03 07:33:44] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.9.2.tar.gz tmp/fudstop-2.9.3.tar.gz --markdown 20240603/f/fudstop/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-06-03 07:33:45] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-2.0.dev8.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-2.0.dev9.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - main [MainThread]: End processing [spaceone-dashboard]: success
+[2024-06-03 07:33:45] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-06-03 07:33:45] INFO root fetch - processPackages [staffspy]: Remove: archive file [/home/abi/fetcher/tmp/staffspy-0.1.1.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - processPackages [staffspy]: Remove: archive file [/home/abi/fetcher/tmp/staffspy-0.1.2.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - main [MainThread]: End processing [staffspy]: success
+[2024-06-03 07:33:45] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.64.1.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.65.1.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-06-03 07:33:45] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-06-03 07:33:45] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.6.2.1.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.6.3.0.tar.gz]
+[2024-06-03 07:33:45] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-06-03 07:33:45] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-06-03 07:33:46] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.9.2.tar.gz]
+[2024-06-03 07:33:46] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.9.3.tar.gz]
+[2024-06-03 07:33:46] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-06-03 07:33:46] INFO root fetch - main [MainThread]: Store serial: [23497026]
