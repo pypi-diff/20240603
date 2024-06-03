@@ -9939,3 +9939,24 @@ EOFError: EOF read where object expected
 [2024-06-03 10:23:11] INFO root fetch - main [MainThread]: End processing [glayout]: success
 [2024-06-03 10:23:11] INFO root fetch - main [MainThread]: End processing [aixhello]: success
 [2024-06-03 10:23:11] INFO root fetch - main [MainThread]: Store serial: [23498431]
+[2024-06-03 10:25:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498431]
+[2024-06-03 10:25:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-06-03 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perun.proxygui
+[2024-06-03 10:25:20] INFO root fetch - processPackages [music-kraken]: New version: [2.0.1.dev3] Old Version: [2.0.1.dev18]
+[2024-06-03 10:25:20] INFO root fetch - processPackages [perun.proxygui]: New version: [7.2.1] Old Version: [7.2.0]
+[2024-06-03 10:25:20] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/35/24/be68446005f07713fda734609bc72924eea9b3f13f7467332e9bfe92a9bc/music_kraken-2.0.1.dev18.tar.gz
+[2024-06-03 10:25:20] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/9a/20/c2492eaa4ef2ad9b315edb3658b7a5173440454f7874bccb8dff5bfe8cbf/perun.proxygui-7.2.0.tar.gz
+[2024-06-03 10:25:21] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/10/ee/df9d65bd68e541f6c1ea77fbe2dad97f580403a916b0c67c7b7de8a20c4b/music_kraken-2.0.1.dev3.tar.gz
+[2024-06-03 10:25:21] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-06-03 10:25:21] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-2.0.1.dev18.tar.gz tmp/music_kraken-2.0.1.dev3.tar.gz --markdown 20240603/m/music-kraken/2.0.1.dev18-2.0.1.dev3/README.md --exclude *.pyd
+[2024-06-03 10:25:21] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/e7/09/d6bcc08e5f9038e7ddfb7f9cae52a87c496f130b542a79ae66becb682779/perun.proxygui-7.2.1.tar.gz
+[2024-06-03 10:25:21] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-2.0.1.dev18.tar.gz]
+[2024-06-03 10:25:21] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-2.0.1.dev3.tar.gz]
+[2024-06-03 10:25:21] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-06-03 10:25:22] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-06-03 10:25:22] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-7.2.0.tar.gz tmp/perun.proxygui-7.2.1.tar.gz --markdown 20240603/p/perun.proxygui/7.2.0-7.2.1/README.md --exclude *.pyd
+[2024-06-03 10:25:25] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.2.0.tar.gz]
+[2024-06-03 10:25:25] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.2.1.tar.gz]
+[2024-06-03 10:25:25] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-06-03 10:25:25] INFO root fetch - main [MainThread]: Store serial: [23498439]
