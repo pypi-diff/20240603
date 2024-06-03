@@ -21982,3 +21982,36 @@ EOFError: EOF read where object expected
 [2024-06-03 15:43:27] INFO root fetch - processPackages [image-functions]: Remove: archive file [/home/abi/fetcher/tmp/image_functions-0.1.3.tar.gz]
 [2024-06-03 15:43:27] INFO root fetch - main [MainThread]: End processing [image-functions]: success
 [2024-06-03 15:43:27] INFO root fetch - main [MainThread]: Store serial: [23503537]
+[2024-06-03 15:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503537]
+[2024-06-03 15:45:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-apscheduler4
+[2024-06-03 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modrinth-downloader
+[2024-06-03 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenGeode-Geosciences
+[2024-06-03 15:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testcore
+[2024-06-03 15:45:36] WARNING root fetch - processPackages [testcore]: Skipping, unable to determine old version
+[2024-06-03 15:45:36] INFO root fetch - processPackages [modrinth-downloader]: New version: [0.9.2] Old Version: [0.9]
+[2024-06-03 15:45:36] INFO root fetch - main [MainThread]: End processing [testcore] error
+[2024-06-03 15:45:36] INFO root fetch - processPackages [fastapi-apscheduler4]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 15:45:36] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.7.1rc1] Old Version: [7.7.0rc1]
+[2024-06-03 15:45:37] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/f0/6a/9a92ad0819bf16d9143c11155fc68b7f3bb893019843165baaac1da6db7a/modrinth_downloader-0.9.tar.gz
+[2024-06-03 15:45:37] INFO root fetch - processPackages [fastapi-apscheduler4]: Downloading https://files.pythonhosted.org/packages/e0/d4/14f3dff15753408044837c8ade7da59adf474a10dc80e7a767e254c7c0a5/fastapi_apscheduler4-0.0.1.tar.gz
+[2024-06-03 15:45:37] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/50/03/4e9260b6626bb7f7db93a721ab68e5ee754ee1132dc1b3b147e67708b3d5/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 15:45:37] INFO root fetch - processPackages [modrinth-downloader]: Downloading https://files.pythonhosted.org/packages/11/8f/4dce21a38ef4f89c6b92b6aa2d739451f26f82668dcfee65e7d686af7602/modrinth_downloader-0.9.2.tar.gz
+[2024-06-03 15:45:37] INFO root fetch - processPackages [modrinth-downloader]: executing diffoscope
+[2024-06-03 15:45:37] INFO root fetch - processPackages [modrinth-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modrinth_downloader-0.9.tar.gz tmp/modrinth_downloader-0.9.2.tar.gz --markdown 20240603/m/modrinth-downloader/0.9-0.9.2/README.md --exclude *.pyd
+[2024-06-03 15:45:37] INFO root fetch - processPackages [fastapi-apscheduler4]: Downloading https://files.pythonhosted.org/packages/b0/46/2e56352f5026d2e61639d5ee55cd80792d2935bf7eed2173dc2aadaf11ce/fastapi_apscheduler4-0.0.2-py3-none-any.whl
+[2024-06-03 15:45:37] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/88/45/fb36f458fb8bb898d3abea4788cd82b5ae07e709af6916f816163f25bada/OpenGeode_Geosciences-7.7.1rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-06-03 15:45:37] INFO root fetch - processPackages [fastapi-apscheduler4]: executing diffoscope
+[2024-06-03 15:45:37] INFO root fetch - processPackages [fastapi-apscheduler4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_apscheduler4-0.0.1.tar.gz tmp/fastapi_apscheduler4-0.0.2-py3-none-any.whl.zip --markdown 20240603/f/fastapi-apscheduler4/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 15:45:37] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2024-06-03 15:45:37] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.7.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240603/O/OpenGeode-Geosciences/7.7.0rc1-7.7.1rc1/README.md --exclude *.pyd
+[2024-06-03 15:45:37] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.9.tar.gz]
+[2024-06-03 15:45:38] INFO root fetch - processPackages [modrinth-downloader]: Remove: archive file [/home/abi/fetcher/tmp/modrinth_downloader-0.9.2.tar.gz]
+[2024-06-03 15:45:38] INFO root fetch - main [MainThread]: End processing [modrinth-downloader]: success
+[2024-06-03 15:45:38] INFO root fetch - processPackages [fastapi-apscheduler4]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_apscheduler4-0.0.1.tar.gz]
+[2024-06-03 15:45:38] INFO root fetch - processPackages [fastapi-apscheduler4]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_apscheduler4-0.0.2-py3-none-any.whl.zip]
+[2024-06-03 15:45:38] INFO root fetch - main [MainThread]: End processing [fastapi-apscheduler4]: success
+[2024-06-03 15:45:38] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.7.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 15:45:38] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.7.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-06-03 15:45:38] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2024-06-03 15:45:38] INFO root fetch - main [MainThread]: Store serial: [23503550]
