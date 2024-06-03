@@ -19606,3 +19606,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:46:20] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_dicom_wasi-7.0.1.tar.gz]
 [2024-06-03 14:46:20] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-wasi]: success
 [2024-06-03 14:46:20] INFO root fetch - main [MainThread]: Store serial: [23502555]
+[2024-06-03 14:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502555]
+[2024-06-03 14:48:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 14:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: random-events
+[2024-06-03 14:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-06-03 14:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-06-03 14:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automation-fw-helper
+[2024-06-03 14:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdfdol
+[2024-06-03 14:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-MotionMount
+[2024-06-03 14:48:29] INFO root fetch - processPackages [automation-fw-helper]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 14:48:29] INFO root fetch - processPackages [random-events]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-06-03 14:48:29] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 14:48:29] INFO root fetch - processPackages [swarmauri]: New version: [0.3.0.dev13] Old Version: [0.2.9]
+[2024-06-03 14:48:29] INFO root fetch - processPackages [automation-fw-helper]: Downloading https://files.pythonhosted.org/packages/06/de/00983aad52333f82072865457a21d4549d2c31aa7a070a8a55ac957578e5/automation-fw-helper-0.0.5.tar.gz
+[2024-06-03 14:48:29] INFO root fetch - processPackages [python-MotionMount]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-06-03 14:48:29] INFO root fetch - processPackages [pdfdol]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 14:48:29] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-06-03 14:48:29] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/80/f3/5247432592ad2e68795cb926171ae7f1ec3d20bf08958e10bcab36e50e6b/swarmauri-0.2.9.tar.gz
+[2024-06-03 14:48:29] INFO root fetch - processPackages [random-events]: Downloading https://files.pythonhosted.org/packages/41/25/2ce5596614a2985437e0815ea98994021dfd6e40548756baed4409b68e42/random_events-2.0.8.tar.gz
+[2024-06-03 14:48:29] INFO root fetch - processPackages [python-MotionMount]: Downloading https://files.pythonhosted.org/packages/2d/d5/056538b3354df99dcbc086424a2e907b9ee7f02c2a30756792264b71da8f/python_motionmount-1.0.1.tar.gz
+[2024-06-03 14:48:29] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/0f/64/28e85588098244f1945bed8af7d8f5669192b5b97dd9794ef08bfdd6bd5e/swarmauri-0.3.0.dev13.tar.gz
+[2024-06-03 14:48:29] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-06-03 14:48:29] INFO root fetch - processPackages [automation-fw-helper]: Downloading https://files.pythonhosted.org/packages/b9/c3/a68aa62bbecb1ddc2d9f26af24a6034082d4344b097b6325e0e51176dc5d/automation-fw-helper-0.0.6.tar.gz
+[2024-06-03 14:48:30] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-06-03 14:48:30] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.9.tar.gz tmp/swarmauri-0.3.0.dev13.tar.gz --markdown 20240603/s/swarmauri/0.2.9-0.3.0.dev13/README.md --exclude *.pyd
+[2024-06-03 14:48:30] INFO root fetch - processPackages [pdfdol]: Downloading https://files.pythonhosted.org/packages/40/a4/e42c85b9ef03e5dfe1ae82879edbbe98063f993bfb3144cf76ce8ca89476/pdfdol-0.1.6.tar.gz
+[2024-06-03 14:48:30] INFO root fetch - processPackages [automation-fw-helper]: executing diffoscope
+[2024-06-03 14:48:30] INFO root fetch - processPackages [automation-fw-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-fw-helper-0.0.5.tar.gz tmp/automation-fw-helper-0.0.6.tar.gz --markdown 20240603/a/automation-fw-helper/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 14:48:30] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-06-03 14:48:30] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240603/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 14:48:30] INFO root fetch - processPackages [python-MotionMount]: Downloading https://files.pythonhosted.org/packages/bb/94/81c09246b30742977efbf670b68115b58b3931e2518ebba96b526090513a/python_motionmount-2.0.0.tar.gz
+[2024-06-03 14:48:30] INFO root fetch - processPackages [pdfdol]: executing diffoscope
+[2024-06-03 14:48:30] INFO root fetch - processPackages [pdfdol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfdol-0.1.5.tar.gz tmp/pdfdol-0.1.6.tar.gz --markdown 20240603/p/pdfdol/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 14:48:30] INFO root fetch - processPackages [random-events]: Downloading https://files.pythonhosted.org/packages/ea/97/0392d878e55684b57c08454cf053f0fa5226369bd8d9171b677f9508cf1a/random_events-2.0.9.tar.gz
+[2024-06-03 14:48:30] INFO root fetch - processPackages [python-MotionMount]: executing diffoscope
+[2024-06-03 14:48:30] INFO root fetch - processPackages [python-MotionMount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_motionmount-1.0.1.tar.gz tmp/python_motionmount-2.0.0.tar.gz --markdown 20240603/p/python-MotionMount/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-06-03 14:48:30] INFO root fetch - processPackages [random-events]: executing diffoscope
+[2024-06-03 14:48:30] INFO root fetch - processPackages [random-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_events-2.0.8.tar.gz tmp/random_events-2.0.9.tar.gz --markdown 20240603/r/random-events/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-06-03 14:48:30] INFO root fetch - processPackages [automation-fw-helper]: Remove: archive file [/home/abi/fetcher/tmp/automation-fw-helper-0.0.5.tar.gz]
+[2024-06-03 14:48:30] INFO root fetch - processPackages [automation-fw-helper]: Remove: archive file [/home/abi/fetcher/tmp/automation-fw-helper-0.0.6.tar.gz]
+[2024-06-03 14:48:30] INFO root fetch - main [MainThread]: End processing [automation-fw-helper]: success
+[2024-06-03 14:48:31] INFO root fetch - processPackages [pdfdol]: Remove: archive file [/home/abi/fetcher/tmp/pdfdol-0.1.5.tar.gz]
+[2024-06-03 14:48:31] INFO root fetch - processPackages [pdfdol]: Remove: archive file [/home/abi/fetcher/tmp/pdfdol-0.1.6.tar.gz]
+[2024-06-03 14:48:31] INFO root fetch - main [MainThread]: End processing [pdfdol]: success
+[2024-06-03 14:48:31] INFO root fetch - processPackages [python-MotionMount]: Remove: archive file [/home/abi/fetcher/tmp/python_motionmount-1.0.1.tar.gz]
+[2024-06-03 14:48:31] INFO root fetch - processPackages [python-MotionMount]: Remove: archive file [/home/abi/fetcher/tmp/python_motionmount-2.0.0.tar.gz]
+[2024-06-03 14:48:31] INFO root fetch - main [MainThread]: End processing [python-MotionMount]: success
+[2024-06-03 14:48:31] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.9.tar.gz]
+[2024-06-03 14:48:31] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.3.0.dev13.tar.gz]
+[2024-06-03 14:48:31] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-06-03 14:48:31] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-06-03 14:48:31] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-06-03 14:48:31] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-06-03 14:48:32] INFO root fetch - processPackages [random-events]: Remove: archive file [/home/abi/fetcher/tmp/random_events-2.0.8.tar.gz]
+[2024-06-03 14:48:32] INFO root fetch - processPackages [random-events]: Remove: archive file [/home/abi/fetcher/tmp/random_events-2.0.9.tar.gz]
+[2024-06-03 14:48:32] INFO root fetch - main [MainThread]: End processing [random-events]: success
+[2024-06-03 14:48:32] INFO root fetch - main [MainThread]: Store serial: [23502573]
