@@ -13189,3 +13189,117 @@ EOFError: EOF read where object expected
 [2024-06-03 12:07:27] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-06-03 12:07:27] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-06-03 12:07:27] INFO root fetch - main [MainThread]: Store serial: [23500130]
+[2024-06-03 12:09:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500130]
+[2024-06-03 12:09:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: megaparse
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moonwatcher
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matchms
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: byron
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-dts
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ros-cdk-alb
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dingodb
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: topf
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onyx-extension
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: th2-grpc-lw-data-provider
+[2024-06-03 12:09:38] INFO root fetch - processPackages [megaparse]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 12:09:38] INFO root fetch - processPackages [matchms]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 12:09:38] INFO root fetch - processPackages [byron]: New version: [0.8a1.dev9] Old Version: [0.8a1.dev8]
+[2024-06-03 12:09:38] WARNING root fetch - processPackages [topf]: Skipping, unable to determine old version
+[2024-06-03 12:09:38] INFO root fetch - processPackages [topf]: Start processing: wrench-build
+[2024-06-03 12:09:38] INFO root fetch - main [MainThread]: End processing [topf] error
+[2024-06-03 12:09:38] INFO root fetch - processPackages [megaparse]: Downloading https://files.pythonhosted.org/packages/48/48/998a8e6b33c1f633374e3fe0b648294633e1209f805dd74f0089c0dfd44c/megaparse-0.0.4.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ros-cdk-dts]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:09:38] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/94/f9/e417fc6b3d303bae0c45dd2a090977a0eaac69a7676ae6d9adf3125c53e7/matchms-0.9.1.tar.gz
+[2024-06-03 12:09:38] WARNING root fetch - processPackages [moonwatcher]: Skipping, unable to determine old version
+[2024-06-03 12:09:38] INFO root fetch - processPackages [moonwatcher]: Start processing: Multiclass-interface
+[2024-06-03 12:09:38] INFO root fetch - main [MainThread]: End processing [moonwatcher] error
+[2024-06-03 12:09:38] INFO root fetch - processPackages [onyx-extension]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 12:09:38] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ros-cdk-alb]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:09:38] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.4.0.dev9065635110] Old Version: [2.4.0.dev9065606558]
+[2024-06-03 12:09:38] WARNING root fetch - processPackages [wrench-build]: Skipping, unable to determine old version
+[2024-06-03 12:09:38] INFO root fetch - processPackages [wrench-build]: Start processing: power-grid-model
+[2024-06-03 12:09:38] INFO root fetch - main [MainThread]: End processing [wrench-build] error
+[2024-06-03 12:09:38] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-06-03 12:09:38] INFO root fetch - processPackages [byron]: Downloading https://files.pythonhosted.org/packages/02/4d/649d28263ac707daab953f1284c4143baab0d38a9d230db72033d0ab6906/byron-0.8a1.dev8.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [Multiclass-interface]: New version: [1.6] Old Version: [1.5]
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ros-cdk-dts]: Downloading https://files.pythonhosted.org/packages/ad/1d/1e2e566370b2240add5dc79509cf06173bdeb9bb430263e277bdf2eda68d/ros-cdk-dts-1.0.8.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/f1/3f/420f7fc6234f7f04e0f7096f7ddfafca9848a1c1a9671f88900b8be2e558/onyx_extension-0.4.8.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [matchms]: Downloading https://files.pythonhosted.org/packages/a0/1f/afe76be976e1b3c3551112bf8a1ffff8624c26e9e230720c15c9138f7e6a/matchms-0.9.2.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [ros-cdk-alb]: Downloading https://files.pythonhosted.org/packages/e7/c0/126c2dabaebee738d668a877343cd36c9fea4282dcfa5f17880e601a30ea/ros-cdk-alb-1.0.8.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/f1/c2/d3ba4618a30eb59a2fa2f9c8b4cf326629a78d7977089534cfec16e3e28c/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [megaparse]: Downloading https://files.pythonhosted.org/packages/c4/96/0186e2c0e0b0b2d763063581ca3ed4051580b70e3f04b7fbc9ef2e53afe7/megaparse-0.0.5.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/ff/02/8c8d1f35c53c6431811713560adf7cfd047a04a464819a40f8898194fec7/multiclass_interface-1.5.tar.gz
+[2024-06-03 12:09:38] INFO root fetch - processPackages [matchms]: executing diffoscope
+[2024-06-03 12:09:38] INFO root fetch - processPackages [matchms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matchms-0.9.1.tar.gz tmp/matchms-0.9.2.tar.gz --markdown 20240603/m/matchms/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [megaparse]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [megaparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megaparse-0.0.4.tar.gz tmp/megaparse-0.0.5.tar.gz --markdown 20240603/m/megaparse/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [ros-cdk-dts]: Downloading https://files.pythonhosted.org/packages/fc/65/4c33a59a985e2867775aa568465be07c3def04d56dac36adf004d1bceefb/ros-cdk-dts-1.0.9.tar.gz
+[2024-06-03 12:09:39] INFO root fetch - processPackages [byron]: Downloading https://files.pythonhosted.org/packages/b6/d6/6ecee3d9fb4e579eec33634f63ac5010a9f965a66f2725b431785db83007/byron-0.8a1.dev9.tar.gz
+[2024-06-03 12:09:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/fc/15/9b14a1912af313d73a31f027276a0ea57a15628f9bee7890ec5675e361e0/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz
+[2024-06-03 12:09:39] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-06-03 12:09:39] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/57/f5/0e37c1457c8b67af0bae950e3eb58f631af6ca40d2693fe0db93ff81a457/onyx_extension-0.4.9.tar.gz
+[2024-06-03 12:09:39] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-06-03 12:09:39] INFO root fetch - processPackages [ros-cdk-alb]: Downloading https://files.pythonhosted.org/packages/be/18/0247d322bd73070e5752769bb5dc8b918ae90ec602c044da31a81294b837/ros-cdk-alb-1.0.9.tar.gz
+[2024-06-03 12:09:39] INFO root fetch - processPackages [ros-cdk-dts]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [ros-cdk-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dts-1.0.8.tar.gz tmp/ros-cdk-dts-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-dts/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/f1/6c/95829ef70e4a7c7fc5ae85a28e1111707a6c025ddfe8229ff6ccf7260140/multiclass_interface-1.6.tar.gz
+[2024-06-03 12:09:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz tmp/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz --markdown 20240603/t/th2-grpc-lw-data-provider/2.4.0.dev9065606558-2.4.0.dev9065635110/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240603/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240603/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [ros-cdk-alb]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [byron]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [byron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byron-0.8a1.dev8.tar.gz tmp/byron-0.8a1.dev9.tar.gz --markdown 20240603/b/byron/0.8a1.dev8-0.8a1.dev9/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [ros-cdk-alb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-alb-1.0.8.tar.gz tmp/ros-cdk-alb-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-alb/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [onyx-extension]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [onyx-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyx_extension-0.4.8.tar.gz tmp/onyx_extension-0.4.9.tar.gz --markdown 20240603/o/onyx-extension/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [Multiclass-interface]: executing diffoscope
+[2024-06-03 12:09:39] INFO root fetch - processPackages [Multiclass-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiclass_interface-1.5.tar.gz tmp/multiclass_interface-1.6.tar.gz --markdown 20240603/M/Multiclass-interface/1.5-1.6/README.md --exclude *.pyd
+[2024-06-03 12:09:39] INFO root fetch - processPackages [megaparse]: Remove: archive file [/home/abi/fetcher/tmp/megaparse-0.0.4.tar.gz]
+[2024-06-03 12:09:39] INFO root fetch - processPackages [megaparse]: Remove: archive file [/home/abi/fetcher/tmp/megaparse-0.0.5.tar.gz]
+[2024-06-03 12:09:39] INFO root fetch - processPackages [megaparse]: Start processing: rejax
+[2024-06-03 12:09:39] INFO root fetch - main [MainThread]: End processing [megaparse]: success
+[2024-06-03 12:09:39] WARNING root fetch - processPackages [rejax]: Skipping, unable to determine old version
+[2024-06-03 12:09:39] INFO root fetch - processPackages [rejax]: Start processing: Orange3-Bioinformatics
+[2024-06-03 12:09:39] INFO root fetch - main [MainThread]: End processing [rejax] error
+[2024-06-03 12:09:40] INFO root fetch - processPackages [Orange3-Bioinformatics]: New version: [4.8.3] Old Version: [4.8.2]
+[2024-06-03 12:09:40] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.1.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - processPackages [matchms]: Remove: archive file [/home/abi/fetcher/tmp/matchms-0.9.2.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - main [MainThread]: End processing [matchms]: success
+[2024-06-03 12:09:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.4.0.dev9065606558.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.4.0.dev9065635110.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2024-06-03 12:09:40] INFO root fetch - processPackages [ros-cdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dts-1.0.8.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - processPackages [ros-cdk-dts]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dts-1.0.9.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - main [MainThread]: End processing [ros-cdk-dts]: success
+[2024-06-03 12:09:40] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.5.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.6.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - main [MainThread]: End processing [Multiclass-interface]: success
+[2024-06-03 12:09:40] INFO root fetch - processPackages [Orange3-Bioinformatics]: Downloading https://files.pythonhosted.org/packages/f7/8f/38920919f732ec48bb4e1584474b59ad0eba88c65b75ab16f4f3fbe6e4e7/Orange3-Bioinformatics-4.8.2.tar.gz
+[2024-06-03 12:09:40] INFO root fetch - processPackages [ros-cdk-alb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-alb-1.0.8.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - processPackages [ros-cdk-alb]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-alb-1.0.9.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - main [MainThread]: End processing [ros-cdk-alb]: success
+[2024-06-03 12:09:40] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-06-03 12:09:40] INFO root fetch - processPackages [byron]: Remove: archive file [/home/abi/fetcher/tmp/byron-0.8a1.dev8.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - processPackages [byron]: Remove: archive file [/home/abi/fetcher/tmp/byron-0.8a1.dev9.tar.gz]
+[2024-06-03 12:09:40] INFO root fetch - main [MainThread]: End processing [byron]: success
+[2024-06-03 12:09:41] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-06-03 12:09:41] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-06-03 12:09:41] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-06-03 12:09:42] INFO root fetch - processPackages [Orange3-Bioinformatics]: Downloading https://files.pythonhosted.org/packages/af/f2/83043fdd14c798764ff322e8bdc2777f5c077bec8af38fb83b4d0d529bec/orange3_bioinformatics-4.8.3.tar.gz
+[2024-06-03 12:09:43] INFO root fetch - processPackages [Orange3-Bioinformatics]: executing diffoscope
+[2024-06-03 12:09:43] INFO root fetch - processPackages [Orange3-Bioinformatics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange3-Bioinformatics-4.8.2.tar.gz tmp/orange3_bioinformatics-4.8.3.tar.gz --markdown 20240603/O/Orange3-Bioinformatics/4.8.2-4.8.3/README.md --exclude *.pyd
+[2024-06-03 12:09:45] INFO root fetch - processPackages [Orange3-Bioinformatics]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-Bioinformatics-4.8.2.tar.gz]
+[2024-06-03 12:09:45] INFO root fetch - processPackages [Orange3-Bioinformatics]: Remove: archive file [/home/abi/fetcher/tmp/orange3_bioinformatics-4.8.3.tar.gz]
+[2024-06-03 12:09:45] INFO root fetch - main [MainThread]: End processing [Orange3-Bioinformatics]: success
+[2024-06-03 12:09:47] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.8.tar.gz]
+[2024-06-03 12:09:47] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.9.tar.gz]
+[2024-06-03 12:09:47] INFO root fetch - main [MainThread]: End processing [onyx-extension]: success
+[2024-06-03 12:09:47] INFO root fetch - main [MainThread]: Store serial: [23500182]
