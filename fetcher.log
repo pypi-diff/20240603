@@ -22321,3 +22321,117 @@ EOFError: EOF read where object expected
 [2024-06-03 15:54:29] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a79.tar.gz]
 [2024-06-03 15:54:29] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2024-06-03 15:54:29] INFO root fetch - main [MainThread]: Store serial: [23503704]
+[2024-06-03 15:56:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503704]
+[2024-06-03 15:56:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcticdb
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vantage-sdk
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Mzhtools
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-energy-project
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaiju-model
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agridable
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: integro_types
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apple-metal
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-metal
+[2024-06-03 15:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Py-Boost
+[2024-06-03 15:56:38] WARNING root fetch - processPackages [Mzhtools]: Skipping, unable to determine old version
+[2024-06-03 15:56:38] INFO root fetch - processPackages [Mzhtools]: Start processing: odoo14-addon-energy-selfconsumption
+[2024-06-03 15:56:38] INFO root fetch - main [MainThread]: End processing [Mzhtools] error
+[2024-06-03 15:56:38] INFO root fetch - processPackages [vantage-sdk]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-06-03 15:56:38] INFO root fetch - processPackages [agridable]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 15:56:38] INFO root fetch - processPackages [arcticdb]: New version: [4.4.3rc1] Old Version: [4.4.3rc0]
+[2024-06-03 15:56:38] WARNING root fetch - processPackages [python-metal]: Skipping, unable to determine old version
+[2024-06-03 15:56:38] INFO root fetch - processPackages [python-metal]: Start processing: ecodev-core
+[2024-06-03 15:56:38] WARNING root fetch - processPackages [apple-metal]: Skipping, unable to determine old version
+[2024-06-03 15:56:38] INFO root fetch - processPackages [apple-metal]: Start processing: math-spec-mapping
+[2024-06-03 15:56:38] INFO root fetch - processPackages [odoo14-addon-energy-project]: New version: [14.0.3.2.2] Old Version: [14.0.3.2.1]
+[2024-06-03 15:56:38] INFO root fetch - main [MainThread]: End processing [python-metal] error
+[2024-06-03 15:56:38] INFO root fetch - processPackages [kaiju-model]: New version: [2.2.3] Old Version: [2.0.3]
+[2024-06-03 15:56:38] WARNING root fetch - processPackages [integro_types]: Skipping, unable to determine old version
+[2024-06-03 15:56:38] INFO root fetch - processPackages [Py-Boost]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-06-03 15:56:38] INFO root fetch - main [MainThread]: End processing [apple-metal] error
+[2024-06-03 15:56:38] INFO root fetch - processPackages [integro_types]: Start processing: pystage
+[2024-06-03 15:56:38] INFO root fetch - main [MainThread]: End processing [integro_types] error
+[2024-06-03 15:56:39] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: New version: [14.0.4.0.4] Old Version: [14.0.4.0.3]
+[2024-06-03 15:56:39] INFO root fetch - processPackages [ecodev-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 15:56:39] INFO root fetch - processPackages [pystage]: New version: [0.1.0.dev0] Old Version: [0.0.9]
+[2024-06-03 15:56:39] INFO root fetch - processPackages [vantage-sdk]: Downloading https://files.pythonhosted.org/packages/a1/08/960474532d0c7f8f74e69519787c92418e3fdac63c5884aa367035955722/vantage_sdk-0.8.3.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/b5/a9/766d6853412070aa67063f8b8ba6353109df7a029b4e8c577447655f9dd1/ecodev_core-0.0.8.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [pystage]: Downloading https://files.pythonhosted.org/packages/1b/e4/7442a944d05cf4c00bbfac2cf9eb5c99addcfc30caf5472d9b2e9075e46f/pystage-0.0.9.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [math-spec-mapping]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-06-03 15:56:39] INFO root fetch - processPackages [agridable]: Downloading https://files.pythonhosted.org/packages/56/a3/bd36e935e6c43216d8518a2fbfa3e41f4ea0623cc7a6b2a27b428ea3a9b0/agridable-0.0.3.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [arcticdb]: Downloading https://files.pythonhosted.org/packages/e3/63/15157a48d5a49d3ebe20b06bec3848202fd5be8ee835617bb3284cb288f6/arcticdb-4.4.3rc0-cp39-cp39-win_amd64.whl
+[2024-06-03 15:56:39] INFO root fetch - processPackages [kaiju-model]: Downloading https://files.pythonhosted.org/packages/ca/98/4eface1aedc8359d2974ec78ea32ab0d2554ab0732409a7c7223ba277f81/kaiju_model-2.0.3-py3-none-any.whl
+[2024-06-03 15:56:39] INFO root fetch - processPackages [odoo14-addon-energy-project]: Downloading https://files.pythonhosted.org/packages/62/9a/d4de545de368b328c6272ff8e381cd23b0c598b2976a5e2470aba8058ae3/odoo14_addon_energy_project-14.0.3.2.1-py3-none-any.whl
+[2024-06-03 15:56:39] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Downloading https://files.pythonhosted.org/packages/21/f5/da56edce2452c447b1aee818431d3b048299abe95622602f94d99059cddf/odoo14-addon-energy_selfconsumption-14.0.4.0.3.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [Py-Boost]: Downloading https://files.pythonhosted.org/packages/bb/e2/259f931f53bcc2dac5960307b7a31c3f1aca8640aa4e33ca538119119f0e/py_boost-0.4.3.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [math-spec-mapping]: Downloading https://files.pythonhosted.org/packages/c2/1b/5269bbf83efc93eb97224d5af7201614bbda01eb6305d222fef27c77c9a5/math_spec_mapping-0.3.4.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/2b/a0/d654c8a620b75677b176be54783974380dae7715c39ab4ada944771e7e75/ecodev_core-0.0.9.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [pystage]: Downloading https://files.pythonhosted.org/packages/db/68/1dbe714cc8723d04eb3bb4fde1bbe0aa22566167ef35d02e77a2639e1080/pystage-0.1.0.dev0.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [vantage-sdk]: Downloading https://files.pythonhosted.org/packages/59/1d/442981e6068b5af7035e458e1e1958176b68366f939e9836ef4dd23bc96b/vantage_sdk-0.8.4.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [ecodev-core]: executing diffoscope
+[2024-06-03 15:56:39] INFO root fetch - processPackages [ecodev-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_core-0.0.8.tar.gz tmp/ecodev_core-0.0.9.tar.gz --markdown 20240603/e/ecodev-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 15:56:39] INFO root fetch - processPackages [agridable]: Downloading https://files.pythonhosted.org/packages/82/cf/b2dad3c67166a63e5c22f53a14fd6a9f13ed3ae5521e978eee8e1d1a56b1/agridable-0.0.4.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [kaiju-model]: Downloading https://files.pythonhosted.org/packages/71/d5/983ee3caae48b4bd62ce86123a93f22a1b784b10cd1eba11218b5542be60/kaiju_model-2.2.3-py3-none-any.whl
+[2024-06-03 15:56:39] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Downloading https://files.pythonhosted.org/packages/66/99/b9ee8918cfcdecc9a550273ff17933cdcd5a2892d18ed4ed4ed72a770d89/odoo14-addon-energy_selfconsumption-14.0.4.0.4.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [Py-Boost]: Downloading https://files.pythonhosted.org/packages/1a/2f/ada6161ac92698559aa6114cb166e89482bde2dba4e5238ac6385cdce667/py_boost-0.5.0.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [odoo14-addon-energy-project]: Downloading https://files.pythonhosted.org/packages/58/61/250264eaf5bee94bb392f6ee44c8b52d0071e0a5ec291e46934c769a71c2/odoo14-addon-energy_project-14.0.3.2.2.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [pystage]: executing diffoscope
+[2024-06-03 15:56:39] INFO root fetch - processPackages [pystage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystage-0.0.9.tar.gz tmp/pystage-0.1.0.dev0.tar.gz --markdown 20240603/p/pystage/0.0.9-0.1.0.dev0/README.md --exclude *.pyd
+[2024-06-03 15:56:39] INFO root fetch - processPackages [math-spec-mapping]: Downloading https://files.pythonhosted.org/packages/8a/97/d3d50400c31de30e40a8ad59aac27963715dc91aeb7071700e6a1621d598/math_spec_mapping-0.3.5.tar.gz
+[2024-06-03 15:56:39] INFO root fetch - processPackages [kaiju-model]: executing diffoscope
+[2024-06-03 15:56:39] INFO root fetch - processPackages [kaiju-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_model-2.0.3-py3-none-any.whl.zip tmp/kaiju_model-2.2.3-py3-none-any.whl.zip --markdown 20240603/k/kaiju-model/2.0.3-2.2.3/README.md --exclude *.pyd
+[2024-06-03 15:56:39] INFO root fetch - processPackages [vantage-sdk]: executing diffoscope
+[2024-06-03 15:56:39] INFO root fetch - processPackages [vantage-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage_sdk-0.8.3.tar.gz tmp/vantage_sdk-0.8.4.tar.gz --markdown 20240603/v/vantage-sdk/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-06-03 15:56:39] INFO root fetch - processPackages [agridable]: executing diffoscope
+[2024-06-03 15:56:39] INFO root fetch - processPackages [agridable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agridable-0.0.3.tar.gz tmp/agridable-0.0.4.tar.gz --markdown 20240603/a/agridable/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 15:56:39] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: executing diffoscope
+[2024-06-03 15:56:39] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_selfconsumption-14.0.4.0.3.tar.gz tmp/odoo14-addon-energy_selfconsumption-14.0.4.0.4.tar.gz --markdown 20240603/o/odoo14-addon-energy-selfconsumption/14.0.4.0.3-14.0.4.0.4/README.md --exclude *.pyd
+[2024-06-03 15:56:39] INFO root fetch - processPackages [Py-Boost]: executing diffoscope
+[2024-06-03 15:56:39] INFO root fetch - processPackages [Py-Boost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_boost-0.4.3.tar.gz tmp/py_boost-0.5.0.tar.gz --markdown 20240603/P/Py-Boost/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-06-03 15:56:40] INFO root fetch - processPackages [odoo14-addon-energy-project]: executing diffoscope
+[2024-06-03 15:56:40] INFO root fetch - processPackages [odoo14-addon-energy-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_project-14.0.3.2.1-py3-none-any.whl.zip tmp/odoo14-addon-energy_project-14.0.3.2.2.tar.gz --markdown 20240603/o/odoo14-addon-energy-project/14.0.3.2.1-14.0.3.2.2/README.md --exclude *.pyd
+[2024-06-03 15:56:40] INFO root fetch - processPackages [math-spec-mapping]: executing diffoscope
+[2024-06-03 15:56:40] INFO root fetch - processPackages [math-spec-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_spec_mapping-0.3.4.tar.gz tmp/math_spec_mapping-0.3.5.tar.gz --markdown 20240603/m/math-spec-mapping/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-06-03 15:56:40] INFO root fetch - processPackages [arcticdb]: Downloading https://files.pythonhosted.org/packages/c6/0c/b4b39076ae8128cd4f522cdcb8cc04a556b327e60936f9b6cf3935dde999/arcticdb-4.4.3rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 15:56:40] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.8.tar.gz]
+[2024-06-03 15:56:40] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.9.tar.gz]
+[2024-06-03 15:56:40] INFO root fetch - processPackages [ecodev-core]: Start processing: tramp
+[2024-06-03 15:56:40] INFO root fetch - main [MainThread]: End processing [ecodev-core]: success
+[2024-06-03 15:56:40] INFO root fetch - processPackages [tramp]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-06-03 15:56:40] INFO root fetch - processPackages [tramp]: Downloading https://files.pythonhosted.org/packages/45/59/8e5dacf508a562253e53a44b5eabf20fe099adca3b01542c3509fc806ba4/tramp-0.1.1.tar.gz
+[2024-06-03 15:56:40] INFO root fetch - processPackages [kaiju-model]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_model-2.0.3-py3-none-any.whl.zip]
+[2024-06-03 15:56:40] INFO root fetch - processPackages [kaiju-model]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_model-2.2.3-py3-none-any.whl.zip]
+[2024-06-03 15:56:40] INFO root fetch - main [MainThread]: End processing [kaiju-model]: success
+[2024-06-03 15:56:40] INFO root fetch - processPackages [agridable]: Remove: archive file [/home/abi/fetcher/tmp/agridable-0.0.3.tar.gz]
+[2024-06-03 15:56:40] INFO root fetch - processPackages [agridable]: Remove: archive file [/home/abi/fetcher/tmp/agridable-0.0.4.tar.gz]
+[2024-06-03 15:56:40] INFO root fetch - main [MainThread]: End processing [agridable]: success
+[2024-06-03 15:56:41] INFO root fetch - processPackages [odoo14-addon-energy-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_project-14.0.3.2.1-py3-none-any.whl.zip]
+[2024-06-03 15:56:41] INFO root fetch - processPackages [odoo14-addon-energy-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_project-14.0.3.2.2.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-project]: success
+[2024-06-03 15:56:41] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_selfconsumption-14.0.4.0.3.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_selfconsumption-14.0.4.0.4.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-selfconsumption]: success
+[2024-06-03 15:56:41] INFO root fetch - processPackages [tramp]: Downloading https://files.pythonhosted.org/packages/13/1a/aaf7d2bb71796c03e028118a19aacd344a9d3d01a513da76e16e37ab70be/tramp-0.1.2.tar.gz
+[2024-06-03 15:56:41] INFO root fetch - processPackages [pystage]: Remove: archive file [/home/abi/fetcher/tmp/pystage-0.0.9.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - processPackages [pystage]: Remove: archive file [/home/abi/fetcher/tmp/pystage-0.1.0.dev0.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - main [MainThread]: End processing [pystage]: success
+[2024-06-03 15:56:41] INFO root fetch - processPackages [arcticdb]: executing diffoscope
+[2024-06-03 15:56:41] INFO root fetch - processPackages [arcticdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcticdb-4.4.3rc0-cp39-cp39-win_amd64.whl.zip tmp/arcticdb-4.4.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240603/a/arcticdb/4.4.3rc0-4.4.3rc1/README.md --exclude *.pyd
+[2024-06-03 15:56:41] INFO root fetch - processPackages [tramp]: executing diffoscope
+[2024-06-03 15:56:41] INFO root fetch - processPackages [tramp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tramp-0.1.1.tar.gz tmp/tramp-0.1.2.tar.gz --markdown 20240603/t/tramp/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-06-03 15:56:41] INFO root fetch - processPackages [vantage-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vantage_sdk-0.8.3.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - processPackages [vantage-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vantage_sdk-0.8.4.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - main [MainThread]: End processing [vantage-sdk]: success
+[2024-06-03 15:56:41] INFO root fetch - processPackages [Py-Boost]: Remove: archive file [/home/abi/fetcher/tmp/py_boost-0.4.3.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - processPackages [Py-Boost]: Remove: archive file [/home/abi/fetcher/tmp/py_boost-0.5.0.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - main [MainThread]: End processing [Py-Boost]: success
+[2024-06-03 15:56:41] INFO root fetch - processPackages [math-spec-mapping]: Remove: archive file [/home/abi/fetcher/tmp/math_spec_mapping-0.3.4.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - processPackages [math-spec-mapping]: Remove: archive file [/home/abi/fetcher/tmp/math_spec_mapping-0.3.5.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - main [MainThread]: End processing [math-spec-mapping]: success
+[2024-06-03 15:56:41] INFO root fetch - processPackages [tramp]: Remove: archive file [/home/abi/fetcher/tmp/tramp-0.1.1.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - processPackages [tramp]: Remove: archive file [/home/abi/fetcher/tmp/tramp-0.1.2.tar.gz]
+[2024-06-03 15:56:41] INFO root fetch - main [MainThread]: End processing [tramp]: success
+[2024-06-03 15:56:42] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-4.4.3rc0-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 15:56:42] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-4.4.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 15:56:42] INFO root fetch - main [MainThread]: End processing [arcticdb]: success
+[2024-06-03 15:56:42] INFO root fetch - main [MainThread]: Store serial: [23503769]
