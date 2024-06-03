@@ -5429,3 +5429,33 @@ EOFError: EOF read where object expected
 [2024-06-03 06:11:11] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.58.1.tar.gz]
 [2024-06-03 06:11:11] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-06-03 06:11:11] INFO root fetch - main [MainThread]: Store serial: [23496542]
+[2024-06-03 06:13:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496542]
+[2024-06-03 06:13:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 06:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chronotask
+[2024-06-03 06:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmdbsystem
+[2024-06-03 06:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagknows
+[2024-06-03 06:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecr-scan-notifier
+[2024-06-03 06:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepxromm-fix
+[2024-06-03 06:13:20] WARNING root fetch - processPackages [lmdbsystem]: Skipping, unable to determine old version
+[2024-06-03 06:13:20] INFO root fetch - main [MainThread]: End processing [lmdbsystem] error
+[2024-06-03 06:13:20] WARNING root fetch - processPackages [chronotask]: Skipping, unable to determine old version
+[2024-06-03 06:13:20] INFO root fetch - main [MainThread]: End processing [chronotask] error
+[2024-06-03 06:13:20] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 06:13:20] WARNING root fetch - processPackages [deepxromm-fix]: Skipping, unable to determine old version
+[2024-06-03 06:13:20] INFO root fetch - main [MainThread]: End processing [deepxromm-fix] error
+[2024-06-03 06:13:20] INFO root fetch - processPackages [dagknows]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 06:13:20] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2024-06-03 06:13:20] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/da/d9/26cacd120bcb1bc7ed7d34413f6092ad7cca3a1ffa660c3f97a30b1ba54a/dagknows-0.0.98-py3-none-any.whl
+[2024-06-03 06:13:20] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/d1/00/57fd90da8640eba9f4ecd18284a84eab9858fbc02e1cde2695b5c20f9967/ecr-scan-notifier-0.0.9.tar.gz
+[2024-06-03 06:13:20] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/0a/f9/487230793695e830b97edaf88bed96a0afd0b943f15815533a0a0fcc2f64/dagknows-0.0.99-py3-none-any.whl
+[2024-06-03 06:13:20] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2024-06-03 06:13:20] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.8.tar.gz tmp/ecr-scan-notifier-0.0.9.tar.gz --markdown 20240603/e/ecr-scan-notifier/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 06:13:20] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2024-06-03 06:13:20] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.98-py3-none-any.whl.zip tmp/dagknows-0.0.99-py3-none-any.whl.zip --markdown 20240603/d/dagknows/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 06:13:21] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2024-06-03 06:13:21] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
+[2024-06-03 06:13:21] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2024-06-03 06:13:21] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.98-py3-none-any.whl.zip]
+[2024-06-03 06:13:21] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.99-py3-none-any.whl.zip]
+[2024-06-03 06:13:21] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2024-06-03 06:13:21] INFO root fetch - main [MainThread]: Store serial: [23496562]
