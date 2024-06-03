@@ -22875,3 +22875,84 @@ EOFError: EOF read where object expected
 [2024-06-03 16:10:20] INFO root fetch - processPackages [ARCtrl]: Remove: archive file [/home/abi/fetcher/tmp/arctrl-2.0.0a5.tar.gz]
 [2024-06-03 16:10:20] INFO root fetch - main [MainThread]: End processing [ARCtrl]: success
 [2024-06-03 16:10:20] INFO root fetch - main [MainThread]: Store serial: [23503962]
+[2024-06-03 16:12:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503962]
+[2024-06-03 16:12:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydatastreams
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsii
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fair-scoring
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: f4enix
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danila-lib
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: comet-toolbox
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shipyard-census
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specklepy
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gryannote
+[2024-06-03 16:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deknp
+[2024-06-03 16:12:29] INFO root fetch - processPackages [pydatastreams]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-06-03 16:12:29] INFO root fetch - processPackages [jsii]: New version: [1.98.0] Old Version: [1.97.0]
+[2024-06-03 16:12:29] INFO root fetch - processPackages [f4enix]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-06-03 16:12:29] INFO root fetch - processPackages [deknp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 16:12:29] INFO root fetch - processPackages [danila-lib]: New version: [1.9.0] Old Version: [1.8.9]
+[2024-06-03 16:12:29] WARNING root fetch - processPackages [fair-scoring]: Skipping, unable to determine old version
+[2024-06-03 16:12:29] INFO root fetch - main [MainThread]: End processing [fair-scoring] error
+[2024-06-03 16:12:29] WARNING root fetch - processPackages [gryannote]: Skipping, unable to determine old version
+[2024-06-03 16:12:29] INFO root fetch - main [MainThread]: End processing [gryannote] error
+[2024-06-03 16:12:29] INFO root fetch - processPackages [shipyard-census]: New version: [0.2.0a0] Old Version: [0.2.0]
+[2024-06-03 16:12:29] INFO root fetch - processPackages [comet-toolbox]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-06-03 16:12:29] INFO root fetch - processPackages [specklepy]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-06-03 16:12:29] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/1b/ce/cf6c08fd2f2588f5065abe065a1b18a9676dcc30f7dfe96c1d0067bf948a/pydatastreams-1.2.3.tar.gz
+[2024-06-03 16:12:29] INFO root fetch - processPackages [deknp]: Downloading https://files.pythonhosted.org/packages/a2/f8/9474dd68e73e4b37117396fd62a452b444f4d0c923e3eb1d3ecdbfde6c63/deknp-0.1.8.tar.gz
+[2024-06-03 16:12:29] INFO root fetch - processPackages [f4enix]: Downloading https://files.pythonhosted.org/packages/07/30/e61eba69c4c5c6d1d79eaedaca0c0c52eeccd5657a9b2e8cd9413f4d9bd8/f4enix-0.5.2.tar.gz
+[2024-06-03 16:12:29] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/57/d7/b58fb2ac728584e123d953eaae63d492ac5dad92dddd582472fc2acc9c10/jsii-1.97.0.tar.gz
+[2024-06-03 16:12:29] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/6c/6b/86e92c69d12741e8a506840782428cf35daf0f513d61d3efda8238e43dad/danila-lib-1.8.9.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/59/d1/317b212d5a613191bda064c05d1316133fef8f3a8f62a920b9793858065f/shipyard_census-0.2.0.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/d7/e3/8abe82191c4281f26ace7ec830a5ad20937fec8a8642635e88bd765f9945/comet_toolbox-0.4.3.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [specklepy]: Downloading https://files.pythonhosted.org/packages/a5/3d/e272ab635ebc6d79c18c03275fab6615b6f813a9b2089b12662d041eb149/specklepy-2.9.0.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/1e/2a/e0a97ee8c001651d9edd0e631c7c46c7520ebecb51b3449a8e001dc86c88/danila-lib-1.9.0.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [pydatastreams]: Downloading https://files.pythonhosted.org/packages/8f/c6/9479dfbd5c88dce2471b53ea4e1939d2c84dea32f7c0bb4e8083a9ef677d/pydatastreams-1.2.4.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [f4enix]: Downloading https://files.pythonhosted.org/packages/d9/29/18d6aab681e65b48d1656a037833cf1a66cad21e51f83d0be1a19efe0140/f4enix-0.6.0.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [deknp]: Downloading https://files.pythonhosted.org/packages/90/3c/ef8894b05c6e3a5145b0b0434c3743c1d3196369d4c0009f02fa74a4a1aa/deknp-0.1.9.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/98/5a/2620c193038c4d84af9e2d3f6d705114def8abd14a2d05b637a842fb528a/jsii-1.98.0.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-06-03 16:12:30] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.8.9.tar.gz tmp/danila-lib-1.9.0.tar.gz --markdown 20240603/d/danila-lib/1.8.9-1.9.0/README.md --exclude *.pyd
+[2024-06-03 16:12:30] INFO root fetch - processPackages [pydatastreams]: executing diffoscope
+[2024-06-03 16:12:30] INFO root fetch - processPackages [pydatastreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatastreams-1.2.3.tar.gz tmp/pydatastreams-1.2.4.tar.gz --markdown 20240603/p/pydatastreams/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-06-03 16:12:30] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/6b/d6/f7ce1749a63d9aa2035aa96627bf57448f481d1ea17ce7202d68f53189fe/shipyard_census-0.2.0a0.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [f4enix]: executing diffoscope
+[2024-06-03 16:12:30] INFO root fetch - processPackages [f4enix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f4enix-0.5.2.tar.gz tmp/f4enix-0.6.0.tar.gz --markdown 20240603/f/f4enix/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-06-03 16:12:30] INFO root fetch - processPackages [deknp]: executing diffoscope
+[2024-06-03 16:12:30] INFO root fetch - processPackages [deknp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deknp-0.1.8.tar.gz tmp/deknp-0.1.9.tar.gz --markdown 20240603/d/deknp/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 16:12:30] INFO root fetch - processPackages [specklepy]: Downloading https://files.pythonhosted.org/packages/f8/33/c2055e2e98c3872f50585bc585a86e591e32eaae34a35d77c8db153d49be/specklepy-2.9.1.tar.gz
+[2024-06-03 16:12:30] INFO root fetch - processPackages [shipyard-census]: executing diffoscope
+[2024-06-03 16:12:30] INFO root fetch - processPackages [shipyard-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_census-0.2.0.tar.gz tmp/shipyard_census-0.2.0a0.tar.gz --markdown 20240603/s/shipyard-census/0.2.0-0.2.0a0/README.md --exclude *.pyd
+[2024-06-03 16:12:31] INFO root fetch - processPackages [jsii]: executing diffoscope
+[2024-06-03 16:12:31] INFO root fetch - processPackages [jsii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsii-1.97.0.tar.gz tmp/jsii-1.98.0.tar.gz --markdown 20240603/j/jsii/1.97.0-1.98.0/README.md --exclude *.pyd
+[2024-06-03 16:12:31] INFO root fetch - processPackages [specklepy]: executing diffoscope
+[2024-06-03 16:12:31] INFO root fetch - processPackages [specklepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklepy-2.9.0.tar.gz tmp/specklepy-2.9.1.tar.gz --markdown 20240603/s/specklepy/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-06-03 16:12:31] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.3.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - processPackages [pydatastreams]: Remove: archive file [/home/abi/fetcher/tmp/pydatastreams-1.2.4.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - main [MainThread]: End processing [pydatastreams]: success
+[2024-06-03 16:12:31] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/40/95/f4cf320017b8d5c526453ba7a1ff1425834561d1bcc49fe9ecbd38b64430/comet_toolbox-0.4.4.tar.gz
+[2024-06-03 16:12:31] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.2.0.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.2.0a0.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - main [MainThread]: End processing [shipyard-census]: success
+[2024-06-03 16:12:31] INFO root fetch - processPackages [deknp]: Remove: archive file [/home/abi/fetcher/tmp/deknp-0.1.8.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - processPackages [deknp]: Remove: archive file [/home/abi/fetcher/tmp/deknp-0.1.9.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - main [MainThread]: End processing [deknp]: success
+[2024-06-03 16:12:31] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.8.9.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.0.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-06-03 16:12:31] INFO root fetch - processPackages [f4enix]: Remove: archive file [/home/abi/fetcher/tmp/f4enix-0.5.2.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - processPackages [f4enix]: Remove: archive file [/home/abi/fetcher/tmp/f4enix-0.6.0.tar.gz]
+[2024-06-03 16:12:31] INFO root fetch - main [MainThread]: End processing [f4enix]: success
+[2024-06-03 16:12:32] INFO root fetch - processPackages [specklepy]: Remove: archive file [/home/abi/fetcher/tmp/specklepy-2.9.0.tar.gz]
+[2024-06-03 16:12:32] INFO root fetch - processPackages [specklepy]: Remove: archive file [/home/abi/fetcher/tmp/specklepy-2.9.1.tar.gz]
+[2024-06-03 16:12:32] INFO root fetch - main [MainThread]: End processing [specklepy]: success
+[2024-06-03 16:12:32] INFO root fetch - processPackages [comet-toolbox]: executing diffoscope
+[2024-06-03 16:12:32] INFO root fetch - processPackages [comet-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_toolbox-0.4.3.tar.gz tmp/comet_toolbox-0.4.4.tar.gz --markdown 20240603/c/comet-toolbox/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-06-03 16:12:33] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.4.3.tar.gz]
+[2024-06-03 16:12:33] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.4.4.tar.gz]
+[2024-06-03 16:12:33] INFO root fetch - main [MainThread]: End processing [comet-toolbox]: success
+[2024-06-03 16:12:44] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.97.0.tar.gz]
+[2024-06-03 16:12:44] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.98.0.tar.gz]
+[2024-06-03 16:12:44] INFO root fetch - main [MainThread]: End processing [jsii]: success
+[2024-06-03 16:12:44] INFO root fetch - main [MainThread]: Store serial: [23503998]
