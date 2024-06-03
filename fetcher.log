@@ -8282,3 +8282,35 @@ EOFError: EOF read where object expected
 [2024-06-03 09:10:56] INFO root fetch - processPackages [glglue]: Remove: archive file [/home/abi/fetcher/tmp/glglue-2.5.0.tar.gz]
 [2024-06-03 09:10:56] INFO root fetch - main [MainThread]: End processing [glglue]: success
 [2024-06-03 09:10:56] INFO root fetch - main [MainThread]: Store serial: [23497645]
+[2024-06-03 09:13:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497645]
+[2024-06-03 09:13:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hx-odmetrics
+[2024-06-03 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: copilothistoryexporter
+[2024-06-03 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiconnectpy
+[2024-06-03 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bwalign
+[2024-06-03 09:13:05] INFO root fetch - processPackages [bwalign]: New version: [1.1.4] Old Version: [1.0.4]
+[2024-06-03 09:13:05] INFO root fetch - processPackages [copilothistoryexporter]: New version: [1.0.3.8] Old Version: [1.0.3.6]
+[2024-06-03 09:13:05] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/78/b4/988e006fea1cc5cd1a00750fe09c90a9d7e46f80ac72c30d27f39ad8701e/bwalign-1.0.4.tar.gz
+[2024-06-03 09:13:05] WARNING root fetch - processPackages [hx-odmetrics]: Skipping, unable to determine old version
+[2024-06-03 09:13:05] INFO root fetch - main [MainThread]: End processing [hx-odmetrics] error
+[2024-06-03 09:13:05] INFO root fetch - processPackages [audiconnectpy]: New version: [2.3.0] Old Version: [2.2.9]
+[2024-06-03 09:13:05] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/08/f5/3512cfd00ca6d64f293f2cff126af5474e3f4b542a0a18ec39863bd540bb/copilothistoryexporter-1.0.3.8.tar.gz
+[2024-06-03 09:13:05] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/15/3e/5210d8c1449bade32e318b38779e49fb08c717e1613c445940937735749f/audiconnectpy-2.2.9.tar.gz
+[2024-06-03 09:13:05] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/a6/f6/4c50278fcb173e464c49034f93a3f14e38cbf0f4268461b1abbe60088c29/bwalign-1.1.4.tar.gz
+[2024-06-03 09:13:05] INFO root fetch - processPackages [copilothistoryexporter]: executing diffoscope
+[2024-06-03 09:13:05] INFO root fetch - processPackages [copilothistoryexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copilothistoryexporter-1.0.3.6.tar.gz tmp/copilothistoryexporter-1.0.3.8.tar.gz --markdown 20240603/c/copilothistoryexporter/1.0.3.6-1.0.3.8/README.md --exclude *.pyd
+[2024-06-03 09:13:05] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 09:13:05] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.0.4.tar.gz tmp/bwalign-1.1.4.tar.gz --markdown 20240603/b/bwalign/1.0.4-1.1.4/README.md --exclude *.pyd
+[2024-06-03 09:13:05] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/4b/bd/3cbd97306a8a5d273dd72b7fb954ae9d01e484fc1171647fc4c76fa9313b/audiconnectpy-2.3.0.tar.gz
+[2024-06-03 09:13:05] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2024-06-03 09:13:05] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-2.2.9.tar.gz tmp/audiconnectpy-2.3.0.tar.gz --markdown 20240603/a/audiconnectpy/2.2.9-2.3.0/README.md --exclude *.pyd
+[2024-06-03 09:13:06] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.0.3.6.tar.gz]
+[2024-06-03 09:13:06] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.0.3.8.tar.gz]
+[2024-06-03 09:13:06] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter]: success
+[2024-06-03 09:13:06] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.4.tar.gz]
+[2024-06-03 09:13:06] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.1.4.tar.gz]
+[2024-06-03 09:13:06] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 09:13:06] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.9.tar.gz]
+[2024-06-03 09:13:06] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.3.0.tar.gz]
+[2024-06-03 09:13:06] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2024-06-03 09:13:06] INFO root fetch - main [MainThread]: Store serial: [23497694]
