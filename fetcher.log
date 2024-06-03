@@ -10546,3 +10546,59 @@ EOFError: EOF read where object expected
 [2024-06-03 10:50:30] INFO root fetch - processPackages [asposeslidescloud]: Remove: archive file [/home/abi/fetcher/tmp/asposeslidescloud-24.5.0.tar.gz]
 [2024-06-03 10:50:30] INFO root fetch - main [MainThread]: End processing [asposeslidescloud]: success
 [2024-06-03 10:50:30] INFO root fetch - main [MainThread]: Store serial: [23498827]
+[2024-06-03 10:52:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498827]
+[2024-06-03 10:52:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huhk
+[2024-06-03 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etos-lib
+[2024-06-03 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fcatng
+[2024-06-03 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-realperson
+[2024-06-03 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynocaptcha
+[2024-06-03 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ferncrypter
+[2024-06-03 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docmesh-core
+[2024-06-03 10:52:41] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 10:52:41] INFO root fetch - processPackages [ferncrypter]: New version: [1.3] Old Version: [1.2]
+[2024-06-03 10:52:41] WARNING root fetch - processPackages [fcatng]: Skipping, unable to determine old version
+[2024-06-03 10:52:41] INFO root fetch - main [MainThread]: End processing [fcatng] error
+[2024-06-03 10:52:41] INFO root fetch - processPackages [antchain-realperson]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-06-03 10:52:41] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/a3/79/d9bc004bfc279a44ed20456d2291276a0531edffff8ccdb16e8541ea48ca/docmesh_core-0.0.8.tar.gz
+[2024-06-03 10:52:41] INFO root fetch - processPackages [ferncrypter]: Downloading https://files.pythonhosted.org/packages/a3/79/9726e5a7d504b96e2c09d1fd11e77e534556c6e0c1952d8b59f14693c2e9/ferncrypter-1.2-py3-none-any.whl
+[2024-06-03 10:52:41] INFO root fetch - processPackages [huhk]: New version: [3.8.6] Old Version: [3.8.5]
+[2024-06-03 10:52:41] INFO root fetch - processPackages [pynocaptcha]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 10:52:41] INFO root fetch - processPackages [etos-lib]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-06-03 10:52:41] INFO root fetch - processPackages [ferncrypter]: Downloading https://files.pythonhosted.org/packages/e7/ef/d411d7a77ec9659c92369775ac735d4698f5284cfa18e1586b3bd9b1ffdd/ferncrypter-1.3-py3-none-any.whl
+[2024-06-03 10:52:41] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/d6/89/4e5e06acbd9fd64c128954c7f0f43c0b5423e73d15cb7075e3e4d27c55f4/docmesh_core-0.0.9.tar.gz
+[2024-06-03 10:52:41] INFO root fetch - processPackages [antchain-realperson]: Downloading https://files.pythonhosted.org/packages/eb/a2/3f01d4e32b37abcbd4203da7171764d82654cdcc3c5345c10e16c8cc1026/antchain_realperson-1.8.0.tar.gz
+[2024-06-03 10:52:41] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/41/3e/c8c5acc9e4ddcec2a36a386cf0bc7d5b395e546d44ee822a28b38c0c881b/etos_lib-4.2.0.tar.gz
+[2024-06-03 10:52:41] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/56/bb/fbdfc56d0dc1a81811dd1ca2193e693787173f1e2f85d7ee958548b198cb/huhk-3.8.5.tar.gz
+[2024-06-03 10:52:41] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/42/8a/22fcf8e8a2de9c8ee4e97e20b6441b64cd534301019d22f2d668020958f6/pynocaptcha-1.9.0.tar.gz
+[2024-06-03 10:52:41] WARNING root fetch - processPackages [huhk]: Skipping package: exceeds size limit 21166342>=10485760
+[2024-06-03 10:52:41] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2024-06-03 10:52:41] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-06-03 10:52:41] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.8.tar.gz tmp/docmesh_core-0.0.9.tar.gz --markdown 20240603/d/docmesh-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 10:52:41] INFO root fetch - processPackages [ferncrypter]: executing diffoscope
+[2024-06-03 10:52:41] INFO root fetch - processPackages [ferncrypter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferncrypter-1.2-py3-none-any.whl.zip tmp/ferncrypter-1.3-py3-none-any.whl.zip --markdown 20240603/f/ferncrypter/1.2-1.3/README.md --exclude *.pyd
+[2024-06-03 10:52:41] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/a4/d3/7feed93bb2fb9acf5de39bf6c4c35852e4fc7812b63ecb10eed4889ac5c2/etos_lib-4.3.0.tar.gz
+[2024-06-03 10:52:41] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/68/0f/5e700e5f45aa5b73ba5a81fe651e48a350ddc8a7132f320849cded6a03b4/pynocaptcha-1.9.1.tar.gz
+[2024-06-03 10:52:41] INFO root fetch - processPackages [antchain-realperson]: Downloading https://files.pythonhosted.org/packages/4a/82/aad5948d1047eab3b05c7870556ffed9533375a00479896aaaa7ac706ece/antchain_realperson-1.9.0.tar.gz
+[2024-06-03 10:52:42] INFO root fetch - processPackages [etos-lib]: executing diffoscope
+[2024-06-03 10:52:42] INFO root fetch - processPackages [etos-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_lib-4.2.0.tar.gz tmp/etos_lib-4.3.0.tar.gz --markdown 20240603/e/etos-lib/4.2.0-4.3.0/README.md --exclude *.pyd
+[2024-06-03 10:52:42] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2024-06-03 10:52:42] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.9.0.tar.gz tmp/pynocaptcha-1.9.1.tar.gz --markdown 20240603/p/pynocaptcha/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 10:52:42] INFO root fetch - processPackages [antchain-realperson]: executing diffoscope
+[2024-06-03 10:52:42] INFO root fetch - processPackages [antchain-realperson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_realperson-1.8.0.tar.gz tmp/antchain_realperson-1.9.0.tar.gz --markdown 20240603/a/antchain-realperson/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-06-03 10:52:42] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.8.tar.gz]
+[2024-06-03 10:52:42] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.9.tar.gz]
+[2024-06-03 10:52:42] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-06-03 10:52:42] INFO root fetch - processPackages [ferncrypter]: Remove: archive file [/home/abi/fetcher/tmp/ferncrypter-1.2-py3-none-any.whl.zip]
+[2024-06-03 10:52:42] INFO root fetch - processPackages [ferncrypter]: Remove: archive file [/home/abi/fetcher/tmp/ferncrypter-1.3-py3-none-any.whl.zip]
+[2024-06-03 10:52:42] INFO root fetch - main [MainThread]: End processing [ferncrypter]: success
+[2024-06-03 10:52:42] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.9.0.tar.gz]
+[2024-06-03 10:52:42] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.9.1.tar.gz]
+[2024-06-03 10:52:42] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2024-06-03 10:52:42] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-4.2.0.tar.gz]
+[2024-06-03 10:52:42] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-4.3.0.tar.gz]
+[2024-06-03 10:52:42] INFO root fetch - main [MainThread]: End processing [etos-lib]: success
+[2024-06-03 10:52:42] INFO root fetch - processPackages [antchain-realperson]: Remove: archive file [/home/abi/fetcher/tmp/antchain_realperson-1.8.0.tar.gz]
+[2024-06-03 10:52:42] INFO root fetch - processPackages [antchain-realperson]: Remove: archive file [/home/abi/fetcher/tmp/antchain_realperson-1.9.0.tar.gz]
+[2024-06-03 10:52:42] INFO root fetch - main [MainThread]: End processing [antchain-realperson]: success
+[2024-06-03 10:52:42] INFO root fetch - main [MainThread]: Store serial: [23498860]
