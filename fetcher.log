@@ -5085,3 +5085,33 @@ EOFError: EOF read where object expected
 [2024-06-03 05:50:46] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.6-py3-none-any.whl.zip]
 [2024-06-03 05:50:46] INFO root fetch - main [MainThread]: End processing [toyai]: success
 [2024-06-03 05:50:46] INFO root fetch - main [MainThread]: Store serial: [23496400]
+[2024-06-03 05:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496400]
+[2024-06-03 05:52:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simpleai-base
+[2024-06-03 05:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-115
+[2024-06-03 05:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deshi-hello-world
+[2024-06-03 05:52:54] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.9] Old Version: [0.8]
+[2024-06-03 05:52:54] INFO root fetch - processPackages [python-115]: New version: [0.0.8.7.9] Old Version: [0.0.8.7.8]
+[2024-06-03 05:52:54] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/ec/13/4df71be3dfc21da4aa9d3749220d650f000086fc744bba893bd63f3d619b/deshi_hello_world-0.8.tar.gz
+[2024-06-03 05:52:54] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/c3/b4/a3e553ae98c9902f23fe6e5a44eb39e97a3e0703e10e55ffd540a644f30e/python_115-0.0.8.7.8.tar.gz
+[2024-06-03 05:52:54] INFO root fetch - processPackages [simpleai-base]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-06-03 05:52:54] INFO root fetch - processPackages [simpleai-base]: Downloading https://files.pythonhosted.org/packages/ea/39/3ca3f686f0f07c3f38058491424eb62f4a162481cdce95c3af6fcf3397ff/simpleai_base-0.3.7-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 05:52:54] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/3c/dc/808ede2e49cb9010873815e5a07cfb0aee1aac2f60438cef994da1555c44/deshi_hello_world-0.9.tar.gz
+[2024-06-03 05:52:54] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 05:52:54] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.8.tar.gz tmp/deshi_hello_world-0.9.tar.gz --markdown 20240603/d/deshi-hello-world/0.8-0.9/README.md --exclude *.pyd
+[2024-06-03 05:52:54] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/4b/e8/676d27c9c1f5b0f58be2fe32d1d14ee98cd47352b8cb2b14543e96d68238/python_115-0.0.8.7.9.tar.gz
+[2024-06-03 05:52:54] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-06-03 05:52:54] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.7.8.tar.gz tmp/python_115-0.0.8.7.9.tar.gz --markdown 20240603/p/python-115/0.0.8.7.8-0.0.8.7.9/README.md --exclude *.pyd
+[2024-06-03 05:52:55] INFO root fetch - processPackages [simpleai-base]: Downloading https://files.pythonhosted.org/packages/5d/13/a126845fa35e5817e1ec8e2edf53ca76cc39bc06f4f78226b25dc6131d1c/simpleai_base-0.3.8-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-06-03 05:52:55] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.8.tar.gz]
+[2024-06-03 05:52:55] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.9.tar.gz]
+[2024-06-03 05:52:55] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 05:52:55] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.8.tar.gz]
+[2024-06-03 05:52:55] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.9.tar.gz]
+[2024-06-03 05:52:55] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-06-03 05:52:56] INFO root fetch - processPackages [simpleai-base]: executing diffoscope
+[2024-06-03 05:52:56] INFO root fetch - processPackages [simpleai-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleai_base-0.3.7-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/simpleai_base-0.3.8-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240603/s/simpleai-base/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-06-03 05:53:41] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.7-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 05:53:41] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.8-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-06-03 05:53:41] INFO root fetch - main [MainThread]: End processing [simpleai-base]: success
+[2024-06-03 05:53:41] INFO root fetch - main [MainThread]: Store serial: [23496421]
