@@ -8314,3 +8314,60 @@ EOFError: EOF read where object expected
 [2024-06-03 09:13:06] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.3.0.tar.gz]
 [2024-06-03 09:13:06] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
 [2024-06-03 09:13:06] INFO root fetch - main [MainThread]: Store serial: [23497694]
+[2024-06-03 09:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497694]
+[2024-06-03 09:15:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 09:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cwsgiutils
+[2024-06-03 09:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paibox
+[2024-06-03 09:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: html_summary
+[2024-06-03 09:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2024-06-03 09:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simulab
+[2024-06-03 09:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansible-inventory-to-ssh-config
+[2024-06-03 09:15:16] INFO root fetch - processPackages [simulab]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 09:15:16] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-06-03 09:15:16] INFO root fetch - processPackages [html_summary]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-06-03 09:15:16] INFO root fetch - processPackages [simulab]: Downloading https://files.pythonhosted.org/packages/0e/37/d271a6aaf688c38739225d5ddae88b4cb60c6ed7e3a214f5d1cbdf01f096/simulab-0.0.3.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [ansible-inventory-to-ssh-config]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-06-03 09:15:16] INFO root fetch - processPackages [paibox]: New version: [1.1.0a3] Old Version: [1.1.0a2]
+[2024-06-03 09:15:16] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-06-03 09:15:16] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [html_summary]: Downloading https://files.pythonhosted.org/packages/9a/d5/31145a565f8f2c06e5cdd1070ca016b7e6bf6c0853398fc2ecc87a0b8155/html_summary-0.3.0-py3-none-any.whl
+[2024-06-03 09:15:16] INFO root fetch - processPackages [ansible-inventory-to-ssh-config]: Downloading https://files.pythonhosted.org/packages/42/bf/5f30588661418b2a455af493f1404690d6aa2d54cf94b45c0fe26e949c12/ansible-inventory-to-ssh-config-1.1.0.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [paibox]: Downloading https://files.pythonhosted.org/packages/88/4a/a92d5716571583b558614c801163fe237b1ac8615c003523f700997ac598/paibox-1.1.0a2.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [simulab]: Downloading https://files.pythonhosted.org/packages/10/2c/924f144e316a14431c50a342ddcb0e5a392690714db2a76b3c478c0417c0/simulab-0.0.4.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-06-03 09:15:16] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240603/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-06-03 09:15:16] INFO root fetch - processPackages [simulab]: executing diffoscope
+[2024-06-03 09:15:16] INFO root fetch - processPackages [simulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulab-0.0.3.tar.gz tmp/simulab-0.0.4.tar.gz --markdown 20240603/s/simulab/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 09:15:16] INFO root fetch - processPackages [html_summary]: Downloading https://files.pythonhosted.org/packages/14/a1/8333c1cfdc7ca3947e6ec096f662636e37b2eda282a63fa485ea67836499/html_summary-0.3.1-py3-none-any.whl
+[2024-06-03 09:15:16] INFO root fetch - processPackages [paibox]: Downloading https://files.pythonhosted.org/packages/c3/60/8b229e778a3df8e6b9ad9c72f721853f88a9cdd648b5d7d7d68207cdc579/paibox-1.1.0a3.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [ansible-inventory-to-ssh-config]: Downloading https://files.pythonhosted.org/packages/9a/8e/46089dc40bebf5bc3ff0d9f5d8e3bda8fb62d91cd21972c16077d1133443/ansible_inventory_to_ssh_config-1.1.1.tar.gz
+[2024-06-03 09:15:16] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-06-03 09:15:17] INFO root fetch - processPackages [html_summary]: executing diffoscope
+[2024-06-03 09:15:17] INFO root fetch - processPackages [html_summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_summary-0.3.0-py3-none-any.whl.zip tmp/html_summary-0.3.1-py3-none-any.whl.zip --markdown 20240603/h/html_summary/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-06-03 09:15:17] INFO root fetch - processPackages [paibox]: executing diffoscope
+[2024-06-03 09:15:17] INFO root fetch - processPackages [paibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paibox-1.1.0a2.tar.gz tmp/paibox-1.1.0a3.tar.gz --markdown 20240603/p/paibox/1.1.0a2-1.1.0a3/README.md --exclude *.pyd
+[2024-06-03 09:15:17] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-06-03 09:15:17] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240603/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-06-03 09:15:17] INFO root fetch - processPackages [ansible-inventory-to-ssh-config]: executing diffoscope
+[2024-06-03 09:15:17] INFO root fetch - processPackages [ansible-inventory-to-ssh-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-inventory-to-ssh-config-1.1.0.tar.gz tmp/ansible_inventory_to_ssh_config-1.1.1.tar.gz --markdown 20240603/a/ansible-inventory-to-ssh-config/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-06-03 09:15:17] INFO root fetch - processPackages [simulab]: Remove: archive file [/home/abi/fetcher/tmp/simulab-0.0.3.tar.gz]
+[2024-06-03 09:15:17] INFO root fetch - processPackages [simulab]: Remove: archive file [/home/abi/fetcher/tmp/simulab-0.0.4.tar.gz]
+[2024-06-03 09:15:17] INFO root fetch - main [MainThread]: End processing [simulab]: success
+[2024-06-03 09:15:17] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-06-03 09:15:17] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-06-03 09:15:17] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-06-03 09:15:17] INFO root fetch - processPackages [html_summary]: Remove: archive file [/home/abi/fetcher/tmp/html_summary-0.3.0-py3-none-any.whl.zip]
+[2024-06-03 09:15:17] INFO root fetch - processPackages [html_summary]: Remove: archive file [/home/abi/fetcher/tmp/html_summary-0.3.1-py3-none-any.whl.zip]
+[2024-06-03 09:15:17] INFO root fetch - main [MainThread]: End processing [html_summary]: success
+[2024-06-03 09:15:17] INFO root fetch - processPackages [ansible-inventory-to-ssh-config]: Remove: archive file [/home/abi/fetcher/tmp/ansible-inventory-to-ssh-config-1.1.0.tar.gz]
+[2024-06-03 09:15:17] INFO root fetch - processPackages [ansible-inventory-to-ssh-config]: Remove: archive file [/home/abi/fetcher/tmp/ansible_inventory_to_ssh_config-1.1.1.tar.gz]
+[2024-06-03 09:15:17] INFO root fetch - main [MainThread]: End processing [ansible-inventory-to-ssh-config]: success
+[2024-06-03 09:15:17] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-06-03 09:15:17] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-06-03 09:15:17] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-06-03 09:15:18] INFO root fetch - processPackages [paibox]: Remove: archive file [/home/abi/fetcher/tmp/paibox-1.1.0a2.tar.gz]
+[2024-06-03 09:15:18] INFO root fetch - processPackages [paibox]: Remove: archive file [/home/abi/fetcher/tmp/paibox-1.1.0a3.tar.gz]
+[2024-06-03 09:15:18] INFO root fetch - main [MainThread]: End processing [paibox]: success
+[2024-06-03 09:15:18] INFO root fetch - main [MainThread]: Store serial: [23497717]
