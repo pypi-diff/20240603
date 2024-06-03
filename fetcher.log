@@ -7496,3 +7496,15 @@ EOFError: EOF read where object expected
 [2024-06-03 08:19:44] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.9.tar.gz]
 [2024-06-03 08:19:44] INFO root fetch - main [MainThread]: End processing [md2weasypdf]: success
 [2024-06-03 08:19:44] INFO root fetch - main [MainThread]: Store serial: [23497301]
+[2024-06-03 08:21:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497301]
+[2024-06-03 08:21:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 08:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trio-bybit
+[2024-06-03 08:21:53] INFO root fetch - processPackages [trio-bybit]: New version: [0.3.1b1] Old Version: [0.3.0]
+[2024-06-03 08:21:53] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/d1/7c/0f7e5f23a89823a8d06bd373ee60577ad124f0a6f9b0fbff4da7343874f6/trio_bybit-0.3.0.tar.gz
+[2024-06-03 08:21:53] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/88/f0/425df1865ef2f1e91b769ee4bb58dd8851ccbd5f1014c9b193f41390769e/trio_bybit-0.3.1b1.tar.gz
+[2024-06-03 08:21:53] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-06-03 08:21:53] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.3.0.tar.gz tmp/trio_bybit-0.3.1b1.tar.gz --markdown 20240603/t/trio-bybit/0.3.0-0.3.1b1/README.md --exclude *.pyd
+[2024-06-03 08:21:54] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.3.0.tar.gz]
+[2024-06-03 08:21:54] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.3.1b1.tar.gz]
+[2024-06-03 08:21:54] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-06-03 08:21:54] INFO root fetch - main [MainThread]: Store serial: [23497305]
