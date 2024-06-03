@@ -11206,3 +11206,47 @@ EOFError: EOF read where object expected
 [2024-06-03 11:12:27] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev98.tar.gz]
 [2024-06-03 11:12:27] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2024-06-03 11:12:27] INFO root fetch - main [MainThread]: Store serial: [23499293]
+[2024-06-03 11:14:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499293]
+[2024-06-03 11:14:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 11:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antigranular
+[2024-06-03 11:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libSGM
+[2024-06-03 11:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdup
+[2024-06-03 11:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-command
+[2024-06-03 11:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smbclientng
+[2024-06-03 11:14:35] INFO root fetch - processPackages [smbclientng]: New version: [1.2] Old Version: [1.1]
+[2024-06-03 11:14:36] INFO root fetch - processPackages [fastdup]: New version: [2.0.19] Old Version: [1.85]
+[2024-06-03 11:14:36] INFO root fetch - processPackages [smbclientng]: Downloading https://files.pythonhosted.org/packages/ef/bb/2ff7878a6988825d5f62853617482f553666bad21b142497e3e51da167cf/smbclientng-1.1-py3-none-any.whl
+[2024-06-03 11:14:36] INFO root fetch - processPackages [antigranular]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-06-03 11:14:36] INFO root fetch - processPackages [libSGM]: New version: [0.4.6a1] Old Version: [0.4.5]
+[2024-06-03 11:14:36] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-06-03 11:14:36] INFO root fetch - processPackages [libSGM]: Downloading https://files.pythonhosted.org/packages/5f/d9/cc5d6432012c6ae9017bccc48224648cc5f8dc70596ee49608eabd341578/libSGM-0.4.5.tar.gz
+[2024-06-03 11:14:36] INFO root fetch - processPackages [antigranular]: Downloading https://files.pythonhosted.org/packages/3d/5a/7cdc67ddcc582b419e3a62a43b7a8e706efa111c695e4a8de7f5cf209ab3/antigranular-0.2.9.tar.gz
+[2024-06-03 11:14:36] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/47/43/a3adac9bc4d53ba881a27cbac335b37f2762bce299387be2e291f04f52f7/fastdup-1.85-cp39-cp39-manylinux_2_31_x86_64.whl
+[2024-06-03 11:14:36] INFO root fetch - processPackages [smbclientng]: Downloading https://files.pythonhosted.org/packages/e5/a0/15e922c7cd79aa3e4d6ae090517f9d8909015cdbcec5cfba13a904733903/smbclientng-1.2-py3-none-any.whl
+[2024-06-03 11:14:36] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-06-03 11:14:36] INFO root fetch - processPackages [smbclientng]: executing diffoscope
+[2024-06-03 11:14:36] INFO root fetch - processPackages [smbclientng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smbclientng-1.1-py3-none-any.whl.zip tmp/smbclientng-1.2-py3-none-any.whl.zip --markdown 20240603/s/smbclientng/1.1-1.2/README.md --exclude *.pyd
+[2024-06-03 11:14:36] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75199081>=10485760
+[2024-06-03 11:14:36] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2024-06-03 11:14:36] INFO root fetch - processPackages [libSGM]: Downloading https://files.pythonhosted.org/packages/d7/b2/d57257524d9d88540a391a9dd753d3aca0114ac4b3cc6038a6c55b06268a/libsgm-0.4.6a1.tar.gz
+[2024-06-03 11:14:36] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-06-03 11:14:36] INFO root fetch - processPackages [antigranular]: Downloading https://files.pythonhosted.org/packages/13/c4/0d294ea4ad0c1e88a4d77a97f3b978e22c26a27f24ff9182d941c6c1a7b9/antigranular-0.3.0.tar.gz
+[2024-06-03 11:14:36] INFO root fetch - processPackages [libSGM]: executing diffoscope
+[2024-06-03 11:14:36] INFO root fetch - processPackages [libSGM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libSGM-0.4.5.tar.gz tmp/libsgm-0.4.6a1.tar.gz --markdown 20240603/l/libSGM/0.4.5-0.4.6a1/README.md --exclude *.pyd
+[2024-06-03 11:14:36] INFO root fetch - processPackages [antigranular]: executing diffoscope
+[2024-06-03 11:14:36] INFO root fetch - processPackages [antigranular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigranular-0.2.9.tar.gz tmp/antigranular-0.3.0.tar.gz --markdown 20240603/a/antigranular/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-06-03 11:14:36] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-06-03 11:14:36] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240603/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-06-03 11:14:37] INFO root fetch - processPackages [smbclientng]: Remove: archive file [/home/abi/fetcher/tmp/smbclientng-1.1-py3-none-any.whl.zip]
+[2024-06-03 11:14:37] INFO root fetch - processPackages [smbclientng]: Remove: archive file [/home/abi/fetcher/tmp/smbclientng-1.2-py3-none-any.whl.zip]
+[2024-06-03 11:14:37] INFO root fetch - main [MainThread]: End processing [smbclientng]: success
+[2024-06-03 11:14:37] INFO root fetch - processPackages [antigranular]: Remove: archive file [/home/abi/fetcher/tmp/antigranular-0.2.9.tar.gz]
+[2024-06-03 11:14:37] INFO root fetch - processPackages [antigranular]: Remove: archive file [/home/abi/fetcher/tmp/antigranular-0.3.0.tar.gz]
+[2024-06-03 11:14:37] INFO root fetch - main [MainThread]: End processing [antigranular]: success
+[2024-06-03 11:14:37] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-06-03 11:14:37] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-06-03 11:14:37] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-06-03 11:14:37] INFO root fetch - processPackages [libSGM]: Remove: archive file [/home/abi/fetcher/tmp/libSGM-0.4.5.tar.gz]
+[2024-06-03 11:14:37] INFO root fetch - processPackages [libSGM]: Remove: archive file [/home/abi/fetcher/tmp/libsgm-0.4.6a1.tar.gz]
+[2024-06-03 11:14:37] INFO root fetch - main [MainThread]: End processing [libSGM]: success
+[2024-06-03 11:14:37] INFO root fetch - main [MainThread]: Store serial: [23499308]
