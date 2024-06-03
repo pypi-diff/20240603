@@ -3419,3 +3419,18 @@ EOFError: EOF read where object expected
 [2024-06-03 04:09:37] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_winsvc-2.3.tar.gz]
 [2024-06-03 04:09:37] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2024-06-03 04:09:37] INFO root fetch - main [MainThread]: Store serial: [23495577]
+[2024-06-03 04:11:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495577]
+[2024-06-03 04:11:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 04:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runevery
+[2024-06-03 04:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baml-py
+[2024-06-03 04:11:46] WARNING root fetch - processPackages [runevery]: Skipping, unable to determine old version
+[2024-06-03 04:11:46] INFO root fetch - main [MainThread]: End processing [runevery] error
+[2024-06-03 04:11:46] INFO root fetch - processPackages [baml-py]: New version: [0.33.1] Old Version: [0.33.0]
+[2024-06-03 04:11:46] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/a4/85/2fdfea2bbdac09ecc8080f2f3266e23a74903ec21887a5d6f8ea60d4f607/baml_py-0.33.0-cp38-abi3-win_amd64.whl
+[2024-06-03 04:11:46] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/73/d8/edf395887e8170754fdbefffb000f9fd24913d693ceb6d1986b9727ac58d/baml_py-0.33.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-06-03 04:11:48] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-06-03 04:11:48] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.33.0-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.33.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240603/b/baml-py/0.33.0-0.33.1/README.md --exclude *.pyd
+[2024-06-03 04:11:49] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.33.0-cp38-abi3-win_amd64.whl.zip]
+[2024-06-03 04:11:49] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.33.1-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-06-03 04:11:49] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-06-03 04:11:49] INFO root fetch - main [MainThread]: Store serial: [23495584]
