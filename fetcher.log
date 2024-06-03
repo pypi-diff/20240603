@@ -1882,3 +1882,45 @@
 [2024-06-03 02:26:52] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.9.tar.gz]
 [2024-06-03 02:26:52] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-06-03 02:26:52] INFO root fetch - main [MainThread]: Store serial: [23494880]
+[2024-06-03 02:28:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494880]
+[2024-06-03 02:29:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 02:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-simple-deploy
+[2024-06-03 02:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-serverless-clamscan
+[2024-06-03 02:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiresense
+[2024-06-03 02:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-06-03 02:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyDNARepeatFinder
+[2024-06-03 02:29:00] INFO root fetch - processPackages [PyDNARepeatFinder]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-06-03 02:29:00] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-06-03 02:29:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-06-03 02:29:00] WARNING root fetch - processPackages [wiresense]: Skipping, unable to determine old version
+[2024-06-03 02:29:00] INFO root fetch - main [MainThread]: End processing [wiresense] error
+[2024-06-03 02:29:00] INFO root fetch - processPackages [PyDNARepeatFinder]: Downloading https://files.pythonhosted.org/packages/01/aa/d05fffdc20b408655089a53c3e3c034c4b880e187e243a76977bd9371a15/pydnarepeatfinder-0.2.4.tar.gz
+[2024-06-03 02:29:00] INFO root fetch - processPackages [django-simple-deploy]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-06-03 02:29:00] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-06-03 02:29:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-06-03 02:29:01] INFO root fetch - processPackages [django-simple-deploy]: Downloading https://files.pythonhosted.org/packages/89/25/1a4b54f817ce2d9f4646cc6d98317c9de985cd716bac3da254799abe1813/django_simple_deploy-0.6.5.tar.gz
+[2024-06-03 02:29:01] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-06-03 02:29:01] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-06-03 02:29:01] INFO root fetch - processPackages [PyDNARepeatFinder]: Downloading https://files.pythonhosted.org/packages/77/89/8cb1062f8e6f62523c9a279bdd29d001fde29279d31dfc762e901a29b576/pydnarepeatfinder-0.2.5.tar.gz
+[2024-06-03 02:29:01] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-06-03 02:29:01] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240603/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-06-03 02:29:01] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-06-03 02:29:01] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240603/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-06-03 02:29:01] INFO root fetch - processPackages [PyDNARepeatFinder]: executing diffoscope
+[2024-06-03 02:29:01] INFO root fetch - processPackages [PyDNARepeatFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydnarepeatfinder-0.2.4.tar.gz tmp/pydnarepeatfinder-0.2.5.tar.gz --markdown 20240603/P/PyDNARepeatFinder/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-06-03 02:29:01] INFO root fetch - processPackages [django-simple-deploy]: Downloading https://files.pythonhosted.org/packages/c8/de/93ce97345a74b86e63ef9503202a30219a2412fa68ad8b0d96240da1e55f/django_simple_deploy-0.7.0.tar.gz
+[2024-06-03 02:29:01] INFO root fetch - processPackages [django-simple-deploy]: executing diffoscope
+[2024-06-03 02:29:01] INFO root fetch - processPackages [django-simple-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_deploy-0.6.5.tar.gz tmp/django_simple_deploy-0.7.0.tar.gz --markdown 20240603/d/django-simple-deploy/0.6.5-0.7.0/README.md --exclude *.pyd
+[2024-06-03 02:29:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-06-03 02:29:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-06-03 02:29:02] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-06-03 02:29:02] INFO root fetch - processPackages [PyDNARepeatFinder]: Remove: archive file [/home/abi/fetcher/tmp/pydnarepeatfinder-0.2.4.tar.gz]
+[2024-06-03 02:29:02] INFO root fetch - processPackages [PyDNARepeatFinder]: Remove: archive file [/home/abi/fetcher/tmp/pydnarepeatfinder-0.2.5.tar.gz]
+[2024-06-03 02:29:02] INFO root fetch - main [MainThread]: End processing [PyDNARepeatFinder]: success
+[2024-06-03 02:29:02] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-06-03 02:29:02] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-06-03 02:29:02] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-06-03 02:29:02] INFO root fetch - processPackages [django-simple-deploy]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_deploy-0.6.5.tar.gz]
+[2024-06-03 02:29:02] INFO root fetch - processPackages [django-simple-deploy]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_deploy-0.7.0.tar.gz]
+[2024-06-03 02:29:02] INFO root fetch - main [MainThread]: End processing [django-simple-deploy]: success
+[2024-06-03 02:29:02] INFO root fetch - main [MainThread]: Store serial: [23494898]
