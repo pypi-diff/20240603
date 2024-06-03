@@ -7006,3 +7006,33 @@ EOFError: EOF read where object expected
 [2024-06-03 07:48:59] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
 [2024-06-03 07:48:59] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
 [2024-06-03 07:48:59] INFO root fetch - main [MainThread]: Store serial: [23497116]
+[2024-06-03 07:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497116]
+[2024-06-03 07:51:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 07:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-plugin
+[2024-06-03 07:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhousf-lib
+[2024-06-03 07:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blue-stability
+[2024-06-03 07:51:07] INFO root fetch - processPackages [blue-plugin]: New version: [3.73.1] Old Version: [3.72.1]
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/d0/3c/a64d0ab6818bee790bc9afeb29a6ca7a0c04426ea8ca3a695f8edbe34931/blue_plugin-3.72.1.tar.gz
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-stability]: New version: [4.42.1] Old Version: [4.41.1]
+[2024-06-03 07:51:08] INFO root fetch - processPackages [zhousf-lib]: New version: [1.6.0] Old Version: [1.5.8]
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-stability]: Downloading https://files.pythonhosted.org/packages/6d/34/16a56e96f4d0abc1b511068c426eb5b85754849133e9bd2e05f49dc80c9c/blue_stability-4.41.1.tar.gz
+[2024-06-03 07:51:08] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/cd/19/60862a6d657ead8f4d24b92dc3defef3c9ccc25cb64566ba571152fbc2be/zhousf-lib-1.5.8.tar.gz
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/fb/5a/8139d621e826b0797b884d0dfe0fbefc3951532f92415d6133b7ad32f234/blue_plugin-3.73.1.tar.gz
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.72.1.tar.gz tmp/blue_plugin-3.73.1.tar.gz --markdown 20240603/b/blue-plugin/3.72.1-3.73.1/README.md --exclude *.pyd
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-stability]: Downloading https://files.pythonhosted.org/packages/4f/24/26c148e02b6465b4ee7829723337cb033030c3609baa73d163f961559496/blue_stability-4.42.1.tar.gz
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-stability]: executing diffoscope
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-stability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_stability-4.41.1.tar.gz tmp/blue_stability-4.42.1.tar.gz --markdown 20240603/b/blue-stability/4.41.1-4.42.1/README.md --exclude *.pyd
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.72.1.tar.gz]
+[2024-06-03 07:51:08] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.73.1.tar.gz]
+[2024-06-03 07:51:08] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-06-03 07:51:09] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/74/e7/700bc2d324db2f9b8d7da47c481166892d97dc08d8430973631b12739ecb/zhousf-lib-1.6.0.tar.gz
+[2024-06-03 07:51:09] INFO root fetch - processPackages [blue-stability]: Remove: archive file [/home/abi/fetcher/tmp/blue_stability-4.41.1.tar.gz]
+[2024-06-03 07:51:09] INFO root fetch - processPackages [blue-stability]: Remove: archive file [/home/abi/fetcher/tmp/blue_stability-4.42.1.tar.gz]
+[2024-06-03 07:51:09] INFO root fetch - main [MainThread]: End processing [blue-stability]: success
+[2024-06-03 07:51:10] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2024-06-03 07:51:10] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-1.5.8.tar.gz tmp/zhousf-lib-1.6.0.tar.gz --markdown 20240603/z/zhousf-lib/1.5.8-1.6.0/README.md --exclude *.pyd
+[2024-06-03 07:51:12] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.8.tar.gz]
+[2024-06-03 07:51:12] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.6.0.tar.gz]
+[2024-06-03 07:51:12] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2024-06-03 07:51:12] INFO root fetch - main [MainThread]: Store serial: [23497133]
