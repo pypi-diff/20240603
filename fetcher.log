@@ -2965,3 +2965,18 @@ EOFError: EOF read where object expected
 [2024-06-03 03:38:19] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.23.5.tar.gz]
 [2024-06-03 03:38:19] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
 [2024-06-03 03:38:19] INFO root fetch - main [MainThread]: Store serial: [23495428]
+[2024-06-03 03:40:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495428]
+[2024-06-03 03:40:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 03:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MzhFunc
+[2024-06-03 03:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-openapi3-redoc
+[2024-06-03 03:40:28] INFO root fetch - processPackages [MzhFunc]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 03:40:28] INFO root fetch - processPackages [MzhFunc]: Downloading https://files.pythonhosted.org/packages/39/4f/ab96bf7475d4f9476917d634acab4df1be2cb2d5d2a509d3ea94ab9394fb/mzhfunc-0.1.0.tar.gz
+[2024-06-03 03:40:28] WARNING root fetch - processPackages [flask-openapi3-redoc]: Skipping, unable to determine old version
+[2024-06-03 03:40:28] INFO root fetch - main [MainThread]: End processing [flask-openapi3-redoc] error
+[2024-06-03 03:40:29] INFO root fetch - processPackages [MzhFunc]: Downloading https://files.pythonhosted.org/packages/8d/14/0f1fa35147259dfbb32108a3d103f4b0a692ae0d2e94c2fb44dff289a20c/mzhfunc-0.1.1.tar.gz
+[2024-06-03 03:40:29] INFO root fetch - processPackages [MzhFunc]: executing diffoscope
+[2024-06-03 03:40:29] INFO root fetch - processPackages [MzhFunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mzhfunc-0.1.0.tar.gz tmp/mzhfunc-0.1.1.tar.gz --markdown 20240603/M/MzhFunc/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 03:40:29] INFO root fetch - processPackages [MzhFunc]: Remove: archive file [/home/abi/fetcher/tmp/mzhfunc-0.1.0.tar.gz]
+[2024-06-03 03:40:29] INFO root fetch - processPackages [MzhFunc]: Remove: archive file [/home/abi/fetcher/tmp/mzhfunc-0.1.1.tar.gz]
+[2024-06-03 03:40:29] INFO root fetch - main [MainThread]: End processing [MzhFunc]: success
+[2024-06-03 03:40:29] INFO root fetch - main [MainThread]: Store serial: [23495435]
