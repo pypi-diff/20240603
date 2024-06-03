@@ -1643,3 +1643,36 @@
 [2024-06-03 02:15:17] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-06-03 02:15:17] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-06-03 02:15:17] INFO root fetch - main [MainThread]: Store serial: [23494766]
+[2024-06-03 02:17:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494766]
+[2024-06-03 02:17:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 02:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vnstock3
+[2024-06-03 02:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyerualjetwork
+[2024-06-03 02:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-06-03 02:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typesolver
+[2024-06-03 02:17:25] INFO root fetch - processPackages [pyerualjetwork]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-06-03 02:17:25] INFO root fetch - processPackages [vnstock3]: New version: [0.3.0.3] Old Version: [0.3.0.2]
+[2024-06-03 02:17:25] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-06-03 02:17:25] INFO root fetch - processPackages [vnstock3]: Downloading https://files.pythonhosted.org/packages/15/fc/a0ad90d72c34d360956ac37017f8a7ddb7e67010943f4676ff98b6290736/vnstock3-0.3.0.2.tar.gz
+[2024-06-03 02:17:25] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/f7/8b/4c1553daf2df71330086e4b2d49774b454eb251bfad3afdcf4e7962da82d/pyerualjetwork-2.0.3.tar.gz
+[2024-06-03 02:17:25] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-06-03 02:17:25] WARNING root fetch - processPackages [typesolver]: Skipping, unable to determine old version
+[2024-06-03 02:17:25] INFO root fetch - main [MainThread]: End processing [typesolver] error
+[2024-06-03 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-06-03 02:17:26] INFO root fetch - processPackages [vnstock3]: Downloading https://files.pythonhosted.org/packages/f7/82/238648d5712b25a4381c4e75b01e3c0b1b0f10005e349d2478ea907c984b/vnstock3-0.3.0.3.tar.gz
+[2024-06-03 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-06-03 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240603/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-06-03 02:17:26] INFO root fetch - processPackages [vnstock3]: executing diffoscope
+[2024-06-03 02:17:26] INFO root fetch - processPackages [vnstock3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnstock3-0.3.0.2.tar.gz tmp/vnstock3-0.3.0.3.tar.gz --markdown 20240603/v/vnstock3/0.3.0.2-0.3.0.3/README.md --exclude *.pyd
+[2024-06-03 02:17:26] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/bb/ad/8bfc3678653651f39f817c9bd4c796d55c6be15ee9dbc0c4c79fcfa64b48/pyerualjetwork-2.0.4.tar.gz
+[2024-06-03 02:17:26] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-06-03 02:17:26] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-2.0.3.tar.gz tmp/pyerualjetwork-2.0.4.tar.gz --markdown 20240603/p/pyerualjetwork/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-06-03 02:17:26] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-2.0.3.tar.gz]
+[2024-06-03 02:17:26] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-2.0.4.tar.gz]
+[2024-06-03 02:17:26] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-06-03 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-06-03 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-06-03 02:17:26] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-06-03 02:17:26] INFO root fetch - processPackages [vnstock3]: Remove: archive file [/home/abi/fetcher/tmp/vnstock3-0.3.0.2.tar.gz]
+[2024-06-03 02:17:26] INFO root fetch - processPackages [vnstock3]: Remove: archive file [/home/abi/fetcher/tmp/vnstock3-0.3.0.3.tar.gz]
+[2024-06-03 02:17:26] INFO root fetch - main [MainThread]: End processing [vnstock3]: success
+[2024-06-03 02:17:26] INFO root fetch - main [MainThread]: Store serial: [23494787]
