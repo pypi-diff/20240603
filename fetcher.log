@@ -9208,3 +9208,90 @@ EOFError: EOF read where object expected
 [2024-06-03 09:53:55] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.4.tar.gz]
 [2024-06-03 09:53:55] INFO root fetch - main [MainThread]: End processing [squlearn]: success
 [2024-06-03 09:53:55] INFO root fetch - main [MainThread]: Store serial: [23498057]
+[2024-06-03 09:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498057]
+[2024-06-03 09:56:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-order-product-assortment
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: koji
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sedexercises
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vmp
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pms-encoder
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightquakevisualizer
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tiledb-cloud
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-codenerix
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: waylay-sdk-core
+[2024-06-03 09:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vectice
+[2024-06-03 09:56:04] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 09:56:04] INFO root fetch - processPackages [django-codenerix]: New version: [4.0.9] Old Version: [4.0.87]
+[2024-06-03 09:56:04] INFO root fetch - processPackages [odoo14-addon-sale-order-product-assortment]: New version: [14.0.2.0.0] Old Version: [14.0.1.0.2.dev3]
+[2024-06-03 09:56:04] INFO root fetch - processPackages [sedexercises]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-06-03 09:56:04] INFO root fetch - processPackages [koji]: New version: [1.34.2] Old Version: [1.34.1]
+[2024-06-03 09:56:04] INFO root fetch - processPackages [lightquakevisualizer]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 09:56:04] INFO root fetch - processPackages [waylay-sdk-core]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 09:56:04] WARNING root fetch - processPackages [vmp]: Skipping, unable to determine old version
+[2024-06-03 09:56:04] INFO root fetch - main [MainThread]: End processing [vmp] error
+[2024-06-03 09:56:04] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-06-03 09:56:04] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-06-03 09:56:04] INFO root fetch - processPackages [vectice]: New version: [24.2.8.0] Old Version: [24.2.7.0]
+[2024-06-03 09:56:04] INFO root fetch - processPackages [odoo14-addon-sale-order-product-assortment]: Downloading https://files.pythonhosted.org/packages/07/29/ddcf660b15a8e1c2eadcf1e6f099773af837e725738e5a11eda1f36240a4/odoo14_addon_sale_order_product_assortment-14.0.1.0.2.dev3-py3-none-any.whl
+[2024-06-03 09:56:04] INFO root fetch - processPackages [sedexercises]: Downloading https://files.pythonhosted.org/packages/74/d4/176223d332f3bd65b5954d7c71af43c238a51d4ed221bc7c7ab216dd1db3/sedexercises-1.0.1.tar.gz
+[2024-06-03 09:56:04] INFO root fetch - processPackages [koji]: Downloading https://files.pythonhosted.org/packages/2d/e8/7a2e8658d8468bea37b633f3cc865a7412577bc8abb9f8e41aa9a13fdabc/koji-1.34.1.tar.gz
+[2024-06-03 09:56:04] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/c6/b5/53545b258ae009f612c0f763ff88e0c94e63679a7202aa65fa4736416b7e/django-codenerix-4.0.87.tar.gz
+[2024-06-03 09:56:04] INFO root fetch - processPackages [lightquakevisualizer]: Downloading https://files.pythonhosted.org/packages/0c/53/88416ae5ae82ef87565499a1ce5184d8fab065e5a05dd9fd5ee7d99f44b9/lightquakevisualizer-0.0.4.tar.gz
+[2024-06-03 09:56:04] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2024-06-03 09:56:04] INFO root fetch - processPackages [waylay-sdk-core]: Downloading https://files.pythonhosted.org/packages/01/57/d7bb9a345003053b82f1e389cd9585e367a3b984832e2ee6d1cd936bf020/waylay_sdk_core-0.2.1.tar.gz
+[2024-06-03 09:56:04] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-06-03 09:56:04] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/c7/c7/b5bab71f06244e77ea9b39821a68daacec356252270ff172fb6372426e1d/vectice-24.2.7.0.tar.gz
+[2024-06-03 09:56:05] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240603/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [odoo14-addon-sale-order-product-assortment]: Downloading https://files.pythonhosted.org/packages/ff/92/eb3a71d6476f2a01fd2eb1d566a1609c7217db2f34164a066daae8826eaf/odoo14_addon_sale_order_product_assortment-14.0.2.0.0-py3-none-any.whl
+[2024-06-03 09:56:05] INFO root fetch - processPackages [sedexercises]: Downloading https://files.pythonhosted.org/packages/ac/10/a6056d9d8ed04bf0f22c2ad1b712c0e430f12bced738684b2a4c23bf1084/sedexercises-1.1.0.tar.gz
+[2024-06-03 09:56:05] INFO root fetch - processPackages [lightquakevisualizer]: Downloading https://files.pythonhosted.org/packages/a0/22/b7975ae15a05f24fdfa6f944d2c08f0687733ee27e0bfd739cea65403849/lightquakevisualizer-0.0.5.tar.gz
+[2024-06-03 09:56:05] INFO root fetch - processPackages [koji]: Downloading https://files.pythonhosted.org/packages/b6/26/8c5a10010f6bb61378cb3b4e603b270a66a92f74253bd20fdb016bd2c762/koji-1.34.2.tar.gz
+[2024-06-03 09:56:05] INFO root fetch - processPackages [waylay-sdk-core]: Downloading https://files.pythonhosted.org/packages/dd/10/1a00654a8299492361de9fbe9aa99056b8a4fb9b5054c7cec2f4c97ad0b1/waylay_sdk_core-0.2.2.tar.gz
+[2024-06-03 09:56:05] INFO root fetch - processPackages [odoo14-addon-sale-order-product-assortment]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [odoo14-addon-sale-order-product-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_product_assortment-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_product_assortment-14.0.2.0.0-py3-none-any.whl.zip --markdown 20240603/o/odoo14-addon-sale-order-product-assortment/14.0.1.0.2.dev3-14.0.2.0.0/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [sedexercises]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [sedexercises]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedexercises-1.0.1.tar.gz tmp/sedexercises-1.1.0.tar.gz --markdown 20240603/s/sedexercises/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [lightquakevisualizer]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [lightquakevisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightquakevisualizer-0.0.4.tar.gz tmp/lightquakevisualizer-0.0.5.tar.gz --markdown 20240603/l/lightquakevisualizer/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [django-codenerix]: Downloading https://files.pythonhosted.org/packages/fa/74/5c81cb6c9cd40266d8845b61025400c9db3344b5ed8063c6b29f18d4574e/django-codenerix-4.0.9.tar.gz
+[2024-06-03 09:56:05] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/42/89/1cd75e5022715a65358fab6662303f17b6be88698c5abc852aab34071003/vectice-24.2.8.0.tar.gz
+[2024-06-03 09:56:05] INFO root fetch - processPackages [koji]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [koji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koji-1.34.1.tar.gz tmp/koji-1.34.2.tar.gz --markdown 20240603/k/koji/1.34.1-1.34.2/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2024-06-03 09:56:05] INFO root fetch - processPackages [waylay-sdk-core]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [waylay-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_core-0.2.1.tar.gz tmp/waylay_sdk_core-0.2.2.tar.gz --markdown 20240603/w/waylay-sdk-core/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20240603/t/tiledb-cloud/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-24.2.7.0.tar.gz tmp/vectice-24.2.8.0.tar.gz --markdown 20240603/v/vectice/24.2.7.0-24.2.8.0/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [django-codenerix]: executing diffoscope
+[2024-06-03 09:56:05] INFO root fetch - processPackages [django-codenerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-4.0.87.tar.gz tmp/django-codenerix-4.0.9.tar.gz --markdown 20240603/d/django-codenerix/4.0.87-4.0.9/README.md --exclude *.pyd
+[2024-06-03 09:56:05] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-06-03 09:56:05] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-06-03 09:56:05] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-06-03 09:56:06] INFO root fetch - processPackages [lightquakevisualizer]: Remove: archive file [/home/abi/fetcher/tmp/lightquakevisualizer-0.0.4.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - processPackages [lightquakevisualizer]: Remove: archive file [/home/abi/fetcher/tmp/lightquakevisualizer-0.0.5.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - main [MainThread]: End processing [lightquakevisualizer]: success
+[2024-06-03 09:56:06] INFO root fetch - processPackages [odoo14-addon-sale-order-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_product_assortment-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2024-06-03 09:56:06] INFO root fetch - processPackages [odoo14-addon-sale-order-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_product_assortment-14.0.2.0.0-py3-none-any.whl.zip]
+[2024-06-03 09:56:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-product-assortment]: success
+[2024-06-03 09:56:06] INFO root fetch - processPackages [sedexercises]: Remove: archive file [/home/abi/fetcher/tmp/sedexercises-1.0.1.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - processPackages [sedexercises]: Remove: archive file [/home/abi/fetcher/tmp/sedexercises-1.1.0.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - main [MainThread]: End processing [sedexercises]: success
+[2024-06-03 09:56:06] INFO root fetch - processPackages [koji]: Remove: archive file [/home/abi/fetcher/tmp/koji-1.34.1.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - processPackages [koji]: Remove: archive file [/home/abi/fetcher/tmp/koji-1.34.2.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - main [MainThread]: End processing [koji]: success
+[2024-06-03 09:56:06] INFO root fetch - processPackages [waylay-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_core-0.2.1.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - processPackages [waylay-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_core-0.2.2.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - main [MainThread]: End processing [waylay-sdk-core]: success
+[2024-06-03 09:56:06] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.7.0.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.8.0.tar.gz]
+[2024-06-03 09:56:06] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2024-06-03 09:56:07] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2024-06-03 09:56:07] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2024-06-03 09:56:07] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2024-06-03 09:56:47] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.87.tar.gz]
+[2024-06-03 09:56:47] INFO root fetch - processPackages [django-codenerix]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-4.0.9.tar.gz]
+[2024-06-03 09:56:47] INFO root fetch - main [MainThread]: End processing [django-codenerix]: success
+[2024-06-03 09:56:47] INFO root fetch - main [MainThread]: Store serial: [23498093]
