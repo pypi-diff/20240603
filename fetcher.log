@@ -4152,3 +4152,33 @@ EOFError: EOF read where object expected
 [2024-06-03 05:01:55] INFO root fetch - processPackages [nanosense]: Remove: archive file [/home/abi/fetcher/tmp/nanosense-0.3.2.tar.gz]
 [2024-06-03 05:01:55] INFO root fetch - main [MainThread]: End processing [nanosense]: success
 [2024-06-03 05:01:55] INFO root fetch - main [MainThread]: Store serial: [23495884]
+[2024-06-03 05:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495884]
+[2024-06-03 05:04:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 05:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funzin-vc-utils
+[2024-06-03 05:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ytdl-sub
+[2024-06-03 05:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deshi-hello-world
+[2024-06-03 05:04:04] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.6] Old Version: [0.5]
+[2024-06-03 05:04:04] INFO root fetch - processPackages [ytdl-sub]: New version: [2024.6.2.post2] Old Version: [2024.6.2.post1]
+[2024-06-03 05:04:04] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/7a/19/2b056a98abdf9319d969fafeeae9c5b9b5826c7542e16714caa13d58b1a7/deshi_hello_world-0.5.tar.gz
+[2024-06-03 05:04:04] INFO root fetch - processPackages [funzin-vc-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 05:04:04] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/59/94/621a00307fec4f0ab8015a6ddd528a994e661485224e137d57585698adf5/ytdl_sub-2024.6.2.post1.tar.gz
+[2024-06-03 05:04:04] INFO root fetch - processPackages [funzin-vc-utils]: Downloading https://files.pythonhosted.org/packages/47/ef/90b23bb6bd41897d7c98c5ace3279a165eadccfe2d5fdb3a1d1ce2d21c9f/funzin_vc_utils-1.0.1-py3-none-any.whl
+[2024-06-03 05:04:04] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/a7/71/98b42916a03919f7336dfbd63beaef24d43833f9488cab71d21127bafd62/deshi_hello_world-0.6.tar.gz
+[2024-06-03 05:04:05] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 05:04:05] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.5.tar.gz tmp/deshi_hello_world-0.6.tar.gz --markdown 20240603/d/deshi-hello-world/0.5-0.6/README.md --exclude *.pyd
+[2024-06-03 05:04:05] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/f1/fd/04b1e7fa9bd7c2eb7934f1ebbc3af741167ecc1ce36822113fc12c46aa76/ytdl_sub-2024.6.2.post2.tar.gz
+[2024-06-03 05:04:05] INFO root fetch - processPackages [funzin-vc-utils]: Downloading https://files.pythonhosted.org/packages/22/9b/902abc9f6250993e5c2d00b8bb3942060a412c45d117b8374e21e2d0665e/funzin_vc_utils-1.0.2-py3-none-any.whl
+[2024-06-03 05:04:05] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2024-06-03 05:04:05] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl_sub-2024.6.2.post1.tar.gz tmp/ytdl_sub-2024.6.2.post2.tar.gz --markdown 20240603/y/ytdl-sub/2024.6.2.post1-2024.6.2.post2/README.md --exclude *.pyd
+[2024-06-03 05:04:05] INFO root fetch - processPackages [funzin-vc-utils]: executing diffoscope
+[2024-06-03 05:04:05] INFO root fetch - processPackages [funzin-vc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funzin_vc_utils-1.0.1-py3-none-any.whl.zip tmp/funzin_vc_utils-1.0.2-py3-none-any.whl.zip --markdown 20240603/f/funzin-vc-utils/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 05:04:05] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.5.tar.gz]
+[2024-06-03 05:04:05] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.6.tar.gz]
+[2024-06-03 05:04:05] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 05:04:05] INFO root fetch - processPackages [funzin-vc-utils]: Remove: archive file [/home/abi/fetcher/tmp/funzin_vc_utils-1.0.1-py3-none-any.whl.zip]
+[2024-06-03 05:04:05] INFO root fetch - processPackages [funzin-vc-utils]: Remove: archive file [/home/abi/fetcher/tmp/funzin_vc_utils-1.0.2-py3-none-any.whl.zip]
+[2024-06-03 05:04:05] INFO root fetch - main [MainThread]: End processing [funzin-vc-utils]: success
+[2024-06-03 05:04:06] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl_sub-2024.6.2.post1.tar.gz]
+[2024-06-03 05:04:06] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl_sub-2024.6.2.post2.tar.gz]
+[2024-06-03 05:04:06] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2024-06-03 05:04:06] INFO root fetch - main [MainThread]: Store serial: [23495896]
