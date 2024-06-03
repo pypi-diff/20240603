@@ -7406,3 +7406,33 @@ EOFError: EOF read where object expected
 [2024-06-03 08:13:14] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240602.tar.gz]
 [2024-06-03 08:13:14] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-06-03 08:13:14] INFO root fetch - main [MainThread]: Store serial: [23497272]
+[2024-06-03 08:15:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497272]
+[2024-06-03 08:15:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 08:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: youqu3
+[2024-06-03 08:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freeze-dried-data
+[2024-06-03 08:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s
+[2024-06-03 08:15:22] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-06-03 08:15:22] INFO root fetch - processPackages [youqu3]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 08:15:22] INFO root fetch - processPackages [freeze-dried-data]: New version: [2.3.0] Old Version: [2.2.5]
+[2024-06-03 08:15:22] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-06-03 08:15:23] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/b2/4c/c0e616011c709e65e0aca916b5445d6d0cd98e18195af8997ff7c1037ae9/freeze_dried_data-2.2.5.tar.gz
+[2024-06-03 08:15:23] INFO root fetch - processPackages [youqu3]: Downloading https://files.pythonhosted.org/packages/52/fa/dcf1e9b71b5971bf98db18db4946b892ec0f40d566a3ff55dcdc4ff89438/youqu3-0.1.0.tar.gz
+[2024-06-03 08:15:23] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-06-03 08:15:23] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-06-03 08:15:23] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240603/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-06-03 08:15:23] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/af/f6/b4a8a7bcb4609b4a7cecdb665f6f2f956de941a65b26cf09580c85e30843/freeze_dried_data-2.3.0.tar.gz
+[2024-06-03 08:15:23] INFO root fetch - processPackages [youqu3]: Downloading https://files.pythonhosted.org/packages/aa/98/4b6218728e54f369cfc71b12511091bc1ef99fe7f643f9807a6c0d0b5484/youqu3-0.1.1.tar.gz
+[2024-06-03 08:15:23] INFO root fetch - processPackages [youqu3]: executing diffoscope
+[2024-06-03 08:15:23] INFO root fetch - processPackages [youqu3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu3-0.1.0.tar.gz tmp/youqu3-0.1.1.tar.gz --markdown 20240603/y/youqu3/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 08:15:23] INFO root fetch - processPackages [freeze-dried-data]: executing diffoscope
+[2024-06-03 08:15:23] INFO root fetch - processPackages [freeze-dried-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeze_dried_data-2.2.5.tar.gz tmp/freeze_dried_data-2.3.0.tar.gz --markdown 20240603/f/freeze-dried-data/2.2.5-2.3.0/README.md --exclude *.pyd
+[2024-06-03 08:15:24] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-06-03 08:15:24] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-06-03 08:15:24] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-06-03 08:15:24] INFO root fetch - processPackages [youqu3]: Remove: archive file [/home/abi/fetcher/tmp/youqu3-0.1.0.tar.gz]
+[2024-06-03 08:15:24] INFO root fetch - processPackages [youqu3]: Remove: archive file [/home/abi/fetcher/tmp/youqu3-0.1.1.tar.gz]
+[2024-06-03 08:15:24] INFO root fetch - main [MainThread]: End processing [youqu3]: success
+[2024-06-03 08:15:24] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.2.5.tar.gz]
+[2024-06-03 08:15:24] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.3.0.tar.gz]
+[2024-06-03 08:15:24] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
+[2024-06-03 08:15:24] INFO root fetch - main [MainThread]: Store serial: [23497281]
