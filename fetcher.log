@@ -7466,3 +7466,33 @@ EOFError: EOF read where object expected
 [2024-06-03 08:17:34] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.7.2.tar.gz]
 [2024-06-03 08:17:34] INFO root fetch - main [MainThread]: End processing [redis-director]: success
 [2024-06-03 08:17:34] INFO root fetch - main [MainThread]: Store serial: [23497292]
+[2024-06-03 08:19:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497292]
+[2024-06-03 08:19:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 08:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redis-director
+[2024-06-03 08:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youqu3
+[2024-06-03 08:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: md2weasypdf
+[2024-06-03 08:19:42] INFO root fetch - processPackages [youqu3]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 08:19:42] INFO root fetch - processPackages [redis-director]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-06-03 08:19:42] INFO root fetch - processPackages [md2weasypdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 08:19:42] INFO root fetch - processPackages [youqu3]: Downloading https://files.pythonhosted.org/packages/52/fa/dcf1e9b71b5971bf98db18db4946b892ec0f40d566a3ff55dcdc4ff89438/youqu3-0.1.0.tar.gz
+[2024-06-03 08:19:42] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/0d/b1/adcc7b357ef62881856165060b758fc6941fe0f00cfd1a86ce67a7460019/redis_director-0.7.1.tar.gz
+[2024-06-03 08:19:43] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/f1/65/3db61cef53340868f62f959d46e320f31e325fe6cdc694d83d50d179a65c/md2weasypdf-0.0.8.tar.gz
+[2024-06-03 08:19:43] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/00/b9/00feabd5206f3c9e276357525d4ed47295b4bd1fb009df1fa3a208f2eeae/redis_director-0.7.2.tar.gz
+[2024-06-03 08:19:43] INFO root fetch - processPackages [youqu3]: Downloading https://files.pythonhosted.org/packages/aa/98/4b6218728e54f369cfc71b12511091bc1ef99fe7f643f9807a6c0d0b5484/youqu3-0.1.1.tar.gz
+[2024-06-03 08:19:43] INFO root fetch - processPackages [redis-director]: executing diffoscope
+[2024-06-03 08:19:43] INFO root fetch - processPackages [redis-director]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_director-0.7.1.tar.gz tmp/redis_director-0.7.2.tar.gz --markdown 20240603/r/redis-director/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-06-03 08:19:43] INFO root fetch - processPackages [youqu3]: executing diffoscope
+[2024-06-03 08:19:43] INFO root fetch - processPackages [youqu3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu3-0.1.0.tar.gz tmp/youqu3-0.1.1.tar.gz --markdown 20240603/y/youqu3/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 08:19:43] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/2d/c8/5fc78dc955826f3ab8a2775165ba7451c92a6e7754467bb63b75296af655/md2weasypdf-0.0.9.tar.gz
+[2024-06-03 08:19:43] INFO root fetch - processPackages [md2weasypdf]: executing diffoscope
+[2024-06-03 08:19:43] INFO root fetch - processPackages [md2weasypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2weasypdf-0.0.8.tar.gz tmp/md2weasypdf-0.0.9.tar.gz --markdown 20240603/m/md2weasypdf/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 08:19:43] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.7.1.tar.gz]
+[2024-06-03 08:19:43] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.7.2.tar.gz]
+[2024-06-03 08:19:43] INFO root fetch - main [MainThread]: End processing [redis-director]: success
+[2024-06-03 08:19:43] INFO root fetch - processPackages [youqu3]: Remove: archive file [/home/abi/fetcher/tmp/youqu3-0.1.0.tar.gz]
+[2024-06-03 08:19:43] INFO root fetch - processPackages [youqu3]: Remove: archive file [/home/abi/fetcher/tmp/youqu3-0.1.1.tar.gz]
+[2024-06-03 08:19:44] INFO root fetch - main [MainThread]: End processing [youqu3]: success
+[2024-06-03 08:19:44] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.8.tar.gz]
+[2024-06-03 08:19:44] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.9.tar.gz]
+[2024-06-03 08:19:44] INFO root fetch - main [MainThread]: End processing [md2weasypdf]: success
+[2024-06-03 08:19:44] INFO root fetch - main [MainThread]: Store serial: [23497301]
