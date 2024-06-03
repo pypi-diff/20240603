@@ -17034,3 +17034,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:46:35] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
 [2024-06-03 13:46:35] INFO root fetch - main [MainThread]: End processing [galv]: success
 [2024-06-03 13:46:35] INFO root fetch - main [MainThread]: Store serial: [23501621]
+[2024-06-03 13:48:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501621]
+[2024-06-03 13:48:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstats
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-rocketmq
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbpack
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bwalign
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-ots
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flashcam
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ros-cdk-paidswapi
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ok-script
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-gcp
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pvsite-datamodel
+[2024-06-03 13:48:44] INFO root fetch - processPackages [bwalign]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [pvsite-datamodel]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [flashcam]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [quickstats]: New version: [0.7.0.5.3] Old Version: [0.7.0.5.1]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [sbpack]: New version: [2024.6.3rc1] Old Version: [2024.5.7rc1]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ros-cdk-rocketmq]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ros-cdk-ots]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ros-cdk-paidswapi]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:48:44] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/21/b6/4398e5d741bcb10aacae72745869b8e785b311b5cdb8faea403ecfcbd023/bwalign-1.6.3.tar.gz
+[2024-06-03 13:48:44] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/4f/94/17d9ce3de61a220e5960639e6088e95f0a697c74ba8a19f612cfe429b4a9/pvsite_datamodel-1.0.8.tar.gz
+[2024-06-03 13:48:44] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/40/50/fad8ad3850201a3f4dca71fc722390820cc88a2bd5e153c61941e98d0bb1/flashcam-1.9.2.tar.gz
+[2024-06-03 13:48:44] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/d0/77/8bd82acdaef4e08e7a3acfaa38f6ab4292acb762545aad50cd5b5cd7a427/quickstats-0.7.0.5.1.tar.gz
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-06-03 13:48:44] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/3b/93/ae1fb3cf7a5549ee4bc3b3b2230d7ce48976c5fde905db888ea3776314dc/ros-cdk-ots-1.0.8.tar.gz
+[2024-06-03 13:48:44] INFO root fetch - processPackages [sbpack]: Downloading https://files.pythonhosted.org/packages/7b/e8/9553d885a7ba5f953c82958831ccf5fb06fe37d214adac0632a86a67e9bf/sbpack-2024.5.7rc1-py3-none-any.whl
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/88/5e/16d18709c1269ddf859c9ccbc945824451982b6c51d066a47d9655547955/ros-cdk-rocketmq-1.0.8.tar.gz
+[2024-06-03 13:48:44] INFO root fetch - processPackages [ros-cdk-paidswapi]: Downloading https://files.pythonhosted.org/packages/53/21/f3f2c3419ac558f14237cd52f1131d59f93f9ca0a0d8a2619687b4e9bf9d/ros-cdk-paidswapi-1.0.24.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/71/14/b3de84b7038e7f199e8d5ac0b54fef8c88161a91e1685ef3f3b0d367e81c/flashcam-1.9.3.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/4d/83/1bd1141d416678eb36189179f877ee1aafc22650bc7469f7d62efae23826/bwalign-1.6.4.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/96/0a/cbc3673d118ea78a7e3f4f3342c9a1400d6408a4751dc04951cf5691b7d1/quickstats-0.7.0.5.3.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240603/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/09/05/b1d02e4bce0bada9effc1c581a0762ec56c98c169d8463fc2bedefa2893d/pvsite_datamodel-1.0.9.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-ots]: Downloading https://files.pythonhosted.org/packages/0c/41/781713882f6cd0475dfbd98ad1cea7e3afc83cbf15cae9582ca15ae23988/ros-cdk-ots-1.0.9.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [sbpack]: Downloading https://files.pythonhosted.org/packages/de/9d/b13c8eee2502b4202cff6623b110f5a01a757953bb3cbde7c93a3e5a70ee/sbpack-2024.6.3rc1-py3-none-any.whl
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-paidswapi]: Downloading https://files.pythonhosted.org/packages/c8/98/bbe9c98553271185119878a26c0305fa5b8e1e5b65264dce62be70fb564c/ros-cdk-paidswapi-1.0.25.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.6.3.tar.gz tmp/bwalign-1.6.4.tar.gz --markdown 20240603/b/bwalign/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-rocketmq]: Downloading https://files.pythonhosted.org/packages/61/cd/467d0c00a5d11269809fbd0c9699e7c95b96ce902cc841ac369be1d9272c/ros-cdk-rocketmq-1.0.9.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-06-03 13:48:45] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.9.2.tar.gz tmp/flashcam-1.9.3.tar.gz --markdown 20240603/f/flashcam/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [quickstats]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [quickstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstats-0.7.0.5.1.tar.gz tmp/quickstats-0.7.0.5.3.tar.gz --markdown 20240603/q/quickstats/0.7.0.5.1-0.7.0.5.3/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [sbpack]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [sbpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbpack-2024.5.7rc1-py3-none-any.whl.zip tmp/sbpack-2024.6.3rc1-py3-none-any.whl.zip --markdown 20240603/s/sbpack/2024.5.7rc1-2024.6.3rc1/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-ots]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-ots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ots-1.0.8.tar.gz tmp/ros-cdk-ots-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-ots/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-paidswapi]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-paidswapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-paidswapi-1.0.24.tar.gz tmp/ros-cdk-paidswapi-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-paidswapi/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-rocketmq]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [ros-cdk-rocketmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-rocketmq-1.0.8.tar.gz tmp/ros-cdk-rocketmq-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-rocketmq/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [pvsite-datamodel]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [pvsite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvsite_datamodel-1.0.8.tar.gz tmp/pvsite_datamodel-1.0.9.tar.gz --markdown 20240603/p/pvsite-datamodel/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:48:45] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-06-03 13:48:45] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240603/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-06-03 13:48:46] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.6.3.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.6.4.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 13:48:46] INFO root fetch - processPackages [ros-cdk-paidswapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-paidswapi-1.0.24.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - processPackages [ros-cdk-paidswapi]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-paidswapi-1.0.25.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-paidswapi]: success
+[2024-06-03 13:48:46] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.2.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.3.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-06-03 13:48:46] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.8.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - processPackages [ros-cdk-rocketmq]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-rocketmq-1.0.9.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-rocketmq]: success
+[2024-06-03 13:48:46] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-06-03 13:48:46] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.8.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - processPackages [ros-cdk-ots]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ots-1.0.9.tar.gz]
+[2024-06-03 13:48:46] INFO root fetch - main [MainThread]: End processing [ros-cdk-ots]: success
+[2024-06-03 13:48:47] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.8.tar.gz]
+[2024-06-03 13:48:47] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
+[2024-06-03 13:48:47] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
+[2024-06-03 13:48:47] INFO root fetch - processPackages [sbpack]: Remove: archive file [/home/abi/fetcher/tmp/sbpack-2024.5.7rc1-py3-none-any.whl.zip]
+[2024-06-03 13:48:47] INFO root fetch - processPackages [sbpack]: Remove: archive file [/home/abi/fetcher/tmp/sbpack-2024.6.3rc1-py3-none-any.whl.zip]
+[2024-06-03 13:48:47] INFO root fetch - main [MainThread]: End processing [sbpack]: success
+[2024-06-03 13:48:47] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.5.1.tar.gz]
+[2024-06-03 13:48:47] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.5.3.tar.gz]
+[2024-06-03 13:48:47] INFO root fetch - main [MainThread]: End processing [quickstats]: success
+[2024-06-03 13:48:56] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-06-03 13:48:56] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-06-03 13:48:56] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-06-03 13:48:56] INFO root fetch - main [MainThread]: Store serial: [23501644]
