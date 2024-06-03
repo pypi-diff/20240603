@@ -17208,3 +17208,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:51:08] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
 [2024-06-03 13:51:08] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
 [2024-06-03 13:51:08] INFO root fetch - main [MainThread]: Store serial: [23501679]
+[2024-06-03 13:53:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501679]
+[2024-06-03 13:53:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 13:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-edas
+[2024-06-03 13:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mustasa
+[2024-06-03 13:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-config
+[2024-06-03 13:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ros-cdk-vpc
+[2024-06-03 13:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aistrainer
+[2024-06-03 13:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-06-03 13:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-akamai
+[2024-06-03 13:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: googleads-housekeeper
+[2024-06-03 13:53:17] INFO root fetch - processPackages [aistrainer]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-06-03 13:53:17] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240603113811] Old Version: [3.4.1.dev20240603074939]
+[2024-06-03 13:53:17] INFO root fetch - processPackages [googleads-housekeeper]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-06-03 13:53:17] INFO root fetch - processPackages [aistrainer]: Downloading https://files.pythonhosted.org/packages/22/9f/a6d558a15cd5a69a8bd648340d2535d8ac8dbe6caaad911527d72a2f0217/aistrainer-0.0.4.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-edas]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:53:17] WARNING root fetch - processPackages [mustasa]: Skipping, unable to determine old version
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-vpc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:53:17] INFO root fetch - main [MainThread]: End processing [mustasa] error
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-config]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:53:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ac/d3/4e8bc3b61bbe4ec3ac78b3165d8b5eee667c00d81385ea7cfd28794bc74b/localstack_core-3.4.1.dev20240603074939.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1717132192] Old Version: [7.2.0a1716959416]
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-vpc]: Downloading https://files.pythonhosted.org/packages/2a/ad/d0d06a54ba7604e46fde3002486578ba382de631594e5357e1548f9b8f48/ros-cdk-vpc-1.0.8.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/72/75/8fec6c94f8d851b937e5569bbf946bf3b932c1414c694ef2ab9e72efc3e6/googleads-housekeeper-0.1.0.dev8.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-edas]: Downloading https://files.pythonhosted.org/packages/0b/7e/b9b8199374a340b785e3877f24b771d1f55c945cfd11f3748df6de0db690/ros-cdk-edas-1.0.8.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-config]: Downloading https://files.pythonhosted.org/packages/d4/5a/f8765303b2fd1da8b35930f4447d67f950df629159ed5c2af871ec27d784/ros-cdk-config-1.0.8.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f5/95/18794a04bd88b6a049178a356f63301e186f006653db18d7ca9bfafd55a0/pulumi_akamai-7.2.0a1716959416.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [aistrainer]: Downloading https://files.pythonhosted.org/packages/b8/c1/ee8903658bb0369923a3272ff7a87c50cc99c3451bed91aadb229d978a44/aistrainer-0.0.5.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ea/1c/dda75077f5c14f3fafcc2ff3af9383b3cc186d636de3e0437c8102324dc9/localstack_core-3.4.1.dev20240603113811.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [aistrainer]: executing diffoscope
+[2024-06-03 13:53:17] INFO root fetch - processPackages [aistrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistrainer-0.0.4.tar.gz tmp/aistrainer-0.0.5.tar.gz --markdown 20240603/a/aistrainer/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-config]: Downloading https://files.pythonhosted.org/packages/b9/53/464bc068dd4407a594e2d5ee0e12ad8b54d6123aaf91c2ac9c7b5b848947/ros-cdk-config-1.0.9.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-06-03 13:53:17] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240603074939.tar.gz tmp/localstack_core-3.4.1.dev20240603113811.tar.gz --markdown 20240603/l/localstack-core/3.4.1.dev20240603074939-3.4.1.dev20240603113811/README.md --exclude *.pyd
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-edas]: Downloading https://files.pythonhosted.org/packages/53/7d/043c3e0b75b0bcdf76085051ee246a35cd27900ff071192c3fffe1c4ec64/ros-cdk-edas-1.0.9.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/fc/3a/7d5847390fa1978f5fa9c787415a49920ac7254fec7f7d0c0b6830542f94/googleads-housekeeper-0.1.0.dev9.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-vpc]: Downloading https://files.pythonhosted.org/packages/39/46/58d02ac69ba57d2061af4ef44d7a49177d8962ad9258e13504f121205f0a/ros-cdk-vpc-1.0.9.tar.gz
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-config]: executing diffoscope
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-config-1.0.8.tar.gz tmp/ros-cdk-config-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-config/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:53:17] INFO root fetch - processPackages [googleads-housekeeper]: executing diffoscope
+[2024-06-03 13:53:17] INFO root fetch - processPackages [googleads-housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleads-housekeeper-0.1.0.dev8.tar.gz tmp/googleads-housekeeper-0.1.0.dev9.tar.gz --markdown 20240603/g/googleads-housekeeper/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-edas]: executing diffoscope
+[2024-06-03 13:53:17] INFO root fetch - processPackages [ros-cdk-edas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-edas-1.0.8.tar.gz tmp/ros-cdk-edas-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-edas/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:53:17] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/aa/25/27ef068b5a5b0a433e9a740e83bd50696841069d8e3f738f1e69921e4c9b/pulumi_akamai-7.2.0a1717132192.tar.gz
+[2024-06-03 13:53:18] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-06-03 13:53:18] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1716959416.tar.gz tmp/pulumi_akamai-7.2.0a1717132192.tar.gz --markdown 20240603/p/pulumi-akamai/7.2.0a1716959416-7.2.0a1717132192/README.md --exclude *.pyd
+[2024-06-03 13:53:18] INFO root fetch - processPackages [aistrainer]: Remove: archive file [/home/abi/fetcher/tmp/aistrainer-0.0.4.tar.gz]
+[2024-06-03 13:53:18] INFO root fetch - processPackages [aistrainer]: Remove: archive file [/home/abi/fetcher/tmp/aistrainer-0.0.5.tar.gz]
+[2024-06-03 13:53:18] INFO root fetch - main [MainThread]: End processing [aistrainer]: success
+[2024-06-03 13:53:18] INFO root fetch - processPackages [ros-cdk-config]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-config-1.0.8.tar.gz]
+[2024-06-03 13:53:18] INFO root fetch - processPackages [ros-cdk-config]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-config-1.0.9.tar.gz]
+[2024-06-03 13:53:18] INFO root fetch - main [MainThread]: End processing [ros-cdk-config]: success
+[2024-06-03 13:53:18] INFO root fetch - processPackages [ros-cdk-edas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edas-1.0.8.tar.gz]
+[2024-06-03 13:53:18] INFO root fetch - processPackages [ros-cdk-edas]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-edas-1.0.9.tar.gz]
+[2024-06-03 13:53:18] INFO root fetch - main [MainThread]: End processing [ros-cdk-edas]: success
+[2024-06-03 13:53:18] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev8.tar.gz]
+[2024-06-03 13:53:18] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev9.tar.gz]
+[2024-06-03 13:53:18] INFO root fetch - main [MainThread]: End processing [googleads-housekeeper]: success
+[2024-06-03 13:53:19] INFO root fetch - processPackages [ros-cdk-vpc]: executing diffoscope
+[2024-06-03 13:53:19] INFO root fetch - processPackages [ros-cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-vpc-1.0.8.tar.gz tmp/ros-cdk-vpc-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-vpc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:53:19] INFO root fetch - processPackages [ros-cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vpc-1.0.8.tar.gz]
+[2024-06-03 13:53:19] INFO root fetch - processPackages [ros-cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-vpc-1.0.9.tar.gz]
+[2024-06-03 13:53:19] INFO root fetch - main [MainThread]: End processing [ros-cdk-vpc]: success
+[2024-06-03 13:53:21] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1716959416.tar.gz]
+[2024-06-03 13:53:21] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1717132192.tar.gz]
+[2024-06-03 13:53:21] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-06-03 13:53:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240603074939.tar.gz]
+[2024-06-03 13:53:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240603113811.tar.gz]
+[2024-06-03 13:53:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-06-03 13:53:21] INFO root fetch - main [MainThread]: Store serial: [23501705]
