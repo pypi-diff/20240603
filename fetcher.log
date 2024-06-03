@@ -14207,3 +14207,106 @@ EOFError: EOF read where object expected
 [2024-06-03 12:33:41] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.4.9.1.dev3-py3-none-any.whl.zip]
 [2024-06-03 12:33:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
 [2024-06-03 12:33:41] INFO root fetch - main [MainThread]: Store serial: [23500479]
+[2024-06-03 12:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500479]
+[2024-06-03 12:35:52] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-memcache
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANX
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ros-cdk-adblake
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logfire
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-hr-attendance-contract-missing-days
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-attendance-missing-days
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bec-ipython-client
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-lib
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-server
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-bec-e2e
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ANX]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-06-03 12:35:52] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 12:35:52] INFO root fetch - processPackages [bec-server]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 12:35:52] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 12:35:52] INFO root fetch - processPackages [bec-lib]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-06-03 12:35:52] INFO root fetch - processPackages [logfire]: New version: [0.39.0] Old Version: [0.38.0]
+[2024-06-03 12:35:52] WARNING root fetch - processPackages [odoo-addon-hr-attendance-missing-days]: Skipping, unable to determine old version
+[2024-06-03 12:35:52] INFO root fetch - processPackages [odoo-addon-hr-attendance-missing-days]: Start processing: atomicshop
+[2024-06-03 12:35:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-attendance-missing-days] error
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ros-cdk-memcache]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:35:52] WARNING root fetch - processPackages [odoo-addon-hr-attendance-contract-missing-days]: Skipping, unable to determine old version
+[2024-06-03 12:35:52] INFO root fetch - processPackages [odoo-addon-hr-attendance-contract-missing-days]: Start processing: MicrobeRX
+[2024-06-03 12:35:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-attendance-contract-missing-days] error
+[2024-06-03 12:35:52] WARNING root fetch - processPackages [ros-cdk-adblake]: Skipping, unable to determine old version
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ros-cdk-adblake]: Start processing: guanin
+[2024-06-03 12:35:52] INFO root fetch - main [MainThread]: End processing [ros-cdk-adblake] error
+[2024-06-03 12:35:52] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 12:35:52] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/53/eb/4248ef7c13440df8cfdf47a58609749cff058b52bd9233f76202529d4854/ANX-0.8.0.tar.gz
+[2024-06-03 12:35:52] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/32/25/26221a302c5d813470abbed9e469573445b2d6223cb10d5e831a1c2edcbc/pytest_bec_e2e-2.9.5.tar.gz
+[2024-06-03 12:35:52] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5c/a6/47395050d9ef43b8ac69afbd19752c840a326d130902d672b143eb1b2011/bec_server-2.9.5.tar.gz
+[2024-06-03 12:35:52] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-06-03 12:35:52] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/1c/28/ac66835e54a2a219bb2fcab250ebe5175556448adfd9731171c446d39b8a/bec_lib-2.9.5.tar.gz
+[2024-06-03 12:35:52] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 12:35:52] INFO root fetch - processPackages [MicrobeRX]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-06-03 12:35:52] INFO root fetch - processPackages [guanin]: New version: [1.2.9.4] Old Version: [1.2.9.3]
+[2024-06-03 12:35:52] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/8d/4d/3df23c2bca7b99134ef30192439e4cfd44630dc2d949dcb1a780259e1c42/logfire-0.38.0.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ros-cdk-memcache]: Downloading https://files.pythonhosted.org/packages/a4/87/eba13b9af02a957d7160fc2bc3e6c2232fd6206eb6866c6a49e8077ab5ef/ros-cdk-memcache-1.0.8.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/52/58/6a01c0215232031def0ac36fe0432d3a9980bab8829664847cd95bfcd44e/pytest_bec_e2e-2.9.6.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/af/31/bd67b297fc53bdc89c7399528af2c24b738fd9d5f5f0967ea99e0d482897/ANX-0.8.1.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [MicrobeRX]: Downloading https://files.pythonhosted.org/packages/01/1b/55c01d9061db2fc0f5d2e514f1e1b7fc1fd76d81466e6795c666de5844a9/MicrobeRX-0.2.6-py3-none-any.whl
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4d/a2/f0700429367390986fd99050f855b29188048689afabf13076cd77bb4598/bec_lib-2.9.6.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/8d/dc/4bb394b34ce2244011bdfec6b0f594f2161b1a961dec9f724d8112a0bcc9/guanin-1.2.9.3.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/33/b7/3b469dec2efe5a33d7abfab6b9c31025e32485e7a9d400424e12cd0fd084/bec_server-2.9.6.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-06-03 12:35:53] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.9.5.tar.gz tmp/pytest_bec_e2e-2.9.6.tar.gz --markdown 20240603/p/pytest-bec-e2e/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 12:35:53] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.8.0.tar.gz tmp/ANX-0.8.1.tar.gz --markdown 20240603/A/ANX/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-06-03 12:35:53] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 11005880>=10485760
+[2024-06-03 12:35:53] INFO root fetch - processPackages [guanin]: Start processing: ros-cdk-dbs
+[2024-06-03 12:35:53] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2024-06-03 12:35:53] WARNING root fetch - processPackages [MicrobeRX]: Skipping package: exceeds size limit 50729954>=10485760
+[2024-06-03 12:35:53] INFO root fetch - main [MainThread]: End processing [MicrobeRX] error
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240603/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.9.5.tar.gz tmp/bec_server-2.9.6.tar.gz --markdown 20240603/b/bec-server/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-06-03 12:35:53] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.9.5.tar.gz tmp/bec_lib-2.9.6.tar.gz --markdown 20240603/b/bec-lib/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-06-03 12:35:53] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/65/0a/fcf5bb9d611158401fc846ba82c13ac547db5f8ca6ab49a2946bd6414288/logfire-0.39.0.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ros-cdk-dbs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:35:53] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 12:35:53] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ros-cdk-memcache]: Downloading https://files.pythonhosted.org/packages/8f/53/6ddb0fd72d796a0560bd5e0e81926aafb56011ec006ded043aed4cb1a427/ros-cdk-memcache-1.0.9.tar.gz
+[2024-06-03 12:35:53] INFO root fetch - processPackages [logfire]: executing diffoscope
+[2024-06-03 12:35:53] INFO root fetch - processPackages [logfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-0.38.0.tar.gz tmp/logfire-0.39.0.tar.gz --markdown 20240603/l/logfire/0.38.0-0.39.0/README.md --exclude *.pyd
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ros-cdk-memcache]: executing diffoscope
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ros-cdk-memcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-memcache-1.0.8.tar.gz tmp/ros-cdk-memcache-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-memcache/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:35:53] INFO root fetch - processPackages [ros-cdk-dbs]: Downloading https://files.pythonhosted.org/packages/57/fe/e179faef107e3a29dc75b5f95336d4decf4211b595c13708f7fd03a5d4ad/ros-cdk-dbs-1.0.8.tar.gz
+[2024-06-03 12:35:54] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.5.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.6.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-06-03 12:35:54] INFO root fetch - processPackages [ros-cdk-dbs]: Downloading https://files.pythonhosted.org/packages/ed/5a/b4ecfe8b5a977efa7685dc14bb3de40caff977257e8a71efc22414fab9d2/ros-cdk-dbs-1.0.9.tar.gz
+[2024-06-03 12:35:54] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-06-03 12:35:54] INFO root fetch - processPackages [ros-cdk-dbs]: executing diffoscope
+[2024-06-03 12:35:54] INFO root fetch - processPackages [ros-cdk-dbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-dbs-1.0.8.tar.gz tmp/ros-cdk-dbs-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-dbs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:35:54] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.8.0.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.8.1.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-06-03 12:35:54] INFO root fetch - processPackages [ros-cdk-memcache]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-memcache-1.0.8.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - processPackages [ros-cdk-memcache]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-memcache-1.0.9.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - main [MainThread]: End processing [ros-cdk-memcache]: success
+[2024-06-03 12:35:54] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.5.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.6.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-06-03 12:35:54] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.5.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.6.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-06-03 12:35:54] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.38.0.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.39.0.tar.gz]
+[2024-06-03 12:35:54] INFO root fetch - main [MainThread]: End processing [logfire]: success
+[2024-06-03 12:35:55] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 12:35:55] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 12:35:55] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 12:35:55] INFO root fetch - processPackages [ros-cdk-dbs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dbs-1.0.8.tar.gz]
+[2024-06-03 12:35:55] INFO root fetch - processPackages [ros-cdk-dbs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dbs-1.0.9.tar.gz]
+[2024-06-03 12:35:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-dbs]: success
+[2024-06-03 12:35:55] INFO root fetch - main [MainThread]: Store serial: [23500525]
