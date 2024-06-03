@@ -2359,3 +2359,82 @@
 [2024-06-03 03:00:22] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.9.tar.gz]
 [2024-06-03 03:00:22] INFO root fetch - main [MainThread]: End processing [nadl]: success
 [2024-06-03 03:00:22] INFO root fetch - main [MainThread]: Store serial: [23495129]
+[2024-06-03 03:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495129]
+[2024-06-03 03:02:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 03:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bot-bin
+[2024-06-03 03:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agilicus
+[2024-06-03 03:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simulab
+[2024-06-03 03:02:31] INFO root fetch - processPackages [bot-bin]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-06-03 03:02:31] INFO root fetch - processPackages [simulab]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 03:02:31] INFO root fetch - processPackages [bot-bin]: Downloading https://files.pythonhosted.org/packages/de/91/14373d04a4487a1efff95e8ed0150adf17a492feab1b71f3b1d494c527ae/bot-bin-1.6.0.tar.gz
+[2024-06-03 03:02:31] INFO root fetch - processPackages [simulab]: Downloading https://files.pythonhosted.org/packages/0a/f8/dd8962df9cf992dde009c419ca9d8283796f2abef2c613a51e7bd4532ab2/simulab-0.0.2.tar.gz
+[2024-06-03 03:02:31] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2024-06-03 03:02:31] INFO root fetch - processPackages [bot-bin]: Downloading https://files.pythonhosted.org/packages/fe/6a/1d9864a595f47bad1f6ec1cfb5a6b58110879c1fea6a7aa859c01a114dd0/bot-bin-2.0.0.tar.gz
+[2024-06-03 03:02:31] INFO root fetch - processPackages [bot-bin]: executing diffoscope
+[2024-06-03 03:02:31] INFO root fetch - processPackages [bot-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bot-bin-1.6.0.tar.gz tmp/bot-bin-2.0.0.tar.gz --markdown 20240603/b/bot-bin/1.6.0-2.0.0/README.md --exclude *.pyd
+[2024-06-03 03:02:31] INFO root fetch - processPackages [simulab]: Downloading https://files.pythonhosted.org/packages/0e/37/d271a6aaf688c38739225d5ddae88b4cb60c6ed7e3a214f5d1cbdf01f096/simulab-0.0.3.tar.gz
+[2024-06-03 03:02:31] INFO root fetch - processPackages [simulab]: executing diffoscope
+[2024-06-03 03:02:31] INFO root fetch - processPackages [simulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulab-0.0.2.tar.gz tmp/simulab-0.0.3.tar.gz --markdown 20240603/s/simulab/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 03:02:31] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2024-06-03 03:02:31] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20240603/a/agilicus/1.98.9-1.99.0/README.md --exclude *.pyd
+[2024-06-03 03:02:32] INFO root fetch - processPackages [bot-bin]: Remove: archive file [/home/abi/fetcher/tmp/bot-bin-1.6.0.tar.gz]
+[2024-06-03 03:02:32] INFO root fetch - processPackages [bot-bin]: Remove: archive file [/home/abi/fetcher/tmp/bot-bin-2.0.0.tar.gz]
+[2024-06-03 03:02:32] INFO root fetch - main [MainThread]: End processing [bot-bin]: success
+[2024-06-03 03:02:32] INFO root fetch - processPackages [simulab]: Remove: archive file [/home/abi/fetcher/tmp/simulab-0.0.2.tar.gz]
+[2024-06-03 03:02:32] INFO root fetch - processPackages [simulab]: Remove: archive file [/home/abi/fetcher/tmp/simulab-0.0.3.tar.gz]
+[2024-06-03 03:02:32] INFO root fetch - main [MainThread]: End processing [simulab]: success
+[2024-06-03 03:02:33] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: time="2024-06-03T03:02:31+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-06-03 03:02:33] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2024-06-03 03:02:33] INFO root fetch - main [MainThread]: Store serial: [23495138]
