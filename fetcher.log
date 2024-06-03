@@ -23414,3 +23414,72 @@ EOFError: EOF read where object expected
 [2024-06-03 16:26:23] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-06-03 16:26:23] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-06-03 16:26:23] INFO root fetch - main [MainThread]: Store serial: [23504191]
+[2024-06-03 16:28:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504191]
+[2024-06-03 16:28:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 16:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypgstac
+[2024-06-03 16:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydivar
+[2024-06-03 16:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-med-image-ml
+[2024-06-03 16:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2024-06-03 16:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pmentropy
+[2024-06-03 16:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edwh-auth-rbac
+[2024-06-03 16:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timeit-compare
+[2024-06-03 16:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zarrnii
+[2024-06-03 16:28:32] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:28:32] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-06-03 16:28:32] INFO root fetch - processPackages [timeit-compare]: New version: [1.3.0] Old Version: [1.2.2]
+[2024-06-03 16:28:32] WARNING root fetch - processPackages [pmentropy]: Skipping, unable to determine old version
+[2024-06-03 16:28:32] INFO root fetch - main [MainThread]: End processing [pmentropy] error
+[2024-06-03 16:28:32] INFO root fetch - processPackages [edwh-auth-rbac]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-06-03 16:28:32] INFO root fetch - processPackages [zarrnii]: New version: [0.1.1a1] Old Version: [0.1.0a1]
+[2024-06-03 16:28:32] INFO root fetch - processPackages [pypgstac]: New version: [0.9.0] Old Version: [0.8.6]
+[2024-06-03 16:28:32] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/85/7a/40b2a31727d866d00462a3c5c0336dcd67a130b33da41471747d6ae79d0b/multi_med_image_ml-0.0.8.tar.gz
+[2024-06-03 16:28:32] INFO root fetch - processPackages [pydivar]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-06-03 16:28:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-06-03 16:28:33] INFO root fetch - processPackages [pypgstac]: Downloading https://files.pythonhosted.org/packages/db/04/0bfeb526aba8e20bdfe069677a10ec0cd94bc93e63b390c579989d41e3ac/pypgstac-0.8.6.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [timeit-compare]: Downloading https://files.pythonhosted.org/packages/1a/97/87b49b45d5cf85614326e672f4a8230fa503f22d198d4447405caf064781/timeit_compare-1.2.2.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [zarrnii]: Downloading https://files.pythonhosted.org/packages/35/01/60718bcb42f371469567a01a05babd3fa8032f783fdeedcc3bbbf870c90b/zarrnii-0.1.0a1.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/1b/b4/00d088686fdcf4977f5b92bc4753f79c9a335d3dec2848fe281dcb217e42/edwh_auth_rbac-0.4.3.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [pydivar]: Downloading https://files.pythonhosted.org/packages/5a/d9/889bbc2d250c87e8dfcd274be7e93eb2c17d3fdfd59fcbacf44ace6afa05/pydivar-1.0.2.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-06-03 16:28:33] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/9c/40/c4cad65286e6c3b71d736090f19e5118fe03f25ce48da51bd7a49e0d14db/edwh_auth_rbac-0.5.0.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/af/bb/6cd3104b2205a0a01bd5686681b87f4f4253ff30f5fc219ba7c3cc390397/multi_med_image_ml-0.0.9.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [timeit-compare]: Downloading https://files.pythonhosted.org/packages/c2/6e/8398de32aed79f1e85a75780a7d7b1e250ae3d491c80e99fe5664c6dfa71/timeit_compare-1.3.0.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [zarrnii]: Downloading https://files.pythonhosted.org/packages/a5/24/ef0dc8383db496b6a54803cd96507b96d47e5a6f829a9175ad3a16c2a6b4/zarrnii-0.1.1a1.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-06-03 16:28:33] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240603/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-06-03 16:28:33] INFO root fetch - processPackages [pypgstac]: Downloading https://files.pythonhosted.org/packages/6f/7e/9bd8318e896f96938c7e5da47d670595e004c23320860284e45ce8164a74/pypgstac-0.9.0.tar.gz
+[2024-06-03 16:28:33] INFO root fetch - processPackages [timeit-compare]: executing diffoscope
+[2024-06-03 16:28:33] INFO root fetch - processPackages [timeit-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeit_compare-1.2.2.tar.gz tmp/timeit_compare-1.3.0.tar.gz --markdown 20240603/t/timeit-compare/1.2.2-1.3.0/README.md --exclude *.pyd
+[2024-06-03 16:28:33] INFO root fetch - processPackages [edwh-auth-rbac]: executing diffoscope
+[2024-06-03 16:28:33] INFO root fetch - processPackages [edwh-auth-rbac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_auth_rbac-0.4.3.tar.gz tmp/edwh_auth_rbac-0.5.0.tar.gz --markdown 20240603/e/edwh-auth-rbac/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-06-03 16:28:33] INFO root fetch - processPackages [zarrnii]: executing diffoscope
+[2024-06-03 16:28:33] INFO root fetch - processPackages [zarrnii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarrnii-0.1.0a1.tar.gz tmp/zarrnii-0.1.1a1.tar.gz --markdown 20240603/z/zarrnii/0.1.0a1-0.1.1a1/README.md --exclude *.pyd
+[2024-06-03 16:28:34] INFO root fetch - processPackages [pydivar]: Downloading https://files.pythonhosted.org/packages/02/0a/0bae3a17de9992302a0423f2e6692dad0b186b4fdec08f3b3c01db6ed6c5/pydivar-1.0.3-py3-none-any.whl
+[2024-06-03 16:28:34] INFO root fetch - processPackages [pydivar]: executing diffoscope
+[2024-06-03 16:28:34] INFO root fetch - processPackages [pydivar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivar-1.0.2.tar.gz tmp/pydivar-1.0.3-py3-none-any.whl.zip --markdown 20240603/p/pydivar/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-06-03 16:28:34] INFO root fetch - processPackages [pypgstac]: executing diffoscope
+[2024-06-03 16:28:34] INFO root fetch - processPackages [pypgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypgstac-0.8.6.tar.gz tmp/pypgstac-0.9.0.tar.gz --markdown 20240603/p/pypgstac/0.8.6-0.9.0/README.md --exclude *.pyd
+[2024-06-03 16:28:34] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-06-03 16:28:34] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.8.tar.gz tmp/multi_med_image_ml-0.0.9.tar.gz --markdown 20240603/m/multi-med-image-ml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:28:34] INFO root fetch - processPackages [timeit-compare]: Remove: archive file [/home/abi/fetcher/tmp/timeit_compare-1.2.2.tar.gz]
+[2024-06-03 16:28:34] INFO root fetch - processPackages [timeit-compare]: Remove: archive file [/home/abi/fetcher/tmp/timeit_compare-1.3.0.tar.gz]
+[2024-06-03 16:28:34] INFO root fetch - main [MainThread]: End processing [timeit-compare]: success
+[2024-06-03 16:28:34] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-06-03 16:28:34] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-06-03 16:28:34] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-06-03 16:28:34] INFO root fetch - processPackages [zarrnii]: Remove: archive file [/home/abi/fetcher/tmp/zarrnii-0.1.0a1.tar.gz]
+[2024-06-03 16:28:34] INFO root fetch - processPackages [zarrnii]: Remove: archive file [/home/abi/fetcher/tmp/zarrnii-0.1.1a1.tar.gz]
+[2024-06-03 16:28:34] INFO root fetch - main [MainThread]: End processing [zarrnii]: success
+[2024-06-03 16:28:34] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.4.3.tar.gz]
+[2024-06-03 16:28:34] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.5.0.tar.gz]
+[2024-06-03 16:28:35] INFO root fetch - main [MainThread]: End processing [edwh-auth-rbac]: success
+[2024-06-03 16:28:35] INFO root fetch - processPackages [pydivar]: Remove: archive file [/home/abi/fetcher/tmp/pydivar-1.0.2.tar.gz]
+[2024-06-03 16:28:35] INFO root fetch - processPackages [pydivar]: Remove: archive file [/home/abi/fetcher/tmp/pydivar-1.0.3-py3-none-any.whl.zip]
+[2024-06-03 16:28:35] INFO root fetch - main [MainThread]: End processing [pydivar]: success
+[2024-06-03 16:28:35] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.8.tar.gz]
+[2024-06-03 16:28:35] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.9.tar.gz]
+[2024-06-03 16:28:35] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-06-03 16:28:36] INFO root fetch - processPackages [pypgstac]: Remove: archive file [/home/abi/fetcher/tmp/pypgstac-0.8.6.tar.gz]
+[2024-06-03 16:28:36] INFO root fetch - processPackages [pypgstac]: Remove: archive file [/home/abi/fetcher/tmp/pypgstac-0.9.0.tar.gz]
+[2024-06-03 16:28:36] INFO root fetch - main [MainThread]: End processing [pypgstac]: success
+[2024-06-03 16:28:36] INFO root fetch - main [MainThread]: Store serial: [23504226]
