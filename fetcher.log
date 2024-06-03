@@ -6086,3 +6086,18 @@ EOFError: EOF read where object expected
 [2024-06-03 06:52:23] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.5.tar.gz]
 [2024-06-03 06:52:23] INFO root fetch - main [MainThread]: End processing [pyodps]: success
 [2024-06-03 06:52:23] INFO root fetch - main [MainThread]: Store serial: [23496783]
+[2024-06-03 06:54:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496783]
+[2024-06-03 06:54:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-06-03 06:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indonesia-latestearthquake-Rx168059
+[2024-06-03 06:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m-abac-test
+[2024-06-03 06:54:31] WARNING root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Skipping, unable to determine old version
+[2024-06-03 06:54:31] INFO root fetch - main [MainThread]: End processing [indonesia-latestearthquake-Rx168059] error
+[2024-06-03 06:54:31] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 06:54:32] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2024-06-03 06:54:32] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2024-06-03 06:54:32] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2024-06-03 06:54:32] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20240603/m/m-abac-test/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 06:54:33] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2024-06-03 06:54:33] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2024-06-03 06:54:33] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2024-06-03 06:54:33] INFO root fetch - main [MainThread]: Store serial: [23496790]
