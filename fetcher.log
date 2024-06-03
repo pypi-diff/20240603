@@ -11069,3 +11069,101 @@ EOFError: EOF read where object expected
 [2024-06-03 11:08:04] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-06-03 11:08:04] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-06-03 11:08:04] INFO root fetch - main [MainThread]: Store serial: [23499139]
+[2024-06-03 11:10:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499139]
+[2024-06-03 11:10:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: density-calculator
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: triton-copilot
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rxnSMILES4AtomEco
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sc-ssGSEA
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: livepriceofgold-usa-Rx168059
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ul-db-utils
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atomicshop
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bencode-cpp
+[2024-06-03 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aixhello
+[2024-06-03 11:10:13] INFO root fetch - processPackages [density-calculator]: New version: [0.1] Old Version: [0.0.1]
+[2024-06-03 11:10:13] INFO root fetch - processPackages [rxnSMILES4AtomEco]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 11:10:13] INFO root fetch - processPackages [aixhello]: New version: [4.4] Old Version: [4.3]
+[2024-06-03 11:10:13] WARNING root fetch - processPackages [sc-ssGSEA]: Skipping, unable to determine old version
+[2024-06-03 11:10:13] INFO root fetch - processPackages [sc-ssGSEA]: Start processing: pulse-linter
+[2024-06-03 11:10:13] INFO root fetch - main [MainThread]: End processing [sc-ssGSEA] error
+[2024-06-03 11:10:13] WARNING root fetch - processPackages [livepriceofgold-usa-Rx168059]: Skipping, unable to determine old version
+[2024-06-03 11:10:13] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Start processing: jupyter-code-server
+[2024-06-03 11:10:13] INFO root fetch - main [MainThread]: End processing [livepriceofgold-usa-Rx168059] error
+[2024-06-03 11:10:13] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 11:10:13] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b2] Old Version: [0.1.3b1]
+[2024-06-03 11:10:13] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240603] Old Version: [1.1.1b20240602]
+[2024-06-03 11:10:13] INFO root fetch - processPackages [ul-db-utils]: New version: [3.3.7] Old Version: [3.3.6]
+[2024-06-03 11:10:13] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/a4/96/04ee73ff01b3b25987f5d8e668b4fcbe9a3c9f03958f5f6c4fedb9574e7a/rxnSMILES4AtomEco-1.0.8.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/e2/1e/7953c2d993d661c4a2e5d665c18c4763bfaec83dbfe8f1e4f754a24757ed/aixhello-4.3.tar.gz
+[2024-06-03 11:10:13] WARNING root fetch - processPackages [bencode-cpp]: Skipping, unable to determine old version
+[2024-06-03 11:10:13] INFO root fetch - processPackages [bencode-cpp]: Start processing: triton-copilot
+[2024-06-03 11:10:13] INFO root fetch - main [MainThread]: End processing [bencode-cpp] error
+[2024-06-03 11:10:13] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 11:10:13] WARNING root fetch - processPackages [pulse-linter]: Skipping, unable to determine old version
+[2024-06-03 11:10:13] INFO root fetch - processPackages [pulse-linter]: Start processing: pyfilecache
+[2024-06-03 11:10:13] INFO root fetch - main [MainThread]: End processing [pulse-linter] error
+[2024-06-03 11:10:13] WARNING root fetch - processPackages [jupyter-code-server]: Skipping, unable to determine old version
+[2024-06-03 11:10:13] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/98/6f/701234d168f7f62450e0fae0be5e71533e484d2b6137bb156ff3a4720201/triton_copilot-0.1.3b1.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [jupyter-code-server]: Start processing: lwrad
+[2024-06-03 11:10:13] INFO root fetch - main [MainThread]: End processing [jupyter-code-server] error
+[2024-06-03 11:10:13] INFO root fetch - processPackages [density-calculator]: Downloading https://files.pythonhosted.org/packages/ef/96/7a9585cb0150149b56e3d16b70587517ef7fd4569ad7160181a6aca88680/density-calculator-0.0.1.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b4] Old Version: [0.1.3b3]
+[2024-06-03 11:10:13] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/53/1c/b31996b84308ef4585142c8d433ed0b36bcff660e7b1b3783dd0dc8cefb2/autogluon-1.1.1b20240602.tar.gz
+[2024-06-03 11:10:13] WARNING root fetch - processPackages [density-calculator]: Skipping package: exceeds size limit 95828604>=10485760
+[2024-06-03 11:10:13] INFO root fetch - main [MainThread]: End processing [density-calculator] error
+[2024-06-03 11:10:13] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/01/8a/cf3b5497c10ef8c4921714650a1dda82af384c544aeb19a5df280d90add0/ul-db-utils-3.3.6.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [pyfilecache]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 11:10:13] WARNING root fetch - processPackages [lwrad]: Skipping, unable to determine old version
+[2024-06-03 11:10:13] INFO root fetch - main [MainThread]: End processing [lwrad] error
+[2024-06-03 11:10:13] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/5f/d7/e3908bd766c0765ab9d0a1e48a89ee297999b8b7d7e8904118010d960b0d/triton_copilot-0.1.3b3.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [aixhello]: Downloading https://files.pythonhosted.org/packages/d3/b7/71c155f911568cd0978e5e0532ada00980ebfa756501855cb4bcd9482049/aixhello-4.4.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/9e/92/e9db54b12dc4ca451784b66af1e6427ceaa6cb3b19737a0b7b979d7ff006/rxnSMILES4AtomEco-1.0.9.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 11:10:13] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/b8/41/5b481d99383e57756c648f6fda866cf40939736c91e571487768af19be04/triton_copilot-0.1.3b2.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [pyfilecache]: Downloading https://files.pythonhosted.org/packages/de/8f/e7f11de9ef971c2bb57c5f6a36adeaa903b8c5ab2ee13e13a61d89e8b619/pyfilecache-0.1.5.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [aixhello]: executing diffoscope
+[2024-06-03 11:10:13] INFO root fetch - processPackages [aixhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixhello-4.3.tar.gz tmp/aixhello-4.4.tar.gz --markdown 20240603/a/aixhello/4.3-4.4/README.md --exclude *.pyd
+[2024-06-03 11:10:13] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/54/c2/085beff123931f604163b472306d63aac2029e58df5be00fbd463fa8343a/autogluon-1.1.1b20240603.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [rxnSMILES4AtomEco]: executing diffoscope
+[2024-06-03 11:10:13] INFO root fetch - processPackages [rxnSMILES4AtomEco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxnSMILES4AtomEco-1.0.8.tar.gz tmp/rxnSMILES4AtomEco-1.0.9.tar.gz --markdown 20240603/r/rxnSMILES4AtomEco/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 11:10:13] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/ea/77/b4f4a7a189637d75d92f4b7692111174e9b129272ce6be4af533fa09890e/ul-db-utils-3.3.7.tar.gz
+[2024-06-03 11:10:13] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 11:10:13] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b1.tar.gz tmp/triton_copilot-0.1.3b2.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b1-0.1.3b2/README.md --exclude *.pyd
+[2024-06-03 11:10:13] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 11:10:13] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 11:10:13] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-06-03 11:10:13] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240602.tar.gz tmp/autogluon-1.1.1b20240603.tar.gz --markdown 20240603/a/autogluon/1.1.1b20240602-1.1.1b20240603/README.md --exclude *.pyd
+[2024-06-03 11:10:13] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/3e/91/1bccefdfc76dfd0330270eac73b50e3c6465e1d137f5431801e3619f422f/triton_copilot-0.1.3b4.tar.gz
+[2024-06-03 11:10:14] INFO root fetch - processPackages [ul-db-utils]: executing diffoscope
+[2024-06-03 11:10:14] INFO root fetch - processPackages [ul-db-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-db-utils-3.3.6.tar.gz tmp/ul-db-utils-3.3.7.tar.gz --markdown 20240603/u/ul-db-utils/3.3.6-3.3.7/README.md --exclude *.pyd
+[2024-06-03 11:10:14] INFO root fetch - processPackages [pyfilecache]: Downloading https://files.pythonhosted.org/packages/a6/b3/ebf4d69114dd7f95c0c40c1df9881b96ed2f82d7b0525f1479f240e028b3/pyfilecache-0.1.6.tar.gz
+[2024-06-03 11:10:14] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 11:10:14] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b3.tar.gz tmp/triton_copilot-0.1.3b4.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b3-0.1.3b4/README.md --exclude *.pyd
+[2024-06-03 11:10:14] INFO root fetch - processPackages [pyfilecache]: executing diffoscope
+[2024-06-03 11:10:14] INFO root fetch - processPackages [pyfilecache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilecache-0.1.5.tar.gz tmp/pyfilecache-0.1.6.tar.gz --markdown 20240603/p/pyfilecache/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 11:10:15] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b1.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b2.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 11:10:15] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.8.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.9.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - main [MainThread]: End processing [rxnSMILES4AtomEco]: success
+[2024-06-03 11:10:15] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.3.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - processPackages [aixhello]: Remove: archive file [/home/abi/fetcher/tmp/aixhello-4.4.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - main [MainThread]: End processing [aixhello]: success
+[2024-06-03 11:10:15] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240602.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240603.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-06-03 11:10:15] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.6.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.7.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - main [MainThread]: End processing [ul-db-utils]: success
+[2024-06-03 11:10:15] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b3.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b4.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 11:10:15] INFO root fetch - processPackages [pyfilecache]: Remove: archive file [/home/abi/fetcher/tmp/pyfilecache-0.1.5.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - processPackages [pyfilecache]: Remove: archive file [/home/abi/fetcher/tmp/pyfilecache-0.1.6.tar.gz]
+[2024-06-03 11:10:15] INFO root fetch - main [MainThread]: End processing [pyfilecache]: success
+[2024-06-03 11:10:16] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 11:10:16] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 11:10:16] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 11:10:16] INFO root fetch - main [MainThread]: Store serial: [23499274]
