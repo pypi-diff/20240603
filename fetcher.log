@@ -2024,3 +2024,27 @@
 [2024-06-03 02:33:55] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy_iers_data-0.2024.6.3.0.31.14.tar.gz]
 [2024-06-03 02:33:55] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
 [2024-06-03 02:33:55] INFO root fetch - main [MainThread]: Store serial: [23494954]
+[2024-06-03 02:35:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494954]
+[2024-06-03 02:36:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 02:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-config
+[2024-06-03 02:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudforet-console-api-v2
+[2024-06-03 02:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcs-scripts
+[2024-06-03 02:36:04] WARNING root fetch - processPackages [dcs-scripts]: Skipping, unable to determine old version
+[2024-06-03 02:36:04] INFO root fetch - main [MainThread]: End processing [dcs-scripts] error
+[2024-06-03 02:36:04] INFO root fetch - processPackages [np-config]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-06-03 02:36:04] INFO root fetch - processPackages [np-config]: Downloading https://files.pythonhosted.org/packages/cd/1a/5ff99b43b8944c29cb529150ef6045ff9a638cc6180695973aa31e292527/np_config-0.4.8.tar.gz
+[2024-06-03 02:36:04] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-06-03 02:36:04] INFO root fetch - processPackages [np-config]: Downloading https://files.pythonhosted.org/packages/81/10/77d3e96f9107386cc98f38ae1785c9ddf708cff40eb0b588bda92d83af9d/np_config-0.4.9.tar.gz
+[2024-06-03 02:36:04] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-06-03 02:36:04] INFO root fetch - processPackages [np-config]: executing diffoscope
+[2024-06-03 02:36:04] INFO root fetch - processPackages [np-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_config-0.4.8.tar.gz tmp/np_config-0.4.9.tar.gz --markdown 20240603/n/np-config/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-06-03 02:36:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-06-03 02:36:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-06-03 02:36:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240603/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-06-03 02:36:05] INFO root fetch - processPackages [np-config]: Remove: archive file [/home/abi/fetcher/tmp/np_config-0.4.8.tar.gz]
+[2024-06-03 02:36:05] INFO root fetch - processPackages [np-config]: Remove: archive file [/home/abi/fetcher/tmp/np_config-0.4.9.tar.gz]
+[2024-06-03 02:36:05] INFO root fetch - main [MainThread]: End processing [np-config]: success
+[2024-06-03 02:36:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-06-03 02:36:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-06-03 02:36:05] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-06-03 02:36:05] INFO root fetch - main [MainThread]: Store serial: [23495015]
