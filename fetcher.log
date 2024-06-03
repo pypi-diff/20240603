@@ -11572,3 +11572,63 @@ EOFError: EOF read where object expected
 [2024-06-03 11:23:35] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
 [2024-06-03 11:23:35] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
 [2024-06-03 11:23:35] INFO root fetch - main [MainThread]: Store serial: [23499438]
+[2024-06-03 11:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499438]
+[2024-06-03 11:25:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 11:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aistrainer
+[2024-06-03 11:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: triton-copilot
+[2024-06-03 11:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-sql-tool
+[2024-06-03 11:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bwalign
+[2024-06-03 11:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: livepriceofgold-usa-Rx168059
+[2024-06-03 11:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlfoundry
+[2024-06-03 11:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syrius-sdk
+[2024-06-03 11:25:46] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b4] Old Version: [0.1.3b3]
+[2024-06-03 11:25:46] INFO root fetch - processPackages [aistrainer]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 11:25:46] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: New version: [2024.0.0.3.1] Old Version: [2024.0.0.3]
+[2024-06-03 11:25:46] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/5f/d7/e3908bd766c0765ab9d0a1e48a89ee297999b8b7d7e8904118010d960b0d/triton_copilot-0.1.3b3.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [aistrainer]: Downloading https://files.pythonhosted.org/packages/1a/23/0f42798aac240e700c3f36c36abff064a99ce891152df2397ac157e4a2e7/aistrainer-0.0.3.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/74/8b/c2f3476ced43d03d6521eaa227ed49cd119cfc502ca05c681d788088d046/livepriceofgold_usa_rx168059-2024.0.0.3.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [bwalign]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-06-03 11:25:46] WARNING root fetch - processPackages [django-sql-tool]: Skipping, unable to determine old version
+[2024-06-03 11:25:46] INFO root fetch - main [MainThread]: End processing [django-sql-tool] error
+[2024-06-03 11:25:46] INFO root fetch - processPackages [mlfoundry]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 11:25:46] INFO root fetch - processPackages [syrius-sdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-06-03 11:25:46] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/fe/52/82219315afb0c7e81f59fd402d44f74d018ca135584afa5228e8d73d8313/bwalign-1.3.6.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [aistrainer]: Downloading https://files.pythonhosted.org/packages/22/9f/a6d558a15cd5a69a8bd648340d2535d8ac8dbe6caaad911527d72a2f0217/aistrainer-0.0.4.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/26/f5/e89c9f84599f284f0ad4216acfdc9fa744a757b625b5ddb3391e4ec56ec8/mlfoundry-0.9.8.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [syrius-sdk]: Downloading https://files.pythonhosted.org/packages/70/83/541b024a8370dc2d976fd16421354318f541a37c31613da5e4c749395e86/syrius_sdk-0.2.7.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/3e/91/1bccefdfc76dfd0330270eac73b50e3c6465e1d137f5431801e3619f422f/triton_copilot-0.1.3b4.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/9f/09/f372ace397d2c07c74b4c81ea186f28ba418de1d903848ad4a9f27aa8541/livepriceofgold_usa_rx168059-2024.0.0.3.1.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [aistrainer]: executing diffoscope
+[2024-06-03 11:25:46] INFO root fetch - processPackages [aistrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistrainer-0.0.3.tar.gz tmp/aistrainer-0.0.4.tar.gz --markdown 20240603/a/aistrainer/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 11:25:46] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 11:25:46] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b3.tar.gz tmp/triton_copilot-0.1.3b4.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b3-0.1.3b4/README.md --exclude *.pyd
+[2024-06-03 11:25:46] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: executing diffoscope
+[2024-06-03 11:25:46] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livepriceofgold_usa_rx168059-2024.0.0.3.tar.gz tmp/livepriceofgold_usa_rx168059-2024.0.0.3.1.tar.gz --markdown 20240603/l/livepriceofgold-usa-Rx168059/2024.0.0.3-2024.0.0.3.1/README.md --exclude *.pyd
+[2024-06-03 11:25:46] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/11/04/202e1a55b85c8882f15d15c7c392755687e6b72a0dda7b239388caac716e/bwalign-1.3.7.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 11:25:46] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.3.6.tar.gz tmp/bwalign-1.3.7.tar.gz --markdown 20240603/b/bwalign/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-06-03 11:25:46] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/ff/a2/260681b48091976e23334a5a93881b8530818e94c5626aa0e91268036046/mlfoundry-0.9.9.tar.gz
+[2024-06-03 11:25:46] INFO root fetch - processPackages [syrius-sdk]: Downloading https://files.pythonhosted.org/packages/6f/90/89ee8c28dc4b99cad84a21593369c5705bf3697435eed506f8d7e7b3545c/syrius_sdk-0.2.8.tar.gz
+[2024-06-03 11:25:47] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2024-06-03 11:25:47] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.9.8.tar.gz tmp/mlfoundry-0.9.9.tar.gz --markdown 20240603/m/mlfoundry/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 11:25:47] INFO root fetch - processPackages [aistrainer]: Remove: archive file [/home/abi/fetcher/tmp/aistrainer-0.0.3.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - processPackages [aistrainer]: Remove: archive file [/home/abi/fetcher/tmp/aistrainer-0.0.4.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - main [MainThread]: End processing [aistrainer]: success
+[2024-06-03 11:25:47] INFO root fetch - processPackages [syrius-sdk]: executing diffoscope
+[2024-06-03 11:25:47] INFO root fetch - processPackages [syrius-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syrius_sdk-0.2.7.tar.gz tmp/syrius_sdk-0.2.8.tar.gz --markdown 20240603/s/syrius-sdk/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-06-03 11:25:47] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b3.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b4.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 11:25:47] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.3.6.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.3.7.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 11:25:47] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.1.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - main [MainThread]: End processing [livepriceofgold-usa-Rx168059]: success
+[2024-06-03 11:25:47] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.8.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.9.tar.gz]
+[2024-06-03 11:25:47] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2024-06-03 11:25:48] INFO root fetch - processPackages [syrius-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syrius_sdk-0.2.7.tar.gz]
+[2024-06-03 11:25:48] INFO root fetch - processPackages [syrius-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syrius_sdk-0.2.8.tar.gz]
+[2024-06-03 11:25:48] INFO root fetch - main [MainThread]: End processing [syrius-sdk]: success
+[2024-06-03 11:25:48] INFO root fetch - main [MainThread]: Store serial: [23499465]
