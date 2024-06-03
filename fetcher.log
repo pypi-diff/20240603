@@ -3869,3 +3869,29 @@ EOFError: EOF read where object expected
 [2024-06-03 04:40:16] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.2.4.tar.gz]
 [2024-06-03 04:40:16] INFO root fetch - main [MainThread]: End processing [cycls]: success
 [2024-06-03 04:40:16] INFO root fetch - main [MainThread]: Store serial: [23495778]
+[2024-06-03 04:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495778]
+[2024-06-03 04:42:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Agentic-Reports
+[2024-06-03 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldeep
+[2024-06-03 04:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EasyFlowQ
+[2024-06-03 04:42:25] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 04:42:25] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/96/44/dc770dd69d4146c0ff0d2e61d69db51c2f8dc8ff58c6303dfbb6565f9440/Agentic-Reports-0.0.7.tar.gz
+[2024-06-03 04:42:25] INFO root fetch - processPackages [EasyFlowQ]: New version: [1.5.4] Old Version: [1.4.9]
+[2024-06-03 04:42:25] INFO root fetch - processPackages [ldeep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 04:42:25] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/24/e2/09c2ff64528ba7e556d1f75dec902fee07b80fdde1f9ffcf6dd1e182bfcf/ldeep-1.0.8.tar.gz
+[2024-06-03 04:42:25] INFO root fetch - processPackages [EasyFlowQ]: Downloading https://files.pythonhosted.org/packages/45/01/6958d8ad770b490ab0e2c20ed1d7b9ba416f3ede0b178f041c60ffe8b5b7/easyflowq-1.4.9.tar.gz
+[2024-06-03 04:42:25] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 04:42:25] WARNING root fetch - processPackages [EasyFlowQ]: Skipping package: exceeds size limit 81990214>=10485760
+[2024-06-03 04:42:25] INFO root fetch - main [MainThread]: End processing [EasyFlowQ] error
+[2024-06-03 04:42:25] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 04:42:25] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.7.tar.gz tmp/Agentic-Reports-0.0.8.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 04:42:25] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/e2/b0/645c2fce50d34f47b9f5b8fb9be8a6c2e716ddb3573e379f4221970560bc/ldeep-1.0.9.tar.gz
+[2024-06-03 04:42:25] INFO root fetch - processPackages [ldeep]: executing diffoscope
+[2024-06-03 04:42:25] INFO root fetch - processPackages [ldeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldeep-1.0.8.tar.gz tmp/ldeep-1.0.9.tar.gz --markdown 20240603/l/ldeep/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 04:42:26] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.7.tar.gz]
+[2024-06-03 04:42:26] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.8.tar.gz]
+[2024-06-03 04:42:26] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 04:42:26] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.8.tar.gz]
+[2024-06-03 04:42:26] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.9.tar.gz]
+[2024-06-03 04:42:26] INFO root fetch - main [MainThread]: End processing [ldeep]: success
+[2024-06-03 04:42:26] INFO root fetch - main [MainThread]: Store serial: [23495785]
