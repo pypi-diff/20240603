@@ -16422,3 +16422,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:32:07] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-06-03 13:32:07] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-06-03 13:32:07] INFO root fetch - main [MainThread]: Store serial: [23501365]
+[2024-06-03 13:34:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501365]
+[2024-06-03 13:34:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Multiclass-interface
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metabolights-utils
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bauplan
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-ricevute-bancarie
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-eci
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchsnapshot-nightly
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moonwatcher
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: conscia-secretvalue
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: um6p-CC-learn
+[2024-06-03 13:34:16] INFO root fetch - processPackages [um6p-CC-learn]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 13:34:16] WARNING root fetch - processPackages [moonwatcher]: Skipping, unable to determine old version
+[2024-06-03 13:34:16] INFO root fetch - main [MainThread]: End processing [moonwatcher] error
+[2024-06-03 13:34:16] INFO root fetch - processPackages [Multiclass-interface]: New version: [1.6] Old Version: [1.5]
+[2024-06-03 13:34:16] INFO root fetch - processPackages [metabolights-utils]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-06-03 13:34:16] INFO root fetch - processPackages [torchsnapshot-nightly]: New version: [2024.6.2] Old Version: [2024.6.1]
+[2024-06-03 13:34:16] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1]
+[2024-06-03 13:34:16] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/85/8d/bb4c661b9d4f7d76eeaa6eba9976c140b2f25301d9d7443055f2321155d0/um6p_cc_learn-0.2.3.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ros-cdk-eci]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:34:16] INFO root fetch - processPackages [bauplan]: New version: [0.0.3a99] Old Version: [0.0.3a98]
+[2024-06-03 13:34:16] WARNING root fetch - processPackages [conscia-secretvalue]: Skipping, unable to determine old version
+[2024-06-03 13:34:16] INFO root fetch - main [MainThread]: End processing [conscia-secretvalue] error
+[2024-06-03 13:34:16] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/bd/8e/b47b096b774dd9884b891bede5c49ce79167a93bab19fe93e5d40ff73d61/metabolights_utils-0.9.8.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/fa/30/65f1d61a19066da292ae77f89d9adb863fcb078e0e60e556265b6b7b1c25/torchsnapshot_nightly-2024.6.1.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/ff/02/8c8d1f35c53c6431811713560adf7cfd047a04a464819a40f8898194fec7/multiclass_interface-1.5.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/9a/92/e1a9a77e51f24184f7992539c03b11a4d476ebdcf3cda8dc9a4e89df4857/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.1-py3-none-any.whl
+[2024-06-03 13:34:16] INFO root fetch - processPackages [ros-cdk-eci]: Downloading https://files.pythonhosted.org/packages/d2/fa/4b076e5e26015c9d43ceac696178e6aaf5780065b3aaac3c91259ba56fb5/ros-cdk-eci-1.0.8.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/85/15/20d89c1bcd5e00733e248397ee4046f32827c24be330deed927e9fc323ad/bauplan-0.0.3a98-py3-none-win_amd64.whl
+[2024-06-03 13:34:16] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/b8/2f/e76e68885d7a85452d3b4041099df9e790f67f66f8b6c5cb1c96d43e3b99/um6p_cc_learn-0.2.4.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/f1/6c/95829ef70e4a7c7fc5ae85a28e1111707a6c025ddfe8229ff6ccf7260140/multiclass_interface-1.6.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/87/47/6c0324333142cb1da7e62fca84a9198992ffb8901c7f9642e1f58cd5ed2f/metabolights_utils-0.9.9.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [Multiclass-interface]: executing diffoscope
+[2024-06-03 13:34:16] INFO root fetch - processPackages [Multiclass-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiclass_interface-1.5.tar.gz tmp/multiclass_interface-1.6.tar.gz --markdown 20240603/M/Multiclass-interface/1.5-1.6/README.md --exclude *.pyd
+[2024-06-03 13:34:16] INFO root fetch - processPackages [um6p-CC-learn]: executing diffoscope
+[2024-06-03 13:34:16] INFO root fetch - processPackages [um6p-CC-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/um6p_cc_learn-0.2.3.tar.gz tmp/um6p_cc_learn-0.2.4.tar.gz --markdown 20240603/u/um6p-CC-learn/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 13:34:16] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/fc/c7/902cbc261b0cd1dbefcb8326bd1d42c6a1f51929f068f51b3e66f6842a29/torchsnapshot_nightly-2024.6.2.tar.gz
+[2024-06-03 13:34:16] INFO root fetch - processPackages [metabolights-utils]: executing diffoscope
+[2024-06-03 13:34:16] INFO root fetch - processPackages [metabolights-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolights_utils-0.9.8.tar.gz tmp/metabolights_utils-0.9.9.tar.gz --markdown 20240603/m/metabolights-utils/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-06-03 13:34:16] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/dd/45/9216b90decff74b8af9abb59f7fa757a6711a88b4ee2f70cc77e98e00d1a/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.2-py3-none-any.whl
+[2024-06-03 13:34:16] INFO root fetch - processPackages [torchsnapshot-nightly]: executing diffoscope
+[2024-06-03 13:34:16] INFO root fetch - processPackages [torchsnapshot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsnapshot_nightly-2024.6.1.tar.gz tmp/torchsnapshot_nightly-2024.6.2.tar.gz --markdown 20240603/t/torchsnapshot-nightly/2024.6.1-2024.6.2/README.md --exclude *.pyd
+[2024-06-03 13:34:17] INFO root fetch - processPackages [ros-cdk-eci]: Downloading https://files.pythonhosted.org/packages/8e/c5/88a66c12bd5b01106bed9b20b61874d61d7ee10e54be84ec6b86e7b5000c/ros-cdk-eci-1.0.9.tar.gz
+[2024-06-03 13:34:17] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: executing diffoscope
+[2024-06-03 13:34:17] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.2-py3-none-any.whl.zip --markdown 20240603/o/odoo14-addon-l10n-it-ricevute-bancarie/14.0.1.9.1-14.0.1.9.2/README.md --exclude *.pyd
+[2024-06-03 13:34:17] INFO root fetch - processPackages [ros-cdk-eci]: executing diffoscope
+[2024-06-03 13:34:17] INFO root fetch - processPackages [ros-cdk-eci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-eci-1.0.8.tar.gz tmp/ros-cdk-eci-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-eci/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:34:17] INFO root fetch - processPackages [um6p-CC-learn]: Remove: archive file [/home/abi/fetcher/tmp/um6p_cc_learn-0.2.3.tar.gz]
+[2024-06-03 13:34:17] INFO root fetch - processPackages [um6p-CC-learn]: Remove: archive file [/home/abi/fetcher/tmp/um6p_cc_learn-0.2.4.tar.gz]
+[2024-06-03 13:34:17] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
+[2024-06-03 13:34:17] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.5.tar.gz]
+[2024-06-03 13:34:17] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.6.tar.gz]
+[2024-06-03 13:34:17] INFO root fetch - main [MainThread]: End processing [Multiclass-interface]: success
+[2024-06-03 13:34:17] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.6.1.tar.gz]
+[2024-06-03 13:34:17] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.6.2.tar.gz]
+[2024-06-03 13:34:17] INFO root fetch - main [MainThread]: End processing [torchsnapshot-nightly]: success
+[2024-06-03 13:34:17] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/23/8b/70ca9196e9ab95cc954089482ad31add486cddb9566cd3de6f70ff677781/bauplan-0.0.3a99-py3-none-win_amd64.whl
+[2024-06-03 13:34:17] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.8.tar.gz]
+[2024-06-03 13:34:17] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.9.tar.gz]
+[2024-06-03 13:34:17] INFO root fetch - main [MainThread]: End processing [metabolights-utils]: success
+[2024-06-03 13:34:18] INFO root fetch - processPackages [ros-cdk-eci]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eci-1.0.8.tar.gz]
+[2024-06-03 13:34:18] INFO root fetch - processPackages [ros-cdk-eci]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-eci-1.0.9.tar.gz]
+[2024-06-03 13:34:18] INFO root fetch - main [MainThread]: End processing [ros-cdk-eci]: success
+[2024-06-03 13:34:18] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.1-py3-none-any.whl.zip]
+[2024-06-03 13:34:18] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.2-py3-none-any.whl.zip]
+[2024-06-03 13:34:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-ricevute-bancarie]: success
+[2024-06-03 13:34:20] INFO root fetch - processPackages [bauplan]: executing diffoscope
+[2024-06-03 13:34:20] INFO root fetch - processPackages [bauplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bauplan-0.0.3a98-py3-none-win_amd64.whl.zip tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip --markdown 20240603/b/bauplan/0.0.3a98-0.0.3a99/README.md --exclude *.pyd
+[2024-06-03 13:35:13] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a98-py3-none-win_amd64.whl.zip]
+[2024-06-03 13:35:13] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
+[2024-06-03 13:35:13] INFO root fetch - main [MainThread]: End processing [bauplan]: success
+[2024-06-03 13:35:13] INFO root fetch - main [MainThread]: Store serial: [23501400]
