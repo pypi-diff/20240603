@@ -7057,3 +7057,65 @@ EOFError: EOF read where object expected
 [2024-06-03 07:53:21] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.61.tar.gz]
 [2024-06-03 07:53:21] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-06-03 07:53:21] INFO root fetch - main [MainThread]: Store serial: [23497139]
+[2024-06-03 07:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497139]
+[2024-06-03 07:55:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abadpour
+[2024-06-03 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abadpour
+[2024-06-03 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abadpour
+[2024-06-03 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abadpour
+[2024-06-03 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: struuuctify
+[2024-06-03 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iac-init
+[2024-06-03 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timmytimesheet
+[2024-06-03 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dvs-printf
+[2024-06-03 07:55:30] INFO root fetch - processPackages [timmytimesheet]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-06-03 07:55:30] INFO root fetch - processPackages [iac-init]: New version: [0.9.62] Old Version: [0.9.61]
+[2024-06-03 07:55:30] INFO root fetch - processPackages [struuuctify]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-06-03 07:55:30] ERROR root fetch - processPackages [dvs-printf]: Unable to get metadata: No such project 'dvs-printf'
+[2024-06-03 07:55:30] INFO root fetch - main [MainThread]: End processing [dvs-printf] error
+[2024-06-03 07:55:30] INFO root fetch - processPackages [abadpour]: New version: [6.30.1] Old Version: [6.29.1]
+[2024-06-03 07:55:30] INFO root fetch - processPackages [abadpour]: New version: [6.30.1] Old Version: [6.29.1]
+[2024-06-03 07:55:30] INFO root fetch - processPackages [abadpour]: New version: [6.30.1] Old Version: [6.29.1]
+[2024-06-03 07:55:30] INFO root fetch - processPackages [abadpour]: New version: [6.30.1] Old Version: [6.29.1]
+[2024-06-03 07:55:30] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/7d/cd/d8e179799427a970b0ee40f8004dfcc675699c893c1bce2d072106924b96/iac_init-0.9.61.tar.gz
+[2024-06-03 07:55:30] INFO root fetch - processPackages [struuuctify]: Downloading https://files.pythonhosted.org/packages/71/1b/2f1d9ad6a5b00db88f98a211635ff2faf1d1e8b10eabf9de0efb28ac6121/struuuctify-0.0.1.tar.gz
+[2024-06-03 07:55:30] INFO root fetch - processPackages [timmytimesheet]: Downloading https://files.pythonhosted.org/packages/0c/7e/f0c27e1aa279e9dde92c6497f7929c7f517e7bb1574e007300daaaedef0f/timmytimesheet-0.1.3.tar.gz
+[2024-06-03 07:55:30] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/dd/35/3be23563bac131c7b4443e414383dc726dd5ac66f9ada00aa2044d4fe639/abadpour-6.29.1.tar.gz
+[2024-06-03 07:55:30] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/dd/35/3be23563bac131c7b4443e414383dc726dd5ac66f9ada00aa2044d4fe639/abadpour-6.29.1.tar.gz
+[2024-06-03 07:55:30] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/dd/35/3be23563bac131c7b4443e414383dc726dd5ac66f9ada00aa2044d4fe639/abadpour-6.29.1.tar.gz
+[2024-06-03 07:55:30] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/dd/35/3be23563bac131c7b4443e414383dc726dd5ac66f9ada00aa2044d4fe639/abadpour-6.29.1.tar.gz
+[2024-06-03 07:55:30] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/3c/7c/6997e574de4cf8fc1cf731e740b74ab55676a7260d5116fd884c33fce660/iac_init-0.9.62.tar.gz
+[2024-06-03 07:55:30] INFO root fetch - processPackages [timmytimesheet]: executing diffoscope
+[2024-06-03 07:55:30] INFO root fetch - processPackages [timmytimesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timmytimesheet-0.1.1.tar.gz tmp/timmytimesheet-0.1.3.tar.gz --markdown 20240603/t/timmytimesheet/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-06-03 07:55:31] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-06-03 07:55:31] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.9.61.tar.gz tmp/iac_init-0.9.62.tar.gz --markdown 20240603/i/iac-init/0.9.61-0.9.62/README.md --exclude *.pyd
+[2024-06-03 07:55:31] INFO root fetch - processPackages [struuuctify]: Downloading https://files.pythonhosted.org/packages/07/7f/a1de20bba5013ca0c61b237d8128f4451935f80670cc502d2bb26735e8f4/struuuctify-0.0.4.tar.gz
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/d7/d1/f0d6aaa854cc419f3eed3c263d4123620f383eda72b672e88ee50ed48447/abadpour-6.30.1.tar.gz
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/d7/d1/f0d6aaa854cc419f3eed3c263d4123620f383eda72b672e88ee50ed48447/abadpour-6.30.1.tar.gz
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/d7/d1/f0d6aaa854cc419f3eed3c263d4123620f383eda72b672e88ee50ed48447/abadpour-6.30.1.tar.gz
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/d7/d1/f0d6aaa854cc419f3eed3c263d4123620f383eda72b672e88ee50ed48447/abadpour-6.30.1.tar.gz
+[2024-06-03 07:55:31] INFO root fetch - processPackages [struuuctify]: executing diffoscope
+[2024-06-03 07:55:31] INFO root fetch - processPackages [struuuctify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struuuctify-0.0.1.tar.gz tmp/struuuctify-0.0.4.tar.gz --markdown 20240603/s/struuuctify/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: executing diffoscope
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: executing diffoscope
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abadpour-6.29.1.tar.gz tmp/abadpour-6.30.1.tar.gz --markdown 20240603/a/abadpour/6.29.1-6.30.1/README.md --exclude *.pyd
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abadpour-6.29.1.tar.gz tmp/abadpour-6.30.1.tar.gz --markdown 20240603/a/abadpour/6.29.1-6.30.1/README.md --exclude *.pyd
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: executing diffoscope
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: executing diffoscope
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abadpour-6.29.1.tar.gz tmp/abadpour-6.30.1.tar.gz --markdown 20240603/a/abadpour/6.29.1-6.30.1/README.md --exclude *.pyd
+[2024-06-03 07:55:31] INFO root fetch - processPackages [abadpour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abadpour-6.29.1.tar.gz tmp/abadpour-6.30.1.tar.gz --markdown 20240603/a/abadpour/6.29.1-6.30.1/README.md --exclude *.pyd
+[2024-06-03 07:55:31] INFO root fetch - processPackages [timmytimesheet]: Remove: archive file [/home/abi/fetcher/tmp/timmytimesheet-0.1.1.tar.gz]
+[2024-06-03 07:55:31] INFO root fetch - processPackages [timmytimesheet]: Remove: archive file [/home/abi/fetcher/tmp/timmytimesheet-0.1.3.tar.gz]
+[2024-06-03 07:55:31] INFO root fetch - main [MainThread]: End processing [timmytimesheet]: success
+[2024-06-03 07:55:31] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.61.tar.gz]
+[2024-06-03 07:55:31] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.62.tar.gz]
+[2024-06-03 07:55:31] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-06-03 07:55:32] INFO root fetch - processPackages [struuuctify]: Remove: archive file [/home/abi/fetcher/tmp/struuuctify-0.0.1.tar.gz]
+[2024-06-03 07:55:32] INFO root fetch - processPackages [struuuctify]: Remove: archive file [/home/abi/fetcher/tmp/struuuctify-0.0.4.tar.gz]
+[2024-06-03 07:55:32] INFO root fetch - main [MainThread]: End processing [struuuctify]: success
+[2024-06-03 07:55:32] INFO root fetch - processPackages [abadpour]: Remove: archive file [/home/abi/fetcher/tmp/abadpour-6.29.1.tar.gz]
+[2024-06-03 07:55:32] INFO root fetch - processPackages [abadpour]: Remove: archive file [/home/abi/fetcher/tmp/abadpour-6.30.1.tar.gz]
+[2024-06-03 07:55:32] INFO root fetch - main [MainThread]: End processing [abadpour]: success
+[2024-06-03 07:55:32] INFO root fetch - main [MainThread]: End processing [abadpour]: success
+[2024-06-03 07:55:32] INFO root fetch - main [MainThread]: End processing [abadpour]: success
+[2024-06-03 07:55:32] INFO root fetch - main [MainThread]: End processing [abadpour]: success
+[2024-06-03 07:55:32] INFO root fetch - main [MainThread]: Store serial: [23497162]
