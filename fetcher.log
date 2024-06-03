@@ -1423,3 +1423,51 @@
 [2024-06-03 02:04:23] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.0.tar.gz]
 [2024-06-03 02:04:23] INFO root fetch - main [MainThread]: End processing [bwalign]: success
 [2024-06-03 02:04:23] INFO root fetch - main [MainThread]: Store serial: [23494684]
+[2024-06-03 02:06:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494684]
+[2024-06-03 02:06:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 02:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxscript
+[2024-06-03 02:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-06-03 02:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2024-06-03 02:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unyts
+[2024-06-03 02:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimllearning
+[2024-06-03 02:06:31] INFO root fetch - processPackages [mct-nightly]: New version: [2.1.0.20240602.440] Old Version: [2.1.0.20240601.434]
+[2024-06-03 02:06:31] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-06-03 02:06:31] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240602] Old Version: [0.1.0.dev20240601]
+[2024-06-03 02:06:31] INFO root fetch - processPackages [mimllearning]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-06-03 02:06:31] INFO root fetch - processPackages [unyts]: New version: [0.8.9] Old Version: [0.8.3]
+[2024-06-03 02:06:31] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/57/e7/017736f69e819433cb9fca009cc7fe5437ce7c1dc49e25d2c886cd413042/mct-nightly-2.1.0.20240601.434.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/05/75/9b0c53d07cb6a147636b69e974240c45e428f5100589837d0b98cd290b22/mimllearning-1.0.7.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/ad/15/7dc1b969a8093453ee3fb1cde25ea963a136892ca52c961d0ae05a2ecfa3/onnxscript-0.1.0.dev20240601.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [unyts]: Downloading https://files.pythonhosted.org/packages/cd/91/7bced74eee46f70c87f5e7ed608979d3a1a43fe1438b2aa0c795da837ff5/unyts-0.8.3.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-06-03 02:06:32] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240603/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-06-03 02:06:32] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/77/aa/d27533157202ca664acc85f9f2727e42a626f3d2f43cbe2664d6c7e37ede/onnxscript-0.1.0.dev20240602.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [unyts]: Downloading https://files.pythonhosted.org/packages/8f/e1/188d783eaa0079854357600e3fb8190a8fc032e1d3625ae431141bf58fb5/unyts-0.8.9.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-06-03 02:06:32] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240601.tar.gz tmp/onnxscript-0.1.0.dev20240602.tar.gz --markdown 20240603/o/onnxscript/0.1.0.dev20240601-0.1.0.dev20240602/README.md --exclude *.pyd
+[2024-06-03 02:06:32] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/2a/fd/4001f9bb376a9482f2b3a8dd72dbd40a285ee17ce19e896bd47f9d925438/mct-nightly-2.1.0.20240602.440.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/3e/9d/15275d10b555bec0489b6c36ba95a917c85bd5238a49bf856c4711db5cbc/mimllearning-1.0.8.tar.gz
+[2024-06-03 02:06:32] INFO root fetch - processPackages [unyts]: executing diffoscope
+[2024-06-03 02:06:32] INFO root fetch - processPackages [unyts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unyts-0.8.3.tar.gz tmp/unyts-0.8.9.tar.gz --markdown 20240603/u/unyts/0.8.3-0.8.9/README.md --exclude *.pyd
+[2024-06-03 02:06:32] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-06-03 02:06:32] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.1.0.20240601.434.tar.gz tmp/mct-nightly-2.1.0.20240602.440.tar.gz --markdown 20240603/m/mct-nightly/2.1.0.20240601.434-2.1.0.20240602.440/README.md --exclude *.pyd
+[2024-06-03 02:06:32] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-06-03 02:06:32] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-1.0.7.tar.gz tmp/mimllearning-1.0.8.tar.gz --markdown 20240603/m/mimllearning/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-06-03 02:06:33] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-06-03 02:06:33] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-06-03 02:06:33] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-06-03 02:06:33] INFO root fetch - processPackages [unyts]: Remove: archive file [/home/abi/fetcher/tmp/unyts-0.8.3.tar.gz]
+[2024-06-03 02:06:33] INFO root fetch - processPackages [unyts]: Remove: archive file [/home/abi/fetcher/tmp/unyts-0.8.9.tar.gz]
+[2024-06-03 02:06:33] INFO root fetch - main [MainThread]: End processing [unyts]: success
+[2024-06-03 02:06:33] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240601.tar.gz]
+[2024-06-03 02:06:33] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240602.tar.gz]
+[2024-06-03 02:06:33] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-06-03 02:06:34] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.7.tar.gz]
+[2024-06-03 02:06:34] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-1.0.8.tar.gz]
+[2024-06-03 02:06:34] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-06-03 02:06:34] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240601.434.tar.gz]
+[2024-06-03 02:06:34] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240602.440.tar.gz]
+[2024-06-03 02:06:34] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-06-03 02:06:34] INFO root fetch - main [MainThread]: Store serial: [23494698]
