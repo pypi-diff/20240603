@@ -5940,3 +5940,27 @@ EOFError: EOF read where object expected
 [2024-06-03 06:41:31] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.5.tar.gz]
 [2024-06-03 06:41:31] INFO root fetch - main [MainThread]: End processing [pyodps]: success
 [2024-06-03 06:41:31] INFO root fetch - main [MainThread]: Store serial: [23496713]
+[2024-06-03 06:43:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496713]
+[2024-06-03 06:43:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 06:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labrecorder-controller
+[2024-06-03 06:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MainServiceManager
+[2024-06-03 06:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pondpy
+[2024-06-03 06:43:40] INFO root fetch - processPackages [MainServiceManager]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 06:43:40] INFO root fetch - processPackages [MainServiceManager]: Downloading https://files.pythonhosted.org/packages/52/b1/b46c3ab34169a28ef8be35f9775d24acb3f5245407d84bf83b12859f4c88/mainservicemanager-0.0.8.tar.gz
+[2024-06-03 06:43:40] WARNING root fetch - processPackages [labrecorder-controller]: Skipping, unable to determine old version
+[2024-06-03 06:43:40] INFO root fetch - main [MainThread]: End processing [labrecorder-controller] error
+[2024-06-03 06:43:40] INFO root fetch - processPackages [pondpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-06-03 06:43:40] INFO root fetch - processPackages [pondpy]: Downloading https://files.pythonhosted.org/packages/35/ff/d5b295acb42f1628982ec2a231d4c046e6073a9a07a422244f75b069c061/pondpy-0.1.2.tar.gz
+[2024-06-03 06:43:40] INFO root fetch - processPackages [MainServiceManager]: Downloading https://files.pythonhosted.org/packages/0c/20/37eb190cf66c91eeaea7b47c1ba8415d2caf3ce766685a0f7ad587173fd4/mainservicemanager-0.0.9.tar.gz
+[2024-06-03 06:43:41] INFO root fetch - processPackages [MainServiceManager]: executing diffoscope
+[2024-06-03 06:43:41] INFO root fetch - processPackages [MainServiceManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainservicemanager-0.0.8.tar.gz tmp/mainservicemanager-0.0.9.tar.gz --markdown 20240603/M/MainServiceManager/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 06:43:41] INFO root fetch - processPackages [pondpy]: Downloading https://files.pythonhosted.org/packages/87/19/f3c5226081b3476b3f97efa7d4856769534273358f389c4971f3d18f2223/pondpy-0.1.3.tar.gz
+[2024-06-03 06:43:41] INFO root fetch - processPackages [pondpy]: executing diffoscope
+[2024-06-03 06:43:41] INFO root fetch - processPackages [pondpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pondpy-0.1.2.tar.gz tmp/pondpy-0.1.3.tar.gz --markdown 20240603/p/pondpy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-06-03 06:43:41] INFO root fetch - processPackages [MainServiceManager]: Remove: archive file [/home/abi/fetcher/tmp/mainservicemanager-0.0.8.tar.gz]
+[2024-06-03 06:43:41] INFO root fetch - processPackages [MainServiceManager]: Remove: archive file [/home/abi/fetcher/tmp/mainservicemanager-0.0.9.tar.gz]
+[2024-06-03 06:43:41] INFO root fetch - main [MainThread]: End processing [MainServiceManager]: success
+[2024-06-03 06:43:42] INFO root fetch - processPackages [pondpy]: Remove: archive file [/home/abi/fetcher/tmp/pondpy-0.1.2.tar.gz]
+[2024-06-03 06:43:42] INFO root fetch - processPackages [pondpy]: Remove: archive file [/home/abi/fetcher/tmp/pondpy-0.1.3.tar.gz]
+[2024-06-03 06:43:42] INFO root fetch - main [MainThread]: End processing [pondpy]: success
+[2024-06-03 06:43:42] INFO root fetch - main [MainThread]: Store serial: [23496724]
