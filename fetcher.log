@@ -3765,3 +3765,42 @@ EOFError: EOF read where object expected
 [2024-06-03 04:31:42] INFO root fetch - processPackages [yuankong]: Remove: archive file [/home/abi/fetcher/tmp/yuankong-0.8.tar.gz]
 [2024-06-03 04:31:42] INFO root fetch - main [MainThread]: End processing [yuankong]: success
 [2024-06-03 04:31:42] INFO root fetch - main [MainThread]: Store serial: [23495742]
+[2024-06-03 04:33:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495742]
+[2024-06-03 04:33:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 04:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Agentic-Reports
+[2024-06-03 04:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chasta
+[2024-06-03 04:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echidma
+[2024-06-03 04:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quollio-core
+[2024-06-03 04:33:50] INFO root fetch - processPackages [quollio-core]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-06-03 04:33:50] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 04:33:50] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/04/ee/4cb4ae827bece1905e803eee195035e9ab06d7e089bf1803fcac1a50edd6/Agentic-Reports-0.0.6.tar.gz
+[2024-06-03 04:33:50] INFO root fetch - processPackages [chasta]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-06-03 04:33:50] INFO root fetch - processPackages [echidma]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-06-03 04:33:50] INFO root fetch - processPackages [quollio-core]: Downloading https://files.pythonhosted.org/packages/16/cb/32ddd63e77bf589742dba4bbfb39645d12fe2a1087441217aa823afd6c7b/quollio_core-0.4.5.tar.gz
+[2024-06-03 04:33:50] INFO root fetch - processPackages [echidma]: Downloading https://files.pythonhosted.org/packages/89/28/a929bb57fc979a7f46a048ba6bd580caf58d14fec74b502cf3df6b940012/echidma-0.0.3.tar.gz
+[2024-06-03 04:33:50] INFO root fetch - processPackages [chasta]: Downloading https://files.pythonhosted.org/packages/60/17/5ed81f667e1e36161fa3722dc7d982edd3b7b65088605f8f3b04babd07d0/chasta-0.1.3.tar.gz
+[2024-06-03 04:33:50] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/96/44/dc770dd69d4146c0ff0d2e61d69db51c2f8dc8ff58c6303dfbb6565f9440/Agentic-Reports-0.0.7.tar.gz
+[2024-06-03 04:33:50] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 04:33:50] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.6.tar.gz tmp/Agentic-Reports-0.0.7.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 04:33:50] INFO root fetch - processPackages [echidma]: Downloading https://files.pythonhosted.org/packages/8b/d7/26a5cda26d85dc89e1d97b813e978678432f6bb8a96d3546908625697d58/echidma-0.0.4.tar.gz
+[2024-06-03 04:33:50] INFO root fetch - processPackages [quollio-core]: Downloading https://files.pythonhosted.org/packages/1b/30/4eb1f6819a362b33d803c19bb363275b58c0f2b93ae812e5fb33beb737c9/quollio_core-0.4.6.tar.gz
+[2024-06-03 04:33:50] INFO root fetch - processPackages [chasta]: Downloading https://files.pythonhosted.org/packages/17/60/129b94e3d3bd4c734063cd41f170b7506cf9c88d50629a57ec0e5f319120/chasta-0.1.4.tar.gz
+[2024-06-03 04:33:50] INFO root fetch - processPackages [echidma]: executing diffoscope
+[2024-06-03 04:33:50] INFO root fetch - processPackages [echidma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echidma-0.0.3.tar.gz tmp/echidma-0.0.4.tar.gz --markdown 20240603/e/echidma/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-06-03 04:33:50] INFO root fetch - processPackages [quollio-core]: executing diffoscope
+[2024-06-03 04:33:50] INFO root fetch - processPackages [quollio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quollio_core-0.4.5.tar.gz tmp/quollio_core-0.4.6.tar.gz --markdown 20240603/q/quollio-core/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-06-03 04:33:51] INFO root fetch - processPackages [chasta]: executing diffoscope
+[2024-06-03 04:33:51] INFO root fetch - processPackages [chasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chasta-0.1.3.tar.gz tmp/chasta-0.1.4.tar.gz --markdown 20240603/c/chasta/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-06-03 04:33:51] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.6.tar.gz]
+[2024-06-03 04:33:51] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.7.tar.gz]
+[2024-06-03 04:33:51] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 04:33:51] INFO root fetch - processPackages [echidma]: Remove: archive file [/home/abi/fetcher/tmp/echidma-0.0.3.tar.gz]
+[2024-06-03 04:33:51] INFO root fetch - processPackages [echidma]: Remove: archive file [/home/abi/fetcher/tmp/echidma-0.0.4.tar.gz]
+[2024-06-03 04:33:51] INFO root fetch - main [MainThread]: End processing [echidma]: success
+[2024-06-03 04:33:51] INFO root fetch - processPackages [chasta]: Remove: archive file [/home/abi/fetcher/tmp/chasta-0.1.3.tar.gz]
+[2024-06-03 04:33:51] INFO root fetch - processPackages [chasta]: Remove: archive file [/home/abi/fetcher/tmp/chasta-0.1.4.tar.gz]
+[2024-06-03 04:33:51] INFO root fetch - main [MainThread]: End processing [chasta]: success
+[2024-06-03 04:33:51] INFO root fetch - processPackages [quollio-core]: Remove: archive file [/home/abi/fetcher/tmp/quollio_core-0.4.5.tar.gz]
+[2024-06-03 04:33:51] INFO root fetch - processPackages [quollio-core]: Remove: archive file [/home/abi/fetcher/tmp/quollio_core-0.4.6.tar.gz]
+[2024-06-03 04:33:51] INFO root fetch - main [MainThread]: End processing [quollio-core]: success
+[2024-06-03 04:33:51] INFO root fetch - main [MainThread]: Store serial: [23495756]
