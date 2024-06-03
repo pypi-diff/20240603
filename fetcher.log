@@ -11743,3 +11743,59 @@ EOFError: EOF read where object expected
 [2024-06-03 11:32:21] INFO root fetch - processPackages [dihlibs]: Remove: archive file [/home/abi/fetcher/tmp/dihlibs-0.0.9.tar.gz]
 [2024-06-03 11:32:21] INFO root fetch - main [MainThread]: End processing [dihlibs]: success
 [2024-06-03 11:32:21] INFO root fetch - main [MainThread]: Store serial: [23499504]
+[2024-06-03 11:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499504]
+[2024-06-03 11:34:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-06-03 11:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dao-scripts
+[2024-06-03 11:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smbclientng
+[2024-06-03 11:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: postcode-to-timezone
+[2024-06-03 11:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2024-06-03 11:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opteryx
+[2024-06-03 11:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvcx
+[2024-06-03 11:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akride
+[2024-06-03 11:34:31] INFO root fetch - processPackages [dao-scripts]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-06-03 11:34:31] INFO root fetch - processPackages [smbclientng]: New version: [1.3] Old Version: [1.2]
+[2024-06-03 11:34:31] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/ee/41/3c4a28e900781eefa153cff1964159be26a388c7c1acf6a14edc12323200/dao_scripts-1.3.1.tar.gz
+[2024-06-03 11:34:31] WARNING root fetch - processPackages [postcode-to-timezone]: Skipping, unable to determine old version
+[2024-06-03 11:34:31] INFO root fetch - processPackages [smbclientng]: Downloading https://files.pythonhosted.org/packages/e5/a0/15e922c7cd79aa3e4d6ae090517f9d8909015cdbcec5cfba13a904733903/smbclientng-1.2-py3-none-any.whl
+[2024-06-03 11:34:31] INFO root fetch - main [MainThread]: End processing [postcode-to-timezone] error
+[2024-06-03 11:34:31] INFO root fetch - processPackages [dvcx]: New version: [0.86.0] Old Version: [0.85.1]
+[2024-06-03 11:34:31] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240603.9.33.484461] Old Version: [20240602.7.56.542138]
+[2024-06-03 11:34:31] INFO root fetch - processPackages [opteryx]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-06-03 11:34:31] INFO root fetch - processPackages [akride]: New version: [0.4.23] Old Version: [0.4.16]
+[2024-06-03 11:34:31] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/8e/ca/0a98558f5a7768ad3b2c9310c74b12b911f59b00865ba956938fd7ebfb30/dao_scripts-1.4.0.tar.gz
+[2024-06-03 11:34:31] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/13/b4/438c150dee21c50ca08ccd4055c52c93c8f8fe5103dc9196b086bf423cc2/dvcx-0.85.1.tar.gz
+[2024-06-03 11:34:31] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/34/22/fe03e2f75c495135415a1590e29c7be6a7970c624c612fbf5c55275a8564/certora-cli-alpha-master-20240602.7.56.542138.tar.gz
+[2024-06-03 11:34:31] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/5e/91/765e2a472f1ca3feaa2526a4bbec45d770e3d67f120965da4092459d8d99/opteryx-0.9.2.tar.gz
+[2024-06-03 11:34:31] INFO root fetch - processPackages [akride]: Downloading https://files.pythonhosted.org/packages/ca/d8/3531117cfec1dd71d5418f607cb536b9c7ec3f3fbd71d15a064eb0f5f5ee/akride-0.4.16-py3-none-any.whl
+[2024-06-03 11:34:31] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14612469>=10485760
+[2024-06-03 11:34:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-06-03 11:34:31] INFO root fetch - processPackages [smbclientng]: Downloading https://files.pythonhosted.org/packages/a4/cf/6655e558d747152236db54b2730bfcd58db107cc697fa697069917858e06/smbclientng-1.3-py3-none-any.whl
+[2024-06-03 11:34:31] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2024-06-03 11:34:31] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_scripts-1.3.1.tar.gz tmp/dao_scripts-1.4.0.tar.gz --markdown 20240603/d/dao-scripts/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-06-03 11:34:31] INFO root fetch - processPackages [smbclientng]: executing diffoscope
+[2024-06-03 11:34:31] INFO root fetch - processPackages [smbclientng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smbclientng-1.2-py3-none-any.whl.zip tmp/smbclientng-1.3-py3-none-any.whl.zip --markdown 20240603/s/smbclientng/1.2-1.3/README.md --exclude *.pyd
+[2024-06-03 11:34:32] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/ab/a2/77e692604ea9e3778985b367fb5faf6742995a117a789ff9f07361a7e4f0/dvcx-0.86.0.tar.gz
+[2024-06-03 11:34:32] INFO root fetch - processPackages [akride]: Downloading https://files.pythonhosted.org/packages/51/ac/92084106eae84c455b6623646141a19239444d21cdfe8e55307084b44a5b/akride-0.4.23-py3-none-any.whl
+[2024-06-03 11:34:32] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/64/71/44793ad728906cb5f308a98ffac1dea36c22000fac4080dd51bc5c9a0ef4/opteryx-0.9.3.tar.gz
+[2024-06-03 11:34:32] INFO root fetch - processPackages [opteryx]: executing diffoscope
+[2024-06-03 11:34:32] INFO root fetch - processPackages [opteryx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opteryx-0.9.2.tar.gz tmp/opteryx-0.9.3.tar.gz --markdown 20240603/o/opteryx/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-06-03 11:34:32] INFO root fetch - processPackages [akride]: executing diffoscope
+[2024-06-03 11:34:32] INFO root fetch - processPackages [akride]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akride-0.4.16-py3-none-any.whl.zip tmp/akride-0.4.23-py3-none-any.whl.zip --markdown 20240603/a/akride/0.4.16-0.4.23/README.md --exclude *.pyd
+[2024-06-03 11:34:32] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-06-03 11:34:32] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.85.1.tar.gz tmp/dvcx-0.86.0.tar.gz --markdown 20240603/d/dvcx/0.85.1-0.86.0/README.md --exclude *.pyd
+[2024-06-03 11:34:32] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.3.1.tar.gz]
+[2024-06-03 11:34:32] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.0.tar.gz]
+[2024-06-03 11:34:32] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2024-06-03 11:34:32] INFO root fetch - processPackages [smbclientng]: Remove: archive file [/home/abi/fetcher/tmp/smbclientng-1.2-py3-none-any.whl.zip]
+[2024-06-03 11:34:32] INFO root fetch - processPackages [smbclientng]: Remove: archive file [/home/abi/fetcher/tmp/smbclientng-1.3-py3-none-any.whl.zip]
+[2024-06-03 11:34:32] INFO root fetch - main [MainThread]: End processing [smbclientng]: success
+[2024-06-03 11:34:33] INFO root fetch - processPackages [akride]: Remove: archive file [/home/abi/fetcher/tmp/akride-0.4.16-py3-none-any.whl.zip]
+[2024-06-03 11:34:33] INFO root fetch - processPackages [akride]: Remove: archive file [/home/abi/fetcher/tmp/akride-0.4.23-py3-none-any.whl.zip]
+[2024-06-03 11:34:33] INFO root fetch - main [MainThread]: End processing [akride]: success
+[2024-06-03 11:34:33] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.2.tar.gz]
+[2024-06-03 11:34:33] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.3.tar.gz]
+[2024-06-03 11:34:33] INFO root fetch - main [MainThread]: End processing [opteryx]: success
+[2024-06-03 11:34:33] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.85.1.tar.gz]
+[2024-06-03 11:34:33] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.86.0.tar.gz]
+[2024-06-03 11:34:33] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-06-03 11:34:33] INFO root fetch - main [MainThread]: Store serial: [23499535]
