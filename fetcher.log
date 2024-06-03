@@ -5247,3 +5247,86 @@ EOFError: EOF read where object expected
 [2024-06-03 06:00:20] INFO root fetch - processPackages [wheel-axle-runtime]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle_runtime-0.0.6.dev20240603035837.tar.gz]
 [2024-06-03 06:00:20] INFO root fetch - main [MainThread]: End processing [wheel-axle-runtime]: success
 [2024-06-03 06:00:20] INFO root fetch - main [MainThread]: Store serial: [23496465]
+[2024-06-03 06:02:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496465]
+[2024-06-03 06:02:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datastew
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: propgrid
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deshi-hello-world
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: um6p-CC-learn
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: um6p-CC-learn
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: um6p-CC-learn
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: um6p-CC-learn
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: um6p-CC-learn
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: um6p-CC-learn
+[2024-06-03 06:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aily-code-sdk
+[2024-06-03 06:02:28] INFO root fetch - processPackages [datastew]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.9] Old Version: [0.8]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [aily-code-sdk]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/2c/f3/b881ecedbc0c349c7ac403776a7d7127c991e5b7ffeb1aef124572f2a808/datastew-0.1.6.tar.gz
+[2024-06-03 06:02:28] INFO root fetch - processPackages [propgrid]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/ec/13/4df71be3dfc21da4aa9d3749220d650f000086fc744bba893bd63f3d619b/deshi_hello_world-0.8.tar.gz
+[2024-06-03 06:02:28] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/0c/5c/494d24c10fb27e92f515485f4031bb6a00cfbe937bff1dc3723879a80f01/aily_code_sdk-0.1.0b3.tar.gz
+[2024-06-03 06:02:28] INFO root fetch - processPackages [um6p-CC-learn]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [um6p-CC-learn]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [um6p-CC-learn]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [um6p-CC-learn]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [um6p-CC-learn]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 06:02:28] INFO root fetch - processPackages [um6p-CC-learn]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-06-03 06:02:29] INFO root fetch - processPackages [propgrid]: Downloading https://files.pythonhosted.org/packages/27/a9/b900424a86c552b55a0e56370581b937c9d65fa155d48d596e1aeedd53bb/propgrid-0.1.3.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/3c/dc/808ede2e49cb9010873815e5a07cfb0aee1aac2f60438cef994da1555c44/deshi_hello_world-0.9.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [datastew]: Downloading https://files.pythonhosted.org/packages/88/46/a73bdd3cb8a2d8ddbe94118235cfad8a54362dfd7e296d74a2cdecf14bb3/datastew-0.1.7.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/85/8d/bb4c661b9d4f7d76eeaa6eba9976c140b2f25301d9d7443055f2321155d0/um6p_cc_learn-0.2.3.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/77/ed/74e95fd9611cd9ac4e405cc841f6b25e8a57ee757a85443759245fc3a18e/aily_code_sdk-0.1.0b4.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/85/8d/bb4c661b9d4f7d76eeaa6eba9976c140b2f25301d9d7443055f2321155d0/um6p_cc_learn-0.2.3.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/85/8d/bb4c661b9d4f7d76eeaa6eba9976c140b2f25301d9d7443055f2321155d0/um6p_cc_learn-0.2.3.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/85/8d/bb4c661b9d4f7d76eeaa6eba9976c140b2f25301d9d7443055f2321155d0/um6p_cc_learn-0.2.3.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/85/8d/bb4c661b9d4f7d76eeaa6eba9976c140b2f25301d9d7443055f2321155d0/um6p_cc_learn-0.2.3.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.8.tar.gz tmp/deshi_hello_world-0.9.tar.gz --markdown 20240603/d/deshi-hello-world/0.8-0.9/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/85/8d/bb4c661b9d4f7d76eeaa6eba9976c140b2f25301d9d7443055f2321155d0/um6p_cc_learn-0.2.3.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [datastew]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [datastew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datastew-0.1.6.tar.gz tmp/datastew-0.1.7.tar.gz --markdown 20240603/d/datastew/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [aily-code-sdk]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [aily-code-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk-0.1.0b3.tar.gz tmp/aily_code_sdk-0.1.0b4.tar.gz --markdown 20240603/a/aily-code-sdk/0.1.0b3-0.1.0b4/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [propgrid]: Downloading https://files.pythonhosted.org/packages/02/32/a28230dc60a54720de0d7161e0850027b0081b794837ef08b977d87b9fa7/propgrid-0.1.4.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/b8/2f/e76e68885d7a85452d3b4041099df9e790f67f66f8b6c5cb1c96d43e3b99/um6p_cc_learn-0.2.4.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/b8/2f/e76e68885d7a85452d3b4041099df9e790f67f66f8b6c5cb1c96d43e3b99/um6p_cc_learn-0.2.4.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/b8/2f/e76e68885d7a85452d3b4041099df9e790f67f66f8b6c5cb1c96d43e3b99/um6p_cc_learn-0.2.4.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/b8/2f/e76e68885d7a85452d3b4041099df9e790f67f66f8b6c5cb1c96d43e3b99/um6p_cc_learn-0.2.4.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/b8/2f/e76e68885d7a85452d3b4041099df9e790f67f66f8b6c5cb1c96d43e3b99/um6p_cc_learn-0.2.4.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [propgrid]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [propgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propgrid-0.1.3.tar.gz tmp/propgrid-0.1.4.tar.gz --markdown 20240603/p/propgrid/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: Downloading https://files.pythonhosted.org/packages/b8/2f/e76e68885d7a85452d3b4041099df9e790f67f66f8b6c5cb1c96d43e3b99/um6p_cc_learn-0.2.4.tar.gz
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/um6p_cc_learn-0.2.3.tar.gz tmp/um6p_cc_learn-0.2.4.tar.gz --markdown 20240603/u/um6p-CC-learn/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/um6p_cc_learn-0.2.3.tar.gz tmp/um6p_cc_learn-0.2.4.tar.gz --markdown 20240603/u/um6p-CC-learn/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/um6p_cc_learn-0.2.3.tar.gz tmp/um6p_cc_learn-0.2.4.tar.gz --markdown 20240603/u/um6p-CC-learn/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/um6p_cc_learn-0.2.3.tar.gz tmp/um6p_cc_learn-0.2.4.tar.gz --markdown 20240603/u/um6p-CC-learn/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/um6p_cc_learn-0.2.3.tar.gz tmp/um6p_cc_learn-0.2.4.tar.gz --markdown 20240603/u/um6p-CC-learn/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: executing diffoscope
+[2024-06-03 06:02:29] INFO root fetch - processPackages [um6p-CC-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/um6p_cc_learn-0.2.3.tar.gz tmp/um6p_cc_learn-0.2.4.tar.gz --markdown 20240603/u/um6p-CC-learn/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-06-03 06:02:29] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.8.tar.gz]
+[2024-06-03 06:02:29] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.9.tar.gz]
+[2024-06-03 06:02:29] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 06:02:30] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b3.tar.gz]
+[2024-06-03 06:02:30] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b4.tar.gz]
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [aily-code-sdk]: success
+[2024-06-03 06:02:30] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.6.tar.gz]
+[2024-06-03 06:02:30] INFO root fetch - processPackages [datastew]: Remove: archive file [/home/abi/fetcher/tmp/datastew-0.1.7.tar.gz]
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [datastew]: success
+[2024-06-03 06:02:30] INFO root fetch - processPackages [propgrid]: Remove: archive file [/home/abi/fetcher/tmp/propgrid-0.1.3.tar.gz]
+[2024-06-03 06:02:30] INFO root fetch - processPackages [propgrid]: Remove: archive file [/home/abi/fetcher/tmp/propgrid-0.1.4.tar.gz]
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [propgrid]: success
+[2024-06-03 06:02:30] INFO root fetch - processPackages [um6p-CC-learn]: Remove: archive file [/home/abi/fetcher/tmp/um6p_cc_learn-0.2.3.tar.gz]
+[2024-06-03 06:02:30] INFO root fetch - processPackages [um6p-CC-learn]: Remove: archive file [/home/abi/fetcher/tmp/um6p_cc_learn-0.2.4.tar.gz]
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
+[2024-06-03 06:02:30] INFO root fetch - main [MainThread]: Store serial: [23496502]
