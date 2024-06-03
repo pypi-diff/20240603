@@ -3635,3 +3635,103 @@ EOFError: EOF read where object expected
 [2024-06-03 04:27:10] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.6.2.tar.gz]
 [2024-06-03 04:27:10] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2024-06-03 04:27:10] INFO root fetch - main [MainThread]: Store serial: [23495666]
+[2024-06-03 04:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495666]
+[2024-06-03 04:29:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libdaw
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: icloudpd
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Agentic-Reports
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Agentic-Reports
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-chatbox
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MzhFunc
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hemanth-hello-world
+[2024-06-03 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lunary
+[2024-06-03 04:29:26] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [hemanth-hello-world]: New version: [0.4] Old Version: [0.3]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [MzhFunc]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [lunary]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240602] Old Version: [1.2.20240601]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/eb/1d/e4775137c2eebbc99c4712dc8abc318945d8a080e09c9b535d0ce3026dbb/Agentic-Reports-0.0.2.tar.gz
+[2024-06-03 04:29:26] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240602171230] Old Version: [3.4.1.dev20240601180838]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/eb/1d/e4775137c2eebbc99c4712dc8abc318945d8a080e09c9b535d0ce3026dbb/Agentic-Reports-0.0.2.tar.gz
+[2024-06-03 04:29:26] INFO root fetch - processPackages [streamlit-chatbox]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [libdaw]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-06-03 04:29:26] INFO root fetch - processPackages [MzhFunc]: Downloading https://files.pythonhosted.org/packages/13/bf/d83bb73faf2e49befffd49c8eb51595ad3c9d802b6b6fc93f960d83ef110/MzhFunc-0.1.3-py3-none-any.whl
+[2024-06-03 04:29:26] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/25/1e/d8860496d188a57db24e3e075cb27d5cf3496351c81db90ac9a1db5b0261/hemanth_hello_world-0.3.tar.gz
+[2024-06-03 04:29:26] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/7d/d1/1882edac83d811cc9e0bd90969299cb0c7dbe716b2d7a7d285ab04998b52/lunary-1.0.8.tar.gz
+[2024-06-03 04:29:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/99/a3/5cadd702dfea01bc117e459baf7afac4b0155843dea3f2b95963bf6f0fbc/localstack_core-3.4.1.dev20240601180838.tar.gz
+[2024-06-03 04:29:26] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/97/cb/0bde663844a2be14c547da10290ad51de1e8de6cfaf28a57b37eefeb122b/iam_actions-1.2.20240601.tar.gz
+[2024-06-03 04:29:26] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/bf/7d/8bb4ab39d910d3d30964fedee60f8a114fd2e4bc50dc33f975dbac098035/streamlit_chatbox-1.1.8-py3-none-any.whl
+[2024-06-03 04:29:26] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/66/60/6e700887d6951c2cfb99693f46c4ea6853692d691b7a9f97aeb9207dc8eb/libdaw-0.8.0.tar.gz
+[2024-06-03 04:29:26] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2024-06-03 04:29:27] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/7e/79/563b968f7a8ae5114b4d64918c8f955a6304c2107bb64837179143d34289/lunary-1.0.9.tar.gz
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/c6/0b/f3221388e8b2abfc63cf5ab7be0c7f48fd08bce14575afbc859000a49d59/Agentic-Reports-0.0.4.tar.gz
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/c6/0b/f3221388e8b2abfc63cf5ab7be0c7f48fd08bce14575afbc859000a49d59/Agentic-Reports-0.0.4.tar.gz
+[2024-06-03 04:29:27] INFO root fetch - processPackages [lunary]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [lunary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunary-1.0.8.tar.gz tmp/lunary-1.0.9.tar.gz --markdown 20240603/l/lunary/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/b0/d2/f12cae4ade00b48ab4b6a799e53f6efc92a9f006452a78e52911847964fa/hemanth_hello_world-0.4.tar.gz
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.2.tar.gz tmp/Agentic-Reports-0.0.4.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.2.tar.gz tmp/Agentic-Reports-0.0.4.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/bc/96/2772cfbae25d684e5f09317c014caa184773c0b7e4deb48968e80332c5da/iam_actions-1.2.20240602.tar.gz
+[2024-06-03 04:29:27] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/c0/eb/71b18f2c0de71e0b49eadcd496124da378a72b3e9d45c832c656d6ad394c/streamlit_chatbox-1.1.9-py3-none-any.whl
+[2024-06-03 04:29:27] INFO root fetch - processPackages [hemanth-hello-world]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [hemanth-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hemanth_hello_world-0.3.tar.gz tmp/hemanth_hello_world-0.4.tar.gz --markdown 20240603/h/hemanth-hello-world/0.3-0.4/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2024-06-03 04:29:27] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/d3/f3/a2c12a778d752a5d8cbfef60e01cab57ef4156de2238d845cf7b82de10a2/libdaw-0.9.1.tar.gz
+[2024-06-03 04:29:27] INFO root fetch - processPackages [MzhFunc]: Downloading https://files.pythonhosted.org/packages/82/7b/998acaa07f11ab24f314f3b6147e0e9efef8a17834c73db6e54d537e38bd/MzhFunc-0.1.4-py3-none-any.whl
+[2024-06-03 04:29:27] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/96/69/d9c44eb1d272c46e45acca921c88b82c5aa315d7bdb3efe357ddfd40a451/localstack_core-3.4.1.dev20240602171230.tar.gz
+[2024-06-03 04:29:27] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20240603/i/icloudpd/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [MzhFunc]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [MzhFunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MzhFunc-0.1.3-py3-none-any.whl.zip tmp/MzhFunc-0.1.4-py3-none-any.whl.zip --markdown 20240603/M/MzhFunc/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240601.tar.gz tmp/iam_actions-1.2.20240602.tar.gz --markdown 20240603/i/iam-actions/1.2.20240601-1.2.20240602/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [libdaw]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [libdaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdaw-0.8.0.tar.gz tmp/libdaw-0.9.1.tar.gz --markdown 20240603/l/libdaw/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-1.1.8-py3-none-any.whl.zip tmp/streamlit_chatbox-1.1.9-py3-none-any.whl.zip --markdown 20240603/s/streamlit-chatbox/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-06-03 04:29:27] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240601180838.tar.gz tmp/localstack_core-3.4.1.dev20240602171230.tar.gz --markdown 20240603/l/localstack-core/3.4.1.dev20240601180838-3.4.1.dev20240602171230/README.md --exclude *.pyd
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.2.tar.gz]
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.4.tar.gz]
+[2024-06-03 04:29:27] INFO root fetch - processPackages [Agentic-Reports]: Start processing: deshi-hello-world
+[2024-06-03 04:29:27] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 04:29:28] INFO root fetch - processPackages [deshi-hello-world]: New version: [0.4] Old Version: [0.3]
+[2024-06-03 04:29:28] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/78/dd/7a65d634dcb343a7ca8fc1d082aa450228b06197783c744ac021880aab8d/deshi_hello_world-0.3.tar.gz
+[2024-06-03 04:29:28] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 04:29:28] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.3.tar.gz]
+[2024-06-03 04:29:28] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.4.tar.gz]
+[2024-06-03 04:29:28] INFO root fetch - main [MainThread]: End processing [hemanth-hello-world]: success
+[2024-06-03 04:29:28] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.8.tar.gz]
+[2024-06-03 04:29:28] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.9.tar.gz]
+[2024-06-03 04:29:28] INFO root fetch - main [MainThread]: End processing [lunary]: success
+[2024-06-03 04:29:28] INFO root fetch - processPackages [MzhFunc]: Remove: archive file [/home/abi/fetcher/tmp/MzhFunc-0.1.3-py3-none-any.whl.zip]
+[2024-06-03 04:29:28] INFO root fetch - processPackages [MzhFunc]: Remove: archive file [/home/abi/fetcher/tmp/MzhFunc-0.1.4-py3-none-any.whl.zip]
+[2024-06-03 04:29:28] INFO root fetch - main [MainThread]: End processing [MzhFunc]: success
+[2024-06-03 04:29:28] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.8-py3-none-any.whl.zip]
+[2024-06-03 04:29:28] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.9-py3-none-any.whl.zip]
+[2024-06-03 04:29:28] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2024-06-03 04:29:28] INFO root fetch - processPackages [deshi-hello-world]: Downloading https://files.pythonhosted.org/packages/6d/ac/0c43dc303db101762e7cb95123d3e186a17d86b36d4f52ce7496dece0500/deshi_hello_world-0.4.tar.gz
+[2024-06-03 04:29:28] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2024-06-03 04:29:28] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2024-06-03 04:29:28] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2024-06-03 04:29:28] INFO root fetch - processPackages [deshi-hello-world]: executing diffoscope
+[2024-06-03 04:29:28] INFO root fetch - processPackages [deshi-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deshi_hello_world-0.3.tar.gz tmp/deshi_hello_world-0.4.tar.gz --markdown 20240603/d/deshi-hello-world/0.3-0.4/README.md --exclude *.pyd
+[2024-06-03 04:29:28] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.8.0.tar.gz]
+[2024-06-03 04:29:28] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.9.1.tar.gz]
+[2024-06-03 04:29:28] INFO root fetch - main [MainThread]: End processing [libdaw]: success
+[2024-06-03 04:29:29] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.3.tar.gz]
+[2024-06-03 04:29:29] INFO root fetch - processPackages [deshi-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/deshi_hello_world-0.4.tar.gz]
+[2024-06-03 04:29:29] INFO root fetch - main [MainThread]: End processing [deshi-hello-world]: success
+[2024-06-03 04:29:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240601.tar.gz]
+[2024-06-03 04:29:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240602.tar.gz]
+[2024-06-03 04:29:29] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-06-03 04:29:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240601180838.tar.gz]
+[2024-06-03 04:29:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240602171230.tar.gz]
+[2024-06-03 04:29:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-06-03 04:29:32] INFO root fetch - main [MainThread]: Store serial: [23495733]
