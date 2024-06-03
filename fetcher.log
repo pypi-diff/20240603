@@ -12035,3 +12035,72 @@ EOFError: EOF read where object expected
 [2024-06-03 11:41:15] INFO root fetch - processPackages [audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/audiocraft-1.2.0.tar.gz]
 [2024-06-03 11:41:15] INFO root fetch - main [MainThread]: End processing [audiocraft]: success
 [2024-06-03 11:41:15] INFO root fetch - main [MainThread]: Store serial: [23499640]
+[2024-06-03 11:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499640]
+[2024-06-03 11:43:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 11:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-flagsmith-cli
+[2024-06-03 11:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anaouder
+[2024-06-03 11:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vantage6-common
+[2024-06-03 11:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dev-aishy
+[2024-06-03 11:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vantage6-client
+[2024-06-03 11:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vantage6-algorithm-tools
+[2024-06-03 11:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vantage6
+[2024-06-03 11:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vantage6-node
+[2024-06-03 11:43:24] INFO root fetch - processPackages [py-flagsmith-cli]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-06-03 11:43:24] INFO root fetch - processPackages [anaouder]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-06-03 11:43:24] INFO root fetch - processPackages [py-flagsmith-cli]: Downloading https://files.pythonhosted.org/packages/d0/35/4f43b2a441fd36a197d0fab7d89bf8703bd7f6b85aa5a88e513574b56a7a/py_flagsmith_cli-0.2.0.tar.gz
+[2024-06-03 11:43:24] WARNING root fetch - processPackages [dev-aishy]: Skipping, unable to determine old version
+[2024-06-03 11:43:24] INFO root fetch - main [MainThread]: End processing [dev-aishy] error
+[2024-06-03 11:43:24] INFO root fetch - processPackages [anaouder]: Downloading https://files.pythonhosted.org/packages/31/cd/1dc5680f72816264b872cef1a7bb94ff3aaa842c75c1c081146d0c80f9e8/anaouder-0.9.3.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-algorithm-tools]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-client]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-common]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-node]: New version: [4.5.1] Old Version: [4.5.0rc3]
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/3c/bf/a0befeb3b3945b321d24293b3489653414cc102857bc9cb599f39f9ef6b1/vantage6-algorithm-tools-4.5.0rc3.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/6b/66/b200702127e803ffc07fabe9b01016defd5893c9e2be16b0d726793d52ce/vantage6-client-4.5.0rc3.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/67/14/98919512a18c187621f4e47a828c4d0bb05d1c14518e27f5578b8e5ef414/vantage6-common-4.5.0rc3.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/0f/c8/f13db83937e4abf962eda55b44c5a283eddf4b307700afa802ca5e6b1c33/vantage6-4.5.0rc3.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [py-flagsmith-cli]: Downloading https://files.pythonhosted.org/packages/b1/90/f46e56e7226e151ea31e4ddea4fda5cb67edbb3c8df24c49aaff2180a94b/py_flagsmith_cli-0.3.0.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [anaouder]: Downloading https://files.pythonhosted.org/packages/c1/5a/efaf85ad4fdf748d7c89cecabe9a4360a32dc444100501d87290ecda612a/anaouder-0.9.4.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/f5/73/40fa8b648259db0c916890ae064b985bb96839048e7a69434bb0a5df4aeb/vantage6-node-4.5.0rc3.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [py-flagsmith-cli]: executing diffoscope
+[2024-06-03 11:43:24] INFO root fetch - processPackages [py-flagsmith-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_flagsmith_cli-0.2.0.tar.gz tmp/py_flagsmith_cli-0.3.0.tar.gz --markdown 20240603/p/py-flagsmith-cli/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-06-03 11:43:24] INFO root fetch - processPackages [anaouder]: executing diffoscope
+[2024-06-03 11:43:24] INFO root fetch - processPackages [anaouder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaouder-0.9.3.tar.gz tmp/anaouder-0.9.4.tar.gz --markdown 20240603/a/anaouder/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/69/c9/8e83dcb375bb380ebbf7aa2d9b1e03a66e0d42c56cca444691d037f0cf7f/vantage6-algorithm-tools-4.5.1.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/43/9d/d775727ac2513c49182033fcd87d7bc8db999ca0761f4e8ca0ff61c3f660/vantage6-client-4.5.1.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/4b/d1/4a13e5da804a27c0e5f3635da1ead59d3c8ff514144aaca1ec821751fcbe/vantage6-4.5.1.tar.gz
+[2024-06-03 11:43:24] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/e9/11/91ed947b5f33290281af6db11df646bc7dcb8902f0295a47a578860a6eb9/vantage6-common-4.5.1.tar.gz
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/fe/49/2f8a111d0a0c0423fad436d09fdee0e05f4b81faa9bbc115a249c56d6a97/vantage6_node-4.5.1-py3-none-any.whl
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-algorithm-tools]: executing diffoscope
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-algorithm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-tools-4.5.0rc3.tar.gz tmp/vantage6-algorithm-tools-4.5.1.tar.gz --markdown 20240603/v/vantage6-algorithm-tools/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-4.5.0rc3.tar.gz tmp/vantage6-client-4.5.1.tar.gz --markdown 20240603/v/vantage6-client/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-4.5.0rc3.tar.gz tmp/vantage6-4.5.1.tar.gz --markdown 20240603/v/vantage6/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-4.5.0rc3.tar.gz tmp/vantage6-common-4.5.1.tar.gz --markdown 20240603/v/vantage6-common/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2024-06-03 11:43:25] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-4.5.0rc3.tar.gz tmp/vantage6_node-4.5.1-py3-none-any.whl.zip --markdown 20240603/v/vantage6-node/4.5.0rc3-4.5.1/README.md --exclude *.pyd
+[2024-06-03 11:43:25] INFO root fetch - processPackages [anaouder]: Remove: archive file [/home/abi/fetcher/tmp/anaouder-0.9.3.tar.gz]
+[2024-06-03 11:43:25] INFO root fetch - processPackages [anaouder]: Remove: archive file [/home/abi/fetcher/tmp/anaouder-0.9.4.tar.gz]
+[2024-06-03 11:43:25] INFO root fetch - main [MainThread]: End processing [anaouder]: success
+[2024-06-03 11:43:25] INFO root fetch - processPackages [py-flagsmith-cli]: Remove: archive file [/home/abi/fetcher/tmp/py_flagsmith_cli-0.2.0.tar.gz]
+[2024-06-03 11:43:25] INFO root fetch - processPackages [py-flagsmith-cli]: Remove: archive file [/home/abi/fetcher/tmp/py_flagsmith_cli-0.3.0.tar.gz]
+[2024-06-03 11:43:25] INFO root fetch - main [MainThread]: End processing [py-flagsmith-cli]: success
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.5.0rc3.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6_node-4.5.1-py3-none-any.whl.zip]
+[2024-06-03 11:43:26] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.5.0rc3.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.5.1.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-tools]: success
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.5.0rc3.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.5.1.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.5.0rc3.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.5.1.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.5.0rc3.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.5.1.tar.gz]
+[2024-06-03 11:43:26] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2024-06-03 11:43:26] INFO root fetch - main [MainThread]: Store serial: [23499666]
