@@ -20307,3 +20307,56 @@ AssertionError: tmp/probabilistic_word_embeddings-1.9.0.tar.gz does not exist
 [2024-06-03 15:07:39] INFO root fetch - processPackages [bbb-client]: Remove: archive file [/home/abi/fetcher/tmp/bbb_client-0.1.1.tar.gz]
 [2024-06-03 15:07:39] INFO root fetch - main [MainThread]: End processing [bbb-client]: success
 [2024-06-03 15:07:39] INFO root fetch - main [MainThread]: Store serial: [23502873]
+[2024-06-03 15:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502873]
+[2024-06-03 15:09:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-06-03 15:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mediapipe-nightly
+[2024-06-03 15:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sif-tools
+[2024-06-03 15:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-auth0-component-pw1
+[2024-06-03 15:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eulertools
+[2024-06-03 15:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckdb
+[2024-06-03 15:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: motleycache
+[2024-06-03 15:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ginger-js
+[2024-06-03 15:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sif-tools
+[2024-06-03 15:09:48] WARNING root fetch - processPackages [ginger-js]: Skipping, unable to determine old version
+[2024-06-03 15:09:48] INFO root fetch - main [MainThread]: End processing [ginger-js] error
+[2024-06-03 15:09:48] INFO root fetch - processPackages [mediapipe-nightly]: New version: [0.10.15.post20240603] Old Version: [0.10.14.post20240508]
+[2024-06-03 15:09:48] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 15:09:48] WARNING root fetch - processPackages [streamlit-auth0-component-pw1]: Skipping, unable to determine old version
+[2024-06-03 15:09:48] INFO root fetch - main [MainThread]: End processing [streamlit-auth0-component-pw1] error
+[2024-06-03 15:09:48] INFO root fetch - processPackages [motleycache]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 15:09:48] INFO root fetch - processPackages [sif-tools]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 15:09:48] INFO root fetch - processPackages [sif-tools]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-06-03 15:09:48] INFO root fetch - processPackages [eulertools]: New version: [4.0.0] Old Version: [3.0.1]
+[2024-06-03 15:09:48] INFO root fetch - processPackages [mediapipe-nightly]: Downloading https://files.pythonhosted.org/packages/0d/2c/b0b04e2867674205f9285bacc0aaa47cf977f9ffd5965159b908055ae4e1/mediapipe_nightly-0.10.14.post20240508-cp39-cp39-win_amd64.whl
+[2024-06-03 15:09:48] WARNING root fetch - processPackages [mediapipe-nightly]: Skipping package: exceeds size limit 50822541>=10485760
+[2024-06-03 15:09:48] INFO root fetch - main [MainThread]: End processing [mediapipe-nightly] error
+[2024-06-03 15:09:48] INFO root fetch - processPackages [motleycache]: Downloading https://files.pythonhosted.org/packages/57/c1/fe46bab713adbf9e777770cde0cebf7817c26326c0b6bd8a053afce1d418/motleycache-0.0.1.tar.gz
+[2024-06-03 15:09:48] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-06-03 15:09:48] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-06-03 15:09:48] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-06-03 15:09:48] INFO root fetch - processPackages [sif-tools]: Downloading https://files.pythonhosted.org/packages/60/d6/c2944776ad7185ece8d211f21092d8c42f9026dd7ecf92068f0750ef752d/sif_tools-1.0.1-py3-none-any.whl
+[2024-06-03 15:09:48] INFO root fetch - processPackages [sif-tools]: Downloading https://files.pythonhosted.org/packages/60/d6/c2944776ad7185ece8d211f21092d8c42f9026dd7ecf92068f0750ef752d/sif_tools-1.0.1-py3-none-any.whl
+[2024-06-03 15:09:48] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/0d/84/5db276b8aa69f0cd876be66b58042af2893b3db96e9e2c0813f37a9b8be1/eulertools-3.0.1.tar.gz
+[2024-06-03 15:09:49] INFO root fetch - processPackages [motleycache]: Downloading https://files.pythonhosted.org/packages/f2/be/c5e621a2582331785772a117de76d32ef462be790c58edffefb9fa39705c/motleycache-0.0.2.tar.gz
+[2024-06-03 15:09:49] INFO root fetch - processPackages [sif-tools]: Downloading https://files.pythonhosted.org/packages/68/44/2d72226cf5273d29f0aae4c3feb0f909260dd77287eeb515b82811329455/sif_tools-1.0.2-py3-none-any.whl
+[2024-06-03 15:09:49] INFO root fetch - processPackages [sif-tools]: Downloading https://files.pythonhosted.org/packages/68/44/2d72226cf5273d29f0aae4c3feb0f909260dd77287eeb515b82811329455/sif_tools-1.0.2-py3-none-any.whl
+[2024-06-03 15:09:49] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/06/7e/fc7bc54eaae41d3b53e49e3e4a0d2b54864e314bce7d376f68eb10bf97e9/eulertools-4.0.0.tar.gz
+[2024-06-03 15:09:49] INFO root fetch - processPackages [motleycache]: executing diffoscope
+[2024-06-03 15:09:49] INFO root fetch - processPackages [motleycache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motleycache-0.0.1.tar.gz tmp/motleycache-0.0.2.tar.gz --markdown 20240603/m/motleycache/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 15:09:49] INFO root fetch - processPackages [eulertools]: executing diffoscope
+[2024-06-03 15:09:49] INFO root fetch - processPackages [eulertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulertools-3.0.1.tar.gz tmp/eulertools-4.0.0.tar.gz --markdown 20240603/e/eulertools/3.0.1-4.0.0/README.md --exclude *.pyd
+[2024-06-03 15:09:49] INFO root fetch - processPackages [sif-tools]: executing diffoscope
+[2024-06-03 15:09:49] INFO root fetch - processPackages [sif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sif_tools-1.0.1-py3-none-any.whl.zip tmp/sif_tools-1.0.2-py3-none-any.whl.zip --markdown 20240603/s/sif-tools/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 15:09:49] INFO root fetch - processPackages [sif-tools]: executing diffoscope
+[2024-06-03 15:09:49] INFO root fetch - processPackages [sif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sif_tools-1.0.1-py3-none-any.whl.zip tmp/sif_tools-1.0.2-py3-none-any.whl.zip --markdown 20240603/s/sif-tools/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-06-03 15:09:49] INFO root fetch - processPackages [motleycache]: Remove: archive file [/home/abi/fetcher/tmp/motleycache-0.0.1.tar.gz]
+[2024-06-03 15:09:49] INFO root fetch - processPackages [motleycache]: Remove: archive file [/home/abi/fetcher/tmp/motleycache-0.0.2.tar.gz]
+[2024-06-03 15:09:49] INFO root fetch - main [MainThread]: End processing [motleycache]: success
+[2024-06-03 15:09:49] INFO root fetch - processPackages [sif-tools]: Remove: archive file [/home/abi/fetcher/tmp/sif_tools-1.0.1-py3-none-any.whl.zip]
+[2024-06-03 15:09:49] INFO root fetch - processPackages [sif-tools]: Remove: archive file [/home/abi/fetcher/tmp/sif_tools-1.0.2-py3-none-any.whl.zip]
+[2024-06-03 15:09:49] INFO root fetch - main [MainThread]: End processing [sif-tools]: success
+[2024-06-03 15:09:49] INFO root fetch - processPackages [eulertools]: Remove: archive file [/home/abi/fetcher/tmp/eulertools-3.0.1.tar.gz]
+[2024-06-03 15:09:49] INFO root fetch - processPackages [eulertools]: Remove: archive file [/home/abi/fetcher/tmp/eulertools-4.0.0.tar.gz]
+[2024-06-03 15:09:49] INFO root fetch - main [MainThread]: End processing [eulertools]: success
+[2024-06-03 15:09:50] INFO root fetch - main [MainThread]: End processing [sif-tools]: success
+[2024-06-03 15:09:50] INFO root fetch - main [MainThread]: Store serial: [23502910]
