@@ -1736,3 +1736,50 @@
 [2024-06-03 02:19:37] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Remove: archive file [/home/abi/fetcher/tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz]
 [2024-06-03 02:19:37] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
 [2024-06-03 02:19:37] INFO root fetch - main [MainThread]: Store serial: [23494810]
+[2024-06-03 02:21:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494810]
+[2024-06-03 02:21:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 02:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: low-cost-ecs
+[2024-06-03 02:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omop2survey
+[2024-06-03 02:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Background
+[2024-06-03 02:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cr-constructs
+[2024-06-03 02:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-ethereum-node
+[2024-06-03 02:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Anymarket
+[2024-06-03 02:21:45] WARNING root fetch - processPackages [Anymarket]: Skipping, unable to determine old version
+[2024-06-03 02:21:45] INFO root fetch - main [MainThread]: End processing [Anymarket] error
+[2024-06-03 02:21:45] INFO root fetch - processPackages [omop2survey]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-06-03 02:21:45] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.473] Old Version: [2.1.472]
+[2024-06-03 02:21:45] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 02:21:45] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/d0/3d/a88573a96f559d123cb3e1d168e45f905a3a99a738efb65bb74f949ea018/omop2survey-0.0.5.tar.gz
+[2024-06-03 02:21:45] INFO root fetch - processPackages [low-cost-ecs]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-06-03 02:21:45] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-06-03 02:21:45] INFO root fetch - processPackages [Geode-Background]: New version: [7.9.9rc1] Old Version: [7.9.8rc1]
+[2024-06-03 02:21:45] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/2f/15/b0624fbda0b58263652337876b6f32d8b513f67a878587fdf22d290ca182/cdk-cr-constructs-2.1.472.tar.gz
+[2024-06-03 02:21:45] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15146512>=10485760
+[2024-06-03 02:21:45] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-06-03 02:21:45] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/40/8e/00f2e64641121c524dd7d6d01bb95ccf064bfb020b83cf52d2517311dae9/omop2survey-0.0.6.tar.gz
+[2024-06-03 02:21:45] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-06-03 02:21:45] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/e6/c8/fa123ed233e8206fe656664743eb3d51ac4636d89c2abdc192eb4cec74fe/low-cost-ecs-0.0.98.tar.gz
+[2024-06-03 02:21:45] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/5a/bf/e3b335021e2827df1ff360ae972cac70607b2685fe93041a505c3564eb03/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 02:21:45] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-06-03 02:21:45] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240603/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 02:21:45] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-06-03 02:21:45] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.5.tar.gz tmp/omop2survey-0.0.6.tar.gz --markdown 20240603/o/omop2survey/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-06-03 02:21:46] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/69/68/92afff1c75cea5f1f28ad173f44b74991debb8dad36acd7e4fe4faf59364/low-cost-ecs-0.0.99.tar.gz
+[2024-06-03 02:21:46] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-06-03 02:21:46] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-06-03 02:21:46] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-06-03 02:21:46] INFO root fetch - processPackages [low-cost-ecs]: executing diffoscope
+[2024-06-03 02:21:46] INFO root fetch - processPackages [low-cost-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/low-cost-ecs-0.0.98.tar.gz tmp/low-cost-ecs-0.0.99.tar.gz --markdown 20240603/l/low-cost-ecs/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-06-03 02:21:46] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.5.tar.gz]
+[2024-06-03 02:21:46] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.6.tar.gz]
+[2024-06-03 02:21:46] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-06-03 02:21:46] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.98.tar.gz]
+[2024-06-03 02:21:46] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.99.tar.gz]
+[2024-06-03 02:21:46] INFO root fetch - main [MainThread]: End processing [low-cost-ecs]: success
+[2024-06-03 02:21:46] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/cf/5a/71fe8268103445cceb35cb6b1d4e80192437af076b7718587c869ebbd24a/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 02:21:47] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2024-06-03 02:21:47] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240603/G/Geode-Background/7.9.8rc1-7.9.9rc1/README.md --exclude *.pyd
+[2024-06-03 02:22:23] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 02:22:23] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 02:22:23] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2024-06-03 02:22:23] INFO root fetch - main [MainThread]: Store serial: [23494833]
