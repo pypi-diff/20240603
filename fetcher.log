@@ -11704,3 +11704,42 @@ EOFError: EOF read where object expected
 [2024-06-03 11:30:10] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
 [2024-06-03 11:30:10] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-06-03 11:30:10] INFO root fetch - main [MainThread]: Store serial: [23499491]
+[2024-06-03 11:32:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499491]
+[2024-06-03 11:32:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 11:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rxnSMILES4AtomEco
+[2024-06-03 11:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dihlibs
+[2024-06-03 11:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-dashboard
+[2024-06-03 11:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2b-code-interpreter
+[2024-06-03 11:32:19] INFO root fetch - processPackages [rxnSMILES4AtomEco]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 11:32:19] INFO root fetch - processPackages [spaceone-dashboard]: New version: [2.0.dev9] Old Version: [2.0.dev8]
+[2024-06-03 11:32:19] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/a4/96/04ee73ff01b3b25987f5d8e668b4fcbe9a3c9f03958f5f6c4fedb9574e7a/rxnSMILES4AtomEco-1.0.8.tar.gz
+[2024-06-03 11:32:19] INFO root fetch - processPackages [e2b-code-interpreter]: New version: [0.0.8a0] Old Version: [0.0.7]
+[2024-06-03 11:32:19] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/a8/0e/73a4c4cbab54397d06788ddb2aa87ee8563aefcd2ff32b5d32fa8c03dd30/spaceone-dashboard-2.0.dev8.tar.gz
+[2024-06-03 11:32:19] INFO root fetch - processPackages [dihlibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 11:32:20] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/1b/96/21c6147b9d04062aac1c516bddce6a7e1ea5f3577aa5342d7cfd943be30e/e2b_code_interpreter-0.0.7.tar.gz
+[2024-06-03 11:32:20] INFO root fetch - processPackages [dihlibs]: Downloading https://files.pythonhosted.org/packages/ff/09/41a593824d24b239812ee77af731365549b16595fcc77219a1a97b15ca92/dihlibs-0.0.8.tar.gz
+[2024-06-03 11:32:20] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Downloading https://files.pythonhosted.org/packages/9e/92/e9db54b12dc4ca451784b66af1e6427ceaa6cb3b19737a0b7b979d7ff006/rxnSMILES4AtomEco-1.0.9.tar.gz
+[2024-06-03 11:32:20] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/a4/9e/2f82e9b21c9deb3959fb070b54417f52747882e58b48155a6ccd32b1fedf/spaceone-dashboard-2.0.dev9.tar.gz
+[2024-06-03 11:32:20] INFO root fetch - processPackages [rxnSMILES4AtomEco]: executing diffoscope
+[2024-06-03 11:32:20] INFO root fetch - processPackages [rxnSMILES4AtomEco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxnSMILES4AtomEco-1.0.8.tar.gz tmp/rxnSMILES4AtomEco-1.0.9.tar.gz --markdown 20240603/r/rxnSMILES4AtomEco/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 11:32:20] INFO root fetch - processPackages [spaceone-dashboard]: executing diffoscope
+[2024-06-03 11:32:20] INFO root fetch - processPackages [spaceone-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-dashboard-2.0.dev8.tar.gz tmp/spaceone-dashboard-2.0.dev9.tar.gz --markdown 20240603/s/spaceone-dashboard/2.0.dev8-2.0.dev9/README.md --exclude *.pyd
+[2024-06-03 11:32:20] INFO root fetch - processPackages [e2b-code-interpreter]: Downloading https://files.pythonhosted.org/packages/c3/fb/9a21ed1d324add88dbb405140614467302f88f40f654aabfde3768f67390/e2b_code_interpreter-0.0.8a0.tar.gz
+[2024-06-03 11:32:20] INFO root fetch - processPackages [dihlibs]: Downloading https://files.pythonhosted.org/packages/15/20/902c273a22107a9039f81029346fafa8bc9f12ead71c8223b94102b517f3/dihlibs-0.0.9.tar.gz
+[2024-06-03 11:32:20] INFO root fetch - processPackages [dihlibs]: executing diffoscope
+[2024-06-03 11:32:20] INFO root fetch - processPackages [dihlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dihlibs-0.0.8.tar.gz tmp/dihlibs-0.0.9.tar.gz --markdown 20240603/d/dihlibs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 11:32:20] INFO root fetch - processPackages [e2b-code-interpreter]: executing diffoscope
+[2024-06-03 11:32:20] INFO root fetch - processPackages [e2b-code-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b_code_interpreter-0.0.7.tar.gz tmp/e2b_code_interpreter-0.0.8a0.tar.gz --markdown 20240603/e/e2b-code-interpreter/0.0.7-0.0.8a0/README.md --exclude *.pyd
+[2024-06-03 11:32:20] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.8.tar.gz]
+[2024-06-03 11:32:20] INFO root fetch - processPackages [rxnSMILES4AtomEco]: Remove: archive file [/home/abi/fetcher/tmp/rxnSMILES4AtomEco-1.0.9.tar.gz]
+[2024-06-03 11:32:20] INFO root fetch - main [MainThread]: End processing [rxnSMILES4AtomEco]: success
+[2024-06-03 11:32:21] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-2.0.dev8.tar.gz]
+[2024-06-03 11:32:21] INFO root fetch - processPackages [spaceone-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-dashboard-2.0.dev9.tar.gz]
+[2024-06-03 11:32:21] INFO root fetch - main [MainThread]: End processing [spaceone-dashboard]: success
+[2024-06-03 11:32:21] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.7.tar.gz]
+[2024-06-03 11:32:21] INFO root fetch - processPackages [e2b-code-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/e2b_code_interpreter-0.0.8a0.tar.gz]
+[2024-06-03 11:32:21] INFO root fetch - main [MainThread]: End processing [e2b-code-interpreter]: success
+[2024-06-03 11:32:21] INFO root fetch - processPackages [dihlibs]: Remove: archive file [/home/abi/fetcher/tmp/dihlibs-0.0.8.tar.gz]
+[2024-06-03 11:32:21] INFO root fetch - processPackages [dihlibs]: Remove: archive file [/home/abi/fetcher/tmp/dihlibs-0.0.9.tar.gz]
+[2024-06-03 11:32:21] INFO root fetch - main [MainThread]: End processing [dihlibs]: success
+[2024-06-03 11:32:21] INFO root fetch - main [MainThread]: Store serial: [23499504]
