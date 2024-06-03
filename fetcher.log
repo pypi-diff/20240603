@@ -9863,3 +9863,33 @@ EOFError: EOF read where object expected
 [2024-06-03 10:18:50] INFO root fetch - processPackages [eodash_catalog]: Remove: archive file [/home/abi/fetcher/tmp/eodash_catalog-0.0.7.tar.gz]
 [2024-06-03 10:18:50] INFO root fetch - main [MainThread]: End processing [eodash_catalog]: success
 [2024-06-03 10:18:50] INFO root fetch - main [MainThread]: Store serial: [23498408]
+[2024-06-03 10:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498408]
+[2024-06-03 10:20:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 10:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: athina
+[2024-06-03 10:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IntuneCD
+[2024-06-03 10:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebcpy
+[2024-06-03 10:20:59] INFO root fetch - processPackages [athina]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-06-03 10:20:59] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/ec/ab/3a0049a4475590dd9d5328d0c712ca15b957f7a7c300275c4efca03220a3/athina-1.4.4.tar.gz
+[2024-06-03 10:20:59] INFO root fetch - processPackages [ebcpy]: New version: [0.4.1] Old Version: [0.3.8]
+[2024-06-03 10:20:59] INFO root fetch - processPackages [IntuneCD]: New version: [2.3.3b2] Old Version: [2.3.3b1]
+[2024-06-03 10:20:59] INFO root fetch - processPackages [ebcpy]: Downloading https://files.pythonhosted.org/packages/fd/5e/d05b2df2bf000d11302015c6e74402918d3b63a429dfae19c44da9bcc5e5/ebcpy-0.3.8.tar.gz
+[2024-06-03 10:20:59] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/73/17/2dcb440f84a87ba9fd3219d3071b3786849ff42ca191771e60eda591c4e1/intunecd-2.3.3b1.tar.gz
+[2024-06-03 10:20:59] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/55/bb/640c60cfbd361e48d14e222ed9a89b1ebd8d1680fb90c1c4487f6a9e827b/athina-1.4.5.tar.gz
+[2024-06-03 10:21:00] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-06-03 10:21:00] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.4.4.tar.gz tmp/athina-1.4.5.tar.gz --markdown 20240603/a/athina/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-06-03 10:21:00] INFO root fetch - processPackages [ebcpy]: Downloading https://files.pythonhosted.org/packages/b7/25/c83b768f470465daaa1752332e64e646395402f111027b0f5fcfdbd40a26/ebcpy-0.4.1.tar.gz
+[2024-06-03 10:21:00] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/46/3b/795cc491e66d9ca37488bcb0c8dfe05756e1cb645b1e8cc2d7c1166aefa5/intunecd-2.3.3b2.tar.gz
+[2024-06-03 10:21:00] INFO root fetch - processPackages [ebcpy]: executing diffoscope
+[2024-06-03 10:21:00] INFO root fetch - processPackages [ebcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebcpy-0.3.8.tar.gz tmp/ebcpy-0.4.1.tar.gz --markdown 20240603/e/ebcpy/0.3.8-0.4.1/README.md --exclude *.pyd
+[2024-06-03 10:21:00] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2024-06-03 10:21:00] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intunecd-2.3.3b1.tar.gz tmp/intunecd-2.3.3b2.tar.gz --markdown 20240603/I/IntuneCD/2.3.3b1-2.3.3b2/README.md --exclude *.pyd
+[2024-06-03 10:21:01] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.4.4.tar.gz]
+[2024-06-03 10:21:01] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.4.5.tar.gz]
+[2024-06-03 10:21:01] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-06-03 10:21:01] INFO root fetch - processPackages [ebcpy]: Remove: archive file [/home/abi/fetcher/tmp/ebcpy-0.3.8.tar.gz]
+[2024-06-03 10:21:01] INFO root fetch - processPackages [ebcpy]: Remove: archive file [/home/abi/fetcher/tmp/ebcpy-0.4.1.tar.gz]
+[2024-06-03 10:21:01] INFO root fetch - main [MainThread]: End processing [ebcpy]: success
+[2024-06-03 10:21:01] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/intunecd-2.3.3b1.tar.gz]
+[2024-06-03 10:21:01] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/intunecd-2.3.3b2.tar.gz]
+[2024-06-03 10:21:01] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2024-06-03 10:21:01] INFO root fetch - main [MainThread]: Store serial: [23498417]
