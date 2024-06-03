@@ -6629,3 +6629,36 @@ EOFError: EOF read where object expected
 [2024-06-03 07:29:24] INFO root fetch - processPackages [joyrl]: Remove: archive file [/home/abi/fetcher/tmp/joyrl-0.6.1.4.tar.gz]
 [2024-06-03 07:29:24] INFO root fetch - main [MainThread]: End processing [joyrl]: success
 [2024-06-03 07:29:24] INFO root fetch - main [MainThread]: Store serial: [23496986]
+[2024-06-03 07:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496986]
+[2024-06-03 07:31:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 07:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bipsea
+[2024-06-03 07:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indonesia-latestearthquake-Rx168059
+[2024-06-03 07:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-breadcrumbs
+[2024-06-03 07:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: staffspy
+[2024-06-03 07:31:34] WARNING root fetch - processPackages [easy-breadcrumbs]: Skipping, unable to determine old version
+[2024-06-03 07:31:34] INFO root fetch - main [MainThread]: End processing [easy-breadcrumbs] error
+[2024-06-03 07:31:34] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: New version: [2024.0.0.2] Old Version: [2024.0.0.1]
+[2024-06-03 07:31:34] INFO root fetch - processPackages [bipsea]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-06-03 07:31:34] INFO root fetch - processPackages [staffspy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 07:31:34] INFO root fetch - processPackages [staffspy]: Downloading https://files.pythonhosted.org/packages/b8/0a/90f8267fcbc753852996b18f89632ff65f7b2b04cc1d321de4285bfcd284/staffspy-0.1.0.tar.gz
+[2024-06-03 07:31:34] INFO root fetch - processPackages [bipsea]: Downloading https://files.pythonhosted.org/packages/54/31/9d1c9b3cbfa740b4e0387f69517b6b84311b265255cc51553be44633c785/bipsea-0.2.5.tar.gz
+[2024-06-03 07:31:34] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Downloading https://files.pythonhosted.org/packages/e6/f9/2e2ac2c8afd0776e3cfe295a7b396a82123cf8658a25124b6ad72b2aa661/indonesia_latestearthquake_rx168059-2024.0.0.1.tar.gz
+[2024-06-03 07:31:34] INFO root fetch - processPackages [staffspy]: Downloading https://files.pythonhosted.org/packages/6f/0e/ed5c5c336bc633d1fd08714f1fc8e06190d470419c2e9f8252cec6230953/staffspy-0.1.1.tar.gz
+[2024-06-03 07:31:34] INFO root fetch - processPackages [bipsea]: Downloading https://files.pythonhosted.org/packages/c1/74/4eda0b06a54576e68ba86c05fcd1ded503c17a094a3375990a257fcb3c59/bipsea-0.3.0.tar.gz
+[2024-06-03 07:31:34] INFO root fetch - processPackages [staffspy]: executing diffoscope
+[2024-06-03 07:31:34] INFO root fetch - processPackages [staffspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staffspy-0.1.0.tar.gz tmp/staffspy-0.1.1.tar.gz --markdown 20240603/s/staffspy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 07:31:34] INFO root fetch - processPackages [bipsea]: executing diffoscope
+[2024-06-03 07:31:34] INFO root fetch - processPackages [bipsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipsea-0.2.5.tar.gz tmp/bipsea-0.3.0.tar.gz --markdown 20240603/b/bipsea/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-06-03 07:31:34] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Downloading https://files.pythonhosted.org/packages/8a/31/edc9379e6ab70b81a16a88e3f427277584fa7e8451be209e32a4c70d98be/indonesia_latestearthquake_rx168059-2024.0.0.2.tar.gz
+[2024-06-03 07:31:34] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: executing diffoscope
+[2024-06-03 07:31:34] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indonesia_latestearthquake_rx168059-2024.0.0.1.tar.gz tmp/indonesia_latestearthquake_rx168059-2024.0.0.2.tar.gz --markdown 20240603/i/indonesia-latestearthquake-Rx168059/2024.0.0.1-2024.0.0.2/README.md --exclude *.pyd
+[2024-06-03 07:31:35] INFO root fetch - processPackages [staffspy]: Remove: archive file [/home/abi/fetcher/tmp/staffspy-0.1.0.tar.gz]
+[2024-06-03 07:31:35] INFO root fetch - processPackages [staffspy]: Remove: archive file [/home/abi/fetcher/tmp/staffspy-0.1.1.tar.gz]
+[2024-06-03 07:31:35] INFO root fetch - main [MainThread]: End processing [staffspy]: success
+[2024-06-03 07:31:35] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.2.5.tar.gz]
+[2024-06-03 07:31:35] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.3.0.tar.gz]
+[2024-06-03 07:31:35] INFO root fetch - main [MainThread]: End processing [bipsea]: success
+[2024-06-03 07:31:35] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/indonesia_latestearthquake_rx168059-2024.0.0.1.tar.gz]
+[2024-06-03 07:31:35] INFO root fetch - processPackages [indonesia-latestearthquake-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/indonesia_latestearthquake_rx168059-2024.0.0.2.tar.gz]
+[2024-06-03 07:31:35] INFO root fetch - main [MainThread]: End processing [indonesia-latestearthquake-Rx168059]: success
+[2024-06-03 07:31:35] INFO root fetch - main [MainThread]: Store serial: [23496999]
