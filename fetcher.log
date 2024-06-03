@@ -11632,3 +11632,42 @@ EOFError: EOF read where object expected
 [2024-06-03 11:25:48] INFO root fetch - processPackages [syrius-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syrius_sdk-0.2.8.tar.gz]
 [2024-06-03 11:25:48] INFO root fetch - main [MainThread]: End processing [syrius-sdk]: success
 [2024-06-03 11:25:48] INFO root fetch - main [MainThread]: Store serial: [23499465]
+[2024-06-03 11:27:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499465]
+[2024-06-03 11:27:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 11:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syrius-sdk
+[2024-06-03 11:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odbc2deltalake
+[2024-06-03 11:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AparatLib
+[2024-06-03 11:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LearningNashQLearning
+[2024-06-03 11:27:57] INFO root fetch - processPackages [syrius-sdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-06-03 11:27:57] INFO root fetch - processPackages [AparatLib]: New version: [0.1.1] Old Version: [0.1]
+[2024-06-03 11:27:57] INFO root fetch - processPackages [LearningNashQLearning]: New version: [0.5] Old Version: [0.4]
+[2024-06-03 11:27:57] INFO root fetch - processPackages [syrius-sdk]: Downloading https://files.pythonhosted.org/packages/70/83/541b024a8370dc2d976fd16421354318f541a37c31613da5e4c749395e86/syrius_sdk-0.2.7.tar.gz
+[2024-06-03 11:27:57] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-06-03 11:27:58] INFO root fetch - processPackages [AparatLib]: Downloading https://files.pythonhosted.org/packages/47/f2/1e7e68bb2b91ca820e10dac325aabc07f250617acd5bdd62a65f70b04d73/aparatlib-0.1.tar.gz
+[2024-06-03 11:27:58] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/7a/79/183ed08301d59dac7a56b19a52315b16d06d0482a292558d8e11462f3a34/LearningNashQLearning-0.4.tar.gz
+[2024-06-03 11:27:58] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-06-03 11:27:58] INFO root fetch - processPackages [syrius-sdk]: Downloading https://files.pythonhosted.org/packages/6f/90/89ee8c28dc4b99cad84a21593369c5705bf3697435eed506f8d7e7b3545c/syrius_sdk-0.2.8.tar.gz
+[2024-06-03 11:27:58] INFO root fetch - processPackages [syrius-sdk]: executing diffoscope
+[2024-06-03 11:27:58] INFO root fetch - processPackages [syrius-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syrius_sdk-0.2.7.tar.gz tmp/syrius_sdk-0.2.8.tar.gz --markdown 20240603/s/syrius-sdk/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-06-03 11:27:58] INFO root fetch - processPackages [AparatLib]: Downloading https://files.pythonhosted.org/packages/39/f4/f6f2678af99a66c05d09d1eb2fefe16b67cd9d7797f82029a3731a85f7d7/aparatlib-0.1.1.tar.gz
+[2024-06-03 11:27:58] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/40/6d/0423ed413492dca5145e4de8a2a4653bc6fe5c5535e5b1fa6c9e5e514145/LearningNashQLearning-0.5.tar.gz
+[2024-06-03 11:27:58] INFO root fetch - processPackages [AparatLib]: executing diffoscope
+[2024-06-03 11:27:58] INFO root fetch - processPackages [AparatLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparatlib-0.1.tar.gz tmp/aparatlib-0.1.1.tar.gz --markdown 20240603/A/AparatLib/0.1-0.1.1/README.md --exclude *.pyd
+[2024-06-03 11:27:58] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-06-03 11:27:58] INFO root fetch - processPackages [LearningNashQLearning]: executing diffoscope
+[2024-06-03 11:27:58] INFO root fetch - processPackages [LearningNashQLearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LearningNashQLearning-0.4.tar.gz tmp/LearningNashQLearning-0.5.tar.gz --markdown 20240603/L/LearningNashQLearning/0.4-0.5/README.md --exclude *.pyd
+[2024-06-03 11:27:58] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-06-03 11:27:58] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240603/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-06-03 11:27:59] INFO root fetch - processPackages [AparatLib]: Remove: archive file [/home/abi/fetcher/tmp/aparatlib-0.1.tar.gz]
+[2024-06-03 11:27:59] INFO root fetch - processPackages [AparatLib]: Remove: archive file [/home/abi/fetcher/tmp/aparatlib-0.1.1.tar.gz]
+[2024-06-03 11:27:59] INFO root fetch - main [MainThread]: End processing [AparatLib]: success
+[2024-06-03 11:27:59] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.4.tar.gz]
+[2024-06-03 11:27:59] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.5.tar.gz]
+[2024-06-03 11:27:59] INFO root fetch - main [MainThread]: End processing [LearningNashQLearning]: success
+[2024-06-03 11:27:59] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-06-03 11:27:59] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-06-03 11:27:59] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-06-03 11:27:59] INFO root fetch - processPackages [syrius-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syrius_sdk-0.2.7.tar.gz]
+[2024-06-03 11:27:59] INFO root fetch - processPackages [syrius-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syrius_sdk-0.2.8.tar.gz]
+[2024-06-03 11:27:59] INFO root fetch - main [MainThread]: End processing [syrius-sdk]: success
+[2024-06-03 11:27:59] INFO root fetch - main [MainThread]: Store serial: [23499478]
