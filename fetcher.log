@@ -13740,3 +13740,87 @@ EOFError: EOF read where object expected
 [2024-06-03 12:22:38] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.25.tar.gz]
 [2024-06-03 12:22:38] INFO root fetch - main [MainThread]: End processing [ros-cdk-computenest]: success
 [2024-06-03 12:22:38] INFO root fetch - main [MainThread]: Store serial: [23500342]
+[2024-06-03 12:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500342]
+[2024-06-03 12:24:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-computenest
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etiket-client
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atomicshop
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongodb-orm
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SimpleDomControl
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: youqu-dogtail
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qdrive
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros-cdk-sls
+[2024-06-03 12:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ros-cdk-privatelink
+[2024-06-03 12:24:49] INFO root fetch - processPackages [qdrive]: New version: [0.2.19] Old Version: [0.2.17]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [SimpleDomControl]: New version: [0.5.0] Old Version: [0.4.8]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-computenest]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [etiket-client]: New version: [0.2.19] Old Version: [0.2.18]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [youqu-dogtail]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.1] Old Version: [0.1.0a8]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-privatelink]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-sls]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:24:49] INFO root fetch - processPackages [qdrive]: Downloading https://files.pythonhosted.org/packages/48/a3/5ffe5c6cb3ac1b2c9a0fb9b7c6b1c4203dbb349dd831e11e15c7507c4c6d/qdrive-0.2.17-py3-none-any.whl
+[2024-06-03 12:24:49] INFO root fetch - processPackages [SimpleDomControl]: Downloading https://files.pythonhosted.org/packages/58/13/fa958e772a1a7985e7a806807c0fff6fc49ee67ec322e00043ccd53521a7/simpledomcontrol-0.4.8.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [etiket-client]: Downloading https://files.pythonhosted.org/packages/c6/f5/924e6867e6d83910518b65746ea8de4ee801271f188ba5c5883991f9df69/etiket_client-0.2.18-py3-none-any.whl
+[2024-06-03 12:24:49] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/45/e5/c21533300a682b736b893cff3485c8324d40fdb187027f3ff5c4d9d4e852/mongodb_orm-0.1.0a8.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-computenest]: Downloading https://files.pythonhosted.org/packages/9b/3a/31508f7c7bccc56c0ce2d41268c910b46e4368bb0bdf89a78ce7fdb35143/ros-cdk-computenest-1.0.24.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [youqu-dogtail]: Downloading https://files.pythonhosted.org/packages/a9/f0/166288a407fe95e4814231f20964b6f7aa1bf10a4e1bfdec2ac4d0fe55ed/youqu_dogtail-0.1.0.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/f1/cc/2c082bbb93cb9856c65637cbe2361b71bc21a1bceef61319c59c79800795/ros-cdk-privatelink-1.0.8.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-sls]: Downloading https://files.pythonhosted.org/packages/43/82/7794729e60d5790b0ce831d9b6a58b58e38c91ff00b8d49f29eb06032b32/ros-cdk-sls-1.0.8.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [SimpleDomControl]: Downloading https://files.pythonhosted.org/packages/d2/1b/a1ae373e60a536f4f6cace949486b4a840088033dc6d6f0505a4f6e856fd/simpledomcontrol-0.5.0.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [qdrive]: Downloading https://files.pythonhosted.org/packages/d4/81/598846c372f549670ee22eea85437d9e555b6f553cbd9f3b5ff47f1bd8e5/qdrive-0.2.19-py3-none-any.whl
+[2024-06-03 12:24:49] INFO root fetch - processPackages [etiket-client]: Downloading https://files.pythonhosted.org/packages/4e/51/e09069bb3b02ebfae44b75d9865dbea50da8b874757fc137e083eb99829c/etiket_client-0.2.19-py3-none-any.whl
+[2024-06-03 12:24:49] INFO root fetch - processPackages [youqu-dogtail]: Downloading https://files.pythonhosted.org/packages/d4/ae/c59789e08923e7c2e0125ea0d968b177935810153d6b6c7c03344221614d/youqu_dogtail-0.1.1.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/e8/75/deb3adb482549516df262079514204896ea97b8964fbb886a4bdbe991d2c/mongodb_orm-0.1.1.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [SimpleDomControl]: executing diffoscope
+[2024-06-03 12:24:49] INFO root fetch - processPackages [SimpleDomControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpledomcontrol-0.4.8.tar.gz tmp/simpledomcontrol-0.5.0.tar.gz --markdown 20240603/S/SimpleDomControl/0.4.8-0.5.0/README.md --exclude *.pyd
+[2024-06-03 12:24:49] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-computenest]: Downloading https://files.pythonhosted.org/packages/56/cc/faea501b9e039175cba9fcc433093cf1f4430b834da17af3370fba01f38b/ros-cdk-computenest-1.0.25.tar.gz
+[2024-06-03 12:24:49] INFO root fetch - processPackages [qdrive]: executing diffoscope
+[2024-06-03 12:24:49] INFO root fetch - processPackages [qdrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrive-0.2.17-py3-none-any.whl.zip tmp/qdrive-0.2.19-py3-none-any.whl.zip --markdown 20240603/q/qdrive/0.2.17-0.2.19/README.md --exclude *.pyd
+[2024-06-03 12:24:49] INFO root fetch - processPackages [etiket-client]: executing diffoscope
+[2024-06-03 12:24:49] INFO root fetch - processPackages [etiket-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiket_client-0.2.18-py3-none-any.whl.zip tmp/etiket_client-0.2.19-py3-none-any.whl.zip --markdown 20240603/e/etiket-client/0.2.18-0.2.19/README.md --exclude *.pyd
+[2024-06-03 12:24:49] INFO root fetch - processPackages [youqu-dogtail]: executing diffoscope
+[2024-06-03 12:24:49] INFO root fetch - processPackages [youqu-dogtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu_dogtail-0.1.0.tar.gz tmp/youqu_dogtail-0.1.1.tar.gz --markdown 20240603/y/youqu-dogtail/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 12:24:49] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 12:24:49] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0a8.tar.gz tmp/mongodb_orm-0.1.1.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0a8-0.1.1/README.md --exclude *.pyd
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-computenest]: executing diffoscope
+[2024-06-03 12:24:49] INFO root fetch - processPackages [ros-cdk-computenest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-computenest-1.0.24.tar.gz tmp/ros-cdk-computenest-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-computenest/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:24:50] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-06-03 12:24:50] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240603/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-06-03 12:24:50] INFO root fetch - processPackages [ros-cdk-privatelink]: Downloading https://files.pythonhosted.org/packages/d2/74/5f0b9dfdf8f29683f485682ed3cf1414974936e669f394a649d975714e0e/ros-cdk-privatelink-1.0.9.tar.gz
+[2024-06-03 12:24:50] INFO root fetch - processPackages [ros-cdk-sls]: Downloading https://files.pythonhosted.org/packages/df/d3/f86784db438f6b60ee4de02bc0e96c9cdaf841b69851cf4f7f1dece80591/ros-cdk-sls-1.0.9.tar.gz
+[2024-06-03 12:24:50] INFO root fetch - processPackages [ros-cdk-privatelink]: executing diffoscope
+[2024-06-03 12:24:50] INFO root fetch - processPackages [ros-cdk-privatelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-privatelink-1.0.8.tar.gz tmp/ros-cdk-privatelink-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-privatelink/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:24:50] INFO root fetch - processPackages [youqu-dogtail]: Remove: archive file [/home/abi/fetcher/tmp/youqu_dogtail-0.1.0.tar.gz]
+[2024-06-03 12:24:50] INFO root fetch - processPackages [youqu-dogtail]: Remove: archive file [/home/abi/fetcher/tmp/youqu_dogtail-0.1.1.tar.gz]
+[2024-06-03 12:24:50] INFO root fetch - main [MainThread]: End processing [youqu-dogtail]: success
+[2024-06-03 12:24:50] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.24.tar.gz]
+[2024-06-03 12:24:50] INFO root fetch - processPackages [ros-cdk-computenest]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-computenest-1.0.25.tar.gz]
+[2024-06-03 12:24:50] INFO root fetch - main [MainThread]: End processing [ros-cdk-computenest]: success
+[2024-06-03 12:24:50] INFO root fetch - processPackages [qdrive]: Remove: archive file [/home/abi/fetcher/tmp/qdrive-0.2.17-py3-none-any.whl.zip]
+[2024-06-03 12:24:50] INFO root fetch - processPackages [qdrive]: Remove: archive file [/home/abi/fetcher/tmp/qdrive-0.2.19-py3-none-any.whl.zip]
+[2024-06-03 12:24:50] INFO root fetch - main [MainThread]: End processing [qdrive]: success
+[2024-06-03 12:24:50] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a8.tar.gz]
+[2024-06-03 12:24:50] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.1.tar.gz]
+[2024-06-03 12:24:50] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 12:24:50] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.8.tar.gz]
+[2024-06-03 12:24:50] INFO root fetch - processPackages [ros-cdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-privatelink-1.0.9.tar.gz]
+[2024-06-03 12:24:50] INFO root fetch - main [MainThread]: End processing [ros-cdk-privatelink]: success
+[2024-06-03 12:24:51] INFO root fetch - processPackages [ros-cdk-sls]: executing diffoscope
+[2024-06-03 12:24:51] INFO root fetch - processPackages [ros-cdk-sls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-sls-1.0.8.tar.gz tmp/ros-cdk-sls-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-sls/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:24:51] INFO root fetch - processPackages [etiket-client]: Remove: archive file [/home/abi/fetcher/tmp/etiket_client-0.2.18-py3-none-any.whl.zip]
+[2024-06-03 12:24:51] INFO root fetch - processPackages [etiket-client]: Remove: archive file [/home/abi/fetcher/tmp/etiket_client-0.2.19-py3-none-any.whl.zip]
+[2024-06-03 12:24:51] INFO root fetch - main [MainThread]: End processing [etiket-client]: success
+[2024-06-03 12:24:51] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-06-03 12:24:51] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-06-03 12:24:51] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-06-03 12:24:51] INFO root fetch - processPackages [ros-cdk-sls]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sls-1.0.8.tar.gz]
+[2024-06-03 12:24:51] INFO root fetch - processPackages [ros-cdk-sls]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-sls-1.0.9.tar.gz]
+[2024-06-03 12:24:51] INFO root fetch - main [MainThread]: End processing [ros-cdk-sls]: success
+[2024-06-03 12:24:52] INFO root fetch - processPackages [SimpleDomControl]: Remove: archive file [/home/abi/fetcher/tmp/simpledomcontrol-0.4.8.tar.gz]
+[2024-06-03 12:24:52] INFO root fetch - processPackages [SimpleDomControl]: Remove: archive file [/home/abi/fetcher/tmp/simpledomcontrol-0.5.0.tar.gz]
+[2024-06-03 12:24:52] INFO root fetch - main [MainThread]: End processing [SimpleDomControl]: success
+[2024-06-03 12:24:52] INFO root fetch - main [MainThread]: Store serial: [23500364]
