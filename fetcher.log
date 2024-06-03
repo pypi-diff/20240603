@@ -9510,3 +9510,54 @@ EOFError: EOF read where object expected
 [2024-06-03 10:05:35] INFO root fetch - processPackages [molgenis-py-bbmri-eric]: Remove: archive file [/home/abi/fetcher/tmp/molgenis-py-bbmri-eric-1.9.0.tar.gz]
 [2024-06-03 10:05:35] INFO root fetch - main [MainThread]: End processing [molgenis-py-bbmri-eric]: success
 [2024-06-03 10:05:35] INFO root fetch - main [MainThread]: Store serial: [23498198]
+[2024-06-03 10:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498198]
+[2024-06-03 10:07:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 10:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-ab6459
+[2024-06-03 10:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paaster
+[2024-06-03 10:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rlabs-mini-cli
+[2024-06-03 10:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afl-ai-utils
+[2024-06-03 10:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cace
+[2024-06-03 10:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scores
+[2024-06-03 10:07:44] INFO root fetch - processPackages [mkdocs-ab6459]: New version: [0.1.1] Old Version: [0.1]
+[2024-06-03 10:07:44] INFO root fetch - processPackages [cace]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-06-03 10:07:44] INFO root fetch - processPackages [afl-ai-utils]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-06-03 10:07:44] WARNING root fetch - processPackages [rlabs-mini-cli]: Skipping, unable to determine old version
+[2024-06-03 10:07:44] INFO root fetch - main [MainThread]: End processing [rlabs-mini-cli] error
+[2024-06-03 10:07:44] INFO root fetch - processPackages [scores]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-06-03 10:07:44] INFO root fetch - processPackages [paaster]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-06-03 10:07:44] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/df/b6/a06496518724141e00b8ece1c0bbe016648fd8aeaf414b64ec6a3764b648/cace-2.2.6.tar.gz
+[2024-06-03 10:07:44] INFO root fetch - processPackages [afl-ai-utils]: Downloading https://files.pythonhosted.org/packages/dd/59/13e53312cc065bbf3f6e88b189e2133519a6702bb6179edbe4086488781a/afl-ai-utils-0.5.1.tar.gz
+[2024-06-03 10:07:44] INFO root fetch - processPackages [mkdocs-ab6459]: Downloading https://files.pythonhosted.org/packages/5c/0a/9e2759674fcc777a8a494f06b25423e4e707bf8a4fcc5a4a3cbfc0c80399/mkdocs_ab6459-0.1.tar.gz
+[2024-06-03 10:07:44] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/eb/8d/5ef67bd6a438035819344b1767b2d4be24f6e38c6a3c18d9d4b02c300ecb/scores-0.8.3.tar.gz
+[2024-06-03 10:07:44] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/55/fd/85a58b7167c609a879d42929a1bb6eb3fbf42171f5aed5de5b4b4ede5be7/paaster-1.1.8.tar.gz
+[2024-06-03 10:07:44] INFO root fetch - processPackages [afl-ai-utils]: Downloading https://files.pythonhosted.org/packages/c8/4b/87554745ff5fd141055a5351741708d2fd38d509a140b9ddf77a637e9edc/afl-ai-utils-0.5.2.tar.gz
+[2024-06-03 10:07:45] INFO root fetch - processPackages [afl-ai-utils]: executing diffoscope
+[2024-06-03 10:07:45] INFO root fetch - processPackages [afl-ai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afl-ai-utils-0.5.1.tar.gz tmp/afl-ai-utils-0.5.2.tar.gz --markdown 20240603/a/afl-ai-utils/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-06-03 10:07:45] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/57/97/db4f8ccfaeb39c0633937ec8e705cd82ea98bff55a7af654f6683409e16e/scores-0.8.4.tar.gz
+[2024-06-03 10:07:45] INFO root fetch - processPackages [paaster]: Downloading https://files.pythonhosted.org/packages/42/a6/a7cd20397267ae0ea7a89f3fa19fabeaf39eb6de877d08ba432681207d21/paaster-1.1.9.tar.gz
+[2024-06-03 10:07:45] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/51/df/71c12512f9cdb1f06d980c52f5a90f2aef418b257fbf4b3609ca46f92a83/cace-2.2.7.tar.gz
+[2024-06-03 10:07:45] INFO root fetch - processPackages [paaster]: executing diffoscope
+[2024-06-03 10:07:45] INFO root fetch - processPackages [paaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paaster-1.1.8.tar.gz tmp/paaster-1.1.9.tar.gz --markdown 20240603/p/paaster/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-06-03 10:07:45] INFO root fetch - processPackages [scores]: executing diffoscope
+[2024-06-03 10:07:45] INFO root fetch - processPackages [scores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scores-0.8.3.tar.gz tmp/scores-0.8.4.tar.gz --markdown 20240603/s/scores/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-06-03 10:07:45] INFO root fetch - processPackages [mkdocs-ab6459]: Downloading https://files.pythonhosted.org/packages/3f/b7/64484aec23435b031d76473f9baad6206ecf9bd7a04685f883449248a0ad/mkdocs_ab6459-0.1.1.tar.gz
+[2024-06-03 10:07:45] INFO root fetch - processPackages [cace]: executing diffoscope
+[2024-06-03 10:07:45] INFO root fetch - processPackages [cace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cace-2.2.6.tar.gz tmp/cace-2.2.7.tar.gz --markdown 20240603/c/cace/2.2.6-2.2.7/README.md --exclude *.pyd
+[2024-06-03 10:07:45] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.5.1.tar.gz]
+[2024-06-03 10:07:45] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.5.2.tar.gz]
+[2024-06-03 10:07:45] INFO root fetch - main [MainThread]: End processing [afl-ai-utils]: success
+[2024-06-03 10:07:46] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.1.8.tar.gz]
+[2024-06-03 10:07:46] INFO root fetch - processPackages [paaster]: Remove: archive file [/home/abi/fetcher/tmp/paaster-1.1.9.tar.gz]
+[2024-06-03 10:07:46] INFO root fetch - main [MainThread]: End processing [paaster]: success
+[2024-06-03 10:07:46] INFO root fetch - processPackages [mkdocs-ab6459]: executing diffoscope
+[2024-06-03 10:07:46] INFO root fetch - processPackages [mkdocs-ab6459]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_ab6459-0.1.tar.gz tmp/mkdocs_ab6459-0.1.1.tar.gz --markdown 20240603/m/mkdocs-ab6459/0.1-0.1.1/README.md --exclude *.pyd
+[2024-06-03 10:07:46] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.8.3.tar.gz]
+[2024-06-03 10:07:46] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.8.4.tar.gz]
+[2024-06-03 10:07:46] INFO root fetch - main [MainThread]: End processing [scores]: success
+[2024-06-03 10:07:46] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.6.tar.gz]
+[2024-06-03 10:07:46] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.7.tar.gz]
+[2024-06-03 10:07:46] INFO root fetch - main [MainThread]: End processing [cace]: success
+[2024-06-03 10:07:46] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.tar.gz]
+[2024-06-03 10:07:46] INFO root fetch - processPackages [mkdocs-ab6459]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ab6459-0.1.1.tar.gz]
+[2024-06-03 10:07:47] INFO root fetch - main [MainThread]: End processing [mkdocs-ab6459]: success
+[2024-06-03 10:07:47] INFO root fetch - main [MainThread]: Store serial: [23498219]
