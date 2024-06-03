@@ -16066,3 +16066,130 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:23:16] INFO root fetch - processPackages [clang-format]: Remove: archive file [/home/abi/fetcher/tmp/clang_format-9.0.0-py2.py3-none-manylinux1_x86_64.whl.zip]
 [2024-06-03 13:23:16] INFO root fetch - main [MainThread]: End processing [clang-format]: success
 [2024-06-03 13:23:16] INFO root fetch - main [MainThread]: Store serial: [23501225]
+[2024-06-03 13:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501225]
+[2024-06-03 13:25:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-oos
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plataforma-automaxia-api
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: balanco-library
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sayari
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: balanco-library
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bus-user
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: copilothistoryexporter
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pychop
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-automation
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nestipy-prisma
+[2024-06-03 13:25:31] WARNING root fetch - processPackages [python-automation]: Skipping, unable to determine old version
+[2024-06-03 13:25:31] INFO root fetch - processPackages [balanco-library]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [python-automation]: Start processing: forked-django-axes
+[2024-06-03 13:25:31] INFO root fetch - main [MainThread]: End processing [python-automation] error
+[2024-06-03 13:25:31] INFO root fetch - processPackages [balanco-library]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [copilothistoryexporter]: New version: [1.2.1] Old Version: [1.1.2]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [plataforma-automaxia-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [sayari]: New version: [0.0.82] Old Version: [0.0.78]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ros-cdk-oos]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [bus-user]: New version: [0.3.7] Old Version: [0.3.5]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [pychop]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-06-03 13:25:31] WARNING root fetch - processPackages [nestipy-prisma]: Skipping, unable to determine old version
+[2024-06-03 13:25:31] INFO root fetch - processPackages [nestipy-prisma]: Start processing: openstack-heat
+[2024-06-03 13:25:31] INFO root fetch - main [MainThread]: End processing [nestipy-prisma] error
+[2024-06-03 13:25:31] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/cc/b3/ffe7501520280c8155fe4548077a505ca7ca2d32c60d0afc130852827303/copilothistoryexporter-1.1.2.tar.gz
+[2024-06-03 13:25:31] WARNING root fetch - processPackages [forked-django-axes]: Skipping, unable to determine old version
+[2024-06-03 13:25:31] INFO root fetch - processPackages [forked-django-axes]: Start processing: ocf-datapipes
+[2024-06-03 13:25:31] INFO root fetch - main [MainThread]: End processing [forked-django-axes] error
+[2024-06-03 13:25:31] INFO root fetch - processPackages [balanco-library]: Downloading https://files.pythonhosted.org/packages/86/cf/0c8d0337406d9c199d7c2444e875c2ac81c852ea794cb891a0dffa0283ba/balanco_library-0.1.0.tar.gz
+[2024-06-03 13:25:31] INFO root fetch - processPackages [balanco-library]: Downloading https://files.pythonhosted.org/packages/86/cf/0c8d0337406d9c199d7c2444e875c2ac81c852ea794cb891a0dffa0283ba/balanco_library-0.1.0.tar.gz
+[2024-06-03 13:25:31] INFO root fetch - processPackages [plataforma-automaxia-api]: Downloading https://files.pythonhosted.org/packages/57/cf/b72aa27f981cade0238ba97e48b689e6f7334d128a5a70532c18ccea6fae/plataforma-automaxia-api-0.0.8.tar.gz
+[2024-06-03 13:25:31] INFO root fetch - processPackages [sayari]: Downloading https://files.pythonhosted.org/packages/ff/5e/c42bfb86dff2aad9437480fdbc8855fc861ef8bdc8ef0b93f17efcec4a51/sayari-0.0.78.tar.gz
+[2024-06-03 13:25:31] INFO root fetch - processPackages [openstack-heat]: New version: [22.0.1] Old Version: [22.0.0.0rc1]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ros-cdk-oos]: Downloading https://files.pythonhosted.org/packages/ab/ad/d2d4070a3a94ffaab2da200a16208b1b9822409a5e12289df240025ba00c/ros-cdk-oos-1.0.8.tar.gz
+[2024-06-03 13:25:31] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-06-03 13:25:31] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/c1/b2/64c854cc75d5ceff16061ee7b99fafc6fa8be5f4f0df2be552483f999172/bus_user-0.3.5.tar.gz
+[2024-06-03 13:25:31] INFO root fetch - processPackages [pychop]: Downloading https://files.pythonhosted.org/packages/d8/95/65e239a1721a9ba956f2de2585538aa2def7ba69c410a43fecf67105161b/pychop-0.2.1.tar.gz
+[2024-06-03 13:25:31] INFO root fetch - processPackages [copilothistoryexporter]: Downloading https://files.pythonhosted.org/packages/27/6c/d13d43dbee0abf06172b0e51b4a832c9e504e8eabbdac6ef817c09fa5755/copilothistoryexporter-1.2.1.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [openstack-heat]: Downloading https://files.pythonhosted.org/packages/8a/d3/8520fcc9e052d86a8819822e9c32241d419653121fe88aae0ea68d049718/openstack-heat-22.0.0.0rc1.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [balanco-library]: Downloading https://files.pythonhosted.org/packages/5f/dc/fef4930e262b7e6426f11c199cdbd809a1238719b912a1d0e8523c1db8a9/balanco_library-0.1.1.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [balanco-library]: Downloading https://files.pythonhosted.org/packages/5f/dc/fef4930e262b7e6426f11c199cdbd809a1238719b912a1d0e8523c1db8a9/balanco_library-0.1.1.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [copilothistoryexporter]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [copilothistoryexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copilothistoryexporter-1.1.2.tar.gz tmp/copilothistoryexporter-1.2.1.tar.gz --markdown 20240603/c/copilothistoryexporter/1.1.2-1.2.1/README.md --exclude *.pyd
+[2024-06-03 13:25:32] INFO root fetch - processPackages [plataforma-automaxia-api]: Downloading https://files.pythonhosted.org/packages/2d/e6/df995831cbc082a05a2f733ff6ba74ab3cfa893cbdc3b3ad1033f35ea505/plataforma-automaxia-api-0.0.9.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/c8/c3/85c145a0e1f5bf15eab439d6e0deccd96a188ee6654cdac436ac1a9e8be2/bus_user-0.3.7.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [sayari]: Downloading https://files.pythonhosted.org/packages/e9/67/372cedf0dcdd858112b38338979bc85de99e70d527581e853e216ec713af/sayari-0.0.82.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [pychop]: Downloading https://files.pythonhosted.org/packages/a7/97/c8e9f95ad87d36185440666778bea0e22e84aea8f0cc96cdb71c624b2a5e/pychop-0.2.2.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [balanco-library]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [balanco-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balanco_library-0.1.0.tar.gz tmp/balanco_library-0.1.1.tar.gz --markdown 20240603/b/balanco-library/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 13:25:32] INFO root fetch - processPackages [balanco-library]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [balanco-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balanco_library-0.1.0.tar.gz tmp/balanco_library-0.1.1.tar.gz --markdown 20240603/b/balanco-library/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 13:25:32] INFO root fetch - processPackages [plataforma-automaxia-api]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [plataforma-automaxia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plataforma-automaxia-api-0.0.8.tar.gz tmp/plataforma-automaxia-api-0.0.9.tar.gz --markdown 20240603/p/plataforma-automaxia-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 13:25:32] INFO root fetch - processPackages [ros-cdk-oos]: Downloading https://files.pythonhosted.org/packages/13/eb/43259df82c572a36bf02bb57b84906dcbce68cb095b37743193188afc3b3/ros-cdk-oos-1.0.9.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.3.5.tar.gz tmp/bus_user-0.3.7.tar.gz --markdown 20240603/b/bus-user/0.3.5-0.3.7/README.md --exclude *.pyd
+[2024-06-03 13:25:32] INFO root fetch - processPackages [sayari]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [sayari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayari-0.0.78.tar.gz tmp/sayari-0.0.82.tar.gz --markdown 20240603/s/sayari/0.0.78-0.0.82/README.md --exclude *.pyd
+[2024-06-03 13:25:32] INFO root fetch - processPackages [pychop]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [pychop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychop-0.2.1.tar.gz tmp/pychop-0.2.2.tar.gz --markdown 20240603/p/pychop/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-06-03 13:25:32] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [ros-cdk-oos]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [ros-cdk-oos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-oos-1.0.8.tar.gz tmp/ros-cdk-oos-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-oos/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:25:32] INFO root fetch - processPackages [openstack-heat]: Downloading https://files.pythonhosted.org/packages/01/d7/8bb5df2a7c44c00b32aadc172607d3fa479e12d1cadc084fe5aa20532f89/openstack-heat-22.0.1.tar.gz
+[2024-06-03 13:25:32] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-06-03 13:25:32] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240603/o/ocf-datapipes/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-06-03 13:25:33] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.1.2.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [copilothistoryexporter]: Remove: archive file [/home/abi/fetcher/tmp/copilothistoryexporter-1.2.1.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [copilothistoryexporter]: Start processing: richie
+[2024-06-03 13:25:33] INFO root fetch - main [MainThread]: End processing [copilothistoryexporter]: success
+[2024-06-03 13:25:33] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [balanco-library]: Remove: archive file [/home/abi/fetcher/tmp/balanco_library-0.1.0.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [balanco-library]: Remove: archive file [/home/abi/fetcher/tmp/balanco_library-0.1.1.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [balanco-library]: Start processing: ros-cdk-ess
+[2024-06-03 13:25:33] INFO root fetch - main [MainThread]: End processing [balanco-library]: success
+[2024-06-03 13:25:33] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-06-03 13:25:33] INFO root fetch - processPackages [plataforma-automaxia-api]: Remove: archive file [/home/abi/fetcher/tmp/plataforma-automaxia-api-0.0.8.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [plataforma-automaxia-api]: Remove: archive file [/home/abi/fetcher/tmp/plataforma-automaxia-api-0.0.9.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [plataforma-automaxia-api]: Start processing: Docs2KG
+[2024-06-03 13:25:33] INFO root fetch - main [MainThread]: End processing [plataforma-automaxia-api]: success
+[2024-06-03 13:25:33] INFO root fetch - processPackages [Docs2KG]: New version: [0.1.6] Old Version: [0.1.3]
+[2024-06-03 13:25:33] INFO root fetch - main [MainThread]: End processing [balanco-library]: success
+[2024-06-03 13:25:33] INFO root fetch - processPackages [ros-cdk-ess]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [Docs2KG]: Downloading https://files.pythonhosted.org/packages/17/3d/7d2ee3c1257b0cdb35377ac68813e800e803302408f7594b75522410dfa4/docs2kg-0.1.3.tar.gz
+[2024-06-03 13:25:33] INFO root fetch - processPackages [openstack-heat]: executing diffoscope
+[2024-06-03 13:25:33] INFO root fetch - processPackages [openstack-heat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstack-heat-22.0.0.0rc1.tar.gz tmp/openstack-heat-22.0.1.tar.gz --markdown 20240603/o/openstack-heat/22.0.0.0rc1-22.0.1/README.md --exclude *.pyd
+[2024-06-03 13:25:33] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.5.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.7.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-06-03 13:25:33] INFO root fetch - processPackages [ros-cdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oos-1.0.8.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [ros-cdk-oos]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-oos-1.0.9.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-oos]: success
+[2024-06-03 13:25:33] INFO root fetch - processPackages [ros-cdk-ess]: Downloading https://files.pythonhosted.org/packages/c9/2c/5fe7e864a6189f632a70ae24ab968fc0fb7119629ead5dcf263845232cc2/ros-cdk-ess-1.0.8.tar.gz
+[2024-06-03 13:25:33] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-06-03 13:25:33] INFO root fetch - processPackages [pychop]: Remove: archive file [/home/abi/fetcher/tmp/pychop-0.2.1.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - processPackages [pychop]: Remove: archive file [/home/abi/fetcher/tmp/pychop-0.2.2.tar.gz]
+[2024-06-03 13:25:33] INFO root fetch - main [MainThread]: End processing [pychop]: success
+[2024-06-03 13:25:33] INFO root fetch - processPackages [Docs2KG]: Downloading https://files.pythonhosted.org/packages/ef/ae/10d80ad934c40532d7822eb3ccfb24ddfa1536abba9365e44c15d8ba8900/docs2kg-0.1.6.tar.gz
+[2024-06-03 13:25:33] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-06-03 13:25:33] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240603/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-06-03 13:25:33] INFO root fetch - processPackages [Docs2KG]: executing diffoscope
+[2024-06-03 13:25:33] INFO root fetch - processPackages [Docs2KG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs2kg-0.1.3.tar.gz tmp/docs2kg-0.1.6.tar.gz --markdown 20240603/D/Docs2KG/0.1.3-0.1.6/README.md --exclude *.pyd
+[2024-06-03 13:25:34] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-06-03 13:25:34] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-06-03 13:25:34] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-06-03 13:25:34] INFO root fetch - processPackages [ros-cdk-ess]: Downloading https://files.pythonhosted.org/packages/7d/67/698fa9c6818e76a7c32f0b4b16631a78350d3647e5b5f48d6d1f8c221514/ros-cdk-ess-1.0.9.tar.gz
+[2024-06-03 13:25:34] INFO root fetch - processPackages [sayari]: Remove: archive file [/home/abi/fetcher/tmp/sayari-0.0.78.tar.gz]
+[2024-06-03 13:25:34] INFO root fetch - processPackages [sayari]: Remove: archive file [/home/abi/fetcher/tmp/sayari-0.0.82.tar.gz]
+[2024-06-03 13:25:34] INFO root fetch - main [MainThread]: End processing [sayari]: success
+[2024-06-03 13:25:34] INFO root fetch - processPackages [ros-cdk-ess]: executing diffoscope
+[2024-06-03 13:25:34] INFO root fetch - processPackages [ros-cdk-ess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ess-1.0.8.tar.gz tmp/ros-cdk-ess-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-ess/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:25:34] INFO root fetch - processPackages [Docs2KG]: Remove: archive file [/home/abi/fetcher/tmp/docs2kg-0.1.3.tar.gz]
+[2024-06-03 13:25:34] INFO root fetch - processPackages [Docs2KG]: Remove: archive file [/home/abi/fetcher/tmp/docs2kg-0.1.6.tar.gz]
+[2024-06-03 13:25:34] INFO root fetch - main [MainThread]: End processing [Docs2KG]: success
+[2024-06-03 13:25:35] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.8.tar.gz]
+[2024-06-03 13:25:35] INFO root fetch - processPackages [ros-cdk-ess]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ess-1.0.9.tar.gz]
+[2024-06-03 13:25:35] INFO root fetch - main [MainThread]: End processing [ros-cdk-ess]: success
+[2024-06-03 13:25:39] INFO root fetch - processPackages [openstack-heat]: Remove: archive file [/home/abi/fetcher/tmp/openstack-heat-22.0.0.0rc1.tar.gz]
+[2024-06-03 13:25:39] INFO root fetch - processPackages [openstack-heat]: Remove: archive file [/home/abi/fetcher/tmp/openstack-heat-22.0.1.tar.gz]
+[2024-06-03 13:25:39] INFO root fetch - main [MainThread]: End processing [openstack-heat]: success
+[2024-06-03 13:27:34] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-06-03 13:27:34] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-06-03 13:27:34] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-06-03 13:27:34] INFO root fetch - main [MainThread]: Store serial: [23501274]
