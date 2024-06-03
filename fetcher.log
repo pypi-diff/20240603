@@ -23546,3 +23546,123 @@ EOFError: EOF read where object expected
 [2024-06-03 16:30:47] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
 [2024-06-03 16:30:47] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
 [2024-06-03 16:30:47] INFO root fetch - main [MainThread]: Store serial: [23504256]
+[2024-06-03 16:32:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504256]
+[2024-06-03 16:32:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmp-box
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmp-box
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dao-scripts
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmp-box
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmp-box
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmp-box
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmp-box
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tmp-box
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydependence
+[2024-06-03 16:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: STAIR-tools
+[2024-06-03 16:32:57] WARNING root fetch - processPackages [pydependence]: Skipping, unable to determine old version
+[2024-06-03 16:32:57] INFO root fetch - processPackages [pydependence]: Start processing: test2va
+[2024-06-03 16:32:57] INFO root fetch - main [MainThread]: End processing [pydependence] error
+[2024-06-03 16:32:57] INFO root fetch - processPackages [STAIR-tools]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [dao-scripts]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [test2va]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 16:32:57] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/c2/b7/c48e86381c0b38f8e9ed72160aa92f1159a85819ba2846457845f6f15877/STAIR-tools-1.2.8.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/92/56/fb08c3e0c08a62f8ed24b457c4b4fe0f513e92f1805623d665cdf721520e/dao_scripts-1.4.3.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/0d/a6/2ff8bae725e7373fb33c5b2dc21ec3f5cd11760901992a806a4a4a5fa01f/tmp_box-0.0.6.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/0d/a6/2ff8bae725e7373fb33c5b2dc21ec3f5cd11760901992a806a4a4a5fa01f/tmp_box-0.0.6.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/0d/a6/2ff8bae725e7373fb33c5b2dc21ec3f5cd11760901992a806a4a4a5fa01f/tmp_box-0.0.6.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/0d/a6/2ff8bae725e7373fb33c5b2dc21ec3f5cd11760901992a806a4a4a5fa01f/tmp_box-0.0.6.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/0d/a6/2ff8bae725e7373fb33c5b2dc21ec3f5cd11760901992a806a4a4a5fa01f/tmp_box-0.0.6.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/0d/a6/2ff8bae725e7373fb33c5b2dc21ec3f5cd11760901992a806a4a4a5fa01f/tmp_box-0.0.6.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [test2va]: Downloading https://files.pythonhosted.org/packages/93/ba/57af4bdfad3a43fda63a71927fe24f5914b2a2ad65f1fc9bd5083df14d62/test2va-1.0.8.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/0d/a6/2ff8bae725e7373fb33c5b2dc21ec3f5cd11760901992a806a4a4a5fa01f/tmp_box-0.0.6.tar.gz
+[2024-06-03 16:32:57] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/59/ac/9c98046cb43bb5e4d12fac72eb7fd373b5319c7e6e233849de8b56605780/STAIR-tools-1.2.9.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/b0/62/6d706415e0f7519cf85a7457134623584a2d4f45a3bb4429abb0d0abecfb/tmp_box-0.0.7.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/6e/a9/44c54627c307f4d5de943e995fc5d010f388090fd3b4d7de4b7532c725db/dao_scripts-1.4.4.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/b0/62/6d706415e0f7519cf85a7457134623584a2d4f45a3bb4429abb0d0abecfb/tmp_box-0.0.7.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.2.8.tar.gz tmp/STAIR-tools-1.2.9.tar.gz --markdown 20240603/S/STAIR-tools/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/b0/62/6d706415e0f7519cf85a7457134623584a2d4f45a3bb4429abb0d0abecfb/tmp_box-0.0.7.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/b0/62/6d706415e0f7519cf85a7457134623584a2d4f45a3bb4429abb0d0abecfb/tmp_box-0.0.7.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/b0/62/6d706415e0f7519cf85a7457134623584a2d4f45a3bb4429abb0d0abecfb/tmp_box-0.0.7.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/b0/62/6d706415e0f7519cf85a7457134623584a2d4f45a3bb4429abb0d0abecfb/tmp_box-0.0.7.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: Downloading https://files.pythonhosted.org/packages/b0/62/6d706415e0f7519cf85a7457134623584a2d4f45a3bb4429abb0d0abecfb/tmp_box-0.0.7.tar.gz
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmp_box-0.0.6.tar.gz tmp/tmp_box-0.0.7.tar.gz --markdown 20240603/t/tmp-box/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmp_box-0.0.6.tar.gz tmp/tmp_box-0.0.7.tar.gz --markdown 20240603/t/tmp-box/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_scripts-1.4.3.tar.gz tmp/dao_scripts-1.4.4.tar.gz --markdown 20240603/d/dao-scripts/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmp_box-0.0.6.tar.gz tmp/tmp_box-0.0.7.tar.gz --markdown 20240603/t/tmp-box/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: executing diffoscope
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmp_box-0.0.6.tar.gz tmp/tmp_box-0.0.7.tar.gz --markdown 20240603/t/tmp-box/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmp_box-0.0.6.tar.gz tmp/tmp_box-0.0.7.tar.gz --markdown 20240603/t/tmp-box/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmp_box-0.0.6.tar.gz tmp/tmp_box-0.0.7.tar.gz --markdown 20240603/t/tmp-box/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [tmp-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmp_box-0.0.6.tar.gz tmp/tmp_box-0.0.7.tar.gz --markdown 20240603/t/tmp-box/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 16:32:58] INFO root fetch - processPackages [test2va]: Downloading https://files.pythonhosted.org/packages/62/80/f48cc630d2e8b7ae696d6823d430668d29f16c7eb9d1882ca052fc2835cb/test2va-1.0.9.tar.gz
+[2024-06-03 16:32:59] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.2.8.tar.gz]
+[2024-06-03 16:32:59] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.2.9.tar.gz]
+[2024-06-03 16:32:59] INFO root fetch - processPackages [STAIR-tools]: Start processing: cellfinder
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-06-03 16:32:59] INFO root fetch - processPackages [cellfinder]: New version: [1.3.0rc2] Old Version: [1.3.0rc1]
+[2024-06-03 16:32:59] INFO root fetch - processPackages [tmp-box]: Remove: archive file [/home/abi/fetcher/tmp/tmp_box-0.0.6.tar.gz]
+[2024-06-03 16:32:59] INFO root fetch - processPackages [tmp-box]: Remove: archive file [/home/abi/fetcher/tmp/tmp_box-0.0.7.tar.gz]
+[2024-06-03 16:32:59] INFO root fetch - processPackages [tmp-box]: Start processing: triton-copilot
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [tmp-box]: success
+[2024-06-03 16:32:59] INFO root fetch - processPackages [cellfinder]: Downloading https://files.pythonhosted.org/packages/29/38/acaee5c7049848466dc6b8ce2a747f9ffa0ddc3c30bbe14458da35d3602e/cellfinder-1.3.0rc1.tar.gz
+[2024-06-03 16:32:59] INFO root fetch - processPackages [tmp-box]: Start processing: few-shot-priming
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [tmp-box]: success
+[2024-06-03 16:32:59] INFO root fetch - processPackages [tmp-box]: Start processing: anypoint
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [tmp-box]: success
+[2024-06-03 16:32:59] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3rc3] Old Version: [0.1.3rc2]
+[2024-06-03 16:32:59] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [tmp-box]: success
+[2024-06-03 16:32:59] INFO root fetch - processPackages [test2va]: executing diffoscope
+[2024-06-03 16:32:59] INFO root fetch - processPackages [test2va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test2va-1.0.8.tar.gz tmp/test2va-1.0.9.tar.gz --markdown 20240603/t/test2va/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [tmp-box]: success
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [tmp-box]: success
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [tmp-box]: success
+[2024-06-03 16:32:59] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.3.tar.gz]
+[2024-06-03 16:32:59] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.4.tar.gz]
+[2024-06-03 16:32:59] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2024-06-03 16:32:59] INFO root fetch - processPackages [anypoint]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-06-03 16:32:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-06-03 16:32:59] INFO root fetch - processPackages [cellfinder]: Downloading https://files.pythonhosted.org/packages/14/99/a179e6e53f611c1ba87329fef2abaab1c475864815b41b78e8a6e2c042b3/cellfinder-1.3.0rc2.tar.gz
+[2024-06-03 16:32:59] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/13/2b/d7022a4f3237d9ddfcdb1cc088b8b2d18c40a4de2c8c8607ad4e6a7367b0/triton_copilot-0.1.3rc2.tar.gz
+[2024-06-03 16:33:00] INFO root fetch - processPackages [anypoint]: Downloading https://files.pythonhosted.org/packages/0a/ec/f4641921b4ad25b56dae8127076c63c68166ac8117db921fb3a5c3819c58/anypoint-0.8.2.tar.gz
+[2024-06-03 16:33:00] INFO root fetch - processPackages [cellfinder]: executing diffoscope
+[2024-06-03 16:33:00] INFO root fetch - processPackages [cellfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellfinder-1.3.0rc1.tar.gz tmp/cellfinder-1.3.0rc2.tar.gz --markdown 20240603/c/cellfinder/1.3.0rc1-1.3.0rc2/README.md --exclude *.pyd
+[2024-06-03 16:33:00] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/17/a9/34a750d50b8a13e552a1f80ca6a81eb7cd060974b9a2c129714c08411a9a/triton_copilot-0.1.3rc3.tar.gz
+[2024-06-03 16:33:00] INFO root fetch - processPackages [anypoint]: Downloading https://files.pythonhosted.org/packages/f6/b4/1df22d7eaca6c672d33209aea1b32ba8a0fb74fedf8eb4a12dd9834b44b3/anypoint-0.9.0.tar.gz
+[2024-06-03 16:33:00] INFO root fetch - processPackages [test2va]: Remove: archive file [/home/abi/fetcher/tmp/test2va-1.0.8.tar.gz]
+[2024-06-03 16:33:00] INFO root fetch - processPackages [test2va]: Remove: archive file [/home/abi/fetcher/tmp/test2va-1.0.9.tar.gz]
+[2024-06-03 16:33:00] INFO root fetch - main [MainThread]: End processing [test2va]: success
+[2024-06-03 16:33:00] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 16:33:00] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3rc2.tar.gz tmp/triton_copilot-0.1.3rc3.tar.gz --markdown 20240603/t/triton-copilot/0.1.3rc2-0.1.3rc3/README.md --exclude *.pyd
+[2024-06-03 16:33:00] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-06-03 16:33:00] INFO root fetch - processPackages [anypoint]: executing diffoscope
+[2024-06-03 16:33:00] INFO root fetch - processPackages [anypoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anypoint-0.8.2.tar.gz tmp/anypoint-0.9.0.tar.gz --markdown 20240603/a/anypoint/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-06-03 16:33:01] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-1.3.0rc1.tar.gz]
+[2024-06-03 16:33:01] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-1.3.0rc2.tar.gz]
+[2024-06-03 16:33:01] INFO root fetch - main [MainThread]: End processing [cellfinder]: success
+[2024-06-03 16:33:01] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3rc2.tar.gz]
+[2024-06-03 16:33:01] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3rc3.tar.gz]
+[2024-06-03 16:33:01] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 16:33:01] INFO root fetch - processPackages [anypoint]: Remove: archive file [/home/abi/fetcher/tmp/anypoint-0.8.2.tar.gz]
+[2024-06-03 16:33:01] INFO root fetch - processPackages [anypoint]: Remove: archive file [/home/abi/fetcher/tmp/anypoint-0.9.0.tar.gz]
+[2024-06-03 16:33:01] INFO root fetch - main [MainThread]: End processing [anypoint]: success
+[2024-06-03 16:33:01] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-06-03 16:33:01] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240603/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-06-03 16:33:02] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-06-03 16:33:02] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-06-03 16:33:02] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-06-03 16:33:02] INFO root fetch - main [MainThread]: Store serial: [23504319]
