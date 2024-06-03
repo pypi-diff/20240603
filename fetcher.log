@@ -3356,3 +3356,33 @@ EOFError: EOF read where object expected
 [2024-06-03 04:05:04] INFO root fetch - processPackages [notion-database]: Remove: archive file [/home/abi/fetcher/tmp/notion-database-20220628.8.tar.gz]
 [2024-06-03 04:05:04] INFO root fetch - main [MainThread]: End processing [notion-database]: success
 [2024-06-03 04:05:04] INFO root fetch - main [MainThread]: Store serial: [23495558]
+[2024-06-03 04:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495558]
+[2024-06-03 04:07:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 04:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-06-03 04:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2024-06-03 04:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bruhanimate
+[2024-06-03 04:07:13] INFO root fetch - processPackages [abcli]: New version: [9.55.1] Old Version: [9.53.1]
+[2024-06-03 04:07:13] INFO root fetch - processPackages [BioSAK]: New version: [1.90.1] Old Version: [1.90.0]
+[2024-06-03 04:07:13] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/7d/a3/e54141c75c938a396c620695767fbcafa5eb5f3ce9a734060810c94e3f75/BioSAK-1.90.0.tar.gz
+[2024-06-03 04:07:13] INFO root fetch - processPackages [bruhanimate]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 04:07:13] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/14/07/0c242ed0035797fb12d7785a7b9eee1622e91cb310e787e890b1fc5b7220/abcli-9.53.1.tar.gz
+[2024-06-03 04:07:13] INFO root fetch - processPackages [bruhanimate]: Downloading https://files.pythonhosted.org/packages/c6/57/095c701edc2b245ce61b81a58bbcffca96482e88b8959cf0f29bfff462f4/bruhanimate-0.2.8.tar.gz
+[2024-06-03 04:07:13] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/71/7a/6de3b10f2343f11371c082b178999b1f2f4be379d4f24cde33ee8253f4dd/BioSAK-1.90.1.tar.gz
+[2024-06-03 04:07:13] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/bb/e5/4e47c5fbe3430e66d626ab99f85f15a64b826b5114b602aac20fea63b284/abcli-9.55.1.tar.gz
+[2024-06-03 04:07:13] INFO root fetch - processPackages [bruhanimate]: Downloading https://files.pythonhosted.org/packages/2b/4a/71ab6f8b8a90ae4cbb391898ac5550ba56895062c0a9520b306d10c23329/bruhanimate-0.2.9.tar.gz
+[2024-06-03 04:07:13] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-06-03 04:07:13] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.53.1.tar.gz tmp/abcli-9.55.1.tar.gz --markdown 20240603/a/abcli/9.53.1-9.55.1/README.md --exclude *.pyd
+[2024-06-03 04:07:14] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-06-03 04:07:14] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.90.0.tar.gz tmp/BioSAK-1.90.1.tar.gz --markdown 20240603/B/BioSAK/1.90.0-1.90.1/README.md --exclude *.pyd
+[2024-06-03 04:07:14] INFO root fetch - processPackages [bruhanimate]: executing diffoscope
+[2024-06-03 04:07:14] INFO root fetch - processPackages [bruhanimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bruhanimate-0.2.8.tar.gz tmp/bruhanimate-0.2.9.tar.gz --markdown 20240603/b/bruhanimate/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 04:07:14] INFO root fetch - processPackages [bruhanimate]: Remove: archive file [/home/abi/fetcher/tmp/bruhanimate-0.2.8.tar.gz]
+[2024-06-03 04:07:14] INFO root fetch - processPackages [bruhanimate]: Remove: archive file [/home/abi/fetcher/tmp/bruhanimate-0.2.9.tar.gz]
+[2024-06-03 04:07:14] INFO root fetch - main [MainThread]: End processing [bruhanimate]: success
+[2024-06-03 04:07:14] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.53.1.tar.gz]
+[2024-06-03 04:07:14] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.55.1.tar.gz]
+[2024-06-03 04:07:14] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-06-03 04:07:15] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.90.0.tar.gz]
+[2024-06-03 04:07:15] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.90.1.tar.gz]
+[2024-06-03 04:07:15] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-06-03 04:07:15] INFO root fetch - main [MainThread]: Store serial: [23495566]
