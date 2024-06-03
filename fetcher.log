@@ -24040,3 +24040,51 @@ EOFError: EOF read where object expected
 [2024-06-03 16:46:24] INFO root fetch - processPackages [molflux]: Remove: archive file [/home/abi/fetcher/tmp/molflux-0.4.0.tar.gz]
 [2024-06-03 16:46:24] INFO root fetch - main [MainThread]: End processing [molflux]: success
 [2024-06-03 16:46:24] INFO root fetch - main [MainThread]: Store serial: [23504601]
+[2024-06-03 16:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504601]
+[2024-06-03 16:48:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 16:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bd-sig-filter
+[2024-06-03 16:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-customvueadmin
+[2024-06-03 16:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libresvip
+[2024-06-03 16:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcs-scripts
+[2024-06-03 16:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snakemake-executor-plugin-lsf
+[2024-06-03 16:48:34] INFO root fetch - processPackages [bd-sig-filter]: New version: [1.2] Old Version: [1.1]
+[2024-06-03 16:48:34] INFO root fetch - processPackages [dcs-scripts]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 16:48:34] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 16:48:34] INFO root fetch - processPackages [bd-sig-filter]: Downloading https://files.pythonhosted.org/packages/89/42/20edd4c9a130fdf95b8bebcd8a2b5a5eddc9c1a4c7c0ec80103e6581f4e0/bd_sig_filter-1.1.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [libresvip]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-06-03 16:48:34] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/cd/76/d69f3bcfb225da8b2c3acdf5292ed6ab47bd462797def9763470369a4ccc/django_customvueadmin-0.2.8.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [snakemake-executor-plugin-lsf]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-06-03 16:48:34] INFO root fetch - processPackages [dcs-scripts]: Downloading https://files.pythonhosted.org/packages/9c/4d/8294fc0578ce1b4e9355268332ea2c2b24d8ccd08c909427d532414853ab/dcs_scripts-1.0.0.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [libresvip]: Downloading https://files.pythonhosted.org/packages/ad/8c/16eb4ec78f5962e9b1d03618e32b120383796588526f0320ac57b610ea84/libresvip-1.1.5.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [snakemake-executor-plugin-lsf]: Downloading https://files.pythonhosted.org/packages/ea/e4/ebcf62b928273ebca4acfb5d1109a458efd0076db0fdc48a795a488816e6/snakemake_executor_plugin_lsf-0.2.5.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [bd-sig-filter]: Downloading https://files.pythonhosted.org/packages/7a/c1/0cf4300b1b425b2930c6fed4db084cb7231c6b76a42d17f3434d9c1b5a1d/bd_sig_filter-1.2.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/ee/7b/bc29ddb1585425e8738f7c46f715bf2633c8fc923eff807dcc4289a75f62/django_customvueadmin-0.2.9.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [bd-sig-filter]: executing diffoscope
+[2024-06-03 16:48:34] INFO root fetch - processPackages [bd-sig-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bd_sig_filter-1.1.tar.gz tmp/bd_sig_filter-1.2.tar.gz --markdown 20240603/b/bd-sig-filter/1.1-1.2/README.md --exclude *.pyd
+[2024-06-03 16:48:34] INFO root fetch - processPackages [dcs-scripts]: Downloading https://files.pythonhosted.org/packages/7d/af/a1c5aa9bf7ecf6940de0380a2c56c8c43d6b2e2a981362cfd4735c45deb8/dcs_scripts-1.0.1.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [snakemake-executor-plugin-lsf]: Downloading https://files.pythonhosted.org/packages/60/3a/7d891f9dcdc663d230c05ac7a41f548cbd1d0794f72b5266a14a793e6aa2/snakemake_executor_plugin_lsf-0.2.6.tar.gz
+[2024-06-03 16:48:34] INFO root fetch - processPackages [dcs-scripts]: executing diffoscope
+[2024-06-03 16:48:34] INFO root fetch - processPackages [dcs-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcs_scripts-1.0.0.tar.gz tmp/dcs_scripts-1.0.1.tar.gz --markdown 20240603/d/dcs-scripts/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 16:48:34] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-06-03 16:48:34] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.8.tar.gz tmp/django_customvueadmin-0.2.9.tar.gz --markdown 20240603/d/django-customvueadmin/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 16:48:35] INFO root fetch - processPackages [libresvip]: Downloading https://files.pythonhosted.org/packages/8c/d4/06ee219c3d0a6c86974ffeab73351bb9f6847805b337a2b658a2e45183b0/libresvip-1.1.6.tar.gz
+[2024-06-03 16:48:35] INFO root fetch - processPackages [snakemake-executor-plugin-lsf]: executing diffoscope
+[2024-06-03 16:48:35] INFO root fetch - processPackages [snakemake-executor-plugin-lsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_executor_plugin_lsf-0.2.5.tar.gz tmp/snakemake_executor_plugin_lsf-0.2.6.tar.gz --markdown 20240603/s/snakemake-executor-plugin-lsf/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-06-03 16:48:35] INFO root fetch - processPackages [libresvip]: executing diffoscope
+[2024-06-03 16:48:35] INFO root fetch - processPackages [libresvip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libresvip-1.1.5.tar.gz tmp/libresvip-1.1.6.tar.gz --markdown 20240603/l/libresvip/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-06-03 16:48:35] INFO root fetch - processPackages [dcs-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dcs_scripts-1.0.0.tar.gz]
+[2024-06-03 16:48:35] INFO root fetch - processPackages [dcs-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dcs_scripts-1.0.1.tar.gz]
+[2024-06-03 16:48:35] INFO root fetch - main [MainThread]: End processing [dcs-scripts]: success
+[2024-06-03 16:48:35] INFO root fetch - processPackages [bd-sig-filter]: Remove: archive file [/home/abi/fetcher/tmp/bd_sig_filter-1.1.tar.gz]
+[2024-06-03 16:48:35] INFO root fetch - processPackages [bd-sig-filter]: Remove: archive file [/home/abi/fetcher/tmp/bd_sig_filter-1.2.tar.gz]
+[2024-06-03 16:48:35] INFO root fetch - main [MainThread]: End processing [bd-sig-filter]: success
+[2024-06-03 16:48:35] INFO root fetch - processPackages [snakemake-executor-plugin-lsf]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_executor_plugin_lsf-0.2.5.tar.gz]
+[2024-06-03 16:48:35] INFO root fetch - processPackages [snakemake-executor-plugin-lsf]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_executor_plugin_lsf-0.2.6.tar.gz]
+[2024-06-03 16:48:35] INFO root fetch - main [MainThread]: End processing [snakemake-executor-plugin-lsf]: success
+[2024-06-03 16:48:37] INFO root fetch - processPackages [libresvip]: Remove: archive file [/home/abi/fetcher/tmp/libresvip-1.1.5.tar.gz]
+[2024-06-03 16:48:37] INFO root fetch - processPackages [libresvip]: Remove: archive file [/home/abi/fetcher/tmp/libresvip-1.1.6.tar.gz]
+[2024-06-03 16:48:37] INFO root fetch - main [MainThread]: End processing [libresvip]: success
+[2024-06-03 16:48:59] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.8.tar.gz]
+[2024-06-03 16:48:59] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
+[2024-06-03 16:48:59] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-06-03 16:48:59] INFO root fetch - main [MainThread]: Store serial: [23504633]
