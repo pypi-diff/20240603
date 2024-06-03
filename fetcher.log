@@ -7302,3 +7302,42 @@ EOFError: EOF read where object expected
 [2024-06-03 08:06:29] INFO root fetch - processPackages [jupyterlab-sos]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sos-0.9.0.tar.gz]
 [2024-06-03 08:06:29] INFO root fetch - main [MainThread]: End processing [jupyterlab-sos]: success
 [2024-06-03 08:06:29] INFO root fetch - main [MainThread]: Store serial: [23497236]
+[2024-06-03 08:08:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497236]
+[2024-06-03 08:08:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 08:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: red_utils
+[2024-06-03 08:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-commands
+[2024-06-03 08:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gget
+[2024-06-03 08:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantumdiceware
+[2024-06-03 08:08:40] INFO root fetch - processPackages [quantumdiceware]: New version: [0.3.0] Old Version: [0.1.9]
+[2024-06-03 08:08:40] INFO root fetch - processPackages [openai-commands]: New version: [3.9.1] Old Version: [3.8.1]
+[2024-06-03 08:08:40] INFO root fetch - processPackages [gget]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 08:08:40] INFO root fetch - processPackages [red_utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-06-03 08:08:40] INFO root fetch - processPackages [openai-commands]: Downloading https://files.pythonhosted.org/packages/23/08/d8280760dc1ad37f5322e2d83e6969a1410e489cae94bf151812d743a021/openai_commands-3.8.1.tar.gz
+[2024-06-03 08:08:40] INFO root fetch - processPackages [quantumdiceware]: Downloading https://files.pythonhosted.org/packages/17/64/ae4d8378605abb556825d2dfded613494ccc4ab639e04f9841c4c245a44b/quantumdiceware-0.1.9.tar.gz
+[2024-06-03 08:08:40] INFO root fetch - processPackages [openai-commands]: Downloading https://files.pythonhosted.org/packages/88/58/218b1976d0226fb8ab277716e78060b49741b5c83c33477e4be64e8ccb42/openai_commands-3.9.1.tar.gz
+[2024-06-03 08:08:40] INFO root fetch - processPackages [gget]: Downloading https://files.pythonhosted.org/packages/bf/1f/5ecf11ee514682f8a29fc1d67c8e16dc252eec18d4b39fc24d337ed7afb9/gget-0.3.8.tar.gz
+[2024-06-03 08:08:40] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/01/49/5b5df4cabf6cd1cd227d223a4a8c604952ae25b027d256c421197f2999ff/red_utils-0.2.8.tar.gz
+[2024-06-03 08:08:40] INFO root fetch - processPackages [openai-commands]: executing diffoscope
+[2024-06-03 08:08:40] INFO root fetch - processPackages [openai-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_commands-3.8.1.tar.gz tmp/openai_commands-3.9.1.tar.gz --markdown 20240603/o/openai-commands/3.8.1-3.9.1/README.md --exclude *.pyd
+[2024-06-03 08:08:40] INFO root fetch - processPackages [quantumdiceware]: Downloading https://files.pythonhosted.org/packages/7d/cd/48cdf4bdc57c76a1617d1cd23363f45737568b3edd331f7114557a20828a/quantumdiceware-0.3.0.tar.gz
+[2024-06-03 08:08:41] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/27/50/8b809c64b9b6d9c951d2543605156cf5c87969a8de173e26de7e332ff1ea/red_utils-0.2.9.tar.gz
+[2024-06-03 08:08:41] INFO root fetch - processPackages [quantumdiceware]: executing diffoscope
+[2024-06-03 08:08:41] INFO root fetch - processPackages [quantumdiceware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantumdiceware-0.1.9.tar.gz tmp/quantumdiceware-0.3.0.tar.gz --markdown 20240603/q/quantumdiceware/0.1.9-0.3.0/README.md --exclude *.pyd
+[2024-06-03 08:08:41] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2024-06-03 08:08:41] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.2.8.tar.gz tmp/red_utils-0.2.9.tar.gz --markdown 20240603/r/red_utils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-06-03 08:08:41] INFO root fetch - processPackages [gget]: Downloading https://files.pythonhosted.org/packages/bc/19/c1489bd049c675da348baf65968bb650a58d9b87fc801f551080e9da4038/gget-0.3.9.tar.gz
+[2024-06-03 08:08:41] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.8.1.tar.gz]
+[2024-06-03 08:08:41] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.9.1.tar.gz]
+[2024-06-03 08:08:41] INFO root fetch - main [MainThread]: End processing [openai-commands]: success
+[2024-06-03 08:08:41] INFO root fetch - processPackages [quantumdiceware]: Remove: archive file [/home/abi/fetcher/tmp/quantumdiceware-0.1.9.tar.gz]
+[2024-06-03 08:08:41] INFO root fetch - processPackages [quantumdiceware]: Remove: archive file [/home/abi/fetcher/tmp/quantumdiceware-0.3.0.tar.gz]
+[2024-06-03 08:08:41] INFO root fetch - main [MainThread]: End processing [quantumdiceware]: success
+[2024-06-03 08:08:41] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.8.tar.gz]
+[2024-06-03 08:08:41] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.9.tar.gz]
+[2024-06-03 08:08:41] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2024-06-03 08:08:42] INFO root fetch - processPackages [gget]: executing diffoscope
+[2024-06-03 08:08:42] INFO root fetch - processPackages [gget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gget-0.3.8.tar.gz tmp/gget-0.3.9.tar.gz --markdown 20240603/g/gget/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 08:08:44] INFO root fetch - processPackages [gget]: Remove: archive file [/home/abi/fetcher/tmp/gget-0.3.8.tar.gz]
+[2024-06-03 08:08:44] INFO root fetch - processPackages [gget]: Remove: archive file [/home/abi/fetcher/tmp/gget-0.3.9.tar.gz]
+[2024-06-03 08:08:44] INFO root fetch - main [MainThread]: End processing [gget]: success
+[2024-06-03 08:08:44] INFO root fetch - main [MainThread]: Store serial: [23497248]
