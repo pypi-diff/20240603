@@ -11446,3 +11446,54 @@ EOFError: EOF read where object expected
 [2024-06-03 11:19:08] INFO root fetch - processPackages [pyciaaw]: Remove: archive file [/home/abi/fetcher/tmp/pyciaaw-0.3.0.tar.gz]
 [2024-06-03 11:19:08] INFO root fetch - main [MainThread]: End processing [pyciaaw]: success
 [2024-06-03 11:19:08] INFO root fetch - main [MainThread]: Store serial: [23499381]
+[2024-06-03 11:21:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499381]
+[2024-06-03 11:21:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ampel-ztf
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: relative-datetime
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-digitalmarketplace-utils
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livepriceofgold-usa-Rx168059
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wiseAI
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dao-scripts
+[2024-06-03 11:21:21] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: New version: [2024.0.0.3] Old Version: [2024.0.0.1]
+[2024-06-03 11:21:21] INFO root fetch - processPackages [relative-datetime]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.2.0] Old Version: [66.1.0]
+[2024-06-03 11:21:21] WARNING root fetch - processPackages [wiseAI]: Skipping, unable to determine old version
+[2024-06-03 11:21:21] INFO root fetch - processPackages [dao-scripts]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-06-03 11:21:21] INFO root fetch - main [MainThread]: End processing [wiseAI] error
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ampel-ztf]: New version: [0.9.1a0] Old Version: [0.9.0]
+[2024-06-03 11:21:21] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/f5/98/94fcb916139df12b8a68bff3b3eaedb1800c6c9bef41ab027fb020e9cb61/livepriceofgold_usa_rx168059-2024.0.0.1.tar.gz
+[2024-06-03 11:21:21] INFO root fetch - processPackages [relative-datetime]: Downloading https://files.pythonhosted.org/packages/d1/2f/f2b3ef1c3eae8249b21beba07f846f6c0f718ab2a30cbf7a303f78a47ebd/relative_datetime-0.1.0.tar.gz
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/d4/1e/2cb42e032f4dde2d6dbca14ec1139ec6831234189f7f9a8d6620b5e48143/ccs-digitalmarketplace-utils-66.1.0.tar.gz
+[2024-06-03 11:21:21] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/ee/41/3c4a28e900781eefa153cff1964159be26a388c7c1acf6a14edc12323200/dao_scripts-1.3.1.tar.gz
+[2024-06-03 11:21:21] INFO root fetch - processPackages [ampel-ztf]: Downloading https://files.pythonhosted.org/packages/7a/61/3ef95337f4996d8918d61035f11c37eaca24960c92bd5aa5e82aa4821568/ampel_ztf-0.9.0.tar.gz
+[2024-06-03 11:21:21] INFO root fetch - processPackages [relative-datetime]: Downloading https://files.pythonhosted.org/packages/92/d0/28e36b1e920c7277827f91f1825d2359fb1da1646848f01d8b729e04b61e/relative_datetime-0.1.1.tar.gz
+[2024-06-03 11:21:21] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Downloading https://files.pythonhosted.org/packages/74/8b/c2f3476ced43d03d6521eaa227ed49cd119cfc502ca05c681d788088d046/livepriceofgold_usa_rx168059-2024.0.0.3.tar.gz
+[2024-06-03 11:21:22] INFO root fetch - processPackages [relative-datetime]: executing diffoscope
+[2024-06-03 11:21:22] INFO root fetch - processPackages [relative-datetime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relative_datetime-0.1.0.tar.gz tmp/relative_datetime-0.1.1.tar.gz --markdown 20240603/r/relative-datetime/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 11:21:22] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: executing diffoscope
+[2024-06-03 11:21:22] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livepriceofgold_usa_rx168059-2024.0.0.1.tar.gz tmp/livepriceofgold_usa_rx168059-2024.0.0.3.tar.gz --markdown 20240603/l/livepriceofgold-usa-Rx168059/2024.0.0.1-2024.0.0.3/README.md --exclude *.pyd
+[2024-06-03 11:21:22] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/fe/ab/07c58d9a20c65850fb7d6038fd5ac7516be1147e49eef9298fcfcfd99269/ccs-digitalmarketplace-utils-66.2.0.tar.gz
+[2024-06-03 11:21:22] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/8e/ca/0a98558f5a7768ad3b2c9310c74b12b911f59b00865ba956938fd7ebfb30/dao_scripts-1.4.0.tar.gz
+[2024-06-03 11:21:22] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-06-03 11:21:22] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-66.1.0.tar.gz tmp/ccs-digitalmarketplace-utils-66.2.0.tar.gz --markdown 20240603/c/ccs-digitalmarketplace-utils/66.1.0-66.2.0/README.md --exclude *.pyd
+[2024-06-03 11:21:22] INFO root fetch - processPackages [ampel-ztf]: Downloading https://files.pythonhosted.org/packages/f1/19/e297fff6330fd0891d8cedbebd8eeb6f58bb59145e44c9c9348e6ba36fd8/ampel_ztf-0.9.1a0.tar.gz
+[2024-06-03 11:21:22] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2024-06-03 11:21:22] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_scripts-1.3.1.tar.gz tmp/dao_scripts-1.4.0.tar.gz --markdown 20240603/d/dao-scripts/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-06-03 11:21:22] INFO root fetch - processPackages [ampel-ztf]: executing diffoscope
+[2024-06-03 11:21:22] INFO root fetch - processPackages [ampel-ztf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampel_ztf-0.9.0.tar.gz tmp/ampel_ztf-0.9.1a0.tar.gz --markdown 20240603/a/ampel-ztf/0.9.0-0.9.1a0/README.md --exclude *.pyd
+[2024-06-03 11:21:22] INFO root fetch - processPackages [relative-datetime]: Remove: archive file [/home/abi/fetcher/tmp/relative_datetime-0.1.0.tar.gz]
+[2024-06-03 11:21:22] INFO root fetch - processPackages [relative-datetime]: Remove: archive file [/home/abi/fetcher/tmp/relative_datetime-0.1.1.tar.gz]
+[2024-06-03 11:21:22] INFO root fetch - main [MainThread]: End processing [relative-datetime]: success
+[2024-06-03 11:21:23] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.1.0.tar.gz]
+[2024-06-03 11:21:23] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.2.0.tar.gz]
+[2024-06-03 11:21:23] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-06-03 11:21:23] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.1.tar.gz]
+[2024-06-03 11:21:23] INFO root fetch - processPackages [livepriceofgold-usa-Rx168059]: Remove: archive file [/home/abi/fetcher/tmp/livepriceofgold_usa_rx168059-2024.0.0.3.tar.gz]
+[2024-06-03 11:21:23] INFO root fetch - main [MainThread]: End processing [livepriceofgold-usa-Rx168059]: success
+[2024-06-03 11:21:23] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.3.1.tar.gz]
+[2024-06-03 11:21:23] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.4.0.tar.gz]
+[2024-06-03 11:21:23] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2024-06-03 11:21:23] INFO root fetch - processPackages [ampel-ztf]: Remove: archive file [/home/abi/fetcher/tmp/ampel_ztf-0.9.0.tar.gz]
+[2024-06-03 11:21:23] INFO root fetch - processPackages [ampel-ztf]: Remove: archive file [/home/abi/fetcher/tmp/ampel_ztf-0.9.1a0.tar.gz]
+[2024-06-03 11:21:23] INFO root fetch - main [MainThread]: End processing [ampel-ztf]: success
+[2024-06-03 11:21:23] INFO root fetch - main [MainThread]: Store serial: [23499409]
