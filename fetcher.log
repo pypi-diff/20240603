@@ -8118,3 +8118,54 @@ EOFError: EOF read where object expected
 [2024-06-03 09:02:04] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-06-03 09:02:04] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-06-03 09:02:04] INFO root fetch - main [MainThread]: Store serial: [23497572]
+[2024-06-03 09:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497572]
+[2024-06-03 09:04:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 09:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2024-06-03 09:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cube-recognizer-for-agv
+[2024-06-03 09:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yyxx-game-pkg
+[2024-06-03 09:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py2docfx
+[2024-06-03 09:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-notifications-sdk-preview
+[2024-06-03 09:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arthub-api
+[2024-06-03 09:04:14] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-06-03 09:04:14] WARNING root fetch - processPackages [cube-recognizer-for-agv]: Skipping, unable to determine old version
+[2024-06-03 09:04:14] INFO root fetch - main [MainThread]: End processing [cube-recognizer-for-agv] error
+[2024-06-03 09:04:15] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2024.6.3.1] Old Version: [2024.5.13.3]
+[2024-06-03 09:04:15] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-06-03 09:04:15] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/ec/4b/3ea2da370ddcd8f1ade712945c80722cdff7911497dfbd6286d99c443f15/yyxx_game_pkg-2024.5.13.3.tar.gz
+[2024-06-03 09:04:15] INFO root fetch - processPackages [py2docfx]: New version: [0.1.8rc1739271] Old Version: [0.1.8.dev1747488]
+[2024-06-03 09:04:15] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.952] Old Version: [0.1.947]
+[2024-06-03 09:04:15] INFO root fetch - processPackages [arthub-api]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-06-03 09:04:15] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/1d/fe/dfc03f8d4cc282acf880a05c09f64d0ccf2af6fe3a7e7fcf7b9dce3140f8/py2docfx-0.1.8.dev1747488-py3-none-any.whl
+[2024-06-03 09:04:15] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-06-03 09:04:15] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/95/d0/59ec911084d7b6ae417480a05600f106eac38e80a329d7c9b81fc4a00c4c/lusid-notifications-sdk-preview-0.1.947.tar.gz
+[2024-06-03 09:04:15] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/97/5a/2e8b2d65a5f18bb6fd7a30fb1b305607793cc1a86015a8f018cfc6f935bf/arthub_api-1.9.1.tar.gz
+[2024-06-03 09:04:15] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-06-03 09:04:15] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240603/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-06-03 09:04:15] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/9f/89/cace199c0bbe58fa3ecc337a1dbd366921c8c3fef43715336841e3f0992c/yyxx_game_pkg-2024.6.3.1.tar.gz
+[2024-06-03 09:04:15] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/fb/8b/bef8962de28d16956083ddbfa2be5d8d0f8ffc985923ea43b81fdcfa7ac4/lusid-notifications-sdk-preview-0.1.952.tar.gz
+[2024-06-03 09:04:15] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/bd/e1/16f15f471968252df9bba6837855d84c84d3a701467c0749b0d85881778d/py2docfx-0.1.8rc1739271-py3-none-any.whl
+[2024-06-03 09:04:15] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/74/f8/9510dae014afb1a70e48c261838b17c2523ff3bd37fc9c892e855ec07267/arthub_api-1.9.2.tar.gz
+[2024-06-03 09:04:15] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-06-03 09:04:15] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.8.dev1747488-py3-none-any.whl.zip tmp/py2docfx-0.1.8rc1739271-py3-none-any.whl.zip --markdown 20240603/p/py2docfx/0.1.8.dev1747488-0.1.8rc1739271/README.md --exclude *.pyd
+[2024-06-03 09:04:15] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2024-06-03 09:04:15] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.947.tar.gz tmp/lusid-notifications-sdk-preview-0.1.952.tar.gz --markdown 20240603/l/lusid-notifications-sdk-preview/0.1.947-0.1.952/README.md --exclude *.pyd
+[2024-06-03 09:04:15] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2024-06-03 09:04:15] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2024.5.13.3.tar.gz tmp/yyxx_game_pkg-2024.6.3.1.tar.gz --markdown 20240603/y/yyxx-game-pkg/2024.5.13.3-2024.6.3.1/README.md --exclude *.pyd
+[2024-06-03 09:04:16] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2024-06-03 09:04:16] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.9.1.tar.gz tmp/arthub_api-1.9.2.tar.gz --markdown 20240603/a/arthub-api/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-06-03 09:04:16] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-06-03 09:04:16] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-06-03 09:04:16] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-06-03 09:04:17] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.9.1.tar.gz]
+[2024-06-03 09:04:17] INFO root fetch - processPackages [arthub-api]: Remove: archive file [/home/abi/fetcher/tmp/arthub_api-1.9.2.tar.gz]
+[2024-06-03 09:04:17] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2024-06-03 09:04:17] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.8.dev1747488-py3-none-any.whl.zip]
+[2024-06-03 09:04:17] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.8rc1739271-py3-none-any.whl.zip]
+[2024-06-03 09:04:17] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-06-03 09:04:17] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.947.tar.gz]
+[2024-06-03 09:04:17] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.952.tar.gz]
+[2024-06-03 09:04:17] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2024-06-03 09:04:17] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.5.13.3.tar.gz]
+[2024-06-03 09:04:17] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.6.3.1.tar.gz]
+[2024-06-03 09:04:17] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2024-06-03 09:04:17] INFO root fetch - main [MainThread]: Store serial: [23497593]
