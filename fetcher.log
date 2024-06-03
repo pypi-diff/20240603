@@ -2878,3 +2878,42 @@ EOFError: EOF read where object expected
 [2024-06-03 03:33:42] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.7.tar.gz]
 [2024-06-03 03:33:42] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
 [2024-06-03 03:33:42] INFO root fetch - main [MainThread]: Store serial: [23495366]
+[2024-06-03 03:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495366]
+[2024-06-03 03:35:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 03:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bwalign
+[2024-06-03 03:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fooetalparam
+[2024-06-03 03:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AI-plug-in-1
+[2024-06-03 03:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mycompat
+[2024-06-03 03:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs-ob-mini-scikit-learn
+[2024-06-03 03:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyAgrum-nightly
+[2024-06-03 03:35:51] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-06-03 03:35:51] WARNING root fetch - processPackages [mycompat]: Skipping, unable to determine old version
+[2024-06-03 03:35:51] INFO root fetch - main [MainThread]: End processing [mycompat] error
+[2024-06-03 03:35:51] INFO root fetch - processPackages [bwalign]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-06-03 03:35:51] WARNING root fetch - processPackages [AI-plug-in-1]: Skipping, unable to determine old version
+[2024-06-03 03:35:51] INFO root fetch - main [MainThread]: End processing [AI-plug-in-1] error
+[2024-06-03 03:35:51] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/df/14/b87c2a818f8d78b1915234133ed79515d754b252d4d9663e56e19ffe1b64/cs_ob_mini_scikit_learn-0.1.7.tar.gz
+[2024-06-03 03:35:51] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/01/1b/9e40f5f4d4c09ee252f6b08a2f12ecf5eb777463d91bc87fac25d80e6c11/bwalign-1.0.3.tar.gz
+[2024-06-03 03:35:51] WARNING root fetch - processPackages [fooetalparam]: Skipping, unable to determine old version
+[2024-06-03 03:35:51] INFO root fetch - main [MainThread]: End processing [fooetalparam] error
+[2024-06-03 03:35:51] INFO root fetch - processPackages [bwalign]: Downloading https://files.pythonhosted.org/packages/78/b4/988e006fea1cc5cd1a00750fe09c90a9d7e46f80ac72c30d27f39ad8701e/bwalign-1.0.4.tar.gz
+[2024-06-03 03:35:51] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Downloading https://files.pythonhosted.org/packages/fe/8c/09589d113c4abceee70315ee5117c0a1110a613a8604e1af9a4c7f8bd054/cs_ob_mini_scikit_learn-0.1.8.tar.gz
+[2024-06-03 03:35:51] INFO root fetch - processPackages [bwalign]: executing diffoscope
+[2024-06-03 03:35:51] INFO root fetch - processPackages [bwalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwalign-1.0.3.tar.gz tmp/bwalign-1.0.4.tar.gz --markdown 20240603/b/bwalign/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-06-03 03:35:51] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: executing diffoscope
+[2024-06-03 03:35:51] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_ob_mini_scikit_learn-0.1.7.tar.gz tmp/cs_ob_mini_scikit_learn-0.1.8.tar.gz --markdown 20240603/c/cs-ob-mini-scikit-learn/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-06-03 03:35:52] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.3.tar.gz]
+[2024-06-03 03:35:52] INFO root fetch - processPackages [bwalign]: Remove: archive file [/home/abi/fetcher/tmp/bwalign-1.0.4.tar.gz]
+[2024-06-03 03:35:52] INFO root fetch - main [MainThread]: End processing [bwalign]: success
+[2024-06-03 03:35:52] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.7.tar.gz]
+[2024-06-03 03:35:52] INFO root fetch - processPackages [cs-ob-mini-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/cs_ob_mini_scikit_learn-0.1.8.tar.gz]
+[2024-06-03 03:35:52] INFO root fetch - main [MainThread]: End processing [cs-ob-mini-scikit-learn]: success
+[2024-06-03 03:35:53] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-06-03 03:35:53] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-06-03 03:35:54] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-06-03 03:35:54] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-06-03 03:35:54] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240603/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-06-03 03:35:55] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 03:35:55] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 03:35:55] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-06-03 03:35:55] INFO root fetch - main [MainThread]: Store serial: [23495386]
