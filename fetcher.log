@@ -16905,3 +16905,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:44:20] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.2-py3-none-any.whl.zip]
 [2024-06-03 13:44:20] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
 [2024-06-03 13:44:20] INFO root fetch - main [MainThread]: Store serial: [23501572]
+[2024-06-03 13:46:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501572]
+[2024-06-03 13:46:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-clickhouse
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TiRank
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testjaehyun
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clargs
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: galv
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mljar-scikit-plot
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flashcam
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lumicks.pylake
+[2024-06-03 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TREEplusrepository
+[2024-06-03 13:46:29] INFO root fetch - processPackages [clargs]: New version: [0.9.0rc1.dev0] Old Version: [0.9.0rc0]
+[2024-06-03 13:46:29] WARNING root fetch - processPackages [TREEplusrepository]: Skipping, unable to determine old version
+[2024-06-03 13:46:29] INFO root fetch - processPackages [TREEplusrepository]: Start processing: ros-cdk-fc
+[2024-06-03 13:46:29] INFO root fetch - main [MainThread]: End processing [TREEplusrepository] error
+[2024-06-03 13:46:29] INFO root fetch - processPackages [flashcam]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-06-03 13:46:29] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-06-03 13:46:29] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/0c/37/0c36d2bca0cf06079039f0c1f86cb8c57933d8a79cb2735931e9cff459b5/clargs-0.9.0rc0.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [mljar-scikit-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-06-03 13:46:29] INFO root fetch - processPackages [galv]: New version: [2.1.9] Old Version: [2.1.35]
+[2024-06-03 13:46:29] INFO root fetch - processPackages [TiRank]: New version: [0.1.4] Old Version: [0.1]
+[2024-06-03 13:46:29] WARNING root fetch - processPackages [testjaehyun]: Skipping, unable to determine old version
+[2024-06-03 13:46:29] INFO root fetch - processPackages [testjaehyun]: Start processing: pytbai
+[2024-06-03 13:46:29] INFO root fetch - main [MainThread]: End processing [testjaehyun] error
+[2024-06-03 13:46:29] INFO root fetch - processPackages [ros-cdk-clickhouse]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:46:29] INFO root fetch - processPackages [lumicks.pylake]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-06-03 13:46:29] INFO root fetch - processPackages [ros-cdk-fc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:46:29] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/40/50/fad8ad3850201a3f4dca71fc722390820cc88a2bd5e153c61941e98d0bb1/flashcam-1.9.2.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [mljar-scikit-plot]: Downloading https://files.pythonhosted.org/packages/2f/79/e965aceb21c2e9faea67458f9acd921e00fcf6ec2131a59282670a2a7c3b/mljar-scikit-plot-0.3.8.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/07/3f/90abbaed441c73d19d5f27ac9b46aab4da41a5b060dfcbbda7aa22c8769d/cdk-sops-secrets-1.9.3.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [pytbai]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-06-03 13:46:29] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/f3/4f/60748206fbf2946e8895822df8a7980a70cfb700494a558ed12ad43af230/galv-2.1.35.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [ros-cdk-clickhouse]: Downloading https://files.pythonhosted.org/packages/29/d0/e998c769e72a1d6732cc557bc5feedc6cde2f67c29b2c7f2443bae1b3e07/ros-cdk-clickhouse-1.0.8.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [lumicks.pylake]: Downloading https://files.pythonhosted.org/packages/f3/0d/9923ffddefb5105ae75b92144cbb4aa8640e58bcae98acb7ca13b7e0d14a/lumicks.pylake-1.5.0.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [TiRank]: Downloading https://files.pythonhosted.org/packages/52/67/380b1b9d7d741bca177e5841f881fbdfb831bc02534b165c9e50a8707b89/TiRank-0.1.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [ros-cdk-fc]: Downloading https://files.pythonhosted.org/packages/61/78/d1c3689c7abecf159bab495320942beb7efda9e9783bb86b6e2602bf46f7/ros-cdk-fc-1.0.8.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/b1/46/a5f7d430f99f27f72be077aa42bdd3f73ed00f986605c6e32df320f8c1b3/clargs-0.9.0rc1.dev0.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/a7/d4/9633db93b5e0587f89b8fb72e7de7ad90c1fe7bf65547ea88d146add8144/pytbai-1.6.0.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/71/14/b3de84b7038e7f199e8d5ac0b54fef8c88161a91e1685ef3f3b0d367e81c/flashcam-1.9.3.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2024-06-03 13:46:29] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.9.0rc0.tar.gz tmp/clargs-0.9.0rc1.dev0.tar.gz --markdown 20240603/c/clargs/0.9.0rc0-0.9.0rc1.dev0/README.md --exclude *.pyd
+[2024-06-03 13:46:29] INFO root fetch - processPackages [mljar-scikit-plot]: Downloading https://files.pythonhosted.org/packages/04/72/bfcf2d4f2af8788e5bae60f603db9797551bb73fe7abac7a7f259939a68c/mljar-scikit-plot-0.3.9.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [ros-cdk-clickhouse]: Downloading https://files.pythonhosted.org/packages/05/ae/310bd3d73330d696cfd3d882d051313fd79700685ed0f35d51606dd5402b/ros-cdk-clickhouse-1.0.9.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [TiRank]: Downloading https://files.pythonhosted.org/packages/13/ab/11d5fddbfdb8c9fd83463d67b6e4adca0b29a33e0834b73286ff53550009/tirank-0.1.4.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [mljar-scikit-plot]: executing diffoscope
+[2024-06-03 13:46:29] INFO root fetch - processPackages [mljar-scikit-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mljar-scikit-plot-0.3.8.tar.gz tmp/mljar-scikit-plot-0.3.9.tar.gz --markdown 20240603/m/mljar-scikit-plot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-06-03 13:46:29] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-06-03 13:46:29] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.9.2.tar.gz tmp/flashcam-1.9.3.tar.gz --markdown 20240603/f/flashcam/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-06-03 13:46:29] INFO root fetch - processPackages [lumicks.pylake]: Downloading https://files.pythonhosted.org/packages/a7/ca/22a1f0f146c4636778f552478fa9b5cb2c285781bd51fd47555284a2a8de/lumicks.pylake-1.5.1.tar.gz
+[2024-06-03 13:46:29] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/b8/0b/d4417c37709cf81423d1204af54c886d20a8ea4ffaef0717f4924309ff26/galv-2.1.9.tar.gz
+[2024-06-03 13:46:30] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/50/a4/5ebd99650e2226071bc676a902bb76a22258d92a14247fcb6af0033aecb6/cdk-sops-secrets-1.9.4.tar.gz
+[2024-06-03 13:46:30] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/e9/75/924d9bc3422ccbd1be2ff73457b0fb3f0640a71c5392b053263f8151ecd7/pytbai-1.6.1.tar.gz
+[2024-06-03 13:46:30] INFO root fetch - processPackages [ros-cdk-fc]: Downloading https://files.pythonhosted.org/packages/fd/27/482ea068c777bfd44a3cbe58f164d37f9252fae637b4de451c550f9dc463/ros-cdk-fc-1.0.9.tar.gz
+[2024-06-03 13:46:30] INFO root fetch - processPackages [TiRank]: executing diffoscope
+[2024-06-03 13:46:30] INFO root fetch - processPackages [TiRank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TiRank-0.1.tar.gz tmp/tirank-0.1.4.tar.gz --markdown 20240603/T/TiRank/0.1-0.1.4/README.md --exclude *.pyd
+[2024-06-03 13:46:30] INFO root fetch - processPackages [galv]: executing diffoscope
+[2024-06-03 13:46:30] INFO root fetch - processPackages [galv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galv-2.1.35.tar.gz tmp/galv-2.1.9.tar.gz --markdown 20240603/g/galv/2.1.35-2.1.9/README.md --exclude *.pyd
+[2024-06-03 13:46:30] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2024-06-03 13:46:30] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.6.0.tar.gz tmp/pytbai-1.6.1.tar.gz --markdown 20240603/p/pytbai/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-06-03 13:46:30] INFO root fetch - processPackages [lumicks.pylake]: executing diffoscope
+[2024-06-03 13:46:30] INFO root fetch - processPackages [lumicks.pylake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumicks.pylake-1.5.0.tar.gz tmp/lumicks.pylake-1.5.1.tar.gz --markdown 20240603/l/lumicks.pylake/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-06-03 13:46:30] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0rc0.tar.gz]
+[2024-06-03 13:46:30] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0rc1.dev0.tar.gz]
+[2024-06-03 13:46:30] INFO root fetch - processPackages [clargs]: Start processing: ros-cdk-nlpautoml
+[2024-06-03 13:46:30] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2024-06-03 13:46:30] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2024-06-03 13:46:30] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.9.3.tar.gz tmp/cdk-sops-secrets-1.9.4.tar.gz --markdown 20240603/c/cdk-sops-secrets/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-06-03 13:46:30] INFO root fetch - processPackages [ros-cdk-nlpautoml]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 13:46:30] INFO root fetch - processPackages [mljar-scikit-plot]: Remove: archive file [/home/abi/fetcher/tmp/mljar-scikit-plot-0.3.8.tar.gz]
+[2024-06-03 13:46:30] INFO root fetch - processPackages [mljar-scikit-plot]: Remove: archive file [/home/abi/fetcher/tmp/mljar-scikit-plot-0.3.9.tar.gz]
+[2024-06-03 13:46:30] INFO root fetch - processPackages [mljar-scikit-plot]: Start processing: syn-commodore
+[2024-06-03 13:46:30] INFO root fetch - main [MainThread]: End processing [mljar-scikit-plot]: success
+[2024-06-03 13:46:30] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Downloading https://files.pythonhosted.org/packages/f1/ab/b1ef9c1c85b245537a4bf213b050321d9af697d78a7791b8cfa17c30f14a/ros-cdk-nlpautoml-1.0.24.tar.gz
+[2024-06-03 13:46:30] INFO root fetch - processPackages [syn-commodore]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-06-03 13:46:31] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.2.tar.gz]
+[2024-06-03 13:46:31] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.9.3.tar.gz]
+[2024-06-03 13:46:31] INFO root fetch - processPackages [flashcam]: Start processing: ros-cdk-acm
+[2024-06-03 13:46:31] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-clickhouse]: executing diffoscope
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-clickhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-clickhouse-1.0.8.tar.gz tmp/ros-cdk-clickhouse-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-clickhouse/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:46:31] INFO root fetch - processPackages [TiRank]: Remove: archive file [/home/abi/fetcher/tmp/TiRank-0.1.tar.gz]
+[2024-06-03 13:46:31] INFO root fetch - processPackages [TiRank]: Remove: archive file [/home/abi/fetcher/tmp/tirank-0.1.4.tar.gz]
+[2024-06-03 13:46:31] INFO root fetch - processPackages [TiRank]: Start processing: scim2-tester
+[2024-06-03 13:46:31] INFO root fetch - main [MainThread]: End processing [TiRank]: success
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-acm]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 13:46:31] INFO root fetch - processPackages [syn-commodore]: Downloading https://files.pythonhosted.org/packages/73/ce/fd24cb533cabb1b9e60b9a869ff9b41ca4368354d5be49c02fa3c85a1b2e/syn-commodore-1.9.0.tar.gz
+[2024-06-03 13:46:31] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.6.0.tar.gz]
+[2024-06-03 13:46:31] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.6.1.tar.gz]
+[2024-06-03 13:46:31] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Downloading https://files.pythonhosted.org/packages/cb/f7/47860ff1727fb649d953ce8ded45d0f17833a45372225ab23dd2e85a94c2/ros-cdk-nlpautoml-1.0.25.tar.gz
+[2024-06-03 13:46:31] WARNING root fetch - processPackages [scim2-tester]: Skipping, unable to determine old version
+[2024-06-03 13:46:31] INFO root fetch - main [MainThread]: End processing [scim2-tester] error
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-acm]: Downloading https://files.pythonhosted.org/packages/ea/5f/8cbe48aa14ffdf53240beb1bd6800af41c12992c151cd87090789ab7c03e/ros-cdk-acm-1.0.8.tar.gz
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-nlpautoml]: executing diffoscope
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-nlpautoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-nlpautoml-1.0.24.tar.gz tmp/ros-cdk-nlpautoml-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-nlpautoml/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 13:46:31] INFO root fetch - processPackages [syn-commodore]: Downloading https://files.pythonhosted.org/packages/b8/98/9e49d5c8edcd2f1f75fbf93285a0ab198c0f7479b5959cb5eff876c02bd7/syn-commodore-1.9.1.tar.gz
+[2024-06-03 13:46:31] INFO root fetch - processPackages [syn-commodore]: executing diffoscope
+[2024-06-03 13:46:31] INFO root fetch - processPackages [syn-commodore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syn-commodore-1.9.0.tar.gz tmp/syn-commodore-1.9.1.tar.gz --markdown 20240603/s/syn-commodore/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-acm]: Downloading https://files.pythonhosted.org/packages/22/44/33e8b5b470ae56f3ce9380169f2511ad04e752ee6b5d06636c073a29bcb6/ros-cdk-acm-1.0.9.tar.gz
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-clickhouse-1.0.8.tar.gz]
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-clickhouse-1.0.9.tar.gz]
+[2024-06-03 13:46:31] INFO root fetch - main [MainThread]: End processing [ros-cdk-clickhouse]: success
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-acm]: executing diffoscope
+[2024-06-03 13:46:31] INFO root fetch - processPackages [ros-cdk-acm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-acm-1.0.8.tar.gz tmp/ros-cdk-acm-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-acm/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:46:32] INFO root fetch - processPackages [lumicks.pylake]: Remove: archive file [/home/abi/fetcher/tmp/lumicks.pylake-1.5.0.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - processPackages [lumicks.pylake]: Remove: archive file [/home/abi/fetcher/tmp/lumicks.pylake-1.5.1.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - main [MainThread]: End processing [lumicks.pylake]: success
+[2024-06-03 13:46:32] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlpautoml-1.0.24.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - processPackages [ros-cdk-nlpautoml]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-nlpautoml-1.0.25.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-nlpautoml]: success
+[2024-06-03 13:46:32] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.9.3.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.9.4.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2024-06-03 13:46:32] INFO root fetch - processPackages [ros-cdk-acm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-acm-1.0.8.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - processPackages [ros-cdk-acm]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-acm-1.0.9.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - main [MainThread]: End processing [ros-cdk-acm]: success
+[2024-06-03 13:46:32] INFO root fetch - processPackages [syn-commodore]: Remove: archive file [/home/abi/fetcher/tmp/syn-commodore-1.9.0.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - processPackages [syn-commodore]: Remove: archive file [/home/abi/fetcher/tmp/syn-commodore-1.9.1.tar.gz]
+[2024-06-03 13:46:32] INFO root fetch - main [MainThread]: End processing [syn-commodore]: success
+[2024-06-03 13:46:33] INFO root fetch - processPackages [ros-cdk-fc]: executing diffoscope
+[2024-06-03 13:46:33] INFO root fetch - processPackages [ros-cdk-fc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-fc-1.0.8.tar.gz tmp/ros-cdk-fc-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-fc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 13:46:33] INFO root fetch - processPackages [ros-cdk-fc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fc-1.0.8.tar.gz]
+[2024-06-03 13:46:33] INFO root fetch - processPackages [ros-cdk-fc]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-fc-1.0.9.tar.gz]
+[2024-06-03 13:46:33] INFO root fetch - main [MainThread]: End processing [ros-cdk-fc]: success
+[2024-06-03 13:46:35] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.35.tar.gz]
+[2024-06-03 13:46:35] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
+[2024-06-03 13:46:35] INFO root fetch - main [MainThread]: End processing [galv]: success
+[2024-06-03 13:46:35] INFO root fetch - main [MainThread]: Store serial: [23501621]
