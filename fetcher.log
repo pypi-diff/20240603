@@ -17409,3 +17409,188 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 13:55:34] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cdsl-1.0.2.tar.gz]
 [2024-06-03 13:55:34] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cdsl]: success
 [2024-06-03 13:55:34] INFO root fetch - main [MainThread]: Store serial: [23501747]
+[2024-06-03 13:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23501747]
+[2024-06-03 13:57:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyiArduinoI2Cdsl
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyiArduinoI2Cencoder
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyiArduinoI2Cexpander
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dve-lumipy-testing
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mongodbatlas
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyiArduinoI2Cjoystick
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyiArduinoI2Cmotor
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyiArduinoI2Cph
+[2024-06-03 13:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyiArduinoI2Crelay
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Downloading https://files.pythonhosted.org/packages/a2/e8/68c0fd5160a4264f687943b0620fa06353490014a2c0af14861a4b5e603f/pyiArduinoI2Cdsl-1.0.0.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cencoder]: New version: [1.0.4] Old Version: [1.0.1]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cjoystick]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Crelay]: New version: [1.7.0] Old Version: [1.6.8]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cph]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cmotor]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [dvc]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Downloading https://files.pythonhosted.org/packages/6b/4b/deee665e146070343ddcb38905b6b74a05b4ece95d7bd370a3e8b9614650/pyiArduinoI2Cexpander-1.0.1.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cencoder]: Downloading https://files.pythonhosted.org/packages/f7/78/f9be764d53814294f5e7d0f95c0ec2c256e359ac48427f535720611ab1d5/pyiArduinoI2Cencoder-1.0.1.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cjoystick]: Downloading https://files.pythonhosted.org/packages/40/b8/f56b1e6a1de036c080f333d4e9fcac08757c4fc428670e16c1824a296c9b/pyiArduinoI2Cjoystick-1.0.0.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cmotor]: Downloading https://files.pythonhosted.org/packages/37/68/882d37e63b19dc64fb2cf0d09bf5a16f63ac37de76044a2d22d248f07fac/pyiArduinoI2Cmotor-0.0.2.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Downloading https://files.pythonhosted.org/packages/77/9b/92c23456dc3f360ccd66cb0586f7442b39b959d8c17ef96b9475f062f0e1/pyiArduinoI2Cdsl-1.0.2.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Crelay]: Downloading https://files.pythonhosted.org/packages/d9/ed/6ebd8f5326062bd279649810cb5a161fe93b8517064d0434c9ac2519b4f1/pyiArduinoI2Crelay-1.6.8.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/bd/2b/d427d0c781a0f09d653c7b90a0d9b792232769c21d0147c154b00cd75a2d/dvc-3.9.0.tar.gz
+[2024-06-03 13:57:43] INFO root fetch - processPackages [pyiArduinoI2Cph]: Downloading https://files.pythonhosted.org/packages/ba/f1/527460986141ffcb02d54b965da0c00dd05866df55316e0a56a2f1244fe0/pyiArduinoI2Cph-0.0.3.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cdsl-1.0.0.tar.gz tmp/pyiArduinoI2Cdsl-1.0.2.tar.gz --markdown 20240603/p/pyiArduinoI2Cdsl/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Downloading https://files.pythonhosted.org/packages/d9/ba/99d9965140ea0ab5c1fed97ff0826a803353038fdeb79af60d46504fd65d/pyiArduinoI2Cexpander-1.0.3.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cencoder]: Downloading https://files.pythonhosted.org/packages/7e/4f/b9477277163039843cdaae3cfe103a996f9c81a9d2e8a094c1f2ccb1fe89/pyiArduinoI2Cencoder-1.0.4.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240603/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cmotor]: Downloading https://files.pythonhosted.org/packages/5a/3d/5d3c0f30fbfe8f0fcf3edf891b61c75aec96dbf77d7c58f4a0211ecd8a42/pyiArduinoI2Cmotor-0.0.4.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cjoystick]: Downloading https://files.pythonhosted.org/packages/fc/88/12cbeb224195e7fe78d6fc6da3606e5c2aa8fd54dfd321f46effe94b74f4/pyiArduinoI2Cjoystick-1.0.2.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Crelay]: Downloading https://files.pythonhosted.org/packages/07/a1/2b35c960f78e34c904474e21555cd2727f53dd19668b8f83f58433fb4145/pyiArduinoI2Crelay-1.7.0.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cexpander-1.0.1.tar.gz tmp/pyiArduinoI2Cexpander-1.0.3.tar.gz --markdown 20240603/p/pyiArduinoI2Cexpander/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cencoder]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cencoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cencoder-1.0.1.tar.gz tmp/pyiArduinoI2Cencoder-1.0.4.tar.gz --markdown 20240603/p/pyiArduinoI2Cencoder/1.0.1-1.0.4/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cph]: Downloading https://files.pythonhosted.org/packages/9e/71/ddd57a831d673d856ee88dae8b6fe89404dc99cfb43063af74287b5ef640/pyiArduinoI2Cph-0.0.5.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cjoystick]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cjoystick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cjoystick-1.0.0.tar.gz tmp/pyiArduinoI2Cjoystick-1.0.2.tar.gz --markdown 20240603/p/pyiArduinoI2Cjoystick/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cmotor]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cmotor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cmotor-0.0.2.tar.gz tmp/pyiArduinoI2Cmotor-0.0.4.tar.gz --markdown 20240603/p/pyiArduinoI2Cmotor/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Crelay]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Crelay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Crelay-1.6.8.tar.gz tmp/pyiArduinoI2Crelay-1.7.0.tar.gz --markdown 20240603/p/pyiArduinoI2Crelay/1.6.8-1.7.0/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cph]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pyiArduinoI2Cph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cph-0.0.3.tar.gz tmp/pyiArduinoI2Cph-0.0.5.tar.gz --markdown 20240603/p/pyiArduinoI2Cph/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/30/3c/4d47accc46da04fafb05c09836ec780d0c7ca2dcfe17bdd5f659a2e9c9a2/dvc-3.9.1.tar.gz
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240603/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-06-03 13:57:44] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2024-06-03 13:57:44] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.9.0.tar.gz tmp/dvc-3.9.1.tar.gz --markdown 20240603/d/dvc/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cdsl-1.0.0.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cdsl-1.0.2.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cdsl]: Start processing: document-merge-service
+[2024-06-03 13:57:45] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cdsl]: success
+[2024-06-03 13:57:45] INFO root fetch - processPackages [document-merge-service]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/f4/95/0e4831b76cbf0ca26c15ee9fe33a07e4b1f45a679f4761d45b028d40a63c/document_merge_service-6.5.0.tar.gz
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cexpander-1.0.1.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cexpander-1.0.3.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cexpander]: Start processing: pyiArduinoI2Csht
+[2024-06-03 13:57:45] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cexpander]: success
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cencoder]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cencoder-1.0.1.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cencoder]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cencoder-1.0.4.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cencoder]: Start processing: pyiArduinoI2Ctds
+[2024-06-03 13:57:45] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cencoder]: success
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Crelay]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Crelay-1.6.8.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Crelay]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Crelay-1.7.0.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Crelay]: Start processing: music-tool-kit
+[2024-06-03 13:57:45] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Crelay]: success
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Csht]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cjoystick]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cjoystick-1.0.0.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cjoystick]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cjoystick-1.0.2.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cjoystick]: Start processing: pulumi-cloudflare
+[2024-06-03 13:57:45] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cjoystick]: success
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Ctds]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cmotor]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cmotor-0.0.2.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cmotor]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cmotor-0.0.4.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cmotor]: Start processing: python-automation
+[2024-06-03 13:57:45] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cmotor]: success
+[2024-06-03 13:57:45] INFO root fetch - processPackages [music-tool-kit]: New version: [1.3.9] Old Version: [1.3.7]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [python-automation]: New version: [0.1.1] Old Version: [0.0.8]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cph]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cph-0.0.3.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cph]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cph-0.0.5.tar.gz]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Cph]: Start processing: avrotize
+[2024-06-03 13:57:45] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cph]: success
+[2024-06-03 13:57:45] INFO root fetch - processPackages [avrotize]: New version: [2.0.0] Old Version: [1.9.2]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-06-03 13:57:45] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/bf/42/1e6408bf6939d18f6ecc97792a4b6afa50295d525efba7498c49f7f8ce45/document_merge_service-6.5.1.tar.gz
+[2024-06-03 13:57:45] INFO root fetch - processPackages [pyiArduinoI2Csht]: Downloading https://files.pythonhosted.org/packages/49/d9/d0ef46e69d07110c443069875c3f19a12b68fe4b729900800d50d645f226/pyiArduinoI2Csht-1.0.0.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/c1/bb/8f2e415b8e7df6efa6b74f25560ccae27e556b070aa17ff3a44ae13a79b3/python-automation-0.0.8.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pyiArduinoI2Ctds]: Downloading https://files.pythonhosted.org/packages/4d/e4/2df2a691657c403ad3091be4ef90d58921ea9964f430339aee5ba0a3a182/pyiArduinoI2Ctds-0.0.3.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [music-tool-kit]: Downloading https://files.pythonhosted.org/packages/fa/07/e97e49b2076389ac9389a5e0536ee113a6b979da08156c5fc1ba903842c2/music-tool-kit-1.3.7.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [document-merge-service]: executing diffoscope
+[2024-06-03 13:57:46] INFO root fetch - processPackages [document-merge-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_merge_service-6.5.0.tar.gz tmp/document_merge_service-6.5.1.tar.gz --markdown 20240603/d/document-merge-service/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/05/48/9b58f5290b79d954b3e0e86d374e88998435da3cbf5567b648ba9195a87c/avrotize-1.9.2.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-06-03 13:57:46] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-06-03 13:57:46] INFO root fetch - processPackages [dve-lumipy-testing]: Start processing: chemfusekit
+[2024-06-03 13:57:46] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-06-03 13:57:46] INFO root fetch - processPackages [python-automation]: Downloading https://files.pythonhosted.org/packages/de/26/bbf75bd756fed2f2105bc7c6bfa5f669656367619136406278462acc4aa8/python-automation-0.1.1.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pyiArduinoI2Csht]: Downloading https://files.pythonhosted.org/packages/4f/1f/a1348c4237d02632566e71167aa5ced3cc94a14123ae3100fff6912fbcb7/pyiArduinoI2Csht-1.0.2.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pyiArduinoI2Ctds]: Downloading https://files.pythonhosted.org/packages/97/27/e1d297a4ca6e3e1ea9c78e336525b35e04a2074e83a87e9d1c0dcfef0d5c/pyiArduinoI2Ctds-0.0.5.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.4b1] Old Version: [1.1.3]
+[2024-06-03 13:57:46] INFO root fetch - processPackages [music-tool-kit]: Downloading https://files.pythonhosted.org/packages/61/46/9dea7689535604f310b9ef6eb925e2991a1484513db2ec6ba68994663584/music-tool-kit-1.3.9.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/58/d7/756235e2599b5d6782f33fa14c9380d46d6bda5fbef4786f3f9681660ded/avrotize-2.0.0.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pyiArduinoI2Csht]: executing diffoscope
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pyiArduinoI2Csht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Csht-1.0.0.tar.gz tmp/pyiArduinoI2Csht-1.0.2.tar.gz --markdown 20240603/p/pyiArduinoI2Csht/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pyiArduinoI2Ctds]: executing diffoscope
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pyiArduinoI2Ctds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Ctds-0.0.3.tar.gz tmp/pyiArduinoI2Ctds-0.0.5.tar.gz --markdown 20240603/p/pyiArduinoI2Ctds/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-06-03 13:57:46] INFO root fetch - processPackages [music-tool-kit]: executing diffoscope
+[2024-06-03 13:57:46] INFO root fetch - processPackages [music-tool-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-tool-kit-1.3.7.tar.gz tmp/music-tool-kit-1.3.9.tar.gz --markdown 20240603/m/music-tool-kit/1.3.7-1.3.9/README.md --exclude *.pyd
+[2024-06-03 13:57:46] INFO root fetch - processPackages [python-automation]: executing diffoscope
+[2024-06-03 13:57:46] INFO root fetch - processPackages [python-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-automation-0.0.8.tar.gz tmp/python-automation-0.1.1.tar.gz --markdown 20240603/p/python-automation/0.0.8-0.1.1/README.md --exclude *.pyd
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/d0/d4/af16ab3d31a245233ed60c33695cc8cac25f586e2741fffd4e783f0ad1fa/chemfusekit-1.1.3.tar.gz
+[2024-06-03 13:57:46] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-06-03 13:57:46] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.9.2.tar.gz tmp/avrotize-2.0.0.tar.gz --markdown 20240603/a/avrotize/1.9.2-2.0.0/README.md --exclude *.pyd
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-06-03 13:57:46] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240603/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-06-03 13:57:47] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/b3/e8/e972826841040b23c881c1a435876f4e8e3f9f783b9bf585ca8687333cb3/chemfusekit-1.1.4b1.tar.gz
+[2024-06-03 13:57:47] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [pulumi-mongodbatlas]: Start processing: fastapix-py
+[2024-06-03 13:57:47] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-06-03 13:57:47] INFO root fetch - processPackages [fastapix-py]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [music-tool-kit]: Remove: archive file [/home/abi/fetcher/tmp/music-tool-kit-1.3.7.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [music-tool-kit]: Remove: archive file [/home/abi/fetcher/tmp/music-tool-kit-1.3.9.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/f4/ba/8f66be46d72f39c429091d7ee513b3e401156842d1cfcc1038d093be1661/fastapix_py-0.9.1-py3-none-any.whl
+[2024-06-03 13:57:47] INFO root fetch - processPackages [music-tool-kit]: Start processing: viur-shop
+[2024-06-03 13:57:47] INFO root fetch - main [MainThread]: End processing [music-tool-kit]: success
+[2024-06-03 13:57:47] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.5.0.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.5.1.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [document-merge-service]: Start processing: valid-dataset
+[2024-06-03 13:57:47] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
+[2024-06-03 13:57:47] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.0.8.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [python-automation]: Remove: archive file [/home/abi/fetcher/tmp/python-automation-0.1.1.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - main [MainThread]: End processing [python-automation]: success
+[2024-06-03 13:57:47] INFO root fetch - processPackages [pyiArduinoI2Csht]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Csht-1.0.0.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [pyiArduinoI2Csht]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Csht-1.0.2.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Csht]: success
+[2024-06-03 13:57:47] INFO root fetch - processPackages [pyiArduinoI2Ctds]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Ctds-0.0.3.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - processPackages [pyiArduinoI2Ctds]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Ctds-0.0.5.tar.gz]
+[2024-06-03 13:57:47] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Ctds]: success
+[2024-06-03 13:57:47] INFO root fetch - processPackages [viur-shop]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-06-03 13:57:47] WARNING root fetch - processPackages [valid-dataset]: Skipping, unable to determine old version
+[2024-06-03 13:57:47] INFO root fetch - main [MainThread]: End processing [valid-dataset] error
+[2024-06-03 13:57:47] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-06-03 13:57:48] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.3.tar.gz tmp/chemfusekit-1.1.4b1.tar.gz --markdown 20240603/c/chemfusekit/1.1.3-1.1.4b1/README.md --exclude *.pyd
+[2024-06-03 13:57:48] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/c2/b9/96d49c4541969462af442fce4a3459948f352874ccd6a9c3b5f6fc59cd3c/fastapix_py-0.9.2-py3-none-any.whl
+[2024-06-03 13:57:48] INFO root fetch - processPackages [viur-shop]: Downloading https://files.pythonhosted.org/packages/b7/22/0a336ca7e17d8a4b25870f11bb0111e2138fb57d311ef24bb712dd50daa3/viur-shop-0.1.0.dev8.tar.gz
+[2024-06-03 13:57:48] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.9.2.tar.gz]
+[2024-06-03 13:57:48] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-2.0.0.tar.gz]
+[2024-06-03 13:57:48] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-06-03 13:57:48] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-06-03 13:57:48] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.9.1-py3-none-any.whl.zip tmp/fastapix_py-0.9.2-py3-none-any.whl.zip --markdown 20240603/f/fastapix-py/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-06-03 13:57:48] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.0.tar.gz]
+[2024-06-03 13:57:48] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
+[2024-06-03 13:57:48] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2024-06-03 13:57:48] INFO root fetch - processPackages [viur-shop]: Downloading https://files.pythonhosted.org/packages/d7/b3/8068e4b3479a25eb057744e35ba57e551aee03a133cfb2f2b93de1987f0f/viur-shop-0.1.0.dev9.tar.gz
+[2024-06-03 13:57:48] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-06-03 13:57:48] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-06-03 13:57:48] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-06-03 13:57:48] INFO root fetch - processPackages [viur-shop]: executing diffoscope
+[2024-06-03 13:57:48] INFO root fetch - processPackages [viur-shop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur-shop-0.1.0.dev8.tar.gz tmp/viur-shop-0.1.0.dev9.tar.gz --markdown 20240603/v/viur-shop/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-06-03 13:57:49] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.1-py3-none-any.whl.zip]
+[2024-06-03 13:57:49] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.2-py3-none-any.whl.zip]
+[2024-06-03 13:57:49] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-06-03 13:57:49] INFO root fetch - processPackages [viur-shop]: Remove: archive file [/home/abi/fetcher/tmp/viur-shop-0.1.0.dev8.tar.gz]
+[2024-06-03 13:57:49] INFO root fetch - processPackages [viur-shop]: Remove: archive file [/home/abi/fetcher/tmp/viur-shop-0.1.0.dev9.tar.gz]
+[2024-06-03 13:57:49] INFO root fetch - main [MainThread]: End processing [viur-shop]: success
+[2024-06-03 14:00:48] ERROR root fetch - processPackages [chemfusekit]: Timeout during execution of pkgdiff
+[2024-06-03 14:00:48] INFO root fetch - main [MainThread]: End processing [chemfusekit] error
+[2024-06-03 14:00:48] INFO root fetch - main [MainThread]: Store serial: [23501800]
