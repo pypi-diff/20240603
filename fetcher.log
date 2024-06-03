@@ -23696,3 +23696,42 @@ EOFError: EOF read where object expected
 [2024-06-03 16:35:19] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.9.tar.gz]
 [2024-06-03 16:35:19] INFO root fetch - main [MainThread]: End processing [onyx-extension]: success
 [2024-06-03 16:35:19] INFO root fetch - main [MainThread]: Store serial: [23504357]
+[2024-06-03 16:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504357]
+[2024-06-03 16:37:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danila-lib
+[2024-06-03 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semgrep
+[2024-06-03 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: searcharray
+[2024-06-03 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyscms
+[2024-06-03 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keaton-verysimplemodule
+[2024-06-03 16:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pressone-sdk
+[2024-06-03 16:37:28] INFO root fetch - processPackages [danila-lib]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-06-03 16:37:28] WARNING root fetch - processPackages [pyscms]: Skipping, unable to determine old version
+[2024-06-03 16:37:28] INFO root fetch - main [MainThread]: End processing [pyscms] error
+[2024-06-03 16:37:28] WARNING root fetch - processPackages [keaton-verysimplemodule]: Skipping, unable to determine old version
+[2024-06-03 16:37:28] INFO root fetch - main [MainThread]: End processing [keaton-verysimplemodule] error
+[2024-06-03 16:37:28] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-06-03 16:37:28] INFO root fetch - processPackages [searcharray]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 16:37:28] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/8f/37/484d005927ce4868545b528cca1ab3d718e447d32b7120bebe34f709edc8/danila-lib-1.9.2.tar.gz
+[2024-06-03 16:37:28] WARNING root fetch - processPackages [pressone-sdk]: Skipping, unable to determine old version
+[2024-06-03 16:37:28] INFO root fetch - main [MainThread]: End processing [pressone-sdk] error
+[2024-06-03 16:37:29] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2024-06-03 16:37:29] INFO root fetch - processPackages [searcharray]: Downloading https://files.pythonhosted.org/packages/13/d2/42d0e0a5f78c59eb2f5d56c1dbde5dcbee81b46d8390cedf9988344b3e45/searcharray-0.0.8.tar.gz
+[2024-06-03 16:37:29] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/72/10/9845291f4110d1c0d7b9daaf33f5af588b9d511e845c4488e530cd3e1e4a/danila-lib-1.9.3.tar.gz
+[2024-06-03 16:37:29] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-06-03 16:37:29] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.9.2.tar.gz tmp/danila-lib-1.9.3.tar.gz --markdown 20240603/d/danila-lib/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-06-03 16:37:29] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2024-06-03 16:37:29] INFO root fetch - processPackages [searcharray]: Downloading https://files.pythonhosted.org/packages/2b/85/78c9e4e0be0965b7456ca73905cad36da7857d89af8ff16b2844e6628cee/searcharray-0.0.9.tar.gz
+[2024-06-03 16:37:30] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.2.tar.gz]
+[2024-06-03 16:37:30] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.3.tar.gz]
+[2024-06-03 16:37:30] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-06-03 16:37:30] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2024-06-03 16:37:30] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20240603/s/semgrep/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-06-03 16:37:30] INFO root fetch - processPackages [searcharray]: executing diffoscope
+[2024-06-03 16:37:30] INFO root fetch - processPackages [searcharray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searcharray-0.0.8.tar.gz tmp/searcharray-0.0.9.tar.gz --markdown 20240603/s/searcharray/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 16:37:30] INFO root fetch - processPackages [searcharray]: Remove: archive file [/home/abi/fetcher/tmp/searcharray-0.0.8.tar.gz]
+[2024-06-03 16:37:30] INFO root fetch - processPackages [searcharray]: Remove: archive file [/home/abi/fetcher/tmp/searcharray-0.0.9.tar.gz]
+[2024-06-03 16:37:30] INFO root fetch - main [MainThread]: End processing [searcharray]: success
+[2024-06-03 16:37:31] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.8.0.tar.gz]
+[2024-06-03 16:37:31] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
+[2024-06-03 16:37:31] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2024-06-03 16:37:31] INFO root fetch - main [MainThread]: Store serial: [23504440]
