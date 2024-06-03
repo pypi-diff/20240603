@@ -6020,3 +6020,30 @@ EOFError: EOF read where object expected
 [2024-06-03 06:48:02] INFO root fetch - processPackages [scri]: Remove: archive file [/home/abi/fetcher/tmp/scri-2022.8.9.tar.gz]
 [2024-06-03 06:48:02] INFO root fetch - main [MainThread]: End processing [scri]: success
 [2024-06-03 06:48:02] INFO root fetch - main [MainThread]: Store serial: [23496750]
+[2024-06-03 06:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496750]
+[2024-06-03 06:50:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 06:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botasaurus-server
+[2024-06-03 06:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: input-plus
+[2024-06-03 06:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mptradelib
+[2024-06-03 06:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm2sh
+[2024-06-03 06:50:10] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-06-03 06:50:10] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-06-03 06:50:10] WARNING root fetch - processPackages [llm2sh]: Skipping, unable to determine old version
+[2024-06-03 06:50:10] INFO root fetch - main [MainThread]: End processing [llm2sh] error
+[2024-06-03 06:50:10] INFO root fetch - processPackages [mptradelib]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-06-03 06:50:10] WARNING root fetch - processPackages [input-plus]: Skipping, unable to determine old version
+[2024-06-03 06:50:10] INFO root fetch - main [MainThread]: End processing [input-plus] error
+[2024-06-03 06:50:10] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/f9/ee/36a4b31802d28157c362cf1662a5e7aa2ae4bd05c50e3ac220d08849ac56/mptradelib-0.5.8.tar.gz
+[2024-06-03 06:50:10] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-06-03 06:50:10] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-06-03 06:50:10] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240603/b/botasaurus-server/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-06-03 06:50:11] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/59/98/f397d1e17967937fd167012408e9052ba6fd348c0ae4755ee6e17bb3da97/mptradelib-0.5.9.tar.gz
+[2024-06-03 06:50:11] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-06-03 06:50:11] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.5.8.tar.gz tmp/mptradelib-0.5.9.tar.gz --markdown 20240603/m/mptradelib/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-06-03 06:50:11] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-06-03 06:50:11] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-06-03 06:50:11] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-06-03 06:50:11] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.5.8.tar.gz]
+[2024-06-03 06:50:11] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.5.9.tar.gz]
+[2024-06-03 06:50:11] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-06-03 06:50:11] INFO root fetch - main [MainThread]: Store serial: [23496766]
