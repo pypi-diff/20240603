@@ -11936,3 +11936,102 @@ EOFError: EOF read where object expected
 [2024-06-03 11:39:03] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.7.0.dev20240530015752-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-06-03 11:39:03] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
 [2024-06-03 11:39:03] INFO root fetch - main [MainThread]: Store serial: [23499602]
+[2024-06-03 11:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23499602]
+[2024-06-03 11:41:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: postcode-to-timezone
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astronomer-cosmos
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: obfsc8
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hubspot-api
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiocraft
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastmock
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lang
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: triton-copilot
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyPLNmodels
+[2024-06-03 11:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bcrg
+[2024-06-03 11:41:12] INFO root fetch - processPackages [postcode-to-timezone]: New version: [2024.6.2] Old Version: [2024.6.1]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b6] Old Version: [0.1.3b5]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [audiocraft]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-06-03 11:41:12] WARNING root fetch - processPackages [bcrg]: Skipping, unable to determine old version
+[2024-06-03 11:41:12] INFO root fetch - processPackages [bcrg]: Start processing: odoo-addon-sale-order-invoice-amount
+[2024-06-03 11:41:12] INFO root fetch - main [MainThread]: End processing [bcrg] error
+[2024-06-03 11:41:12] INFO root fetch - processPackages [obfsc8]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [fastmock]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/a7/a9/dd151214dab795864ec14c72a5b18cfdb0ee2b4f3ab0acb6762dac8ce7ce/triton_copilot-0.1.3b5.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [hubspot-api]: New version: [0.6.0] Old Version: [0.4.0]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [lang]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [pyPLNmodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [astronomer-cosmos]: New version: [1.5.0a3] Old Version: [1.5.0a2]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [postcode-to-timezone]: Downloading https://files.pythonhosted.org/packages/67/c6/d66c5cfbc6b8d0b3aca5e647478647780e9a07f8ff86c7c854faf2f1e317/postcode_to_timezone-2024.6.1.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.7]
+[2024-06-03 11:41:12] INFO root fetch - processPackages [audiocraft]: Downloading https://files.pythonhosted.org/packages/74/86/cb98e880e5272ef35c8c7bca121a60e8dc9481a2743ea638ba35e24355c0/audiocraft-1.1.0.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [obfsc8]: Downloading https://files.pythonhosted.org/packages/93/3e/c22a1af2beeb87a295bc832c452ba7a0924837516a6a1d6d9f97afb2096f/obfsc8-0.0.2.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [fastmock]: Downloading https://files.pythonhosted.org/packages/29/ad/4d9522b2e47cb240ae04f0b18ec26019a1790b6514a907576318a14cc09c/fastmock-0.1.0.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [hubspot-api]: Downloading https://files.pythonhosted.org/packages/9e/80/547b42a37838ecf907710eebd2d6d04cc4d66dc348be989da405d8a6fe6f/hubspot-api-0.4.0.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [lang]: Downloading https://files.pythonhosted.org/packages/3d/be/266619c1db24a170e472c6e7055aede52e8636b483e52f87f243f64fa6d7/lang-1.0.4.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/99/93/f5823c7589a364b3db77e3f2f0c59488cfeac312e096771da14626108232/astronomer_cosmos-1.5.0a2.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/51/b0/7d9557b8945170adab935eafed81fb717ab0a6849909f142dfcf9ab78264/pyPLNmodels-0.0.8.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: Downloading https://files.pythonhosted.org/packages/75/a6/ea9d2b2c6d83591840dd0db54bdf9e2b63c263600c1472fbea3939ca31e8/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.7-py3-none-any.whl
+[2024-06-03 11:41:12] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/ff/b0/45219928184fcf76a9172e8951865c3cd9a2bb1f4a3aea5ad1c049bf3f96/triton_copilot-0.1.3b6.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [postcode-to-timezone]: Downloading https://files.pythonhosted.org/packages/4b/b9/a1373ab4bb2c8219628df6a938f845c4d5f79936f719bcd690d6fb6e62f3/postcode_to_timezone-2024.6.2.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 11:41:12] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b5.tar.gz tmp/triton_copilot-0.1.3b6.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b5-0.1.3b6/README.md --exclude *.pyd
+[2024-06-03 11:41:12] INFO root fetch - processPackages [obfsc8]: Downloading https://files.pythonhosted.org/packages/01/c0/254e40719f2fd34dac9cee1cec63890f7b40325a5a58b28bdb94a6fb0ff7/obfsc8-0.0.3.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [postcode-to-timezone]: executing diffoscope
+[2024-06-03 11:41:12] INFO root fetch - processPackages [postcode-to-timezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postcode_to_timezone-2024.6.1.tar.gz tmp/postcode_to_timezone-2024.6.2.tar.gz --markdown 20240603/p/postcode-to-timezone/2024.6.1-2024.6.2/README.md --exclude *.pyd
+[2024-06-03 11:41:12] INFO root fetch - processPackages [fastmock]: Downloading https://files.pythonhosted.org/packages/be/55/bc3c3b1bbfd4565dd45547a775f139ea414a90add5456c4cb13c5a576636/fastmock-0.1.1.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [audiocraft]: Downloading https://files.pythonhosted.org/packages/2b/44/a28a83ac4ebed65580f892fff1f64684eda7f90f9aa440f569435396eb91/audiocraft-1.2.0.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [hubspot-api]: Downloading https://files.pythonhosted.org/packages/56/f7/1f2d9b6ea8522bd1aabda2b1ef7618d9a782b281de4ff08a3d3ed1144d82/hubspot-api-0.6.0.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [lang]: Downloading https://files.pythonhosted.org/packages/2f/aa/73a380e9eba91c8f836404b0d0ee895c71712a6e717e0be54c928713000a/lang-1.0.5.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/a5/ff/27113625c2fdcab58791b3bbde4f0f5d8d4fc8eee55a0ebd5454228a143e/astronomer_cosmos-1.5.0a3.tar.gz
+[2024-06-03 11:41:12] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: Downloading https://files.pythonhosted.org/packages/cf/6f/eb60b210b785afade91e43c7e1714bf30ad66b85455e8af8d88dc99e04a3/odoo_addon_sale_order_invoice_amount-16.0.1.0.1-py3-none-any.whl
+[2024-06-03 11:41:12] INFO root fetch - processPackages [lang]: executing diffoscope
+[2024-06-03 11:41:12] INFO root fetch - processPackages [lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lang-1.0.4.tar.gz tmp/lang-1.0.5.tar.gz --markdown 20240603/l/lang/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-06-03 11:41:12] INFO root fetch - processPackages [pyPLNmodels]: Downloading https://files.pythonhosted.org/packages/d9/ee/b1ce119365c9ee2f1e8f012450c38c4ebaa0ba7795d2a008d8fcde4dfd07/pyPLNmodels-0.0.9.tar.gz
+[2024-06-03 11:41:13] INFO root fetch - processPackages [obfsc8]: executing diffoscope
+[2024-06-03 11:41:13] INFO root fetch - processPackages [obfsc8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obfsc8-0.0.2.tar.gz tmp/obfsc8-0.0.3.tar.gz --markdown 20240603/o/obfsc8/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-06-03 11:41:13] INFO root fetch - processPackages [fastmock]: executing diffoscope
+[2024-06-03 11:41:13] INFO root fetch - processPackages [fastmock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmock-0.1.0.tar.gz tmp/fastmock-0.1.1.tar.gz --markdown 20240603/f/fastmock/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-06-03 11:41:13] INFO root fetch - processPackages [audiocraft]: executing diffoscope
+[2024-06-03 11:41:13] INFO root fetch - processPackages [audiocraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiocraft-1.1.0.tar.gz tmp/audiocraft-1.2.0.tar.gz --markdown 20240603/a/audiocraft/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-06-03 11:41:13] INFO root fetch - processPackages [hubspot-api]: executing diffoscope
+[2024-06-03 11:41:13] INFO root fetch - processPackages [hubspot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubspot-api-0.4.0.tar.gz tmp/hubspot-api-0.6.0.tar.gz --markdown 20240603/h/hubspot-api/0.4.0-0.6.0/README.md --exclude *.pyd
+[2024-06-03 11:41:13] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2024-06-03 11:41:13] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-1.5.0a2.tar.gz tmp/astronomer_cosmos-1.5.0a3.tar.gz --markdown 20240603/a/astronomer-cosmos/1.5.0a2-1.5.0a3/README.md --exclude *.pyd
+[2024-06-03 11:41:13] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: executing diffoscope
+[2024-06-03 11:41:13] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_sale_order_invoice_amount-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240603/o/odoo-addon-sale-order-invoice-amount/16.0.1.0.0.7-16.0.1.0.1/README.md --exclude *.pyd
+[2024-06-03 11:41:13] INFO root fetch - processPackages [pyPLNmodels]: executing diffoscope
+[2024-06-03 11:41:13] INFO root fetch - processPackages [pyPLNmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPLNmodels-0.0.8.tar.gz tmp/pyPLNmodels-0.0.9.tar.gz --markdown 20240603/p/pyPLNmodels/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 11:41:13] INFO root fetch - processPackages [postcode-to-timezone]: Remove: archive file [/home/abi/fetcher/tmp/postcode_to_timezone-2024.6.1.tar.gz]
+[2024-06-03 11:41:13] INFO root fetch - processPackages [postcode-to-timezone]: Remove: archive file [/home/abi/fetcher/tmp/postcode_to_timezone-2024.6.2.tar.gz]
+[2024-06-03 11:41:13] INFO root fetch - processPackages [postcode-to-timezone]: Start processing: Docs2KG
+[2024-06-03 11:41:13] INFO root fetch - main [MainThread]: End processing [postcode-to-timezone]: success
+[2024-06-03 11:41:14] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b5.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b6.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 11:41:14] WARNING root fetch - processPackages [Docs2KG]: Skipping, unable to determine old version
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [Docs2KG] error
+[2024-06-03 11:41:14] INFO root fetch - processPackages [lang]: Remove: archive file [/home/abi/fetcher/tmp/lang-1.0.4.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - processPackages [lang]: Remove: archive file [/home/abi/fetcher/tmp/lang-1.0.5.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [lang]: success
+[2024-06-03 11:41:14] INFO root fetch - processPackages [hubspot-api]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-0.4.0.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - processPackages [hubspot-api]: Remove: archive file [/home/abi/fetcher/tmp/hubspot-api-0.6.0.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [hubspot-api]: success
+[2024-06-03 11:41:14] INFO root fetch - processPackages [fastmock]: Remove: archive file [/home/abi/fetcher/tmp/fastmock-0.1.0.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - processPackages [fastmock]: Remove: archive file [/home/abi/fetcher/tmp/fastmock-0.1.1.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [fastmock]: success
+[2024-06-03 11:41:14] INFO root fetch - processPackages [obfsc8]: Remove: archive file [/home/abi/fetcher/tmp/obfsc8-0.0.2.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - processPackages [obfsc8]: Remove: archive file [/home/abi/fetcher/tmp/obfsc8-0.0.3.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [obfsc8]: success
+[2024-06-03 11:41:14] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.8.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - processPackages [pyPLNmodels]: Remove: archive file [/home/abi/fetcher/tmp/pyPLNmodels-0.0.9.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [pyPLNmodels]: success
+[2024-06-03 11:41:14] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-06-03 11:41:14] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_invoice_amount-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-invoice-amount]: success
+[2024-06-03 11:41:14] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.5.0a2.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.5.0a3.tar.gz]
+[2024-06-03 11:41:14] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2024-06-03 11:41:15] INFO root fetch - processPackages [audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/audiocraft-1.1.0.tar.gz]
+[2024-06-03 11:41:15] INFO root fetch - processPackages [audiocraft]: Remove: archive file [/home/abi/fetcher/tmp/audiocraft-1.2.0.tar.gz]
+[2024-06-03 11:41:15] INFO root fetch - main [MainThread]: End processing [audiocraft]: success
+[2024-06-03 11:41:15] INFO root fetch - main [MainThread]: Store serial: [23499640]
