@@ -19269,3 +19269,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-06-03 14:35:18] INFO root fetch - processPackages [django-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/django-leaflet-0.9.0.zip]
 [2024-06-03 14:35:18] INFO root fetch - main [MainThread]: End processing [django-leaflet]: success
 [2024-06-03 14:35:18] INFO root fetch - main [MainThread]: Store serial: [23502419]
+[2024-06-03 14:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23502419]
+[2024-06-03 14:37:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-06-03 14:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: folx
+[2024-06-03 14:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: integro_types
+[2024-06-03 14:37:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-axes-forked
+[2024-06-03 14:37:27] INFO root fetch - processPackages [django-axes-forked]: New version: [5.27.1] Old Version: [5.27.0.1]
+[2024-06-03 14:37:28] INFO root fetch - processPackages [folx]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-06-03 14:37:28] WARNING root fetch - processPackages [integro_types]: Skipping, unable to determine old version
+[2024-06-03 14:37:28] INFO root fetch - main [MainThread]: End processing [integro_types] error
+[2024-06-03 14:37:28] INFO root fetch - processPackages [django-axes-forked]: Downloading https://files.pythonhosted.org/packages/3b/7a/17aca915c6e87498d4a66838574a86aee535d888e0b1ff140344516ff860/django_axes_forked-5.27.0.1-py3-none-any.whl
+[2024-06-03 14:37:28] INFO root fetch - processPackages [django-axes-forked]: Downloading https://files.pythonhosted.org/packages/82/40/d42c75dd17423122c7520c1a30bf036c5e30a8371a5d45e654e65100cfdb/django-axes-forked-5.27.1.tar.gz
+[2024-06-03 14:37:28] INFO root fetch - processPackages [folx]: Downloading https://files.pythonhosted.org/packages/f7/d1/19d5ad7c1a2e1f94ec69b13d34b8fed10dfab24cb0a952e2cfa86b97adcf/folx-0.2.6.tar.gz
+[2024-06-03 14:37:28] INFO root fetch - processPackages [django-axes-forked]: executing diffoscope
+[2024-06-03 14:37:28] INFO root fetch - processPackages [django-axes-forked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_axes_forked-5.27.0.1-py3-none-any.whl.zip tmp/django-axes-forked-5.27.1.tar.gz --markdown 20240603/d/django-axes-forked/5.27.0.1-5.27.1/README.md --exclude *.pyd
+[2024-06-03 14:37:28] INFO root fetch - processPackages [folx]: Downloading https://files.pythonhosted.org/packages/9a/fe/f75f6303dfc5c1ec0aed8fd0e06c67d594b3ae425b50222b29fff611a933/folx-0.2.7.tar.gz
+[2024-06-03 14:37:28] INFO root fetch - processPackages [folx]: executing diffoscope
+[2024-06-03 14:37:28] INFO root fetch - processPackages [folx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folx-0.2.6.tar.gz tmp/folx-0.2.7.tar.gz --markdown 20240603/f/folx/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-06-03 14:37:29] INFO root fetch - processPackages [django-axes-forked]: Remove: archive file [/home/abi/fetcher/tmp/django_axes_forked-5.27.0.1-py3-none-any.whl.zip]
+[2024-06-03 14:37:29] INFO root fetch - processPackages [django-axes-forked]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-forked-5.27.1.tar.gz]
+[2024-06-03 14:37:29] INFO root fetch - main [MainThread]: End processing [django-axes-forked]: success
+[2024-06-03 14:37:29] INFO root fetch - processPackages [folx]: Remove: archive file [/home/abi/fetcher/tmp/folx-0.2.6.tar.gz]
+[2024-06-03 14:37:29] INFO root fetch - processPackages [folx]: Remove: archive file [/home/abi/fetcher/tmp/folx-0.2.7.tar.gz]
+[2024-06-03 14:37:29] INFO root fetch - main [MainThread]: End processing [folx]: success
+[2024-06-03 14:37:29] INFO root fetch - main [MainThread]: Store serial: [23502434]
