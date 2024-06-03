@@ -8516,3 +8516,75 @@ EOFError: EOF read where object expected
 [2024-06-03 09:22:23] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-06-03 09:22:23] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-06-03 09:22:23] INFO root fetch - main [MainThread]: Store serial: [23497787]
+[2024-06-03 09:24:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23497787]
+[2024-06-03 09:24:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-command-center
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stefutils
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-tmmis
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CVE-2000-0114
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-x-table
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: toyai
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kiwi
+[2024-06-03 09:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hf-download
+[2024-06-03 09:24:38] INFO root fetch - processPackages [json-x-table]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-06-03 09:24:38] INFO root fetch - processPackages [dbt-command-center]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 09:24:38] WARNING root fetch - processPackages [hf-download]: Skipping, unable to determine old version
+[2024-06-03 09:24:38] INFO root fetch - main [MainThread]: End processing [hf-download] error
+[2024-06-03 09:24:38] INFO root fetch - processPackages [toyai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-06-03 09:24:38] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-06-03 09:24:38] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240603] Old Version: [2.17.0.dev20240602]
+[2024-06-03 09:24:38] WARNING root fetch - processPackages [CVE-2000-0114]: Skipping, unable to determine old version
+[2024-06-03 09:24:38] INFO root fetch - main [MainThread]: End processing [CVE-2000-0114] error
+[2024-06-03 09:24:38] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/5c/5b/60ec7a0db336c1afc0770efaf23cf12aabc53e69e79c2bf3a5ee731bb864/json_x_table-0.0.6.tar.gz
+[2024-06-03 09:24:38] INFO root fetch - processPackages [django-tmmis]: New version: [0.3.9] Old Version: [0.3.6]
+[2024-06-03 09:24:38] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/be/f2/bd7bb6ed02db3abf4be3dbd9bec4ac6ec28c78772395c4c048c5d2e7ab67/dbt_command_center-0.1.8.tar.gz
+[2024-06-03 09:24:38] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/fd/4c/821633199a44bf39d8ff3afa6002dbead461d9d66884ceb45606f2bb8c51/toyai-0.1.8-py3-none-any.whl
+[2024-06-03 09:24:38] INFO root fetch - processPackages [kiwi]: New version: [9.8.0] Old Version: [9.7.4]
+[2024-06-03 09:24:38] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-06-03 09:24:38] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ef/6c/966001d115989bb16ca49d33942bbad4461a431b6864f90c1228b6b5e2bd/tflite_runtime_nightly-2.17.0.dev20240602-cp311-cp311-manylinux_2_34_armv7l.whl
+[2024-06-03 09:24:38] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/99/b6/4ab9388b27613ab9abb8637b112d663f03199cf6e56ca581ad712f236c23/django-tmmis-0.3.6.tar.gz
+[2024-06-03 09:24:38] INFO root fetch - processPackages [toyai]: Downloading https://files.pythonhosted.org/packages/18/d9/7e8965ab53001776b1f7370302d93bd68116fb00deb686b2b9821b9914e6/toyai-0.1.9-py3-none-any.whl
+[2024-06-03 09:24:38] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-06-03 09:24:38] INFO root fetch - processPackages [kiwi]: Downloading https://files.pythonhosted.org/packages/fc/f2/14aa92d902e928c95adddf778710948ec0ac3c182c9165580259aa18eaa8/kiwi-9.7.4.tar.gz
+[2024-06-03 09:24:39] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/66/5f/5fedd28b2272fdf006ed8bb414d5fad18369ccd87f8092e9f90a626017b7/dbt_command_center-0.1.9.tar.gz
+[2024-06-03 09:24:39] INFO root fetch - processPackages [toyai]: executing diffoscope
+[2024-06-03 09:24:39] INFO root fetch - processPackages [toyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyai-0.1.8-py3-none-any.whl.zip tmp/toyai-0.1.9-py3-none-any.whl.zip --markdown 20240603/t/toyai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 09:24:39] INFO root fetch - processPackages [json-x-table]: Downloading https://files.pythonhosted.org/packages/c6/8f/d66bb9fda7d0f9c6a0b0761122f3aade562104b3a6bddd174557a70e1fb9/json_x_table-0.0.7.tar.gz
+[2024-06-03 09:24:39] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-06-03 09:24:39] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240603/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-06-03 09:24:39] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/ce/91/7bf90afa75d69d98585a77bcc83db12e0789b1dc87fb450e427df45aabc8/tflite_runtime_nightly-2.17.0.dev20240603-cp39-cp39-manylinux2014_x86_64.whl
+[2024-06-03 09:24:39] INFO root fetch - processPackages [json-x-table]: executing diffoscope
+[2024-06-03 09:24:39] INFO root fetch - processPackages [json-x-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_x_table-0.0.6.tar.gz tmp/json_x_table-0.0.7.tar.gz --markdown 20240603/j/json-x-table/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-06-03 09:24:39] INFO root fetch - processPackages [django-tmmis]: Downloading https://files.pythonhosted.org/packages/77/77/c8118684b4b09552400ae2521cd0a90c79ce7ddafa161e7e633474d11224/django_tmmis-0.3.9.tar.gz
+[2024-06-03 09:24:39] INFO root fetch - processPackages [dbt-command-center]: executing diffoscope
+[2024-06-03 09:24:39] INFO root fetch - processPackages [dbt-command-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_command_center-0.1.8.tar.gz tmp/dbt_command_center-0.1.9.tar.gz --markdown 20240603/d/dbt-command-center/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-06-03 09:24:39] INFO root fetch - processPackages [django-tmmis]: executing diffoscope
+[2024-06-03 09:24:39] INFO root fetch - processPackages [django-tmmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tmmis-0.3.6.tar.gz tmp/django_tmmis-0.3.9.tar.gz --markdown 20240603/d/django-tmmis/0.3.6-0.3.9/README.md --exclude *.pyd
+[2024-06-03 09:24:39] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-06-03 09:24:39] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240602-cp311-cp311-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240603-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240603/t/tflite-runtime-nightly/2.17.0.dev20240602-2.17.0.dev20240603/README.md --exclude *.pyd
+[2024-06-03 09:24:39] INFO root fetch - processPackages [kiwi]: Downloading https://files.pythonhosted.org/packages/a0/15/c757f7f6d32bf5ebe742d435008e609b0683336a29bc81aaae006c577d96/kiwi-9.8.0.tar.gz
+[2024-06-03 09:24:40] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.8-py3-none-any.whl.zip]
+[2024-06-03 09:24:40] INFO root fetch - processPackages [toyai]: Remove: archive file [/home/abi/fetcher/tmp/toyai-0.1.9-py3-none-any.whl.zip]
+[2024-06-03 09:24:40] INFO root fetch - main [MainThread]: End processing [toyai]: success
+[2024-06-03 09:24:40] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-06-03 09:24:40] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-06-03 09:24:40] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-06-03 09:24:40] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.6.tar.gz]
+[2024-06-03 09:24:40] INFO root fetch - processPackages [json-x-table]: Remove: archive file [/home/abi/fetcher/tmp/json_x_table-0.0.7.tar.gz]
+[2024-06-03 09:24:40] INFO root fetch - main [MainThread]: End processing [json-x-table]: success
+[2024-06-03 09:24:40] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django-tmmis-0.3.6.tar.gz]
+[2024-06-03 09:24:40] INFO root fetch - processPackages [django-tmmis]: Remove: archive file [/home/abi/fetcher/tmp/django_tmmis-0.3.9.tar.gz]
+[2024-06-03 09:24:40] INFO root fetch - main [MainThread]: End processing [django-tmmis]: success
+[2024-06-03 09:24:41] INFO root fetch - processPackages [kiwi]: executing diffoscope
+[2024-06-03 09:24:41] INFO root fetch - processPackages [kiwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi-9.7.4.tar.gz tmp/kiwi-9.8.0.tar.gz --markdown 20240603/k/kiwi/9.7.4-9.8.0/README.md --exclude *.pyd
+[2024-06-03 09:24:42] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.8.tar.gz]
+[2024-06-03 09:24:42] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.9.tar.gz]
+[2024-06-03 09:24:42] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
+[2024-06-03 09:25:07] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240602-cp311-cp311-manylinux_2_34_armv7l.whl.zip]
+[2024-06-03 09:25:07] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240603-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-06-03 09:25:07] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-06-03 09:27:30] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.7.4.tar.gz]
+[2024-06-03 09:27:30] INFO root fetch - processPackages [kiwi]: Remove: archive file [/home/abi/fetcher/tmp/kiwi-9.8.0.tar.gz]
+[2024-06-03 09:27:30] INFO root fetch - main [MainThread]: End processing [kiwi]: success
+[2024-06-03 09:27:30] INFO root fetch - main [MainThread]: Store serial: [23497815]
