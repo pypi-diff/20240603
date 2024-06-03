@@ -22597,3 +22597,80 @@ EOFError: EOF read where object expected
 [2024-06-03 16:01:08] INFO root fetch - processPackages [tracksegnet]: Remove: archive file [/home/abi/fetcher/tmp/tracksegnet-1.3.0.tar.gz]
 [2024-06-03 16:01:08] INFO root fetch - main [MainThread]: End processing [tracksegnet]: success
 [2024-06-03 16:01:08] INFO root fetch - main [MainThread]: Store serial: [23503843]
+[2024-06-03 16:03:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23503843]
+[2024-06-03 16:03:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cetpy
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wandb-workspaces
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamstats-access
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mamba-ssm
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metal-gpu
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: triton-copilot
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenGeode-core
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osbot-utils
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: danila-lib
+[2024-06-03 16:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opensesame-plugin-radboudbox
+[2024-06-03 16:03:18] WARNING root fetch - processPackages [wandb-workspaces]: Skipping, unable to determine old version
+[2024-06-03 16:03:18] INFO root fetch - main [MainThread]: End processing [wandb-workspaces] error
+[2024-06-03 16:03:18] INFO root fetch - processPackages [mamba-ssm]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-06-03 16:03:18] INFO root fetch - processPackages [streamstats-access]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-06-03 16:03:18] INFO root fetch - processPackages [osbot-utils]: New version: [1.7.7] Old Version: [1.7.1]
+[2024-06-03 16:03:18] WARNING root fetch - processPackages [metal-gpu]: Skipping, unable to determine old version
+[2024-06-03 16:03:18] INFO root fetch - main [MainThread]: End processing [metal-gpu] error
+[2024-06-03 16:03:18] INFO root fetch - processPackages [mamba-ssm]: Downloading https://files.pythonhosted.org/packages/1e/68/85bbd274c18eea91695e066f2175c595c4aa0cd57347fb149a1d2492101a/mamba_ssm-2.0.0.tar.gz
+[2024-06-03 16:03:18] INFO root fetch - processPackages [cetpy]: New version: [0.1.0b6] Old Version: [0.1.0b5]
+[2024-06-03 16:03:18] INFO root fetch - processPackages [danila-lib]: New version: [1.9.0] Old Version: [1.8.9]
+[2024-06-03 16:03:18] INFO root fetch - processPackages [triton-copilot]: New version: [0.1.3b9] Old Version: [0.1.3b8]
+[2024-06-03 16:03:18] INFO root fetch - processPackages [streamstats-access]: Downloading https://files.pythonhosted.org/packages/e4/5f/6a8f9b72229a8434731f0f5b81467ce4257579af559bde4f77fbb1feffeb/streamstats_access-0.1.5.tar.gz
+[2024-06-03 16:03:18] INFO root fetch - processPackages [osbot-utils]: Downloading https://files.pythonhosted.org/packages/17/ba/567fc87a42e9dbe7bdef8e98ec5b8f974267559ebe882bb32e6a087267d7/osbot_utils-1.7.1.tar.gz
+[2024-06-03 16:03:18] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.21.4rc1]
+[2024-06-03 16:03:18] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-06-03 16:03:18] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/6c/6b/86e92c69d12741e8a506840782428cf35daf0f513d61d3efda8238e43dad/danila-lib-1.8.9.tar.gz
+[2024-06-03 16:03:18] INFO root fetch - processPackages [cetpy]: Downloading https://files.pythonhosted.org/packages/5d/bd/38501a7737278cd20a27ec6a5acdedf797a9ec08598212876a8d7c9355ae/cetpy-0.1.0b5.tar.gz
+[2024-06-03 16:03:18] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/bb/4c/29b284886bccb727dc2ee3dda180ce04779eecdc0a64e7a745c6f1bb4141/OpenGeode_core-14.21.4rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-06-03 16:03:18] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/db/05/678677ba5189f877077d8270f117dfd424ecec16a0afb7ba24d771ebdd38/triton_copilot-0.1.3b8.tar.gz
+[2024-06-03 16:03:18] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Downloading https://files.pythonhosted.org/packages/32/21/3e3c7616788aa5e30be0cf76e3904e992bb36314918d666508ea3f4c8c70/opensesame_plugin_radboudbox-4.1.0.tar.gz
+[2024-06-03 16:03:19] INFO root fetch - processPackages [streamstats-access]: Downloading https://files.pythonhosted.org/packages/0f/03/bdecec400e5a05745f2c614f1d872915884f8caaf15845230cfc1db65506/streamstats_access-0.1.6.tar.gz
+[2024-06-03 16:03:19] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 13693024>=10485760
+[2024-06-03 16:03:19] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-06-03 16:03:19] INFO root fetch - processPackages [osbot-utils]: Downloading https://files.pythonhosted.org/packages/14/e0/7fb4a632bcebd76e537cc1fa59be128fd366ccbf9cefee0e3015450c1577/osbot_utils-1.7.7.tar.gz
+[2024-06-03 16:03:19] INFO root fetch - processPackages [mamba-ssm]: Downloading https://files.pythonhosted.org/packages/7e/9f/2ec5a608cc0464d80968438b39307f623e47a09f154cafecabf8948bc376/mamba_ssm-2.0.1.tar.gz
+[2024-06-03 16:03:19] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/1e/2a/e0a97ee8c001651d9edd0e631c7c46c7520ebecb51b3449a8e001dc86c88/danila-lib-1.9.0.tar.gz
+[2024-06-03 16:03:19] INFO root fetch - processPackages [cetpy]: Downloading https://files.pythonhosted.org/packages/22/61/8591cf09b9619ff0bc3f8356eeb351c85a71b52914cb2d0ac56dffb6eb7d/cetpy-0.1.0b6.tar.gz
+[2024-06-03 16:03:19] INFO root fetch - processPackages [triton-copilot]: Downloading https://files.pythonhosted.org/packages/06/47/7dd6e2371756d24a0fa2d5655996c9b75e3433c30dc7787f82e994ce82b6/triton_copilot-0.1.3b9.tar.gz
+[2024-06-03 16:03:19] INFO root fetch - processPackages [streamstats-access]: executing diffoscope
+[2024-06-03 16:03:19] INFO root fetch - processPackages [streamstats-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamstats_access-0.1.5.tar.gz tmp/streamstats_access-0.1.6.tar.gz --markdown 20240603/s/streamstats-access/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-06-03 16:03:19] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Downloading https://files.pythonhosted.org/packages/4e/9f/0ede5b2dd4817d3dba8776d609e9cf9edc414563489dcb6619e2679543f6/opensesame_plugin_radboudbox-4.1.1.tar.gz
+[2024-06-03 16:03:19] INFO root fetch - processPackages [mamba-ssm]: executing diffoscope
+[2024-06-03 16:03:19] INFO root fetch - processPackages [mamba-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mamba_ssm-2.0.0.tar.gz tmp/mamba_ssm-2.0.1.tar.gz --markdown 20240603/m/mamba-ssm/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-06-03 16:03:19] INFO root fetch - processPackages [cetpy]: executing diffoscope
+[2024-06-03 16:03:19] INFO root fetch - processPackages [cetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cetpy-0.1.0b5.tar.gz tmp/cetpy-0.1.0b6.tar.gz --markdown 20240603/c/cetpy/0.1.0b5-0.1.0b6/README.md --exclude *.pyd
+[2024-06-03 16:03:19] INFO root fetch - processPackages [osbot-utils]: executing diffoscope
+[2024-06-03 16:03:19] INFO root fetch - processPackages [osbot-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_utils-1.7.1.tar.gz tmp/osbot_utils-1.7.7.tar.gz --markdown 20240603/o/osbot-utils/1.7.1-1.7.7/README.md --exclude *.pyd
+[2024-06-03 16:03:19] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-06-03 16:03:19] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.8.9.tar.gz tmp/danila-lib-1.9.0.tar.gz --markdown 20240603/d/danila-lib/1.8.9-1.9.0/README.md --exclude *.pyd
+[2024-06-03 16:03:19] INFO root fetch - processPackages [triton-copilot]: executing diffoscope
+[2024-06-03 16:03:19] INFO root fetch - processPackages [triton-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_copilot-0.1.3b8.tar.gz tmp/triton_copilot-0.1.3b9.tar.gz --markdown 20240603/t/triton-copilot/0.1.3b8-0.1.3b9/README.md --exclude *.pyd
+[2024-06-03 16:03:19] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: executing diffoscope
+[2024-06-03 16:03:19] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_plugin_radboudbox-4.1.0.tar.gz tmp/opensesame_plugin_radboudbox-4.1.1.tar.gz --markdown 20240603/o/opensesame-plugin-radboudbox/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-06-03 16:03:20] INFO root fetch - processPackages [streamstats-access]: Remove: archive file [/home/abi/fetcher/tmp/streamstats_access-0.1.5.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - processPackages [streamstats-access]: Remove: archive file [/home/abi/fetcher/tmp/streamstats_access-0.1.6.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - main [MainThread]: End processing [streamstats-access]: success
+[2024-06-03 16:03:20] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b8.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - processPackages [triton-copilot]: Remove: archive file [/home/abi/fetcher/tmp/triton_copilot-0.1.3b9.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - main [MainThread]: End processing [triton-copilot]: success
+[2024-06-03 16:03:20] INFO root fetch - processPackages [mamba-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mamba_ssm-2.0.0.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - processPackages [mamba-ssm]: Remove: archive file [/home/abi/fetcher/tmp/mamba_ssm-2.0.1.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - main [MainThread]: End processing [mamba-ssm]: success
+[2024-06-03 16:03:20] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.8.9.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.9.0.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-06-03 16:03:20] INFO root fetch - processPackages [cetpy]: Remove: archive file [/home/abi/fetcher/tmp/cetpy-0.1.0b5.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - processPackages [cetpy]: Remove: archive file [/home/abi/fetcher/tmp/cetpy-0.1.0b6.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - main [MainThread]: End processing [cetpy]: success
+[2024-06-03 16:03:20] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.1.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.7.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - main [MainThread]: End processing [osbot-utils]: success
+[2024-06-03 16:03:20] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_plugin_radboudbox-4.1.0.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - processPackages [opensesame-plugin-radboudbox]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_plugin_radboudbox-4.1.1.tar.gz]
+[2024-06-03 16:03:20] INFO root fetch - main [MainThread]: End processing [opensesame-plugin-radboudbox]: success
+[2024-06-03 16:03:20] INFO root fetch - main [MainThread]: Store serial: [23503877]
