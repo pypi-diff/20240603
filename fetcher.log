@@ -4278,3 +4278,45 @@ EOFError: EOF read where object expected
 [2024-06-03 05:10:34] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.2.2.tar.gz]
 [2024-06-03 05:10:34] INFO root fetch - main [MainThread]: End processing [colorcall]: success
 [2024-06-03 05:10:34] INFO root fetch - main [MainThread]: Store serial: [23495930]
+[2024-06-03 05:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23495930]
+[2024-06-03 05:12:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muttfuzz
+[2024-06-03 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khmerpronounce
+[2024-06-03 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2024-06-03 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hemanth-hello-world
+[2024-06-03 05:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Agentic-Reports
+[2024-06-03 05:12:42] INFO root fetch - processPackages [hemanth-hello-world]: New version: [0.5] Old Version: [0.4]
+[2024-06-03 05:12:42] INFO root fetch - processPackages [Agentic-Reports]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 05:12:42] INFO root fetch - processPackages [muttfuzz]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-06-03 05:12:42] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/b0/d2/f12cae4ade00b48ab4b6a799e53f6efc92a9f006452a78e52911847964fa/hemanth_hello_world-0.4.tar.gz
+[2024-06-03 05:12:42] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/06/ba/d3d7542832280a1c8585c2ac40602cec153114712ee0839fb9c2fb25f30a/Agentic-Reports-0.0.8.tar.gz
+[2024-06-03 05:12:42] WARNING root fetch - processPackages [khmerpronounce]: Skipping, unable to determine old version
+[2024-06-03 05:12:42] INFO root fetch - main [MainThread]: End processing [khmerpronounce] error
+[2024-06-03 05:12:42] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/cf/19/c4da27dc3ef2b5287de6891e587b1ae4696f2214592c8d4abe897dfd0f6a/muttfuzz-0.8.8-py3-none-any.whl
+[2024-06-03 05:12:42] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.86]
+[2024-06-03 05:12:43] INFO root fetch - processPackages [Agentic-Reports]: Downloading https://files.pythonhosted.org/packages/5b/92/44b18eba5d6adf17c07da2776ad015af9ac39d3e55eaf36f736e094a759b/Agentic-Reports-0.0.9.tar.gz
+[2024-06-03 05:12:43] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/3e/70/3ecf10505ff6c2c47a2888ce989a7fcc775103a834ed7d4ad590af752259/muttfuzz-0.8.9-py3-none-any.whl
+[2024-06-03 05:12:43] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/d9/9e/e67686b3f3b28444ec4f26b5fedca6303b35683334a5f5b175b01bf071d9/quantplay-1.5.86.tar.gz
+[2024-06-03 05:12:43] INFO root fetch - processPackages [hemanth-hello-world]: Downloading https://files.pythonhosted.org/packages/21/92/a19a4edca6e5c17593fc38a4a7fbe0a62b10cbd1bd4d9bbc44fb2841e76d/hemanth_hello_world-0.5.tar.gz
+[2024-06-03 05:12:43] INFO root fetch - processPackages [Agentic-Reports]: executing diffoscope
+[2024-06-03 05:12:43] INFO root fetch - processPackages [Agentic-Reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agentic-Reports-0.0.8.tar.gz tmp/Agentic-Reports-0.0.9.tar.gz --markdown 20240603/A/Agentic-Reports/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 05:12:43] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-06-03 05:12:43] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.8-py3-none-any.whl.zip tmp/muttfuzz-0.8.9-py3-none-any.whl.zip --markdown 20240603/m/muttfuzz/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-06-03 05:12:43] INFO root fetch - processPackages [hemanth-hello-world]: executing diffoscope
+[2024-06-03 05:12:43] INFO root fetch - processPackages [hemanth-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hemanth_hello_world-0.4.tar.gz tmp/hemanth_hello_world-0.5.tar.gz --markdown 20240603/h/hemanth-hello-world/0.4-0.5/README.md --exclude *.pyd
+[2024-06-03 05:12:43] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-06-03 05:12:43] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-06-03 05:12:43] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.86.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240603/q/quantplay/1.5.86-1.5.9/README.md --exclude *.pyd
+[2024-06-03 05:12:43] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.8-py3-none-any.whl.zip]
+[2024-06-03 05:12:43] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.9-py3-none-any.whl.zip]
+[2024-06-03 05:12:43] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-06-03 05:12:43] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.4.tar.gz]
+[2024-06-03 05:12:43] INFO root fetch - processPackages [hemanth-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/hemanth_hello_world-0.5.tar.gz]
+[2024-06-03 05:12:43] INFO root fetch - main [MainThread]: End processing [hemanth-hello-world]: success
+[2024-06-03 05:12:44] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.8.tar.gz]
+[2024-06-03 05:12:44] INFO root fetch - processPackages [Agentic-Reports]: Remove: archive file [/home/abi/fetcher/tmp/Agentic-Reports-0.0.9.tar.gz]
+[2024-06-03 05:12:44] INFO root fetch - main [MainThread]: End processing [Agentic-Reports]: success
+[2024-06-03 05:12:44] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.86.tar.gz]
+[2024-06-03 05:12:44] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-06-03 05:12:44] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-06-03 05:12:44] INFO root fetch - main [MainThread]: Store serial: [23495947]
