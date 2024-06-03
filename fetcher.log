@@ -14310,3 +14310,45 @@ EOFError: EOF read where object expected
 [2024-06-03 12:35:55] INFO root fetch - processPackages [ros-cdk-dbs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-dbs-1.0.9.tar.gz]
 [2024-06-03 12:35:55] INFO root fetch - main [MainThread]: End processing [ros-cdk-dbs]: success
 [2024-06-03 12:35:55] INFO root fetch - main [MainThread]: Store serial: [23500525]
+[2024-06-03 12:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500525]
+[2024-06-03 12:38:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PVNet
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ros-cdk-datahub
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phpinfo-file-leaks
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ros-cdk-cs
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ros-cdk-datahub]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:38:05] WARNING root fetch - processPackages [phpinfo-file-leaks]: Skipping, unable to determine old version
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ros-cdk-cs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-06-03 12:38:05] INFO root fetch - main [MainThread]: End processing [phpinfo-file-leaks] error
+[2024-06-03 12:38:05] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-06-03 12:38:05] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ros-cdk-datahub]: Downloading https://files.pythonhosted.org/packages/0d/9f/705aca609a7929f26bc84bfc4beab6b3584948fbb18ac974c9549a445311/ros-cdk-datahub-1.0.8.tar.gz
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ros-cdk-cs]: Downloading https://files.pythonhosted.org/packages/83/4f/ec60bc26840fe524abe17af45b06a5f736af5b1c2268b1d2c5031aa8d513/ros-cdk-cs-1.0.8.tar.gz
+[2024-06-03 12:38:05] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-06-03 12:38:05] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-06-03 12:38:05] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-06-03 12:38:05] INFO root fetch - processPackages [ros-cdk-datahub]: Downloading https://files.pythonhosted.org/packages/16/c6/6f134333f25cc6ea51fa6375b0ba68d4776625d7f5a089646c1e3a3e8148/ros-cdk-datahub-1.0.9.tar.gz
+[2024-06-03 12:38:06] INFO root fetch - processPackages [ros-cdk-cs]: Downloading https://files.pythonhosted.org/packages/6b/7a/d64b1a44b0a9449570b071cbad619e38371120adf1fc6c4eab2ed5beb9a9/ros-cdk-cs-1.0.9.tar.gz
+[2024-06-03 12:38:06] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-06-03 12:38:06] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240603/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-06-03 12:38:06] INFO root fetch - processPackages [ros-cdk-datahub]: executing diffoscope
+[2024-06-03 12:38:06] INFO root fetch - processPackages [ros-cdk-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-datahub-1.0.8.tar.gz tmp/ros-cdk-datahub-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-datahub/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:38:06] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-06-03 12:38:06] INFO root fetch - processPackages [ros-cdk-cs]: executing diffoscope
+[2024-06-03 12:38:06] INFO root fetch - processPackages [ros-cdk-cs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-cs-1.0.8.tar.gz tmp/ros-cdk-cs-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-cs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:38:06] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-06-03 12:38:06] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240603/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-06-03 12:38:06] INFO root fetch - processPackages [ros-cdk-datahub]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-datahub-1.0.8.tar.gz]
+[2024-06-03 12:38:06] INFO root fetch - processPackages [ros-cdk-datahub]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-datahub-1.0.9.tar.gz]
+[2024-06-03 12:38:06] INFO root fetch - main [MainThread]: End processing [ros-cdk-datahub]: success
+[2024-06-03 12:38:06] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-06-03 12:38:06] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-06-03 12:38:06] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-06-03 12:38:07] INFO root fetch - processPackages [ros-cdk-cs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cs-1.0.8.tar.gz]
+[2024-06-03 12:38:07] INFO root fetch - processPackages [ros-cdk-cs]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-cs-1.0.9.tar.gz]
+[2024-06-03 12:38:07] INFO root fetch - main [MainThread]: End processing [ros-cdk-cs]: success
+[2024-06-03 12:38:17] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-06-03 12:38:17] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-06-03 12:38:17] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-06-03 12:38:17] INFO root fetch - main [MainThread]: Store serial: [23500541]
