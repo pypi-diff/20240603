@@ -10341,3 +10341,54 @@ EOFError: EOF read where object expected
 [2024-06-03 10:41:43] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.9.0.tar.gz]
 [2024-06-03 10:41:43] INFO root fetch - main [MainThread]: End processing [libvirt-python]: success
 [2024-06-03 10:41:43] INFO root fetch - main [MainThread]: Store serial: [23498694]
+[2024-06-03 10:43:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23498694]
+[2024-06-03 10:43:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 10:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apiAmoCRM
+[2024-06-03 10:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-scheduler
+[2024-06-03 10:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-06-03 10:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tui-dsmt
+[2024-06-03 10:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nlpx
+[2024-06-03 10:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ZAIScikit
+[2024-06-03 10:43:52] WARNING root fetch - processPackages [ZAIScikit]: Skipping, unable to determine old version
+[2024-06-03 10:43:52] INFO root fetch - main [MainThread]: End processing [ZAIScikit] error
+[2024-06-03 10:43:52] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-06-03 10:43:52] INFO root fetch - processPackages [nlpx]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-06-03 10:43:52] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 10:43:52] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.7.1] Old Version: [1.0.6.9]
+[2024-06-03 10:43:52] INFO root fetch - processPackages [tui-dsmt]: New version: [202406030834] Old Version: [202406011912]
+[2024-06-03 10:43:52] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/ff/92/a3ee8c656321f311b389cceb6db567f0036ded21a4133a36e469cd949358/nlpx-1.3.3.tar.gz
+[2024-06-03 10:43:52] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-06-03 10:43:52] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/22/f2/5f79afee754bbbf6d54c348e950872944bbb9161276c98eb299b46fe6163/apiamocrm-0.1.6.tar.gz
+[2024-06-03 10:43:52] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/56/b6/2be028f5db1892404ea91a5a603b72881ad09bc40a5d25113405920a43ae/mns-scheduler-1.0.6.9.tar.gz
+[2024-06-03 10:43:52] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/93/0b/5a5df2bbd539340279fdc82297a1645a889df0566b9d1dd9fdcccbc09180/tui_dsmt-202406011912.tar.gz
+[2024-06-03 10:43:52] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-06-03 10:43:52] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/3d/4e/db0c74d0869679dec8824d0cde3245cc5ead06af301fdc364f350ae41e38/apiamocrm-0.1.7.tar.gz
+[2024-06-03 10:43:52] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-06-03 10:43:52] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240603/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 10:43:52] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/e1/69/5bd6b8d1e9fde6f713965c7aed6570fc0376621c10b3d868ad345b3052e9/nlpx-1.3.4.tar.gz
+[2024-06-03 10:43:52] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-06-03 10:43:52] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.6.tar.gz tmp/apiamocrm-0.1.7.tar.gz --markdown 20240603/a/apiAmoCRM/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-06-03 10:43:53] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-06-03 10:43:53] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.3.3.tar.gz tmp/nlpx-1.3.4.tar.gz --markdown 20240603/n/nlpx/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-06-03 10:43:53] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/73/3f/87ad3aba05c8dabf9adb489276ca5a58800268e0dc3d6a1ad4d377346c5b/mns-scheduler-1.0.7.1.tar.gz
+[2024-06-03 10:43:53] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-06-03 10:43:53] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.6.9.tar.gz tmp/mns-scheduler-1.0.7.1.tar.gz --markdown 20240603/m/mns-scheduler/1.0.6.9-1.0.7.1/README.md --exclude *.pyd
+[2024-06-03 10:43:53] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-06-03 10:43:53] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.6.tar.gz]
+[2024-06-03 10:43:53] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-06-03 10:43:53] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.7.tar.gz]
+[2024-06-03 10:43:53] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-06-03 10:43:53] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-06-03 10:43:53] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.3.3.tar.gz]
+[2024-06-03 10:43:53] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.3.4.tar.gz]
+[2024-06-03 10:43:53] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-06-03 10:43:54] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/ed/12/7c5189267021c27997b69f1dced238f7d9621183633e7ccee05dd692c260/tui_dsmt-202406030834.tar.gz
+[2024-06-03 10:43:54] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.6.9.tar.gz]
+[2024-06-03 10:43:54] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.7.1.tar.gz]
+[2024-06-03 10:43:54] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-06-03 10:43:55] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-06-03 10:43:55] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202406011912.tar.gz tmp/tui_dsmt-202406030834.tar.gz --markdown 20240603/t/tui-dsmt/202406011912-202406030834/README.md --exclude *.pyd
+[2024-06-03 10:43:56] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202406011912.tar.gz]
+[2024-06-03 10:43:56] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202406030834.tar.gz]
+[2024-06-03 10:43:56] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-06-03 10:43:56] INFO root fetch - main [MainThread]: Store serial: [23498723]
