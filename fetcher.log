@@ -1515,3 +1515,9 @@
 [2024-06-03 02:08:48] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-06-03 02:08:48] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-06-03 02:08:48] INFO root fetch - main [MainThread]: Store serial: [23494714]
+[2024-06-03 02:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23494714]
+[2024-06-03 02:10:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-06-03 02:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: update-or-erase-your-esp32-for-linux-and-windows
+[2024-06-03 02:10:56] WARNING root fetch - processPackages [update-or-erase-your-esp32-for-linux-and-windows]: Skipping, unable to determine old version
+[2024-06-03 02:10:56] INFO root fetch - main [MainThread]: End processing [update-or-erase-your-esp32-for-linux-and-windows] error
+[2024-06-03 02:10:56] INFO root fetch - main [MainThread]: Store serial: [23494718]
