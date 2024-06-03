@@ -24622,3 +24622,54 @@ EOFError: EOF read where object expected
 [2024-06-03 17:07:40] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240602-py3-none-win_amd64.whl.zip]
 [2024-06-03 17:07:40] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-06-03 17:07:40] INFO root fetch - main [MainThread]: Store serial: [23504847]
+[2024-06-03 17:09:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23504847]
+[2024-06-03 17:09:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-06-03 17:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyNyx
+[2024-06-03 17:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Simplex
+[2024-06-03 17:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybalmorel
+[2024-06-03 17:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contact-user-external-local
+[2024-06-03 17:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmeeg
+[2024-06-03 17:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyNyx
+[2024-06-03 17:09:49] INFO root fetch - processPackages [pyNyx]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 17:09:49] INFO root fetch - processPackages [pybalmorel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-06-03 17:09:49] INFO root fetch - processPackages [pyNyx]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 17:09:50] INFO root fetch - processPackages [contact-user-external-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pybalmorel]: Downloading https://files.pythonhosted.org/packages/e9/97/cf8dcc20882b73150e71300530619afb21d07f2cfa932e125d7cc1bfb748/pybalmorel-0.0.8.tar.gz
+[2024-06-03 17:09:50] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.9.0rc1] Old Version: [6.8.3rc1]
+[2024-06-03 17:09:50] INFO root fetch - processPackages [openmeeg]: New version: [2.5.8] Old Version: [2.5.7]
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pyNyx]: Downloading https://files.pythonhosted.org/packages/7e/8b/15c1906e0bfd61c313215b1707e6295f74d9b86c51445a9d45b97015f037/pynyx-0.0.1.tar.gz
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pyNyx]: Downloading https://files.pythonhosted.org/packages/7e/8b/15c1906e0bfd61c313215b1707e6295f74d9b86c51445a9d45b97015f037/pynyx-0.0.1.tar.gz
+[2024-06-03 17:09:50] INFO root fetch - processPackages [contact-user-external-local]: Downloading https://files.pythonhosted.org/packages/46/35/a8a17f5cd4f49acc64a5daad4a2bb3ad7286e8f6f6e9c68074e28158722a/contact_user_external_local-0.0.7.tar.gz
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pybalmorel]: Downloading https://files.pythonhosted.org/packages/b3/10/3b666c80d1fc0b4dcfc60a9b78c8288849dc98cbd629bb5d8a522466ebff/pybalmorel-0.0.9.tar.gz
+[2024-06-03 17:09:50] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/ca/4c/d0a6e1aab4bfd9076bc369123ad68c5ff79ae5c87934cfba4137a01ede0c/Geode_Simplex-6.8.3rc1-cp39-cp39-win_amd64.whl
+[2024-06-03 17:09:50] INFO root fetch - processPackages [openmeeg]: Downloading https://files.pythonhosted.org/packages/13/64/9363371da156a2fc6208e243eb6c3b9186c43c13b91501cc677f3bc85951/openmeeg-2.5.7-pp38-pypy38_pp73-manylinux_2_28_x86_64.whl
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pybalmorel]: executing diffoscope
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pybalmorel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybalmorel-0.0.8.tar.gz tmp/pybalmorel-0.0.9.tar.gz --markdown 20240603/p/pybalmorel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-06-03 17:09:50] WARNING root fetch - processPackages [openmeeg]: Skipping package: exceeds size limit 13245279>=10485760
+[2024-06-03 17:09:50] INFO root fetch - main [MainThread]: End processing [openmeeg] error
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pyNyx]: Downloading https://files.pythonhosted.org/packages/1b/a9/1b97c7ea4b958e888cb4b7c9e56a1dc9052aae21dd0c17a7ff4cad041046/pynyx-0.0.2.tar.gz
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pyNyx]: Downloading https://files.pythonhosted.org/packages/1b/a9/1b97c7ea4b958e888cb4b7c9e56a1dc9052aae21dd0c17a7ff4cad041046/pynyx-0.0.2.tar.gz
+[2024-06-03 17:09:50] INFO root fetch - processPackages [contact-user-external-local]: Downloading https://files.pythonhosted.org/packages/26/3f/fdb54ebd50fa61341bd745f648fe2aab86ed506126f66df03b3bb0c3cc6c/contact_user_external_local-0.0.8.tar.gz
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pyNyx]: executing diffoscope
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pyNyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynyx-0.0.1.tar.gz tmp/pynyx-0.0.2.tar.gz --markdown 20240603/p/pyNyx/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pyNyx]: executing diffoscope
+[2024-06-03 17:09:50] INFO root fetch - processPackages [pyNyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynyx-0.0.1.tar.gz tmp/pynyx-0.0.2.tar.gz --markdown 20240603/p/pyNyx/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 17:09:50] INFO root fetch - processPackages [contact-user-external-local]: executing diffoscope
+[2024-06-03 17:09:50] INFO root fetch - processPackages [contact-user-external-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_user_external_local-0.0.7.tar.gz tmp/contact_user_external_local-0.0.8.tar.gz --markdown 20240603/c/contact-user-external-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-06-03 17:09:50] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/65/e2/0deac72c1b8073d96a743ae03372716c84c270891026936a48b22db461e0/Geode_Simplex-6.9.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-06-03 17:09:51] INFO root fetch - processPackages [pybalmorel]: Remove: archive file [/home/abi/fetcher/tmp/pybalmorel-0.0.8.tar.gz]
+[2024-06-03 17:09:51] INFO root fetch - processPackages [pybalmorel]: Remove: archive file [/home/abi/fetcher/tmp/pybalmorel-0.0.9.tar.gz]
+[2024-06-03 17:09:51] INFO root fetch - main [MainThread]: End processing [pybalmorel]: success
+[2024-06-03 17:09:51] INFO root fetch - processPackages [pyNyx]: Remove: archive file [/home/abi/fetcher/tmp/pynyx-0.0.1.tar.gz]
+[2024-06-03 17:09:51] INFO root fetch - processPackages [pyNyx]: Remove: archive file [/home/abi/fetcher/tmp/pynyx-0.0.2.tar.gz]
+[2024-06-03 17:09:51] INFO root fetch - main [MainThread]: End processing [pyNyx]: success
+[2024-06-03 17:09:51] INFO root fetch - main [MainThread]: End processing [pyNyx]: success
+[2024-06-03 17:09:51] INFO root fetch - processPackages [contact-user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_user_external_local-0.0.7.tar.gz]
+[2024-06-03 17:09:51] INFO root fetch - processPackages [contact-user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_user_external_local-0.0.8.tar.gz]
+[2024-06-03 17:09:51] INFO root fetch - main [MainThread]: End processing [contact-user-external-local]: success
+[2024-06-03 17:09:51] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-06-03 17:09:51] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.8.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.9.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240603/G/Geode-Simplex/6.8.3rc1-6.9.0rc1/README.md --exclude *.pyd
+[2024-06-03 17:09:52] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-06-03 17:09:52] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.9.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-06-03 17:09:52] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-06-03 17:09:52] INFO root fetch - main [MainThread]: Store serial: [23504866]
