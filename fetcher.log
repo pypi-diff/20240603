@@ -13479,3 +13479,124 @@ EOFError: EOF read where object expected
 [2024-06-03 12:16:02] INFO root fetch - processPackages [h2lib]: Remove: archive file [/home/abi/fetcher/tmp/h2lib-13.1.4-cp39-cp39-win_amd64.whl.zip]
 [2024-06-03 12:16:02] INFO root fetch - main [MainThread]: End processing [h2lib]: success
 [2024-06-03 12:16:02] INFO root fetch - main [MainThread]: Store serial: [23500250]
+[2024-06-03 12:18:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23500250]
+[2024-06-03 12:18:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ros-cdk-ecd
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configure-vm-image
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-automation
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-common
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hotsos
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recon-lw
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astronomer-cosmos
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: automation-fw-helper
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: morphdb-utils
+[2024-06-03 12:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scripy-utils
+[2024-06-03 12:18:11] WARNING root fetch - processPackages [python-automation]: Skipping, unable to determine old version
+[2024-06-03 12:18:11] INFO root fetch - processPackages [python-automation]: Start processing: byron
+[2024-06-03 12:18:11] INFO root fetch - main [MainThread]: End processing [python-automation] error
+[2024-06-03 12:18:11] WARNING root fetch - processPackages [automation-fw-helper]: Skipping, unable to determine old version
+[2024-06-03 12:18:11] INFO root fetch - processPackages [automation-fw-helper]: Start processing: mns-common
+[2024-06-03 12:18:11] INFO root fetch - main [MainThread]: End processing [automation-fw-helper] error
+[2024-06-03 12:18:11] INFO root fetch - processPackages [morphdb-utils]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-06-03 12:18:11] INFO root fetch - processPackages [astronomer-cosmos]: New version: [1.5.0a3] Old Version: [1.5.0a2]
+[2024-06-03 12:18:11] INFO root fetch - processPackages [mns-common]: New version: [1.1.4.0] Old Version: [1.1.3.9]
+[2024-06-03 12:18:11] INFO root fetch - processPackages [hotsos]: New version: [1.18.post9] Old Version: [1.18.post8]
+[2024-06-03 12:18:12] INFO root fetch - processPackages [byron]: New version: [0.8a1.dev9] Old Version: [0.8a1.dev8]
+[2024-06-03 12:18:12] INFO root fetch - processPackages [ros-cdk-ecd]: New version: [1.0.9] Old Version: [1.0.25]
+[2024-06-03 12:18:12] WARNING root fetch - processPackages [configure-vm-image]: Skipping, unable to determine old version
+[2024-06-03 12:18:12] INFO root fetch - processPackages [configure-vm-image]: Start processing: ros-cdk-dataworks
+[2024-06-03 12:18:12] INFO root fetch - main [MainThread]: End processing [configure-vm-image] error
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: New version: [1.1.4.0] Old Version: [1.1.3.9]
+[2024-06-03 12:18:12] INFO root fetch - processPackages [scripy-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-06-03 12:18:12] INFO root fetch - processPackages [recon-lw]: New version: [3.1.0.dev9348340929] Old Version: [3.1.0.dev9293282609]
+[2024-06-03 12:18:12] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/c4/d97e66fee7386a97857c0df72c38f81bfa793375b658e98b6735af04bd66/morphdb_utils-0.2.5.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/99/93/f5823c7589a364b3db77e3f2f0c59488cfeac312e096771da14626108232/astronomer_cosmos-1.5.0a2.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5b/18/772593272e7642292d93a2964a23218b5a7b0f7cd656b0309d54b05b613d/hotsos-1.18.post8.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [byron]: Downloading https://files.pythonhosted.org/packages/02/4d/649d28263ac707daab953f1284c4143baab0d38a9d230db72033d0ab6906/byron-0.8a1.dev8.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/28/61/ce50482b7c217b7da1248b6c6320b44f2fc40a8e1efb7f11b0b57d962e98/mns_common-1.1.3.9.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/28/61/ce50482b7c217b7da1248b6c6320b44f2fc40a8e1efb7f11b0b57d962e98/mns_common-1.1.3.9.tar.gz
+[2024-06-03 12:18:12] WARNING root fetch - processPackages [ros-cdk-dataworks]: Skipping, unable to determine old version
+[2024-06-03 12:18:12] INFO root fetch - processPackages [ros-cdk-dataworks]: Start processing: danila-lib
+[2024-06-03 12:18:12] INFO root fetch - main [MainThread]: End processing [ros-cdk-dataworks] error
+[2024-06-03 12:18:12] INFO root fetch - processPackages [danila-lib]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-06-03 12:18:12] INFO root fetch - processPackages [ros-cdk-ecd]: Downloading https://files.pythonhosted.org/packages/23/85/c8a81fe7b8379a350dc6c5842e5c78c8b1efce47f2cf7ec5dd97d9580413/ros-cdk-ecd-1.0.25.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/ad/81/3ba752594218c659351ec43f1b01341c48b30cc38a98db449f179450464d/recon_lw-3.1.0.dev9293282609.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [scripy-utils]: Downloading https://files.pythonhosted.org/packages/93/b3/fa47b59ee0c6148272dc18726884beaff3eccd7be0188889a20d9d50b2e5/scripy_utils-0.0.1.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/3d/50/fb70b3bcb2712cc2ca898e4f7e3d45805314654ba384e6e38ba34d850557/danila-lib-1.8.6.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [byron]: Downloading https://files.pythonhosted.org/packages/b6/d6/6ecee3d9fb4e579eec33634f63ac5010a9f965a66f2725b431785db83007/byron-0.8a1.dev9.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/a5/ff/27113625c2fdcab58791b3bbde4f0f5d8d4fc8eee55a0ebd5454228a143e/astronomer_cosmos-1.5.0a3.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/52/e9/85293955046e5bf5227ac30ee5842edc77ff569d01ab8c142f218c511a32/mns_common-1.1.4.0.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/52/e9/85293955046e5bf5227ac30ee5842edc77ff569d01ab8c142f218c511a32/mns_common-1.1.4.0.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/b7/2d/6540ac83f257a1a28f590a3f56eca7317e363a4b0e825c95a419d84532c7/hotsos-1.18.post9.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/79/42/21499ee7dbf149c36d2acda04dd0715b0db0d533a042da9e7bbb67638bd2/morphdb_utils-0.2.6.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [byron]: executing diffoscope
+[2024-06-03 12:18:12] INFO root fetch - processPackages [byron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byron-0.8a1.dev8.tar.gz tmp/byron-0.8a1.dev9.tar.gz --markdown 20240603/b/byron/0.8a1.dev8-0.8a1.dev9/README.md --exclude *.pyd
+[2024-06-03 12:18:12] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2024-06-03 12:18:12] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-1.5.0a2.tar.gz tmp/astronomer_cosmos-1.5.0a3.tar.gz --markdown 20240603/a/astronomer-cosmos/1.5.0a2-1.5.0a3/README.md --exclude *.pyd
+[2024-06-03 12:18:12] INFO root fetch - processPackages [ros-cdk-ecd]: Downloading https://files.pythonhosted.org/packages/0e/98/7da1c1d43a4468b3e9dbfb524fea7918991d7a49b208c4dbaa04497ffc25/ros-cdk-ecd-1.0.9.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.3.9.tar.gz tmp/mns_common-1.1.4.0.tar.gz --markdown 20240603/m/mns-common/1.1.3.9-1.1.4.0/README.md --exclude *.pyd
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-06-03 12:18:12] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.3.9.tar.gz tmp/mns_common-1.1.4.0.tar.gz --markdown 20240603/m/mns-common/1.1.3.9-1.1.4.0/README.md --exclude *.pyd
+[2024-06-03 12:18:12] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/8c/a1/737ae35b51c9ac7477542bffc0b72a3b29858ac6712bec51a1e304fcc978/danila-lib-1.8.7.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [scripy-utils]: Downloading https://files.pythonhosted.org/packages/14/14/fcd5cc08133db34678e174ef9e4252d3239341fe9912846580c26b0f0d02/scripy_utils-0.0.2.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-06-03 12:18:12] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.2.5.tar.gz tmp/morphdb_utils-0.2.6.tar.gz --markdown 20240603/m/morphdb-utils/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-06-03 12:18:12] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/40/70/9ad7f5723b55e7a83129a574fa1fcbbbadae226ecc11bf297b95a89a13c5/recon_lw-3.1.0.dev9348340929.tar.gz
+[2024-06-03 12:18:12] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-06-03 12:18:12] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.18.post8.tar.gz tmp/hotsos-1.18.post9.tar.gz --markdown 20240603/h/hotsos/1.18.post8-1.18.post9/README.md --exclude *.pyd
+[2024-06-03 12:18:12] INFO root fetch - processPackages [ros-cdk-ecd]: executing diffoscope
+[2024-06-03 12:18:12] INFO root fetch - processPackages [ros-cdk-ecd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-ecd-1.0.25.tar.gz tmp/ros-cdk-ecd-1.0.9.tar.gz --markdown 20240603/r/ros-cdk-ecd/1.0.25-1.0.9/README.md --exclude *.pyd
+[2024-06-03 12:18:12] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-06-03 12:18:12] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.8.6.tar.gz tmp/danila-lib-1.8.7.tar.gz --markdown 20240603/d/danila-lib/1.8.6-1.8.7/README.md --exclude *.pyd
+[2024-06-03 12:18:13] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-06-03 12:18:13] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.1.0.dev9293282609.tar.gz tmp/recon_lw-3.1.0.dev9348340929.tar.gz --markdown 20240603/r/recon-lw/3.1.0.dev9293282609-3.1.0.dev9348340929/README.md --exclude *.pyd
+[2024-06-03 12:18:13] INFO root fetch - processPackages [scripy-utils]: executing diffoscope
+[2024-06-03 12:18:13] INFO root fetch - processPackages [scripy-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scripy_utils-0.0.1.tar.gz tmp/scripy_utils-0.0.2.tar.gz --markdown 20240603/s/scripy-utils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-06-03 12:18:13] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.5.tar.gz]
+[2024-06-03 12:18:13] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.2.6.tar.gz]
+[2024-06-03 12:18:13] INFO root fetch - processPackages [morphdb-utils]: Start processing: mongodb-orm
+[2024-06-03 12:18:13] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-06-03 12:18:13] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.5.0a2.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.5.0a3.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [astronomer-cosmos]: Start processing: ros-cdk-waf3
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2024-06-03 12:18:14] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.3.9.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.4.0.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/1a/81/0e32a2954f80780e5238be78622df9fcb9d38d2a2aa4082ad015e3be10c0/mongodb_orm-0.1.0a7.tar.gz
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-06-03 12:18:14] INFO root fetch - processPackages [ros-cdk-ecd]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecd-1.0.25.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [ros-cdk-ecd]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-ecd-1.0.9.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [ros-cdk-ecd]: success
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-06-03 12:18:14] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.8.6.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.8.7.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-06-03 12:18:14] INFO root fetch - processPackages [ros-cdk-waf3]: New version: [1.0.25] Old Version: [1.0.24]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [byron]: Remove: archive file [/home/abi/fetcher/tmp/byron-0.8a1.dev8.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [byron]: Remove: archive file [/home/abi/fetcher/tmp/byron-0.8a1.dev9.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [byron]: success
+[2024-06-03 12:18:14] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/45/e5/c21533300a682b736b893cff3485c8324d40fdb187027f3ff5c4d9d4e852/mongodb_orm-0.1.0a8.tar.gz
+[2024-06-03 12:18:14] INFO root fetch - processPackages [ros-cdk-waf3]: Downloading https://files.pythonhosted.org/packages/f8/8b/6262ce19d5120e84dc1030c3e6c3a249dd48433decd37ccfdb3803f6ed22/ros-cdk-waf3-1.0.24.tar.gz
+[2024-06-03 12:18:14] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev9293282609.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev9348340929.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-06-03 12:18:14] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-06-03 12:18:14] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.1.0a7.tar.gz tmp/mongodb_orm-0.1.0a8.tar.gz --markdown 20240603/m/mongodb-orm/0.1.0a7-0.1.0a8/README.md --exclude *.pyd
+[2024-06-03 12:18:14] INFO root fetch - processPackages [scripy-utils]: Remove: archive file [/home/abi/fetcher/tmp/scripy_utils-0.0.1.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [scripy-utils]: Remove: archive file [/home/abi/fetcher/tmp/scripy_utils-0.0.2.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [scripy-utils]: success
+[2024-06-03 12:18:14] INFO root fetch - processPackages [ros-cdk-waf3]: Downloading https://files.pythonhosted.org/packages/7e/e5/858959a0d946f4405e44c1fb4b0180a80ae33b5fae5c2b11f0cbb056d73f/ros-cdk-waf3-1.0.25.tar.gz
+[2024-06-03 12:18:14] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post8.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post9.tar.gz]
+[2024-06-03 12:18:14] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-06-03 12:18:14] INFO root fetch - processPackages [ros-cdk-waf3]: executing diffoscope
+[2024-06-03 12:18:14] INFO root fetch - processPackages [ros-cdk-waf3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros-cdk-waf3-1.0.24.tar.gz tmp/ros-cdk-waf3-1.0.25.tar.gz --markdown 20240603/r/ros-cdk-waf3/1.0.24-1.0.25/README.md --exclude *.pyd
+[2024-06-03 12:18:15] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a7.tar.gz]
+[2024-06-03 12:18:15] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0a8.tar.gz]
+[2024-06-03 12:18:15] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-06-03 12:18:15] INFO root fetch - processPackages [ros-cdk-waf3]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf3-1.0.24.tar.gz]
+[2024-06-03 12:18:15] INFO root fetch - processPackages [ros-cdk-waf3]: Remove: archive file [/home/abi/fetcher/tmp/ros-cdk-waf3-1.0.25.tar.gz]
+[2024-06-03 12:18:15] INFO root fetch - main [MainThread]: End processing [ros-cdk-waf3]: success
+[2024-06-03 12:18:15] INFO root fetch - main [MainThread]: Store serial: [23500299]
