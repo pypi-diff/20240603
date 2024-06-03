@@ -5330,3 +5330,36 @@ EOFError: EOF read where object expected
 [2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
 [2024-06-03 06:02:30] INFO root fetch - main [MainThread]: End processing [um6p-CC-learn]: success
 [2024-06-03 06:02:30] INFO root fetch - main [MainThread]: Store serial: [23496502]
+[2024-06-03 06:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23496502]
+[2024-06-03 06:04:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-06-03 06:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aily-code-sdk
+[2024-06-03 06:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voxylstats
+[2024-06-03 06:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Agentic-Employment
+[2024-06-03 06:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: menuchoice
+[2024-06-03 06:04:39] INFO root fetch - processPackages [aily-code-sdk]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2024-06-03 06:04:39] INFO root fetch - processPackages [voxylstats]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-06-03 06:04:39] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/77/ed/74e95fd9611cd9ac4e405cc841f6b25e8a57ee757a85443759245fc3a18e/aily_code_sdk-0.1.0b4.tar.gz
+[2024-06-03 06:04:39] INFO root fetch - processPackages [voxylstats]: Downloading https://files.pythonhosted.org/packages/47/ec/cdff6b9cce2b385a8aea2c463c8e12c426be9df9449aed1ed584ce70a004/voxylstats-1.0.0.tar.gz
+[2024-06-03 06:04:39] WARNING root fetch - processPackages [Agentic-Employment]: Skipping, unable to determine old version
+[2024-06-03 06:04:39] INFO root fetch - main [MainThread]: End processing [Agentic-Employment] error
+[2024-06-03 06:04:39] INFO root fetch - processPackages [menuchoice]: New version: [0.6] Old Version: [0.5]
+[2024-06-03 06:04:39] INFO root fetch - processPackages [menuchoice]: Downloading https://files.pythonhosted.org/packages/a5/24/4435224b38d237e14de53541185c25302d438e4eaf7175e1508c08d1649a/menuchoice-0.5.tar.gz
+[2024-06-03 06:04:39] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/70/f2/9854f61e940eaee2eea4ea18f19da9cd509825711a2e672d7c59e11aac48/aily_code_sdk-0.1.0b5.tar.gz
+[2024-06-03 06:04:39] INFO root fetch - processPackages [voxylstats]: Downloading https://files.pythonhosted.org/packages/27/33/409a1359adf2f97dceaafeae5acb71781f50c0f63d569434a1c85789e93b/voxylstats-1.0.1.tar.gz
+[2024-06-03 06:04:39] INFO root fetch - processPackages [voxylstats]: executing diffoscope
+[2024-06-03 06:04:39] INFO root fetch - processPackages [voxylstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxylstats-1.0.0.tar.gz tmp/voxylstats-1.0.1.tar.gz --markdown 20240603/v/voxylstats/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-06-03 06:04:40] INFO root fetch - processPackages [aily-code-sdk]: executing diffoscope
+[2024-06-03 06:04:40] INFO root fetch - processPackages [aily-code-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk-0.1.0b4.tar.gz tmp/aily_code_sdk-0.1.0b5.tar.gz --markdown 20240603/a/aily-code-sdk/0.1.0b4-0.1.0b5/README.md --exclude *.pyd
+[2024-06-03 06:04:40] INFO root fetch - processPackages [menuchoice]: Downloading https://files.pythonhosted.org/packages/55/b5/e356f330e2335d400adf2be65530c2aa38a57caf3081929d7035da28dcd7/menuchoice-0.6.tar.gz
+[2024-06-03 06:04:40] INFO root fetch - processPackages [menuchoice]: executing diffoscope
+[2024-06-03 06:04:40] INFO root fetch - processPackages [menuchoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240603:/home/abi/fetcher/20240603:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/menuchoice-0.5.tar.gz tmp/menuchoice-0.6.tar.gz --markdown 20240603/m/menuchoice/0.5-0.6/README.md --exclude *.pyd
+[2024-06-03 06:04:40] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b4.tar.gz]
+[2024-06-03 06:04:40] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b5.tar.gz]
+[2024-06-03 06:04:40] INFO root fetch - main [MainThread]: End processing [aily-code-sdk]: success
+[2024-06-03 06:04:40] INFO root fetch - processPackages [voxylstats]: Remove: archive file [/home/abi/fetcher/tmp/voxylstats-1.0.0.tar.gz]
+[2024-06-03 06:04:40] INFO root fetch - processPackages [voxylstats]: Remove: archive file [/home/abi/fetcher/tmp/voxylstats-1.0.1.tar.gz]
+[2024-06-03 06:04:40] INFO root fetch - main [MainThread]: End processing [voxylstats]: success
+[2024-06-03 06:04:40] INFO root fetch - processPackages [menuchoice]: Remove: archive file [/home/abi/fetcher/tmp/menuchoice-0.5.tar.gz]
+[2024-06-03 06:04:40] INFO root fetch - processPackages [menuchoice]: Remove: archive file [/home/abi/fetcher/tmp/menuchoice-0.6.tar.gz]
+[2024-06-03 06:04:40] INFO root fetch - main [MainThread]: End processing [menuchoice]: success
+[2024-06-03 06:04:40] INFO root fetch - main [MainThread]: Store serial: [23496514]
